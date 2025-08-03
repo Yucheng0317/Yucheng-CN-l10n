@@ -1,0 +1,1015 @@
+<phyphox version="1.16" locale="en">
+  <title>Sonar</title>
+  <category>Acoustics</category>
+  <icon format="base64">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</icon>
+  <description>
+        Measures distances through echoes and the speed of sound.
+
+        A sonar sends bursts of short sounds, which get reflected by the object you want to measure. As sound travels at a speed of approximately 340 m/s, the time until the reflection reaches the microphone of your phone can be used to calculate the distance of this object.
+
+        This experiments generates a "chirp", sends it out through the speaker and starts a recording. A crosscorrelation of the chirp and the recorded data gives information about the timing at which echoes occur. This timing can then be multiplied with the speed of sound (and divided by 2 as the sound has to travel forth and back) and you get the distance at which the echo originated.
+
+        However, sound usually travels in every direction. For a sonar this means, that when targeting a wall, you also get reflections from the floor, the ceiling, another wall nearby, a post and simply from every suitable "hard" surface nearby. Therefore this sonar gives you all the reflections and it is up to you to interpret the result and to figure out, which reflection corresponds to the target you intended to measure. So start with a small hard target and try to screen all other directions with some foam material. Also, this needs a quiet environment.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Sonar</link>
+  <link label="Video" highlight="true">https://youtu.be/Ebj3v701HE0</link>
+  <translations>
+    <translation locale="de">
+      <title>Sonar</title>
+      <category>Akustik</category>
+      <description>
+        Misst Entfernungen mithilfe von Echos und der Schallgeschwindigkeit.
+
+                Ein Sonar sendet kurze Schallimpulse, welche von den Objekten reflektiert werden, deren Entfernung gemessen werden soll. Da sich Schall mit einer Geschwindigkeit von etwa 340 m/s ausbreitet, kann die Dauer bis die Echos das Mikrofon des Smartphones erreichen in eine Entfernung umgerechnet werden.
+
+                Dieses Experiment erzeugt ein sogenanntes "chirp" (englisch für Gezwitscher), gibt es durch den Lautsprecher aus und startet eine Aufnahme über das Mikrofon. Eine Kreuzkorrelation des Chirps mit dem aufgenommenen Signal gibt Hinweise darauf, zu welchen Zeiten Echos das Mikrofon erreichen. Diese Zeiten werden mit der Schallgeschwindigkeit multipliziert und durch 2 geteilt (das Signal muss zum Objekt und wieder zurück), so dass man die Entfernung zur Quelle des Echos erhält.
+
+                Allerdings breitet sich Schall in der Regel ungerichtet aus. Für das Sonar bedeutet dies, dass du beim Versuch eine Wand zu messen auch Echos vom Boden, von der Decke, einer weiteren Wand in der Nähe, einem Pfosten und generell von jeder harten Oberfläche in deiner Umgebung erhalten. Das Ergebnis kann daher sehr schwer zu interpretieren sein und die Überlagerung kann die Messung unbrauchbar machen. Es empfiehlt sich daher, mit einem kleinen harten Zielobjekt zu beginnen und alle anderen Richtungen mit Schaumstoff abzuschirmen. Generell ist eine ruhige Umgebung hilfreich.
+    </description>
+      <link label="Video" highlight="true">https://youtu.be/3JtJoJAAgKU</link>
+      <string original="Speed of Sound">Schallgeschw.</string>
+      <string original="Target distance">Ziel-Entfernung</string>
+      <string original="Echo location">Entfernung der Echos</string>
+      <string original="Echo strength">Stärke der Echos</string>
+      <string original="Normalized to spherical surface">Auf Kugeloberfläche normiert</string>
+      <string original="Timing">Zeiten</string>
+      <string original="On this page you just get the measured delay.">Auf dieser Seite bekommst du nur die ermittelten Zeiten.</string>
+      <string original="Time series">Zeitreihe</string>
+      <string original="Normalized history">Normalisierter Verlauf</string>
+      <string original="distance">Entfernung</string>
+      <string original="time">Zeit</string>
+      <string original="Delay">Laufzeit</string>
+      <string original="Time">Zeit</string>
+    </translation>
+    <translation locale="cs">
+      <title>Sonar</title>
+      <category>Akustika</category>
+      <description>
+        Měří vzdálenosti pomocí ozvěn a rychlosti zvuku.
+
+Sonar vysílá krátký zvukový signál, který se mimojiné odráží předmětu, jehož vzdálenost chcete měřit. Vzhledem k tomu, že se zvuk šíří přibližně rychlostí 340 m/s, tak je výpočet vzdálenosti možný z celkového času, který zvuku trvalo dorazit k předmětu a zpátky.
+
+Tento experiment vygeneruje "cvrkot", vyšle ho z reproduktoru a zahájí záznam zvuku. Křížová korelace "cvrkotu" a zaznamenaného zvuku podává informaci o času v němž nastane ozvěna. Doba zpoždění ozvěny vynásobená rychlostí zvuku (a vydělená dvěma, neboť zvuk musel letět tam a zpět) dá vzdálenost ze které ozvěna přišla.
+
+Nicméně, zvuk se většinou šiří všemi směry. To pro sonar znamená jistou komplikaci, neboť například při snaze o změření vzdálenosti stěny dostanete navíc ozvěnu od stropu, podlahy, dalších stěn a vlastně od všech vhodně tvrdých předmětů v okolí. Sonar vám dá informace o všech těchto odrazech a je jen na vás, abyste tyto výsledky interpretovali a vyhodnotili, které odpovídají měřenému předmětu. Doporučujeme pokrytí nežádoucích povrchů měkkým pěnovým materiály a měřit menší tvrdý předmět. Je také zapotřebí, aby okolí bylo tiché.
+    </description>
+      <string original="Echo location">Echolokace</string>
+      <string original="Speed of Sound">Rychlost zvuku</string>
+      <string original="Normalized to spherical surface">Znormováno na kulovou plochu</string>
+      <string original="Target distance">Vzdálenost cíle</string>
+      <string original="Echo strength">Síla ozvěny</string>
+      <string original="Timing">Měření času</string>
+      <string original="On this page you just get the measured delay.">Na této stránce uvidíte pouze změřená zpoždění.</string>
+      <string original="Chirp">Cvrkot</string>
+      <string original="Time">čas</string>
+      <string original="Time series">Časové úseky</string>
+      <string original="Normalized history">Normalizovaná historie</string>
+      <string original="distance">vzdálenost</string>
+      <string original="time">čas</string>
+      <string original="Delay">Zpoždění</string>
+    </translation>
+    <translation locale="pl">
+      <title>Sonar</title>
+      <category>Akustyka</category>
+      <description>
+        Zmierz odległości w oparciu o zjawisko echa i znajomość szybkości dźwięku.
+
+        Sonar jest źródłem impulsów dźwiękowych, które są odbijane od przeszkody znajdującej się w pewnej odległości od urządzenia. Dźwięk rozchodzi się w powietrzy z szybkością około 340 m/s, dlatego pomiar czasu po jakim mikrofon urządzenia rejestruje dźwięk odbity można wykorzystać do pomiaru odległości do przeszkody.
+
+        W eksperymencie wytwarzane są "ćwierknięcia", które dzięki głośnikom urządzenia są z niego wysyłane i jednocześnie rozpoczynają pomiar. Korelacja czasowa ćwierknięcia oraz zarejestrowanego sygnały odbitego dostarcza informacji o czasie powstania echa. Ten przedział czasu pomnożony przez wartość prędkości dźwięku (i podzielny przez 2 ponieważ impuls ma do pokonania drogę tam i z powrotem) pozwala uzyskać informację o odległości do przeszkody powodującej powstanie echa.
+
+        Jednak dźwięk porusza się we wszystkich kierunkach. Oznacza to, że urządzenie zwane sonarem skierowane głośnikiem w stronę ściany rejestruje także dźwięk odbity od podłogi, sufitu, pozostałych ścian, a nawet innych, znajdujących się w pobliżu obiektów posiadających powierzchnie odbijające dźwięk. Stąd sonar rejestruje wszystkie te sygnały, a zadanie ich interpretacji pozostawia użytkownikowi. Warto rozpocząć pomiar od lokalizacji twardej przeszkody znacznych rozmiarów i ekranowania sygnału pochodzącego od innych źródeł np. za pomocą gąbki. Warto zadbać by pomiary prowadzone były w pomieszczeniu pozbawionym innych źródeł dźwięku.
+    </description>
+      <string original="Echo location">Echolokalizacja</string>
+      <string original="Speed of Sound">Szybkość dźwięku</string>
+      <string original="Normalized to spherical surface">Znormalizowane do powierzchni sferycznej</string>
+      <string original="Target distance">Dystans do przeszkody</string>
+      <string original="Echo strength">Sygnał echa</string>
+      <string original="Timing">Czas</string>
+      <string original="On this page you just get the measured delay.">W tej zakładce wyświetlany jest czas opóźnienia sygnału.</string>
+      <string original="Chirp">Ćwierknięcie</string>
+      <string original="Time">Czas</string>
+      <string original="Time series">Szeregi czasowe</string>
+      <string original="Normalized history">Skala barwna</string>
+      <string original="distance">odległość</string>
+      <string original="time">czas</string>
+      <string original="Delay">Opóźnienie</string>
+    </translation>
+    <translation locale="nl">
+      <title>Sonar</title>
+      <category>Geluid</category>
+      <description>
+        Bepaalt afstanden met behulp van echo's en de snelheid van het geluid.
+
+        Een sonar stuurt korte geluidssignalen uit, die worden gereflecteerd door het voorwerp waarvan je de afstand tot je smartphone wilt weten. Omdat geluid reist met een constante snelheid van ongeveer 340 m/s, kan de tijd waarna het weerkaatste geluidssignaal de microfoon van uw smartphone bereikt, worden gebruikt om de afstand van dit object te berekenen.
+
+        Dit experiment zendt een "piep" (getsjirp) uit via de luidspreker en start een tijdsmeting. De gemeten tijd kan dan worden vermenigvuldigd met de geluidssnelheid (en gedeeld door 2 omdat het geluid heen en weer reist) en geeft dan de afstand waarop de echo is ontstaan.
+
+        Geluid gaat echter meestal in alle richtingen. Voor een sonar betekent dit dat je bij het richten op een muur ook weerkaatsingen krijgt van de vloer, het plafond, een andere muur in de buurt, een paal, gewoonweg van elk "hard" oppervlak in de buurt. Daarom geeft deze sonar je alle reflecties en is het aan jou om het resultaat te interpreteren en uit te zoeken welke reflectie overeenkomt met wat je wilde meten. Dus begin met een klein hard doelwit en probeer alle andere richtingen af te schermen met wat schuimmateriaal. 
+
+Voer dit experiment best uit in een rustige omgeving.
+    </description>
+      <string original="Echo location">Localisatie echo</string>
+      <string original="Speed of Sound">Geluidssnelheid</string>
+      <string original="Normalized to spherical surface">Genormeerd op boloppervlak</string>
+      <string original="Target distance">Afstand doel</string>
+      <string original="Echo strength">Sterkte echo</string>
+      <string original="Timing">Tijdsmeting</string>
+      <string original="On this page you just get the measured delay.">Op deze pagina verschijnt de gemeten tijd na terugkaatsing.</string>
+      <string original="Chirp">Tsjirptoon</string>
+      <string original="Time">Tijd</string>
+      <string original="Time series">Tijdreeks</string>
+      <string original="Normalized history">Genormaliseerde geschiedenis</string>
+      <string original="distance">afstand</string>
+      <string original="time">tijd</string>
+      <string original="Delay">Uitstel</string>
+    </translation>
+    <translation locale="ru">
+      <title>Сонар</title>
+      <category>Акустика</category>
+      <description>
+        Измеряет расстояния через эхо и скорость звука.
+
+        Сонар посылает короткиe звуки, которые отражаются объектом, чьё отдаление вы хотите измерить. По мере того как звук перемещается со скоростью около 340 м/с, время, за которое отражённый сигнал достигнет микрофона вашего телефона, может использоваться для расчета расстояния до этого объекта.
+
+        В этих экспериментах генерируется «щебетание», которое воспроизводится через динамик и одновременно начинается запись. Сопоставоление щебетания и записанных данных дает информацию о времени, за которое возвращается эхо. Затем это время умножается на скорость звука (и делиться на 2, так как звук движется вперед и назад), и вы получаете расстояние, на котором возникло эхо.
+
+        Однако звук обычно распространяется во всех направлениях. Для эхолота это означает, что при прицеливании к стене вы также получаете отражения от пола, потолка, другой стены, столба и просто от каждой подходящей «твердой» поверхности поблизости. Поэтому этот сонар дает вам информацию о всех возможных целях, и вам решать, какое отражение соответствует цели, расстояние до которой вы намеревались измерить. В связи с этим начните с небольшой плотной цели и попробуйте экранировать все другие направления с помощью поролонового материала. Кроме того, для этого эксперимента требуется тихая обстановка.
+    </description>
+      <string original="Echo location">Эхолокация</string>
+      <string original="Speed of Sound">Скорость звука</string>
+      <string original="Normalized to spherical surface">Нормированно на сферическую поверхность</string>
+      <string original="Target distance">Расстояние до цели</string>
+      <string original="Echo strength">Амплитуда эха</string>
+      <string original="Timing">Хронометраж</string>
+      <string original="On this page you just get the measured delay.">На этой странице вы получаете значение измеренной задержки.</string>
+      <string original="Chirp">Щебетание</string>
+      <string original="Time series">Временные отрезки</string>
+      <string original="Normalized history">Нормализованная история</string>
+      <string original="distance">расстояние</string>
+      <string original="time">время</string>
+      <string original="Delay">Задержка</string>
+      <string original="Time">Время</string>
+    </translation>
+    <translation locale="it">
+      <title>Sonar</title>
+      <category>Acustica</category>
+      <description>
+        Misura le distanze attraverso l'eco e la velocità del suono.
+
+        Un sonar emette brevi suoni, riflessi dall'oggetto di cui vuoi misurare la distanza. Essendo la velocità del suono pari a circa 340 m/s, il tempo con cui il suono riflesso raggiunge il microfono del tuo telefono serve a calcolare la distanza dell'oggetto.
+
+        Questo esperimento genera un suono (chirp) attraverso l'altoparlante e poi inizia la registrazione, che termina quando si registra lo stesso suono. Il tempo impiegato a rivelare il suono riflesso è moltiplicato per la velocità del suono (e dimezzato poiché il suono percorre la distanza due volte: all'andata e al ritorno). In questo modo si ottiene la distanza da cui è partita l'eco.
+
+        Tieni conto che il suono si diffonde praticamente in ogni direzione. Questo significa che il suono può essere riflesso dall'ostacolo, ma anche da un muro, dal pavimento, dal soffitto, da un palo o da qualunque altra superficie. Questo sonar può reagire a tutte le riflessioni e sta a te interpretare il risultato e capire se la misurazione coincide con la distanza che ti aspettavi. Il suono è riflesso più efficientemente dai materiali duri. Inizia quindi con un piccolo bersaglio molto rigido e cerca di schermare eventuali altri ostacoli con materiale spugnoso. Naturalmente l'esperimento va eseguito in un ambiente in cui i rumori esterni sono ridotti al minimo.
+    </description>
+      <string original="Echo location">Posizione dell'eco</string>
+      <string original="Speed of Sound">Velocità del suono</string>
+      <string original="Normalized to spherical surface">Scalata sull'intero angolo solido</string>
+      <string original="Target distance">Distanza dall'ostacolo</string>
+      <string original="Echo strength">Intensità eco</string>
+      <string original="Timing">tempo</string>
+      <string original="On this page you just get the measured delay.">Su questa pagina puoi osservare il ritardo misurato.</string>
+      <string original="Time">Tempo</string>
+      <string original="Time series">Serie temporale</string>
+      <string original="Normalized history">Cronologia normalizzata</string>
+      <string original="distance">distanza</string>
+      <string original="time">tempo</string>
+      <string original="Delay">Ritardo</string>
+    </translation>
+    <translation locale="el">
+      <title>Σόναρ</title>
+      <category>Ακουστική</category>
+      <description>
+        Μετρήσεις απόστασης μέσω της ηχούς και της ταχύτητας του ήχου.
+
+        Ένα σόναρ εκπέμπει ριπές σύντομων ήχων, οι οποίοι ανακλώνται από το αντικείμενο του οποίου την απόσταση θέλετε να μετρήσετε. Καθώς ο ήχος διαδίδεται με ταχύτητα περίπου 340 m/s, ο χρόνος που απαιτείται για την επιστροφή του ανακλώμενου ήχου στο κινητό τηλέφωνο, χρησιμοποιείται για να υπολογιστεί η απόσταση από το αντικείμενο.
+
+        Στο πείραμα παράγεται ήχος που στέλνεται στο ηχείο και αρχίζει η εγγραφή. Η συσχέτιση ανάμεσα στον παραγόμενο και στον καταγραφόμενο ήχο δίνει πληροφορίες για σχετικά για τον χρόνο της ηχούς. Ο χρόνος αυτός πολλαπλασιασμένος με την ταχύτητα του ήχου (και διαιρεμένος δια δύο καθώς ο ήχος πηγαίνει και επιστρέφει) δίνει την απόσταση στην οποία δημιουργήθηκε η ηχώ.
+
+        Σημειώστε ότι η ήχος διαδίδεται σε κάθε κατεύθυνση. Αυτό σημαίνει ότι όταν σημαδεύετε ένα τοίχο, δέχεστε ανακλάσεις από το πάτωμα, το ταβάνι από κάθε άλλο κοντινό τοίχο, από ένα εμπόδιο και γενικά κάθε κατάλληλη "σκληρή" επφάνεια τριγύρω. Συνεπώς το σόναρ σας δείχνει όλες τις ανακλάσεις και εναπόκειται σε εσάς να ερμηνεύσετε το αποτέλεσμα και να βρείτε ποια ανάκλαση αντιστοιχεί στο στόχο που επιθυμούσατε να μετρήσετε. Οπότε ξεκινήστε με ένα μικρό σκληρό στόχο και προσπαθήστε να ελαττώσετε τις υπόλοιπες ανακλάσεις με κάποιο αφρώδες υλικό. Απαιτείται επίσης ήσυχο περιβάλλον.
+    </description>
+      <string original="Echo location">Θέση της ηχούς</string>
+      <string original="Speed of Sound">Ταχύτητα ήχου</string>
+      <string original="Normalized to spherical surface">Κανονικοποίηση σε σφαιρική επιφάνεια</string>
+      <string original="Target distance">Απόσταση στόχου</string>
+      <string original="Echo strength">Πλάτος ηχούς</string>
+      <string original="Timing">Χρονομέτρηση</string>
+      <string original="On this page you just get the measured delay.">Στη σελίδα αυτή μπορείτε να δείτε την χρονοκαθυστέρηση.</string>
+      <string original="Chirp">Σφύριγμα</string>
+      <string original="Time">χρόνος</string>
+      <string original="Time series">Χρονοσειρές</string>
+      <string original="Normalized history">Ιστορικό</string>
+      <string original="distance">Απόσταση</string>
+      <string original="time">χρόνος</string>
+      <string original="Delay">Καθυστέρηση</string>
+    </translation>
+    <translation locale="ja">
+      <title>ソナー</title>
+      <category>音響</category>
+      <description>
+        反射音と音速からの距離の測定．
+
+ソナーは短い音を発して，物体により反射された音を計測します．音はほぼ340 m/sの速度で進むので，反射音がマイクまで届く時間を使って物体までの距離を計算します．本実験は "チャープ音"をスピーカーから発生させると同時に，音声を記録します． 発生させた"チャープ音"と記録された音声データの相互相関を計算し，反射音がマイクに到達するまでの時間を算出します．時間と速度を掛けて求まる距離は音波が往復した距離です．そこから反射した物体との距離がわかります．
+
+しかし，音は大抵全方向に進みます．ソナーにとって壁をターゲットとしたとき，地面や天井，近い他の壁等のすべての適切な硬い表面 からの反射も得てしまいます．
+
+したがって，ソナーは得られたすべての物体までの距離を含んでいるため，どの距離がどのターゲットに対応しているかは判断する必要があります．
+最初は簡単のため，小さく硬いターゲットと音を吸収しやすい材料を全方向に配置すると良いでしょう．また静かな環境が必要です．
+    </description>
+      <string original="Time series">時系列計測</string>
+      <string original="Normalized history">規格化された強度</string>
+      <string original="distance">距離</string>
+      <string original="time">時間</string>
+      <string original="Echo location">距離計測</string>
+      <string original="Speed of Sound">音速</string>
+      <string original="Normalized to spherical surface">球状表面への規格化</string>
+      <string original="Target distance">ターゲットへの距離</string>
+      <string original="Echo strength">エコー強度</string>
+      <string original="Timing">遅延計測</string>
+      <string original="On this page you just get the measured delay.">このページでは測定遅延時間が得られます．</string>
+      <string original="Delay">遅延時間</string>
+      <string original="Chirp">チャープ</string>
+      <string original="Time">時間</string>
+    </translation>
+    <translation locale="pt">
+      <title>Sonar</title>
+      <category>Acústica</category>
+      <description>
+        Medida de distância através de ecos e da velocidade do som.
+
+        O sonar emite pulsos de som que são refletidos por outro objetos. Como o som viaja com uma velocidade de aproximadamente 340m/s, o tempo que a refleção do som demora para chegar de volta ao microfone é utilizado para calcular a distância até os objetos.
+
+        Este experimento gera um "bip" no auto-falante e imediatamente começa a gravar. A correlação cruzada entre o 'bip' e o som gravado dá a informação sobre o tempo em que o eco ocorre. Este tempo é multiplicado pela velocidade do som (e dividido por 2, pois o sinal tem que ir até o objeto e voltar) e assim se obtém a distância em que o eco originou.
+
+        Porém, o som normalmente se espalha por todas as direções. Para um sonar isto significa que quando se quer encontrar uma parede, você também terá os reflexos do chão, do teto, de outras parede, e qualquer outra superfície "dura" que esteja por perto. Logo, o sonar lhe mostra todas as reflexões e você deve interpretar os resultados para entender qual reflexão correponde ao objeto que você pretende medir. Comece com um algo pequeno e duro e tente isolar as outras direções usando um material macio, tal qual espuma. É necessário também estar em um ambiente silencioso.
+    </description>
+      <string original="Time series">Série Temporal</string>
+      <string original="Normalized history">Histórico Normalizado</string>
+      <string original="distance">distância</string>
+      <string original="time">tempo</string>
+      <string original="Echo location">Ecolocalização</string>
+      <string original="Speed of Sound">Velocidade do Som</string>
+      <string original="Normalized to spherical surface">Normalizado para uma superfície esférica</string>
+      <string original="Target distance">Distância do objeto</string>
+      <string original="Echo strength">Intensidade do eco</string>
+      <string original="Timing">Cronometragem</string>
+      <string original="On this page you just get the measured delay.">Nesta parte você tem o atraso medido.</string>
+      <string original="Delay">Atraso</string>
+      <string original="Chirp">Bip</string>
+      <string original="Time">Tempo</string>
+    </translation>
+    <translation locale="tr">
+      <title>Sonar</title>
+      <category>Akustik</category>
+      <description>
+        Ekoları ve ses hızını kullanarak mesafeleri ölçer.
+
+Sonar, ölçmek istediğiniz nesneden yansıyan kısa ses patlamaları gönderir. Sesin yaklaşık 340 m/s hızda ilerlediği bilindiğine göre, yansımanın telefonun mikrofonuna ulaşması için geçen süre bu nesnenin uzaklığını hesaplamak için kullanılabilir.
+
+Bu deney hoparlörden bir "bip" sesi gönderir ve kayda başlar. Bip sesi ve kaydedilen veriler arasındaki çapraz korelasyon, yankının meydana geldiği zamanlama hakkında bilgi verir. Bu zamanlama daha sonra sesin hızı ile çarpılabilir (ses ileri ve geri gitmek zorunda olduğu için zamanlama 2'ye bölünür) ve yankının kaynaklandığı mesafe hesaplanmış olur.
+
+Ancak, ses genellikle her yöne doğru ilerler. Bir sonar için bu, bir duvarı hedeflerken, yerden, tavandan, yakındaki başka bir duvardan, bir direkten veya etrafta bulunan uygun her "sert" yüzeyden yansımaları aldığınız anlamına gelir. Bu nedenle bu sonar size tüm yansımaları verir. Sonucu yorumlamak ve sonuca ulaşmak için hangi yansımanın ölçmek istediğiniz hedefe karşılık geldiğini çözmek size bağlıdır. Bu yüzden küçük sert bir hedefle başlayın ve diğer bazı köpük malzemelerle farklı yönleri taramaya çalışın. Ayrıca, deney sessiz bir ortama ihtiyaç duyuyor.
+    </description>
+      <string original="Time series">Zaman serileri</string>
+      <string original="Normalized history">Normalleştirilmiş tarih</string>
+      <string original="distance">mesafe</string>
+      <string original="time">zaman</string>
+      <string original="Echo location">Eko konumu</string>
+      <string original="Speed of Sound">Ses hızı</string>
+      <string original="Normalized to spherical surface">Küresel yüzeye göre normalize</string>
+      <string original="Target distance">Hedef uzaklık</string>
+      <string original="Echo strength">Eko gücü</string>
+      <string original="Timing">Zamanlama</string>
+      <string original="On this page you just get the measured delay.">Bu sayfada sadece gecikme ölçümünü görüntüleyebilirsiniz.</string>
+      <string original="Delay">Gecikme</string>
+      <string original="Chirp">Bip</string>
+      <string original="Time">Zaman</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>聲納</title>
+      <category>聲學</category>
+      <description>
+        透過回音及聲速測量距離。
+
+	此聲納傳送一束聲波，並且會經由待側物反射。當聲波以大約340 m/s的速度傳遞時，反射波到達手機麥克風的時間可用來計算帶測物的距離。
+
+	本實驗自手機擴音器生成一個尖銳的聲音，並開始錄音。透過該聲音與錄下的資料間的關係我們可以得到回音產生的時刻。這個時刻可以是聲速的倍數（並除以2因為聲音必須來回傳遞），這樣一來就可以得到回音產生時刻與待測物之距離。
+
+	然而，聲音在各方向上傳播。這會使聲納接收到來自待測物、地板、天花板、或附近的牆壁...等近處合適的硬材質的回音。因此此聲納給你所有反射數據並由您來自行解讀哪個實驗結果與待測物接近。所以請切記在實驗開始前試著利用較軟的物質屏蔽來自其他方向的回音，當然，你也必須在安靜的環境下進行實驗。
+    </description>
+      <string original="Echo location">回音位置</string>
+      <string original="Speed of Sound">聲速</string>
+      <string original="Normalized to spherical surface">歸一化至球面</string>
+      <string original="Target distance">目標距離</string>
+      <string original="Echo strength">回音強度</string>
+      <string original="Timing">時刻</string>
+      <string original="On this page you just get the measured delay.">此頁顯示測量到的延遲。</string>
+      <string original="Chirp">波包</string>
+      <string original="Time">時間</string>
+    </translation>
+    <translation locale="fr">
+      <title>Sonar</title>
+      <category>Acoustique</category>
+      <description>
+        Mesure une distance en utilisant l’écho.
+
+        Un sonar envoie des pulses sonores qui sont réfléchis par l'objet dont vous voulez mesurer la distance. Le son se déplace à une vitesse d'environ 340 m/s ; le temps qui sépare l’émission du pulse et le retour de son écho (mesuré par le microphone de votre téléphone) peut être utilisé pour calculer la distance de cet objet.
+
+        Cette expérience génère un « pulse » dans le haut-parleur de votre smartphone, et démarre un enregistrement sonore. Une corrélation croisée entre le pulse émis et le son mesuré permet de déterminer le moment quand l’écho revient sur le micro. Ce temps peut ensuite être multiplié par la vitesse du son (et divisé par 2 car le son fait un aller-retour) pour obtenir la distance à laquelle se trouve l’objet responsable de la réflexion du pulse sonore.
+
+        Cependant le son voyage dans toutes les directions. En ciblant un mur, vous obtenez également des réflexions en provenance du sol, du plafond, des autres murs, et de toute surface « dure » située à proximité. Le sonar mesure tous les échos, et c'est à vous d'interpréter le résultat et de déterminer quelle réflexion correspond à la cible que vous voulez mesurer. Commencez par une petite cible en matière dure et essayez de protéger les autres directions avec de la mousse. Un environnement bruyant va perturber cette expérience.
+    </description>
+      <string original="Time series">Évolution dans le temps</string>
+      <string original="Normalized history">Historique normalisé</string>
+      <string original="time">temps</string>
+      <string original="Echo location">Distance</string>
+      <string original="Speed of Sound">Vitesse du son</string>
+      <string original="Normalized to spherical surface">Normalisé par une surface sphérique</string>
+      <string original="Target distance">Distance de la cible</string>
+      <string original="Echo strength">Intensité de l'écho</string>
+      <string original="Timing">Temps</string>
+      <string original="On this page you just get the measured delay.">Enregistrement sonore en fonction du temps.</string>
+      <string original="Delay">Temps écoulé</string>
+      <string original="Chirp">Pulse</string>
+      <string original="Time">Durée</string>
+    </translation>
+    <translation locale="vi">
+      <title>Sonar</title>
+      <category>Âm học</category>
+      <description>
+        Đo khoảng cách thông qua tiếng vang và tốc độ của âm thanh.
+
+        Một sonar gửi các âm thanh ngắn, được phản xạ bởi vật bạn muốn đo. Khi âm thanh truyền đi với tốc độ xấp xỉ 340 m/s, thời gian tính đến khi âm phản xạ tới micrô của điện thoại của bạn có thể được sử dụng để tính khoảng cách của vật thể này.
+
+        Thí nghiệm này tạo ra một "tiếng kêu", nó phát qua loa và bắt đầu ghi âm. Một sự xen kẽ của tiếng kêu và dữ liệu được ghi lại cung cấp thông tin về thời gian xảy ra tiếng vang. Thời gian này sau đó có thể được nhân với tốc độ âm thanh (và chia cho 2 khi âm thanh phải truyền đi và trở lại) và bạn có được khoảng cách tới nơi mà tiếng vang phát ra.
+
+        Tuy nhiên, âm thanh thường đi theo mọi hướng. Đối với sonar, điều này có nghĩa là, khi nhắm mục tiêu vào một bức tường, bạn cũng nhận được phản xạ từ sàn nhà, trần nhà, một bức tường khác gần đó, một cái cột hoặc đơn giản là từ mọi bề mặt "cứng" gần đó. Do đó, sonar này cung cấp cho bạn tất cả các phản xạ và nó tuỳ thuộc vào bạn để giải thích kết quả và tìm ra sự phản xạ nào tương ứng với mục tiêu bạn dự định đo. Vì vậy, bắt đầu với một mục tiêu cứng nhỏ và cố gắng sàng lọc tất cả các hướng khác với một số vật liệu xốp. Ngoài ra, điều này cần một môi trường yên tĩnh.
+    </description>
+      <string original="Time series">Chuỗi t. gian</string>
+      <string original="Normalized history">Lịch sử đã chuẩn hoá</string>
+      <string original="distance">khoảng cách</string>
+      <string original="time">thời gian</string>
+      <string original="Echo location">Vị trí tiếng vang</string>
+      <string original="Speed of Sound">Tốc độ âm thanh</string>
+      <string original="Normalized to spherical surface">Chuẩn hoá mặt cầu</string>
+      <string original="Target distance">Khoảng cách mục tiêu</string>
+      <string original="Echo strength">Độ mạnh tiếng vang</string>
+      <string original="Timing">Thời gian</string>
+      <string original="On this page you just get the measured delay.">Trong trang này, bạn chỉ đo độ trễ.</string>
+      <string original="Delay">Độ trễ</string>
+      <string original="Chirp">Tiếng kêu</string>
+      <string original="Time">Thời gian</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>声呐</title>
+      <category>声学</category>
+      <description>
+        通过回声与声速测量距离。
+
+        声呐会发射一组可被待测物发射的短波.当声波以约340m/s的速度传输时，反射到达手机麦克风的时长可用来测试距待测物的距离。
+
+        该实验会产生一个“尖声”从扬声器传出并开始录音。该声音与记录数据互相关后可得出回声产生的时间。这个时间可以乘以声速（并除以2，因为声音需要来回传递），这样你能得到产生回声处的距离。
+
+        然而，声音在各个方向上传播。对于声呐而言，当对着一堵墙的时候，你同样会收到来自地板、天花板、附近墙壁、柱子，甚至每块合适的“硬”表面的反射。因此该声呐会给出所有的反射数据，由你来解读结果并算出，哪个反射和你的待测目标一致。所以应用硬质小物体开始你的实验，并尝试用一些泡沫材料来屏蔽所有其他方向的反射。
+    </description>
+      <string original="Time series">时间序列</string>
+      <string original="Normalized history">归一化历史记录</string>
+      <string original="distance">距离</string>
+      <string original="time">时间</string>
+      <string original="Echo location">回声位置</string>
+      <string original="Speed of Sound">声速</string>
+      <string original="Normalized to spherical surface">归一化至球面</string>
+      <string original="Target distance">目标距离</string>
+      <string original="Echo strength">回声强度</string>
+      <string original="Timing">时刻</string>
+      <string original="On this page you just get the measured delay.">此页面显示测量到的时延。</string>
+      <string original="Delay">时延</string>
+      <string original="Chirp">波包</string>
+      <string original="Time">时间</string>
+    </translation>
+    <translation locale="sr">
+      <title>Sonar</title>
+      <category>Akustika</category>
+      <description>
+        Merenje udaljenosti kroz eho i brzinu zvuka.
+
+        Sonar šalje burne kratke zvuke, koji se odbijaju od objekta čiju udaljenost želite meriti. Kako zvuk putuje brzinom od oko 340 m / s, vreme potrebno da refleksija stigne do mikrofona vašeg telefona može se koristiti za izračunavanje udaljenosti ovog objekta.
+
+        Ovi eksperimenti generišu "zvižduk", šalju ga kroz zvučnik i započinju snimanje. Unakrsna korelacija zvižduka i detektovanih podataka senzora, daju nam informacije o vremenu potrebnom da se pojavi eho. Ovaj vremenski raspon se zatim može pomnožiti brzinom zvuka (i podeliti sa 2, jer zvuk mora putovati napred i nazad) i dobiti udaljenost na kojoj je nastao eho.
+
+        Međutim, zvuk obično putuje u svakom pravcu. Za sonara to znači, da kada ciljate na zid, dobijate i refleksije sa poda, plafona, drugog zida u blizini, jednostavno sa svake pogodne "tvrde" površine u blizini. Dakle, ovaj sonar vam daje sve refleksije i na vama je da protumačite rezultat i shvatite koji odraz odgovara meti koju ste nameravali da izmerite. Dakle, počnite sa malom čvrstom metom a pokušajte da zaustavite sve smerove pomoću materijala od pene ili sunđera. Takođe, za to je potrebno tiho okruženje.
+    </description>
+      <string original="Time series">Vremenski intervali</string>
+      <string original="Normalized history">Standardna Legenda</string>
+      <string original="distance">rastojanje</string>
+      <string original="time">vreme</string>
+      <string original="Echo location">Eho lokacija</string>
+      <string original="Speed of Sound">Brzina zvuka</string>
+      <string original="Normalized to spherical surface">Normalizovano na sferične površine</string>
+      <string original="Target distance">Udaljenost mete</string>
+      <string original="Echo strength">Jačina eha</string>
+      <string original="Timing">Tajming</string>
+      <string original="On this page you just get the measured delay.">Na ovoj strani dobijate kašnjenje merenja.</string>
+      <string original="Delay">Kašnjenje</string>
+      <string original="Chirp">Zvižduk</string>
+      <string original="Time">Vreme</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Sonar</title>
+      <category>Akustika</category>
+      <description>
+        Merenje udaljenosti kroz eho i brzinu zvuka.
+
+        Sonar šalje burne kratke zvuke, koji se odbijaju od objekta čiju udaljenost želite meriti. Kako zvuk putuje brzinom od oko 340 m / s, vreme potrebno da refleksija stigne do mikrofona vašeg telefona može se koristiti za izračunavanje udaljenosti ovog objekta.
+
+        Ovi eksperimenti generišu "zvižduk", šalju ga kroz zvučnik i započinju snimanje. Unakrsna korelacija zvižduka i detektovanih podataka senzora, daju nam informacije o vremenu potrebnom da se pojavi eho. Ovaj vremenski raspon se zatim može pomnožiti brzinom zvuka (i podeliti sa 2, jer zvuk mora putovati napred i nazad) i dobiti udaljenost na kojoj je nastao eho.
+
+        Međutim, zvuk obično putuje u svakom pravcu. Za sonara to znači, da kada ciljate na zid, dobijate i refleksije sa poda, plafona, drugog zida u blizini, jednostavno sa svake pogodne "tvrde" površine u blizini. Dakle, ovaj sonar vam daje sve refleksije i na vama je da protumačite rezultat i shvatite koji odraz odgovara meti koju ste nameravali da izmerite. Dakle, počnite sa malom čvrstom metom a pokušajte da zaustavite sve smerove pomoću materijala od pene ili sunđera. Takođe, za to je potrebno tiho okruženje.
+    </description>
+      <string original="Time series">Vremenski intervali</string>
+      <string original="Normalized history">Standardna Legenda</string>
+      <string original="distance">rastojanje</string>
+      <string original="time">vreme</string>
+      <string original="Echo location">Eho lokacija</string>
+      <string original="Speed of Sound">Brzina zvuka</string>
+      <string original="Normalized to spherical surface">Normalizovano na sferične površine</string>
+      <string original="Target distance">Udaljenost mete</string>
+      <string original="Echo strength">Jačina eha</string>
+      <string original="Timing">Tajming</string>
+      <string original="On this page you just get the measured delay.">Na ovoj strani dobijate kašnjenje merenja.</string>
+      <string original="Delay">Kašnjenje</string>
+      <string original="Chirp">Zvižduk</string>
+      <string original="Time">Vreme</string>
+    </translation>
+    <translation locale="es">
+      <title>Sónar</title>
+      <category>Acústica</category>
+      <description>
+        Mide distancias a través de ecos y la velocidad del sonido.
+
+        Un sonar envía ráfagas de sonidos cortos, que se reflejan en el objeto que desea medir. A medida que el sonido viaja a una velocidad de 340 m/s aproximadamente,  hasta que el el tiempo por reflejo llega al micrófono de su teléfono puede usarse para calcular la distancia de este objeto.
+
+        Este experimento genera un "chirp", lo envía a través del altavoz y comienza una grabación. Una correlación cruzada del chirp y los datos grabados proporciona información sobre el momento en que se producen los ecos. Este tiempo puede multiplicarse con la velocidad del sonido (y dividirse por 2 ya que el sonido tiene que viajar hacia adelante y hacia atrás) y obtienes la distancia a la que se originó el eco.
+
+        Sin embargo, el sonido generalmente viaja en todas las direcciones. Para un sonar, esto significa que al apuntar a una pared, también obtienes reflejos del piso, el techo, otra pared cercana, un poste o simplemente de cualquier superficie "dura" adecuada. Por lo tanto, este sonar le brinda todos los reflejos y depende de usted interpretar el resultado y descubrir qué reflejo corresponde al objetivo que pretendía medir. Así que comience con un objetivo pequeño y de superficie dura e intente filtrar todas las demás direcciones con un poco de material de espuma. Entonces, esto necesita un ambiente tranquilo.
+    </description>
+      <string original="Time series">Series de tiempo</string>
+      <string original="Normalized history">Historia normalizada</string>
+      <string original="distance">distancia</string>
+      <string original="time">tiempo</string>
+      <string original="Echo location">Ecolocalización</string>
+      <string original="Speed of Sound">Velocidad del sonido</string>
+      <string original="Normalized to spherical surface">Normalizado a superficie esférica</string>
+      <string original="Target distance">Distancia al objeto</string>
+      <string original="Echo strength">Fuerza del eco</string>
+      <string original="Timing">Cronometraje</string>
+      <string original="On this page you just get the measured delay.">En esta página solo recibes el retraso medido.</string>
+      <string original="Delay">Retardo</string>
+      <string original="Chirp">Chirrido</string>
+      <string original="Time">tiempo</string>
+    </translation>
+    <translation locale="ka">
+      <title>სონარი</title>
+      <category>აკუსტიკა</category>
+      <description>
+        ზომავს მანძილს ექოს და ხმის სიჩქარის გამოყენებით.
+
+        სონარი აგზავნის მოკლზე ხმების ნაკადს, რომელებიც აირეკლება ნივთის მიერ რისი გაზომვაც გსურს. რადგან ხმა მოძრაობს დაახლოებით 340 მ/წმ სიჩქარით, დრო რა რომელშიც ხმა დაუბრუნდება სენსორს შეიძლება გამოყენებული იქნას მისი დისტანციის დასათვლელად.
+
+        ეს ქსპერიმენტი წარმოქმნის "ჭიკჭიკს", რომელიც დინამიკების საშუალებით იგზავნება და მიკროფონი იწყებს ჩაწერას. გადაკვეთის კორელაცია ჭიკჭიკების და ჩანიშნული მონაცემები გვაძლევს ინფორმაციას ექოების დროებზე. ეს დროები შეიძლება გადამრავლდეს ხმის სიჩქარეზე და გაიყოს 2-ზე რადგან ტალრამ ორჯერ უნდა გაიაროს ეს მანძილი. ამით მივიღებთ მანძილის რასიშორეზეც მოხდა არეკვლა.
+
+        თუმცა ხმა, ზოგადად ვრცელდება ყველა მიმართულებით. სონარასთვის ეს იმას ნიშნავს რომ როდესაც კედლიდან არეკვლილ ხმას ველოდებით, ამოავდროულად იატაკიდან არეკვლილ ხმასაც მივიღებთ, ასევე ჭეიდან, და ახლო მახლო "მყარი" ზედაპირებიდან. შესაბამისად მონაცემები გექნება ყველა მხრიდან და შენზეა გამოარკვიო სიგნალების წარმომავლობა და იპოვნო მონაცემი რომლის მიღებაც იყო შენი საწყისი მიზანი. ასე რომ დაიწყე რაიმე მომცრო ზომის მყარი სხეულით რომელიც გამოჩნდება სონარაში და შემდეგ ცადე იპოვნო ის სხვადასხვა მიმართულებებით, ასევე არდაგავიწყდეს რომ ჩუმ გარემოში უნდა იმუშაო.
+    </description>
+      <string original="Time series">დროების სია</string>
+      <string original="Normalized history">ნორმირებული ისტორია</string>
+      <string original="distance">მანძილი</string>
+      <string original="time">დრო</string>
+      <string original="Echo location">ექოს ლოკაცია</string>
+      <string original="Speed of Sound">ხსმის სიჩქარე</string>
+      <string original="Normalized to spherical surface">ნორმირებულია სფერული ზედაპირისთვის</string>
+      <string original="Target distance">სასურველი მანძილი</string>
+      <string original="Echo strength">ექოს სიძლიერე</string>
+      <string original="Timing">დროის დათვლა</string>
+      <string original="On this page you just get the measured delay.">ამ გვერდზე მიიღებ დაგვიანებულ გაზომვებს.</string>
+      <string original="Delay">დაგვიანება</string>
+      <string original="Chirp">ჭრიჭინი</string>
+      <string original="Time">დრო</string>
+    </translation>
+    <translation locale="hi">
+      <title>सोनार</title>
+      <category>ध्वनि विज्ञान</category>
+      <description>
+        प्रतिध्वनि और ध्वनि की गति के माध्यम से दूरियों को मापता है।
+
+        एक सोनार ध्वनि के छोटे-छोटे पैकेट भेजता है, जो उस वस्तु से परावर्तित हो जाती हैं जिसे आप मापना चाहते हैं। चूंकि ध्वनि लगभग 340 मीटर/सेकेंड की गति से यात्रा करती है, परावर्तित ध्वनि के आपके फोन के माइक्रोफ़ोन तक पहुंचने के समय का, इस वस्तु की दूरी की गणना करने के लिए, उपयोग किया जा सकता है।
+
+        यह प्रयोग एक "चिर्प" ध्वनि उत्पन्न करता है, इसे स्पीकर के माध्यम से भेजता है और एक रिकॉर्डिंग शुरू करता है। चिर्प और रिकॉर्ड किए गए डेटा का एक अंतर्सहसंबंध उस समय के बारे में जानकारी देता है जिस पर प्रतिध्वनि होती है। इस समय को ध्वनि की गति से गुणा किया जा सकता है (और 2 से विभाजित किया जाता है क्योंकि ध्वनि को एक बार आगे और एक बार पीछे जाना होता है) और आपको वह दूरी मिलती है जिस पर प्रतिध्वनि उत्पन्न की गयी थी।
+
+        हालाँकि, ध्वनि साधारणतया प्रत्येक दिशा में चलती है। सोनार के लिए इसका अर्थ यह है कि जब एक दीवार की ओर ध्वनि छोड़ी जाती है, तो आपको फर्श, छत, पास की दीवार, खम्बा और पास की हर उपयुक्त "कठोर" सतह से ध्वनि के परावर्तन मिलते हैं। इसलिए यह सोनार आपको सभी संभव परावर्तन देता है और यह पता लगाना आप पर निर्भर है कि कौन सा परावर्तन उस लक्ष्य से मेल खाता है जिसे आप मापना चाहते हैं। तो एक छोटे से कठोर लक्ष्य से शुरू करें और फोम जैसे मुलायम पदार्थ के साथ अन्य सभी दिशाओं को जांचने का प्रयास करें। इस प्रयोग के लिए एक शांत वातावरण की भी आवश्यकता होती है।
+    </description>
+      <string original="Time series">समय क्रम</string>
+      <string original="Normalized history">मानकीकृत हिस्ट्री</string>
+      <string original="distance">दूरी</string>
+      <string original="time">समय</string>
+      <string original="Echo location">प्रतिध्वनि की स्थिति</string>
+      <string original="Speed of Sound">ध्वनि की गति</string>
+      <string original="Normalized to spherical surface">गोलाकार सतह के लिए मानकीकरण</string>
+      <string original="Target distance">गंतव्य दूरी</string>
+      <string original="Echo strength">प्रतिध्वनि तीव्रता</string>
+      <string original="Timing">समय</string>
+      <string original="On this page you just get the measured delay.">इस पेज पर आपको केवल मापा गया डिले (delay ) मिलता है।</string>
+      <string original="Delay">डिले</string>
+      <string original="Chirp">चिर्प</string>
+      <string original="Time">समय</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="48000">recording</container>
+    <container init="48000">rate</container>
+    <container size="9000">recording_range</container>
+    <container>speedofsound</container>
+    <container>targetdistance</container>
+    <container size="240" static="true">chirp_t</container>
+    <container size="240" static="true">chirp_f</container>
+    <container size="240" static="true">chirp_temp1</container>
+    <container size="240" static="true">chirp_temp2</container>
+    <container size="240" static="true">chirp_temp3</container>
+    <container size="240" static="true">chirp_temp4</container>
+    <container size="240" static="true">chirp</container>
+    <container size="240" static="true">weighted_chirp</container>
+    <container size="1260" static="true">padding</container>
+    <container size="1500" static="true">padded_chirp</container>
+    <container size="7500" static="true">multi_chirp</container>
+    <container size="1500">crosscorrelation</container>
+    <container size="1500">crosscorrelation_smooth</container>
+    <container size="1500">ccTemp</container>
+    <container>max</container>
+    <container>startthreshold</container>
+    <container>t0</container>
+    <container>t1</container>
+    <container size="1200" static="true">count_t</container>
+    <container size="1200" static="true">relative_t</container>
+    <container size="1200">relative_cc</container>
+    <container size="1200" init="0">relative_cc_out</container>
+    <container size="1200" init="0">relative_cc_h1</container>
+    <container size="1200" init="0">relative_cc_h2</container>
+    <container size="1200" init="0">relative_cc_h3</container>
+    <container size="1200" init="0">relative_cc_h4</container>
+    <container size="1200" init="0">relative_cc_h5</container>
+    <container size="1200">distance</container>
+    <container size="1200">distance_out</container>
+    <container size="1200">sos</container>
+    <container size="1200">sos_out</container>
+    <container size="1200">weighted_cc</container>
+    <container size="1200" init="0">weighted_cc_out</container>
+    <container size="1200" init="0">weighted_cc_h1</container>
+    <container size="1200" init="0">weighted_cc_h2</container>
+    <container size="1200" init="0">weighted_cc_h3</container>
+    <container size="1200" init="0">weighted_cc_h4</container>
+    <container size="1200" init="0">weighted_cc_h5</container>
+    <container size="1">size</container>
+    <container size="1">time</container>
+    <container size="1200">time_line</container>
+    <container size="96000">time_map</container>
+    <container size="96000">distance_map</container>
+    <container size="96000">weighted_map</container>
+  </data-containers>
+  <input>
+    <audio>
+      <output>recording</output>
+      <output component="rate">rate</output>
+    </audio>
+  </input>
+  <output>
+    <audio>
+      <input>multi_chirp</input>
+    </audio>
+  </output>
+  <views>
+    <view label="Time series">
+      <graph label="Normalized history" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="time" unitY="[[unit_short_second]]" labelZ="[[quantity_short_amplitude]]" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="1200" mapColor1="000000" mapColor2="0000ff" mapColor3="00ffff" mapColor4="00ff00" mapColor5="ffff00" mapColor6="ff0000" mapColor7="ffffff" partialUpdate="true" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+        <input axis="x">distance_map</input>
+        <input axis="y">time_map</input>
+        <input axis="z">weighted_map</input>
+      </graph>
+    </view>
+    <view label="Echo location">
+      <edit label="Speed of Sound" unit="[[unit_short_meter_per_second]]" default="340">
+        <output>speedofsound</output>
+      </edit>
+      <graph label="Echo location" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+        <input axis="x">distance_out</input>
+        <input axis="y">relative_cc_out</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="aaaaaa">relative_cc_h1</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="999999">relative_cc_h2</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="888888">relative_cc_h3</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="777777">relative_cc_h4</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="666666">relative_cc_h5</input>
+      </graph>
+      <graph label="Normalized to spherical surface" labelX="distance" unitX="[[unit_short_centi_meter]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="450">
+        <input axis="x">distance_out</input>
+        <input axis="y">weighted_cc_out</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="aaaaaa">weighted_cc_h1</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="999999">weighted_cc_h2</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="888888">weighted_cc_h3</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="777777">weighted_cc_h4</input>
+        <input axis="x">distance_out</input>
+        <input axis="y" color="666666">weighted_cc_h5</input>
+      </graph>
+    </view>
+    <view label="Speed of Sound">
+      <edit label="Target distance" unit="[[unit_short_meter]]" default="1">
+        <output>targetdistance</output>
+      </edit>
+      <graph label="Echo strength" labelX="Speed of Sound" unitX="[[unit_short_meter_per_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="1000">
+        <input axis="x">sos_out</input>
+        <input axis="y">relative_cc_out</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="aaaaaa">relative_cc_h1</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="999999">relative_cc_h2</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="888888">relative_cc_h3</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="777777">relative_cc_h4</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="666666">relative_cc_h5</input>
+      </graph>
+      <graph label="Normalized to spherical surface" labelX="Speed of Sound" unitX="[[unit_short_meter_per_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="1000">
+        <input axis="x">sos_out</input>
+        <input axis="y">weighted_cc_out</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="aaaaaa">weighted_cc_h1</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="999999">weighted_cc_h2</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="888888">weighted_cc_h3</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="777777">weighted_cc_h4</input>
+        <input axis="x">sos_out</input>
+        <input axis="y" color="666666">weighted_cc_h5</input>
+      </graph>
+    </view>
+    <view label="Timing">
+      <info label="On this page you just get the measured delay."/>
+      <graph label="Echo strength" labelX="Delay" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="0.027">
+        <input axis="x">relative_t</input>
+        <input axis="y">relative_cc_out</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="aaaaaa">relative_cc_h1</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="999999">relative_cc_h2</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="888888">relative_cc_h3</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="777777">relative_cc_h4</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="666666">relative_cc_h5</input>
+      </graph>
+      <graph label="Normalized to spherical surface" labelX="Delay" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]" scaleMinX="fixed" scaleMaxX="fixed" minX="0" maxX="0.027">
+        <input axis="x">relative_t</input>
+        <input axis="y">weighted_cc_out</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="aaaaaa">weighted_cc_h1</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="999999">weighted_cc_h2</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="888888">weighted_cc_h3</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="777777">weighted_cc_h4</input>
+        <input axis="x">relative_t</input>
+        <input axis="y" color="666666">weighted_cc_h5</input>
+      </graph>
+    </view>
+    <view label="Chirp">
+      <graph label="Chirp" labelX="Time" unitX="[[unit_short_second]]" labelY="[[quantity_short_amplitude]]" unitY="[[unit_short_arbitrary_unit]]">
+        <input axis="x">chirp_t</input>
+        <input axis="y">weighted_chirp</input>
+      </graph>
+    </view>
+  </views>
+  <analysis sleep="0.5" requireFill="recording" requireFillThreshold="20000">
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" type="value">0.005</input>
+      <output>chirp_t</output>
+    </ramp>
+    <ramp>
+      <input as="start" type="value">1000</input>
+      <input as="stop" type="value">4000</input>
+      <output>chirp_f</output>
+    </ramp>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" type="value">3.14159</input>
+      <output>chirp_temp1</output>
+    </ramp>
+    <sin>
+      <input>chirp_temp1</input>
+      <output>chirp_temp2</output>
+    </sin>
+    <power>
+      <input as="base">chirp_temp2</input>
+      <input as="exponent" type="value">0.25</input>
+      <output>chirp_temp3</output>
+    </power>
+    <multiply>
+      <input>chirp_f</input>
+      <input>chirp_t</input>
+      <input type="value">6.283185307</input>
+      <output>chirp_temp4</output>
+    </multiply>
+    <sin>
+      <input>chirp_temp4</input>
+      <output>chirp</output>
+    </sin>
+    <multiply>
+      <input>chirp</input>
+      <input>chirp_temp3</input>
+      <output>weighted_chirp</output>
+    </multiply>
+    <const>
+      <output>padding</output>
+    </const>
+    <append>
+      <input>weighted_chirp</input>
+      <input>padding</input>
+      <output>padded_chirp</output>
+    </append>
+    <append>
+      <input>padded_chirp</input>
+      <input>padded_chirp</input>
+      <input>padded_chirp</input>
+      <input>padded_chirp</input>
+      <input>padded_chirp</input>
+      <output>multi_chirp</output>
+    </append>
+    <!-- end chirp -->
+    <!-- Relative time -->
+    <ramp>
+      <input as="start" type="value">96</input>
+      <input as="stop" type="value">1295</input>
+      <output>count_t</output>
+    </ramp>
+    <divide>
+      <input>count_t</input>
+      <input clear="false">rate</input>
+      <output>relative_t</output>
+    </divide>
+    <!-- Estimate start point -->
+    <max>
+      <input as="y" clear="false">recording</input>
+      <output as="max">max</output>
+    </max>
+    <multiply>
+      <input clear="false">max</input>
+      <input type="value">0.6</input>
+      <output>startthreshold</output>
+    </multiply>
+    <threshold>
+      <input as="y" clear="false">recording</input>
+      <input as="threshold" clear="false">startthreshold</input>
+      <output>t0</output>
+    </threshold>
+    <subtract>
+      <input clear="false">t0</input>
+      <input type="value">240</input>
+      <!-- chirp -->
+      <output>t1</output>
+    </subtract>
+    <subrange>
+      <input as="from" clear="false">t1</input>
+      <input as="length" type="value">9000</input>
+      <!-- five chirps with padding + distance + headroom -->
+      <input as="in" clear="true">recording</input>
+      <output>recording_range</output>
+    </subrange>
+    <!-- Crosscorrelation -->
+    <crosscorrelation>
+      <input clear="false">recording_range</input>
+      <input clear="false">multi_chirp</input>
+      <output>crosscorrelation</output>
+    </crosscorrelation>
+    <multiply>
+      <input clear="false">crosscorrelation</input>
+      <input clear="false">crosscorrelation</input>
+      <input type="value">1e5</input>
+      <output>ccTemp</output>
+    </multiply>
+    <gausssmooth sigma="3">
+      <input>ccTemp</input>
+      <output>crosscorrelation_smooth</output>
+    </gausssmooth>
+    <!-- Find start and range -->
+    <max>
+      <input as="y" clear="false">crosscorrelation_smooth</input>
+      <output as="position">t0</output>
+    </max>
+    <add>
+      <input clear="false">t0</input>
+      <input type="value">96</input>
+      <!-- 2ms -->
+      <output>t1</output>
+    </add>
+    <subrange>
+      <input as="from">t1</input>
+      <input as="length" type="value">1200</input>
+      <!-- 25ms -->
+      <input as="in" clear="false">crosscorrelation_smooth</input>
+      <output>relative_cc</output>
+    </subrange>
+    <multiply>
+      <input clear="false">relative_t</input>
+      <input clear="false">speedofsound</input>
+      <input type="value">50</input>
+      <output>distance</output>
+    </multiply>
+    <divide>
+      <input clear="false">targetdistance</input>
+      <input>relative_t</input>
+      <input type="value">0.5</input>
+      <output>sos</output>
+    </divide>
+    <multiply>
+      <input clear="false">relative_cc</input>
+      <input clear="false">distance</input>
+      <input clear="false">distance</input>
+      <output>weighted_cc</output>
+    </multiply>
+    <timer>
+      <output>time</output>
+    </timer>
+    <const>
+      <input as="value">time</input>
+      <input as="length" type="value">1200</input>
+      <output>time_line</output>
+    </const>
+    <count>
+      <input clear="false">crosscorrelation</input>
+      <output>size</output>
+    </count>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">time_line</input>
+      <output clear="false">time_map</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">distance</input>
+      <output clear="false">distance_map</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc</input>
+      <output clear="false">weighted_map</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">distance</input>
+      <output clear="false">distance_out</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">sos</input>
+      <output clear="false">sos_out</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_h4</input>
+      <output clear="true">relative_cc_h5</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_h3</input>
+      <output clear="true">relative_cc_h4</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_h2</input>
+      <output clear="true">relative_cc_h3</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_h1</input>
+      <output clear="true">relative_cc_h2</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc_out</input>
+      <output clear="true">relative_cc_h1</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">relative_cc</input>
+      <output clear="true">relative_cc_out</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_h4</input>
+      <output clear="true">weighted_cc_h5</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_h3</input>
+      <output clear="true">weighted_cc_h4</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_h2</input>
+      <output clear="true">weighted_cc_h3</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_h1</input>
+      <output clear="true">weighted_cc_h2</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc_out</input>
+      <output clear="true">weighted_cc_h1</output>
+    </if>
+    <if equal="true">
+      <input clear="false">size</input>
+      <input type="value">1500</input>
+      <input clear="false">weighted_cc</input>
+      <output clear="true">weighted_cc_out</output>
+    </if>
+  </analysis>
+  <export>
+    <set name="Echo location">
+      <data name="Distance (cm)">distance</data>
+      <data name="Crosscorrelation (a.u.)">relative_cc</data>
+      <data name="Normalized CC (a.u.)">weighted_cc</data>
+      <data name="Crosscorrelation history 1 (a.u.)">relative_cc_h1</data>
+      <data name="Normalized CC history 1 (a.u.)">weighted_cc_h1</data>
+      <data name="Crosscorrelation history 2 (a.u.)">relative_cc_h2</data>
+      <data name="Normalized CC history 2 (a.u.)">weighted_cc_h2</data>
+      <data name="Crosscorrelation history 3 (a.u.)">relative_cc_h3</data>
+      <data name="Normalized CC history 3 (a.u.)">weighted_cc_h3</data>
+      <data name="Crosscorrelation history 4 (a.u.)">relative_cc_h4</data>
+      <data name="Normalized CC history 4 (a.u.)">weighted_cc_h4</data>
+      <data name="Crosscorrelation history 5 (a.u.)">relative_cc_h5</data>
+      <data name="Normalized CC history 5 (a.u.)">weighted_cc_h5</data>
+    </set>
+    <set name="Speed of sound">
+      <data name="Speed of sound (m/s)">sos</data>
+      <data name="Crosscorrelation (a.u.)">relative_cc</data>
+      <data name="Normalized CC (a.u.)">weighted_cc</data>
+      <data name="Crosscorrelation history 1 (a.u.)">relative_cc_h1</data>
+      <data name="Normalized CC history 1 (a.u.)">weighted_cc_h1</data>
+      <data name="Crosscorrelation history 2 (a.u.)">relative_cc_h2</data>
+      <data name="Normalized CC history 2 (a.u.)">weighted_cc_h2</data>
+      <data name="Crosscorrelation history 3 (a.u.)">relative_cc_h3</data>
+      <data name="Normalized CC history 3 (a.u.)">weighted_cc_h3</data>
+      <data name="Crosscorrelation history 4 (a.u.)">relative_cc_h4</data>
+      <data name="Normalized CC history 4 (a.u.)">weighted_cc_h4</data>
+      <data name="Crosscorrelation history 5 (a.u.)">relative_cc_h5</data>
+      <data name="Normalized CC history 5 (a.u.)">weighted_cc_h5</data>
+    </set>
+    <set name="Time">
+      <data name="Delay (s)">relative_t</data>
+      <data name="Crosscorrelation (a.u.)">relative_cc</data>
+      <data name="Normalized CC (a.u.)">weighted_cc</data>
+      <data name="Crosscorrelation history 1 (a.u.)">relative_cc_h1</data>
+      <data name="Normalized CC history 1 (a.u.)">weighted_cc_h1</data>
+      <data name="Crosscorrelation history 2 (a.u.)">relative_cc_h2</data>
+      <data name="Normalized CC history 2 (a.u.)">weighted_cc_h2</data>
+      <data name="Crosscorrelation history 3 (a.u.)">relative_cc_h3</data>
+      <data name="Normalized CC history 3 (a.u.)">weighted_cc_h3</data>
+      <data name="Crosscorrelation history 4 (a.u.)">relative_cc_h4</data>
+      <data name="Normalized CC history 4 (a.u.)">weighted_cc_h4</data>
+      <data name="Crosscorrelation history 5 (a.u.)">relative_cc_h5</data>
+      <data name="Normalized CC history 5 (a.u.)">weighted_cc_h5</data>
+    </set>
+    <set name="Chirp">
+      <data name="Time (s)">chirp_t</data>
+      <data name="Amplitude (a.u.)">weighted_chirp</data>
+    </set>
+  </export>
+</phyphox>

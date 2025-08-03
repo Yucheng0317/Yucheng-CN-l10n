@@ -1,0 +1,1352 @@
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题。请重试"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s 小时"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "5 SEC"
+  "5秒"
+}
+{
+  "Add new Script"
+  "添加新脚本"
+}
+{
+  "All Apps"
+  "所有应用程序"
+}
+{
+  "Application not licensed"
+  "应用程序未获得许可"
+}
+{
+  "Are you sure you want to delete this Script?"
+  "确定删除此脚本吗？"
+}
+{
+  "A⇛Z"
+  "由A到Z"
+}
+{
+  "BackgroundColor"
+  "背景颜色"
+}
+{
+  "Bad"
+  "不好"
+}
+{
+  "Black Text"
+  "黑色文本"
+}
+{
+  "Black background"
+  "黑色背景"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Center"
+  "居中对齐"
+}
+{
+  "Change Theme"
+  "更改主题"
+}
+{
+  "Change the scrolling speed"
+  "更改滚动速度"
+}
+{
+  "Change to next month"
+  "改到下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Changes the background and text color of the teleprompter, you can select one of the 5 defined colors. You can change the defined colors by clicking on the rainbow button"
+  "从5种预设颜色或自定义颜色中选择一种来更改提词器的背景和文本颜色"
+}
+{
+  "Changes the font size, you can also change the font size while reading by pinching with two fingers like you do when you zoom in on a photo"
+  "更改字体大小，也可在播放时用两个手指捏合界面来更改字体大小（类似缩放照片一样）"
+}
+{
+  "Changes the opacity of the background of the background of the floating window, 0 is transparent"
+  "更改浮窗的背景不透明度（0为完全透明）"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Choose the Mode"
+  "选择模式"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Click here to close the floating window"
+  "单击此处关闭浮窗"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "Collapse"
+  "崩溃"
+}
+{
+  "Column of days: %1$s"
+  "天数列：%1$s"
+}
+{
+  "Content"
+  "正文"
+}
+{
+  "Could not find the file in your Drive account"
+  "在您的云盘帐户中找不到该文件"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Custom colors are not available in the free version. This feature is only available in the pro version. get the Pro version for unrestricted usage"
+  "免费版本不支持自定义颜色，此功能仅在专业版中可用"
+}
+{
+  "Dark"
+  "暗色"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Decrease Font Size"
+  "减小字号"
+}
+{
+  "Decrease Speed"
+  "降低滚动速度"
+}
+{
+  "Delay in seconds"
+  "倒计时（秒）"
+}
+{
+  "Delay  "
+  "播放前倒计时"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Dismiss"
+  "解散"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Drag down to close"
+  "向下拖动以关闭"
+}
+{
+  "Drag from this Corner to change the window size"
+  "拖动此角以更改窗口大小"
+}
+{
+  "Drag here to change the margins"
+  "拖动此处可更改边距"
+}
+{
+  "Drag here to resize the highlighted area"
+  "拖动此处以调整突出显示区域的大小"
+}
+{
+  "Drag the top bar to change the position"
+  "拖动顶部栏以更改位置"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "English"
+  "英语"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Excellent !!!"
+  "完美"
+}
+{
+  "Exit"
+  "退出"
+}
+{
+  "Expand halfway"
+  "扩大一半"
+}
+{
+  "Floating"
+  "浮窗模式"
+}
+{
+  "Floating Window Settings"
+  "浮窗模式设置"
+}
+{
+  "Floating window demo"
+  "浮窗演示"
+}
+{
+  "Font size"
+  "字号"
+}
+{
+  "Full Screen"
+  "全屏模式"
+}
+{
+  "Full Screen Settings"
+  "全屏模式设置"
+}
+{
+  "Gesture Control"
+  "手势控制"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Get Pro Version"
+  "获取专业版"
+}
+{
+  "Get Remote App"
+  "下载配套遥控器"
+}
+{
+  "Get the PC App"
+  "获取PC版应用"
+}
+{
+  "Give"
+  "去授权"
+}
+{
+  "Good"
+  "很好"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "Gray Background"
+  "灰色背景"
+}
+{
+  "Gray Text"
+  "灰色文本"
+}
+{
+  "Green Text"
+  "绿色文本"
+}
+{
+  "Green background"
+  "绿色背景"
+}
+{
+  "Here is the content"
+  "此处为正文"
+}
+{
+  "Hide controls while scrolling"
+  "滚动时隐藏控件"
+}
+{
+  "Hide the Time"
+  "隐藏预估时间"
+}
+{
+  "Highlighted Text"
+  "高亮聚焦框高度"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "How to edit a script"
+  "如何编辑脚本"
+}
+{
+  "How to import a document"
+  "如何导入文档"
+}
+{
+  "How to run the teleprompter in app"
+  "如何在应用程序中运行提词器"
+}
+{
+  "How to use the floating window"
+  "如何使用浮动窗口"
+}
+{
+  "I Can't Find the app"
+  "我找不到应用程序"
+}
+{
+  "If 'Center' is checked, the text alignment will be changed to the center,if unchecked the alignment will be right to left or left to right depending on the language of the script"
+  "勾选“居中对齐”，文本对齐方式将改为居中，否则将根据脚本的语言习惯从右向左或从左向右对齐"
+}
+{
+  "If 'Launch the camera app automatically is checked, when you start a text in the floating mode, the app will automatically launch the app selected down below, you can select the app by clicking on the card, if the app is not listed, you can click on all apps and choose any app installed on your device"
+  "如果勾选“自动启动相机应用”，当您以浮窗模式启动播放时，将自动启动先前指定的相机应用。您可以单击卡片设置指定应用（如果未列出所需的，可单击所有应用程序后选择安装的任一应用）"
+}
+{
+  "If 'Loop' is checked, the teleprompter will automatically restart the text from the top when it reaches the end, this is useful if you are taking multiple takes for the same text. If it is unchecked, the teleprompter will stop when it reaches the end"
+  "如果选中“循环播放”，提词器将在文本到达末尾时自动从顶部重新播放文本，否则将在滚动到末尾后自动停止（可以用于您对同一文本进行多次拍摄）"
+}
+{
+  "If 'Tap to play' is checked,you can tap anywhere to pause/resume. If unchecked a play button, and a play after delay button will appear, you can click anywhere to pause, but you have to click the play button ore the play after delay button to resume. The play after delay button resumes the teleprompter after the delay defined above"
+  "如果勾选了“点击快速播放”，可以直接点击界面立即暂停/恢复播放\n；否则暂停时会出现倒计时再播放和立即播放两个按钮，每次暂停都需手动选择"
+}
+{
+  "If checked,this option will hide the timer that shows you the time left to finish the text"
+  "如果选中，将隐藏显示预计播放耗时的计时器"
+}
+{
+  "If the 'Mirrored' option is checked, it will mirror the text, if you are using the app with a teleprompter device, you should check this option, if you are reading directly from the phone,you should keep it unchecked"
+  "如果勾选“镜像”，它将在显示时镜像文本（部分设备使用时，您可能会需要这些。若您直接从手机播放，无需勾选）"
+}
+{
+  "If you made changes to the file on Drive, press this button to import the changes"
+  "如果您更改了云盘上的文件，请点此更新"
+}
+{
+  "Increase Font Size"
+  "增加字号"
+}
+{
+  "Increase Speed"
+  "提高滚动速度"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "It will help us if you rate the app on the store, Would you like to do that?"
+  "如果你在商店里对应用程序进行评分，这将对我们有所帮助，您愿意吗?"
+}
+{
+  "Later"
+  "稍后"
+}
+{
+  "Launch the camera app automatically"
+  "自动启动相机应用"
+}
+{
+  "Light"
+  "亮色"
+}
+{
+  "Loading"
+  "加载"
+}
+{
+  "Loop"
+  "循环播放"
+}
+{
+  "Margin"
+  "侧边距"
+}
+{
+  "Margins "
+  "侧边距"
+}
+{
+  "Media buttons like Volume buttons won't work with the floating window"
+  "音量等媒体按钮不适用于浮窗"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "Mirrored"
+  "镜像播放"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Nano Teleprompter Remote App Service"
+  "Nano Teleprompter远程应用服务"
+}
+{
+  "Navigate home"
+  "导航回家"
+}
+{
+  "Navigate to year %1$s"
+  "导航到%1$s年"
+}
+{
+  "Navigate up"
+  "回上一页"
+}
+{
+  "Never Show Again"
+  "不再显示"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务。它很快就会自我更新。"
+}
+{
+  "New⇛Old"
+  "由新到旧"
+}
+{
+  "Next Paragraph"
+  "下一段"
+}
+{
+  "Normal"
+  "正常"
+}
+{
+  "Not Happy"
+  "一般"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "完成"
+}
+{
+  "Old⇛New"
+  "由旧到新"
+}
+{
+  "Opacity  "
+  "不透明度"
+}
+{
+  "Open File"
+  "打开文件"
+}
+{
+  "Open Settings"
+  "打开设置"
+}
+{
+  "Open in the Play Store"
+  "在Google Play中打开"
+}
+{
+  "Open navigation drawer"
+  "打开导航抽屉"
+}
+{
+  "Open on phone"
+  "在电话上打开"
+}
+{
+  "Or press this button to open text from a file"
+  "或按此按钮打开文件中的文本"
+}
+{
+  "Orientation"
+  "方向"
+}
+{
+  "Other Apps"
+  "其他应用程序"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Paste or write your text here"
+  "在此处粘贴或书写文本"
+}
+{
+  "Pause / Resume"
+  "暂停/恢复"
+}
+{
+  "Please Make sure that you are signed in and that you have internet connection"
+  "请确保您已登录并且联网"
+}
+{
+  "Please install a File Manager."
+  "请安装一个文件管理器"
+}
+{
+  "Press a button to assign it"
+  "按下按钮进行分配"
+}
+{
+  "Press here to rotate the floating window"
+  "按此处旋转浮窗"
+}
+{
+  "Press this button to add a new script"
+  "按此按钮添加新脚本"
+}
+{
+  "Press this button to start this script in the teleprompter"
+  "单击开始播放"
+}
+{
+  "Previous Paragraph"
+  "上一段"
+}
+{
+  "Privacy Policy"
+  "隐私政策"
+}
+{
+  "Range end,"
+  "范围结束，"
+}
+{
+  "Range start,"
+  "范围开始，"
+}
+{
+  "Rate"
+  "为软件评分"
+}
+{
+  "Rate this application"
+  "对此应用程序进行评分"
+}
+{
+  "Red"
+  "红色"
+}
+{
+  "Red Text"
+  "红色文本"
+}
+{
+  "Red background"
+  "红色背景"
+}
+{
+  "Reload From Drive"
+  "从驱动器重新加载"
+}
+{
+  "Remote Settings"
+  "远程设置"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "Reset the Size"
+  "重置大小"
+}
+{
+  "Resets the size and the position of the floating window to the default values,please note that the floating window should be closed for the changes to take effect"
+  "将浮动窗口的大小和位置重置为默认值，请注意，浮动窗口应关闭以使更改生效"
+}
+{
+  "Restore Access"
+  "恢复访问权限"
+}
+{
+  "Retry"
+  "重试"
+}
+{
+  "SECs"
+  "秒"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Saved"
+  "已保存"
+}
+{
+  "Scan the Qr code below to go to the download page"
+  "扫描下面的二维码转到下载页面"
+}
+{
+  "Scroll Down"
+  "向下滚动"
+}
+{
+  "Scroll Sensitivity"
+  "滚动灵敏度"
+}
+{
+  "Scroll Up"
+  "向上滚动"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Select"
+  "选择"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "Select Camera App"
+  "选择相机应用程序"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select a text file"
+  "选择文本文件"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Sets the margin between the left and right side of the text and the screen, you can adjust the margins to fit the teleprompter device you are using"
+  "设置文本左侧和右侧与屏幕之间的边距来便于您阅读"
+}
+{
+  "Sets the number of seconds to count down before the teleprompter starts scrolling, you can increase it if you need more time before the teleprompter starts scrolling, or set it to 0 if you would like it to start immediately"
+  "设置提词器开始滚动前倒计时的秒数。如需更长时间，可以增加秒数。如需不倒计时立即开始，可以将秒数设置为0"
+}
+{
+  "Sets the script orientation in the full screen mode, the first option is auto rotate, so the text will rotate as you rotate the device. The other options are to lock the device in a specific the orientation"
+  "在全屏模式下设置脚本方向，第一个为自动旋转，文本将随着您旋转设备而旋转，其他选项是将设备锁定在特定方向"
+}
+{
+  "Sets the size of the bright area in the middle of the screen, this area will help you keep track of the line you are reading from"
+  "设置屏幕中间高亮区域的大小，此区域将帮助您聚焦中心行"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Share the link"
+  "分享链接"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Show Tutorial"
+  "重新显示教程"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in to import and sync files, and Google Docs easily from Google Drive"
+  "登录以从Google Drive导入和同步文件与文档"
+}
+{
+  "Sign in to import and sync your scripts from/to Google Drive automatically, Supported file types are Google Docs,MS Word,RTF,TXT,and HTML."
+  "登录以自动从Google Drive导入和同步脚本，支持的文件类型包括Google文档、MS Word、RTF、TXT和HTML。"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Space between lines  "
+  "行间距"
+}
+{
+  "Speed:  "
+  "速度"
+}
+{
+  "Start Floating"
+  "开始浮动"
+}
+{
+  "Start In App"
+  "在应用程序中启动"
+}
+{
+  "Start app manually"
+  "手动启动应用程序"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Start with Floating Window"
+  "从浮动窗口开始"
+}
+{
+  "Stop Remote Service"
+  "停止远程服务"
+}
+{
+  "Submit"
+  "提交"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Support"
+  "支持"
+}
+{
+  "Support & feedback"
+  "支持与反馈"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Sync and import the Scripts"
+  "同步并导入脚本"
+}
+{
+  "Sync has changed, now all files are synced as Google Docs file that you can edit in the browser, you can import files much easier now including Google Docs and RTF files,we need to get permission to read and create files.Watch the video to learn more"
+  "同步已更改，现在所有文件都同步为您可以在浏览器中编辑的Google文档文件，您现在可以更轻松地导入文件，包括Google文档和RTF文件，我们需要获得读取和创建文件的权限。观看视频了解更多信息"
+}
+{
+  "Syncing.."
+  "正在同步"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Tap to play"
+  "点击快速播放"
+}
+{
+  "Tap to switch to selecting a day"
+  "点击切换到选择日期"
+}
+{
+  "Tap to switch to selecting a year"
+  "点击切换到选择年份"
+}
+{
+  "Text Color"
+  "文本颜色"
+}
+{
+  "Text couldn't be loaded"
+  "无法加载文本"
+}
+{
+  "Thank you for considering getting the paid version of our app. By purchasing the paid version you will help us improve the app and you will unlock the following features:\n\n1 .No ads \n2 .Unrestricted floating window usage \n3 .Custom colors for background and text \n4 .Faster updates \n5 .Premium support"
+  "感谢您考虑购买我们应用程序的付费版本。通过购买付费版本，您将帮助我们改进应用程序，并解锁以下功能：\n1.没有广告\n2.无限制的浮动窗口使用\n3.背景和文本的自定义颜色\n4.更快的更新\n5.高级支持"
+}
+{
+  "Thank you for your feedback"
+  "感谢您的反馈"
+}
+{
+  "The Floating Window mode allows you to use the teleprompter with a camera app or other apps. You can select the camera app in the settings. The Full Screen mode is suitable for teleprompter devices"
+  "浮窗模式：提词器以悬浮窗形式展现在应用上方，可以与相机应用或其他应用同时使用（您可以在设置中选择相机应用）\n全屏模式：手机全屏提词器，适合外界录像设备"
+}
+{
+  "The Floating Window size and position have been reset to default"
+  "浮动窗口大小和位置已重置为默认值"
+}
+{
+  "The file that you have selected is not supported"
+  "选择的文件不受支持"
+}
+{
+  "Theme"
+  "主题"
+}
+{
+  "This application is not licensed."
+  "此应用程序未获得许可"
+}
+{
+  "This is a demo text. \nPress here to revert the floating window settings to its default"
+  "这是一个演示文本\n点此处将浮窗设置还原为默认值"
+}
+{
+  "This was a demo of the floating window. This feature is only available in the pro version. get the pro version for unlimited usage"
+  "这是一个浮窗的演示\n此功能仅在专业版中可用。获取专业版，可无限制使用"
+}
+{
+  "Title"
+  "标题"
+}
+{
+  "To comply with Google new privacy policy, we read only the apps that are most relative to the user. If you can't find the app, Please click Start app manually to uncheck launch camera automatically then start the app manually after the floating window starts"
+  "为了遵守谷歌新的隐私政策，我们只阅读与用户关系最密切的应用程序。如果您找不到该应用程序，请单击“手动启动应用程序”以取消选中“自动启动相机”，然后在浮动窗口启动后手动启动该应用程序"
+}
+{
+  "Unable to validate license. Check to see if a network connection is available."
+  "无法验证许可证。检查网络连接是否可用。"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "Very Bad"
+  "非常糟糕"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Watch Video"
+  "观看演示视频（YouTube）"
+}
+{
+  "We are sorry that you are not 100% satisfied.Please send me a mail with your suggestion. Your suggestion will be taken seriously to improve the app in future updates"
+  "很抱歉，您不是特别满意。请给我们发一封邮件，提出建议。我们将认真考虑您的建议，以便在未来的更新中改进应用程序"
+}
+{
+  "We have created a new WI-FI remote control app that allows you to control every thing from another Android device. You can control the speed,scroll to a specific point,scroll manually,Open the scripts,change all the settings."
+  "可以下载我们的 WI-FI 遥控应用。它可以让您从另个安卓手机遥控提词器。您可以用它控制速度，滚动到特定点，手动滚动，打开脚本与控制所有设置"
+}
+{
+  "We need permission for the floating window"
+  "需要获得创建悬浮窗的权限"
+}
+{
+  "We need permission for the floating window, please press give, then a list of apps will appear. Please find Nano Teleprompter in the list and give it the permission."
+  "需要创建悬浮窗的权限，请点击授权，然后将显示应用程序列表。请在列表中找到Nano Teleprompter并授权"
+}
+{
+  "White Text"
+  "白色文本"
+}
+{
+  "Would you like to launch a camera app in the Floating Window mode? (you can change that later in the settings)"
+  "勾选下面来在浮窗模式下自动启动相机应用（以后可以在设置中更改）"
+}
+{
+  "Yellow"
+  "黄色的"
+}
+{
+  "Yellow Text"
+  "黄色文本"
+}
+{
+  "Yellow background"
+  "黄色背景"
+}
+{
+  "Yes,why not!"
+  "好"
+}
+{
+  "You can adjust the space between lines in the text the Normal value is the standard space, you can select a value between -20 (lines are tightly close to each other) and +100 (double the standard space)"
+  "您可以调整文本中的行间距。正常值是标准间距，您可以选择一个介于-20（排列很紧密）和+100（间距是标准的两倍）之间的值"
+}
+{
+  "Your Scripts"
+  "您的脚本"
+}
+{
+  "Z⇛A"
+  "由Z到A"
+}
+{
+  "add # to mark a new paragraph then use the next/ previous paragraph buttons to go to next/ previous # mark"
+  "添加 # 标记新段落，然后使用下一/上一段落按钮转到下一/前一个 # 标记"
+}
+{
+  "default"
+  "默认"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "how to sync files with your Drive account"
+  "如何将文件与您的Drive帐户同步"
+}
+{
+  "how to use the PC app"
+  "如何使用PC应用程序"
+}
+{
+  "if selected,Hides the user interface controls while scrolling in the floating window, and only shows them when you pause. otherwise the controls will be always visible"
+  "如果选中，则在浮动窗口中滚动时隐藏界面控件，仅在暂停时显示，否则，控件将始终可见"
+}
+{
+  "opacity seekbar for floating window"
+  "浮窗的不透明搜索栏"
+}
+{
+  "please select your theme"
+  "请选择您的主题色调（以后可在侧栏更改）"
+}
+{
+  "press on a script to open it. or long press to delete it"
+  "单击打开脚本，长按可删除"
+}
+{
+  "press to pause , and pinch with two fingers to change text size"
+  "单击可暂停，用两个手指捏合或分开可更改文本大小"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "start scrolling"
+  "开始滚动"
+}
+{
+  "the file is being loaded"
+  "正在加载文件"
+}
+{
+  "when you select some text you can highlight it"
+  "选择部分文本后，可以使用上方的工具栏自定义文本格式"
+}
+{
+  "white background"
+  "白色背景"
+}
+{
+  "yes,send an E-mail"
+  "是的，发送电子邮件"
+}
+{
+  "you can open .txt or .docx files"
+  "您可以打开.txt或.docx文件"
+}
+{
+  "you can open .txt or .html files"
+  "您可以打开.txt或.html文件"
+}
+{
+  "you can run the floating window 60 seconds per session in the free version as a demo. This feature is only available in the pro version. get the pro version for unrestricted usage"
+  "在免费版本中，您可以在每个会话中运行浮动窗口60秒作为演示。此功能仅在专业版中可用。获取专业版，无限制使用"
+}
+{
+  " \n<html>\n<head>\n<style>\n</style>\n</head>\n<body lang=zh-CN link=#0563C1 vlink=#954F72>\n<div class=WordSection1>\n<p class=MsoNormal>按<b><span style='background:red'>+按钮</span></b>创建您的第一个脚本，您可以直接粘贴脚本或打开一个文件</p>\n\n<p class=MsoNormal>准备好脚本后，按<span style='background:red'>播放按钮</span>在提词器中开始播放剧本</p>\n\n<p class=MsoNormal>您可以在<b>应用内</b>或<b>浮窗模式</b>中开始，在阅读剧本时可以使用其他应用（如相机）。</p>\n \n<p class=MsoNormal>底部有一个<b><u>速度条</u></b>，用于更改滚动速度<b><u>滚动速度</u></b></p>\n \n<p class=MsoNormal><b><u>用两根手指捏合或分开</u></b>以更改文本大小</p>\n\n<p class=MsoNormal>在滚动时单击文本以<span style='color:red'>暂停</span></p>\n\n<p class=MsoNormal>在主页列表上长按任何脚本以删除它</p>\n\n<p class=MsoNormal>如果您有任何建议或问题，请通过以下邮箱联系我：<a href=mailto:support@afellapps.com>support@afellapps.com</a>\n\n予澄汉化</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n</div>\n</body>\n</html>\n "
+  "<html>\n<head>\n<style>\n</style>\n</head>\n<body lang=zh-CN link=#0563C1 vlink=#954F72>\n<div class=WordSection1>\n<p class=MsoNormal>按<b><span style='background:red'>+按钮</span></b>创建您的第一个脚本，您可以直接粘贴脚本或打开一个文件</p>\n\n<p class=MsoNormal>准备好脚本后，按<span style='background:red'>播放按钮</span>在提词器中开始播放剧本</p>\n\n<p class=MsoNormal>您可以在<b>应用内</b>或<b>浮窗模式</b>中开始，在阅读剧本时可以使用其他应用（如相机）。</p>\n \n<p class=MsoNormal>底部有一个<b><u>速度条</u></b>，用于更改滚动速度<b><u>滚动速度</u></b></p>\n \n<p class=MsoNormal><b><u>用两根手指捏合或分开</u></b>以更改文本大小</p>\n\n<p class=MsoNormal>在滚动时单击文本以<span style='color:red'>暂停</span></p>\n\n<p class=MsoNormal>在主页列表上长按任何脚本以删除它</p>\n\n<p class=MsoNormal>如果您有任何建议或问题，请通过以下邮箱联系我：<a href=mailto:support@afellapps.com>support@afellapps.com</a></p>\n\n<p class=MsoNormal><b><u>予澄 汉化</u></b></p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n</div>\n</body>\n</html>\n "
+}
+{
+  "</style>\n \n </head>\n \n <body lang=EN-US link=#0563C1 vlink=#954F72>\n \n <div class=WordSection1>\n \n <p class=MsoNormal>Press the <b><span style='background:yellow'>+ button</span></b>\n to write your first script, While writing select a phrase to highlight it, you can paste your script or open a file </p>\n\n <p class=MsoNormal>After preparing your script press the <span\n style='background:red'>play button</span> to start the script in the teleprompter </p>\n\n <p class=MsoNormal>You can start <b>in the app</b> or in a <b>floating window. </b>where\n you can use other apps (like the camera) while reading your script.</p>\n \n<p class=MsoNormal><b><u>A speed bar </u></b> at the bottom to change the scrolling speed <b><u>scrolling\n speed</u></b></p>\n \n <p class=MsoNormal><b><u>pinch with two fingers </u></b>to change the text size</p>\n\n <p class=MsoNormal>press on the text while scrolling to <span style='color:red'>pause</span></p>\n\n<p class=MsoNormal>Long press any script to delete it</p>\n\n<p class=MsoNormal>If you have any suggestions or problem please mail me at: <a\n href=mailto:support@afellapps.com>support@afellapps.com</a> </p>\n\n <p class=MsoNormal>&nbsp;</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n</div>\n\n</body>\n\n</html>"
+  "<html>\n<head>\n<style>\n</style>\n</head>\n<body lang=zh-CN link=#0563C1 vlink=#954F72>\n<div class=WordSection1>\n<p class=MsoNormal>按<b><span style='background:red'>+按钮</span></b>创建您的第一个脚本，您可以直接粘贴脚本或打开一个文件</p>\n\n<p class=MsoNormal>准备好脚本后，按<span style='background:red'>播放按钮</span>在提词器中开始播放剧本</p>\n\n<p class=MsoNormal>您可以在<b>应用内</b>或<b>浮窗模式</b>中开始，在阅读剧本时可以使用其他应用（如相机）。</p>\n \n<p class=MsoNormal>底部有一个<b><u>速度条</u></b>，用于更改滚动速度<b><u>滚动速度</u></b></p>\n \n<p class=MsoNormal><b><u>用两根手指捏合或分开</u></b>以更改文本大小</p>\n\n<p class=MsoNormal>在滚动时单击文本以<span style='color:red'>暂停</span></p>\n\n<p class=MsoNormal>在主页列表上长按任何脚本以删除它</p>\n\n<p class=MsoNormal>如果您有任何建议或问题，请通过以下邮箱联系我：<a href=mailto:support@afellapps.com>support@afellapps.com</a></p>\n\n<p class=MsoNormal><b><u>予澄 汉化</u></b></p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n<p class=MsoNormal>&nbsp;</p>\n\n</div>\n</body>\n</html>"
+}
+{
+  "All"
+  "全部"
+}
+{
+  "Any"
+  "任一"
+}
+{
+  "Are you sure you want to delete"
+  "您确定要删除吗"
+}
+{
+  "Are you sure you would like to delete this item?"
+  "您确定要删除此项目吗？"
+}
+{
+  "Are you sure you would like to delete this tag?"
+  "您确定要删除此标记吗？"
+}
+{
+  "Are you sure you would like to load the settings from the selected item?"
+  "您确定要从所选项目加载设置吗？"
+}
+{
+  "Are you sure you would like to save the current settings to the selected item?"
+  "您确定要将当前设置保存到所选项目吗？"
+}
+{
+  "Bottom"
+  "底部"
+}
+{
+  "Checked"
+  "选中的"
+}
+{
+  "Collapse the bottom sheet"
+  "折叠底部纸张"
+}
+{
+  "Date created"
+  "创建日期"
+}
+{
+  "Default settings"
+  "默认设置"
+}
+{
+  "Draft"
+  "草稿"
+}
+{
+  "Drag handle"
+  "拖动控制柄"
+}
+{
+  "Drag handle double-tapped"
+  "双击拖动手柄"
+}
+{
+  "Edit tag"
+  "编辑标签"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部图纸"
+}
+{
+  "Filter Settings"
+  "过滤器设置"
+}
+{
+  "Filter by tag"
+  "按标签筛选"
+}
+{
+  "Highlighted Text Position"
+  "高亮聚焦框位置"
+}
+{
+  "Horizontally"
+  "对称翻转"
+}
+{
+  "Last modified"
+  "上次修改时间"
+}
+{
+  "Load"
+  "加载"
+}
+{
+  "Load settings"
+  "加载设置"
+}
+{
+  "Middle"
+  "中间"
+}
+{
+  "New Tag"
+  "新建标签"
+}
+{
+  "New item"
+  "新项目"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Ready"
+  "就绪"
+}
+{
+  "Rename"
+  "重命名"
+}
+{
+  "Save File Settings"
+  "保存文件设置"
+}
+{
+  "Save colors"
+  "保存颜色设置"
+}
+{
+  "Save settings"
+  "保存设置"
+}
+{
+  "Save speed"
+  "保存滚动速度"
+}
+{
+  "Save text settings (font size, margins,text alignment, space between lines)"
+  "保存文本格式（字号、边距/行距、对齐方式）"
+}
+{
+  "Save the current settings, or load a previously saved settings"
+  "保存当前设置，或加载以前保存的设置"
+}
+{
+  "Save/Load settings"
+  "保存/加载设置"
+}
+{
+  "Scripts?"
+  "脚本？"
+}
+{
+  "Select tags"
+  "选择标签"
+}
+{
+  "Settings have been saved"
+  "设置已保存"
+}
+{
+  "Show only the scripts that contain all of the selected filter tags"
+  "仅显示包含所有选定标签的脚本"
+}
+{
+  "Show the scripts that contain any of the selected filter tags"
+  "显示包含任一选定标签的脚本"
+}
+{
+  "Tags"
+  "标签"
+}
+{
+  "The app will save the latest settings that you applied for this file, and load the settings the next time you open this file"
+  "应用将保存并在您下次打开此文件时加载这些设置"
+}
+{
+  "The custom file settings have been applied"
+  "已应用自定义文件设置"
+}
+{
+  "Top"
+  "顶部"
+}
+{
+  "Vertically"
+  "垂直+对称翻转"
+}
+{
+  "icon"
+  "偶像"
+}
+{
+  "icon path"
+  "图标路径"
+}

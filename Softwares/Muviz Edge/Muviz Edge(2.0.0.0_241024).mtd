@@ -1,0 +1,1676 @@
+{
+  "%1$s dimness after %2$s sec"
+  "在%2$s秒后暗度设为%1$s"
+}
+{
+  "%1$s hours"
+  "%1$s 小时"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题。请重试"
+}
+{
+  "%1$s min%2$s preview left"
+  "预览剩余 %1$s min%2$s"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s 小时"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "- Display pop-up windows while running in the background"
+  "- 后台弹出界面"
+}
+{
+  "- Show on Lock screen"
+  "- 锁屏显示"
+}
+{
+  "<b>Unable to access Audio FX layers on your device, without which visualizer can't be generated.</b><br/><br/> Disable other music visualizers or try reinstalling the app & restarting your phone."
+  "<b>无法访问设备上的音频特效层，否则无法生成可视化程序。</b><br/><br/>禁用其他音乐可视化程序，或尝试重新安装应用程序并重启手机。"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "AOD"
+  "熄屏显示"
+}
+{
+  "AOD Lights"
+  "熄屏显示光效"
+}
+{
+  "AOD Music"
+  "熄屏显示音乐可视"
+}
+{
+  "AOD Notification"
+  "熄屏显示通知提示"
+}
+{
+  "AOD Timeout"
+  "息屏显示持续时长"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Add"
+  "添加"
+}
+{
+  "Add Colors"
+  "添加颜色"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Advanced  ›"
+  "高级 ›"
+}
+{
+  "All Apps"
+  "所有应用程序"
+}
+{
+  "All Media Apps"
+  "所有媒体应用程序"
+}
+{
+  "Allow"
+  "允许"
+}
+{
+  "Allow Ad to create a calendar event?"
+  "允许 Ad 创建日历事件？"
+}
+{
+  "Allow Ad to store image in Picture gallery?"
+  "允许广告在图片库中存储图片吗？"
+}
+{
+  "Allow app to send you notifications?"
+  "允许应用程序向您发送通知？"
+}
+{
+  "Always"
+  "总是"
+}
+{
+  "Always On Display"
+  "熄屏显示（AOD）"
+}
+{
+  "Answer"
+  "回答"
+}
+{
+  "Anti-Clockwise"
+  "逆时针"
+}
+{
+  "Applied"
+  "应用"
+}
+{
+  "Apply"
+  "应用"
+}
+{
+  "Auto Apply Album Colors"
+  "自动应用专辑颜色"
+}
+{
+  "Auto Start"
+  "自启动"
+}
+{
+  "Back"
+  "返回"
+}
+{
+  "Background Color"
+  "背景颜色"
+}
+{
+  "Backgrounds"
+  "背景"
+}
+{
+  "Battery"
+  "电池"
+}
+{
+  "Battery Status Color"
+  "电池颜色"
+}
+{
+  "Billing is in progress. Check your Google Play purchase history for more details."
+  "计费正在进行中。请查看 Google Play 购买历史记录了解详情。"
+}
+{
+  "Black"
+  "黑色"
+}
+{
+  "Body"
+  "主体"
+}
+{
+  "Bold"
+  "粗体"
+}
+{
+  "Bottom"
+  "底部"
+}
+{
+  "Brightness"
+  "亮度"
+}
+{
+  "Burn-in Protection"
+  "防烧屏"
+}
+{
+  "Calendar"
+  "日历"
+}
+{
+  "Camera"
+  "照相机"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Center"
+  "中心"
+}
+{
+  "Centered"
+  "居中"
+}
+{
+  "Change to next month"
+  "改到下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Character Color"
+  "字符颜色"
+}
+{
+  "Character Size"
+  "字符大小"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Check for Update"
+  "检查更新"
+}
+{
+  "Check your internet and try again"
+  "检查您的网络，然后再试一次"
+}
+{
+  "Checked"
+  "已检查"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Clock Background Color"
+  "时钟背景颜色"
+}
+{
+  "Clock Color"
+  "时钟颜色"
+}
+{
+  "Clock Size"
+  "时钟尺寸"
+}
+{
+  "Clock Style"
+  "时钟样式"
+}
+{
+  "Clock Weight"
+  "时钟重量"
+}
+{
+  "Clockwise"
+  "顺时针"
+}
+{
+  "Close on"
+  "关闭方式"
+}
+{
+  "Close on Fingerprint"
+  "禁用指纹"
+}
+{
+  "Close on Screen Off"
+  "关闭屏幕"
+}
+{
+  "Collapse"
+  "崩溃"
+}
+{
+  "Collapse the bottom sheet"
+  "折叠底板"
+}
+{
+  "Collections"
+  "自定义"
+}
+{
+  "Color 1"
+  "颜色 1"
+}
+{
+  "Color 2"
+  "颜色 2"
+}
+{
+  "Color 3"
+  "颜色 3"
+}
+{
+  "Color 4"
+  "颜色 4"
+}
+{
+  "Color removed"
+  "移除颜色"
+}
+{
+  "Contact Support"
+  "联系支持    ★予澄 汉化★"
+}
+{
+  "Controls Background Color"
+  "控制背景颜色"
+}
+{
+  "Controls Color"
+  "控制颜色"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Create calendar event"
+  "创建日历事件"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Dash Color"
+  "表盘颜色"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Date Color"
+  "日期颜色"
+}
+{
+  "Decline"
+  "下降"
+}
+{
+  "Define Screen Edges"
+  "自定义屏幕边缘"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Digital Clock"
+  "数字时钟"
+}
+{
+  "Dim Background"
+  "暗色背景"
+}
+{
+  "Dimness"
+  "暗色浓度"
+}
+{
+  "Direction"
+  "方向"
+}
+{
+  "Disable during Calls"
+  "通话时禁用"
+}
+{
+  "Disable on Battery Saver"
+  "禁用电池保护器"
+}
+{
+  "Disabled by Battery Saver"
+  "电池保护器禁用"
+}
+{
+  "Disabled by Off Schedule"
+  "由定时关闭功能禁用"
+}
+{
+  "Disables AOD when proximity sensor is blocked"
+  "当近距离传感器被遮挡时禁用熄屏显示，适用于装在口袋等情况"
+}
+{
+  "Don't allow"
+  "不允许"
+}
+{
+  "Don't enable for in-display sensors"
+  "不启用屏下指纹传感器"
+}
+{
+  "Don't show again"
+  "不再显示"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Double Tap"
+  "双击"
+}
+{
+  "Double tap to wake"
+  "双击唤醒"
+}
+{
+  "Drag handle"
+  "拖动把手"
+}
+{
+  "Drag handle double-tapped"
+  "双击拖动手柄"
+}
+{
+  "Draw over Apps"
+  "显示在其他应用上层"
+}
+{
+  "Edge Lighting"
+  "边缘光效"
+}
+{
+  "Edge Lights"
+  "边缘光效"
+}
+{
+  "Edit"
+  "编辑"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "End"
+  "结束"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "End date %1$s"
+  "结束日期 %1$s"
+}
+{
+  "Enjoying Muviz Edge?"
+  "喜欢 Muviz Edge 吗？"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Expand halfway"
+  "扩大一半"
+}
+{
+  "Expand the bottom sheet"
+  "展开底纸"
+}
+{
+  "Explore"
+  "预设"
+}
+{
+  "Fetch Colors from Album Art"
+  "从相册封面获取颜色"
+}
+{
+  "Fetch Colors from Wallpaper"
+  "从壁纸中获取颜色"
+}
+{
+  "Flip"
+  "翻转"
+}
+{
+  "Flip horizontally"
+  "水平翻转"
+}
+{
+  "Flip vertically"
+  "垂直翻转"
+}
+{
+  "For displays with rounded corners"
+  "手动适配不同的圆角显示屏"
+}
+{
+  "Function+"
+  "功能+"
+}
+{
+  "Gallery"
+  "画廊"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Glow"
+  "发光"
+}
+{
+  "Glow Color"
+  "发光颜色"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "Hang Up"
+  "挂断电话"
+}
+{
+  "Headline"
+  "标题"
+}
+{
+  "Height"
+  "振幅"
+}
+{
+  "Help us translate the app to your language"
+  "帮助我们将应用程序翻译成您的语言"
+}
+{
+  "Hide"
+  "隐藏"
+}
+{
+  "Hide after"
+  "自动隐藏时间"
+}
+{
+  "Hide on Fullscreen"
+  "全屏隐藏"
+}
+{
+  "Hide on Landscape"
+  "横屏时隐藏显示"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "Hour Color"
+  "时针颜色"
+}
+{
+  "How about rating on Play Store?"
+  "Play Store 上的评分如何？"
+}
+{
+  "Icon"
+  "图标"
+}
+{
+  "Idle"
+  "空闲"
+}
+{
+  "Image Dimness"
+  "图像暗度"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "It's Artist"
+  "这是艺术家"
+}
+{
+  "Keep Screen On"
+  "保持屏幕常亮"
+}
+{
+  "Length"
+  "长度"
+}
+{
+  "Light"
+  "灯光"
+}
+{
+  "Lights"
+  "灯光"
+}
+{
+  "Lines"
+  "线条"
+}
+{
+  "Link copied to clipboard"
+  "链接复制到剪贴板"
+}
+{
+  "Low Power after"
+  "低电量时"
+}
+{
+  "Mass"
+  "数目"
+}
+{
+  "Media View"
+  "媒体观点"
+}
+{
+  "Menu+"
+  "菜单+"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "Minute Color"
+  "分针颜色"
+}
+{
+  "Mirrored"
+  "镜像"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Music Controls"
+  "音乐控制"
+}
+{
+  "Music Overlay"
+  "音乐可视"
+}
+{
+  "Muviz Edge in Random Mode"
+  "随机模式下的 Muviz Edge"
+}
+{
+  "Navigate to current year %1$d"
+  "导航至当前年份 %1$d"
+}
+{
+  "Navigate to year %1$d"
+  "导航至 %1$d 年"
+}
+{
+  "Navigate up"
+  "回上一页"
+}
+{
+  "Never"
+  "从不"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务，它将自动更新。"
+}
+{
+  "No Apps"
+  "无应用程序"
+}
+{
+  "No audio"
+  "无音频"
+}
+{
+  "No media apps used recently."
+  "最近未使用媒体应用程序。"
+}
+{
+  "No notifications"
+  "无通知"
+}
+{
+  "No thanks"
+  "不，谢谢"
+}
+{
+  "Normal"
+  "正常"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Not now"
+  "现在没有"
+}
+{
+  "Not, really"
+  "没有，真的没有"
+}
+{
+  "Notification Color"
+  "通知颜色"
+}
+{
+  "Notification Light Duration"
+  "通知灯持续时间"
+}
+{
+  "Notification Preview"
+  "预览通知内容"
+}
+{
+  "Notifications"
+  "通知"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "好的"
+}
+{
+  "OK, sure"
+  "好的，当然"
+}
+{
+  "ON"
+  "关于"
+}
+{
+  "Off Schedule"
+  "定时关闭显示"
+}
+{
+  "On Music"
+  "播放音频时"
+}
+{
+  "Ongoing call"
+  "持续通话"
+}
+{
+  "Open ad when you're back online."
+  "重新上线后打开广告。"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Open navigation drawer"
+  "打开导航抽屉"
+}
+{
+  "Open on phone"
+  "在电话上打开"
+}
+{
+  "Orientation"
+  "显示方向"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Outdated version of <b>Muviz Navbar</b> is installed on your phone. Update the app or turn it off, for better experience."
+  "您的手机上安装了过时版本的 <b>Muviz 导航条</b>。更新应用程序或将其关闭，以获得更好的体验。"
+}
+{
+  "Owned"
+  "自有"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "Padding"
+  "内边距"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Particle Color"
+  "粒子颜色"
+}
+{
+  "Particles"
+  "粒子"
+}
+{
+  "Pattern Dimness"
+  "图案暗度"
+}
+{
+  "Patterns to Shuffle"
+  "预设图案"
+}
+{
+  "Paused on"
+  "暂停"
+}
+{
+  "Peek"
+  "盈亏"
+}
+{
+  "Pick Image"
+  "自选图片"
+}
+{
+  "Pixel shifts AOD elements periodically"
+  "定期移动息屏显示位置，避免OLED等类型屏幕出现图像残影"
+}
+{
+  "Playing on"
+  "播放"
+}
+{
+  "Pocket Mode"
+  "口袋模式"
+}
+{
+  "Position"
+  "位置"
+}
+{
+  "Precise Controls & Details"
+  "精确控制和细节"
+}
+{
+  "Premium"
+  "高级"
+}
+{
+  "Random Mode"
+  "随机模式"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围启动"
+}
+{
+  "Recently Used Media Apps"
+  "最近使用的媒体应用程序"
+}
+{
+  "Regular"
+  "常规"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "Removed from collections"
+  "已从列表中删除"
+}
+{
+  "Required Permissions"
+  "所需权限"
+}
+{
+  "Requires App Usage Access"
+  "需要使用情况访问权限"
+}
+{
+  "Requires Audio & Notification Access"
+  "需要音频和通知访问权限"
+}
+{
+  "Requires Audio Access"
+  "需要音频权限"
+}
+{
+  "Requires Notification Access"
+  "需要通知使用权限"
+}
+{
+  "Requires Phone State Access"
+  "需要获取电话信息权限"
+}
+{
+  "Requires Storage Access"
+  "需要存储访问权限"
+}
+{
+  "Reset All"
+  "全部重置"
+}
+{
+  "Ring Color"
+  "标记颜色"
+}
+{
+  "Rotate"
+  "旋转"
+}
+{
+  "Rotate counter clockwise"
+  "逆时针旋转"
+}
+{
+  "Rotation"
+  "旋转"
+}
+{
+  "Roundness"
+  "弧度"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Save image"
+  "保存图片"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "Second Color"
+  "秒针颜色"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Select <b>Muviz Edge &#8227; Permit usage access</b> from next screen"
+  "在下一屏幕中选择 <b>Muviz Edge &#8227; 授权使用情况访问权限</b>"
+}
+{
+  "Select <b>Muviz Edge</b> from next screen"
+  "在跳转页面授权 <b>Muviz Edge</b"
+}
+{
+  "Select <b>Permissions &#8227; Microphone &#8227; Allow</b> from next screen"
+  "在跳转页面授予 <b>权限 &#8227; 麦克风 &#8227; 允许</b>"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select source"
+  "选择来源"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Shadow Color"
+  "阴影颜色"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Show"
+  "显示"
+}
+{
+  "Show Date"
+  "显示日期"
+}
+{
+  "Show Notifications"
+  "显示通知"
+}
+{
+  "Show Status"
+  "显示状态"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show on"
+  "显示"
+}
+{
+  "Show on Screen Lock"
+  "锁屏显示时机"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Shows around screen edges"
+  "屏幕边缘显示"
+}
+{
+  "Shows on screen lock"
+  "屏幕锁定时显示"
+}
+{
+  "Shows random viz on unsupported audio"
+  "在不支持的音频上显示随机可视化视图"
+}
+{
+  "Side Sheet"
+  "侧页"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Single Tap"
+  "单击"
+}
+{
+  "Size"
+  "尺寸"
+}
+{
+  "Something went wrong. Check your internet connection and try again."
+  "出错了。请检查网络连接并重试。"
+}
+{
+  "Spacing"
+  "间距"
+}
+{
+  "Speed"
+  "速度"
+}
+{
+  "Spread"
+  "平滑"
+}
+{
+  "Start"
+  "开始"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date %1$s"
+  "开始日期 %1$s"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择：%1$s - 结束日期选择：%2$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Start playing some music"
+  "开始播放音乐"
+}
+{
+  "Style 1"
+  "样式 1"
+}
+{
+  "Style 10"
+  "样式 10"
+}
+{
+  "Style 11"
+  "样式 11"
+}
+{
+  "Style 12"
+  "样式 12"
+}
+{
+  "Style 13"
+  "样式 13"
+}
+{
+  "Style 14"
+  "样式 14"
+}
+{
+  "Style 15"
+  "样式 15"
+}
+{
+  "Style 2"
+  "样式 2"
+}
+{
+  "Style 3"
+  "样式 3"
+}
+{
+  "Style 4"
+  "样式 4"
+}
+{
+  "Style 5"
+  "样式 5"
+}
+{
+  "Style 6"
+  "样式 6"
+}
+{
+  "Style 7"
+  "样式 7"
+}
+{
+  "Style 8"
+  "样式 8"
+}
+{
+  "Style 9"
+  "样式 9"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Support Translation"
+  "支持翻译"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Symbol"
+  "符号"
+}
+{
+  "Symbol Size"
+  "符号大小"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Tap to switch to Calendar view"
+  "单击切换到日历视图"
+}
+{
+  "Tap to switch to year view"
+  "单击切换到年份视图"
+}
+{
+  "Test Ad"
+  "测试广告"
+}
+{
+  "Text"
+  "文本"
+}
+{
+  "Text Align"
+  "文本对齐"
+}
+{
+  "Text Color"
+  "文字颜色"
+}
+{
+  "Text Size"
+  "文字大小"
+}
+{
+  "Text Style"
+  "文本样式"
+}
+{
+  "Thanks for your interest.\nWe will share more once you're back online."
+  "感谢您的关注。\n一旦您重新上线，我们将与您分享更多信息。"
+}
+{
+  "That Cool Song"
+  "那首很酷的歌"
+}
+{
+  "Theme Color"
+  "主题颜色"
+}
+{
+  "Thickness"
+  "粗细"
+}
+{
+  "Thin"
+  "薄型"
+}
+{
+  "This is a notification preview"
+  "这是通知预览"
+}
+{
+  "This music app doesn't provide necessary audio fx data to visualize the music. Switched to random visualizer."
+  "这款音乐程序未提供可视化音乐所需的效果数据。请切换到随机模式。"
+}
+{
+  "Time Delay"
+  "时间延迟"
+}
+{
+  "To show visualizer over other apps"
+  "允许程序显示在其他应用上层"
+}
+{
+  "Today %1$s"
+  "今天 %1$s"
+}
+{
+  "Top"
+  "顶部"
+}
+{
+  "Touch & hold for fullscreen preview"
+  "轻触并按住进行全屏预览"
+}
+{
+  "Touch for more options."
+  "触摸可获得更多选项。"
+}
+{
+  "Try Free"
+  "免费试用"
+}
+{
+  "Turn off Random"
+  "关闭随机"
+}
+{
+  "Turn off the screen <b>while charging</b> or <b>music play</b> to activate"
+  "关闭屏幕<b>充电</b>或<b>音乐播放</b>以启动"
+}
+{
+  "Turn off the screen <b>while charging</b> to activate"
+  "充电时关闭屏幕<b></b>以激活"
+}
+{
+  "Turn off the screen for AOD Mode"
+  "息屏显示模式时关闭屏幕"
+}
+{
+  "Turn off the screen on <b>music play</b> to activate"
+  "在<b>音乐播放</b>时关闭屏幕以激活"
+}
+{
+  "Turn off the screen to activate"
+  "锁屏后激活显示"
+}
+{
+  "Unable to find a mail app.\nMail us at"
+  "无法找到邮件应用程序。\n请发送邮件至"
+}
+{
+  "Unable to find a supporting app."
+  "无法找到支持应用程序。"
+}
+{
+  "Unable to find required settings on your device. Enable it manually."
+  "无法在设备上找到所需设置。请手动启用。"
+}
+{
+  "Undo"
+  "撤消"
+}
+{
+  "Unlimited Access"
+  "无限制访问"
+}
+{
+  "Unlocked"
+  "已解锁"
+}
+{
+  "Unmute your music volume"
+  "取消音乐音量静音"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "Update App"
+  "更新应用程序"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "Use AOD Screen Brightness"
+  "使用熄屏显示光效"
+}
+{
+  "Use Audio only from Media Apps"
+  "仅在指定播放器播放音频时启用"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "Value"
+  "价值"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Visible over Apps"
+  "在指定应用上显示可视化效果"
+}
+{
+  "Viz Color 1"
+  "Viz 颜色 1"
+}
+{
+  "Viz Color 2"
+  "Viz 颜色 2"
+}
+{
+  "Viz Color 3"
+  "Viz 颜色 3"
+}
+{
+  "Viz Height"
+  "视野高度"
+}
+{
+  "Viz Speed"
+  "查看速度"
+}
+{
+  "Viz Spread"
+  "Viz 传播"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Wallpaper"
+  "壁纸"
+}
+{
+  "Watch a Video Ad"
+  "观看视频广告"
+}
+{
+  "Waves"
+  "波浪"
+}
+{
+  "We'll send you a notification with a link to the advertiser site."
+  "我们将向您发送带有广告商网站链接的通知。"
+}
+{
+  "While Charging"
+  "充电时"
+}
+{
+  "Wiggle"
+  "扭动"
+}
+{
+  "Would you like <b>translating the app</b> to your language?"
+  "您希望<b>将应用程序</b>翻译成您的语言吗？"
+}
+{
+  "Would you mind giving us some feedback?"
+  "您能给我们一些反馈意见吗？"
+}
+{
+  "Yes!"
+  "是的！"
+}
+{
+  "You are back online! Continue learning about %s"
+  "您已重新上线！继续了解 %s"
+}
+{
+  "You are back online! Let's pick up where we left off"
+  "您已重新上线！让我们继续刚才的话题"
+}
+{
+  "You have"
+  "您有"
+}
+{
+  "You may require pro purchase to apply these edits."
+  "您需要购买专业版才能应用这些编辑"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "侧灯-四周"
+  "侧灯·四周"
+}
+{
+  "侧灯-脉冲"
+  "侧灯·脉冲"
+}
+{
+  "彩带-两侧"
+  "彩带·两侧"
+}
+{
+  "彩带-四周"
+  "彩带·四周"
+}
+{
+  "律动-上下"
+  "律动·上下"
+}
+{
+  "律动-两侧"
+  "律动·两侧"
+}
+{
+  "律动-四周"
+  "律动·四周"
+}
+{
+  "条纹-上下"
+  "条纹·上下"
+}
+{
+  "条纹-两侧"
+  "条纹·两侧"
+}
+{
+  "波浪-上下"
+  "波浪·上下"
+}
+{
+  "波浪-四周"
+  "波浪·四周"
+}
+{
+  "波纹-两侧"
+  "波纹·两侧"
+}
+{
+  "流溢-两侧"
+  "流溢·两侧"
+}
+{
+  "流溢-四周"
+  "流溢·四周"
+}
+{
+  "流溢-底部"
+  "流溢·底部"
+}
+{
+  "流溢-角落"
+  "流溢·角落"
+}
+{
+  "涟漪-上下"
+  "涟漪·上下"
+}
+{
+  "涟漪-两侧"
+  "涟漪·两侧"
+}
+{
+  "灯串-固定"
+  "灯串·固定"
+}
+{
+  "灯串-流动"
+  "灯串·流动"
+}
+{
+  "飘带-上下"
+  "飘带·上下"
+}
+{
+  "飘带-两侧"
+  "飘带·两侧"
+}

@@ -1,0 +1,719 @@
+<phyphox version="1.14" locale="en">
+  <title>Spring</title>
+  <category>Mechanics</category>
+  <icon format="base64">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</icon>
+  <description>
+        Analyze the frequency and period of a spring oscillator.
+
+        This experiment uses the accelerometer to measure the oscillator movement and calculates the oscillation period T. Additionally, on the resonance tab, it plots the amplitude against the detected frequency. This way, you can construct a driven oscillator and change its frequency to measure a resonance curve.
+
+        Further details:
+        The oscillation period is obtained through the autocorrelation of the sum of all three accelerometer components. The autocorrelation is then analyzed for its first maximum for a first estimate and then the last maximum of the autocorrelation is used to get a more precise result.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Spring</link>
+  <link label="x / y / z">http://phyphox.org/sensors/</link>
+  <link label="Video" highlight="true">https://youtu.be/VbL4IInVAO4</link>
+  <translations>
+    <translation locale="de">
+      <title>Federpendel</title>
+      <category>Mechanik</category>
+      <description>
+        Misst die Frequenz und Periode eines Federpendels.
+
+                Dieses Experiment nutzt den Beschleunigungssensor um die Pendelbewegung zu erfassen und berechnet hieraus die Schwingungsperiode T. Außerdem wird auf der Resonanz-Seite die Amplitude der Schwingung gegen die ermittelte Frequenz geplottet. Auf diese Weise kannst du ein getriebenes Pendel (erzwungene Schwingung) bauen und durch verstellen der Frequenz die Resonanz ausmessen.
+
+                Weitere Details:
+                Die Schwingungsperiode wird durch eine Autokorrelation der Summe der drei Komponenten des Beschleunigungs-Vektors ermittelt. Im Ergebnis der Autokorrelation wird dann nach dem ersten Maximum gesucht, die als erste Schätzung der Frequenz genutzt wird. Die genaue Frequenz folgt dann aus dem letzten Maximum der berechneten Autokorrelation.
+    </description>
+      <string original="Results">Ergebnisse</string>
+      <string original="Period">Periode</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="Resonance">Resonanz</string>
+      <string original="Autocorrelation">Autokorrelation</string>
+      <string original="Raw Data">Rohdaten</string>
+      <string original="Accelerometer z">Beschleunigung z</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Auf dieser Seite wird die Amplitude gegen die ermittelte Frequenz aufgetragen. Du kannst hiermit die Resonanz eines getriebenen Pendels ausmessen. Die Amplitude wird auf den Bereich 0 bis 1 normiert.</string>
+      <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
+      <link label="Video" highlight="true">https://youtu.be/IJ_x9GJ3UPw</link>
+      <string original="Accelerometer x">Beschleunigung x</string>
+      <string original="Accelerometer y">Beschleunigung y</string>
+      <string original="Rel. amplitude">Rel. Amplitude</string>
+      <string original="correlation">Korrelation</string>
+    </translation>
+    <translation locale="cs">
+      <title>Pružina</title>
+      <category>Mechanika</category>
+      <description>
+        Analyzuje frekvenci a periodu pružinového oscilátoru.
+
+Tento experiment používá akcelerometr k měření pohybu oscilátoru a vypočítává periodu kmitání T. Dále, v záložce rezonance modul vykresluje graf závislosti amplitudy na frekvenci. Takto můžete pomocí buzení oscilátoru a následné změny frekvence kmitání určit jeho rezonanční křivku.
+
+Další detaily:
+Perioda kmitání je získána autokorelací součtu všech složek zrychlení. První maximum autokorelace je použito k prvotnímu odhadu hodnoty a ten je pak zpřesněn pomocí posledního maxima autokorelace.
+    </description>
+      <string original="Results">Výsledky</string>
+      <string original="Period">Perioda</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="Resonance">Rezonance</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">V této záložce je amplituda vynesena v závislosti na zjištěné frekvenci. Můžete tak měřit rezonanci buzeného oscilátoru. Amplituda je normována na rozsah 0 až 1.</string>
+      <string original="Autocorrelation">Autokorelace</string>
+      <string original="Raw Data">Neupravená data</string>
+      <string original="Accelerometer z">Akcelerometr z</string>
+      <string original="Accelerometer x">Akcelerometr x</string>
+      <string original="Accelerometer y">Akcelerometr y</string>
+      <string original="Rel. amplitude">Rel. amplituda</string>
+      <string original="correlation">korelace</string>
+    </translation>
+    <translation locale="pl">
+      <title>Sprężyna</title>
+      <category>Mechanika</category>
+      <description>
+        Przeprowadź analizę częstotliwości drgań oraz okresu ruchu wahadła sprężynowego.
+
+        W tym eksperymencie wykorzystywany jest akcelerometr do określania okresu T ruchu drgającego wahadła sprężynowego. Dodatkowo, w zakładce 'Rezonans', wizualizowany jest wykres zależności amplitudy jako funkcji częstotliwości. W ten sposób można zbudować oscylator z siłą wymuszającą i określić krzywą rezonansową układu drgającego.
+
+        Dodatkowe informacje:
+        Okres drgań jest wyznaczany w oparciu o autokorelacę sumy trzech sładowych przyspieszenia rejestrowanych przez urządzenie. Funkcja autokorelacji jest następnie analizowana i określane jest jej pierwsze maksimum, ostatnie maksimum jest wykorzystywane do poprawy dokładności oszacowania.
+    </description>
+      <string original="Results">Rezultaty</string>
+      <string original="Period">Okres</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">W tej zakładce wizualizowana jest zależność apmlitudy drgań od ich częstotliwości. Zależność ta może zostać wykorzystana do badania wahadła z siłą wymuszającą. Amplituda jest znormalizowana (względna) i jej wartość zawiera się w przedziale od 0 do 1.</string>
+      <string original="Autocorrelation">Autokorelacja</string>
+      <string original="Raw Data">Surowe dane</string>
+      <string original="Accelerometer z">Akcelerometr - składowa z</string>
+      <string original="Accelerometer x">Akcelerometr - składowa x</string>
+      <string original="Accelerometer y">Akcelerometr - składowa y</string>
+      <string original="Rel. amplitude">Amplituda odniesienia</string>
+      <string original="correlation">Korelacja</string>
+    </translation>
+    <translation locale="nl">
+      <title>Veer</title>
+      <category>Mechanica</category>
+      <description>
+        Bepaal de frequentie en de periode van een trillend massa-veer systeem.
+
+         In dit experiment wordt de accelerometer gebruikt om de harmonische trilling van een massa-veer systeem te onderzoeken en de periode T te berekenen. Bovendien wordt op het tabblad 'Resonantie' de amplitude uitgezet tegenover de berekende frequentie. Op deze manier kun je een gedwongen oscillator construeren en de frequentie ervan wijzigen om een resonantiecurve op te stellen.
+
+         Verdere details:
+         De periode wordt verkregen door de autocorrelatie van de som van de drie de accelerometerwaarden (x,y,z). De autocorrelatie wordt vervolgens geanalyseerd op het eerste maximum voor een eerste schatting en vervolgens wordt het laatste maximum van de autocorrelatie gebruikt om een nauwkeuriger resultaat te verkrijgen.
+    </description>
+      <string original="Results">Resultaten</string>
+      <string original="Period">Periode</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="Resonance">Resonantie</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Op dit tabblad wordt de amplitude uitgezet tegen de gemeten frequentie. Je kunt dit gebruiken om de resonantie van een gedwongen oscillator te bestuderen. De amplitude is genormaliseerd op een bereik van 0 tot 1.</string>
+      <string original="Autocorrelation">Autocorrelatie</string>
+      <string original="Raw Data">Onbewerkte data</string>
+      <string original="correlation">correlatie</string>
+    </translation>
+    <translation locale="ru">
+      <title>Пружины</title>
+      <category>Механика</category>
+      <description>
+        Проанализируйте частоту и период пружинного осциллятора.
+
+       Этот эксперимент использует акселерометр для измерения движения осциллятора и вычисляет период колебаний T. Кроме того, в меню «Резонанс» он отображает амплитуду по обнаруженной частоте. Таким образом, вы можете получить вынужденные колебания и изменить их частоту для измерения резонансна.
+
+       Дальнейшие подробности:
+       Период колебаний получается через автокорреляцию суммы всех трех компонентов акселерометра. Затем автокорреляция анализируется по первому максимуму для первичной оценки, а последний максимум автокорреляции используется для получения более точного результата.
+    </description>
+      <string original="Results">Результаты</string>
+      <string original="Period">Период</string>
+      <string original="Frequency">Частота</string>
+      <string original="Resonance">Резонанс</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">На этом регистре амплитуда отображается на фоне измеренной частоты. Вы можете использовать эту функцию для измерения резонанса вынужденных колебаний осциллятора. Амплитуда нормируется в диапазоне от 0 до 1.</string>
+      <string original="Autocorrelation">Автокорреляция</string>
+      <string original="Raw Data">Исходные данные</string>
+      <string original="Accelerometer x">Акселерометр x</string>
+      <string original="Accelerometer y">Акселерометр y</string>
+      <string original="Accelerometer z">Акселерометр z</string>
+      <string original="Rel. amplitude">Отн. амплитуда</string>
+      <string original="correlation">корреляция</string>
+    </translation>
+    <translation locale="it">
+      <title>Molla</title>
+      <category>Meccanica</category>
+      <description>
+        Analizza la frequenza e il periodo di oscillazione di una molla.
+
+	Questo esperimento utilizza l'accelerometro per misurare il movimento oscillatorio e calcolare il periodo dell'oscillazione T. Inoltre, l'ampiezza in funzione della frequenza misurata verrà rappresentata sulla scheda "risonanza". In questo modo potrai costruire un oscillatore forzato e cambiarne la frequenza per misurare una curva di risonanza.
+
+	Ulteriori dettagli:
+	Il periodo dell'oscillazione è ottenuto attraverso l'autocorrelazione della somma di tutte le tre componenti misurate dall'accelerometro. L'autocorrelazione viene analizzata per ottenere il primo massimo per una prima stima e poi l'ultimo massimo viene utilizzato per ottenere un risultato più preciso.
+    </description>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Resonance">Risonanza</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">In questa sezione, si fa un grafico dell'ampiezza in funzione della frequenza rilevata. Puoi usarla per misurare la risonanza di un oscillatore forzato. L'ampiezza è normalizzata su un intervallo da 0 a 1.</string>
+      <string original="Autocorrelation">Autocorrelazione</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Accelerometer x">Accelerazione x</string>
+      <string original="Accelerometer y">Accelerazione y</string>
+      <string original="Accelerometer z">Accelerazione z</string>
+      <string original="Rel. amplitude">Amp. relativa</string>
+      <string original="correlation">correlazione</string>
+    </translation>
+    <translation locale="el">
+      <title>Ελατήριο</title>
+      <category>Μηχανική</category>
+      <description>
+        Ανάλυση συχνότητας και περιόδου ενός ταλαντωτή με ελατήριο.
+
+        Το πείραμα χρησιμοποιεί το επιταχυνσιόμετρο για να μελετήσει την κίνηση του ταλαντωτή και να υπολογίσει την περίοδο ταλάντωσης Τ. Επιπλέον στην καρτέλα "συντονισμός"  σχεδιάζει το πλάτος σαν συνάρτηση της μετρούμενης συχνότητας. Μ' αυτό τον τρόπο μπορείτε να κατασκευάσετε ένα σύστημα εξαναγκασμένης ταλάντωσης και αλλάζοντας τη συχνότητα να κατασκευάσετε μια καμπύλη συντονισμού.
+
+        Παραπάνω πληροφορίες:
+        Η περίοδος ταλάντωσης υπολογίζετε από την αυτοσυσχέτιση (autocorrelation) του αθροίσματος των τριών συνιστωσών του επιταχυνσιόμετρου. Η αυτοσυσχέτιση στη συνέχεια αναλύεται για το πρώτο της μέγιστο για μια πρώτη εκτίμηση και στη συνέχεια το τελευταίο μέγιστο χρησιμοποιείται για την εύρεση ακριβέστερου αποτελέσματος.
+    </description>
+      <string original="Results">Αποτελέσματα</string>
+      <string original="Period">Περίοδος</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="Resonance">Συντονισμός</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Σε αυτή την καρτέλα, το πλάτος σχεδιάζεται σε συνάρτηση με την υπολογιζόμενη συχνότητα. Μπορείτε έτσι να βρείτε τη συχνότητα συντονισμού σε μια εξαναγκασμένη ταλάντωση. Το πλάτος κανονικοποιείται σε μια κλίμακα από 0 έως 1.</string>
+      <string original="Autocorrelation">Αυτοσυσχέτιση</string>
+      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Accelerometer x">Επιταχυνσιόμετρο x</string>
+      <string original="Accelerometer y">Επιταχυνσιόμετρο y</string>
+      <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
+      <string original="Rel. amplitude">Σχετ. πλάτος</string>
+      <string original="correlation">συσχέτιση</string>
+    </translation>
+    <translation locale="ja">
+      <title>ばね</title>
+      <category>力学・運動</category>
+      <description>
+        ばね発振器の周波数と周期の解析．
+
+本実験は発振器の動作を測定するために加速度計を使用し，発振器の周期Ｔを計算する．さらに，共振タブには検知された周波数に対する振幅がプロットされる．このように駆動されている発振器を解析的に再構成し，周波数を変更しながら共振曲線を測定することが可能である．
+    
+周波数の決定方法
+加速度成分の総和の自己相関を計算し振動周期を計算することで振動周波数を決定します．自己相関の第一極大から周期を概算し，その整数倍付近の極大のうち，観測できた最終極大値を用いて振動周期を決定します．
+    </description>
+      <string original="Results">結果</string>
+      <string original="Period">周期</string>
+      <string original="Frequency">周波数</string>
+      <string original="Resonance">共振</string>
+      <string original="Rel. amplitude">相対振幅</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">このタブでは，検知した周波数に対して振幅がプロットされます．駆動する発振器の共振周波数を測定するために使用可能です．振幅は0から1の範囲において規格化されます．</string>
+      <string original="Autocorrelation">自己相関</string>
+      <string original="correlation">相関係数</string>
+      <string original="Raw Data">センサー出力</string>
+      <string original="Accelerometer x">加速度計 x</string>
+      <string original="Accelerometer y">加速度計 y</string>
+      <string original="Accelerometer z">加速度計 z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Mola</title>
+      <category>Mecânica</category>
+      <description>
+        Analisa a frequência e o período de um oscilador massa-mola.
+
+        Este experimento usa o acelerômetro para medir o movimento de oscilação e calcula o período T do sistema. Na aba de ressonância, é plotado a amplitude contra a frequência. Desta maneira, você pode construir um oscilador forçado e mudar a frequência para medir a curva de ressonância.
+
+        Outros detalhes:
+        O período de oscilação é obtido através da autocorrelação da soma dos três componentes da aceleração medida. A autocorrelação é então utilizada com o primeiro máximo para uma estimativa inicial e o último máximo para aprimorar o resultado.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="Period">Período</string>
+      <string original="Frequency">Frequência</string>
+      <string original="Resonance">Ressonância</string>
+      <string original="Rel. amplitude">Amplitude Relat</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Nesta aba, a amplitude é plotada contra a frequência. Você pode utilizar isto para medir a ressonância de um oscilador forçado. A amplitude é normalizada entre 0 e 1.</string>
+      <string original="Autocorrelation">Autocorrelação</string>
+      <string original="correlation">correlação</string>
+      <string original="Raw Data">Sensores</string>
+      <string original="Accelerometer x">Acelerômetro x</string>
+      <string original="Accelerometer y">Acelerômetro y</string>
+      <string original="Accelerometer z">Acelerômetro z</string>
+    </translation>
+    <translation locale="tr">
+      <title>Yay</title>
+      <category>Mekanik</category>
+      <description>
+        Bir yaylı sarkacın frekans ve periyodunu analiz edin.
+
+        Bu deney, sarkacın hareketini ölçmek için ivmeölçer kullanır ve salınım periyodu T'yi hesaplar. Ek olarak, rezonans sekmesinde, genliği tespit edilen frekansa göre çizer. Bu şekilde, yaylı bir sarkaç oluşturabilir ve bir rezonans eğrisini ölçmek için frekansını değiştirebilirsiniz.
+
+        Daha fazla ayrıntı:
+        Salınım periyodu, üç ivmeölçer bileşeninin toplamının otokorelasyonuyla elde edilir. Otokorelasyon daha sonra ilk tahmin değeri için ilk maksimum değerini analiz eder ve ardından daha hassas bir sonuç elde etmek için otokorelasyonun son maksimum değeri kullanılır.
+    </description>
+      <string original="Results">Sonuçlar</string>
+      <string original="Period">Periyot</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Resonance">Rezonans</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Bu sekmede, genlik tespit edilen frekansa göre çizilir.  Sürülü osilatörün rezonansını ölçmek için bunu kullanabilirsiniz. Genlik 0'dan 1'e normalize edilir.</string>
+      <string original="Autocorrelation">Otokorelasyon</string>
+      <string original="correlation">bağıntı</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Accelerometer x">İvmeölçer X</string>
+      <string original="Accelerometer y">İvmeölçer Y</string>
+      <string original="Accelerometer z">İvmeölçer Z</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>彈簧</title>
+      <category>力學</category>
+      <description>
+        分析彈簧振盪器的頻率及週期。
+
+	此實驗利用加速儀量測振動模式並計算振動週期T。除此之外，在共振的標籤頁中，會顯示振幅對偵測頻率做圖。這樣一來，你可以建造一個振盪器並且改變他的頻率以量測共振曲線。
+
+	更多細節：
+	振動週期透過陀螺儀的三個分量的總和的自相關性得知。分析第一個峰值與第一個估計值得自相關的程度，並透過最後一個峰值的自相關得更精確的結果。
+    </description>
+      <string original="Results">結果</string>
+      <string original="Period">週期</string>
+      <string original="Frequency">頻率</string>
+      <string original="Resonance">共振</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">這個分頁中顯示振幅對測得的頻率的作圖。你可以用此量測一個振盪器的共振頻率。振幅已歸一化成0至1。</string>
+      <string original="Autocorrelation">自相關</string>
+      <string original="Raw Data">原始數據</string>
+      <string original="Accelerometer x">x方向加速儀</string>
+      <string original="Accelerometer y">y方向加速儀</string>
+      <string original="Accelerometer z">z方向加速儀</string>
+    </translation>
+    <translation locale="fr">
+      <title>Ressort</title>
+      <category>Mécanique</category>
+      <description>
+        Analyse la fréquence et la période des oscillations d’un ressort.
+
+        Cette expérience utilise l'accéléromètre pour mesurer le mouvement de l'oscillateur et déterminer la période d'oscillation T. Dans l'onglet « résonance », l'amplitude des oscillations est tracée en fonction de la fréquence : cela permet de tracer une courbe de résonance dans le cas d'un système à oscillations forcées.
+
+        Plus précisément :
+        La période d'oscillation est obtenue à partir de l'autocorrélation de la somme des trois composantes de l’accéléromètre. L’autocorrélation de cette quantité est analysée en cherchant son premier maximum pour obtenir une première estimation, puis son dernier maximum pour obtenir un résultat plus précis.
+    </description>
+      <string original="Results">Résultats</string>
+      <string original="Period">Période</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="Resonance">Résonance</string>
+      <string original="Rel. amplitude">Amplitude rel.</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Dans cet onglet, l'amplitude est tracée en fonction de la fréquence mesurée. Cela permet de tracer la courbe de résonnance d’un pendule en oscillations forcées. L'amplitude est normalisée de 0 à 1.</string>
+      <string original="Autocorrelation">Autocorrélation</string>
+      <string original="correlation">corrélation</string>
+      <string original="Raw Data">Données brutes</string>
+      <string original="Accelerometer x">Accélération selon x</string>
+      <string original="Accelerometer y">Accélération selon y</string>
+      <string original="Accelerometer z">Accélération selon z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Con lắc lò xo</title>
+      <category>Cơ học</category>
+      <description>
+        Phân tích tần số và chu kỳ của con lắc lò xo.
+
+        Thí nghiệm này sử dụng gia tốc kế để đo chuyển động của con lắc và tính toán chu kỳ dao động T. Ngoài ra, trên mục cộng hưởng, nó sẽ vẽ đồ thị biên độ theo tần số phát hiện. Bằng cách này, bạn có thể xây dựng một bộ dao động cưỡng bức và thay đổi tần số của nó để đo đường cong cộng hưởng.
+
+        Thông tin thêm:
+        Chu kỳ dao động thu được thông qua sự kết hợp cả ba thành phần gia tốc kế. Sự tương quan giữa ba gia tốc kế được phân tích để có biên độ cực đại đầu tiên cho kết quả gần đúng và sau đó tính biên độ cực đại sau cùng để có kết quả tốt hơn.
+    </description>
+      <string original="Results">Kết quả</string>
+      <string original="Period">Chu kỳ</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Resonance">Cộng hưởng</string>
+      <string original="Rel. amplitude">Biên độ</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">Trên mục này, biên độ được vẽ theo tần số được phát hiện. Bạn có thể sử dụng điều này để đo cộng hưởng của bộ dao động cưỡng bức. Biên độ được chuẩn hóa thành phạm vi từ 0 đến 1.</string>
+      <string original="Autocorrelation">Tự tương quan</string>
+      <string original="correlation">tương quan</string>
+      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Accelerometer x">Gia tốc kế x</string>
+      <string original="Accelerometer y">Gia tốc kế y</string>
+      <string original="Accelerometer z">Gia tốc kế z</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>弹簧</title>
+      <category>力学</category>
+      <description>
+        分析一个弹簧振子的频率和周期。
+
+        本实验利用加速度计来测量振子运动并计算振动周期T。此外，在“共振”页面，以振幅与测得频率之比绘图。这样的话，你可以构造一个驱动振子并改变其频率来测得共振曲线。
+
+       更多细节:
+       振荡周期是通过三个陀螺仪分量总和的自相关获得。分析自相关系数的第一个峰值，进行第一次估计。然后自相关系数的最后一个峰值可以用来获得更精确的结果。
+    </description>
+      <string original="Results">结果</string>
+      <string original="Period">周期</string>
+      <string original="Frequency">频率</string>
+      <string original="Resonance">共振</string>
+      <string original="Rel. amplitude">相对振幅</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">此页面中，以振幅与测得频率之比作图。你可以借此来测量一个振子的共振。振幅已归一化到0至1范围。</string>
+      <string original="Autocorrelation">自相关</string>
+      <string original="correlation">相关系数</string>
+      <string original="Raw Data">原始数据</string>
+      <string original="Accelerometer x">x方向加速度计</string>
+      <string original="Accelerometer y">y方向加速度计</string>
+      <string original="Accelerometer z">z轴加速度计</string>
+    </translation>
+    <translation locale="sr">
+      <title>Opruga</title>
+      <category>Mehanika</category>
+      <description>
+        Analizirajte frekvenciju i period oscilovanja opruge.
+
+        Ovaj eksperiment koristi brzinometar za merenje kretanja oscilatora i izračunava period oscilovanja T. Pored toga, na kartici rezonancija, iscrtava amplitudu po detektovanoj frekvenciji. Na ovaj način možete konstruisati pogonjeni oscilator i promeniti njegovu frekvenciju da biste izmerili rezonantnu krivu.
+
+        Više detalja:
+        Period oscilovanja se dobija autokorelacijom suma svih triju komponenti brzinometra. Autokorelacija se zatim analizira za svoj prvi maksimum za prvu procenu, a zatim se koristi poslednji maksimum autokorelacije da bi se dobio precizniji rezultat.
+    </description>
+      <string original="Results">Rezultati</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Resonance">Rezonancija</string>
+      <string original="Rel. amplitude">Rel. amplituda</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">U ovoj kartici, amplituda je ucrtana po očitanoj frekvenciji. Možete koristi ovo da merite rezonanciju ručno pokrenutog oscilatora. Amplituda je normalizovana u opsegu od 0 do 1.</string>
+      <string original="Autocorrelation">Autokorelacija</string>
+      <string original="correlation">korelacija</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Accelerometer x">Brzinometar x</string>
+      <string original="Accelerometer y">Brzinometar y</string>
+      <string original="Accelerometer z">Brzinometar z</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Opruga</title>
+      <category>Mehanika</category>
+      <description>
+        Analizirajte frekvenciju i period oscilovanja opruge.
+
+        Ovaj eksperiment koristi brzinometar za merenje kretanja oscilatora i izračunava period oscilovanja T. Pored toga, na kartici rezonancija, iscrtava amplitudu po detektovanoj frekvenciji. Na ovaj način možete konstruisati pogonjeni oscilator i promeniti njegovu frekvenciju da biste izmerili rezonantnu krivu.
+
+        Više detalja:
+        Period oscilovanja se dobija autokorelacijom suma svih triju komponenti brzinometra. Autokorelacija se zatim analizira za svoj prvi maksimum za prvu procenu, a zatim se koristi poslednji maksimum autokorelacije da bi se dobio precizniji rezultat.
+    </description>
+      <string original="Results">Rezultati</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Resonance">Rezonancija</string>
+      <string original="Rel. amplitude">Rel. amplituda</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">U ovoj kartici, amplituda je ucrtana po očitanoj frekvenciji. Možete koristi ovo da merite rezonanciju ručno pokrenutog oscilatora. Amplituda je normalizovana u opsegu od 0 do 1.</string>
+      <string original="Autocorrelation">Autokorelacija</string>
+      <string original="correlation">korelacija</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Accelerometer x">Brzinometar x</string>
+      <string original="Accelerometer y">Brzinometar y</string>
+      <string original="Accelerometer z">Brzinometar z</string>
+    </translation>
+    <translation locale="es">
+      <title>Resorte</title>
+      <category>Mecánica</category>
+      <description>
+        Analice de frecuencia y  período de un sistema  mecánico de resorte.
+
+         Este experimento usa el acelerómetro para medir el movimiento del oscilador y calcula el período(T) de oscilación. Además, en la pestaña de resonancia, traza la amplitud contra la frecuencia detectada. De esta manera, puede construir un oscilador controlado y cambiar su frecuencia para medir una curva de resonancia.
+
+         Más detalles:
+         El período de oscilación se obtiene mediante la autocorrelación de la suma de los tres componentes del acelerómetro. La autocorrelación se analiza luego para su primer máximo para una primera estimación y luego se utiliza el último máximo de la autocorrelación para obtener un resultado más preciso.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Resonance">Resonancia</string>
+      <string original="Rel. amplitude">Amplitud Relativa</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">En esta pestaña, la amplitud se representa contra la frecuencia detectada. Puede usar esto para medir la resonancia de un oscilador controlado. La amplitud se normaliza a un rango de 0 a 1.</string>
+      <string original="Autocorrelation">Autocorrelación</string>
+      <string original="correlation">Correlación</string>
+      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Accelerometer x">Acelerómetro x</string>
+      <string original="Accelerometer y">Acelerómetro y</string>
+      <string original="Accelerometer z">Acelerómetro z</string>
+    </translation>
+    <translation locale="ka">
+      <title>ზამბარა</title>
+      <category>მექანიკა</category>
+      <description>
+        ზამბარიანი ქანქარის, სიხშირის და პერიოდის ანალიზი.
+
+        ეს ექპერიმეტნი იყენებს აქსელომეტრს რხევების მოძრაობის დაპერიოდის T გამოსათვლელად. ამასთან ერთად რეზონსის გერდზე გვაქვს გრაფიკი აპლიტუდის რხევაზე დამოკიდებულების. მისი გამოყენებით შეგიძლია ბიძგიანი რხევების ისე შერჩვეა რომ რეზონსასი მოხდეს, რიტაც შეგიძლია რეზონანსული სიხშირეების შესწავლა.
+
+        დამატებითი დეტალები:
+        რხევის პერიოდი მიიღება აქსელომეტრის სამი მდგენლის ავტოკორელაციით. ავტოკორელაცია შემდეგ ანალიზდება მისი პირველი მაქსიმუმით და ბოლო მაქსიმუმით რაც უფრო ზუსტ შედეგებს იძლევა.
+    </description>
+      <string original="Results">შედეგები</string>
+      <string original="Period">პერიოდი</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Resonance">რეზონანსი</string>
+      <string original="Rel. amplitude">მიმდინარე ამპლიტუდა</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">ამ გვერდზე, ამპლიტუდის სიხსირეზე დამოკიდებულებაა წარმოდგენილი. თქვენ შეგიძლიათ ეს გამოიყენოთ ბიძგიანი ქანქარისთვის. ამპლიტუდა დანორმირებულია 0-დან 1-მდე.</string>
+      <string original="Autocorrelation">ავტო კორელაცია</string>
+      <string original="correlation">კორელაცია</string>
+      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Accelerometer x">აქსელომეტრი x</string>
+      <string original="Accelerometer y">აქსელომეტრი y</string>
+      <string original="Accelerometer z">აქსელომეტრი z</string>
+    </translation>
+    <translation locale="hi">
+      <title>स्प्रिंग</title>
+      <category>यांत्रिकी</category>
+      <description>
+        स्प्रिंग दोलक की आवृत्ति और इसके आवर्तकाल का विश्लेषण करें।
+
+        यह प्रयोग दोलक की गति को मापने के लिए एक्सेलेरोमीटर का उपयोग करता है और दोलन अवधि T की गणना करता है। इसके अतिरिक्त, अनुनाद टैब पर, यह ज्ञात आवृत्ति के सापेक्ष आयाम को प्लॉट करता है। इस तरह, आप एक चालित दोलक का निर्माण कर सकते हैं और अनुनाद वक्र को मापने के लिए इसकी आवृत्ति को बदल सकते हैं।
+
+        आगे की जानकारी:
+        सभी तीन एक्सेलेरोमीटर घटकों के योग के स्वत: सहसंबंध के माध्यम से दोलन अवधि प्राप्त की जाती है। इसके बाद, प्रथम अनुमान के लिए इसके प्रथम अधिकतम मान के लिए स्वत: सहसंबंध का विश्लेषण किया जाता है और फिर अधिक सटीक परिणाम प्राप्त करने के लिए स्वत: सहसंबंध के अंतिम अधिकतम मान का उपयोग किया जाता है।
+    </description>
+      <string original="Results">परिणाम</string>
+      <string original="Period">काल</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Resonance">अनुनाद</string>
+      <string original="Rel. amplitude">सापेक्षिक आयाम</string>
+      <string original="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1.">इस टैब पर, आयाम को ज्ञात आवृत्ति के विरुद्ध प्लॉट किया जाता है। आप इसका उपयोग किसी चालित दोलक के अनुनाद को मापने के लिए कर सकते हैं। आयाम को 0 से 1 की सीमा तक सामान्यीकृत किया गया है।</string>
+      <string original="Autocorrelation">स्वतः सहसंबंध</string>
+      <string original="correlation">सहसंबंध</string>
+      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Accelerometer x">त्वरण मापी x</string>
+      <string original="Accelerometer y">त्वरक मापी y</string>
+      <string original="Accelerometer z">त्वरण मापी z</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="500">accX</container>
+    <container size="500">accY</container>
+    <container size="500">accZ</container>
+    <container size="500">anyAcc</container>
+    <container size="500">acc_time</container>
+    <container size="1">count</container>
+    <container size="500">autocorrelation_t</container>
+    <container size="500">autocorrelation</container>
+    <container>dt</container>
+    <container>t0</container>
+    <container>t1</container>
+    <container>t2</container>
+    <container size="500">search_t</container>
+    <container size="500">search_y</container>
+    <container>periodEstimate</container>
+    <container size="20" static="true">factors</container>
+    <container size="20">multiples</container>
+    <container>multipleFactor</container>
+    <container>multiplePeriod</container>
+    <container>periodHalf</container>
+    <container>fineSearchMin</container>
+    <container>fineSearchMax</container>
+    <container size="500">fineSearch</container>
+    <container size="500">fineSearch_t</container>
+    <container>fineSearchResult</container>
+    <container size="1">period</container>
+    <container size="1">frequency</container>
+    <container size="1">amplitudeSkewed</container>
+    <container size="1">amplitude</container>
+    <container size="1">avg</container>
+    <container size="0">periodhist</container>
+    <container size="0">frequencyhist</container>
+    <container size="0">amplitudehist</container>
+    <container size="1">maxamplitude</container>
+    <container size="0">relamplitude</container>
+  </data-containers>
+  <input>
+    <sensor type="linear_acceleration" rate="50">
+      <output component="x">accX</output>
+      <output component="y">accY</output>
+      <output component="z">accZ</output>
+      <output component="t">acc_time</output>
+    </sensor>
+  </input>
+  <analysis>
+    <add>
+      <input clear="false">accX</input>
+      <input clear="false">accY</input>
+      <input clear="false">accZ</input>
+      <output>anyAcc</output>
+      <!-- Since we want to keep a sign, but also want to allow using any axis, we simply look at the sum of all axes. This gives bad results if the phone is mounted at an angle, but usually the user will perform the experiment along a single axis -->
+    </add>
+    <autocorrelation>
+      <input as="x" clear="false">acc_time</input>
+      <input as="y" clear="false">anyAcc</input>
+      <input as="minX" type="value">0</input>
+      <input as="maxX" type="value">5</input>
+      <output as="x">autocorrelation_t</output>
+      <output as="y">autocorrelation</output>
+    </autocorrelation>
+    <threshold falling="true">
+      <input as="x" clear="false">autocorrelation_t</input>
+      <input as="y" clear="false">autocorrelation</input>
+      <output>t0</output>
+    </threshold>
+    <multiply>
+      <input clear="false">t0</input>
+      <input type="value">2</input>
+      <output>dt</output>
+    </multiply>
+    <add>
+      <input clear="false">t0</input>
+      <input clear="false">dt</input>
+      <output>t1</output>
+    </add>
+    <add>
+      <input clear="false">t1</input>
+      <input>dt</input>
+      <output>t2</output>
+    </add>
+    <rangefilter>
+      <input clear="false">autocorrelation_t</input>
+      <input as="min">t1</input>
+      <input as="max">t2</input>
+      <input clear="false">autocorrelation</input>
+      <output>search_t</output>
+      <output>search_y</output>
+    </rangefilter>
+    <max>
+      <input as="y">search_y</input>
+      <input as="x">search_t</input>
+      <output as="position">periodEstimate</output>
+    </max>
+    <ramp>
+      <input as="start" type="value">1</input>
+      <input as="stop" type="value">20</input>
+      <output>factors</output>
+    </ramp>
+    <multiply>
+      <input clear="false">periodEstimate</input>
+      <input clear="false">factors</input>
+      <output>multiples</output>
+    </multiply>
+    <rangefilter>
+      <input as="in">multiples</input>
+      <input as="max" type="value">4.5</input>
+      <input as="in">factors</input>
+      <output>multiplePeriod</output>
+      <output>multipleFactor</output>
+    </rangefilter>
+    <divide>
+      <input clear="false">periodEstimate</input>
+      <input type="value">2</input>
+      <output>periodHalf</output>
+    </divide>
+    <subtract>
+      <input clear="false">multiplePeriod</input>
+      <input clear="false">periodHalf</input>
+      <output>fineSearchMin</output>
+    </subtract>
+    <add>
+      <input clear="false">multiplePeriod</input>
+      <input>periodHalf</input>
+      <output>fineSearchMax</output>
+    </add>
+    <rangefilter>
+      <input as="in" clear="false">autocorrelation_t</input>
+      <input as="min">fineSearchMin</input>
+      <input as="max">fineSearchMax</input>
+      <input as="in" clear="false">autocorrelation</input>
+      <output>fineSearch_t</output>
+      <output>fineSearch</output>
+    </rangefilter>
+    <max>
+      <input as="y">fineSearch</input>
+      <input as="x">fineSearch_t</input>
+      <output as="position">fineSearchResult</output>
+    </max>
+    <divide>
+      <input>fineSearchResult</input>
+      <input>multipleFactor</input>
+      <output>period</output>
+    </divide>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>frequency</output>
+    </divide>
+    <average>
+      <input clear="false">anyAcc</input>
+      <output as="average" clear="false">avg</output>
+      <output as="stddev">amplitudeSkewed</output>
+    </average>
+    <divide>
+      <input clear="false">amplitudeSkewed</input>
+      <input clear="false">frequency</input>
+      <input clear="false">frequency</input>
+      <output>amplitude</output>
+    </divide>
+    <count>
+      <input clear="false">anyAcc</input>
+      <output>count</output>
+    </count>
+    <!-- only append to history if we already have enough data -->
+    <if less="true">
+      <input clear="false">count</input>
+      <input type="value">250</input>
+      <input as="false" clear="false">amplitude</input>
+      <output clear="false">amplitudehist</output>
+    </if>
+    <if less="true">
+      <input clear="false">count</input>
+      <input type="value">250</input>
+      <input as="false" clear="false">frequency</input>
+      <output clear="false">frequencyhist</output>
+    </if>
+    <if less="true">
+      <input clear="false">count</input>
+      <input type="value">250</input>
+      <input as="false" clear="false">period</input>
+      <output clear="false">periodhist</output>
+    </if>
+    <max>
+      <input as="y" clear="false">amplitudehist</input>
+      <output as="max">maxamplitude</output>
+    </max>
+    <divide>
+      <input clear="false">amplitudehist</input>
+      <input>maxamplitude</input>
+      <output>relamplitude</output>
+    </divide>
+  </analysis>
+  <views>
+    <view label="Results">
+      <value label="Period" size="2" unit="[[unit_short_second]]">
+        <input>period</input>
+      </value>
+      <value label="Frequency" size="2" unit="[[unit_short_hertz]]">
+        <input>frequency</input>
+      </value>
+    </view>
+    <view label="Resonance">
+      <graph label="Resonance" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Rel. amplitude" unitY="[[unit_short_arbitrary_unit]]" style="dots">
+        <input axis="x">frequencyhist</input>
+        <input axis="y">relamplitude</input>
+      </graph>
+      <separator height="1"/>
+      <info label="On this tab, the amplitude is plotted against the detected frequency. You can use this to measure the resonance of a driven oscillator. The amplitude is normalized to a range from 0 to 1."/>
+    </view>
+    <view label="Autocorrelation">
+      <graph label="Autocorrelation" labelX="Δt" unitX="[[unit_short_second]]" labelY="correlation" unitY="[[unit_short_arbitrary_unit]]">
+        <input axis="x">autocorrelation_t</input>
+        <input axis="y">autocorrelation</input>
+      </graph>
+      <value label="Period" unit="[[unit_short_second]]">
+        <input>period</input>
+      </value>
+      <value label="Frequency" unit="[[unit_short_hertz]]">
+        <input>frequency</input>
+      </value>
+    </view>
+    <view label="Raw Data">
+      <graph label="Accelerometer x" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true">
+        <input axis="x">acc_time</input>
+        <input axis="y">accX</input>
+      </graph>
+      <graph label="Accelerometer y" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="ffff00">
+        <input axis="x">acc_time</input>
+        <input axis="y">accY</input>
+      </graph>
+      <graph label="Accelerometer z" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="ff6060">
+        <input axis="x">acc_time</input>
+        <input axis="y">accZ</input>
+      </graph>
+    </view>
+  </views>
+  <export>
+    <set name="Raw Data">
+      <data name="Time (s)">acc_time</data>
+      <data name="Acceleration x (m/s^2)">accX</data>
+      <data name="Acceleration y (m/s^2)">accY</data>
+      <data name="Acceleration z (m/s^2)">accZ</data>
+    </set>
+    <set name="Autocorrelation">
+      <data name="Time shift (s)">autocorrelation_t</data>
+      <data name="Autocorrelation of sum">autocorrelation</data>
+    </set>
+    <set name="Resonance">
+      <data name="Frequency (Hz)">frequencyhist</data>
+      <data name="Rel. amplitude (a.u.)">relamplitude</data>
+    </set>
+  </export>
+</phyphox>

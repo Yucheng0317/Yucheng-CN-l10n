@@ -1,0 +1,1022 @@
+<phyphox version="1.14" locale="en">
+  <title>Motion Stopwatch</title>
+  <category>Timers</category>
+  <icon format="base64">
+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
+    </icon>
+  <description>
+        Get the time between two motion events.
+
+        This experiment allows to measure the time between two accelerations (like small shocks). You might want to adjust the threshold, giving the level at which the stop watch is triggered.
+
+        After starting the experiment, the clock will start on the first (total) acceleration exceeding the threshold and will be stopped on the second acceleration. Make sure that the first acceleration signal is short as a long vibration might be immediately detected as a stop.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Motion_Stopwatch</link>
+  <data-containers>
+    <container>threshold</container>
+    <container>mindelay</container>
+    <container size="50">acc</container>
+    <container size="50">accT</container>
+    <container size="50">accCopy</container>
+    <container size="50">accTCopy</container>
+    <container>t</container>
+    <container>limit</container>
+    <container>max</container>
+    <container>last</container>
+    <container size="0">tlist</container>
+    <container size="0">dtlist</container>
+    <container size="0">tindex</container>
+    <container size="1">tcount</container>
+    <container size="1">tcount-1</container>
+    <container>avgInterval</container>
+    <container>avgRate</container>
+    <container>avgBPM</container>
+    <container>t0</container>
+    <container>t1</container>
+    <container>t2</container>
+    <container>t3</container>
+    <container>t4</container>
+    <container>t5</container>
+    <container>t0effective</container>
+    <container>t1effective</container>
+    <container>t2effective</container>
+    <container>t3effective</container>
+    <container>t4effective</container>
+    <container>t5effective</container>
+    <container init="0">tmax</container>
+    <container>dt01</container>
+    <container>dt02</container>
+    <container>dt03</container>
+    <container>dt04</container>
+    <container>dt05</container>
+    <container>dt12</container>
+    <container>dt23</container>
+    <container>dt34</container>
+    <container>dt45</container>
+    <container>count</container>
+  </data-containers>
+  <translations>
+    <translation locale="de">
+      <title>Bewegungs-Stoppuhr</title>
+      <category>Zeitmessung</category>
+      <description>
+        Stoppe die Zeit zwischen zwei Bewegungs-Ereignissen.
+
+                Dieses Experiment ermöglicht es dir, die Zeit zwischen zwei Beschleunigungen (wie einer leichten Erschütterung) zu messen. Hierzu muss die Schwelle so eingestellt werden, bei welcher die Stoppuhr auslöst.
+
+                Nachdem das Experiment gestartet wurde, beginnt die Zeitmessung mit der ersten (absoluten) Beschleunigung, die die Schwelle überschreitet und wird mit der zweiten Beschleunigung beendet. Achte darauf, dass die Startbeschleunigung kurz ist, da eine lange Vibration direkt auch als Stopp interpretiert werden könnte.
+    </description>
+      <string original="Simple">Einfach</string>
+      <string original="Sequence">Sequenz</string>
+      <string original="Threshold">Schwelle</string>
+      <string original="Minimum Delay">Mindestverzögerung</string>
+      <string original="Time">Zeit</string>
+      <string original="Time 1">Zeit 1</string>
+      <string original="Time 2">Zeit 2</string>
+      <string original="Time 3">Zeit 3</string>
+      <string original="Time 4">Zeit 4</string>
+      <string original="Time 5">Zeit 5</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Ändere die Schwelle auf einen Wert oberhalb des Sensorrauschens, aber unterhalb der Auslösebeschleunigung (dies kannst du zum Beispiel im Experiment "Beschleunigung (ohne g)" prüfen). Setze außerdem die Mindestverzögerung, um ein kürzeres Auslösen als diese Zeit zu vermeiden.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Die Genauigkeit dieses Experiments hängt vom Beschleunigungssensor deines Smartphones ab. Schnelle Sensoren können besser sein als eine Hundertstelsekunde, während langsame nur eine Auflösung von einer Sekunde schaffen.</string>
+      <string original="Many">Viele</string>
+      <string original="Events">Ereignisse</string>
+      <string original="Event number">Ereignis-Nummer</string>
+      <string original="Time interval">Zeitintervall</string>
+      <string original="Average interval">Mittleres Intervall</string>
+      <string original="Average rate">Mittlere Rate</string>
+      <string original="Average rate (bpm)">Mittlere Rate (bpm)</string>
+    </translation>
+    <translation locale="cs">
+      <title>Pohybové stopky</title>
+      <category>Měření času</category>
+      <description>
+        Měří čas mezi dvěma pohybovými událostmi.
+
+Tento experiment umožňuje měřit čas mezi dvěma zrychleními (míníme tím malé otřesy). Je možné, že budete chtít nastavit práh pro spuštění jednotlivých měření.
+
+Po spuštění experimentu začnou stopky běžet poté, co poprvé celkové zrychlení mobilu překoná zvolený práh, a zastaví se po dalším překonání. Pro opakování experimentu vymažte naměřená data a spusťte jej znovu. První zrychlení musí být krátké, neboť dlouhé vibrace by mohly být rovnou vyhodnoceny i jako stopka.
+    </description>
+      <string original="Simple">Stručně</string>
+      <string original="Threshold">Práh měření</string>
+      <string original="Minimum Delay">Minimální zpoždění</string>
+      <string original="Time">čas</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Nastavte práh tak, aby byl vyšší než míra šumu ze senzoru, avšak spouštěcí vibrace jej přesahovala (tyto hodnoty můžete zjistit pomocí experimentu Akcelerace bez g). Dále nastavte minimální zpoždění, abyste zamezili měření událostí odděleným kratším intervalem.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Přesnost měření závisí na kvalitě akcelerometru ve vašem mobilním zařízení. Rychlé akcelerometry umí měřit hodnoty rychleji než za setinu sekundy, avšak pomalé mohou mít rozlišení i jedné sekundy.</string>
+      <string original="Sequence">Sekvence</string>
+      <string original="Time 1">Čas 1</string>
+      <string original="Time 2">Čas 2</string>
+      <string original="Time 3">Čas 3</string>
+      <string original="Time 4">Čas 4</string>
+      <string original="Time 5">Čas 5</string>
+      <string original="Parallel">Paralelně</string>
+      <string original="Many">Více</string>
+      <string original="Events">Události</string>
+      <string original="Event number">Číslo události</string>
+      <string original="Time interval">Časový interval</string>
+      <string original="Average interval">Průměrný interval</string>
+      <string original="Average rate">Průměrné tempo</string>
+      <string original="Average rate (bpm)">Průměrné tempo (bpm)</string>
+    </translation>
+    <translation locale="pl">
+      <title>Stoper wyzwalany ruchem</title>
+      <category>Czasomierze</category>
+      <description>
+        Uzyskaj dane o czasie między dwoma zdarzeniami związanymi z ruchem.
+
+        W tym eksperymencie rejestrowany jest czas pomiędzy dwoma zdarzeniami związanymi ze zmianą stanu ruchu (np. niewielkimi wstrząsami). Niezbędne może okazać się dopasowanie warunków wyzwalania pomiaru do warunków zdarzenia uruchamiającego stoper.
+
+        Po uruchomieniu eksperymentu stoper rozpocznie rejestrowanie czasu po pierwszym zdarzeniu, w którym przekroczona zostanie zadana wartość całkowitego przyspieszenia i zakończy rejestrację po drugim zdarzeniu tego rodzaju. Należy zadbać, by wyzwalający pomiar sygnał był dostatecznie krótki i nie został, po krótkim czasie, zinterpretowany jako sygnał kończący pomiar.
+    </description>
+      <string original="Simple">Próbka</string>
+      <string original="Threshold">Poziom wyzwalania</string>
+      <string original="Minimum Delay">Minimalne opóźnienie</string>
+      <string original="Time">Czas</string>
+      <string original="Reset">Wyczyść</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Określ poziom wyzwalania tak, by znajdował się powyżej poziomu szumu czujnika, ale poniżej wartości rozpoczynającej pomiar. Warto posłużyć się eksperymentem 'Przyspieszenie (bez g)' do określenia tej wartości. Dopasuj także poziom minimalnego opóźnienia.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Dokładność uzyskiwanych wyników silnie zależy od akcelerometru urządzenia. Dla czujników pracujących z dużą szybkością mogą to być setne części sekundy, podczas gdy dla wolniejszych modeli może nie przekraczać sekundy.</string>
+      <string original="Sequence">Międzyczasy</string>
+      <string original="Time 1">Czas 1</string>
+      <string original="Time 2">Czas 2</string>
+      <string original="Time 3">Czas 3</string>
+      <string original="Time 4">Czas 4</string>
+      <string original="Time 5">Czas 5</string>
+      <string original="Parallel">Śródczasy</string>
+      <string original="Many">Wiele</string>
+      <string original="Events">Zdarzenia</string>
+      <string original="Event number">Numer zdarzenia</string>
+      <string original="Time interval">Przedział czasu</string>
+      <string original="Average interval">Średni przedział</string>
+      <string original="Average rate">Średnia szybkość</string>
+      <string original="Average rate (bpm)">Średnia szybkość (bpm)</string>
+    </translation>
+    <translation locale="nl">
+      <title>Bewegingschronometer</title>
+      <category>Timers</category>
+      <description>
+        Verkrijg de tijd tussen twee 'bewegingsevenementen'.
+
+        Met dit experiment kan de tijd tussen twee versnellingen worden gemeten (zoals kleine schokken). U kunt de drempelwaarde aanpassen, waarbij u het waarde opgeeft waarop de chronometer wordt geactiveerd.
+
+        De klok start op de eerste (totale) versnelling die de drempelwaarde overschrijdt en wordt gestopt bij de tweede versnelling. Als u het experiment wilt herhalen, wist u de gegevens en begint u opnieuw. Zorg ervoor dat het eerste versnellingssignaal kort is, omdat een lange trilling onmiddellijk als stopsignaal kan worden gedetecteerd.
+    </description>
+      <string original="Simple">Eenvoudig</string>
+      <string original="Threshold">Drempel</string>
+      <string original="Minimum Delay">Minimale vertraging</string>
+      <string original="Time">Tijd</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Wijzig de drempelwaarde om boven het sensorniveau te komen, maar onder de triggerversnelling (u kunt het 'accelerosmeter-experiment zonder g' proberen  om dit te controleren). Stel ook de minimale vertraging in om triggers korter dan die tijd te vermijden.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">De nauwkeurigheid van dit experiment is afhankelijk van de accelerometer in uw smartphone. Snelle accelerometers kunnen evenementen korter dan een honderdste van een seconde detecteren, terwijl trage accelerometers soms slechts een resolutie van één seconde halen.</string>
+      <string original="Sequence">Opeenvolgend</string>
+      <string original="Time 1">Tijdstip 1</string>
+      <string original="Time 2">Tijdstip 2</string>
+      <string original="Time 3">Tijdstip 3</string>
+      <string original="Time 4">Tijdstip 4</string>
+      <string original="Time 5">Tijdstip 5</string>
+      <string original="Many">Vele</string>
+      <string original="Events">Gebeurtenissen</string>
+      <string original="Event number">Nummer gebeurtenis</string>
+      <string original="Time interval">Tijdsinterval</string>
+      <string original="Average interval">Gemiddeld interval</string>
+      <string original="Average rate">Gemiddelde snelheid</string>
+      <string original="Average rate (bpm)">Gemiddelde frequentie (bpm: per minuut)</string>
+    </translation>
+    <translation locale="ru">
+      <title>Секундомер движения</title>
+      <category>Таймеры</category>
+      <description>
+        Получите время между двумя событиями движения.
+
+        Этот эксперимент позволяет измерять время между двумя ускорениями (например, небольшие толчки). Вы можете настроить порог, указав уровень, на котором запускается секундомер.
+
+        После запуска эксперимента секундомер стартует с первого (общего) ускорения, превышающего пороговое значение, и будет остановлен при втором ускорении. Убедитесь, что первое ускорение является коротким, поскольку длительная вибрация может быть принята как сигнал к остановке измерения.
+    </description>
+      <string original="Simple">Значение</string>
+      <string original="Threshold">Порог</string>
+      <string original="Minimum Delay">Минимальная задержка</string>
+      <string original="Time">Время</string>
+      <string original="Reset">Сброс</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Измените пороговое значение выше уровня помех датчика, но ниже ускорения триггера (вы можете попробовать эксперимент «акселерометр без g», чтобы пределить их). Также установите минимальную задержку, чтобы избежать срабатывания триггеров для более коротких отрезков времени.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Точность этого эксперимента зависит от акселерометра в вашем телефоне. Быстрые акселерометры могут измерять быстрее сотой секунды, в то время как медленные достигают разрешения в одну секунду.</string>
+      <string original="Sequence">Последовательность</string>
+      <string original="Time 1">Время 1</string>
+      <string original="Time 2">Время 2</string>
+      <string original="Time 3">Время 3</string>
+      <string original="Time 4">Время 4</string>
+      <string original="Time 5">Время 5</string>
+      <string original="Parallel">Сравнить</string>
+      <string original="Many">Многие</string>
+      <string original="Events">События</string>
+      <string original="Event number">Номер события</string>
+      <string original="Time interval">Временной интервал</string>
+      <string original="Average interval">Средний интервал</string>
+      <string original="Average rate">Средняя частота</string>
+      <string original="Average rate (bpm)">Средняя частота (bpm)</string>
+      <string original="1/min">1/мин</string>
+    </translation>
+    <translation locale="it">
+      <title>Cronometro da movimento</title>
+      <category>Misura di tempo</category>
+      <description>
+        Misura il tempo tra due accelerazioni.
+
+Questo esperimento consente di misurare il tempo trascorso tra due accelerazioni (come per esempio piccoli urti). Potresti dover adattare la soglia, a seconda del trigger del cronometro.
+
+Dopo aver dato inizio all'esperimento, il cronometro si attiverà alla prima accelerazione (totale) che supera la soglia impostata e si fermerà dopo la seconda accelerazione. Per ripetere l'esperimento cancella i dati e ricomincia.
+    </description>
+      <string original="Simple">Valori</string>
+      <string original="Threshold">Soglia</string>
+      <string original="Minimum Delay">Ritardo minimo</string>
+      <string original="Time">Tempo</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Cambia la soglia in modo che sia al di sopra del livello del rumore, ma al di sotto del trigger dell'accelerazione (puoi provare l'esperimento con l'accelerometro senza g per testare queste impostazioni). Inoltre imposta il ritardo minimo in modo da non registrare eventi al di sotto di quell'intervallo di tempo.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">La precisione di questo esperimento dipende dall'accelerometro nel tuo telefono. Accelerometri veloci possono avere una risoluzione inferiore al centesimo di secondo, mentre accelerometri lenti potrebbero avere una risoluzione non migliore di un secondo.</string>
+      <string original="Sequence">Serie</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Parallel">Parallelo</string>
+      <string original="Many">Molti</string>
+      <string original="Events">Eventi</string>
+      <string original="Event number">Numero evento</string>
+      <string original="Time interval">Intervallo di tempo</string>
+      <string original="Average interval">Intervallo medio</string>
+      <string original="Average rate">Frequenza media</string>
+      <string original="Average rate (bpm)">Frequenza media (ev/m)</string>
+    </translation>
+    <translation locale="el">
+      <title>Χρονόμετρο κίνησης</title>
+      <category>Χρονόμετρα</category>
+      <description>
+        Βρείτε το χρονικό διάστημα ανάμεσα σε δύο γεγονότα κίνησης.
+
+        Αυτό το πείραμα μας επιτρέπει να μετρήσουμε το χρόνο ανάμεσα σε δύο επιταχύνσεις (για παράδειμα δύο μικρά χτυπήματα). Πιθανόν να χρειαστεί να ρυθμίσετε το κατώφλι ενεργοποίησης δίνοντας την τιμή στην οποία θα ενεργοποιείται το χρονόμετρο.
+
+        Όταν ξεκινήσει το πείραμα, το ρολόϊ θα αρχίσει την πρώτη φορά που η (ολική) επιτάχυνση ξεπεράσει το κατώφλι και θα σταματήσει στη δεύτερη επιτάχυνση. Βεβαιωθείτε ότι το σήμα της πρώτης επιτάχυνσης είναι βραχύ καθώς μια μακριά δόνηση μπορεί να θεωρηθεί σήμα για σταμάτημα του χρονομέτρου.
+    </description>
+      <string original="Simple">Απλό</string>
+      <string original="Threshold">Κατώφλι ενεργοπ.</string>
+      <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
+      <string original="Time">χρόνος</string>
+      <string original="Reset">Επαναφορά</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Αλλάξτε το κατώφλι ενεργοποίησης ώστε να είναι πάνω από το όριο θορύβου του αισθητήρα, αλλά κάτω από την επιτάχυνση ενεργοποίησης (μπορείτε να δοκιμάσετε το πείραμα της επιτάχυνσης χωρίς το g για να το δοκιμάσετε). Επίσης ορίστε την ελάχιστη καθυστέρηση για να αποφύγεται ενεργοποιήσεις σε λιγότερο από αυτόν τον χρόνο.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Η ακρίβεια του πειράματος εξαρτάται από το επιταχυνσιόμετρο του κινητού σας. Τα γρήγορα επιταχυνσιόμετρα μπορεί να είναι καλύτερα από ένα εκατοστό του δευτερολέπτου, ενώ τα αργά μπορούν να πετύχουν ανάλυση ενός δευτερολέπτου.</string>
+      <string original="Sequence">Σειριακό</string>
+      <string original="Time 1">Χρόνος 1</string>
+      <string original="Time 2">Χρόνος 2</string>
+      <string original="Time 3">Χρόνος 3</string>
+      <string original="Time 4">Χρόνος 4</string>
+      <string original="Time 5">Χρόνος 5</string>
+      <string original="Parallel">Παράλληλο</string>
+      <string original="Many">Πολλά</string>
+      <string original="Events">Γεγονότα</string>
+      <string original="Event number">Αριθμός γεγονότος</string>
+      <string original="Time interval">Χρονικό διάστημα</string>
+      <string original="Average interval">Μέσο διάστημα</string>
+      <string original="Average rate">Μέσος ρυθμός</string>
+      <string original="Average rate (bpm)">Μέσος ρυθμός (bpm)</string>
+    </translation>
+    <translation locale="ja">
+      <title>動作ストップウォッチ</title>
+      <category>タイマー</category>
+      <description>
+        運動イベントの時間間隔の取得．
+
+本実験では，二つの加速イベント(小さな衝撃など)間の時間が測定できます．ストップウォッチが動作する加速度の閾値レベルを調節できます．
+
+実験開始後，初期加速度 (合計) が閾値を超えた時点（加速イベント）でタイマーは開始します．そして，2回目の加速イベントでタイマーは停止します．実験を繰り返すためにデータを消してまた開始する必要があります．タイマー開始時の加速イベントは瞬間的な加速イベントとなるよう気を付けてください．振動のような長期間の加速イベントは，タイマー開始後に直ちに停止イベントとして認識される可能性があります．
+    </description>
+      <string original="Simple">シンプル</string>
+      <string original="Threshold">閾値</string>
+      <string original="Minimum Delay">ホールドオフ時間</string>
+      <string original="Time">時間</string>
+      <string original="Reset">リセット</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">センサーのノイズレベルを超えるように閾値の設定の変更してください．ただし，タイマー開始時の加速度より下になるようにしてください．
+(閾値となる加速度は，重力加速度を除外した加速度計実験から求めてください)．また意図しない加速度イベントによるタイマーの停止を阻止するために，タイマー停止加速度イベントが起こるまでのホールドオフ時間を設定してください．</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">時間分解能は使用しているスマートフォンの加速度計の性能に依存します．高速な加速度計は時間分解能が100分の1秒以上になることもありますが，一方で遅いスマートフォンだと時間分解能は1秒の程度となることもあります．</string>
+      <string original="Sequence">ラップ</string>
+      <string original="Time 1">時間 1</string>
+      <string original="Time 2">時間 2</string>
+      <string original="Time 3">時間 3</string>
+      <string original="Time 4">時間 4</string>
+      <string original="Time 5">時間 5</string>
+      <string original="Parallel">スプリット</string>
+      <string original="Many">履歴</string>
+      <string original="Events">イベント</string>
+      <string original="Event number">イベント番号</string>
+      <string original="Time interval">時間間隔</string>
+      <string original="Average interval">平均時間間隔</string>
+      <string original="Average rate">平均周波数</string>
+      <string original="Average rate (bpm)">平均ビートレート (bpm)</string>
+    </translation>
+    <translation locale="pt">
+      <title>Cronômetro de Movimento</title>
+      <category>Temporizadores</category>
+      <description>
+        Obtenha o tempo entre dois eventos de movimento.
+
+        Este experimento permite medir o tempo entre duas acelerações (como pequenas colisões). Você pode querer ajustar o limiar, definindo o nível no qual o cronômetro é disparado.
+
+        Após iniciar o experimento, o cronômetro irá iniciar na primeira aceleração (total) que exceder o limiar e irá parar na segunda aceleração. Garanta que o sinal da primeira aceleração seja curto, pois uma longa aceleração pode ser imediatamente detectada como uma parada.
+    </description>
+      <string original="Simple">Simples</string>
+      <string original="Threshold">Limiar</string>
+      <string original="Minimum Delay">Intervalo Mínimo</string>
+      <string original="Time">Tempo</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Mude o limiar para acima no nível de ruído do sensor, mas abaixo da aceleração de disparo (você pode usar o experimento do acelerômetro sem o g para descobrir isto). Além disso, defina o atraso mínimo para evitar disparos menores que este tempo.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">A precisão deste experimento depende do acelerômetro do seu aparelho. Acelerômetros rápidos podem ser melhores que um centésimo de segundo, enquando os lentos conseguem resolução de um segundo.</string>
+      <string original="Sequence">Sequência</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Parallel">Paralelo</string>
+      <string original="Many">Muitos</string>
+      <string original="Events">Eventos</string>
+      <string original="Event number">Número do Evento</string>
+      <string original="Time interval">Intervalo de tempo</string>
+      <string original="Average interval">Intervalo médio</string>
+      <string original="Average rate">Taxa média</string>
+      <string original="Average rate (bpm)">Taxa média (bpm)</string>
+    </translation>
+    <translation locale="tr">
+      <title>Hareket kronometresi</title>
+      <category>Zamanlayıcılar</category>
+      <description>
+        İki hareket etkinliği arasındaki zamanı yakalayın.
+
+        Bu deney, iki hızlanma arasındaki süreyi (küçük şoklar gibi) ölçmeyi sağlar. Eşiği ayarlamak ve durma saatinin tetiklendiği seviyeyi vermek isteyebilirsiniz.
+
+        Deneyi başlattıktan sonra, saat, eşiği aşan ilk (toplam) hızlanma ile başlayacak ve ikinci hızlanmada durdurulacaktır. Uzun bir titreşimin derhal durma olarak algılanabileceğinden, ilk ivme sinyalinin kısa olduğundan emin olun.
+    </description>
+      <string original="Simple">Basit</string>
+      <string original="Threshold">Eşik</string>
+      <string original="Minimum Delay">Minimum Gecikme</string>
+      <string original="Time">Zaman</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Eşiği, sensör gürültü seviyesinin üzerinde olacak şekilde değiştirin, ancak tetikleme ivmesinin altında kalmalıdır (kontrol etmek için g'siz ivmelenme deneyini kullanabilirsiniz). Ayrıca, tetikleyicilerin o zamandan daha kısa olmasını önlemek için minimum gecikmeyi ayarlayın.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Bu deneyin hassaslığı, telefonunuzdaki ivmeölçere bağlıdır. Hızlı ivmeölçerler saniyenin yüzde birinden daha iyi olabilirken, yavaş olanlar sadece bir saniyelik bir çözünürlük elde edebilirler.</string>
+      <string original="Sequence">Sıralama</string>
+      <string original="Time 1">Zaman 1</string>
+      <string original="Time 2">Zaman 2</string>
+      <string original="Time 3">Zaman 3</string>
+      <string original="Time 4">Zaman 4</string>
+      <string original="Time 5">Zaman 5</string>
+      <string original="Parallel">Paralel</string>
+      <string original="Many">Birçok</string>
+      <string original="Events">Olaylar</string>
+      <string original="Event number">Olay numarası</string>
+      <string original="Time interval">Zaman aralığı</string>
+      <string original="Average interval">Ortalama aralığı</string>
+      <string original="Average rate">Ortalama oran</string>
+      <string original="Average rate (bpm)">Ortalama oranı (bpm)</string>
+      <string original="1/min">1/dakika</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>動作碼表</title>
+      <category>計時器</category>
+      <description>
+        取得兩運動事件間的時間。
+
+	此實驗可以用以測量兩加速事件（例如小晃動）間的時間。你可能需要調整觸發器被觸發的門檻。
+
+	開始實驗後，時鐘會在第一個超越門檻的加速事件啟動，並於第二個加速事件結束。確保第一個加速訊號夠短以免過長的訊號立即被偵測到而被判讀為時間暫停。
+    </description>
+      <string original="Simple">簡易</string>
+      <string original="Threshold">門檻</string>
+      <string original="Minimum Delay">最小延遲</string>
+      <string original="Time">時間</string>
+      <string original="Reset">重置</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">調整門檻比噪音值高，但比觸發之加速度（你可以利用不含重力之加速儀查看此值）還小。另外，你也可以調整最小延遲以避免小於該時間的觸發。</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">此實驗之精準度與您手機中的加速儀相關。好的加速儀可以比1/100秒還精密，然而較慢的加速儀可能僅得到解析度為一秒的數據。</string>
+      <string original="Sequence">序列</string>
+      <string original="Time 1">時間 1</string>
+      <string original="Time 2">時間 2</string>
+      <string original="Time 3">時間 3</string>
+      <string original="Time 4">時間 4</string>
+      <string original="Time 5">時間 5</string>
+      <string original="Parallel">平行序列</string>
+    </translation>
+    <translation locale="fr">
+      <title>Chronomètre de mouvement</title>
+      <category>Chronomètres</category>
+      <description>
+        Chronomètre dont le déclenchement et l’arrêt sont pilotés par une détection de mouvement de votre téléphone.
+
+        Cette expérience mesure le temps entre deux évènements créant une accélération (comme des petits chocs). Vous voudrez ajuster le seuil déclenchant le chronomètre.
+
+         Une fois l'expérience lancée, le chronomètre démarrera à la première accélération (absolue) dépassant le seuil et s'arrêtera à la deuxième accélération. L'accélération qui déclenche le chronomètre doit être un signal court, car une vibration longue peut être détectée comme étant à la fois le déclenchement et le signal d'arrêt.
+    </description>
+      <string original="Simple">Composantes</string>
+      <string original="Threshold">Seuil</string>
+      <string original="Minimum Delay">Délai minimum</string>
+      <string original="Time">Durée</string>
+      <string original="Reset">Remise à zéro</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Modifiez le seuil pour qu'il soit supérieur au niveau de bruit du capteur, mais inférieur à l'accélération de déclenchement (vous pouvez essayer l'expérience "accélération sans g" pour déterminer ces valeurs). Le délai minimum correspond au temps pendant lequel le chronomètre reste inactif avant de commencer à rechercher son signal d'arrêt ; réglez cette valeur pour éviter que le choc qui déclenche le chronomètre ne l'arrête également.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">La précision de cette expérience dépend de l'accéléromètre installé dans votre téléphone. Les accéléromètres rapides peuvent fournir des mesures à des intervalles inférieurs à un centième de seconde, alors que les plus lents peuvent être limités à des vitesses de l'ordre d'une mesure par seconde.</string>
+      <string original="Sequence">Répété</string>
+      <string original="Time 1">Temps 1</string>
+      <string original="Time 2">Temps 2</string>
+      <string original="Time 3">Temps 3</string>
+      <string original="Time 4">Temps 4</string>
+      <string original="Time 5">Temps 5</string>
+      <string original="Parallel">En parallèle</string>
+      <string original="Many">Statistiques</string>
+      <string original="Events">Évènements</string>
+      <string original="Event number">Numéro de l'évènement</string>
+      <string original="Time interval">Temps mesuré</string>
+      <string original="Average interval">Moyenne de l'intervalle de temps</string>
+      <string original="Average rate">Fréquence moyenne</string>
+      <string original="Average rate (bpm)">Fréquence moyenne (bpm)</string>
+    </translation>
+    <translation locale="vi">
+      <title>Đồng hồ b.giờ chuyển động</title>
+      <category>Đồng hồ</category>
+      <description>
+        Đo thời gian giữa hai sự kiện chuyển động.
+
+        Thí nghiệm này cho phép đo thời gian giữa hai lần tăng tốc (như những cú sốc nhỏ). Bạn có thể muốn điều chỉnh ngưỡng, đưa ra mức độ đồng hồ bấm giờ được kích hoạt.
+
+        Sau khi nhấn bắt đầu thí nghiệm, đồng hồ sẽ chạy khi tổng gia tốc đầu tiên vượt quá ngưỡng và sẽ dừng ở lần tăng tốc thứ hai. Đảm bảo rằng tín hiệu tăng tốc đầu tiên ngắn vì rung động dài có thể được phát hiện như là một kích thích dừng.
+    </description>
+      <string original="Simple">Đơn giản</string>
+      <string original="Threshold">Ngưỡng</string>
+      <string original="Minimum Delay">Độ trễ tối thiểu</string>
+      <string original="Time">Thời gian</string>
+      <string original="Reset">Đặt lại</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Thay đổi ngưỡng ở trên mức độ nhiễu của cảm biến, nhưng dưới mức gia tốc kích hoạt (bạn có thể thử thí nghiệm gia tốc mà không cần g để kiểm tra các mức này). Đồng thời đặt độ trễ tối thiểu để tránh bị kích hoạt dừng bởi kích thích đầu tiên.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Độ chính xác của thí nghiệm này phụ thuộc vào gia tốc kế trong điện thoại của bạn. Gia tốc kế nhanh có thể tốt hơn một phần trăm giây, trong khi những gia tốc kế chậm chỉ có thể đạt được độ phân giải một giây.</string>
+      <string original="Sequence">Nối tiếp</string>
+      <string original="Time 1">Thời gian 1</string>
+      <string original="Time 2">Thời gian 2</string>
+      <string original="Time 3">Thời gian 3</string>
+      <string original="Time 4">Thời gian 4</string>
+      <string original="Time 5">Thời gian 5</string>
+      <string original="Parallel">Song song</string>
+      <string original="Many">Nhiều</string>
+      <string original="Events">Các sự kiện</string>
+      <string original="Event number">Số chẵn</string>
+      <string original="Time interval">Khoảng thời gian</string>
+      <string original="Average interval">Khoảng trung bình</string>
+      <string original="Average rate">Tần số trung bình</string>
+      <string original="Average rate (bpm)">Tốc độ trung bình (bpm)</string>
+      <string original="1/min">1/phút</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>运动秒表</title>
+      <category>计时器</category>
+      <description>
+        获得两个运动事件间的间隔时间。
+
+        本实验可以用来测量两个加速事件（比如小晃动）间的时间。你可以调整触发秒表的阈值。
+
+        实验启动后，时钟会在第一个超过阈值的加速事件发生时启动，并在第二个加速事件发生时停止。确保第一个加速信号足够短，以免过长的振动被误判为事件停止。
+    </description>
+      <string original="Simple">简明值</string>
+      <string original="Threshold">阈值</string>
+      <string original="Minimum Delay">最小时延</string>
+      <string original="Time">时间</string>
+      <string original="Reset">复位</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">调整阈值使其高于传感器噪声级，但低于触发的加速度（你可以利用不含g的重力加速度试验检测该值）。同时，设置最小时延，来避免比时延更短时产生触发。</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">本实验的精确度与手机的加速度计有关。快速加速度计的精确度高于0.01s，而慢速加速度计可能只能达到1秒的分辨率。</string>
+      <string original="Sequence">序列</string>
+      <string original="Time 1">时间 1</string>
+      <string original="Time 2">时间 2</string>
+      <string original="Time 3">时间 3</string>
+      <string original="Time 4">时间 4</string>
+      <string original="Time 5">时间 5</string>
+      <string original="Parallel">并行</string>
+      <string original="Many">多任务</string>
+      <string original="Events">任务</string>
+      <string original="Event number">任务数</string>
+      <string original="Time interval">事件间隔</string>
+      <string original="Average interval">平均间隔</string>
+      <string original="Average rate">平均频率</string>
+      <string original="Average rate (bpm)">平均频率（次/分钟）</string>
+    </translation>
+    <translation locale="sr">
+      <title>Štoperica pokreta</title>
+      <category>Tajmeri</category>
+      <description>
+        Izmerite vreme između dva pokreta.
+
+        Ovaj eksperiment omogućava merenje vremena između dva ubrzanja (kao što su mali šokovi). Možda ćete želeti da podesite prag, dajući nivo na kojem se aktivira štoperica.
+
+        Nakon pokretanja eksperimenta, sat će početi na prvom (ukupnom) ubrzanju koje prelazi prag i biće zaustavljeno na drugom ubrzanju. Uverite se da je prvi signal ubrzanja kratak, jer se dugotrajne vibracije mogu odmah otkriti kao zaustavljanje.
+    </description>
+      <string original="Simple">Jednostavno</string>
+      <string original="Threshold">Prag</string>
+      <string original="Minimum Delay">Minimalno zakašnjenje</string>
+      <string original="Time">Vreme</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Promenite prag da bude iznad nivoa šuma senzora, ali ispod ubrzanja okidača (možete pokušati eksperiment Brzinometar bez g da biste proverili). Takođe postavite minimalno kašnjenje da biste izbegli kraće okidače od tog vremena.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Preciznost ovog eksperimenta zavisi od brzinometra u telefonu. Brzi brzinometri mogu biti bolji od stotinke sekunde, dok spori mogu postići samo rezoluciju od jedne sekunde.</string>
+      <string original="Sequence">Niz</string>
+      <string original="Time 1">Vreme 1</string>
+      <string original="Time 2">Vreme 2</string>
+      <string original="Time 3">Vreme 3</string>
+      <string original="Time 4">Vreme 4</string>
+      <string original="Time 5">Vreme 5</string>
+      <string original="Parallel">Paralelno</string>
+      <string original="Many">Više</string>
+      <string original="Events">Dogadjaji</string>
+      <string original="Event number">Broj dogadjaja</string>
+      <string original="Time interval">Vremenski interval</string>
+      <string original="Average interval">Prosečni interval</string>
+      <string original="Average rate">Prosečna stopa</string>
+      <string original="Average rate (bpm)">Prosečna stopa (bpm)</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Štoperica pokreta</title>
+      <category>Tajmeri</category>
+      <description>
+        Izmerite vreme između dva pokreta.
+
+        Ovaj eksperiment omogućava merenje vremena između dva ubrzanja (kao što su mali šokovi). Možda ćete želeti da podesite prag, dajući nivo na kojem se aktivira štoperica.
+
+        Nakon pokretanja eksperimenta, sat će početi na prvom (ukupnom) ubrzanju koje prelazi prag i biće zaustavljeno na drugom ubrzanju. Uverite se da je prvi signal ubrzanja kratak, jer se dugotrajne vibracije mogu odmah otkriti kao zaustavljanje.
+    </description>
+      <string original="Simple">Jednostavno</string>
+      <string original="Threshold">Prag</string>
+      <string original="Minimum Delay">Minimalno zakašnjenje</string>
+      <string original="Time">Vreme</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Promenite prag da bude iznad nivoa šuma senzora, ali ispod ubrzanja okidača (možete pokušati eksperiment Brzinometar bez g da biste proverili). Takođe postavite minimalno kašnjenje da biste izbegli kraće okidače od tog vremena.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">Preciznost ovog eksperimenta zavisi od brzinometra u telefonu. Brzi brzinometri mogu biti bolji od stotinke sekunde, dok spori mogu postići samo rezoluciju od jedne sekunde.</string>
+      <string original="Sequence">Niz</string>
+      <string original="Time 1">Vreme 1</string>
+      <string original="Time 2">Vreme 2</string>
+      <string original="Time 3">Vreme 3</string>
+      <string original="Time 4">Vreme 4</string>
+      <string original="Time 5">Vreme 5</string>
+      <string original="Parallel">Paralelno</string>
+      <string original="Many">Više</string>
+      <string original="Events">Dogadjaji</string>
+      <string original="Event number">Broj dogadjaja</string>
+      <string original="Time interval">Vremenski interval</string>
+      <string original="Average interval">Prosečni interval</string>
+      <string original="Average rate">Prosečna stopa</string>
+      <string original="Average rate (bpm)">Prosečna stopa (bpm)</string>
+    </translation>
+    <translation locale="es">
+      <title>Cronómetro de movimiento</title>
+      <category>Temporizadores</category>
+      <description>
+        Obtenga el tiempo entre dos eventos de movimiento.
+
+         Este experimento permite medir el tiempo entre dos aceleraciones (como pequeños choques). Es posible que desee ajustar el umbral, dando el nivel al que se activa el cronómetro.
+
+         Después de comenzar el experimento, el reloj comenzará con la primera aceleración (total) que exceda el umbral y se detendrá en la segunda aceleración. Asegúrese de que la primera señal de aceleración sea corta ya que una vibración larga puede detectarse inmediatamente como una parada
+    </description>
+      <string original="Threshold">Umbral</string>
+      <string original="Minimum Delay">Retraso mínimo</string>
+      <string original="Time">tiempo</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">Cambie el umbral para que esté por encima del nivel de ruido del sensor, pero por debajo de la aceleración del disparador (puede probar el experimento del acelerómetro sin g para verificar esto). También establezca el retraso mínimo para evitar disparadores más cortos que ese tiempo.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">La precisión de este experimento depende del acelerómetro en su teléfono. Los acelerómetros rápidos pueden ser mejores que una centésima de segundo, mientras que los lentos solo pueden alcanzar una resolución de un segundo.</string>
+      <string original="Sequence">Secuencia</string>
+      <string original="Time 1">Tiempo 1</string>
+      <string original="Time 2">Tiempo 2</string>
+      <string original="Time 3">Tiempo 3</string>
+      <string original="Time 4">Tiempo 4</string>
+      <string original="Time 5">Tiempo 5</string>
+      <string original="Parallel">Paralelo</string>
+      <string original="Many">Rítmico</string>
+      <string original="Events">Eventos</string>
+      <string original="Event number">Numero de evento</string>
+      <string original="Time interval">Intervalo de tiempo</string>
+      <string original="Average interval">Intervalo medio</string>
+      <string original="Average rate">Tasa promedio</string>
+      <string original="Average rate (bpm)">Tasa promedio(bpm)</string>
+    </translation>
+    <translation locale="ka">
+      <title>მოძრაობის წამზომი</title>
+      <category>წამზომები</category>
+      <description>
+        მიიღე დრო ორ მოძრავ მომენტს შორის.
+
+        ეს ექსპერიმენტი გაძლევს საშუალებას გაზომო დრო ორ მცირედ აჩქარებულ მომენტებს შორის. სასურველია დაყენდეს ჩართვის საზღვრები თქვენი ექსპერიმენტის მიხედვით.
+
+        ექსპერიმენტის დაწყების შემდეგ, წამზომი ჩაირთვება პირველივე აჩქარებაზე რომელის ჩართვის საზღვარს გასცდება და გამოირთვება მეორე ასეთ აჩქარებაზე. ყურადრება მიაქციე რომ პირველი აჩქარება იყოს მოკლე ხნიანი რადგან ვიბრაციებმა შეიძლება ჩართვასთან ერთად გამორთვაც გამოიწვიოს.
+    </description>
+      <string original="Simple">მარტივი</string>
+      <string original="Threshold">გაშვების ზღვარი</string>
+      <string original="Minimum Delay">საშუალო დაგვიანება</string>
+      <string original="Time">დრო</string>
+      <string original="Reset">გადატვირთვა</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">შეცვალე ჩართვის საზღვრები ისე რომ იყოს გარემოს ხმაურზე მაღალი, მაგრამ იმაზე დაბლა რიზეც გვინდა რომ გაეშვას ექსპერიმენტი (შეგიძლია მანამდე ცადო ექსპერიმენტი g-ს გარეშე შესაფასებლად). ასევე დააყენე მინიმალური დაგვიანების დრო რადგან თავიდან აიცილოთ არასასურველი გამორთვა.</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">ექსპერიმენტის სიზუსტე დამოკიდებულია თქვენი ტელეფონის აქსელომეტრზე. ჩქარე აქსელომეტრების სიზუსტე შეიძლება იყოს წამის მეასედები, ხოლო ნელების შეიძლება იყოს წამიც.</string>
+      <string original="Sequence">თანმიმდევრობა</string>
+      <string original="Time 1">დრო 1</string>
+      <string original="Time 2">დრო 2</string>
+      <string original="Time 3">დრო 3</string>
+      <string original="Time 4">დრო 4</string>
+      <string original="Time 5">დრო 5</string>
+      <string original="Parallel">პარალელური</string>
+      <string original="Many">ბევრი</string>
+      <string original="Events">ხდომილობები</string>
+      <string original="Event number">ხდომილობის ნომერი</string>
+      <string original="Time interval">დროის ინტერვალი</string>
+      <string original="Average interval">საშუალო ინტერვალი</string>
+      <string original="Average rate">საშუალო სიხშირე</string>
+      <string original="Average rate (bpm)">საშუალო სიხშირე (bpm)</string>
+      <string original="1/min">1/წთ</string>
+    </translation>
+    <translation locale="hi">
+      <title>मोशन विरामघड़ी</title>
+      <category>टाइमर</category>
+      <description>
+        दो गतिमान घटनाओं के बीच का समय प्राप्त करना।
+
+यह प्रयोग, दो त्वरणों (जैसे छोटे झटके) के बीच के समय को नापने के लिए है। आप देहली (थ्रेशोल्ड) को उस स्तर पर समायोजित कर सकते है जिस स्तर पर घड़ी (स्टॉप वॉच) चालू हो।
+प्रयोग शुरू करने के बाद, घड़ी देहली  से अधिक मान के पहले कुल त्वरण पर शुरू होगी और दूसरे त्वरण पर रुक जाएगी। सुनिश्चित करें कि पहला त्वरण सिगनल पर्याप्त छोटा है ताकि एक लंबे कंपन को तुरंत एक स्टॉप के रूप में पहचाना जा सके।
+    </description>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Threshold">थ्रेशोल्ड</string>
+      <string original="Minimum Delay">न्यूनतम डिले</string>
+      <string original="Time">समय</string>
+      <string original="Reset">रीसेट</string>
+      <string original="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time.">थ्रेशोल्ड को सेंसर नॉइज़ स्तर से ऊपर लेकिन ट्रिगर त्वरण के नीचे बदलें। (आप इन्हें जांचने के लिए 'g ' के बिना एक्सेलेरोमीटर प्रयोग का उपयोग कर सकते हैं)। डिले को भी न्यूनतम सेट करे ताकि उस से भी कम समय का ट्रिगर न हो पाए।</string>
+      <string original="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second.">इस प्रयोग की सटीकता आपके फोन के एक्सेलेरोमीटर पर निर्भर करती है। तेज़ एक्सेलेरोमीटर एक सेकंड के सौवें हिस्से से भी बेहतर हो सकता है, जबकि धीमे वाला केवल एक ही सेकंड का भेदन रिज़ॉल्यूशन प्राप्त कर सकता हैं।</string>
+      <string original="Sequence">क्रम</string>
+      <string original="Time 1">समय 1</string>
+      <string original="Time 2">समय 2</string>
+      <string original="Time 3">समय 3</string>
+      <string original="Time 4">समय 4</string>
+      <string original="Time 5">समय 5</string>
+      <string original="Parallel">समानांतर</string>
+      <string original="Many">कई</string>
+      <string original="Events">घटनाएँ</string>
+      <string original="Event number">घटना संख्या</string>
+      <string original="Time interval">समय अन्तराल</string>
+      <string original="Average interval">औसत अन्तराल</string>
+      <string original="Average rate">औसत दर</string>
+      <string original="Average rate (bpm)">औसत दर (बी पी एम )</string>
+      <string original="1/min">1/मिनट</string>
+    </translation>
+  </translations>
+  <input>
+    <sensor type="linear_acceleration" rate="0">
+      <output component="abs">acc</output>
+      <output component="t">accT</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Simple">
+      <edit label="Threshold" unit="[[unit_short_meter_per_square_second]]" default="1" signed="false" min="0">
+        <output>threshold</output>
+      </edit>
+      <edit label="Minimum Delay" unit="[[unit_short_second]]" default="0.2" signed="false" min="0">
+        <output>mindelay</output>
+      </edit>
+      <value label="Time" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt01</input>
+      </value>
+      <button label="Reset">
+        <input type="empty"/>
+        <output>tlist</output>
+      </button>
+      <separator height="1"/>
+      <info label="Change the threshold to be above the sensor noise level, but below the trigger acceleration (you can try the accelerometer experiment without g to check these). Also set the minimum delay to avoid triggers shorter than that time."/>
+      <separator height="1"/>
+      <info label="The precision of this experiment depends on the accelerometer in your phone. Fast accelerometers can be better than a hundredth of a second, while slow ones may only achieve a resolution of one second."/>
+    </view>
+    <view label="Sequence">
+      <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt12</input>
+      </value>
+      <value label="Time 3" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt23</input>
+      </value>
+      <value label="Time 4" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt34</input>
+      </value>
+      <value label="Time 5" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt45</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="empty"/>
+        <output>tlist</output>
+      </button>
+    </view>
+    <view label="Parallel">
+      <value label="Time 1" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt01</input>
+      </value>
+      <value label="Time 2" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt02</input>
+      </value>
+      <value label="Time 3" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt03</input>
+      </value>
+      <value label="Time 4" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt04</input>
+      </value>
+      <value label="Time 5" size="3" precision="3" unit="[[unit_short_second]]">
+        <input>dt05</input>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="empty"/>
+        <output>tlist</output>
+      </button>
+    </view>
+    <view label="Many">
+      <graph label="Events" labelX="Event number" labelY="Time interval" unitY="[[unit_short_second]]">
+        <input axis="x">tindex</input>
+        <input axis="y" style="vbars" lineWidth="0.9">dtlist</input>
+      </graph>
+      <value label="Event number" size="1" precision="0">
+        <input>tindex</input>
+      </value>
+      <value label="Average interval" size="2" precision="3" unit="[[unit_short_second]]">
+        <input>avgInterval</input>
+      </value>
+      <value label="Average rate" size="2" precision="2" unit="[[unit_short_hertz]]">
+        <input>avgRate</input>
+      </value>
+      <value label="Average rate (bpm)" size="2" precision="1" unit="1/min">
+        <input>avgBPM</input>
+      </value>
+      <button label="Reset">
+        <input type="empty"/>
+        <output>tlist</output>
+      </button>
+    </view>
+  </views>
+  <analysis>
+    <!-- We create a local copy of the new acc data and fill it with a zero if there is none as an empty buffer messes up our calculations -->
+    <append>
+      <input clear="true">acc</input>
+      <output clear="true">accCopy</output>
+    </append>
+    <append>
+      <input clear="true">accT</input>
+      <output clear="true">accTCopy</output>
+    </append>
+    <count>
+      <input clear="false">accCopy</input>
+      <output>count</output>
+    </count>
+    <if equal="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <input clear="false">accCopy</input>
+      <output clear="true">accCopy</output>
+    </if>
+    <if equal="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <input clear="false">accTCopy</input>
+      <output clear="true">accTCopy</output>
+    </if>
+    <if equal="true">
+      <input>count</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">accTCopy</input>
+      <output>tmax</output>
+    </if>
+    <!--  -->
+    <max>
+      <input as="x">accTCopy</input>
+      <input as="y">accCopy</input>
+      <output as="position">t</output>
+      <output as="max">max</output>
+    </max>
+    <if greater="true">
+      <input clear="false">max</input>
+      <input clear="false">threshold</input>
+      <input clear="false">t</input>
+      <input type="value">0</input>
+      <output>t</output>
+    </if>
+    <const>
+      <output>last</output>
+    </const>
+    <append>
+      <input clear="false">tlist</input>
+      <output clear="false">last</output>
+    </append>
+    <add>
+      <input clear="false">last</input>
+      <input clear="false">mindelay</input>
+      <output>limit</output>
+    </add>
+    <if less="true" equal="true">
+      <input clear="false">limit</input>
+      <input clear="false">t</input>
+      <input clear="false">t</input>
+      <input type="value">0</input>
+      <output>t</output>
+    </if>
+    <if greater="true">
+      <input clear="false">t</input>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <output clear="false">tlist</output>
+    </if>
+    <differentiate>
+      <input clear="false">tlist</input>
+      <output>dtlist</output>
+    </differentiate>
+    <average>
+      <input clear="false">dtlist</input>
+      <output>avgInterval</output>
+    </average>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">avgInterval</input>
+      <output>avgRate</output>
+    </divide>
+    <multiply>
+      <input clear="false">avgRate</input>
+      <input type="value">60</input>
+      <output>avgBPM</output>
+    </multiply>
+    <append>
+      <input type="value">0</input>
+      <output clear="false">dtlist</output>
+    </append>
+    <count>
+      <input clear="false">tlist</input>
+      <output>tcount</output>
+    </count>
+    <subtract>
+      <input clear="false">tcount</input>
+      <input type="value">1</input>
+      <output>tcount-1</output>
+    </subtract>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop">tcount-1</input>
+      <input as="length">tcount</input>
+      <output>tindex</output>
+    </ramp>
+    <const>
+      <output>t0</output>
+    </const>
+    <const>
+      <output>t1</output>
+    </const>
+    <const>
+      <output>t2</output>
+    </const>
+    <const>
+      <output>t3</output>
+    </const>
+    <const>
+      <output>t4</output>
+    </const>
+    <const>
+      <output>t5</output>
+    </const>
+    <subrange>
+      <input as="from" type="value">0</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t0</output>
+    </subrange>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t1</output>
+    </subrange>
+    <subrange>
+      <input as="from" type="value">2</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t2</output>
+    </subrange>
+    <subrange>
+      <input as="from" type="value">3</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t3</output>
+    </subrange>
+    <subrange>
+      <input as="from" type="value">4</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t4</output>
+    </subrange>
+    <subrange>
+      <input as="from" type="value">5</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">tlist</input>
+      <output clear="false">t5</output>
+    </subrange>
+    <if less="true" equal="true">
+      <input clear="false">t5</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t5</input>
+      <output>t5effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t4</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t4</input>
+      <output>t4effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t3</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t3</input>
+      <output>t3effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t2</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t2</input>
+      <output>t2effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t1</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t1</input>
+      <output>t1effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t0</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t0</input>
+      <output>t0effective</output>
+    </if>
+    <subtract>
+      <input clear="false">t5effective</input>
+      <input clear="false">t4effective</input>
+      <output>dt45</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t4effective</input>
+      <input clear="false">t3effective</input>
+      <output>dt34</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t3effective</input>
+      <input clear="false">t2effective</input>
+      <output>dt23</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t2effective</input>
+      <input clear="false">t1effective</input>
+      <output>dt12</output>
+    </subtract>
+    <subtract>
+      <input>t5effective</input>
+      <input clear="false">t0effective</input>
+      <output>dt05</output>
+    </subtract>
+    <subtract>
+      <input>t4effective</input>
+      <input clear="false">t0effective</input>
+      <output>dt04</output>
+    </subtract>
+    <subtract>
+      <input>t3effective</input>
+      <input clear="false">t0effective</input>
+      <output>dt03</output>
+    </subtract>
+    <subtract>
+      <input>t2effective</input>
+      <input clear="false">t0effective</input>
+      <output>dt02</output>
+    </subtract>
+    <subtract>
+      <input>t1effective</input>
+      <input>t0effective</input>
+      <output>dt01</output>
+    </subtract>
+  </analysis>
+  <export>
+    <set name="Simple">
+      <data name="Start (s)">t0</data>
+      <data name="Stop (s)">t1</data>
+      <data name="Difference (s)">dt01</data>
+    </set>
+    <set name="Multiple">
+      <data name="Start (s)">t0</data>
+      <data name="Stop 1 (s)">t1</data>
+      <data name="Stop 2 (s)">t2</data>
+      <data name="Stop 3 (s)">t3</data>
+      <data name="Stop 4 (s)">t4</data>
+      <data name="Stop 5 (s)">t5</data>
+    </set>
+    <set name="All">
+      <data name="Event time (s)">tlist</data>
+      <data name="Interval (s)">dtlist</data>
+    </set>
+  </export>
+</phyphox>

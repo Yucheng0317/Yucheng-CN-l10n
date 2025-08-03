@@ -1,0 +1,412 @@
+<phyphox version="1.14" locale="en">
+  <title>Acceleration (without g)</title>
+  <category>Raw Sensors</category>
+  <icon format="base64">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</icon>
+  <description>Get raw data from the so called linear accelerometer, which gives the actual acceleration without the gravitational acceleration. In contrast to "acceleration with g", this sensor reports 0 when the device is resting.</description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Sensor:_Acceleration_(without_g)</link>
+  <link label="x / y / z">http://phyphox.org/sensors/</link>
+  <translations>
+    <translation locale="de">
+      <title>Beschleunigung (ohne g)</title>
+      <category>Sensoren</category>
+      <description>Rohdaten des Sensors "lineare Beschleunigung" auslesen, welcher der tatsächlichen Beschleunigung ohne den Beitrag der Erdbeschleunigung entspricht. Im Gegensatz zu "Beschleunigung mit g" liefert dieser Sensor 0, wenn das Gerät ruht.</description>
+      <string original="Simple">Einfach</string>
+      <string original="Acceleration x">Beschleunigung x</string>
+      <string original="Acceleration y">Beschleunigung y</string>
+      <string original="Acceleration z">Beschleunigung z</string>
+      <string original="Absolute acceleration">Absolute Beschleunigung</string>
+      <string original="Absolute">Betrag</string>
+      <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
+      <string original="Linear Acceleration x">Lineare Beschleunigung x</string>
+      <string original="Linear Acceleration y">Lineare Beschleunigung y</string>
+      <string original="Linear Acceleration z">Lineare Beschleunigung z</string>
+      <string original="Acceleration">Beschleunigung</string>
+    </translation>
+    <translation locale="cs">
+      <title>Akcelerace (bez g)</title>
+      <category>Senzory</category>
+      <description>Zobrazí neupravená data z takzvaného lineárního akcelerometru, který měří zrychlení bez tíhového zrychlení. Na rozdíl od experimentu "Akcelerace s g" tento experiment naměří ve chvíli, kdy je mobil v klidu, hodnotu zrychlení 0.</description>
+      <string original="Graph">Graf</string>
+      <string original="Absolute">Celkové</string>
+      <string original="Absolute acceleration">Celkové zrychlení</string>
+      <string original="Simple">Stručně</string>
+      <string original="Acceleration x">Zrychlení x</string>
+      <string original="Acceleration y">Zrychlení y</string>
+      <string original="Acceleration z">Zrychlení z</string>
+      <string original="Linear Acceleration x">Lineární zrychlení x</string>
+      <string original="Linear Acceleration y">Lineární zrychlení y</string>
+      <string original="Linear Acceleration z">Lineární zrychlení z</string>
+      <string original="Acceleration">Zrychlení</string>
+    </translation>
+    <translation locale="pl">
+      <title>Przyspieszenie (bez g)</title>
+      <category>Surowe dane</category>
+      <description>Uzyskaj surowe dane z tzw. akcelerometru liniowego, który rejestruje bieżące przyspieszenie urządzenia bez uwzględniania pola grawitacyjnego. W przeciwieństwie do "Przyspieszenia (wraz z g)", czujnik wskazuje wartość 0, gdy spoczywa nieruchomo na powierzchni równoległej do podłoża.</description>
+      <string original="Graph">Wykres</string>
+      <string original="Absolute">Całkowite</string>
+      <string original="Absolute acceleration">Przyspieszenie wypadkowe</string>
+      <string original="Simple">Próbka</string>
+      <string original="Acceleration x">Przyspieszenie - składowa x</string>
+      <string original="Acceleration y">Przyspieszenie - składowa y</string>
+      <string original="Acceleration z">Przyspieszenie - składowa z</string>
+      <string original="Linear Acceleration x">Przyspieszenie liniowe x</string>
+      <string original="Linear Acceleration y">Przyspieszenie liniowe y</string>
+      <string original="Linear Acceleration z">Przyspieszenie liniowe z</string>
+      <string original="Acceleration">Przyspieszenie</string>
+      <string original="Multi">Wiele</string>
+    </translation>
+    <translation locale="nl">
+      <title>Versnelling (zonder g)</title>
+      <category>Onbewerkte sensoren</category>
+      <description>Verkrijg onbewerkte gegevens van de lineaire versnellingsmeter (accelerometer), die de feitelijke versnelling geeft zonder zwaarteversnelling. In tegenstelling tot "versnelling met g" geeft deze virtuele sensor 0 weer wanneer de smartphone in rust is.</description>
+      <string original="Graph">Grafiek</string>
+      <string original="Linear Acceleration x">Lineaire versnelling x</string>
+      <string original="Linear Acceleration y">Lineaire versnelling y</string>
+      <string original="Linear Acceleration z">Lineaire versnelling z</string>
+      <string original="Absolute">Absoluut</string>
+      <string original="Absolute acceleration">Absolute versnelling</string>
+      <string original="Simple">Eenvoudig</string>
+      <string original="Acceleration x">Versnelling x</string>
+      <string original="Acceleration y">Versnelling y</string>
+      <string original="Acceleration z">Versnelling z</string>
+      <string original="Acceleration">Versnelling</string>
+    </translation>
+    <translation locale="ru">
+      <title>Ускорение (без g)</title>
+      <category>Исходные датчики</category>
+      <description>Получите исходные данные из так называемого линейного акселерометра, который дает фактическое ускорение не учитывая ускорения свободного падения. В отличие от «ускорение с g», этот датчик выдаёт 0, когда устройство покоится.</description>
+      <string original="Graph">График</string>
+      <string original="Linear Acceleration x">Линейное ускорение x</string>
+      <string original="Linear Acceleration y">Линейное ускорение y</string>
+      <string original="Linear Acceleration z">Линейное ускорение z</string>
+      <string original="Absolute">Абсолютная величина</string>
+      <string original="Absolute acceleration">Абсолютное ускорение</string>
+      <string original="Simple">Значение</string>
+      <string original="Acceleration x">Ускорение x</string>
+      <string original="Acceleration y">Ускорение y</string>
+      <string original="Acceleration z">Ускорение z</string>
+      <string original="Acceleration">Ускорение</string>
+      <string original="Multi">Много</string>
+    </translation>
+    <translation locale="it">
+      <title>Accelerazione (senza g)</title>
+      <category>Sensori</category>
+      <description>Legge i dati dall'accelerometro sottraendo l'accelerazione di gravità. Al contrario di "accelerazione con g", quando il dispositivo è fermo questo sensore riporta 0.</description>
+      <string original="Graph">Grafico</string>
+      <string original="Linear Acceleration x">Accelerazione x</string>
+      <string original="Linear Acceleration y">Accelerazione y</string>
+      <string original="Linear Acceleration z">Accelerazione z</string>
+      <string original="Absolute">Modulo</string>
+      <string original="Absolute acceleration">Modulo dell'accelerazione</string>
+      <string original="Simple">Valori</string>
+      <string original="Acceleration x">Accelerazione x</string>
+      <string original="Acceleration y">Accelerazione y</string>
+      <string original="Acceleration z">Accelerazione z</string>
+      <string original="Acceleration">Accelerazione</string>
+    </translation>
+    <translation locale="el">
+      <title>Επιτάχυνση (χωρίς το g)</title>
+      <category>Δεδομένα Αισθητήρων</category>
+      <description>Πάρτε τις καταγραφές από το γραμμικό επιταχυνσιόμετρο, ο οποίος δίνει την πραγματική επιτάχυνση χωρίς την βαρυτική επιτάχυνση. Σε αντίθεση με την "επιτάχυνση με το g", αυτός ο αισθητήρας δίνει 0 όταν η συσκευή βρίσκεται σε ακινησία.</description>
+      <string original="Graph">Γράφημα</string>
+      <string original="Linear Acceleration x">Γραμμική Επιτάχυνση x</string>
+      <string original="Linear Acceleration y">Γραμμική Επιτάχυνση y</string>
+      <string original="Linear Acceleration z">Γραμμική Επιτάχυνση z</string>
+      <string original="Absolute">Μέτρο</string>
+      <string original="Absolute acceleration">Μέτρο της επιτάχυνσης</string>
+      <string original="Simple">Απλό</string>
+      <string original="Acceleration x">Επιτάχυνση x</string>
+      <string original="Acceleration y">Επιτάχυνση y</string>
+      <string original="Acceleration z">Επιτάχυνση z</string>
+      <string original="Acceleration">Επιτάχυνση</string>
+      <string original="Multi">Πολλαπλό</string>
+    </translation>
+    <translation locale="ja">
+      <title>gを含まない加速度</title>
+      <category>センサー出力</category>
+      <description>重力を除いた加速度が得られるリニア加速度計からの時系列データを取得します．重力gを含んだ加速度計測と異なり，本計測ではデバイスが静止しているときの加速度は0と出力されます．</description>
+      <string original="Graph">グラフ</string>
+      <string original="Linear Acceleration x">加速度 x</string>
+      <string original="Linear Acceleration y">加速度 y</string>
+      <string original="Linear Acceleration z">加速度 z</string>
+      <string original="Absolute">絶対値</string>
+      <string original="Absolute acceleration">加速度の絶対値</string>
+      <string original="Multi">全方向</string>
+      <string original="Acceleration">加速</string>
+      <string original="Simple">シンプル</string>
+      <string original="Acceleration x">加速度 x</string>
+      <string original="Acceleration y">加速度 y</string>
+      <string original="Acceleration z">加速度 z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Aceleração (sem g)</title>
+      <category>Sensores</category>
+      <description>Obtenha valores do acelerômetro linear, que dá a aceleração atual sem contar a aceleração devido a gravidade. Diferente do "acelerômetro com g", este sensor retorna 0 quando o aparelho está em repouso.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Linear Acceleration x">Aceleração Linear x</string>
+      <string original="Linear Acceleration y">Aceleração Linear y</string>
+      <string original="Linear Acceleration z">Aceleração Linear z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Absolute acceleration">Aceleração absoluta</string>
+      <string original="Acceleration">Aceleração</string>
+      <string original="Simple">Simples</string>
+      <string original="Acceleration x">Aceleração X</string>
+      <string original="Acceleration y">Aceleração Y</string>
+      <string original="Acceleration z">Aceleração Z</string>
+    </translation>
+    <translation locale="tr">
+      <title>Hızlanma (g olmadan)</title>
+      <category>Ham Sensörler</category>
+      <description>Yerçekimi ivmesi olmadan gerçek ivmeyi veren, lineer ivmeölçerden ham veri elde edin. "g ile ivmelenme" nin tersine, bu sensör cihaz hareketsizken 0 bildirir.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Linear Acceleration x">Doğrusal İvmelenme x</string>
+      <string original="Linear Acceleration y">Doğrusal İvmelenme y</string>
+      <string original="Linear Acceleration z">Doğrusal İvmelenme z</string>
+      <string original="Absolute">Mutlak</string>
+      <string original="Absolute acceleration">Mutlak ivme</string>
+      <string original="Multi">Çoklu</string>
+      <string original="Acceleration">İvmelenme</string>
+      <string original="Simple">Basit</string>
+      <string original="Acceleration x">İvme x</string>
+      <string original="Acceleration y">İvme y</string>
+      <string original="Acceleration z">İvme z</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>不含重力之加速度</title>
+      <category>原始感測器</category>
+      <description>自線性加速儀獲得原始數據會使測得的真實加速度不包含重力加速度。與「含重力之加速度」對比，這個感應器會在裝置靜止時得到0的值。</description>
+      <string original="Graph">圖表</string>
+      <string original="Linear Acceleration x">x方向線性加速度</string>
+      <string original="Linear Acceleration y">y方向線性加速度</string>
+      <string original="Linear Acceleration z">z方向線性加速度</string>
+      <string original="Absolute">絕對值</string>
+      <string original="Absolute acceleration">加速度絕對值</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Simple">簡易</string>
+      <string original="Acceleration x">x方向加速度</string>
+      <string original="Acceleration y">y方向加速度</string>
+      <string original="Acceleration z">z方向加速度</string>
+    </translation>
+    <translation locale="fr">
+      <title>Accélération (sans g)</title>
+      <category>Capteurs</category>
+      <description>Mesures de l'accélération du téléphone uniquement, sans l'accélération gravitationnelle. À la différence du capteur « accélération avec g », ce capteur indique une accélération nulle lorsque le téléphone est au repos.</description>
+      <string original="Graph">Graphe</string>
+      <string original="Linear Acceleration x">Accélération linéaire selon l'axe x</string>
+      <string original="Linear Acceleration y">Accélération linéaire selon l'axe y</string>
+      <string original="Linear Acceleration z">Accélération linéaire selon l'axe z</string>
+      <string original="Absolute">Norme</string>
+      <string original="Absolute acceleration">Norme du vecteur accélération</string>
+      <string original="Acceleration">Accélération</string>
+      <string original="Simple">Composantes</string>
+      <string original="Acceleration x">Accélération selon x</string>
+      <string original="Acceleration y">Accélération selon y</string>
+      <string original="Acceleration z">Accélération selon z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Gia tốc (không g)</title>
+      <category>Cảm biến thô</category>
+      <description>Lấy dữ liệu thô từ gia tốc kế tuyến tính, nó cho gia tốc thực tế mà không có gia tốc trọng trường. Ngược lại với "gia tốc có g", cảm biến này cho giá trị 0 khi thiết bị đứng yên.</description>
+      <string original="Graph">Đồ thị</string>
+      <string original="Linear Acceleration x">Gia tốc tuyến tính x</string>
+      <string original="Linear Acceleration y">Gia tốc tuyến tính y</string>
+      <string original="Linear Acceleration z">Gia tốc tuyến tính z</string>
+      <string original="Absolute">Tổng hợp</string>
+      <string original="Absolute acceleration">Gia tốc tổng hợp</string>
+      <string original="Multi">Nhiều</string>
+      <string original="Acceleration">Gia tốc</string>
+      <string original="Simple">Đơn giản</string>
+      <string original="Acceleration x">Gia tốc x</string>
+      <string original="Acceleration y">Gia tốc y</string>
+      <string original="Acceleration z">Gia tốc z</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>加速度（不含g）</title>
+      <category>原始传感器</category>
+      <description>从所谓的线性加速度计获得原始数据，能得到不含重力加速度的真实加速度。和“加速度（含g）”不同，本传感器在设备静止时显示为0。</description>
+      <string original="Graph">图表</string>
+      <string original="Linear Acceleration x">x轴线性加速度</string>
+      <string original="Linear Acceleration y">y轴线性加速度</string>
+      <string original="Linear Acceleration z">z轴线性加速度</string>
+      <string original="Absolute">绝对值</string>
+      <string original="Absolute acceleration">加速度绝对值</string>
+      <string original="Multi">多方向</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Simple">简明值</string>
+      <string original="Acceleration x">x轴加速度</string>
+      <string original="Acceleration y">y轴加速度</string>
+      <string original="Acceleration z">z轴加速度</string>
+    </translation>
+    <translation locale="sr">
+      <title>Ubrzanje (bez g)</title>
+      <category>Senzori</category>
+      <description>Preuzmite neobrađene podatke iz takozvanog linearnog brzinometra, koji daje stvarno ubrzanje bez gravitacionog ubrzanja. Za razliku od "ubrzanje sa g", ovaj senzor javlja 0 kada se uređaj odmara.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Linear Acceleration x">Linearno ubrzanje x</string>
+      <string original="Linear Acceleration y">Linearno ubrzanje y</string>
+      <string original="Linear Acceleration z">Linearno ubrzanje z</string>
+      <string original="Absolute">Apsolutna vrednost</string>
+      <string original="Absolute acceleration">Apsolutno ubrzanje</string>
+      <string original="Multi">Višestruko</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Acceleration x">Ubrzanje x</string>
+      <string original="Acceleration y">Ubrzanje y</string>
+      <string original="Acceleration z">Ubrzanje z</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Ubrzanje (bez g)</title>
+      <category>Senzori</category>
+      <description>Preuzmite neobrađene podatke iz takozvanog linearnog brzinometra, koji daje stvarno ubrzanje bez gravitacionog ubrzanja. Za razliku od "ubrzanje sa g", ovaj senzor javlja 0 kada se uređaj odmara.</description>
+      <string original="Graph">Grafik</string>
+      <string original="Linear Acceleration x">Linearno ubrzanje x</string>
+      <string original="Linear Acceleration y">Linearno ubrzanje y</string>
+      <string original="Linear Acceleration z">Linearno ubrzanje z</string>
+      <string original="Absolute">Apsolutna vrednost</string>
+      <string original="Absolute acceleration">Apsolutno ubrzanje</string>
+      <string original="Multi">Višestruko</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Acceleration x">Ubrzanje x</string>
+      <string original="Acceleration y">Ubrzanje y</string>
+      <string original="Acceleration z">Ubrzanje z</string>
+    </translation>
+    <translation locale="es">
+      <title>Aceleración (sin g)</title>
+      <category>Sensores</category>
+      <description>Obtenga datos sin procesar del llamado acelerómetro lineal, que proporciona la aceleración real sin la aceleración gravitacional. A diferencia de la "aceleración con g", este sensor informa 0 cuando el dispositivo está en reposo.</description>
+      <string original="Graph">Gráfico</string>
+      <string original="Linear Acceleration x">Aceleración lineal x</string>
+      <string original="Linear Acceleration y">Aceleración lineal y</string>
+      <string original="Linear Acceleration z">Aceleración lineal z</string>
+      <string original="Absolute">Absoluto</string>
+      <string original="Absolute acceleration">Aceleración absoluta</string>
+      <string original="Acceleration">Aceleración</string>
+      <string original="Acceleration x">Aceleración x</string>
+      <string original="Acceleration y">Aceleración y</string>
+      <string original="Acceleration z">Aceleración z</string>
+    </translation>
+    <translation locale="ka">
+      <title>აჩქარება (g-ს გარეშე)</title>
+      <category>დაუმუშავებელი სენსორები</category>
+      <description>მიიღე დაუმუშავებელი მონაცემები წრფივი აქსელომეტრისგან, რომელიც იძლევა რეალურ აჩქარებას გრავიტაციული აჩქარების გარეშე. შესადარებლად "g-თი აჩქარება"-ისგან განსხვავებით ეს იძლევა ნულს როცა უმოძრაოდ დევს.</description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Linear Acceleration x">წრფივი აჩქარება x</string>
+      <string original="Linear Acceleration y">წრფივი აჩქარება y</string>
+      <string original="Linear Acceleration z">წრფივი აჩქარება z</string>
+      <string original="Absolute">აბსოლუტი</string>
+      <string original="Absolute acceleration">აჩქარების მოდული</string>
+      <string original="Multi">მულტი</string>
+      <string original="Acceleration">აჩქარება</string>
+      <string original="Simple">მარტივი</string>
+      <string original="Acceleration x">აჩქარება x</string>
+      <string original="Acceleration y">აჩქარება y</string>
+      <string original="Acceleration z">აჩქარება z</string>
+    </translation>
+    <translation locale="hi">
+      <title>त्वरण (बिना g के )</title>
+      <category>रॉ सेंसर</category>
+      <description>तथाकथित रैखिक एक्सेलेरोमीटर से रॉ डेटा प्राप्त करें, यह गुरुत्वीय त्वरण के बिना वास्तविक त्वरण देता है। "g के साथ त्वरण" के विपरीत, यह सेंसर डिवाइस की विश्राम अवस्था में 0 दिखाता है।</description>
+      <string original="Graph">ग्राफ</string>
+      <string original="Linear Acceleration x">रेखीय त्वरण X</string>
+      <string original="Linear Acceleration y">रेखीय त्वरण y</string>
+      <string original="Linear Acceleration z">रेखीय त्वरण z</string>
+      <string original="Absolute">निरपेक्ष</string>
+      <string original="Absolute acceleration">निरपेक्ष त्वरण</string>
+      <string original="Multi">बहु</string>
+      <string original="Acceleration">त्वरण</string>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Acceleration x">त्वरण x</string>
+      <string original="Acceleration y">त्वरण y</string>
+      <string original="Acceleration z">त्वरण z</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="0">acc_time</container>
+    <container size="0">accX</container>
+    <container size="0">accY</container>
+    <container size="0">accZ</container>
+    <container size="0">acc</container>
+  </data-containers>
+  <input>
+    <sensor type="linear_acceleration">
+      <output component="x">accX</output>
+      <output component="y">accY</output>
+      <output component="z">accZ</output>
+      <output component="t">acc_time</output>
+      <output component="abs">acc</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Graph">
+      <graph label="Linear Acceleration x" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="green">
+        <input axis="x">acc_time</input>
+        <input axis="y">accX</input>
+      </graph>
+      <graph label="Linear Acceleration y" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="blue">
+        <input axis="x">acc_time</input>
+        <input axis="y">accY</input>
+      </graph>
+      <graph label="Linear Acceleration z" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="yellow">
+        <input axis="x">acc_time</input>
+        <input axis="y">accZ</input>
+      </graph>
+    </view>
+    <view label="Absolute">
+      <graph label="Absolute acceleration" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="white">
+        <input axis="x">acc_time</input>
+        <input axis="y">acc</input>
+      </graph>
+      <value label="Absolute acceleration" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]">
+        <input>acc</input>
+      </value>
+    </view>
+    <view label="Multi">
+      <graph label="Acceleration" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true">
+        <input axis="x" color="green">acc_time</input>
+        <input axis="y">accX</input>
+        <input axis="x" color="blue">acc_time</input>
+        <input axis="y">accY</input>
+        <input axis="x" color="yellow">acc_time</input>
+        <input axis="y">accZ</input>
+        <input axis="x" color="white">acc_time</input>
+        <input axis="y">acc</input>
+      </graph>
+      <value label="Linear Acceleration x" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]" color="green">
+        <input>accX</input>
+      </value>
+      <value label="Linear Acceleration y" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]" color="blue">
+        <input>accY</input>
+      </value>
+      <value label="Linear Acceleration z" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]" color="yellow">
+        <input>accZ</input>
+      </value>
+      <value label="Absolute acceleration" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]" color="white">
+        <input>acc</input>
+      </value>
+    </view>
+    <view label="Simple">
+      <value label="Acceleration x" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]" color="green">
+        <input>accX</input>
+      </value>
+      <value label="Acceleration y" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]" color="blue">
+        <input>accY</input>
+      </value>
+      <value label="Acceleration z" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]" color="yellow">
+        <input>accZ</input>
+      </value>
+      <value label="Absolute acceleration" size="2" precision="2" unit="[[unit_short_meter_per_square_second]]" color="white">
+        <input>acc</input>
+      </value>
+    </view>
+  </views>
+  <export>
+    <set name="Raw Data">
+      <data name="Time (s)">acc_time</data>
+      <data name="Linear Acceleration x (m/s^2)">accX</data>
+      <data name="Linear Acceleration y (m/s^2)">accY</data>
+      <data name="Linear Acceleration z (m/s^2)">accZ</data>
+      <data name="Absolute acceleration (m/s^2)">acc</data>
+    </set>
+  </export>
+</phyphox>

@@ -1,0 +1,249 @@
+<phyphox locale="en" version="1.19">
+  <title>Brightness (Luminance)</title>
+  <category>Camera</category>
+  <description>Measure the luminance, i.e. the brightness observed through your camera's lens.
+
+The resulting values use arbitraty units that are normalized to a fully white image with an ISO sensitivity of 100, aperture of f/1 and an exposure time of 1/60s. Phyphox will automatically scale the luminance calculated from the camera's image according to the current exposure settings. However, keep in mind that most phones take a moment to actually apply changing exposure settings, so if you use auto exposure or if you change the settings, it will take a moment for the readings to settle.
+
+Also, the reading will be wrong and show saturation effects if any part of the image (or actually any color channel) is overexposed or (to a lesser extend) underexposed. Phyphox will highlight overexposed areas red and underexposed areas blue. You should avoid that read areas occur withint the measurement rectangle. Blue parts should be fine as long as they do not make up most of the measured area. The auto exposure mode in this configuration will try to avoid overexposure more aggressively than other parts of phyphox.
+
+Further technical details: Phyphox uses the camera's preview stream and linearizes each pixel, assuming an sRGB color model with corresponding gamma curve. The resulting luminance is then averaged through a mix of shader-based averaging and texture filtering in the phone's GPU. However, non-linear behavior of cameras, especially if dynamic range compression is applied even in the preview, is beyond our control and might impact measurements on some phone models.
+</description>
+  <icon format="base64">
+        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
+    </icon>
+  <translations>
+  <translation locale="zh-hans">
+      <string original="Preview">预览</string>
+      <string original="Average rate">平均速率</string>
+      <title>亮度（发光密度）</title>
+      <category>相机</category>
+      <description>测量发光密度，即通过相机光学系统测量亮度。
+
+结果以任意单位给出，这些单位基于ISO感光度为100、光圈为f/1、曝光时间为1/60秒的纯白色图像进行归一化。Phyphox会根据当前曝光设置自动缩放从相机图像计算得出的值。不过，您应注意，大多数手机需要一些时间来应用更改后的曝光设置，因此在更改数值或使用自动曝光时，数值需要一段时间才能稳定下来。
+
+此外，一旦图像的任何部分（甚至只是某个颜色通道）曝光过度，或者（影响较小的情况）曝光不足，测量就会失真并显示饱和效应。Phyphox会将曝光过度的区域标记为红色，曝光不足的区域标记为蓝色。您务必避免测量矩形中出现红色区域。蓝色区域只要不占测量的大部分就没问题。在此配置下的自动曝光，相较于其他phyphox配置，会更积极地尝试避免曝光过度。
+
+更多技术细节：Phyphox使用相机的预览流，并假设数据为sRGB颜色模型且具有相应的伽马曲线，对每个像素进行线性化处理。然后，通过在手机图形单元中基于着色器的平均和线性纹理插值的混合方式，对生成的发光密度进行平均。然而，相机的非线性行为，特别是在预览中也应用动态压缩时，不在我们的控制范围内，并且可能会对某些设备上的测量产生负面影响。
+</description>
+      <string original="Luminance">发光密度</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">点击预览并拖动以更改用于评估图像的图像区域。您还可以选择不同的相机设置来设置该区域内的图像。曝光不足的区域标记为蓝色，曝光过度的区域标记为红色。</string>
+      <string original="Frame rate">帧率</string>
+      <string original="Important">重要</string>
+      <string original="What is being measured?">正在测量什么？</string>
+      <string original="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent.">此功能使用手机相机测量相对亮度。它考虑了给定相机设置（如曝光时间）下相机图像的亮度。绝对值取决于相机，很遗憾，这还取决于手机的中一些无法避免的后期处理。</string>
+      <string original="What errors are introduced by my phone?">我的手机会引入哪些误差？</string>
+      <string original="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:">一些手机通过改变图像某些部分的亮度来优化相机数据，以获得美观的图像。我们预计以下是最常见的情况：</string>
+      <string original="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness.">- 对比度增强：图像的暗部变得更暗，亮部变得更亮。如果整个相机图像的亮度范围不广，手机就会这样做。</string>
+      <string original="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness.">- 动态范围压缩：暗部变亮，亮部变暗。如果图像的最亮和/或最暗部分过于极端，可能会丢失细节，手机就会进行此操作。在大量进行此操作的手机上，当您更改相机设置时，您几乎不会注意到相对亮度的变化，因为后期处理后的图像保持相似的亮度。</string>
+      <string original="- Brightness boost: Most phones will increase the brightness of the image if is much too dark.">- 亮度提升：如果图像太暗，大多数手机会增加图像的亮度。</string>
+      <string original="How to measure reliably despite post-processing?">尽管有后期处理，如何可靠地进行测量？</string>
+      <string original="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness.">我们建议将曝光设置为使测量区域处于中等亮度（即灰色）。Phyphox的自动曝光会调整相机设置以实现这一点，并且此亮度水平基本不受手机后期处理的影响。然后，相对亮度几乎完全基于实现此亮度所需的相机设置（特别是ISO和曝光时间）。然而，自动曝光需要一些时间才能稳定，因此在进行相对亮度测量之前，您应该等待片刻，并观察预览图像是否稳定在中等灰色亮度。</string>
+      <string original="Details for advanced users">高级用户详细信息</string>
+      <string original="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.).">相机的原始数据转换为RGB，假设sRGB的伽马曲线，对各个RGB通道进行线性化处理，然后转换为亮度值。相对亮度是根据相机设置归一化的亮度值，这样如果相机设置为曝光时间1/60秒、ISO为100、光圈为f/1，纯白色图像将产生相对亮度为1（请注意，这仍然不允许在不同型号之间进行比较）。</string>
+    </translation>
+    <translation locale="cs">
+      <string original="Preview">Náhled</string>
+      <string original="Average rate">Průměrné tempo</string>
+    </translation>
+    <translation locale="de">
+      <string original="Preview">Vorschau</string>
+      <string original="Average rate">Mittlere Rate</string>
+      <title>Helligkeit (Leuchtdichte)</title>
+      <category>Kamera</category>
+      <description>Miss die Leuchtdichte, also die Helligkeit durch die Optik der Kamera.
+
+Das Ergebnis wird in beliebigen Einheiten angegeben, die auf ein rein weißes Bild bei ISO-Empfindlichkeit von 100, einer Blende von f/1 und einer Belichtungsdauer von 1/60s normiert ist. Phyphox skaliert den aus dem Kamerabild errechneten Wert automatisch unter Berücksichtigung der aktuellen Belichtungseinstellungen. Du solltest allerdings beachten, dass die meisten Handys einen Moment benötigen um geänderte Belichtungseinstlelungen anzuwenden, so dass es beim Ändern der Werte oder bei Benutzung der automatischen Belichtung einen Moment dauert bis die Werte stabil sind.
+
+Zudem wird die Messung verfälscht und zeigt Sättigungseffekte sobald irgendein Teil des Bilds (oder sogar nur ein Farbkanal) überbelichtet oder (mit schwächeren Folgen) unterbelichtet ist. Phyphox wird überbelichtete Bereiche rot und unterbelichtete blau markieren. Du solltest unbedingt vermeiden, dass rote Bereiche in Mess-Rechteck ercheinen. Blaue Bereiche sind in Ordnung, solange sie nicht den Großteil der Messung ausmachen. Die automatische Belichtung in dieser Konfiguration wird deutlich aggressiver versuchen Überbelichtungen zu vermeiden als in anderen phyphox-Konfigurationen.
+
+Weitere technische Details: Phyphox nutzt den Vorschau-Stream der Kamera und linearisiert jeden Pixel unter der Annahme, dass es sich um Daten im sRGB Farbmodell handelt mit der entsprechenden Gamma-Kurve. Die resultierende Leuchtdichte wird dann über eine Mischung aus Shader-basierter Mittelung und linearer Textur-Interpolation in der Grafikeinheit des Handys gemittelt. Allerdings liegen nicht-lineares Verhalten von Kameras, insbesondere wenn auch in der Vorschau Dynamikkompression angewendet wird, außerhalb unserer Kontrolle und können auf manschen Geräten die Messung negativ beeinflussen.
+</description>
+      <string original="Luminance">Leuchtdichte</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Tippe auf die Vorschau und ziehe die Kreise um den Bereich des Bilds zu wählen, der bei der Messung berücksichtigt wird. Du kannst auch verschiedene Einstellungen für die Kamera vornehmen. Unterbelichtete Bereiche werden blau markiert, überbelichtete werden rot markiert.</string>
+      <string original="Frame rate">Bildrate</string>
+      <string original="Important">Wichtig</string>
+      <string original="What is being measured?">Was wird gemessen?</string>
+      <string original="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent.">Diese Funktion misst die relative Leuchtdichte mit der Kamera des Smartphones. Sie berücksichtigt die Helligkeit des Kamerabildes und die verwendeten Kameraeinstellungen (z.B. Belichtungszeit). Der absolute Wert hängt von der Kamera und leider auch von einigen Nachbearbeitungen des Handys ab, die wir nicht verhindern können.</string>
+      <string original="What errors are introduced by my phone?">Welche Fehler entstehen durch die Nachbearbeitung?</string>
+      <string original="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:">Einige Smartphones optimieren die von der Kamera erfassten Daten, um ein ansprechenderes Bild zu erzeugen, indem sie die Helligkeit bestimmter Bildbereiche verändern. Die häufigsten Effekte sind:</string>
+      <string original="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness.">- Kontrastverstärkung: Dunkle Bereiche des Bildes werden dunkler, helle Bereiche heller. Dies passiert, wenn das gesamte Kamerabild keine starken Variationen in der Helligkeit aufweist.</string>
+      <string original="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness.">- Dynamikbereichskompression: Dunkle Bereiche werden aufgehellt, helle Bereiche abgedunkelt. Dies geschieht, wenn Details im Bild durch extreme Helligkeitswerte verloren gehen würden. Bei Smartphones mit starker Dynamikbereichskompression bleibt die relative Leuchtdichte nahezu unverändert, selbst wenn die Kameraeinstellungen verändert werden, da das bearbeitete Bild eine ähnliche Helligkeit beibehält.</string>
+      <string original="- Brightness boost: Most phones will increase the brightness of the image if is much too dark.">- Helligkeitsverstärkung: Die meisten Smartphones erhöhen die Bildhelligkeit, wenn das Bild andernfalls viel zu dunkel wäre.</string>
+      <string original="How to measure reliably despite post-processing?">Wie kann man trotz Nachbearbeitung zuverlässig messen?</string>
+      <string original="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness.">Wir empfehlen, die Belichtung so einzustellen, dass der gemessene Bereich eine mittlere Helligkeit (d.h. grau) aufweist. Die automatische Belichtung von phyphox passt die Kameraeinstellungen entsprechend an, sodass dieser Helligkeitsbereich erreicht wird. Diese Helligkeit ist weitgehend unbeeinflusst von der Nachbearbeitung des Telefons. Die relative Leuchtdichte basiert dann fast ausschließlich auf den Kameraeinstellungen (insbesondere ISO und Belichtungszeit), die für diese Helligkeit erforderlich sind. Da die automatische Belichtung einen Moment benötigt, um sich zu stabilisieren, sollte man vor der Messung kurz warten und beobachten, ob sich das Vorschaubild auf eine mittlere graue Helligkeit einpendelt.</string>
+      <string original="Details for advanced users">Details für fortgeschrittene Nutzer</string>
+      <string original="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.).">Die Rohdaten der Kamera werden in RGB konvertiert, wobei die einzelnen RGB-Kanäle unter Annahme der Gamma-Kurve von sRGB linearisiert und anschließend wieder in einen Luma-Wert umgerechnet werden. Die relative Leuchtdichte ist der auf die Kameraeinstellungen normalisierte Luma-Wert, sodass ein rein weißes Bild eine relative Leuchtdichte von 1 ergibt, wenn die Kamera auf eine Belichtungszeit von 1/60s, einen ISO-Wert von 100 und eine Blende von f/1 eingestellt ist. (Dies ermöglicht jedoch weiterhin keinen Vergleich zwischen verschiedenen Gerätemodellen.)</string>
+    </translation>
+    <translation locale="el">
+      <string original="Preview">Προεπισκόπηση</string>
+      <string original="Average rate">Μέσος ρυθμός</string>
+      <title>Λαμπρότητα (Luminance)</title>
+      <category>Κάμερα</category>
+      <description>Μετρήστε τη λαμπρότητα μέσω του φακού της φωτογραφικής σας μηχανής.
+
+Οι τιμές είναι σε αυθαίρετες μονάδες που κανονικοποιούνται σε μια πλήρως λευκή εικόνα με ευαισθησία ISO 100, διάφραγμα f/1 και χρόνο έκθεσης 1/60s. Το Phyphox θα κλιμακώσει αυτόματα τη λαμπρότητα που υπολογίζεται από την εικόνα της φωτογραφικής μηχανής σύμφωνα με τις τρέχουσες ρυθμίσεις έκθεσης. Ωστόσο, να έχετε υπόψη σας ότι τα περισσότερα τηλέφωνα χρειάζονται κάποιο χρόνο για να εφαρμόσουν πραγματικά την αλλαγή των ρυθμίσεων έκθεσης, οπότε αν χρησιμοποιείτε την αυτόματη έκθεση ή αν αλλάξετε τις ρυθμίσεις, θα χρειαστεί κάποιος χρόνος για να σταθεροποιηθούν οι μετρήσεις.
+
+Επίσης, η ένδειξη θα είναι λανθασμένη και θα εμφανίζει φαινόμενα κορεσμού αν οποιοδήποτε μέρος της εικόνας (ή στην πραγματικότητα οποιοδήποτε κανάλι χρώματος) είναι υπερεκτεθειμένο ή (σε μικρότερο βαθμό) υποεκτεθειμένο. Το Phyphox θα επισημάνει τις υπερεκτεθειμένες περιοχές με κόκκινο χρώμα και τις υποεκτεθειμένες περιοχές με μπλε χρώμα. Θα πρέπει να αποφεύγετε να εμφανίζονται κόκκινες περιοχές εντός του ορθογωνίου μέτρησης. Η εμφάνιση μπλε περιοχών δεν δημιουργεί πρόβλημα, εφόσον δεν αποτελούν το μεγαλύτερο μέρος της μετρούμενης περιοχής. Η λειτουργία αυτόματης έκθεσης σε αυτή τη διαμόρφωση θα προσπαθήσει να αποφύγει την υπερέκθεση πιο έντονα από άλλα μέρη του phyphox.
+
+Περαιτέρω τεχνικές λεπτομέρειες: Το Phyphox χρησιμοποιεί την προεπισκόπηση της φωτογραφικής μηχανής και γραμμικοποιεί κάθε εικονοστοιχείο, χρησιμοποιώντας ένα χρωματικό μοντέλο sRGB με την αντίστοιχη καμπύλη γάμμα. Στη συνέχεια, η προκύπτουσα φωτεινότητα υπολογίζεται κατά μέσο όρο μέσω ενός συνδυασμού μέσου όρου που βασίζεται σε shader και φιλτραρίσματος υφής στην GPU του τηλεφώνου. Ωστόσο, η μη γραμμική συμπεριφορά των φωτογραφικών μηχανών, ειδικά αν εφαρμόζεται συμπίεση δυναμικού εύρους ακόμη και στην προεπισκόπηση, είναι εκτός του ελέγχου μας και ενδέχεται να επηρεάσει τις μετρήσεις σε ορισμένα μοντέλα τηλεφώνων.
+</description>
+      <string original="Luminance">Λαμπρότητα</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red.">Στην προεπισκόπηση, σύρετε για να αλλάξετε την περιοχή που λαμβάνεται υπόψη για την αξιολόγηση της εικόνας. Μπορείτε επίσης να επιλέξετε διαφορετική ρύθμιση της κάμερας για τη ρύθμιση της εικόνας εντός της περιοχής. Οι υποεκτεθειμένες περιοχές επισημαίνονται με μπλε χρώμα, ενώ οι υπερεκτεθειμένες περιοχές επισημαίνονται με κόκκινο χρώμα.</string>
+      <string original="Frame rate">Ρυθμός ανανέωσης</string>
+      <string original="Important">Σημαντικό</string>
+      <string original="What is being measured?">Τι είναι αυτό που μετράμε;</string>
+      <string original="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent.">Αυτή η λειτουργία μετρά τη σχετική φωτεινότητα με την κάμερα του τηλεφώνου. Λαμβάνει υπόψη τη φωτεινότητα της εικόνας της κάμερας για ένα δεδομένο σύνολο ρυθμίσεων (όπως ο χρόνος έκθεσης). Η απόλυτη τιμή εξαρτάται από την κάμερα και, δυστυχώς, από επεξεργασία που οφείλεται στο λογισμικό του τηλεφώνου και δεν μπορούμε να αποτρέψουμe.</string>
+      <string original="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:">Κάποια τηλέφωνα βελτιστοποιούν τα δεδομένα της κάμερας για πετύχουν ομορφότερες εικόνες αλλάζοντας τη φωτεινότητα ορισμένων τμημάτων της εικόνας. Τα πιο συνηθισμένα είναι τα παρακάτω:</string>
+      <string original="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness.">-Βελτίωση Αντίθεσης: Τα σκοτεινά σημεία της εικόνας γίνονται σκοτεινότερα και τα φωτεινά , φωτεινότερα. Τα τηλέφωνα το κάνουν αν η συνολική εικόνα δεν έχει μεγάλο εύρος φωτεινότητας.</string>
+      <string original="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness.">- Δυναμική συμπίεση εύρους: α σκοτεινά σημεία γίνονται φωτεινότερα και τα φωτεινά γίνονται σκοτεινότερα. Αυτό συμβαίνει αν τα φωτεινότερα και/ή τα σκοτεινότερα σημεία είναι τόσο ακραία που θα χαθούν κάποιες λεπτομέρειες. Σε τηλέφωνα που το κάνουν έντονα, θα δυσκολευτείς να διαπιστώσεις διαφορά στη σχετική φωτεινότητα αν αλλάξεις τις ρυθμίσεις της κάμερας καθώς η επεξεργασμένη εικόνα διατηρεί τη φωτεινότητα της.</string>
+      <string original="- Brightness boost: Most phones will increase the brightness of the image if is much too dark.">- Ενίσχυση φωτεινότητας: Τα περισσότερα τηλέφωνα αυξάνουν την φωτεινότητα αν η εικόνα είναι πολύ σκοτεινή.</string>
+      <string original="How to measure reliably despite post-processing?">Με ποιο τρόπο μπορούμε να έχουμε αξιόπιστες μετρήσεις παρόλη την επεξεργασία;</string>
+      <string original="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness.">Συνιστούμε να διατηρήσετε την έκθεση έτσι ώστε η μετρούμενη περιοχή να έχει μέτρια φωτεινότητα (δηλ. γκρι). Η αυτόματη έκθεση από το phyphox θα προσαρμόσει τις ρυθμίσεις της κάμερας για να επιτευχθεί αυτό. Τότε το επίπεδο φωτεινότητας δεν επηρεάζεται σχεδόν καθόλου από την επεξεργασία μετά τη λήψη του τηλεφώνου σας. Η σχετική φωτεινότητα βασίζεται σχεδόν εξ ολοκλήρου στις ρυθμίσεις της κάμερας (ειδικά στο ISO και τον χρόνο έκθεσης) που απαιτούνται για την επίτευξη αυτής της φωτεινότητας. Ωστόσο, η αυτόματη έκθεση χρειάζεται λίγο χρόνο για να σταθεροποιηθεί, οπότε θα πρέπει να περιμένετε λίγο πριν μετρήσετε τη σχετική φωτεινότητα παρατηρώντας αν η εικόνα προεπισκόπησης σταθεροποιείται σε μέτρια γκρι φωτεινότητα.</string>
+      <string original="Details for advanced users">Λεπτομέρειες γαι προχωρημένους χρήστες</string>
+      <string original="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.).">Τα πρωτογενή δεδομένα από την κάμερα μετατρέπονται σε RGB και τα μεμονωμένα κανάλια RGB γραμμικοποιούνται με βάση την καμπύλη γάμμα του sRGB και, στη συνέχεια, μετατρέπονται σε luma. Η σχετική φωτεινότητα είναι η τιμή luma που κανονικοποιείται στις ρυθμίσεις της κάμερας, έτσι ώστε μια καθαρά λευκή εικόνα να αποδίδει σχετική φωτεινότητα 1, εάν η κάμερα έχει ρυθμιστεί σε χρόνο έκθεσης 1/60s, ISO 100 και διάφραγμα f/1 (Σημειώστε ότι αυτό εξακολουθεί να μην επιτρέπει τη σύγκριση μεταξύ διαφορετικών μοντέλων).</string>
+    </translation>
+    <translation locale="es">
+      <string original="Average rate">Tasa promedio</string>
+    </translation>
+    <translation locale="fr">
+      <string original="Average rate">Fréquence moyenne</string>
+      <category>Caméra</category>
+    </translation>
+    <translation locale="hi">
+      <string original="Preview">पूर्वावलोकन</string>
+      <string original="Average rate">औसत दर</string>
+    </translation>
+    <translation locale="it">
+      <string original="Average rate">Frequenza media</string>
+    </translation>
+    <translation locale="ja">
+      <string original="Average rate">平均周波数</string>
+    </translation>
+    <translation locale="ka">
+      <string original="Preview">ნახვა</string>
+      <string original="Average rate">საშუალო სიხშირე</string>
+    </translation>
+    <translation locale="nl">
+      <string original="Average rate">Gemiddelde snelheid</string>
+    </translation>
+    <translation locale="pl">
+      <string original="Average rate">Średnia szybkość</string>
+    </translation>
+    <translation locale="pt">
+      <string original="Average rate">Taxa média</string>
+    </translation>
+    <translation locale="ru">
+      <string original="Preview">Предварительный просмотр</string>
+      <string original="Average rate">Средняя частота</string>
+    </translation>
+    <translation locale="sr">
+      <string original="Average rate">Prosečna stopa</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <string original="Average rate">Prosečna stopa</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Average rate">Ortalama oran</string>
+    </translation>
+    <translation locale="vi">
+      <string original="Preview">Xem trước</string>
+      <string original="Average rate">Tần số trung bình</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <string original="Average rate">平均频率</string>
+    </translation>
+    <translation locale="zh_Hant"/>
+  </translations>
+  <data-containers>
+    <container size="0">luma</container>
+    <container size="0">luminance</container>
+    <container size="0">t</container>
+    <container size="0">shutterSpeed</container>
+    <container size="0">iso</container>
+    <container size="0">aperture</container>
+    <container size="0">exposure</container>
+    <container size="5">lastTimes</container>
+    <container size="0">lastPeriods</container>
+    <container size="1">framePeriod</container>
+    <container size="1">frameRate</container>
+  </data-containers>
+  <input>
+    <camera auto_exposure="true" feature="photometric" x1="0.4" x2="0.6" y1="0.4" y2="0.6" aeStrategy="avoidOverexposure">
+      <output component="luma">luma</output>
+      <output component="luminance">luminance</output>
+      <output component="t">t</output>
+      <output component="shutterSpeed">shutterSpeed</output>
+      <output component="iso">iso</output>
+      <output component="aperture">aperture</output>
+    </camera>
+  </input>
+  <views>
+    <view label="Luminance">
+      <value label="Luminance" size="2" precision="3">
+        <input>luminance</input>
+      </value>
+      <graph label="Luminance" labelX="[[quantity_short_time]]" labelY="[[quantity_short_luminance]]" partialUpdate="true" unitX="[[unit_short_second]]">
+        <input axis="x" lineWidth="2">t</input>
+        <input axis="y">luminance</input>
+      </graph>
+      <separator height="1"/>
+      <separator color="white"/>
+      <separator height="1"/>
+      <camera-gui label="Preview" exposure_adjustment_level="3" grayscale="true" markOverexposure="ff0000" markUnderexposure="0000ff"/>
+      <separator height="1"/>
+      <value label="Frame rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>frameRate</input>
+      </value>
+      <info label="Tap onto the preview and drag to change the area of the image that is taken into account to evaluate the image. You can also choose different camera setting to setup the image within the area. Underexposed areas are marked blue, overexposed areas are marked red."/>
+    </view>
+    <view label="Important">
+      <info bold="true" label="What is being measured?"/>
+      <info label="This feature measures relative luminance with the phone's camera. It takes into account the brightness of the camera image for a given set of camera settings (like exposure time). The absolute value depends on the camera and unfortunately also some postprocessing from the phone that we cannot prevent."/>
+      <separator height="1"/>
+      <info bold="true" label="What errors are introduced by my phone?"/>
+      <info label="Some phones optimize the data from the camera to achieve a nice image by changing the brightness of some parts of the image. We expect that the following are the most common:"/>
+      <separator height="0.2"/>
+      <info label="- Contrast enhancement: Dark parts of the image become darker and bright parts become brighter. Phones do this if the entire camera image has does not have a wide range of brightness."/>
+      <separator height="0.2"/>
+      <info label="- Dynamic range compression: Dark parts become brighter and bright parts become darker. This is done by the phone if the brightest and/or darkest parts of the image are so extreme that details would be lost. On phones that heavily do this, you will barely notice a change in relative luminance when changing the settings of the camera as the postprocessed image keeps a similar brightness."/>
+      <separator height="0.2"/>
+      <info label="- Brightness boost: Most phones will increase the brightness of the image if is much too dark."/>
+      <separator height="1"/>
+      <info bold="true" label="How to measure reliably despite post-processing?"/>
+      <info label="We recommend to keep the exposure such that the measured area is at medium brightness (i.e. gray). The auto exposure from phyphox will adapt the camrea settings to achieve this and this brightness level is mostly unaffected by the post-processing of your phone. The relative luminance is then almost entirely based on the camera settings (especially ISO and exposure time) that are required to achieve this brightness. However, the auto exposure takes a moment to settle, so you should wait a moment before taking relative luminance measure and observe if the preview image settles in a medium gray brightness."/>
+      <separator height="1"/>
+      <info bold="true" label="Details for advanced users"/>
+      <info label="The raw data from the camera is converted to RGB and the individual RGB channels are linearized assuming the gamma curve of sRGB, and then converted to luma. The relative luminance is the luma value normalized to the camera settings such that a pure white image yields a relative luminance of 1 if the camera is set to an exposure time of 1/60s an ISO of 100 and an aperture of f/1 (Note, that this still does not allow for comparison across different models.)."/>
+    </view>
+  </views>
+  <analysis>
+    <append>
+      <input keep="true">t</input>
+      <output>lastTimes</output>
+    </append>
+    <differentiate>
+      <input keep="true">lastTimes</input>
+      <output>lastPeriods</output>
+    </differentiate>
+    <average>
+      <input>lastPeriods</input>
+      <output>framePeriod</output>
+    </average>
+    <divide>
+      <input type="value">1</input>
+      <input keep="true">framePeriod</input>
+      <output>frameRate</output>
+    </divide>
+  </analysis>
+  <export>
+    <set name="Data">
+      <data name="t">t</data>
+      <data name="Luma">luma</data>
+      <data name="Luminance">luminance</data>
+      <data name="Shutter Speed (s)">shutterSpeed</data>
+      <data name="Aperture (f/N)">aperture</data>
+      <data name="ISO">iso</data>
+    </set>
+  </export>
+</phyphox>

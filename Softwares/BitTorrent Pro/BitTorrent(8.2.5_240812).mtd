@@ -1,0 +1,2144 @@
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板"
+}
+{
+  "%1$.2f Mbps"
+  "%1美元.2f Mbps"
+}
+{
+  "%1$.2fx"
+  "%1美元.2fx"
+}
+{
+  "%1$d × %2$d"
+  "%1$d×%2$d"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题，请重试"
+}
+{
+  "%1$s is running on your computer (%2$s).\nYour computer is connected to the Internet."
+  "%1$s正在您的计算机上运行（%2$s），您的计算机已连接到互联网"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s小时"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "%1$s – End date"
+  "%1$s – 结束日期"
+}
+{
+  "%d album"
+  "%d专辑"
+}
+{
+  "%d albums"
+  "%d专辑"
+}
+{
+  "%d item"
+  "%d项目"
+}
+{
+  "%d items"
+  "%d项目"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "%d other torrent completed!"
+  "%d其他种子已完成！"
+}
+{
+  "%d other torrents completed!"
+  "%d其他种子已完成！"
+}
+{
+  "%d peer"
+  "%d传输客户端"
+}
+{
+  "%d peers"
+  "%d传输客户端"
+}
+{
+  "%d track"
+  "%d轨道"
+}
+{
+  "%d tracks"
+  "%d轨道"
+}
+{
+  "%d%%"
+  "d"
+}
+{
+  "%s %s (%d)"
+  "%s%s（%d）"
+}
+{
+  "%s Feedback"
+  "%s反馈"
+}
+{
+  "%s free"
+  "%s空闲"
+}
+{
+  "%s is started & in the foreground"
+  "%s已启动&在前台"
+}
+{
+  "0.25x"
+  "0.25倍"
+}
+{
+  "0.5x"
+  "0.5倍"
+}
+{
+  "1.25x"
+  "1.25倍"
+}
+{
+  "1.5x"
+  "1.5倍"
+}
+{
+  "5.1 surround sound"
+  "5.1环绕声"
+}
+{
+  "7.1 surround sound"
+  "7.1环绕声"
+}
+{
+  "<b>Let us handle this for you.</b><br>\nSave power + data. Automatically shut down torrenting when downloads are done and app is in background."
+  "<b>让我们为您节省资源</b> <br>\n节省电量和流量：当下载完成且应用程序处于后台时，软件自动停止种子下载"
+}
+{
+  "AM"
+  "调幅"
+}
+{
+  "About"
+  "关于"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Activate"
+  "激活"
+}
+{
+  "Active Torrent Limit"
+  "进行中的种子数限制"
+}
+{
+  "Ad-Free"
+  "无广告"
+}
+{
+  "Add"
+  "添加"
+}
+{
+  "Add Subscription"
+  "添加订阅"
+}
+{
+  "Add Torrent"
+  "添加种子文件"
+}
+{
+  "Add Torrent URL"
+  "添加种子文件链接"
+}
+{
+  "Adding %s…"
+  "正在添加%s…"
+}
+{
+  "Ads-Free"
+  "免费广告"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Albums"
+  "专辑"
+}
+{
+  "All"
+  "全部"
+}
+{
+  "Alternate"
+  "备选方案"
+}
+{
+  "And downloaded files"
+  "以及下载的文件"
+}
+{
+  "App Storage"
+  "应用程序存储"
+}
+{
+  "Application stopped: service failed startup."
+  "应用程序已停止：服务启动失败"
+}
+{
+  "Application stopped: service failed to attach to database."
+  "应用程序已停止：服务无法连接到数据库"
+}
+{
+  "Application stopped: service failed to create required folders."
+  "应用程序已停止：未能创建所需的文件夹"
+}
+{
+  "Application stopped: service failed to start API."
+  "应用程序已停止：服务无法启动API"
+}
+{
+  "Are you sure to delete list?"
+  "确定要删除列表？"
+}
+{
+  "Are you sure to empty all torrents?"
+  "确定清空所有种子？"
+}
+{
+  "Are you sure you want to enable data usage on cellular network?"
+  "确定在开启移动网络时启用数据使用吗，这会消耗您的付费流量"
+}
+{
+  "Are you sure you want to exit?"
+  "确定退出？"
+}
+{
+  "Artists"
+  "艺术家"
+}
+{
+  "Audio"
+  "音频"
+}
+{
+  "Auto"
+  "自动"
+}
+{
+  "Auto-Shutdown"
+  "自动关机"
+}
+{
+  "Auto-Start"
+  "自动启动"
+}
+{
+  "Automatically suspend torrents with Battery Saver"
+  "使用省电模式以自动暂停种子下载"
+}
+{
+  "Autoplay is off"
+  "自动播放已关闭"
+}
+{
+  "Autoplay is on"
+  "自动播放已启用"
+}
+{
+  "BANDWIDTH"
+  "带宽"
+}
+{
+  "BTAndroidPro"
+  "BT安卓"
+}
+{
+  "Bad password"
+  "密码安全度低"
+}
+{
+  "Bandwidth"
+  "带宽"
+}
+{
+  "Battery Saver"
+  "省电模式"
+}
+{
+  "Battery Saver 'on.' Torrents suspended"
+  "省电模式已打开，已暂停种子下载"
+}
+{
+  "Be sure %1$s on your computer is version %2$s or higher"
+  "请确保您计算机上的%1$s版本为%2$s或更高版本"
+}
+{
+  "Besides <b>Auto-Shutdown</b>, you also get:"
+  "除<b>自动关机</b>以外，您还可以获得："
+}
+{
+  "BitTorrent"
+  "比特流"
+}
+{
+  "BitTorrent Pro"
+  "BitTorrent专业版"
+}
+{
+  "BitTorrent Remote"
+  "BitTorrent 远程控制"
+}
+{
+  "BitTorrent Remote error"
+  "BitTorrent 远程控制错误"
+}
+{
+  "CC"
+  "科科斯群岛"
+}
+{
+  "CONGRATULATIONS!"
+  "恭喜！"
+}
+{
+  "CONNECTIONS"
+  "连接"
+}
+{
+  "Can't connect to your computer. Make sure your computer is on and %s is running"
+  "无法连接到您的计算机，请确保您的计算机已打开并且%s正在运行"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Cancel All"
+  "全部取消"
+}
+{
+  "Cannot write to directory %s"
+  "无法写入目录%s"
+}
+{
+  "Change"
+  "更改"
+}
+{
+  "Change to next month"
+  "改为下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Check out our app! We are always improving it."
+  "查看我们的更多应用程序"
+}
+{
+  "Checked"
+  "已校验"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Choose file to play"
+  "选择要播放的文件"
+}
+{
+  "Clear Queue"
+  "清除队列"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "Collapse"
+  "崩溃"
+}
+{
+  "Collapse the bottom sheet"
+  "折叠底部的表格"
+}
+{
+  "Column of days: %1$s"
+  "天数列：%1$s"
+}
+{
+  "Commentary"
+  "评论"
+}
+{
+  "Complete"
+  "完成"
+}
+{
+  "Computer name"
+  "计算机名称"
+}
+{
+  "Connected! Manage & download torrents to %s on your computer."
+  "已连接！管理种子并将其下载到计算机上的%s。"
+}
+{
+  "Connecting…"
+  "正在连接…"
+}
+{
+  "Connection issues. Connecting in %ds…"
+  "连接出现问题，正在%d中连接…"
+}
+{
+  "Continue"
+  "继续"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Copy Link"
+  "复制链接"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Credentials expired"
+  "凭据已过期"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Dark"
+  "暗色"
+}
+{
+  "Data in shared storage (shared by all apps) is not removed if you uninstall"
+  "卸载后，共享存储（所有应用共享）中的数据不会被删除"
+}
+{
+  "Database inconsistent; expected tree node"
+  "数据库不一致，需要树状节点"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Date:"
+  "日期："
+}
+{
+  "Default Download Folder"
+  "默认下载文件夹"
+}
+{
+  "Default notifications"
+  "默认通知"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Delete %d Torrent"
+  "删除%d个种子文件"
+}
+{
+  "Delete %d Torrents"
+  "删除%d个种子文件"
+}
+{
+  "Delete From Device"
+  "从设备中删除"
+}
+{
+  "Delete Torrent"
+  "删除"
+}
+{
+  "Delete Torrent And Files"
+  "删除种子和下载的文件"
+}
+{
+  "Details"
+  "更多"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Disable subtitles"
+  "禁用字幕"
+}
+{
+  "Displays more info about the list item."
+  "显示有关列表项的更多信息。"
+}
+{
+  "Do not show this warning again"
+  "不再显示此警告"
+}
+{
+  "Do you love %s?"
+  "你喜欢%s吗？"
+}
+{
+  "Document root is not writable"
+  "文档根目录不可写"
+}
+{
+  "Don't see pin box"
+  "不显示pin码"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Download"
+  "下载"
+}
+{
+  "Download Complete. %s has finished downloading."
+  "%s已下载完成"
+}
+{
+  "Download Limit"
+  "下载限制"
+}
+{
+  "Download Speed"
+  "下载速度"
+}
+{
+  "Download To Device"
+  "下载到设备"
+}
+{
+  "Download completed"
+  "下载完成"
+}
+{
+  "Download failed"
+  "下载失败"
+}
+{
+  "Download torrent on mobile"
+  "在手机上下载种子文件"
+}
+{
+  "Download torrent on your computer"
+  "在您的计算机上下载种子文件"
+}
+{
+  "Download torrents in the background"
+  "在后台下载种子"
+}
+{
+  "Downloaded"
+  "已下载"
+}
+{
+  "Downloading"
+  "下载中"
+}
+{
+  "Downloading:"
+  "正在下载："
+}
+{
+  "Downloads"
+  "下载"
+}
+{
+  "Downloads paused"
+  "下载已暂停"
+}
+{
+  "Downloads waiting for WiFi"
+  "等待WiFi以下载"
+}
+{
+  "Downloads waiting for network"
+  "等待网络连接以继续下载"
+}
+{
+  "Drag handle"
+  "拖动控制柄"
+}
+{
+  "Drag handle double-tapped"
+  "双击拖动手柄"
+}
+{
+  "Empty"
+  "空"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "Enable subtitles"
+  "启用字幕"
+}
+{
+  "Enable the Creative Debugger SDK settings in order to view recent ads."
+  "启用Creative Debugger SDK设置以查看最近的广告。"
+}
+{
+  "End User License Agreement"
+  "最终用户许可协议"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "Enter fullscreen"
+  "进入全屏"
+}
+{
+  "Enter the 4-digit pin in %s on your computer, to remotely manage torrents from your phone."
+  "在计算机上的%s中输入4位pin码，以从手机远程管理种子"
+}
+{
+  "Enter the URL of the torrent"
+  "输入种子地址"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error while downloading torrent file"
+  "下载种子文件时出错"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Exclude"
+  "排除"
+}
+{
+  "Exit"
+  "退出"
+}
+{
+  "Exit Anyway"
+  "强制退出"
+}
+{
+  "Exit fullscreen"
+  "退出全屏"
+}
+{
+  "Expand halfway"
+  "扩大一半"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部表格"
+}
+{
+  "Failed to add torrent: %s"
+  "添加种子失败：%s"
+}
+{
+  "Failed to create directory node (%s)"
+  "创建目录节点失败（%s）"
+}
+{
+  "Failed to create document: type=%s, path=%s, name=%s"
+  "创建文档失败：类型=%s，路径=%s，名称=%s"
+}
+{
+  "Failed to move torrent"
+  "移动种子文件失败"
+}
+{
+  "Failed to obtain document root"
+  "获取文档根目录失败"
+}
+{
+  "Failed to open input stream (%s)"
+  "无法打开输入流（%s）"
+}
+{
+  "Failed to open output stream, uri=%s"
+  "打开输出流失败，uri=%s"
+}
+{
+  "Failed to remove torrent"
+  "删除种子文件失败"
+}
+{
+  "Failed to save file"
+  "保存文件失败"
+}
+{
+  "Failed to save files"
+  "保存文件失败"
+}
+{
+  "Failed to write to uri %s"
+  "写入uri%s失败"
+}
+{
+  "Fast forward"
+  "快进"
+}
+{
+  "Fast forward %d second"
+  "快进%d秒"
+}
+{
+  "Fast forward %d seconds"
+  "快进%d秒"
+}
+{
+  "Fetching torrent info…"
+  "正在获取种子信息…"
+}
+{
+  "File"
+  "文件"
+}
+{
+  "Files"
+  "文件夹"
+}
+{
+  "Filter"
+  "过滤器"
+}
+{
+  "Filter your music"
+  "过滤您的音乐"
+}
+{
+  "Filter your videos"
+  "过滤您的视频"
+}
+{
+  "Finished"
+  "已完成"
+}
+{
+  "Finished moving torrent"
+  "种子文件已移动完成"
+}
+{
+  "Finished removing torrent"
+  "种子文件已删除"
+}
+{
+  "Finished saving file"
+  "文件已保存"
+}
+{
+  "Finished saving files"
+  "文件已保存"
+}
+{
+  "Found non-directory node (%s)"
+  "找到非目录节点（%s）"
+}
+{
+  "Function+"
+  "功能+"
+}
+{
+  "Gathering torrent info. Please wait…"
+  "正在收集种子信息，请稍候…"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Go to music library"
+  "转到音乐库"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "Help Us Improve"
+  "帮助我们改进"
+}
+{
+  "Hey there…"
+  "嘿…"
+}
+{
+  "Hi there,\nLooks like you need to download some content."
+  "“播下种子，向新世界伸出枝丫”\n目前无种子传输任务"
+}
+{
+  "Hide additional settings"
+  "隐藏其他设置"
+}
+{
+  "Hide player controls"
+  "隐藏玩家控制"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "How to connect"
+  "如何连接"
+}
+{
+  "How to connect:"
+  "如何连接："
+}
+{
+  "Include"
+  "包括"
+}
+{
+  "Incoming Port"
+  "输入端口"
+}
+{
+  "Incrementing this number up by one can help solve some types of network connection issues"
+  "修改端口(加1）可能解决某些网络连接问题"
+}
+{
+  "Indeterminate"
+  "不确定"
+}
+{
+  "Input your password to continue with yourlogin or override login."
+  "输入密码以继续登录或覆盖登录"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Invalid format."
+  "格式无效。"
+}
+{
+  "Invalid range."
+  "范围无效。"
+}
+{
+  "Light"
+  "亮色"
+}
+{
+  "Link copied to clipboard"
+  "链接已复制到剪贴板"
+}
+{
+  "List cycle"
+  "列表周期"
+}
+{
+  "Location:"
+  "位置："
+}
+{
+  "Login"
+  "登录"
+}
+{
+  "Login Override"
+  "覆盖登录"
+}
+{
+  "Logout"
+  "注销"
+}
+{
+  "Looks like you need some music to play"
+  "音乐播放列表为空"
+}
+{
+  "M3.27,4.27 L19.74,20.74"
+  "3.27米、4.27米、19.74米、20.74米"
+}
+{
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAol8gDkW/A0sJlY8u6Harf/VPSd5qH2stPx6oxztfdHUYhQcxgwcvkoy+6N4NVYT/PUgXtM/YC670cq/wve9n5qeICofTxB9YXJPUrJfI93Zkb279mAgZO8mEZQxnHIUHtfQs5oaC1kA/7n8F09Y1edyxBWcPFmDRv2qOCSuPRKQFpkApkNOUq6mQjalwTZUntEAk9XAXFMYxOj5cSTokWYbvq9MzlzETFdOYKA6m2Poz9TOjCY0H1H0+Wcs0UPHtERWffM2lsMcUP09MKYOrgF5tSXy7QwgGKMZk5a/W1FHAoxttlXmbI9TkrYiozwvWtoscBm+htjiFASOTxhcbOwIDAQAB"
+  "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAol8gDkW/A0sJlY8u6Harf/VPSD5qH2stPx6oxztfdHUYhQcxgvkoy+6N4NVYT/PUgXtM/YC670cq/wve9n5qICofTxB9YXJPUrJfI93Zkb279mAgZO8mEZQXNHUHtfQs5aC1kA/7n8F09Y1edyxBWcPFmDRv2qOCSuPKQFpkApkNOq6mQjalwTZUnt EAk9XAXFMYxOj5cStokWYbvq9MzlzETFdOYKA6m2Poz9TOjCY0H10+Wcs0UPHTERWffM2lsMcUP09MKYOrgF5tSXy7QgGKMZk5a/W1W1FHA xttlXmbI9TkrYiozwvWtoscBm+htjiFASTxhcbOwIDAQAB"
+}
+{
+  "Make sure:"
+  "确保："
+}
+{
+  "Max KB/s"
+  "无限制"
+}
+{
+  "Menu+"
+  "菜单+"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "Miscellaneous"
+  "其他"
+}
+{
+  "Mix"
+  "列表"
+}
+{
+  "Mono"
+  "单声道"
+}
+{
+  "More"
+  "更多"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Move Torrent"
+  "移动"
+}
+{
+  "Moving %s failed"
+  "移动%s失败"
+}
+{
+  "Music"
+  "音乐"
+}
+{
+  "Navigate home"
+  "导航到主页"
+}
+{
+  "Navigate to year %1$s"
+  "导航到%1$s年"
+}
+{
+  "Navigate up"
+  "导航到上一页"
+}
+{
+  "New Folder"
+  "新建文件夹"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务。它很快就会自我更新。"
+}
+{
+  "Next"
+  "下一个"
+}
+{
+  "No"
+  "取消"
+}
+{
+  "No Music"
+  "无音乐"
+}
+{
+  "No Torrent"
+  "无种子"
+}
+{
+  "No Video"
+  "无视频"
+}
+{
+  "No match found for albums with your keyword"
+  "找不到与您的关键字匹配的专辑"
+}
+{
+  "No match found for artists with your keyword"
+  "找不到与您的关键字匹配的艺术家"
+}
+{
+  "No match found for songs with your keyword"
+  "找不到与您的关键字匹配的歌曲"
+}
+{
+  "No match found for videos with your keyword"
+  "未找到与您的关键字匹配的视频"
+}
+{
+  "No recently displayed ads found."
+  "未找到最近显示的广告。"
+}
+{
+  "No, Thanks"
+  "不用了，谢谢"
+}
+{
+  "None"
+  "没有"
+}
+{
+  "Normal"
+  "正常"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "Note: Selecting this option will delete %1$d file(s) and %2$d torrent(s)"
+  "注意：选择此选项将删除%1$d个文件和%2$d个种子文件"
+}
+{
+  "Notifications"
+  "通知"
+}
+{
+  "Now start enjoying Pro\nfeatures"
+  "现在开始享受Pro\n特征"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "好的"
+}
+{
+  "OTHERS"
+  "其他"
+}
+{
+  "Off"
+  "无限制"
+}
+{
+  "On the next screen, allow access to this device's location, so that we can deliver a better ad experience."
+  "在下一个屏幕上，允许访问此设备的位置，以便我们提供更好的广告体验。"
+}
+{
+  "On the next screen, please allow the App to access photos, videos, music and audio on your device.\nWe need this to download torrents to your desired location as well as view existing files through our Media app.\nThe app will still function without these rights, but will be very limited."
+  "在下一个屏幕上，请允许应用程序访问您设备上的照片、视频、音乐和音频。\n我们需要它将种子下载到您想要的位置，并通过我们的媒体应用程序查看已打开文件。\n该应用程序在没有这些权限的情况下仍将运行，但将非常有限。"
+}
+{
+  "Open"
+  "开启"
+}
+{
+  "Open %s on your computer to pair your phone for remote access."
+  "在计算机上打开%s，将手机配对以进行远程访问。"
+}
+{
+  "Open Source licenses"
+  "开源许可证"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Open on phone"
+  "在电话上打开"
+}
+{
+  "Others"
+  "其他"
+}
+{
+  "Otherwise the application will exit."
+  "否则，应用程序将退出。"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Override"
+  "覆写"
+}
+{
+  "PLAY ALL"
+  "全部播放"
+}
+{
+  "PM"
+  "颗粒物"
+}
+{
+  "PRO"
+  "赞成的意见"
+}
+{
+  "Pair Remote"
+  "远程控制配配对"
+}
+{
+  "Pair your phone to your computer for remote access."
+  "将手机与计算机配对以进行远程访问"
+}
+{
+  "Pairing timeout"
+  "配对超时"
+}
+{
+  "Pairing to your computer with a pin will override your login information."
+  "使用pin码与您的计算机配对将覆盖您的登录信息。"
+}
+{
+  "Pairing to your computer with a pin will override your login information. Input your password to continue with your login or override login."
+  "使用pin码与您的计算机配对将覆盖您的登录信息。输入密码以继续登录或覆盖登录。"
+}
+{
+  "Password"
+  "密码"
+}
+{
+  "Pause"
+  "暂停"
+}
+{
+  "Pause All"
+  "暂停全部"
+}
+{
+  "Paused"
+  "暂停"
+}
+{
+  "Peers"
+  "传输客户端"
+}
+{
+  "Pick a song"
+  "选一首歌"
+}
+{
+  "Play"
+  "播放"
+}
+{
+  "Play In Another App"
+  "在另一个应用程序中播放"
+}
+{
+  "Play In This App"
+  "在此应用程序中播放"
+}
+{
+  "Play List"
+  "播放列表"
+}
+{
+  "Play unrecognized video in another app"
+  "在另一个应用程序中播放无法识别的视频"
+}
+{
+  "Play video while in background"
+  "在后台播放视频"
+}
+{
+  "Play your media in the background"
+  "在后台播放媒体"
+}
+{
+  "Playback progress"
+  "播放进度"
+}
+{
+  "Player:"
+  "播放："
+}
+{
+  "Please accept these Terms of Service to continue."
+  "请接受这些服务条款以继续。"
+}
+{
+  "Please enter a valid URL."
+  "请输入有效的URL。"
+}
+{
+  "Please press \"Continue\" if you choose to start using our app."
+  "如果您选择开始使用我们的应用程序，请按“继续”。"
+}
+{
+  "Please read all of the following:"
+  "请阅读以下所有内容："
+}
+{
+  "Previous"
+  "上一页"
+}
+{
+  "Privacy Policy"
+  "隐私政策"
+}
+{
+  "Private App Storage"
+  "应用专用空间(Android/data内)"
+}
+{
+  "Pro Setting"
+  "专业设置"
+}
+{
+  "Queue"
+  "排队"
+}
+{
+  "Queued"
+  "排队"
+}
+{
+  "Random play"
+  "随机播放"
+}
+{
+  "Range end,"
+  "范围结束，"
+}
+{
+  "Range start,"
+  "范围开始，"
+}
+{
+  "Rate %s"
+  "费率%s"
+}
+{
+  "Ratio"
+  "比率"
+}
+{
+  "Refresh"
+  "刷新"
+}
+{
+  "Remote"
+  "远程"
+}
+{
+  "Remote Login"
+  "远程登录"
+}
+{
+  "Remote content is only playable on computer (coming soon to mobile)"
+  "远程内容只能在计算机上播放（即将在移动设备上播放）"
+}
+{
+  "Remote pairing canceled"
+  "远程配对已取消"
+}
+{
+  "Removable App Storage"
+  "移动存储设备的应用存储"
+}
+{
+  "Removable Private App Storage"
+  "移动存储设备的应用专用空间(Android/data内)"
+}
+{
+  "Removable Shared Storage"
+  "移动存储设备的公用存储空间"
+}
+{
+  "Removable source is offline (%s)"
+  "可移动源脱机（%s）"
+}
+{
+  "Removable source not found (%s)"
+  "找不到可移动源（%s）"
+}
+{
+  "Removable storage removed"
+  "可移动存储已删除"
+}
+{
+  "Remove"
+  "删除"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "Removing %s failed!"
+  "删除%s失败！"
+}
+{
+  "Removing downloads"
+  "删除下载"
+}
+{
+  "Repeat all"
+  "全部重复"
+}
+{
+  "Repeat none"
+  "不重复"
+}
+{
+  "Repeat one"
+  "重复一次"
+}
+{
+  "Restarting…"
+  "正在重新启动…"
+}
+{
+  "Results are shown in a web browser"
+  "在浏览器中显示结果"
+}
+{
+  "Resume"
+  "简历"
+}
+{
+  "Resume All"
+  "全部恢复"
+}
+{
+  "Resume Torrents"
+  "简历种子"
+}
+{
+  "Resume music queue after video"
+  "视频播放后恢复音乐队列"
+}
+{
+  "Rewind"
+  "重绕"
+}
+{
+  "Rewind %d second"
+  "倒退%d秒"
+}
+{
+  "Rewind %d seconds"
+  "倒退%d秒"
+}
+{
+  "Running"
+  "跑步"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Save File"
+  "保存文件"
+}
+{
+  "Save Files"
+  "保存文件"
+}
+{
+  "Save power. Suspend torrents when battery is lower than …"
+  "当电量低于设置值时，暂停传输任务"
+}
+{
+  "Saving file %d of %d…"
+  "正在保存文件%d（共%d个）…"
+}
+{
+  "Saving file…"
+  "正在保存文件…"
+}
+{
+  "Scanning for torrent media to move"
+  "正在扫描要移动的种子媒体"
+}
+{
+  "Scanning torrent media to remove"
+  "正在扫描种子媒体以删除"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search for Music"
+  "搜索音乐"
+}
+{
+  "Search for Videos"
+  "搜索视频"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "Security Risk!"
+  "安全风险！"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Seeding"
+  "播种"
+}
+{
+  "Seeding:"
+  "播种："
+}
+{
+  "Seeds"
+  "种子"
+}
+{
+  "Select"
+  "选择"
+}
+{
+  "Select AM or PM"
+  "选择AM或PM"
+}
+{
+  "Select All"
+  "全选"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select Files"
+  "选择文件"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Select your computer"
+  "选择您的计算机"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Send Feedback"
+  "发送反馈"
+}
+{
+  "Send Logs"
+  "发送日志"
+}
+{
+  "Set"
+  "设置"
+}
+{
+  "Set download limit to Max KB/s for unlimited download speed"
+  "将下载限制设置为最大KB/s，以获得无限的下载速度"
+}
+{
+  "Set maximum number of active torrents at a time"
+  "设置一次活动种子的最大数量"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Share"
+  "分享"
+}
+{
+  "Share Torrent"
+  "共享种子文件"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Shared Storage"
+  "公用存储空间"
+}
+{
+  "Shared from my Android device"
+  "从我的Android设备共享"
+}
+{
+  "Shift+"
+  "轮班+"
+}
+{
+  "Show additional settings"
+  "显示其他设置"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Show player controls"
+  "显示播放器控制"
+}
+{
+  "Shuffle off"
+  "甩开"
+}
+{
+  "Shuffle on"
+  "打开Shuffle"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Single cycle"
+  "单循环"
+}
+{
+  "Size:"
+  "尺寸："
+}
+{
+  "So you know…"
+  "所以你知道…"
+}
+{
+  "Some of the torrents you selected cannot be downloaded"
+  "您选择的某些种子无法下载"
+}
+{
+  "Some videos cannot be deleted，please delete them from mobile."
+  "有些视频无法删除，请从手机上删除。"
+}
+{
+  "Songs"
+  "歌曲"
+}
+{
+  "Sorry we didn't meet your expectations! We'd love for you to tell us how we could get there by sending some feedback our way"
+  "很抱歉，我们没有达到您的期望！我们希望您能告诉我们如何通过我们的方式发送一些反馈来实现这一目标"
+}
+{
+  "Sorry, but this video has a format we can not recognize."
+  "抱歉，此视频的格式我们无法识别。"
+}
+{
+  "Sorry, there was an error while playing the file."
+  "抱歉，播放文件时出错。"
+}
+{
+  "Sorry, your device cannot play this type of file."
+  "抱歉，您的设备无法播放此类文件。"
+}
+{
+  "Source not found (%s)"
+  "找不到源（%s）"
+}
+{
+  "Speed"
+  "速度"
+}
+{
+  "Sponsored"
+  "赞助"
+}
+{
+  "Start %s on your computer."
+  "在您的计算机上启动%s"
+}
+{
+  "Start %s on your computer.\nThen connect your phone and computer to the same wifi network."
+  "在您的计算机上启动%s\n确保您的手机和电脑连接到同个wifi网络"
+}
+{
+  "Start Downloading"
+  "开始下载"
+}
+{
+  "Start a search"
+  "开始搜索"
+}
+{
+  "Start adding music to your play queue"
+  "开始将音乐添加到播放队列"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Started moving torrent"
+  "开始移动种子文件"
+}
+{
+  "Started removing torrent"
+  "已开始删除种子文件"
+}
+{
+  "Status:"
+  "状态："
+}
+{
+  "Stereo"
+  "立体声"
+}
+{
+  "Stop"
+  "停下"
+}
+{
+  "Stopping…"
+  "停止…"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Supplementary"
+  "补充的"
+}
+{
+  "Surround sound"
+  "环绕声"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入。"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入。"
+}
+{
+  "Sync"
+  "同步"
+}
+{
+  "Sync Device Media"
+  "同步设备媒体"
+}
+{
+  "Sync With Device Media Library"
+  "与设备媒体库同步"
+}
+{
+  "THINK AGAIN"
+  "再想想"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Tap to switch to selecting a day"
+  "点击切换到选择日期"
+}
+{
+  "Tap to switch to selecting a year"
+  "点击切换到选择年份"
+}
+{
+  "Terms & Conditions"
+  "条款与条件"
+}
+{
+  "Terms of Service"
+  "服务条款"
+}
+{
+  "Terms of Use"
+  "使用条款"
+}
+{
+  "Text"
+  "文本"
+}
+{
+  "Thanks! We'd love for you to share your feedback on the Play Store and help us make the Internet better"
+  "谢谢！我们希望您能在Play商店分享您的反馈，帮助我们改善互联网"
+}
+{
+  "The download speed is slow due to the low number of torrent seeders"
+  "由于种子种子数量较少，下载速度较慢"
+}
+{
+  "The keyword cannot be empty"
+  "关键字不能为空"
+}
+{
+  "Theme"
+  "主题"
+}
+{
+  "Then connect your phone and computer to the same wifi network."
+  "然后将您的手机和电脑连接到同一个wifi网络。"
+}
+{
+  "This Android version restricts file saving beyond this folder."
+  "此Android版本限制在此文件夹之外保存文件。"
+}
+{
+  "This file:"
+  "此文件："
+}
+{
+  "This operation will not be recoverable"
+  "此操作将不可恢复"
+}
+{
+  "This will let you browse and play media on your device in our app."
+  "这将允许您在我们的应用程序中浏览和播放设备上的媒体。"
+}
+{
+  "To use %s you must affirm that you have reviewed and acknowledged our Privacy Policy."
+  "要使用%s，您必须确认您已阅读并确认我们的隐私政策。"
+}
+{
+  "To use %s you must agree to our Terms & Conditions and affirm you have reviewed our Privacy Policy"
+  "要使用%s，您必须同意我们的条款和条件，并确认您已阅读我们的隐私政策"
+}
+{
+  "Torrent Limit"
+  "种子限制"
+}
+{
+  "Torrent added"
+  "种子文件已添加"
+}
+{
+  "Torrent added to desktop client"
+  "种子文件已添加到桌面客户端"
+}
+{
+  "Torrent:"
+  "激流："
+}
+{
+  "Torrents"
+  "种子列表"
+}
+{
+  "Torrents are suspended because 'Battery Saver' is 'on.' Tap to change settings"
+  "省电模式已打开，已暂停传输任务，点击以更改设置"
+}
+{
+  "Torrents shared with you"
+  "分享种子文件"
+}
+{
+  "Try to silence ads"
+  "静音广告"
+}
+{
+  "Trying to connect but something is wrong."
+  "试图连接中，但存在异常"
+}
+{
+  "Unknown"
+  "未知"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "Upgrade"
+  "升级"
+}
+{
+  "Upgrade Now"
+  "立即升级"
+}
+{
+  "Upgrade to Ad-free"
+  "升级到无广告"
+}
+{
+  "Upgrade to PRO for an ad-free experience"
+  "升级到PRO版，获得无广告体验"
+}
+{
+  "Upload Limit"
+  "上传限制"
+}
+{
+  "Upload Speed"
+  "上传速度"
+}
+{
+  "Use existing credentials"
+  "使用现有登录信息"
+}
+{
+  "Use system default (recommended)"
+  "使用系统默认值（推荐）"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "VR mode"
+  "VR模式"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Waiting on %d peer"
+  "正在等待%d个传输客户端"
+}
+{
+  "Waiting on %d peers"
+  "正在等待%d个传输客户端"
+}
+{
+  "Want an Ad-free experience?"
+  "想要无广告体验吗？"
+}
+{
+  "We're waiting on information about your files. Thanks for your patience"
+  "我们正在等待有关您文件的信息。感谢您的耐心等待"
+}
+{
+  "Wifi Networks Only"
+  "仅在Wifi网络下传输"
+}
+{
+  "Yes"
+  "确定"
+}
+{
+  "You are connected to your computer. Manage & add torrents remotely!"
+  "您已连接到计算机，现在可以远程管理和添加种子！"
+}
+{
+  "You don't have any downloaded videos yet"
+  "还未下载任何视频"
+}
+{
+  "You don't have any songs on your device"
+  "设备上没有任何歌曲"
+}
+{
+  "You have active torrents. Shutting down can result in data loss. Are you sure you want to exit?"
+  "存在进行中的种子传输任务，关闭可能丢失数据，确定退出？"
+}
+{
+  "You have chosen app storage.\nAndroid will remove data at this location if you uninstall"
+  "您已选择应用存储路径。\n如果卸载软件，Android将删除此位置的数据，您在此保存的文件将丢失！"
+}
+{
+  "You should not proceed with using this application.\n\nIt is not digitally signed by\nBitTorrent Limited.\n\nIt may contain malware.\n\nUninstall this app before reinstalling from a trusted source."
+  "数字签名异常，它已被第三方修改，在从可信来源重新安装之前，请卸载此应用程序"
+}
+{
+  "You've successfully upgraded\nto %s"
+  "您已成功升级\n到%s"
+}
+{
+  "Your battery is low"
+  "电池电量低"
+}
+{
+  "Your battery is low. Save power by automatically suspending torrents"
+  "电量低，自动暂停种子下载来省电"
+}
+{
+  "Your battery is low. Tap to save power by automatically suspending torrents"
+  "电量低，点击开启自动暂停种子下载来省电"
+}
+{
+  "Your login was overridden and we used the pin to connect your devices.\nYou can no longer connect to your device with the login."
+  "您的登录被覆盖，我们使用pin连接您的设备，您无法再使用登录名连接到您的设备"
+}
+{
+  "Your phone is offline, search is unavailable"
+  "您的手机已离线，无法进行搜索"
+}
+{
+  "Your preview is about to begin. Please wait while we gather the pieces for you."
+  "预览将开始，我们正在为您准备，请稍候"
+}
+{
+  "button"
+  "按钮"
+}
+{
+  "button path"
+  "按钮路径"
+}
+{
+  "circle"
+  "圆圈"
+}
+{
+  "cubic-bezier(0.0, 0.0, 0.0, 1.0)"
+  "三次贝塞尔曲线（0.0、0.0、0.0和1.0）"
+}
+{
+  "cubic-bezier(0.0, 0.0, 0.2, 1.0)"
+  "三次贝塞尔曲线（0.0，0.0，0.2，1.0）"
+}
+{
+  "cubic-bezier(0.0, 0.0, 1.0, 1.0)"
+  "三次贝塞尔曲线（0.0，0.0，1.0，1.0）"
+}
+{
+  "cubic-bezier(0.1, 0.7, 0.1, 1.0)"
+  "三次贝塞尔曲线（0.1，0.7，0.1，1.0）"
+}
+{
+  "cubic-bezier(0.2, 0.0, 0.0, 1.0)"
+  "三次贝塞尔曲线（0.2，0.0，0.0，1.0）"
+}
+{
+  "cubic-bezier(0.3, 0.0, 0.8, 0.2)"
+  "三次贝塞尔曲线（0.3，0.0，0.8，0.2）"
+}
+{
+  "cubic-bezier(0.3, 0.0, 1.0, 1.0)"
+  "三次贝塞尔曲线（0.3，0.0，1.0，1.0）"
+}
+{
+  "cubic-bezier(0.4, 0.0, 0.2, 1.0)"
+  "三次贝塞尔曲线（0.4，0.0，0.2，1.0）"
+}
+{
+  "cubic-bezier(0.4, 0.0, 1.0, 1.0)"
+  "三次贝塞尔曲线（0.4，0.0，1.0，1.0）"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "duplicate"
+  "复制"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "icon"
+  "图标"
+}
+{
+  "icon path"
+  "图标路径"
+}
+{
+  "no folder"
+  "无文件夹"
+}
+{
+  "offline"
+  "离线"
+}
+{
+  "preview"
+  "预览"
+}
+{
+  "remote"
+  "远程控制"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "waiting for %d peer request"
+  "正在等待%d个设备请求"
+}
+{
+  "waiting for %d peer requests"
+  "正在等待%d个设备请求"
+}
+{
+  "your device is full."
+  "您的设备已满"
+}
+{
+  "© 2023 BitTorrent Limited. %s is a trademark of BitTorrent Limited. All Rights Reserved."
+  "予澄 汉化\n\n© 2023 BitTorrent Limited. %s is a trademark of BitTorrent Limited. All Rights Reserved."
+}
+{
+  "0.75x"
+  "0.75倍"
+}
+{
+  "2x"
+  "2倍"
+}
+{
+  "ETA"
+  "预计耗时"
+}

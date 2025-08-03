@@ -1,0 +1,3176 @@
+{
+  "%1$d minute"
+  "%1$d 分钟"
+}
+{
+  "%1$d minutes"
+  "%1$d分钟"
+}
+{
+  "%1$d second"
+  "%1$d秒"
+}
+{
+  "%1$d seconds"
+  "%1$d秒"
+}
+{
+  "%1$d day"
+  "%1$d 天"
+}
+{
+  "%1$d days"
+  "%1$d 天"
+}
+{
+  "%d new notification"
+  "%d条新通知"
+}
+{
+  "%d new notifications"
+  "%d条新通知"
+}
+{
+  "%1$d day ago"
+  "%1$d天前"
+}
+{
+  "%1$d days ago"
+  "%1$d天前"
+}
+{
+  "Navigate home"
+  "回主页"
+}
+{
+  "Navigate up"
+  "返回上级"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "Shift+"
+  "Shift+ "
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "Acknowledgements"
+  "致谢"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "I would like to offer my sincere thanks to Jorge Escribano, Marco Fantauzzo, Jérôme Vachez, Fabian Hartl, Olivier Utz, Krzysztof Klaja, Remco de Boer, Thome Vidigal de Almeida, Konstantin Shtrikker and Antonie Tudor for their help with translation of Geo Tracker into Spanish, Italian, French, German, Polish, Dutch, Portuguese, Ukrainian and Romanian."
+  "我衷心感谢 Jorge Escribano、Marco Fantauzzo、Jérôme Vachez、Fabian Hartl、Olivier Utz、Krzysztof Klaja、Remco de Boer、Thome Vidigal de Almeida、Konstantin Shtrikker和Antonie Tudor，感谢他们帮助将Geo Tracker翻译成西班牙语、意大利语、法语、德语、波兰语、荷兰语、葡萄牙语、乌克兰语和罗马尼亚语。"
+}
+{
+  "Terms of Use"
+  "使用条款"
+}
+{
+  "FAQ"
+  "常见问题解答"
+}
+{
+  "Privacy policy"
+  "隐私策略"
+}
+{
+  "What's new?"
+  "更新内容"
+}
+{
+  "Automatic synchronization is only available under a paid subscription via %1$s."
+  "自动同步仅在通过%1$s付费订阅的情况下可用。"
+}
+{
+  "Secure your recordings by having them automatically synced to an external folder on your device!<br></br><br></br>Please subscribe, and you will receive:%1$s<br></br><br></br>If you stay on the free version, you can continue synchronizing manually."
+  "通过将记录自动同步到设备上的外部文件夹来保护您的历史轨迹<br></br><br></br>请订阅，您将收获：%1$s<br></br><br></br>如果您继续使用免费版本，您可以继续手动同步。"
+}
+{
+  "Turn on"
+  "打开"
+}
+{
+  "No, thanks"
+  "不用了，谢谢"
+}
+{
+  "<div>You can enable automatic synchronization to ensure the safety of your recordings by having them automatically synced to an external folder on your device.</div> <div>This external folder can be further synchronized with Cloud storage using third-party software (this functionality is not included in the app).</div> <div>Auto-sync option is available only for paid subscribers (see the details on the next screen).</div>"
+  "<div>您可以将记录自动同步到设备上的外部文件夹来启用自动同步，以确保轨迹记录的安全</div><div>此外部文件夹可以使用第三方软件与云存储进一步同步（此功能不包含在应用程序中）</div><div>自动同步选项仅适用于付费用户（详见下一页）</div>"
+}
+{
+  "Enable auto sync?"
+  "启用自动同步？"
+}
+{
+  "Collapse the bottom sheet"
+  "收起底部菜单"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部菜单"
+}
+{
+  "Expand halfway"
+  "展开至一半"
+}
+{
+  "Drag handle double-tapped"
+  "双击拖动控件"
+}
+{
+  "Drag handle"
+  "拖动控件"
+}
+{
+  "Answer"
+  "应答"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Hang Up"
+  "挂断电话"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Ongoing call"
+  "正在通话"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "%1$sd %2$sh"
+  "%1$sd%2$sh"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Close navigation menu"
+  "关闭导航菜单"
+}
+{
+  "Close sheet"
+  "关闭菜单"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题，请重试"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务，它将自动更新。"
+}
+{
+  "Open on phone"
+  "在手机上打开"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Compass accuracy is low, calibration is recommended"
+  "指南针精度低，建议校准"
+}
+{
+  "Compass accuracy is low, calibration is required to use it"
+  "指南针精度低，必须校准才能使用"
+}
+{
+  "Failed to recognize coordinates"
+  "无法识别坐标"
+}
+{
+  "Enter coordinate here"
+  "在此处输入坐标"
+}
+{
+  "Enter latitude and longitude in decimal format (0.123, -1.23). DMS format (0°07'22.8\"N, 1°13'48\"W) is also supported."
+  "十进制格式输入纬度和经度（0.12, -1.23）；或输入DMS格式(0°07'22.8\"N, 1°13'48\"W）（输入英文逗号）"
+}
+{
+  "Recognized coordinates: %1$s"
+  "可识别的坐标：%1$s"
+}
+{
+  "Enter coordinates"
+  "输入坐标"
+}
+{
+  "Decimal degrees"
+  "十进制度数"
+}
+{
+  "Degree-Minute-Second"
+  "度-分-秒"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Invalid input"
+  "无效输入"
+}
+{
+  "Pop-Up Window"
+  "弹出窗口"
+}
+{
+  "Add"
+  "添加"
+}
+{
+  "Google"
+  "谷歌"
+}
+{
+  "Petal"
+  "花瓣"
+}
+{
+  "Satellite"
+  "卫星"
+}
+{
+  "Scheme"
+  "标准"
+}
+{
+  "Terrain"
+  "地形"
+}
+{
+  "Elevation gradient"
+  "按高程梯度设色"
+}
+{
+  "Solid fill"
+  "单色线条"
+}
+{
+  "Speed gradient"
+  "按速度梯度设色"
+}
+{
+  "Track color mode"
+  "轨迹颜色模式"
+}
+{
+  "High"
+  "高"
+}
+{
+  "Low"
+  "低"
+}
+{
+  "Dynamic (from stats)"
+  "动态（根据数据）"
+}
+{
+  "Fixed values"
+  "固定值"
+}
+{
+  "Gradient mode"
+  "渐变模式"
+}
+{
+  "Navigation mode"
+  "导航模式"
+}
+{
+  "In navigation mode, map is rotated to match your course direction. This mode is only available while using OSM/Mapbox maps."
+  "导航模式下，地图会根据你的朝向自动旋转。此模式仅在使用OSM/Mapbox贴图时可用。"
+}
+{
+  "Show endpoints"
+  "显示端点"
+}
+{
+  "Show markers"
+  "显示标记"
+}
+{
+  "Show track"
+  "显示轨迹"
+}
+{
+  "Display options"
+  "显示选项"
+}
+{
+  "Dropdown menu"
+  "下拉菜单"
+}
+{
+  "%1$d h %2$d min"
+  "%1$d小时%2$d分钟"
+}
+{
+  "%1$d min"
+  "%1$d 分钟"
+}
+{
+  "Report with:"
+  "报告内容："
+}
+{
+  "[%1$s] Problem report in Geo Tracker"
+  "[%1$s]地理跟踪器中的问题报告"
+}
+{
+  "Describe your problem. Try to give the most detailed description of your problem, to make me sooner detect and fix it."
+  "描述你的问题。试着对你的问题进行最详细的描述，让我更快地发现并解决它。"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Failed to export database: %1$s"
+  "导出数据库失败：%1$s"
+}
+{
+  "Please wait for export process to finish"
+  "请等待导出过程完成"
+}
+{
+  "Database exported successfully!"
+  "数据库导出成功！"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Recording automation is only available under a paid subscription via Google Play."
+  "自动记录仅在通过Google Play付费订阅的情况下可用"
+}
+{
+  "Retry"
+  "重试"
+}
+{
+  "Checking state…"
+  "正在检查状态…"
+}
+{
+  " Once you set up automation, you can start or stop recording at a specified location, by schedule, when a specific activity (running, skiing, etc.) is recognized, and much more (<a href=https://geo-tracker.org/automate-recording>Learn more</a>).<br></br><br></br>Please subscribe, and you will receive:%1$s"
+  "设置自动化后，在识别到特定活动（跑步、滑雪等）时，可以按计划在指定位置开始或停止记录，以及更多。（<a href=https://geo-tracker.org/automate-recording>了解更多</a>）<br></br><br></br>请订阅，您将获得：%1$s"
+}
+{
+  "Recording automation"
+  "自动记录"
+}
+{
+  "Success!"
+  "成功！"
+}
+{
+  "Sync finished! Imported: %1$d; Exported: %2$d; Removed: %3$d"
+  "同步完成！导入：%1$d；导出：%2$d；已删除：%3$d"
+}
+{
+  "Syncing trips"
+  "同步行程"
+}
+{
+  "Background sync has started"
+  "已开始后台同步"
+}
+{
+  "Support developer"
+  "支持开发人员"
+}
+{
+  "Rate application"
+  "给应用打分"
+}
+{
+  "Report a problem"
+  "报告问题"
+}
+{
+  "Let me recommend you cool application for recording and viewing your gps-tracks: %1$s"
+  "来种草一个令人惊艳的应用——用于记录和查看您的GPS轨迹：%1$s"
+}
+{
+  "Share application"
+  "分享应用"
+}
+{
+  "Version %1$s from %2$s"
+  "%1$s版本\n%2$s"
+}
+{
+  "New marker"
+  "新标记"
+}
+{
+  "Awaiting approval"
+  "等待批准"
+}
+{
+  "You didn't allow Geo Tracker to access your location in background. You won't be able to record tracks while Geo Tracker is in minimized state."
+  "您不允许Geo Tracker在后台访问您的位置。当Geo Tracker处于最小化状态时，您将无法记录轨迹。"
+}
+{
+  "No background geolocation"
+  "无背景地理位置"
+}
+{
+  "Later"
+  "稍后"
+}
+{
+  "To be able to record tracks in minimized state, Geo Tracker needs a permission to access geolocation data in background. Geo Tracker would be unable to record any tracks in minimized state, if you won't give this permission. Geo Tracker does not transmit any of your data to third parties and does not use it for advertisement purposes (more info in <a href=\"https://geo-tracker.org/privacy-policy-app\">Privacy Policy</a>). Do you want to allow Geo Tracker to access your location in background?"
+  "为了能够在最小化状态下记录轨迹，Geo Tracker需要在后台访问定位数据的权限。如果您不授权，Geo Tracker将无法在最小化状态下记录任何轨迹。Geo Tracker不会将您的任何数据传输给第三方，也不会将其用于广告目的（更多信息请参阅<a href=“https://geo-tracker.org/privacy-policy-app“>隐私政策</a>）。是否允许Geo Tracker在后台访问您的位置？"
+}
+{
+  "Geolocation access in background"
+  "在后台访问位置信息"
+}
+{
+  " %1$s<br></br><br></br>Looks like we are not able to receive payments from your country. We are sorry.<br></br><br></br>Please <a href=mailto:support+nobilling@geo-tracker.org>let us know</a> if you believe you see this message by mistake."
+  "%1$s<br></br><br></br>我们似乎无法从您的国家/地区收到付款，我们深表抱歉<br></br><br></br>如果您认为错误地看到了此消息，请<a href=mailto:support+nobilling@geo-tracker.org></a>告知我们。"
+}
+{
+  " %1$s<br></br><br></br>Please ensure that:<br></br>• You have an internet connection;<br></br>• You've set up your Apple ID;<br></br>• Apple supports payments in your country.<br></br><br></br>Please <a href=mailto:support+nobilling+ios@geo-tracker.org>let us know</a> if you believe you see this message by mistake."
+  "%1$s<br></br><br></br>请确保：<br></br>•您已连接到互联网<br></br>•您已经设置了Apple ID<br></br>•Apple支持在您所在的国家/地区付款<br></br><br></br>如果您认为错误地看到了此消息，请<a href=mailto:support+nobilling+ios@geo-tracker.org></a>告知我们。"
+}
+{
+  " %1$s<br></br><br></br>Please ensure that:<br></br>• You have an internet connection;<br></br>• Your device has Google services;<br></br>• You've set up your Google account;<br></br>• Google supports payments in your country.<br></br><br></br>Please <a href=mailto:support+nobilling@geo-tracker.org>let us know</a> if you believe you see this message by mistake."
+  "%1$s<br></br><br></br>请确保：<br></br>•您已连接到互联网<br></br>•您的设备有Google服务<br></br>•您已经设置了Google帐户<br></br>•Google支持您所在国家的支付请求<br></br><br><br>如果您认为错误地看到了此消息，请<a href=mailto:support+nobilling@geo-tracker.org></a>告知我们。"
+}
+{
+  "Distance"
+  "距离"
+}
+{
+  "Duration (O)"
+  "持续时间（O）"
+}
+{
+  "Duration (Overall)"
+  "持续时间（总体）"
+}
+{
+  "Duration (S)"
+  "持续时间（S）"
+}
+{
+  "Duration (Recorded segments)"
+  "持续时间（记录的片段）"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "OK"
+  "确认"
+}
+{
+  "Do not ask again"
+  "不再询问"
+}
+{
+  "Payments are available only via %1$s."
+  "付款只能通过%1$s进行。"
+}
+{
+  "Payments unavailable"
+  "付款不可用"
+}
+{
+  "Are you sure you want to move these trips (%1$d) to the trash bin?"
+  "确定将这%1$d条行程移至垃圾箱吗？"
+}
+{
+  "Remove trips"
+  "删除行程"
+}
+{
+  "This action cannot be reverted. Continue?"
+  "此操作无法恢复。继续？"
+}
+{
+  "Delete marker"
+  "删除标记"
+}
+{
+  "Are you sure you want to move trip '%1$s' to the trash bin?"
+  "您确定要将行程“%1$s”移至垃圾箱吗？"
+}
+{
+  "Remove trip"
+  "删除行程"
+}
+{
+  "The security of your data is paramount. We do not collect or share any private data, including geolocation. All information about your movements is stored only on your device."
+  "您的数据安全至关重要。我们不会收集或分享任何私人数据，包括位置信息。您所有的位置信息仅存储在您的设备上。"
+}
+{
+  "Data Security"
+  "数据安全"
+}
+{
+  "Geo Tracker is used by rescuers, mushroom pickers, public transport drivers, and many others. Our app has repeatedly helped people in difficult situations."
+  "Geo Tracker 被救援人员、采菇人、公交司机以及许多人使用。我们的应用在许多困难时刻，屡次为人们提供帮助。"
+}
+{
+  "We help people"
+  "我们帮助人们"
+}
+{
+  "We do not advertise in the app, so annoying banners won't bother you even in the free version."
+  "我们不在应用中加广告，所以即使在免费版本中，您仍可以享受纯洁的应用"
+}
+{
+  "No Ads"
+  "无广告"
+}
+{
+  "Your support is a massive help to the app!"
+  "您的支持对应用是一个巨大的帮助！"
+}
+{
+  "Geo Tracker has been helping people stay on track since 2013. It is a family project, maintained and developed by just two people, a husband and wife."
+  "自2013年以来，Geo Tracker持之以恒地致力于帮人们“保持正轨”。这是一个由夫妻两人维护和开发的家庭项目。"
+}
+{
+  "Make a one-time donation"
+  "一次性捐款"
+}
+{
+  "Set up a recurring payment"
+  "设置定期付款"
+}
+{
+  "To support the development of the app:"
+  "为了支持应用程序的开发："
+}
+{
+  "Support Geo Tracker"
+  "支持Geo Tracker"
+}
+{
+  "Pending"
+  "等待中"
+}
+{
+  "Thank you for your donation! We appreciate it a lot ❤️"
+  "感谢您的捐赠！我们不胜感激！❤️"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Enter description"
+  "输入描述"
+}
+{
+  "Description"
+  "描述"
+}
+{
+  "Enter name"
+  "输入名称"
+}
+{
+  "Name"
+  "名称"
+}
+{
+  "Trip"
+  "行程"
+}
+{
+  "Marker properties"
+  "标记属性"
+}
+{
+  "New trip"
+  "新行程"
+}
+{
+  "Trip properties"
+  "行程属性"
+}
+{
+  "ELEVATION CHART"
+  "高程图"
+}
+{
+  "%1$d of %2$d trips were successfully stored to %3$s"
+  "%1$d 的 %2$d 的行程已成功记录到%3$s中"
+}
+{
+  "Storing finished"
+  "存储完成"
+}
+{
+  "You have no trips to export"
+  "没有行程可导出"
+}
+{
+  "Storing trips"
+  "存储行程"
+}
+{
+  "Choose format"
+  "选择格式"
+}
+{
+  "You didn't allow Geo Tracker to access your location. You won't be able to record tracks and view your location on the map."
+  "您不允许Geo Tracker访问您的位置。您将无法记录轨迹并在地图上查看您的位置。"
+}
+{
+  "No access to geolocation"
+  "无法访问地理位置"
+}
+{
+  "To be able to record tracks and view your position on the map, Geo Tracker needs a permission to access geolocation data. Geo Tracker does not transmit any of your data to third parties and does not use it for advertisement purposes. Do you want to allow Geo Tracker to access your location?"
+  "为了能够记录轨迹并在地图上查看您的位置，Geo Tracker需要访问地理位置数据的权限。Geo Tracker不会将您的任何数据传输给第三方，也不会将其用于广告目的。您想允许Geo Tracker访问您的位置吗？"
+}
+{
+  "Geolocation access"
+  "访问位置信息"
+}
+{
+  "Failed to initialize Google as a map provider. Google Play Services are disabled on your device."
+  "无法将Google初始化为地图提供商。您的设备上已禁用Google Play服务"
+}
+{
+  "Failed to initialize Google as a map provider. Google Play Services are invalid on your device."
+  "无法将Google初始化为地图提供商。您的设备上的Google Play服务无效"
+}
+{
+  "Failed to initialize Google as a map provider. Google Play Services are missing on your device."
+  "无法将Google初始化为地图提供商。您的设备上缺少Google Play服务"
+}
+{
+  "Failed to initialize Google as a map provider. Google Play Services need to be updated on your device."
+  "无法将Google初始化为地图提供商。您的设备上的Google Play服务需要更新"
+}
+{
+  "Google Maps unavailable"
+  "谷歌地图不可用"
+}
+{
+  "No active subscription"
+  "没有激活中的订阅"
+}
+{
+  "Subscription info is missing"
+  "缺少订阅信息"
+}
+{
+  "Loaded %1$d of %2$d trips from folder %3$s"
+  "已从文件夹%3$s加载%1$d次行程，共%2$d次"
+}
+{
+  "Loading finished"
+  "加载完成"
+}
+{
+  "Loading trip %1$d of %2$d…"
+  "正在加载行程%1$d，共%2$d…"
+}
+{
+  "No GPX/KML/KMZ files found in folder: %1$s"
+  "在文件夹%1$s中找不到GPX/KML/KMZ文件"
+}
+{
+  "Loading trips"
+  "加载行程"
+}
+{
+  "Loading subscription info"
+  "正在加载订阅信息"
+}
+{
+  "Manage subscription"
+  "管理订阅"
+}
+{
+  "Cannot add marker, because GPS coordinates are not available."
+  "GPS坐标不可用，无法添加标记"
+}
+{
+  " <a href=https://www.openstreetmap.org/>Open Street Maps</a> are provided via the paid Mapbox platform.<br></br><br></br>Please subscribe, and you will receive:%1$s"
+  "<a href=https://www.openstreetmap.org/>Open Street Maps</a>由付费的Mapbox平台提供<br></br><br></br>订阅后您将收到：%1$s"
+}
+{
+  "Subscribe to OSM/Mapbox"
+  "订阅OSM/Mapbox"
+}
+{
+  " <a href=https://www.openstreetmap.org/>Open Street Maps</a> are provided via paid Mapbox platform and require a subscription via %1$s."
+  "<a href=https://www.openstreetmap.org/>Open Street Maps</a>由付费Mapbox平台提供，需要通过%1$s订阅。"
+}
+{
+  "Not authorized to make purchase - check your App Store account"
+  "无权购买-请检查您的App Store帐户"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Paused"
+  "暂停"
+}
+{
+  "You didn't allow Geo Tracker to access your precise location. You won't be able to record tracks and view your location on the map."
+  "您不允许 Geo Tracker访问您的精确位置，将无法记录轨迹并在地图上查看您的位置。"
+}
+{
+  "No access to precise geolocation"
+  "无法访问精确的地理位置"
+}
+{
+  "Default x-axis for charts"
+  "图表默认X轴"
+}
+{
+  "Automatically hide some controls after a period of inactivity"
+  "在一段时间不活动后自动隐藏某些控件"
+}
+{
+  "Auto-hide controls"
+  "自动隐藏控件"
+}
+{
+  "Here, you can configure which elements to show on top of the map"
+  "在这里，您可以配置在地图顶部显示哪些元素"
+}
+{
+  "Map configuration"
+  "地图配置"
+}
+{
+  "Measurement units"
+  "计量单位"
+}
+{
+  "Off"
+  "关"
+}
+{
+  "On"
+  "开"
+}
+{
+  "Automatic"
+  "自动"
+}
+{
+  "Night mode"
+  "夜间模式"
+}
+{
+  "Display settings"
+  "显示设置"
+}
+{
+  "You can also show/hide traffic jams by tapping the semaphore"
+  "您还可以通过点击信号灯来显示/隐藏拥堵情况"
+}
+{
+  "Show traffic jams"
+  "显示交通堵塞"
+}
+{
+  "Controls if the button focusing map on your location is shown or not."
+  "控制是否显示将地图聚焦到您所在位置的按钮。"
+}
+{
+  "My location button"
+  "我的位置按钮"
+}
+{
+  "Switch this toggle off, if you don't want to see the status panel at the bottom of the screen at all."
+  "不想看到屏幕底部的状态面板，请关闭此开关。"
+}
+{
+  "Status panel"
+  "状态面板"
+}
+{
+  "If the selected map provider has jam data, this button lets you turn their display on or off."
+  "如果所选地图提供程序有堵塞数据，此按钮可用于打开或关闭其显示。"
+}
+{
+  "Traffic light"
+  "交通灯"
+}
+{
+  "Switch this toggle off, if you don't want to see ski statistics for your tracks at all."
+  "如果你不想看到赛道的滑雪统计数据，请关闭。"
+}
+{
+  "Ski statistics"
+  "滑雪统计"
+}
+{
+  "Show or hide zoom map controls, in case you don’t need them."
+  "根据需要选择显示或隐藏缩放贴图控件"
+}
+{
+  "Zoom buttons"
+  "缩放按钮"
+}
+{
+  "Switch this toggle off, if you don't want to read bearing values from device's compass."
+  "如果您不想从设备的指南针读取方位值，请关闭此开关。"
+}
+{
+  "Use compass"
+  "使用指南针"
+}
+{
+  "Select folder"
+  "选择文件夹"
+}
+{
+  "Automatically mark places where you stop for a while."
+  "自动标记您停留一段时间的地方。"
+}
+{
+  "Mark stops"
+  "标注停滞点"
+}
+{
+  "WGS84 (default)"
+  "WGS84（默认）"
+}
+{
+  "Sea level"
+  "海平面大地水准面"
+}
+{
+  "Altitude baseline"
+  "海拔基线"
+}
+{
+  "Altitude correction (meters)"
+  "高度校正（米）"
+}
+{
+  "Automatically start recording new track when application is launched. Using this option may produce too many recorded tracks!"
+  "启动应用程序时自动开始记录新轨迹。使用此选项可能会记录太多轨迹！"
+}
+{
+  "Track recording auto-start"
+  "启动时自动开始记录"
+}
+{
+  "This data contains only anonymized technical information, which helps to see how well the app performs and to fix possible problems."
+  "这些数据仅包含匿名技术信息，这有助于了解应用程序的性能并解决可能的问题。"
+}
+{
+  "Send anonymous usage statistics"
+  "发送匿名使用统计数据"
+}
+{
+  "Determines if extra filtering algorithms should be applied to GPS locations"
+  "确定是否应对GPS位置应用附加过滤算法"
+}
+{
+  "Extra filtering"
+  "额外过滤"
+}
+{
+  "GPS-device requests frequency"
+  "GPS设备请求频率"
+}
+{
+  "1 sec"
+  "1秒"
+}
+{
+  "2 min"
+  "2分钟"
+}
+{
+  "5 min"
+  "5分钟"
+}
+{
+  "15 min"
+  "15分钟"
+}
+{
+  "30 min"
+  "30分钟"
+}
+{
+  "2 sec"
+  "2秒"
+}
+{
+  "3 sec"
+  "3秒"
+}
+{
+  "4 sec"
+  "4秒"
+}
+{
+  "5 sec"
+  "5秒"
+}
+{
+  "10 sec"
+  "10秒"
+}
+{
+  "15 sec"
+  "15秒"
+}
+{
+  "30 sec"
+  "30秒"
+}
+{
+  "1 min"
+  "1分钟"
+}
+{
+  "Record frequency"
+  "记录频率"
+}
+{
+  "If accuracy is lower, position is ignored"
+  "若当时精度低于此值，则忽略该点位置"
+}
+{
+  "10 m"
+  "10米"
+}
+{
+  "20 m"
+  "20米"
+}
+{
+  "50 m"
+  "50米"
+}
+{
+  "100 m"
+  "100米"
+}
+{
+  "200 m"
+  "200米"
+}
+{
+  "0.5 km"
+  "0.5公里"
+}
+{
+  "1 km"
+  "1公里"
+}
+{
+  "GPS accuracy"
+  "GPS精度"
+}
+{
+  "Max distance between neighbor points of one segment"
+  "一段相邻点之间的最大距离"
+}
+{
+  "2 km"
+  "2公里"
+}
+{
+  "5 km"
+  "5公里"
+}
+{
+  "Not specified"
+  "未指定"
+}
+{
+  "Max distance"
+  "最大距离"
+}
+{
+  "Min distance between neighbor points when recording track"
+  "记录轨迹时相邻点之间的最小距离"
+}
+{
+  "1 cm"
+  "1厘米"
+}
+{
+  "500 m"
+  "500米"
+}
+{
+  "10 cm"
+  "10厘米"
+}
+{
+  "0.5 m"
+  "0.5米"
+}
+{
+  "1 m"
+  "1米"
+}
+{
+  "2.5 m"
+  "2.5米"
+}
+{
+  "5 m"
+  "5米"
+}
+{
+  "7.5 m"
+  "7.5米"
+}
+{
+  "Min distance"
+  "最小距离"
+}
+{
+  "Name template for new tracks"
+  "新轨迹的名称模板"
+}
+{
+  "Date (default format)"
+  "日期（默认格式）"
+}
+{
+  "Date (YYYY-MM-DD)"
+  "日期（YYYY-MM-DD）"
+}
+{
+  "Date (ISO 8601)"
+  "日期（ISO 8601）"
+}
+{
+  "Track number"
+  "记录编号"
+}
+{
+  "Default track name"
+  "默认轨迹名称"
+}
+{
+  "Your device probably needs manual configuration for continuous background recording. Click here to see instructions."
+  "您的设备可能需要手动配置才能进行连续的后台记录。单击此处查看说明。"
+}
+{
+  "I know"
+  "我知道"
+}
+{
+  "<a href=%1$s>Manual configuration</a> is probably needed for background recording."
+  "<a href=%1$s>可能需要手动设置在后台保持记录</a>。"
+}
+{
+  "Setup for background work"
+  "后台运行设置"
+}
+{
+  "Record settings"
+  "记录设置"
+}
+{
+  "Select custom record profile to access precise record settings"
+  "选择自定义记录配置文件以访问精确的记录设置"
+}
+{
+  "Record profile settings"
+  "记录配置文件设置"
+}
+{
+  "Precise"
+  "精确"
+}
+{
+  "General"
+  "一般"
+}
+{
+  "Power saving"
+  "省电"
+}
+{
+  "Max power saving"
+  "最大省电"
+}
+{
+  "Airplane"
+  "飞机"
+}
+{
+  "Custom"
+  "自定义"
+}
+{
+  "Frequency: %1$s; Accuracy: %2$s\nMin distance: %3$s; Max distance: %4$s; Extra filtering: %5$s"
+  "频率：%1$s；精确度：%2$s\n最小距离：%3$s；最大距离：%4$s；额外过滤：%5$s"
+}
+{
+  "Record profile"
+  "设置记录精度"
+}
+{
+  "Recommended to turn on for better experience with background recording and getting less gaps."
+  "建议打开来获得更佳的后台记录体验并减少记录中断。"
+}
+{
+  "Ignore battery optimizations"
+  "忽略电池优化"
+}
+{
+  "Reset A-GPS data and download it again. Sometimes it may help if you have problems with getting GPS fix."
+  "重置A-GPS数据并重新下载。若您在获取GPS定位时遇到问题重置可能会有所帮助。"
+}
+{
+  "Reset A-GPS data"
+  "重置A-GPS数据"
+}
+{
+  "Turn this toggle on, if you want Geo Tracker to show confirmation dialog when you stop or pause current recording."
+  "如果您希望GeoTracker在您停止或暂停当前记录时显示确认对话框，请打开此开关。"
+}
+{
+  "Stop recording with confirmation"
+  "二次确认再停止记录"
+}
+{
+  "Advanced automation of track recording (e.g. recording by schedule, launching from other apps or system events) can be done via apps like Tasker or MacroDroid. Tap here to view setup instructions."
+  "通过Tasker或MacroDroid等应用程序，可以实现轨迹记录的高级自动化（例如按计划记录、从其他应用程序启动或系统事件）。点击此处查看设置说明。"
+}
+{
+  "If you experience problems after GPS Week Number Rollover on Apr 6, 2019, set this value to 619315200."
+  "如果在2019年4月6日的GPS周数重置后遇到问题，请将此值设置为619315200。"
+}
+{
+  "GPS time correction (seconds)"
+  "GPS时间校正（秒）"
+}
+{
+  "When checked, we will automatically prepend dates to the exported file names (in form of YYYY-MM-DD)"
+  "选中后，我们将自动在导出的文件名前添加日期（格式为YYYY-MM-DD）"
+}
+{
+  "File names with dates"
+  "带日期的文件名"
+}
+{
+  "Copy trips database to external storage (for backup or diagnostics)"
+  "将trips数据库复制到外部存储（用于备份或诊断）"
+}
+{
+  "Export trips database"
+  "导出行程数据库"
+}
+{
+  "Copy trips database from external storage (will replace your current database, all existing trips will be removed!)"
+  "从外部存储中复制行程数据库（将替换您当前的数据库，所有现有的行程都将被删除！）"
+}
+{
+  "Import trips database"
+  "导入行程数据库"
+}
+{
+  "Optimization complete"
+  "优化完成"
+}
+{
+  "Are you sure you want to start the database optimization process? Backing up your data is highly recommended before proceeding."
+  "您确定要启动数据库优化过程吗？强烈建议在继续之前备份数据。"
+}
+{
+  "Optimization in progress"
+  "优化正在进行中"
+}
+{
+  "Storage settings"
+  "存储设置"
+}
+{
+  "Are you sure you want to remove all your trips? This action cannot be reverted."
+  "您确定要删除所有行程吗？此操作无法恢复。"
+}
+{
+  "Removes all trips stored in application. Action cannot be undone."
+  "删除应用程序中存储的所有行程。操作无法撤消。"
+}
+{
+  "Trips are being removed, please wait…"
+  "行程正在删除，请稍候……"
+}
+{
+  "Erase application content"
+  "删除应用内容"
+}
+{
+  "All trips were successfully removed."
+  "所有行程均已成功删除"
+}
+{
+  "Storage statistics"
+  "存储统计"
+}
+{
+  "Add speed/course data to exported GPX/KML files. If you don't need this data, you can turn this toggle off to reduce exported files size"
+  "将速度/航向数据添加到导出的GPX/KML文件中。若无需此数据，可以关闭此开关以减小导出文件的大小"
+}
+{
+  "Export extended data"
+  "导出扩展数据"
+}
+{
+  "Error occurred"
+  "发生错误"
+}
+{
+  "Finalizing purchase…"
+  "正在完成购买…"
+}
+{
+  "That's great!"
+  "好！"
+}
+{
+  "Enjoy your benefits:"
+  "享受您的福利："
+}
+{
+  "Successful purchase!"
+  "购买成功！"
+}
+{
+  "Refreshing purchases information…"
+  "正在刷新购买信息……"
+}
+{
+  "Purchasing subscription"
+  "购买订阅"
+}
+{
+  "Rate now"
+  "立即评分"
+}
+{
+  "Remind me later"
+  "稍后提醒我"
+}
+{
+  "Don't ask me again"
+  "不再询问"
+}
+{
+  " <div>If you enjoy using it, please <a href=action:vote>rate it</a> on %1$s.</div><div>If you've faced a problem or you have a proposal how to enhance it - please send us <a href=action:report>an e-mail</a>.</div><div>Geo Tracker does not make money on ads or your personal data. To support its developement, you can make a <b><a href=action:donate>donation</a></b>.</div>"
+  " <div>若您喜欢使用本软件，请 <a href=action:vote>在 %1$s上评分</a></div><div>如果您遇到问题或有建议来优化软件，请向我们发送<a href=action:report>电子邮件</a>.</div><div>Geo Tracker不凭借广告或您的个人信息盈利。为了支持软件发展，你可以向我们<b><a href=action:donate>捐款</a></b>.</div>"
+}
+{
+  "Thank you for using Geo Tracker!"
+  "感谢您使用Geo Tracker！"
+}
+{
+  "App Store"
+  "应用商店"
+}
+{
+  "You didn't grant Geo Tracker permission to read files. Geo Tracker won't be able to open trips from files."
+  "您没有授予Geo Tracker读取文件的权限。 Geo Tracker无法从文件中打开行程。"
+}
+{
+  "No permission"
+  "没有权限"
+}
+{
+  "To read trips from files, Geo Tracker needs your permission. Geo Tracker will use this permission to only read files you asked it to open. Do you want to grant Geo Tracker permission to read files?"
+  "要从文件中读取行程，Geo Tracker需要您的许可。Geo Tracker将使用此权限仅读取您要求它打开的文件。您想授予Geo Tracker读取文件的权限吗？"
+}
+{
+  "Read files"
+  "读取文件"
+}
+{
+  "Track recording"
+  "轨迹记录"
+}
+{
+  "Marker"
+  "标记"
+}
+{
+  "No GPS"
+  "无GPS"
+}
+{
+  "GPS off"
+  "GPS关闭"
+}
+{
+  "%1$s: %2$s, %3$s"
+  "%1$s:%2$s，%3$s"
+}
+{
+  "Pause"
+  "暂停"
+}
+{
+  "Recording"
+  "录制中"
+}
+{
+  "Go"
+  "去"
+}
+{
+  "Stop for ~%1$s"
+  "停下来~%1$s"
+}
+{
+  "Stop"
+  "停止"
+}
+{
+  "Geo Tracker is recording track…"
+  "Geo Tracker正在记录轨迹……"
+}
+{
+  "Waiting GPS"
+  "等待GPS"
+}
+{
+  "Restore subscription"
+  "恢复订阅"
+}
+{
+  "Restoring Subscription"
+  "恢复订阅"
+}
+{
+  "You didn't grant Geo Tracker a permission to save snapshots to the Gallery. Geo Tracker won't be able to save track snapshots to the Gallery."
+  "您没有授予Geo Tracker将快照保存到图库的权限。Geo Tracker将无法将轨迹快照保存到图库。"
+}
+{
+  "To save track snapshots to gallery, Geo tracker needs your permission to access external storage. Geo Tracker would only use it to store snapshots to the gallery, and won't touch anything else. Do you want to grant this permission to Geo Tracker?"
+  "要将轨迹快照保存到库中，Geo Tracker需要您的权限才能访问外部存储。Geo Tracker只会使用它将快照存储到图库中，不会触及其他任何内容。您想授予Geo Tracker此权限吗？"
+}
+{
+  "Save to gallery"
+  "保存到图库"
+}
+{
+  "SPEED CHART"
+  "速度图"
+}
+{
+  "Altitude difference"
+  "海拔高差"
+}
+{
+  "Max altitude"
+  "最高海拔"
+}
+{
+  "Min altitude"
+  "最低海拔"
+}
+{
+  "Average slope"
+  "平均坡度"
+}
+{
+  "Average slope duration"
+  "平均坡度持续时间"
+}
+{
+  "Average slope length"
+  "平均坡长"
+}
+{
+  "Average slope speed"
+  "平均斜坡速度"
+}
+{
+  "Average speed moving"
+  "平均移动速度"
+}
+{
+  "Average speed"
+  "平均速度"
+}
+{
+  "Movement duration"
+  "累计移动时长"
+}
+{
+  "Record duration"
+  "记录时长"
+}
+{
+  "Select a trip from the list to see its statistics here"
+  "从列表中选择一次行程，在此处查看其统计数据"
+}
+{
+  "Track length"
+  "轨迹长度"
+}
+{
+  "Max slope"
+  "最大坡度"
+}
+{
+  "Max speed"
+  "最高时速"
+}
+{
+  "Min slope"
+  "最小坡度"
+}
+{
+  "Hide"
+  "隐藏"
+}
+{
+  "Ski statistics preview"
+  "滑雪统计预览"
+}
+{
+  "Show"
+  "显示"
+}
+{
+  "Unlock"
+  "解锁"
+}
+{
+  "Access extended statistics about your ski or mountain bike descents! It includes the number of descents, total and average slope length, duration, and descent speed.<br></br><br></br>Subscribe, and you will receive:%1$s"
+  "访问有关滑雪或山地自行车下坡的扩展统计数据！它包括下降次数、总坡长和平均坡长、持续时间和下降速度<br></br><br></br>订阅后，您将收获：%1$s"
+}
+{
+  "Ski Statistics"
+  "滑雪统计"
+}
+{
+  "All slopes duration"
+  "处于斜坡总计时间"
+}
+{
+  "All slopes length"
+  "所有斜坡总长"
+}
+{
+  "Number of slopes"
+  "斜坡数量"
+}
+{
+  "Vertical ascent"
+  "垂直上升"
+}
+{
+  "Vertical distance"
+  "垂直距离"
+}
+{
+  "Vertical speed"
+  "垂直速度"
+}
+{
+  "Recurring billing. Cancel anytime via Google Play."
+  "自动续费，您可通过Google Play随时取消。"
+}
+{
+  " You can cancel anytime up to 24h before next payment in App Store (<a href=https://geo-tracker.org/user-agreement>Terms of Use</a>, <a href=https://geo-tracker.org/privacy-policy-app>Privacy Policy</a>)."
+  "您可以在App Store下一次付款前24小时内随时取消（<a href=https://geo-tracker.org/user-agreement>使用条款</a>，<a href=https://geo-tracker.org/）privacy-policy-app>隐私政策</a>）。"
+}
+{
+  "Completing purchase"
+  "完成购买"
+}
+{
+  "Save %1$s"
+  "节省%1$s"
+}
+{
+  "Annual"
+  "年度"
+}
+{
+  "Monthly"
+  "每月一次"
+}
+{
+  "%1$s after trial"
+  "%1$s 试用后"
+}
+{
+  "Only %1$s"
+  "只有%1$s"
+}
+{
+  "<div>If you haven't subscribe before - you will have <b>%1$s</b> to try it all <b>for free</b>. After that, payment is automatically processed unless you unsubscribe.</div>"
+  "<div>如果你以前没有订阅过，你将有<b>%1$s</b>免费试用。之后，除非您取消订阅，否则付款将自动处理</div>"
+}
+{
+  "Unable to purchase"
+  "无法购买"
+}
+{
+  "About"
+  "关于"
+}
+{
+  "To record a new track press the <font color=#ff0000>red button</font> below."
+  "要记录新轨迹，\n请点击下面的<font color=#ff0000>红色录制键</font>。"
+}
+{
+  "Recorded in Geo Tracker for %1$s from Ilya Bogdanovich"
+  "由Ilya Bogdanovich在Geo Tracker中为%1$s提供记录。"
+}
+{
+  "Markers: %1$d, visited: %2$s"
+  "标记：%1$d，到访：%2$s"
+}
+{
+  "Some features in %1$s may not work properly without HMS Core, which is not installed on your device."
+  "如果没有HMS Core，%1$s中的某些功能可能无法正常工作，因为您的设备上没有安装HMS Core。"
+}
+{
+  "%1$s is unable to use HMS Core. Launch Optimizer (Phone Manager) or go to Settings, enable all permissions for %2$s (including auto-launch and secondary launch), and try again."
+  "%1$s无法启用HMS Core。请前往手机管家或设置启用%2$s的所有权限（包括自启动和二次启动）后重试。"
+}
+{
+  "It appears that you have an unofficial version of HMS Core (%1$s) installed on your device. Please uninstall HMS Core from Settings and return to this app to install the official version."
+  "您的设备上似乎安装了非官方版本的HMS Core（%1$s）。请从“设置”中卸载HMS Core，然后返回此应用程序安装官方版本。"
+}
+{
+  "Note"
+  "注："
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "This will replace all your trips with the contents of selected database and app will be restarted. It is recommended to backup current database before proceeding. Are you sure you want to continue?"
+  "这将用所选数据库的内容替换您的所有行程，应用程序将重启。建议在继续之前备份当前数据库，确定要继续吗？"
+}
+{
+  "Replace existing database"
+  "替换现有数据库"
+}
+{
+  "Failed to import database: %1$s"
+  "导入数据库失败：%1$s"
+}
+{
+  "Please wait for import process to finish"
+  "请等待导入过程完成"
+}
+{
+  "Database imported successfully, restarting…"
+  "数据库导入成功，正在重新启动……"
+}
+{
+  "Failed to import trips with errors:"
+  "导入行程失败，出现错误："
+}
+{
+  "Failed to import trips from %1$s with errors:"
+  "从%1$s导入行程失败，出现错误："
+}
+{
+  "Permission denied"
+  "权限被拒绝"
+}
+{
+  "Successfully imported: %1$s from %2$s."
+  "已成功从%2$s导入%1$s。"
+}
+{
+  "In progress"
+  "进行中"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "I want to transfer my tracks to a new device"
+  "我想把我的轨迹转移到新设备上"
+}
+{
+  "I have a suggestion for improvement"
+  "我有一个改进的建议"
+}
+{
+  "Can't find my location/No GPS signal"
+  "找不到我的位置/无GPS信号"
+}
+{
+  "Unreliable recording or gaps in the track"
+  "记录不准或轨迹中断"
+}
+{
+  "I have another issue"
+  "我有另一个提议"
+}
+{
+  "I have a question"
+  "我有问题"
+}
+{
+  "What problem are you facing?"
+  "你面临什么问题？"
+}
+{
+  "I want to cancel my subscription"
+  "我想取消订阅"
+}
+{
+  "Why are Yandex Maps no longer available?"
+  "为什么Yandex地图不再可用？"
+}
+{
+  "Thank you!"
+  "谢谢"
+}
+{
+  " For more information, you can contact us by <a href=action:report>email</a>."
+  "如需更多信息，您可以通过<a href=action:report>电子邮件</a>与我们联系"
+}
+{
+  " If you want to move all your tracks from your old device to a new one, please follow <a href=https://geo-tracker.org/faq/issue-move-to-new-device>these instructions</a>."
+  "如果要将所有轨迹从旧设备迁移到新设备，请按照<a href=https://geo-tracker.org/faq/issue-move-to-new-device>这些说明</a>"
+}
+{
+  " If you're having trouble finding your location, please check out <a href=https://geo-tracker.org/handling-gps-issues/>these suggestions</a>."
+  "如果您在查找位置时遇到问题，请查看<a href=https://geo-tracker.org/handling-gps-issues/>这些建议</a>。"
+}
+{
+  " Usually, recording is interrupted due to power saving settings in your device. Please follow <a href=%1$s>these instructions</a> to configure your device correctly."
+  "通常由于设备中的省电设置，记录会中断。请按照<a href=%1$s>这些说明</a>正确配置您的设备"
+}
+{
+  " You can cancel your subscription at any time. This can be done from the Payments & Subscriptions section of the Google Play app. More information can be found <a href=https://geo-tracker.org/faq/issue-unsubscribe>here</a>."
+  "您可以随时取消订阅。这可以从Google Play应用程序的“付款和订阅”部分完成。更多信息请访问<a href=https://geo-tracker.org/faq/issue-unsubscribe>这里</a>。"
+}
+{
+  "Solution"
+  "解决方案"
+}
+{
+  " Unfortunately, Yandex introduced a new pricing policy that made it impossible for us to continue using them in Geo Tracker. We share your disappointment, but unfortunately, there is nothing we can do except to remove Yandex Maps from Geo Tracker. More information can be found <a href=https://geo-tracker.org/faq/yandex-maps-removed>here</a>."
+  "因为Yandex推出了一项新的定价政策，我们无法在Geo Tracker中继续提供该地图。我们同样感到惋惜，但除了移除功能外我们别无他法。更多信息请访问<a href=https://geo-tracker.org/faq/yandex-maps-removed>这里</a>。"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Database upgrade failed. Please check you have enough free space on your device."
+  "数据库升级失败。请检查您的设备上是否有充足的存储空间。"
+}
+{
+  "Geo Tracker is upgrading database, this is one-time operation, but may take a while. Thank you for your patience!"
+  "Geo Tracker正在升级数据库，这只需进行一次，但可能需要一段时间，感谢您的耐心等待！"
+}
+{
+  "Geolocation services are turned off in device's settings. Do you want to turn them on?"
+  "设备设置中的定位服务已关闭，要开启吗？"
+}
+{
+  "Geolocation is turned off"
+  "位置信息功能已关闭"
+}
+{
+  "My trips"
+  "我的行程"
+}
+{
+  "Map"
+  "地图"
+}
+{
+  "Statistics"
+  "统计"
+}
+{
+  "Enabled"
+  "启用"
+}
+{
+  "Our heartfelt gratitude"
+  "我们衷心的感谢"
+}
+{
+  "Subscribe now, and you will receive:%1$s"
+  "立即订阅，您将收到：%1$s"
+}
+{
+  "Renew your subscription now so you don't lose your benefits:"
+  "立即续订订阅，这样您就不会失去您的权益："
+}
+{
+  " Already have a subscription? <a href=restore>Restore purchases</a>"
+  "已经订阅软件？<a href=restore>前往恢复订阅</a>"
+}
+{
+  " Subscription: <font color=#%1$s>%2$s</font>"
+  "订阅：<font color=#%1$s>%2$s</font>"
+}
+{
+  "Active"
+  "激活"
+}
+{
+  "Cancelled"
+  "取消"
+}
+{
+  "None"
+  "无"
+}
+{
+  "Unavailable"
+  "不可用"
+}
+{
+  "You can also switch your plan:"
+  "你也可以改变你的计划："
+}
+{
+  "Your benefits:"
+  "您的权益："
+}
+{
+  "Your benefits until <font color=#%1$s>%2$s</font>:"
+  "您在<font color=#%1$s>%2$s</font>之前的福利："
+}
+{
+  "Failed to create the map. Please switch to another map provider."
+  "创建地图失败，请切换到其他地图提供商。"
+}
+{
+  "No web browser installed on device, can't open web page."
+  "设备上未安装web浏览器，无法打开网页。"
+}
+{
+  "Disable Geofencing"
+  "禁用地理围栏"
+}
+{
+  "Keep Geofencing enabled"
+  "保持启用地理围栏"
+}
+{
+  "This app uses Mapbox Geofencing to detect your device’s presence in areas the app developer has defined. Only the app developer can see where those areas are. You have the option to disable Mapbox Geofencing, which may affect app functionality."
+  "此应用程序使用Mapbox Geofencing来检测您的设备在应用程序开发人员定义的区域中的存在。只有应用程序开发人员才能看到这些区域的位置。您可以选择禁用Mapbox地理围栏，这可能会影响应用程序的功能。"
+}
+{
+  "Keep Geofencing disabled"
+  "禁止使用地理围栏"
+}
+{
+  "Enable Geofencing"
+  "启用地理围栏"
+}
+{
+  "Allow this app to use Geofencing"
+  "允许此应用程序使用地理围栏"
+}
+{
+  "You are helping to make OpenStreetMap and Mapbox maps better by contributing anonymous usage data."
+  "通过提供匿名使用数据，您正在帮助改善OpenStreetMap和Mapbox地图。"
+}
+{
+  "Stop participating"
+  "停止参与"
+}
+{
+  "More info"
+  "更多信息"
+}
+{
+  "Participate"
+  "参与"
+}
+{
+  "Make Mapbox Maps Better"
+  "让Mapbox地图更好"
+}
+{
+  "Powered by Mapbox Maps"
+  "由Mapbox Maps提供技术支持"
+}
+{
+  "Map compass. Activate to reset the map rotation to North."
+  "地图指南针。激活以将贴图旋转重置为北。"
+}
+{
+  "Mapbox Geofencing"
+  "Mapbox地理围栏"
+}
+{
+  "Mapbox Privacy Policy"
+  "Mapbox隐私政策"
+}
+{
+  "Improve This Map"
+  "改进此地图"
+}
+{
+  "Mapbox Telemetry"
+  "Mapbox遥测"
+}
+{
+  "Attribution must be enabled if you use data from sources that require it. See https://docs.mapbox.com/help/getting-started/attribution/ for more details."
+  "如果您使用来自需要来源的数据，则必须启用属性。参阅 https://docs.mapbox.com/help/getting-started/attribution/ 了解更多。"
+}
+{
+  "The Mapbox logo wordmark must remain enabled in accordance with our Terms of Service. See https://www.mapbox.com/legal/tos for more details."
+  "根据我们的服务条款，Mapbox 标志的文字商标必须保持启用。详情请参见：https://www.mapbox.com/legal/tos。"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "%1$s hours"
+  "%1$s小时"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "%1$s o'clock"
+  "%1$s小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Value"
+  "值"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Coordinates"
+  "坐标"
+}
+{
+  "Distances"
+  "距离"
+}
+{
+  "Slopes"
+  "斜坡"
+}
+{
+  "Altitudes"
+  "海拔高度"
+}
+{
+  "Distances: %1$s\nAltitudes: %2$s\nSlopes: %3$s\nCoordinates: %4$s"
+  "距离：%1$s\n海拔高度：%2$s\n坡度：%3$s\n坐标：%4$s"
+}
+{
+  "Degrees"
+  "度"
+}
+{
+  "Feet"
+  "英尺"
+}
+{
+  "Kilometers"
+  "公里"
+}
+{
+  "Meters"
+  "米"
+}
+{
+  "Miles"
+  "英里"
+}
+{
+  "Nautical Miles"
+  "海里"
+}
+{
+  "Percent"
+  "百分比"
+}
+{
+  "Search by coordinates"
+  "搜索坐标"
+}
+{
+  "Map type"
+  "地图类型"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "Checked"
+  "已检查"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Change to next month"
+  "改为下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择：%1$s - 结束日期选择：%2$s"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "End date %1$s"
+  "结束日期 %1$s"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Navigate to current year %1$d"
+  "导航至当前年份 %1$d"
+}
+{
+  "Navigate to year %1$d"
+  "导航至 %1$d 年"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Start date %1$s"
+  "开始日期 %1$s"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Today %1$s"
+  "今天 %1$s"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Tap to switch to Calendar view"
+  "单击切换到日历视图"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Tap to switch to year view"
+  "单击切换到年份视图"
+}
+{
+  "Open navigation drawer"
+  "打开导航抽屉"
+}
+{
+  "Navigation menu"
+  "导航菜单"
+}
+{
+  "Navigation mode is only available for OSM/Mapbox maps. Do you want to switch maps to OSM/Mapbox?"
+  "导航模式仅适用于OSM/Mapbox地图。您想将地图切换到OSM/Mapbox吗？"
+}
+{
+  "Not selected"
+  "未选择"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  " You currently have <b>%1$d</b> tracks in the list and <b>%2$d</b> in the bin.<br></br>To continue recording routes, please subscribe, and you will receive:<br></br><font color=%3$s>%4$s</font><br></br><br></br>If you stay on the free version, you can only have <b>%5$d</b> trips in your list or trash bin. "
+  "您的列表中已有<b>%1$d</b> 条记录，垃圾箱中有<b>%2$d</b> 条记录。<br></br>若需继续记录，请订阅，同时您会收获：<br></br><font color=%3$s>%4$s</font><br></br><br></br>若您继续使用免费版，您在列表或垃圾箱中共还可存储<b>%5$d</b>条记录。"
+}
+{
+  "Free tracks limit reached"
+  "已达到免费的轨迹上限"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Map point coordinates"
+  "地图点坐标"
+}
+{
+  "Coordinates copied to clipboard"
+  "坐标已复制到剪贴板"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Accuracy: %1$s"
+  "精确度：%1$s"
+}
+{
+  "Course: %1$s"
+  "课程：%1$s"
+}
+{
+  "Elevation: %1$s"
+  "海拔：%1$s"
+}
+{
+  "Speed: %1$s"
+  "速度：%1$s"
+}
+{
+  "%1$sElevation: %2$s\nTime from start: %3$s\nDistance from start: %4$s"
+  "%1$s高度：%2$s\n开始时间：%3$s\n距起点距离：%4$s"
+}
+{
+  "%1$sE: %2$s; T: %3$s; D: %4$s"
+  "%1$sE:%2$s；T： %3$s；D： %4$s"
+}
+{
+  "Speed: %1$s\n"
+  "速度：%1$s"
+}
+{
+  "Record duration: %1$s\nTrack length: %2$s"
+  "记录时长：%1$s\n轨迹长度：%2$s"
+}
+{
+  "Edit"
+  "编辑"
+}
+{
+  "Track finish"
+  "轨迹终点"
+}
+{
+  "Not visited"
+  "未访问"
+}
+{
+  "Visited"
+  "访问过"
+}
+{
+  "Current location"
+  "当前位置"
+}
+{
+  "Track start"
+  "轨迹起点"
+}
+{
+  "Trip: %1$s"
+  "行程：%1$s"
+}
+{
+  "Track: %1$s"
+  "轨迹：%1$s"
+}
+{
+  "Geo Tracker uses notifications to show you brief information regarding the current recorded track (distance, duration, and other information). Do you want to enable Geo Tracker to utilize them for that purpose?"
+  "Geo Tracker凭借通知向您显示当前轨迹记录的简要信息（距离、持续时间和其他信息）。您想启用Geo Tracker来启用显示吗？"
+}
+{
+  "Allow notifications?"
+  "允许通知吗？"
+}
+{
+  "You won't be able to see brief information regarding the recorded track in the notifications area"
+  "您将无法在通知区域中看到有关轨迹记录的简要信息"
+}
+{
+  "Notifications not permitted"
+  "不允许通知"
+}
+{
+  "Attention! Power saving mode is active in your device's settings. <b>Recording track in background won't work</b>, until you disable power saving in system settings."
+  "注意！当前设备开启了省电模式<b> 在系统设置中禁用省电功能之前，后台记录轨迹将无法工作</b>。"
+}
+{
+  "Power saving is active"
+  "省电功能已激活"
+}
+{
+  " <div>To be able to record tracks in background on %1$s devices, you need to <b>manually disable all battery optimizations for Geo Tracker in system settings</b>.</div> <div>To learn how to do it, please follow these instructions:</div> <div><b><a href=%2$s>%2$s</a></b></div> <div>You can find this link any time you need it in Record settings.</div> "
+  "<div>要能够在%1$s设备上后台记录轨迹，您需要<b>在系统设置中手动禁用 Geo Tracker 的所有电池优化选项</b></div><div>要了解如何操作，请按以下说明操作：</div><div><b><a href=%2$s>%2$s</a></b></div><div>您可以在记录设置中随时找到此链接</div>"
+}
+{
+  "Done!"
+  "完成！"
+}
+{
+  "Detected %1$s device!"
+  "检测到%1$s设备！"
+}
+{
+  "Turn off"
+  "关闭"
+}
+{
+  "To record in background mode, you need to turn off battery optimization for Geo Tracker."
+  "要在后台模式下记录，您需要关闭Geo Tracker的电池优化。"
+}
+{
+  "Disable power saving"
+  "禁用省电"
+}
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板"
+}
+{
+  "Are you sure you want to pause recording current track?"
+  "您确定要暂停记录当前轨迹吗？"
+}
+{
+  "Pause recording"
+  "暂停记录"
+}
+{
+  "Are you sure you want to stop recording current track?"
+  "您确定要停止记录当前轨迹吗？"
+}
+{
+  "Stop recording"
+  "停止记录"
+}
+{
+  "Accuracy"
+  "精确度"
+}
+{
+  "Bearing"
+  "方位"
+}
+{
+  "Duration"
+  "持续时间"
+}
+{
+  "Elevation"
+  "海拔"
+}
+{
+  "Weak signal"
+  "信号弱"
+}
+{
+  "No signal"
+  "无信号"
+}
+{
+  "Satellites"
+  "卫星"
+}
+{
+  "Speed"
+  "速度"
+}
+{
+  "Status"
+  "状态"
+}
+{
+  "The trip has been moved to the bin. You can restore it within 30 days."
+  "行程已移至垃圾箱。您可以在30天内恢复。"
+}
+{
+  "The trips have been moved to the bin. You can restore them within 30 days."
+  "行程已移至垃圾箱。您可以在30天内恢复。"
+}
+{
+  "Close bin"
+  "关闭垃圾箱"
+}
+{
+  "Deselect all"
+  "取消选择"
+}
+{
+  "Bin is empty. Trips in the bin are automatically deleted after <b>30</b> days."
+  "垃圾箱空闲。存储箱中的行程将在<b>30</b>天后自动删除。"
+}
+{
+  "Erase all"
+  "全部删除"
+}
+{
+  "Are you sure you want to delete all trips in the bin? This action cannot be undone."
+  "您确定要删除垃圾箱中的所有行程吗？此操作无法撤消。"
+}
+{
+  "Erase selected"
+  "删除所选内容"
+}
+{
+  "Are you sure you want to delete the selected trips? This action cannot be undone."
+  "您确定要删除所选行程吗？此操作无法撤消。"
+}
+{
+  "Erasing trips"
+  "删除行程"
+}
+{
+  "Removed: %1$s"
+  "已删除：%1$s"
+}
+{
+  "Restore all"
+  "全部还原"
+}
+{
+  "Restore selected"
+  "还原选中"
+}
+{
+  "Restoring trips"
+  "恢复行程"
+}
+{
+  "Select all"
+  "全选"
+}
+{
+  "Trips in the bin are automatically deleted after <b>30</b> days."
+  "垃圾箱中的行程将在<b>30</b>天后自动删除"
+}
+{
+  "Bin"
+  "垃圾箱"
+}
+{
+  "Are you sure? After you reset the data, it may take some significant time to get the first GPS fix."
+  "你确定吗？重置数据后，可能需要相当长的时间才能获得初始GPS定位。"
+}
+{
+  "This will restore the database from a backup made before the last import. This action cannot be reverted, and all existing data will be erased. Do you wish to continue?"
+  "这将从上次导入之前的备份中还原数据库。此操作无法恢复，所有现有数据都将被擦除，确定继续吗？"
+}
+{
+  "Restore trips database"
+  "恢复行程数据库"
+}
+{
+  "Failed to restore database: %1$s"
+  "还原数据库失败：%1$s"
+}
+{
+  "The database backup was not found, so the database was reset. Restarting…"
+  "找不到数据库备份，因此已重置数据库，正在重启……"
+}
+{
+  "The database was restored successfully, restarting…"
+  "数据库已成功还原，正在重启……"
+}
+{
+  "Restore the trips database from a backup made before the last database import"
+  "从上次数据库导入之前的备份中还原trips数据库"
+}
+{
+  "You are approaching the finish point (%1$s)"
+  "您即将到达终点（%1$s）"
+}
+{
+  "Head to the starting point (%1$s)"
+  "前往起点（%1$s）"
+}
+{
+  "Waiting for geolocation and/or checkpoints"
+  "等待地理位置与检查点"
+}
+{
+  "Route guidance mode allows you to use a previously recorded track as a navigation source.<br></br><br></br>Please subscribe, and you will receive:%1$s"
+  "路线导航模式允许您使用以前记录的轨迹作为导航源<br></br><br></br>请订阅，您将获得：%1$s"
+}
+{
+  "Route guidance"
+  "路线指引"
+}
+{
+  "Back"
+  "返回"
+}
+{
+  "Selected"
+  "已选择"
+}
+{
+  "Debugging"
+  "调试"
+}
+{
+  "Extras"
+  "其他"
+}
+{
+  "External Sync"
+  "外部同步"
+}
+{
+  "Export format"
+  "导出格式"
+}
+{
+  "Enable this option to keep the app in sync with the external storage."
+  "启用此选项可使应用程序与外部存储保持同步。"
+}
+{
+  "Sync automatically"
+  "自动同步"
+}
+{
+  "No export format is not defined yet. Click here to select."
+  "尚未定义任何导出格式。单击此处进行选择。"
+}
+{
+  "Use this option to improve the app's performance. Backup is highly recommended before performing this action!"
+  "使用此选项可提高应用程序的性能。强烈建议在执行此操作之前进行备份！"
+}
+{
+  "Database optimisation"
+  "数据库优化"
+}
+{
+  "Database file size on disk: %1$s\nNumber of trips in the list: %2$d\nNumber of trips in the bin: %3$d"
+  "磁盘上的数据库文件大小：%1$s\n列表中的行程数：%2$d\n垃圾箱中的行程数：%3$d"
+}
+{
+  "%1$s\n\nTracks produced by Geo Tracker are exported here. Also, external files are imported from here."
+  "%1$s\nGeo Tracker生成的轨迹将导出到此处，此外外部文件也从此导入。"
+}
+{
+  "No storage is selected. By selecting it, you will:\n 1. Protect yourself from losing your recordings.\n 2. Simplify importing external files by just dropping them into this folder."
+  "未选择存储，选择此功能可以：\n1.避免历史记录丢失。\n2.只需将外部文件放入此文件夹便可便捷地同步导入。"
+}
+{
+  "External storage"
+  "外部存储"
+}
+{
+  "Side Sheet"
+  "侧页"
+}
+{
+  "Making a screenshot"
+  "生成截图中"
+}
+{
+  "Failed to get a map screenshot, taking only statistics…"
+  "未能获取地图截图，仅进行统计……"
+}
+{
+  "Capture map"
+  "捕捉地图"
+}
+{
+  "Screenshot options"
+  "屏幕截图选项"
+}
+{
+  "Failed to save screenshot to Gallery"
+  "未能将屏幕截图保存到图库"
+}
+{
+  "Screenshot saved to Gallery with path %1$s"
+  "屏幕截图已保存到图库，路径为%1$s"
+}
+{
+  "Geo Tracker Statistics"
+  "Geo Tracker统计"
+}
+{
+  "Empty"
+  "空"
+}
+{
+  "Usually, this happens when you disable or remove default Files application. Please consider enabling it in the system settings to be able to choose files and folders from Geo Tracker."
+  "通常，当您禁用或删除默认的Files应用程序时，会发生这种情况。请考虑在系统设置中启用它，以便能够从Geo Tracker中选择文件和文件夹。"
+}
+{
+  "Cannot pick a folder"
+  "无法选择文件夹"
+}
+{
+  "Auto-sync with folder"
+  "自动同步文件夹"
+}
+{
+  "Qualified and detailed Mapbox maps with <b>Satellite images</b> and extended <b>offline</b> support"
+  "Mapbox地图拥有<b>卫星图像</b>和扩展的<b>离线地图</b>功能，精准且详细"
+}
+{
+  "<b>Navigation mode</b>"
+  "<b>导航模式</b>"
+}
+{
+  "<b>Unlimited track recording</b>"
+  "<b>无限制记录轨迹</b>"
+}
+{
+  "%1$s per month"
+  "%1$s 每月"
+}
+{
+  "%1$s per year"
+  "%1$s 每年"
+}
+{
+  "Switch"
+  "切换"
+}
+{
+  "Continue"
+  "继续"
+}
+{
+  "After that, you will be offered to select an export format, GPX, KML, or KMZ. GPX is the simplest to perceive, and KMZ is the most space-efficient (due to compression). Imported files can be in any supported format. However, they will be converted into the selected format during the next sync."
+  "之后，您可以选择导出格式：GPX、KML 或 KMZ。GPX 格式最为直观，KMZ 格式则因压缩更节省空间。导入的文件可以是任何支持的格式，但在下次同步时会转换为您选择的格式。"
+}
+{
+  "In the next step, you will be offered to pick up the external folder to sync with. This is the folder where your recordings will be exported. You can also drop new files into it, and Geo Tracker will pick them up during the next sync."
+  "在下一步，您需要选择一个外部文件夹进行同步。以后记录将导出到该文件夹，同时您也可以将新文件放入其中，Geo Tracker 会在下次同步时自动识别。"
+}
+{
+  "Yes! Having your files in the external folder protects you from losing your recordings in case of uninstall or re-install. It also allows you to exchange data with other apps or devices."
+  "有必要！将文件设置在外部文件夹可以防止因卸载或重装而丢失记录，同时也方便您与其他应用或设备交换数据。"
+}
+{
+  "Do I need to sync?"
+  "有必要同步吗？"
+}
+{
+  "Sync setup"
+  "同步设置"
+}
+{
+  "Add new empty map"
+  "添加新的空地图"
+}
+{
+  "Are you sure you want to continue recording trip \"%1$s\"?"
+  "您确定要继续记录行程“%1$s”吗？"
+}
+{
+  "Continue recording"
+  "继续记录"
+}
+{
+  "Also you can create new empty map for planning your trip and recording it later"
+  "您还可以新建空地图来规划您的行程，并在以后进行记录"
+}
+{
+  "Erase trip"
+  "删除行程"
+}
+{
+  "Edit trip"
+  "编辑行程"
+}
+{
+  "Show trip on map"
+  "在地图上显示行程"
+}
+{
+  "Continue recording trip"
+  "继续记录行程"
+}
+{
+  "Share trip"
+  "分享行程"
+}
+{
+  "Loading and preparing trips…"
+  "加载和准备行程中……"
+}
+{
+  "Clear search field"
+  "清除搜索字段"
+}
+{
+  "Search for trips here"
+  "在此处搜索行程"
+}
+{
+  "Today"
+  "今天"
+}
+{
+  "Yesterday"
+  "昨天"
+}
+{
+  "Clear selection"
+  "取消选中"
+}
+{
+  "Remove selected"
+  "删除选中"
+}
+{
+  "Subscribe now"
+  "立即订阅"
+}
+{
+  " You have used <b>%1$d of %2$d</b> free tracks.<br></br><b><a href=>Subscribe now</a></b> for unlimited recording and other cool features. You can also delete some of your tracks (including from the bin) to stay within the limit."
+  "您已经记录到<b>%1$d的%2$d</b>免费版的支持的最大轨迹数<br></br><b><a href=>立即订阅</a></b>，享受无限制记录和其他酷炫功能。您还可以删除一些轨迹（包括从垃圾箱中删除）以保持在限制范围内。"
+}
+{
+  "Thanks!"
+  "谢谢！"
+}
+{
+  "Next"
+  "下一个"
+}
+{
+  "You can create a new empty trip with this button to plan and record it later."
+  "点此按钮新建行程，以便稍后进行计划和记录。"
+}
+{
+  "If you want to continue recording this trip, use this button."
+  "如果你想继续记录这次行程，请点此按钮。"
+}
+{
+  "Use this button to edit basic trip information, like name and description."
+  "点此按钮编辑基本行程信息，如名称和描述。"
+}
+{
+  "Use this button to focus map on this trip."
+  "点此按钮将地图聚焦在这次行程上。"
+}
+{
+  "Use this button to manage the trash bin - recently removed trips can be found here."
+  "点此按钮管理垃圾箱-最近删除的行程可以在此处找到。"
+}
+{
+  "You can remove the trip using this button - it will be sent to the trash bin."
+  "点此按钮删除行程（移到垃圾箱）。"
+}
+{
+  "Use this button to enable route guidance mode. This mode conveniently displays information about the following markers on the route."
+  "点此按钮启用路线引导模式。此模式方便地显示有关路线上以下标记的信息。"
+}
+{
+  "Here you can search trips by their names or descriptions."
+  "在这里按行程的名称或描述进行搜索。"
+}
+{
+  "Use this button to share this trip as a GPX/KML file."
+  "点此按钮将此行程作为GPX/KML文件共享。"
+}
+{
+  "Use this button to synchronize your trips with external storage."
+  "点此按钮将您的行程与外部存储同步。"
+}
+{
+  "Dismiss"
+  "解散"
+}
+{
+  "Recording of the track started. You can close the application now, it will continue recording in background."
+  "已开始记录轨迹，退出应用将在后台继续记录"
+}
+{
+  "You can continue recording any selected track by pressing the record button below its name in the list."
+  "您可以通过按列表中所选轨迹名称下方的记录按钮继续记录任何轨迹。"
+}
+{
+  " I accept the <a href=https://geo-tracker.org/user-agreement/>Terms of Service</a> and <a href=https://geo-tracker.org/privacy-policy-app>Privacy Policy</a>. "
+  "我接受<a href=https://geo-tracker.org/user-agreement/>服务条款</a>和<a href=https://geo-tracker.org/privacy-policy-app>隐私政策</a>"
+}
+{
+  "User Agreement"
+  "用户协议"
+}
+{
+  "It's amazing!"
+  "好！"
+}
+{
+  "In previous versions..."
+  "查看早期版本……"
+}
+{
+  "You can now instantly observe track point information, while dragging marker along the track line"
+  "现在，您可以在沿轨迹线拖动标记的同时立即观察轨迹点信息"
+}
+{
+  "More variations of coordinates input is now recognized in the search dialog"
+  "现在在搜索对话框中可以识别更多坐标输入的变化"
+}
+{
+  "Markers are now displayed on charts"
+  "标记现在显示在图表上"
+}
+{
+  "Added new recording profile \"Airplane\", for better experience during flights"
+  "添加了新的记录配置文件“飞机”，以便在飞行中获得更好的体验"
+}
+{
+  "April, 2023"
+  "2023年4月"
+}
+{
+  "Automatically mark places where you stop for a while (Beta. Enable in settings)"
+  "自动标记您停留一段时间的地方（测试功能，在设置中启用）"
+}
+{
+  "Also added display of azimuth to a point and fixed several bugs"
+  "还添加了一个点的方位角显示，并修复了几个错误"
+}
+{
+  "June, 2023"
+  "2023年6月"
+}
+{
+  "Added bin for trips, allowing you to restore accidentally removed trips. It can be opened from the trips list"
+  "添加了行程箱，允许您恢复意外删除的行程。可以从行程列表中打开"
+}
+{
+  "You can remove all selected trips with one click"
+  "您只需单击一下即可删除所有选定的行程"
+}
+{
+  "Meet the new <b>\"Sync to folder\"</b> feature instead of separate import and export functions"
+  "使用新的<b>“同步到文件夹”</b>功能而非单独的导入和导出功能"
+}
+{
+  "<b>Automatic sync</b> can be switched on from settings (requires subscription). <b>Pro-tip</b>: you can utilize a third-party app like FolderSync to sync this folder with a cloud (like <b>Google Drive</b>)"
+  "<b>自动同步</b>可以从设置中打开（需要订阅）<b> 专业提示</b>：您可以使用FolderSync等第三方应用程序将此文件夹与云同步（如<b>Google Drive</b>）"
+}
+{
+  "November, 2023"
+  "2023年11月"
+}
+{
+  "Some bugs have been fixed in the app"
+  "应用程序中的一些错误已经修复"
+}
+{
+  "Added Petal Maps from Huawei"
+  "添加了华为的花瓣地图（Petal）"
+}
+{
+  "Application is now also available in Huawei AppGallery"
+  "应用程序现在也可以在华为AppGallery（华为应用市场）中使用"
+}
+{
+  "December, 2023"
+  "2023年12月"
+}
+{
+  "<b>A display of the track recording date has been added to the statistics screen</b>. You can see it under the track name, including in the screenshots"
+  "<b>统计页上添加显示轨迹的记录日期</b>。您可以在轨迹名称下看到它（包括在屏幕截图中）"
+}
+{
+  "<b>More data was added to the trip list</b>: overall trip count and number of selected and trashed trips"
+  "<b>行程列表中添加了更多数据</b>：总行程计数以及选定和丢弃的行程数量"
+}
+{
+  "<b>The Azimuth display has been changed</b>. Now it is displayed in degrees 0..360 instead of -180..180"
+  "<b>更改方位角显示方式</b>。现在，它以0 ~ 360度而不是-180 ~ 180度显示"
+}
+{
+  "<b>The upper panel has been optimized</b>. Now, it takes up less space"
+  "<b>上层面板已精简</b>。现在，它更小占用空间"
+}
+{
+  "<b>Added function to empty the trash bin</b>. Now, tracks in the trash bin will be automatically deleted after 30 days"
+  "<b>添加了清空垃圾箱的功能</b>。现在垃圾箱中的轨迹将在30天后自动删除"
+}
+{
+  "March, 2024"
+  "2024年3月"
+}
+{
+  " Added an option to hide the My location button from the screen"
+  "添加在屏幕上隐藏“我的位置”按钮的选项"
+}
+{
+  "Added support for GPX files with <rte> tags"
+  "添加了对带有<rte>标签的GPX文件的支持"
+}
+{
+  "Improved KML/KMZ importing"
+  "改进了KML/KMZ导入"
+}
+{
+  "June, 2024"
+  "2024年6月"
+}
+{
+  "The bug with annoying notifications on Garmin watches has been fixed. You will no longer be bothered by constant vibration"
+  "Garmin手表上通知错误已经修复，现在将不会频繁地振动通知"
+}
+{
+  " <b>We have launched the iOS app</b>! It is already available in <a href=https://apps.apple.com/app/geo-tracker-gps-tracker/id1610586137>App Store</a>"
+  " <b>我们已发布iOS版应用！</b>! 可在<a href=https://apps.apple.com/app/geo-tracker-gps-tracker/id1610586137>App Store中查看</a>"
+}
+{
+  "<b>Annual subscriptions</b>: Now, you can use paid features even cheaper. You can change the subscription plan in the settings"
+  "<b>年度订阅</b>：现在，您可以更便宜地使用付费功能。您可以在设置中更改订阅计划"
+}
+{
+  "Retaining the current track selection when you start a new recording has become more convenient. Select the desired tracks in the list, and then long-press the record button"
+  "在开始新的记录时，保留当前轨迹选择变得更加方便——选择列表中想要的轨迹，然后长按记录按钮。"
+}
+{
+  "October, 2024"
+  "2024年10月"
+}
+{
+  "Compass support: movement direction is determined even more accurately, including with the help of a built-in compass"
+  "指南针支持：运动方向可以更准确地确定，包括在内置指南针的帮助下"
+}
+{
+  "Fixed an issue with importing GPX files"
+  "修复了导入GPX文件的问题"
+}
+{
+  "Android 15 full support"
+  "全面适配Android 15"
+}
+{
+  " Geo Tracker for <a href=https://apps.apple.com/us/app/geo-tracker-gps-tracker/id1610586137>iPad</a>: stable version is now available on iOS tablets"
+  "<a href=https://apps.apple.com/us/app/geo-tracker-gps-tracker/id1610586137>在iPad上下载Geo Tracker</a>：iOS的平板版本现已推出稳定版"
+}
+{
+  "The map now occupies full screen: top and bottom panels are now translucent"
+  "地图现在全屏：顶部和底部面板设置为了半透明"
+}
+{
+  "December, 2024"
+  "2024年12月"
+}
+{
+  "Full list"
+  "完整列表"
+}
+{
+  "Version %1$s — %2$s"
+  "版本%1$s--%2$s"
+}
+{
+  "What's new"
+  "更新内容"
+}
+{
+  "%1$d percent."
+  "百分之%1$d"
+}
+{
+  "%1$d trip"
+  "%1$d条行程"
+}
+{
+  "%1$d trips"
+  "%1$d条行程"
+}
+{
+  "%1$s free"
+  "剩余%1$s"
+}
+{
+  "<a href=https://t.me/geotracker_en>Telegram Channel</a>"
+  "<a href=https://t.me/geotracker_en>Telegram频道</a>"
+}
+{
+  "Function+"
+  "Function+ "
+}
+{
+  "Menu+"
+  "Menu+ "
+}
+{
+  "Meta+"
+  "Meta+ "
+}
+{
+  "Sym+"
+  "Sym+ "
+}
+{
+  "UTM"
+  "UTM（通用横墨卡托格网系统）"
+}
+{
+  "androidx.startup"
+  "androidx.startup "
+}
+{
+  "button"
+  "button "
+}
+{
+  "button path"
+  "button path "
+}
+{
+  "circle"
+  "circle "
+}
+{
+  "cubic-bezier(0, 0, 0, 1)"
+  "cubic-bezier(0, 0, 0, 1) "
+}
+{
+  "cubic-bezier(0, 0, 0.2, 1)"
+  "cubic-bezier(0, 0, 0.2, 1) "
+}
+{
+  "cubic-bezier(0, 0, 1, 1)"
+  "cubic-bezier(0, 0, 1, 1) "
+}
+{
+  "cubic-bezier(0.0, 0.0, 0.2, 1.0)"
+  "cubic-bezier(0.0, 0.0, 0.2, 1.0) "
+}
+{
+  "cubic-bezier(0.0, 0.0, 1.0, 1.0)"
+  "cubic-bezier(0.0, 0.0, 1.0, 1.0) "
+}
+{
+  "cubic-bezier(0.1, 0.7, 0.1, 1)"
+  "cubic-bezier(0.1, 0.7, 0.1, 1) "
+}
+{
+  "cubic-bezier(0.2, 0, 0, 1)"
+  "cubic-bezier(0.2, 0, 0, 1) "
+}
+{
+  "cubic-bezier(0.3, 0, 0.8, 0.2)"
+  "cubic-bezier(0.3, 0, 0.8, 0.2) "
+}
+{
+  "cubic-bezier(0.3, 0, 1, 1)"
+  "cubic-bezier(0.3, 0, 1, 1) "
+}
+{
+  "cubic-bezier(0.4, 0, 0.2, 1)"
+  "cubic-bezier(0.4, 0, 0.2, 1) "
+}
+{
+  "cubic-bezier(0.4, 0, 1, 1)"
+  "cubic-bezier(0.4, 0, 1, 1) "
+}
+{
+  "cubic-bezier(0.4, 0.0, 0.2, 1.0)"
+  "cubic-bezier(0.4, 0.0, 0.2, 1.0) "
+}
+{
+  "cubic-bezier(0.4, 0.0, 1.0, 1.0)"
+  "cubic-bezier(0.4, 0.0, 1.0, 1.0) "
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "destination title"
+  "目标标题"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "icon"
+  "icon "
+}
+{
+  "icon path"
+  "icon path "
+}
+{
+  "path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)"
+  "path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1) "
+}
+{
+  "space"
+  "空间"
+}
+{
+  "total: <b>%1$d</b>, selected: <b>%2$d</b>, in the bin: <b>%3$d</b>"
+  "共<b>%1$d</b>条｜选中<b>%2$d</b>条｜垃圾箱中<b>%3$d</b>条"
+}

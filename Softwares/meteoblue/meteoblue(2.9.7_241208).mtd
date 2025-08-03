@@ -1,0 +1,2164 @@
+{
+  "inch"
+  "英寸"
+}
+{
+  "mph"
+  "mph（英里每小时）"
+}
+{
+  "kn"
+  "kn（节）"
+}
+{
+  "bft"
+  "bft（蒲福风级）"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "version"
+  "版本"
+}
+{
+  "in"
+  "in（英寸）"
+}
+{
+  "Navigate home"
+  "回主页"
+}
+{
+  "Navigate up"
+  "返回上级"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "meteoblue shows high precision weather forecasts combined with a beautiful, simple and easy to use design. Weather forecasts can be requested for any place on Earth easily and comfortably."
+  "meteoble提供高精度的天气预报，它设计美观、简洁且易用。可以轻松地查询地球上任何地方的天气预报与专业气象信息\n\n予澄 汉化\n⚠️本应用内的城市信息、地图信息由国外网站提供，存在问题。请注意辨别。"
+}
+{
+  "About meteoblue"
+  "关于meteoble"
+}
+{
+  "About"
+  "关于"
+}
+{
+  "Agree"
+  "同意"
+}
+{
+  "Click here to learn more about meteoblues privacy policy."
+  "单击此处了解有关meteobles隐私政策的更多信息"
+}
+{
+  "You can change this setting anytime in the \"Preferences\" Menu."
+  "您可以在“首选项”菜单中随时更改此设置"
+}
+{
+  "This app uses cookies and other technologies for best online experience, to analyse app usage and to personalise advertising and content, for which we need your consent."
+  "此应用程序使用Cookie和其他技术来获得最佳在线体验，分析应用程序使用情况并个性化广告和内容，为此我们需要您的同意"
+}
+{
+  "About Cookies"
+  "关于Cookie"
+}
+{
+  "Add widget"
+  "添加小部件"
+}
+{
+  "/12231147/Meteoblue_Android_Banner"
+  "/12231147/甲蓝_雄性_香蕉"
+}
+{
+  "/12231147/Meteoblue_Android_Interstitial"
+  "/12231147/甲蓝_雄性_间质性"
+}
+{
+  "Air pressure"
+  "气压"
+}
+{
+  "Always detect my location"
+  "始终检测我的位置"
+}
+{
+  "Always use my last visited location"
+  "始终使用我上次访问的位置"
+}
+{
+  "Android version"
+  "安卓版本"
+}
+{
+  "App version"
+  "应用程序版本"
+}
+{
+  "Apparent temperature - the temperature that you feel subjectively"
+  "体感温度——即人体主观感受到的温度"
+}
+{
+  "Later"
+  "稍后"
+}
+{
+  "No"
+  "不"
+}
+{
+  "Do you like the app so far?"
+  "到目前为止，你喜欢这个应用程序吗？"
+}
+{
+  "You started the meteoblue app %1$d times now!"
+  "您现在已启动meteoble应用程序%1$d次！"
+}
+{
+  "Congratulations"
+  "祝贺"
+}
+{
+  "Yes"
+  "确认"
+}
+{
+  "Background"
+  "背景"
+}
+{
+  "Enable background image in forecast views."
+  "在预览视图中启用背景图像"
+}
+{
+  "Blowing dust"
+  "扬尘"
+}
+{
+  "Expand halfway"
+  "展开至一半"
+}
+{
+  "Answer"
+  "回答"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Hang Up"
+  "挂断电话"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Ongoing call"
+  "持续通话"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "App can not open rating dialog. Maybe you already rated the app?"
+  "应用程序无法打开评级对话框。也许你已经对应用程序进行了评分？"
+}
+{
+  "You can subscribe to one location in the free version of the app, and up to %1$d with a subscription."
+  "您可以在该应用程序的免费版本中订阅一个位置，订阅后最多可订阅%1$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Chip text"
+  "标签文本"
+}
+{
+  "Choose a location before refreshing the weather."
+  "在刷新天气之前选择一个位置。"
+}
+{
+  "Clear and few clouds"
+  "晴，少云"
+}
+{
+  "Clear but hazy"
+  "晴，薄雾笼罩"
+}
+{
+  "Clear but hazy with cirrus"
+  "晴，卷云薄雾相伴"
+}
+{
+  "Clear but hazy with few cirrus"
+  "晴，薄雾疏云"
+}
+{
+  "Clear, cloudless sky"
+  "晴朗无云"
+}
+{
+  "Clear, few cirrus"
+  "晴，少有卷云"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Clear with cirrus"
+  "晴，有卷云"
+}
+{
+  "Clear with few low clouds"
+  "晴，少低云"
+}
+{
+  "Clear with few low clouds and cirrus"
+  "晴，少有云"
+}
+{
+  "Clear with few low clouds and few cirrus"
+  "晴朗，少有低云卷云"
+}
+{
+  "Click here to to change your privacy settings."
+  "单击此处更改您的隐私设置"
+}
+{
+  "The location search offers a map on which you can directly select a location."
+  "通过地图选点来确定位置"
+}
+{
+  "The app includes official weather warnings. If you visit a location with active warnings, click on the icon to get more information."
+  "应用程序支持显示官方天气预警信息，如果您遇到了显示警告的信息，请单击图标以获取更多信息"
+}
+{
+  "Mostly cloudy with a mixture of snow and rain"
+  "大部阴，雨雪交加"
+}
+{
+  "Cloudy with thunderstorms and heavy showers"
+  "阴，有雷暴和大雨"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题，请重试"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务，它将自动更新。"
+}
+{
+  "Open on phone"
+  "在手机上打开"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Configure widget"
+  "配置小部件"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Link copied to clipboard"
+  "链接复制到剪贴板"
+}
+{
+  "Current temperature"
+  "当前温度"
+}
+{
+  "341194142785-nas5gelnp736e7btbke777m6lq7ss808.apps.googleusercontent.com"
+  "341194142785-nas5gelnp736e7btbke777m6lq7ss808.apps.googleusercontent.com "
+}
+{
+  "destination title"
+  "目标标题"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "East"
+  "东"
+}
+{
+  "North"
+  "北"
+}
+{
+  "South"
+  "南"
+}
+{
+  "West"
+  "西"
+}
+{
+  "Dropdown menu"
+  "下拉菜单"
+}
+{
+  "Dusty"
+  "尘土飞扬"
+}
+{
+  "The content could not be loaded because your device is not connected to the internet."
+  "无法加载内容，因为您的设备未连接到互联网"
+}
+{
+  "The Application could not decode the location servers response."
+  "应用无法解码位置服务器的响应"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error message: %1$s"
+  "错误消息：%1$s"
+}
+{
+  "Error: %1$s"
+  "错误： %1$s"
+}
+{
+  "Not connected to the Internet."
+  "未连接到网络"
+}
+{
+  "OK"
+  "确认"
+}
+{
+  "Report Error"
+  "报告错误"
+}
+{
+  "The Application could not load a location list. Try again later."
+  "应用程序无法加载位置列表，请稍后再试"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Extreme weather events"
+  "极端天气事件"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Miscellaneous"
+  "其他"
+}
+{
+  "Feedback for meteoblue App (Android)"
+  "Meteoble应用程序（Android）的反馈"
+}
+{
+  "Share Feedback"
+  "分享反馈"
+}
+{
+  "Fog"
+  "雾"
+}
+{
+  "Fog/low stratus clouds"
+  "雾，有低层云"
+}
+{
+  "Fog/low stratus clouds with cirrus"
+  "雾，有低层云伴卷云"
+}
+{
+  "Fog/low stratus clouds with few cirrus"
+  "雾，有低层云和少量卷云"
+}
+{
+  "Forecast Predictability"
+  "预报准确度"
+}
+{
+  "Forecast"
+  "天气预报"
+}
+{
+  "Check the exact error using adb logcat, searching for GlanceAppWidget"
+  "使用adb logcat检查具体的错误，搜索“GlanceAppWidget”相关日志"
+}
+{
+  "Can't show content"
+  "无法显示内容"
+}
+{
+  "Glance App Widget Error"
+  "Glance App小组件错误"
+}
+{
+  "1:341194142785:android:b543c1e224ff2593"
+  "1:341194142785:安卓系统：b543c1e224ff2593"
+}
+{
+  "Heat map"
+  "热力图"
+}
+{
+  "Heavy rain, thunderstorms likely"
+  "大雨，可能有雷暴"
+}
+{
+  "Help"
+  "帮助"
+}
+{
+  "Hourly data switch"
+  "每小时数据切换"
+}
+{
+  "Display hourly data instead of three hours"
+  "显示逐小时的数据，而不是每三小时的数据"
+}
+{
+  "Hourly data"
+  "显示时间精度（3小时/1小时）"
+}
+{
+  "%1$d hours of sun"
+  "%1$d 小时的日照时间"
+}
+{
+  "%1$dh of sun"
+  "%1$d小时的日照时间"
+}
+{
+  "Relative humidity"
+  "相对湿度"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "In progress"
+  "进行中"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "App failed to read the weather data returned from the server."
+  "应用程序无法读取服务器返回的天气数据"
+}
+{
+  "Weather data was invalid"
+  "天气数据无效"
+}
+{
+  "Last update: %1$s"
+  "上次更新时间：%1$s"
+}
+{
+  "Latest weather fetch from server"
+  "从服务器获取最新天气"
+}
+{
+  "An error has occurred when fetching the license."
+  "获取许可证时出错"
+}
+{
+  "License info is loading."
+  "正在加载许可证信息"
+}
+{
+  "License list is loading."
+  "正在加载许可证列表"
+}
+{
+  "Light rain, thunderstorms likely"
+  "小雨，可能有雷暴"
+}
+{
+  "Locate"
+  "定位"
+}
+{
+  "Delete this Location"
+  "删除此位置"
+}
+{
+  "Delete selected Locations."
+  "删除所选位置。"
+}
+{
+  "%1$s was deleted from the list."
+  "%1$s已从列表中删除。"
+}
+{
+  "Delete %1$d locations"
+  "删除%1$d个位置"
+}
+{
+  "Location favourites and locations used in widgets cannot be deleted."
+  "位置收藏和小组件中正在使用的位置无法删除"
+}
+{
+  "Use Location Detection"
+  "使用位置检测"
+}
+{
+  "Favorite locations"
+  "收藏地点"
+}
+{
+  "Apply"
+  "应用"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Reset"
+  "重置"
+}
+{
+  "Rename Location"
+  "重命名位置"
+}
+{
+  "Grant Permission"
+  "授予权限"
+}
+{
+  "Location access is required to find your current position."
+  "需要位置访问权限才能找到您当前的位置"
+}
+{
+  "Location Permission"
+  "位置权限"
+}
+{
+  "Location detection is imprecise."
+  "定位不精准"
+}
+{
+  "Location permission is denied."
+  "位置权限被拒绝"
+}
+{
+  "Search for city, postcode, coordinates"
+  "搜索城市、邮编、坐标"
+}
+{
+  "Last Visited Locations"
+  "上次访问的地点"
+}
+{
+  "Show Location on a Map"
+  "在地图上显示位置"
+}
+{
+  "Select a Location on the Map"
+  "在地图上选择一个位置"
+}
+{
+  "Select a Location by Longpress"
+  "长按以选择位置"
+}
+{
+  "Select this Location"
+  "选择此位置"
+}
+{
+  "Subscribe Weather Warnings for Locations"
+  "订阅各地点的天气预警"
+}
+{
+  "Collapse bottom sheet"
+  "折叠底部菜单"
+}
+{
+  "Dismiss bottom sheet"
+  "收起底部菜单"
+}
+{
+  "Drag handle"
+  "拖动控件"
+}
+{
+  "Expand bottom sheet"
+  "扩展底部菜单"
+}
+{
+  "Bottom Sheet"
+  "底部菜单"
+}
+{
+  "Entered date"
+  "输入日期"
+}
+{
+  "Entered date: %1$s"
+  "输入日期： %1$s"
+}
+{
+  "Date does not match expected pattern: %1$s"
+  "日期不符合要求的格式：%1$s"
+}
+{
+  "Date not allowed: %1$s"
+  "日期非法：%1$s"
+}
+{
+  "Date out of expected year range %1$s - %2$s"
+  "日期超出允许的年份范围%1$s - %2$s"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "None"
+  "没有"
+}
+{
+  "Select date"
+  "选择日期"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Navigate to year %1$s"
+  "切换到年 %1$s"
+}
+{
+  "Scroll to show earlier years"
+  "滚动显示过去年份"
+}
+{
+  "Scroll to show later years"
+  "滚动显示未来年份"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Swipe to select a year, or tap to switch back to selecting a day"
+  "滑动选择年份，或点击切换回选择日期"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Change to next month"
+  "改到下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Switch to selecting a year"
+  "切换到选择年份"
+}
+{
+  "Today"
+  "今天"
+}
+{
+  "Year picker visible"
+  "年份选择器可见"
+}
+{
+  "Invalid date range input"
+  "日期范围输入无效"
+}
+{
+  "Enter dates"
+  "输入日期"
+}
+{
+  "In range"
+  "在范围内"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "Scroll to show the next month"
+  "滚动显示下个月"
+}
+{
+  "Scroll to show the previous month"
+  "滚动显示上个月"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Select dates"
+  "选择日期"
+}
+{
+  "Dialog"
+  "对话框"
+}
+{
+  "Collapsed"
+  "折叠"
+}
+{
+  "Expanded"
+  "扩大"
+}
+{
+  "Toggle dropdown menu"
+  "切换下拉菜单"
+}
+{
+  "Dismiss"
+  "解散"
+}
+{
+  "Suggestions below"
+  "以下建议"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "%1$d hours"
+  "%1$d小时"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "%1$d o'clock"
+  "%1美元d点"
+}
+{
+  "for hour"
+  "一小时"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "%1$d minutes"
+  "%1$d分钟"
+}
+{
+  "for minutes"
+  "几分钟"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "Show tooltip"
+  "显示工具提示"
+}
+{
+  "Tooltip"
+  "工具提示"
+}
+{
+  "No web browser installed on device, can't open web page."
+  "设备上未安装web浏览器，无法打开网页。"
+}
+{
+  "MapLibre Maps SDK for Android"
+  "Android版MapLibre地图SDK"
+}
+{
+  "Attribution icon. Activate to show attribution dialog."
+  "属性图标，点击以显示属性对话框"
+}
+{
+  "Map compass. Activate to reset the map rotation to North."
+  "地图指南针，点击使正北朝上"
+}
+{
+  "Showing a Map created with MapLibre. Scroll by dragging two fingers. Zoom by pinching two fingers."
+  "显示用MapLibre创建的地图。拖动两个手指滚动。捏两个手指缩放。"
+}
+{
+  "Location View. This shows your location on the map."
+  "位置视图，这将在地图上显示您的位置"
+}
+{
+  "Provided OfflineRegionDefinition doesn't fit the world bounds: %s"
+  "前提是OfflineRegionDefinition不符合世界边界：%s"
+}
+{
+  "Maps"
+  "更多地图"
+}
+{
+  "%1$s o'clock"
+  "%1$s小时"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "cubic-bezier(0.4, 0.0, 1.0, 1.0)"
+  "三次贝塞尔曲线（0.4，0.0，1.0，1.0）"
+}
+{
+  "cubic-bezier(0.0, 0.0, 0.2, 1.0)"
+  "三次贝塞尔曲线（0.0，0.0，0.2，1.0）"
+}
+{
+  "cubic-bezier(0.0, 0.0, 1.0, 1.0)"
+  "三次贝塞尔曲线（0.0，0.0，1.0，1.0）"
+}
+{
+  "cubic-bezier(0.4, 0.0, 0.2, 1.0)"
+  "三次贝塞尔曲线（0.4，0.0，0.2，1.0）"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Maximum temperature"
+  "最高温度"
+}
+{
+  "The content can not be refreshed because the meteoblue-server did not respond. Try again later."
+  "无法刷新内容，因为meteoble服务器没有响应，请稍后再试"
+}
+{
+  "14-day weather"
+  "未来14日天气预报"
+}
+{
+  "5-day weather"
+  "未来5日天气预报"
+}
+{
+  "Meteogram image"
+  "气象预报图像"
+}
+{
+  "Multimodel"
+  "更多内容"
+}
+{
+  "Share button for meteogram"
+  "气象预报图共享按钮"
+}
+{
+  "Zoom in on meteogram"
+  "放大气象预报图"
+}
+{
+  "Meteograms"
+  "气象预报图"
+}
+{
+  "Minimum temperature"
+  "最低温度"
+}
+{
+  "Minor weather events"
+  "次要天气事件"
+}
+{
+  "Mixed with cirrus with some thunderstorm clouds possible"
+  "可能夹卷云和雷暴云"
+}
+{
+  "Mixed with few cirrus with some thunderstorm clouds possible"
+  "可能夹少量卷云和雷暴云"
+}
+{
+  "Mixed with showers"
+  "夹阵雨"
+}
+{
+  "Mixed with snow showers"
+  "夹阵雪"
+}
+{
+  "Mixed with some thunderstorm clouds possible"
+  "可能夹雷暴云"
+}
+{
+  "Moderate weather events"
+  "中级天气事件"
+}
+{
+  "First quarter moon"
+  "上弦月"
+}
+{
+  "Full moon"
+  "满月"
+}
+{
+  "Last quarter moon"
+  "下弦月"
+}
+{
+  "New moon"
+  "新月"
+}
+{
+  "Waning Crescent moon"
+  "残月（下蛾眉月）"
+}
+{
+  "Waning gibbous moon"
+  "亏凸月"
+}
+{
+  "Waxing crescent moon"
+  "初蛾眉月"
+}
+{
+  "Waxing gibbous moon"
+  "盈凸月"
+}
+{
+  "Moon Phase"
+  "月相"
+}
+{
+  "Moonrise"
+  "月亮升起"
+}
+{
+  "Moonrise and moonset time"
+  "月亮升起和落下时间"
+}
+{
+  "Moonset"
+  "月落"
+}
+{
+  "Mostly cloudy"
+  "大部多云"
+}
+{
+  "Mostly cloudy and cirrus"
+  "大部多云和卷云"
+}
+{
+  "Mostly cloudy and few cirrus"
+  "大部多云，少卷云"
+}
+{
+  "Mostly clear with a chance of local thunderstorms"
+  "大部晴，可能出现局部雷暴"
+}
+{
+  "Mostly cloudy with occasional rain"
+  "大部多云，偶有降雨"
+}
+{
+  "Mostly cloudy with occasional snow"
+  "大部多云，偶有降雪"
+}
+{
+  "Mostly cloudy with rain"
+  "大部多云有雨"
+}
+{
+  "Mostly cloudy with snow"
+  "大部多云有雪"
+}
+{
+  "Mostly cloudy with thunderstorms and showers"
+  "大部多云，有雷阵雨"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Column of days: %1$s"
+  "天数列：%1$s"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Tap to switch to selecting a day"
+  "点击切换到选择日期"
+}
+{
+  "Tap to switch to selecting a year"
+  "点击切换到选择年份"
+}
+{
+  "Body"
+  "主页"
+}
+{
+  "Headline"
+  "标题"
+}
+{
+  "Media View"
+  "媒体视图"
+}
+{
+  "Open navigation drawer"
+  "打开导航抽屉"
+}
+{
+  "Navigation menu"
+  "导航菜单"
+}
+{
+  "The App could not fetch any weather data. Please go online for new weather data."
+  "应用程序无法获取任何天气数据，请联网获取新的天气数据"
+}
+{
+  "No weather"
+  "没有天气信息"
+}
+{
+  "This app does not have any open source licenses."
+  "此应用程序没有任何开源许可证"
+}
+{
+  "Please choose a location by either using the search bar or the GPS-button on the top of the screen."
+  "请先使用搜索或点击顶部定位按钮添加位置"
+}
+{
+  "No precipitation expected"
+  "预计无降水"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "Allow"
+  "允许"
+}
+{
+  "Don't allow"
+  "不允许"
+}
+{
+  "Allow app to send you notifications?"
+  "是否允许应用程序向您发送通知？"
+}
+{
+  "Tap to open ad"
+  "点击打开广告"
+}
+{
+  "View the ad you saved when you were offline"
+  "查看您离线时保存的广告"
+}
+{
+  "You'll get a notification with the link when you're back online"
+  "当您重新联机时，您将收到带有链接的通知"
+}
+{
+  "No thanks"
+  "不，谢谢"
+}
+{
+  "We'll send you a notification with a link to the advertiser site."
+  "我们将向您发送带有广告商网站链接的通知。"
+}
+{
+  "Open ad when you're back online."
+  "重新上线后打开广告"
+}
+{
+  "Open Source Libraries"
+  "开源信息"
+}
+{
+  "Or select a location manually"
+  "或手动选择位置"
+}
+{
+  "Open source licenses"
+  "开源许可证"
+}
+{
+  "Overcast"
+  "阴"
+}
+{
+  "Overcast with heavy rain"
+  "阴有大雨"
+}
+{
+  "Overcast with heavy snow"
+  "阴有大雪"
+}
+{
+  "Overcast with light rain"
+  "阴有小雨"
+}
+{
+  "Overcast with light snow"
+  "阴有小雪"
+}
+{
+  "Overcast with mixture of snow and rain"
+  "阴，有雨夹雪"
+}
+{
+  "Overcast with occasional rain"
+  "阴，偶有降雨"
+}
+{
+  "Overcast with occasional snow"
+  "阴，偶有下雪"
+}
+{
+  "Overcast with rain"
+  "阴，有雨"
+}
+{
+  "Overcast with snow"
+  "阴，有雪"
+}
+{
+  "Partly cloudy"
+  "局部多云"
+}
+{
+  "Partly cloudy and cirrus"
+  "局部多云和卷云"
+}
+{
+  "Partly cloudy and few cirrus"
+  "局部多云，有少量卷云"
+}
+{
+  "Partly cloudy with a chance of local thunderstorms"
+  "局部多云，可能有局部雷暴"
+}
+{
+  "Partly cloudy with local thunderstorms and showers possible"
+  "局部多云，可能有雷阵雨"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Precipitation amount"
+  "降水量"
+}
+{
+  "Precipitation"
+  "降水量"
+}
+{
+  "Precipitation probability and amount, for the preceding hour"
+  "前一小时的降水概率和降水量"
+}
+{
+  "Predictability, indicates how probable the forecast is"
+  "预报准确度，表示预测的可能性"
+}
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板。"
+}
+{
+  "Activate Debug-Settings"
+  "激活调试设置"
+}
+{
+  "Is Purchased"
+  "已购买"
+}
+{
+  "Appearance"
+  "外观"
+}
+{
+  "License details for open source software"
+  "开源软件许可证信息"
+}
+{
+  "Privacy"
+  "隐私"
+}
+{
+  "Preferences"
+  "偏好"
+}
+{
+  "Units"
+  "单位"
+}
+{
+  "Other"
+  "其他   ★予澄 汉化★"
+}
+{
+  "Show previous Day"
+  "显示前一天"
+}
+{
+  "Start the weather forecast with the past day"
+  "显示昨天的天气情况"
+}
+{
+  "Privacy Statement"
+  "隐私声明"
+}
+{
+  "1. Use the location search on this page to add a location."
+  "1.使用本页“位置搜索”功能添加位置"
+}
+{
+  "2. Select the severity for which you want to receive push notifications:"
+  "2.选择要接收推送通知的重要程度："
+}
+{
+  "On this page, you can subscribe to push notifications for official weather warnings."
+  "在此页面上，您可以订阅官方天气警报的推送通知"
+}
+{
+  "Subscribe to push notifications"
+  "订阅推送通知"
+}
+{
+  "Get weather warnings"
+  "获取天气预警"
+}
+{
+  "You can receive push notifications for weather alerts. For that, the app will need your permission."
+  "您需要授权来接收天气警报的推送通知"
+}
+{
+  "Radar"
+  "降水地图"
+}
+{
+  "%1$s rain"
+  "%1$s 雨"
+}
+{
+  "Rain, thunderstorms likely"
+  "可能有雨、雷暴"
+}
+{
+  "1.5 mm – 5 mm"
+  "降水量1.5毫米-5毫米"
+}
+{
+  "> 5 mm"
+  "降水量>5毫米"
+}
+{
+  "0.02 – 0.2 mm"
+  "降水量0.02-0.2毫米"
+}
+{
+  "0.2 mm – 1.5 mm"
+  "降水量0.2毫米至1.5毫米"
+}
+{
+  "You are here"
+  "你的位置"
+}
+{
+  "rainSPOT indicates where the precipitation falls around the selected location"
+  "降水雷达：快速指示周围的降水情况"
+}
+{
+  "The above picture is a sample of a rainSPOT."
+  "上图是一个降水雷达的例子"
+}
+{
+  "The rainSPOT shows the precipitation around you. Your current location is in the center. In this example, there is light rain about 10 km northeast and heavy rain 5 km southwest of you. rainSPOT is a simplified weather radar map that works for a 7-day forecast as well. It also indicates spatial uncertainty: If the entire rainSPOT area is solid blue, it is more likely to rain at your location than if there is only a few blue boxes."
+  "降水雷达（rainSPOT）显示了你周围的降水情况。中心红点为您的位置。如图，东北约10公里处有小雨，西南约5公里处有大雨。\n这是一个简化的天气雷达地图，也可以显示未来的降水预报。\n同时表明了空间的不确定性：如果整个雷达区域都是纯蓝色的，那么你所在的地方比只有几个蓝色框的地方更有可能下雨。"
+}
+{
+  "rainSPOT Explanation"
+  "降水雷达 说明"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Rate this app"
+  "评价此应用程序"
+}
+{
+  "Save image"
+  "保存图片"
+}
+{
+  "Allow Ad to store image in Picture gallery?"
+  "允许广告在相册中存储图片吗？"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Create calendar event"
+  "创建日历事件"
+}
+{
+  "Allow Ad to create a calendar event?"
+  "允许广告创建日历事件吗？"
+}
+{
+  "Test Ad"
+  "测试广告"
+}
+{
+  "Satellite"
+  "卫星云图"
+}
+{
+  "Select email"
+  "选择电子邮件"
+}
+{
+  "Select a location for the widget"
+  "为小部件选择一个位置"
+}
+{
+  "Selected"
+  "已选择"
+}
+{
+  "Send analytics"
+  "发送分析"
+}
+{
+  "Help us to improve the app."
+  "帮助我们改进应用程序。"
+}
+{
+  "Please send your Feedback to android@meteoblue.com"
+  "请将您的反馈发送至android@meteoblue.com"
+}
+{
+  "The server returned an error code"
+  "服务器返回错误代码"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Severe weather events"
+  "恶劣天气事件"
+}
+{
+  "Share"
+  "分享"
+}
+{
+  "Display heat map if available"
+  "显示热力图（如果可用）"
+}
+{
+  "Show heat map"
+  "显示热力图"
+}
+{
+  "Display Weatherforecast-Icons for the night."
+  "显示当晚的天气预报图标"
+}
+{
+  "Show Night Icons"
+  "显示夜间图标"
+}
+{
+  "Only relevant ads"
+  "相关广告"
+}
+{
+  "Showers, thunderstorms likely"
+  "可能有雷阵雨"
+}
+{
+  "Undo"
+  "撤消"
+}
+{
+  "%1$s snow"
+  "%1$s 雪"
+}
+{
+  "Empty"
+  "空"
+}
+{
+  "Off"
+  "关"
+}
+{
+  "Disable all ads in this app and get the meteoblue widget. Always stay updated with the latest weather right on your home screen."
+  "禁用此应用程序中的所有广告并获取Meteoble小部件。始终在主屏幕上及时了解最新天气"
+}
+{
+  "Already purchased"
+  "已购买"
+}
+{
+  "Billing Error"
+  "账单错误"
+}
+{
+  "An error occurred during the transaction."
+  "交易过程中出错"
+}
+{
+  "There is a problem with your subscription. Go to the Google Play subscription settings to fix your payment method."
+  "您的订阅有问题。转到Google Play订阅设置以修复您的付款方式。"
+}
+{
+  "Check whether you are signed up in Google Play."
+  "检查您是否已在Google Play中注册"
+}
+{
+  "Billing unavailable"
+  "账单不可用"
+}
+{
+  "You already have an active subscription and can not buy the app twice."
+  "您已经有一个进行中的订阅项目，不能同时发起两个订阅账单"
+}
+{
+  "No connection"
+  "没有连接"
+}
+{
+  "Purchase Process canceled"
+  "订阅已取消"
+}
+{
+  "An unknown Billing Error occurred. Response-code: %1$d"
+  "发生未知的计费错误，响应代码：%1$d"
+}
+{
+  "Only"
+  "仅"
+}
+{
+  "per year."
+  "每年"
+}
+{
+  "No ads in the meteoblue app"
+  "Meteoble应用程序中没有广告"
+}
+{
+  "As many widgets as you like"
+  "获得全部小部件"
+}
+{
+  "Weather warning notifications for multiple locations"
+  "多个地点的天气预警通知"
+}
+{
+  "Access to 24h satellite and radar history maps"
+  "访问24小时卫星和雷达历史地图"
+}
+{
+  "Purchased"
+  "购买"
+}
+{
+  "Store"
+  "订阅"
+}
+{
+  "Subscribe"
+  "订阅"
+}
+{
+  "Subscribe to our premium app"
+  "订阅我们的高级应用程序"
+}
+{
+  "The subscription is valid for one year and will be renewed automatically. You can end your subscription at any time."
+  "订阅有效期为一年，将自动续订，您可以随时终止订阅"
+}
+{
+  "Storm with heavy snow"
+  "暴风雪"
+}
+{
+  "Sunrise"
+  "日出"
+}
+{
+  "Sunrise and sunset time"
+  "日出和日落时间"
+}
+{
+  "Sunset"
+  "日落"
+}
+{
+  "Hours of sunshine"
+  "日照时间"
+}
+{
+  "Swipe left or right to see the previous or next day."
+  "向左或向右滑动以查看前一天或第二天"
+}
+{
+  "Switch between hourly and three-hourly weather forecast"
+  "在每小时和每三小时的天气预报之间切换"
+}
+{
+  "Switch"
+  "切换"
+}
+{
+  "Tap anywhere to reach the next tip.\nTap on the button again to exit"
+  "点击任意位置以获取下一个提示。\n再次点击按钮退出"
+}
+{
+  "Temperature at the indicated time"
+  "实时温度"
+}
+{
+  "Temperature felt"
+  "体感温度"
+}
+{
+  "Temperature"
+  "温度"
+}
+{
+  "%1$d percent."
+  "%1%。"
+}
+{
+  "Terms and Conditions"
+  "条款和条件"
+}
+{
+  "An error occurred while loading the meteogram. Error details: %1$s"
+  "加载气象图时出错。错误详细信息：%1$s"
+}
+{
+  "14 days"
+  "14天预报"
+}
+{
+  "5 days"
+  "5天预报"
+}
+{
+  "MultiModel"
+  "更多内容"
+}
+{
+  "Tomorrow"
+  "明天"
+}
+{
+  "tooltip"
+  "工具提示"
+}
+{
+  "show tooltip"
+  "显示工具提示"
+}
+{
+  "Try again"
+  "再试一次"
+}
+{
+  "Unknown error"
+  "未知错误"
+}
+{
+  "Please restart the WIFI. If it doesn't work afterward, please restart your device."
+  "请重新启动WIFI。如果之后不起作用，请重新启动设备。"
+}
+{
+  "Connection Error"
+  "连接错误"
+}
+{
+  "Dear User,\nThis version of the meteoblue App may look similar to the old one, but in the background we have modified major parts. Due to this update process, some of your previous meteoblue app settings may have been lost or modified. We advise you to check for changes, and appreciate your feedback."
+  "尊敬的用户：，\n更新后的版本的后台部分功能已经更改，您之前的Meteoble应用程序设置可能已丢失或修改。我们建议您检查是否有更改，并感谢您的反馈。"
+}
+{
+  "meteoblue moves forward"
+  "Meteoble 跟随"
+}
+{
+  "If you have installed a widget, please remove and reinstall it. Old widgets will stay inactive."
+  "如果您安装了小部件，请移除并重新安装，旧小部件会失效"
+}
+{
+  "Updating widget"
+  "正在更新小部件"
+}
+{
+  "UV %1$s"
+  "紫外线指数 %1$s"
+}
+{
+  "UV-Index (1 = lowest, 11 = highest)"
+  "紫外线指数（最低1，最高11）"
+}
+{
+  "%1$d %%"
+  "%1$d%%"
+}
+{
+  "Air Quality"
+  "空气质量"
+}
+{
+  "Avalanches"
+  "雪崩"
+}
+{
+  "Coastal"
+  "沿海"
+}
+{
+  "Cold"
+  "冷"
+}
+{
+  "Earthquake"
+  "地震"
+}
+{
+  "Flood"
+  "洪水"
+}
+{
+  "Forest Fires"
+  "森林火灾"
+}
+{
+  "Geological"
+  "地质"
+}
+{
+  "Hail"
+  "冰雹"
+}
+{
+  "Heat"
+  "热度"
+}
+{
+  "Low Visibility"
+  "低能见度"
+}
+{
+  "Rain"
+  "雨"
+}
+{
+  "Snow"
+  "雪"
+}
+{
+  "Thunder"
+  "雷"
+}
+{
+  "Unknown"
+  "未知"
+}
+{
+  "Volcanic"
+  "火山的"
+}
+{
+  "Wind"
+  "风"
+}
+{
+  "The content can not be refreshed because your device is not connected to the internet."
+  "无法刷新内容，因为您的设备未连接到互联网"
+}
+{
+  "The content may be outdated because your device is not connected to the internet."
+  "内容可能已过时，因为您的设备未连接到互联网"
+}
+{
+  "Expected"
+  "预期"
+}
+{
+  "Official warning explanations:"
+  "官方警告解释："
+}
+{
+  "Extreme"
+  "极端"
+}
+{
+  "From %1$s %2$s (%3$s) to %4$s %5$s (%6$s)"
+  "从 %1$s %2$s (%3$s) 到 %4$s %5$s (%6$s)"
+}
+{
+  "Future"
+  "未来"
+}
+{
+  "Immediate"
+  "立即"
+}
+{
+  "Instructions:"
+  "说明："
+}
+{
+  "Minor"
+  "次要"
+}
+{
+  "Moderate"
+  "中等"
+}
+{
+  "Past"
+  "历史"
+}
+{
+  "The content can not be refreshed because the weather server returned error code %1$d."
+  "无法刷新内容，因为天气服务器返回了错误代码%1$d"
+}
+{
+  "Severe"
+  "严重"
+}
+{
+  "Official weather warnings"
+  "官方天气预警"
+}
+{
+  "%1$s weather warning"
+  "%1$s天气预警"
+}
+{
+  "Short weather description"
+  "简短天气描述"
+}
+{
+  "Weather icon"
+  "天气图标"
+}
+{
+  "Weather"
+  "天气"
+}
+{
+  "Weather warnings"
+  "天气预警"
+}
+{
+  "Severe weather warnings are provided to meteoblue by more than 80 official agencies worldwide. meteoblue does not bear any responsibility regarding the actual content or nature of the warnings."
+  "全球80多个官方机构发布了恶劣天气警报。Meteoble对警告的实际内容或性质不承担任何责任"
+}
+{
+  "Webcams"
+  "实地影像直播"
+}
+{
+  "Refresh"
+  "刷新"
+}
+{
+  "Last update: %1$d hours %2$d minutes ago"
+  "上次更新：%1$d小时%2$d分钟前"
+}
+{
+  "Last update: %1$d minutes ago"
+  "上次更新：%1$d分钟前"
+}
+{
+  "We've completely redesigned our Homescreen widgets to give you a faster, more customizable weather experience! Choose from three new widget types, each with a unique layout and functionality, so you can instantly check the forecast, get detailed updates, or monitor live weather conditions - all at a glance, right from your Homescreen."
+  "我们彻底重新设计了桌面小组件，为您带来更快、更具定制性的天气体验！从三种新的小组件类型中选择，每种都有独特的布局和功能，让您可以即时查看预报、获取详细更新或监控实时天气状况——所有这些都能从您的桌面上一目了然地完成。"
+}
+{
+  "What’s new in this version?"
+  "这个版本有什么新功能？"
+}
+{
+  "where2go"
+  "晴天地图"
+}
+{
+  "First, remove the obsolete widget from your homescreen by long pressing it and dragging it to the remove section."
+  "首先，通过长按然后将其拖动到移除区域，从您的桌面上删除过时的旧版小组件"
+}
+{
+  "After removing the obsolete widget, long press on your home screen, select Widgets, long click on the meteoblue widget and drag it to your home screen."
+  "移除过时的小组件后，长按您的桌面，选择小组件，长按 meteoblue 小组件并将其拖动到您的桌面上。"
+}
+{
+  "How to add the new Widgets"
+  "如何添加新版小组件"
+}
+{
+  "Please remove the outdated widget and select one of our new widgets."
+  "请移除过时的旧版组件，重新添加新版小组件"
+}
+{
+  "We've got new Widgets!"
+  "我们已经推出全新的小组件模块！"
+}
+{
+  "This widget is no longer supported. Please reinstall our new, improved widgets."
+  "旧版小组件已经不再支持，请重新安装我们的改进后的新版小组件。"
+}
+{
+  "Obsolete Widget"
+  "过时的小组件"
+}
+{
+  "Error: Couldn't read Data (JSON-Parser Failed)"
+  "错误：无法读取数据Couldn't read Data (JSON-Parser Failed)"
+}
+{
+  "Tap on the widget to open the in-app store"
+  "点击小部件打开应用内商店"
+}
+{
+  "Subscription required"
+  "需要订阅"
+}
+{
+  "This widget is not associated with a location"
+  "此小部件与位置无关"
+}
+{
+  "Widget Settings"
+  "小组件设置"
+}
+{
+  "Current Weather and Forecast"
+  "当前天气和预报"
+}
+{
+  "Overview of current Day"
+  "当日概况"
+}
+{
+  "Current Weather"
+  "当前天气"
+}
+{
+  "Android did not allow the widget to update"
+  "系统不允许小部件更新"
+}
+{
+  "Wind Direction"
+  "风向"
+}
+{
+  "Wind Speed and direction"
+  "风速和风向"
+}
+{
+  "%1$d-%2$d %3$s"
+  "%1$d-%2$d%3$s"
+}
+{
+  "Wind speed"
+  "风速"
+}
+{
+  "Windspeed"
+  "风速"
+}
+{
+  "in %1$d days"
+  "在%1$d天内"
+}
+{
+  "Yesterday"
+  "昨天"
+}
+{
+  "Zoom in and out with a pinch gesture."
+  "双指使用分开与捏合手势来放大和缩小地图"
+}

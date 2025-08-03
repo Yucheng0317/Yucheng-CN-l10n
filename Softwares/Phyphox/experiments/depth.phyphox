@@ -1,0 +1,473 @@
+<phyphox version="1.14" locale="en">
+  <title>Depth sensor (LiDAR / ToF)</title>
+  <category>Camera</category>
+  <description>Measure distances using the depth sensor.
+
+    This is only available if your phone has a depth sensor as part of your camera system. You can tap the preview image and select the area of your camera's view that contributes to the measurement and also select whether the result is the closest distance, the average distance or an average that takes into account the sensor's estimate of the accuracy of each measured point.
+
+    The motion tab also calculates the velocity and acceleration from the measured distance using the LOESS algorithm.
+</description>
+  <icon format="base64">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</icon>
+  <translations>
+    <translation locale="cs">
+      <string original="Graph">Graf</string>
+      <string original="Simple">Stručně</string>
+      <string original="Velocity">Rychlost</string>
+      <string original="Acceleration">Zrychlení</string>
+      <string original="Settings">Nastavení</string>
+      <title>Senzor hloubky (LiDAR / ToF)</title>
+      <category>Nástroje</category>
+      <description>Změřte vzdálenosti pomocí hloubkového senzoru.
+
+     Toto je k dispozici pouze v případě, že váš telefon má jako součást kamerového systému snímač hloubky. Můžete klepnout na náhled obrázku a vybrat oblast pohledu kamery, která přispívá k měření, a také vybrat, zda je výsledkem nejbližší vzdálenost, průměrná vzdálenost nebo průměr, který zohledňuje odhad snímače ohledně přesnosti každého měřeného bodu. .
+
+     Záložka pohybu také vypočítává rychlost a zrychlení z naměřené vzdálenosti pomocí algoritmu LOESS.
+</description>
+      <string original="Distance / Depth">Vzdálenost / Hloubka</string>
+      <string original="Kinematics">Kinematika</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Klepněte na náhled a přetažením změňte oblast obrázku, která se bere v úvahu při výpočtu vzdálenosti. Můžete také zvolit různé metody agregace měření hloubky v této oblasti.</string>
+      <string original="Preview">Náhled</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Níže můžete změnit lokální vyhlazení pro grafy v kartě kinematika. Nastavení šířky ovlivňuje odhady rychlosti a zrychlení. Velké hodnoty vedou k hladším křivkám s menším množstvím detailů.</string>
+      <string original="Width of LOESS fit">Šířka LOESS fitu</string>
+    </translation>
+    <translation locale="de">
+      <string original="Simple">Einfach</string>
+      <string original="Velocity">Geschwindigkeit</string>
+      <string original="Acceleration">Beschleunigung</string>
+      <string original="Settings">Einstellungen</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Tippe auf die Vorschau um durch ziehen den Bereich zu wählen, der bei der Entfernungsmessung berücksichtigt wird. Du kannst hier auch andere Methoden zum Zusammenfassen der Messwerte in dem Bereich wählen.</string>
+      <string original="Preview">Vorschau</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Unten kannst du die lokale Glättung der Graphen im Kinematik-Tab ändern. Die Einstellung "Breite" beeinflusst die Schätzungen für die Geschwindigkeit und Beschleunigung. Größere Werte führen zu weicheren Kurven mit weniger Details.</string>
+      <string original="Width of LOESS fit">Breite des LOESS-Fit</string>
+      <title>Tiefensensor (LiDAR / ToF)</title>
+      <category>Kamera</category>
+      <description>Miss Entfernungen mit dem Tiefensensor.
+
+Dieses Experiment ist nur verfügbar, wenn dein Gerät einen Tiefensensor als Teil des Kamerasystems hat. Du kannst das Vorschaubild antippen und dort den Messbereich wählen, der zur Abstandsmessung beiträgt und dabei auch entscheiden, wie die Entfernung aus allen Messpunkten gebildet wird: Dies kann entweder der Punkt mit der kürzesten Entfernung, ein Mittelwert aller Messpunkte oder ein gewichtetes Mittel auf Grundlage der einzelnen Messunsicherheiten sein.
+
+Der Kinematik-Tab berechnet zudem Geschwindigkeit und Bescheunigung aus der Entfernungsmessung mithilfe des LOESS-Algorithmus.
+</description>
+      <string original="Distance / Depth">Entfernung / Tiefe</string>
+      <string original="Kinematics">Kinematik</string>
+    </translation>
+    <translation locale="el">
+      <string original="Graph">Γράφημα</string>
+      <string original="Simple">Απλό</string>
+      <string original="Velocity">Ταχύτητα</string>
+      <string original="Acceleration">Επιτάχυνση</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <title>Αισθητήρας Βάθους (LiDAR / ToF)</title>
+      <category>Κάμερα</category>
+      <description>Μέτρηση αποστάσεων με χρήση του αισθητήρα βάθους.
+
+    Η μέτρηση είναι δυνατή μόνο αν το κινητό σας διαθέτει αισθητήρα βάθους σαν μέρος του συστήματος της φωτογραφικής μηχανής. Πατήστε στην εικόνα προεπισκόπησης και επιλέξτε την περιοχή της εικόνας που συμμετέχει στη μέτρηση. Επιπλέον επιλέξτε αν το αποτέλεσμα θα είναι η κοντινότερη απόσταση, η μέση απόσταση ή μια μέση τιμή που λαμβάνει υπόψην της την εκτίμηση του αισθητήρα για την ακρίβεια μέτρησης κάθε σημείου.
+
+     Το πλήκτρο της κίνησης υπολογίζει επίσης την ταχύτητα και επιτάχυνση από την μετρούμενη απόσταση χρησιμοποιώντας τον αλγόριθμο LOESS.
+</description>
+      <string original="Distance / Depth">Απόσταση/Βάθος</string>
+      <string original="Kinematics">Κινηματική</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Πατήστε στην προεπισκόπιση και σύρτε για να αλλάξετε την επιφάνεια της εικόνας που συνυπολογίζεται για τον υπόλογισμό της απόστασης. Μπορείτε να επιλέξετε διαφορετικές μεθόδους για τη συγκέντρωση των αποστάσεων σ' αυτή την περιοχή.</string>
+      <string original="Preview">Προεπισκόπηση</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Παρακάτω μπορείτε να αλλάξετε την τοπική εξομάλυνση των καμπυλών στην καρτέλα της κινηματικής. Η ρύθμιση του πλάτους επηρεάζει τις εκτιμήσεις ταχύτητας και επιτάχυνσης. Μεγάλες τιμές οδηγούν σε πιο λείες καμπύλες με λιγότερες λεπτομέρειες.</string>
+      <string original="Width of LOESS fit">Πλάτος της προσαρμογής LOESS</string>
+    </translation>
+    <translation locale="es">
+      <string original="Graph">Gráfico</string>
+      <string original="Velocity">Velocidad</string>
+      <string original="Acceleration">Aceleración</string>
+      <string original="Settings">Ajustes</string>
+    </translation>
+    <translation locale="fr">
+      <string original="Graph">Graphe</string>
+      <string original="Simple">Composantes</string>
+      <string original="Velocity">Vitesse</string>
+      <string original="Acceleration">Accélération</string>
+      <string original="Settings">Paramètres</string>
+      <title>Capteur de profondeur (LiDAR / ToF)</title>
+      <category>Caméra</category>
+      <string original="Distance / Depth">Distance / Profondeur</string>
+      <string original="Kinematics">Cinématique</string>
+    </translation>
+    <translation locale="it">
+      <string original="Graph">Grafico</string>
+      <string original="Simple">Valori</string>
+      <string original="Velocity">Velocità</string>
+      <string original="Acceleration">Accelerazione</string>
+      <string original="Settings">Impostazioni</string>
+    </translation>
+    <translation locale="ja">
+      <string original="Graph">グラフ</string>
+      <string original="Simple">シンプル</string>
+      <string original="Velocity">速度</string>
+      <string original="Acceleration">加速</string>
+      <string original="Settings">設定</string>
+    </translation>
+    <translation locale="nl">
+      <string original="Graph">Grafiek</string>
+      <string original="Simple">Eenvoudig</string>
+      <string original="Velocity">Snelheid</string>
+      <string original="Acceleration">Versnelling</string>
+      <string original="Settings">Instellingen</string>
+    </translation>
+    <translation locale="pl">
+      <string original="Graph">Wykres</string>
+      <string original="Simple">Próbka</string>
+      <string original="Velocity">Prędkość</string>
+      <string original="Acceleration">Przyspieszenie</string>
+      <string original="Settings">Ustawienia</string>
+    </translation>
+    <translation locale="pt">
+      <string original="Graph">Gráfico</string>
+      <string original="Simple">Simples</string>
+      <string original="Velocity">Velocidade</string>
+      <string original="Acceleration">Aceleração</string>
+      <string original="Settings">Configurações</string>
+    </translation>
+    <translation locale="ru">
+      <string original="Graph">График</string>
+      <string original="Simple">Значение</string>
+      <string original="Velocity">Скорость</string>
+      <string original="Acceleration">Ускорение</string>
+      <string original="Settings">Настройки</string>
+      <title>Датчик глубины (LiDAR/ToF)</title>
+      <category>Инструменты</category>
+      <description>Измеряйте расстояния с помощью датчика глубины.
+
+     Это доступно только в том случае, если ваш телефон имеет датчик глубины как часть вашей камеры.  Вы можете коснуться изображения предварительного просмотра и выбрать область обзора вашей камеры, которая способствует измерению, а также выбрать, будет ли результат ближайшим расстоянием, средним расстоянием или средним значением, которое учитывает оценку датчика точности каждой измеренной точки.  .
+
+     На вкладке движения также вычисляются скорость и ускорение по измеренному расстоянию с использованием алгоритма LOESS.
+</description>
+      <string original="Distance / Depth">Расстояние / глубина</string>
+      <string original="Kinematics">Кинематика</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Нажмите на предварительный просмотр и переместите, чтобы изменить область изображения, которая учитывается при расчете расстояния. Вы также можете выбрать различные методы для агрегирования измерений глубины в этой области.</string>
+      <string original="Preview">Предварительный просмотр</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Ниже вы можете изменить локальное сглаживание для графиков на вкладке кинематики. Настройка ширины влияет на оценки скорости и ускорения. Большие значения приводят к более плавным кривым с меньшей детализацией.</string>
+      <string original="Width of LOESS fit">Ширина подгонки LOESS</string>
+    </translation>
+    <translation locale="sr">
+      <string original="Graph">Grafik</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Velocity">Brzina</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Settings">Podešavanja</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <string original="Graph">Grafik</string>
+      <string original="Simple">Jednostavno</string>
+      <string original="Velocity">Brzina</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Settings">Podešavanja</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Graph">Grafik</string>
+      <string original="Simple">Basit</string>
+      <string original="Velocity">Hız</string>
+      <string original="Acceleration">İvmelenme</string>
+      <string original="Settings">Ayarlar</string>
+    </translation>
+    <translation locale="vi">
+      <string original="Graph">Đồ thị</string>
+      <string original="Simple">Đơn giản</string>
+      <string original="Velocity">Vận tốc</string>
+      <string original="Acceleration">Gia tốc</string>
+      <string original="Settings">Cài đặt</string>
+      <title>Cảm biến chiều sâu (LiDar / ToF)</title>
+      <category>Công cụ</category>
+      <description>Đo khoảng cách bằng cảm biến chiều sâu.
+
+....Điều này chỉ khả dụng nếu điện thoại của bạn có cảm biến chiều sâu như một phần của hệ thống máy ảnh. Bạn có thể nhấn vào hình ảnh xem trước và chọn khu vực chế độ xem của máy ảnh góp phần vào phép đo và cũng có thể chọn xem kết quả là khoảng cách gần nhất, khoảng cách trung bình hay mức trung bình có tính đến ước tính của cảm biến về độ chính xác của từng điểm được đo .
+
+....Tab chuyển động cũng tính toán vận tốc và gia tốc từ khoảng cách đo được bằng thuật toán LOESS.
+</description>
+      <string original="Distance / Depth">Khoảng cách / Độ sâu</string>
+      <string original="Kinematics">Động học</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">Chạm vào phần xem trước và kéo để thay đổi vùng ảnh được tính đến để tính khoảng cách. Bạn cũng có thể chọn các phương pháp khác nhau để tổng hợp các phép đo chiều sâu trong khu vực này.</string>
+      <string original="Preview">Xem trước</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">Bên dưới, bạn có thể thay đổi cách làm mịn cục bộ cho các biểu đồ trên tab động học. Cài đặt chiều rộng ảnh hưởng đến ước tính vận tốc và gia tốc. Các giá trị lớn dẫn đến các đường cong mượt mà hơn với ít chi tiết hơn.</string>
+      <string original="Width of LOESS fit">Chiều rộng của LOESS phù hợp</string>
+    </translation>
+    <translation locale="zh_Hans">
+    <title>深度传感器（LiDAR / ToF）</title>
+<category>相机</category>
+<description>使用深度传感器测量距离。
+
+仅当您的手机摄像头系统配备深度传感器时，此功能才可用。您可以点击预览图像，选择相机视野中用于测量的区域，还能选择测量结果是最近距离、平均距离，或是结合传感器对每个测量点精度估算得出的平均距离。
+
+“运动”标签页还会使用局部加权回归散点平滑法（LOESS）算法，根据测量距离计算速度和加速度。
+</description>
+
+      <string original="Graph">图表</string>
+      <string original="Simple">简明值</string>
+      <string original="Velocity">速度</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Settings">设置</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">点击预览画面并拖动，以更改用于计算距离的图像区域。您还可以选择不同的方法来汇总该区域内的深度测量值。</string>
+      <string original="Preview">预览</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">在此处下方，您可以更改运动学选项卡中图表的局部平滑度。宽度设置会对速度和加速度的估算产生影响。数值较大时，曲线会更平滑，但细节会减少。</string>
+      <string original="Width of LOESS fit">局部加权回归（LOESS）拟合的宽度</string>
+      <string original="Distance / Depth">距离 / 深度</string>
+      <string original="Kinematics">运动学</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <string original="Graph">圖表</string>
+      <string original="Simple">簡易</string>
+      <string original="Velocity">速度</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Settings">設定</string>
+    </translation>
+    <translation locale="ka">
+      <title>სიღრმის სენსორი (LiDAR / ToF)</title>
+      <category>ხელსაწყოები</category>
+      <description>გაზომე დისტანცია სიღრმის სენსორის გამოყენებით.
+
+    ხელმისაწვდომია მხოლოდ მაშინ როცა თქვენი კამერის ნაწილია სიღრმის სენსორი. თქვენ შეგიძლიათ დაკლიკოთ სურათის ნახვა და მონიშნოთ სივრცე რისი გაზომვაც მიმდინარეობს, ასევე მონიშნოთ არის თუარა შედეგი უახლოესი დისტანცია, საშუალო დისტანცია ან საშუალო, რაც სენსორის შეფასების სიზუსტეს ეხმარება.
+
+    მოძრაობის გვერდი ასევე ითვლის სიჩქარეს და აჩქარებას მანძილის გამოთვლით LOESS-ს ალგორითმის გამოყენებით.
+</description>
+      <string original="Graph">გრაფიკი</string>
+      <string original="Distance / Depth">დისტანცია / სიღრმე</string>
+      <string original="Simple">მარტივი</string>
+      <string original="Kinematics">კინემატიკა</string>
+      <string original="Velocity">სიჩქარე</string>
+      <string original="Acceleration">აჩქარება</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">დააჭირეთ ნახვას და გადააცურეთ იმისთივს რომ შეცვალოთ სურათის არეა, რომელზეც ხდება მანძილის გამოთვლა. თქვენა ასევე შეგიძლიათ შეცვალოთ განსხვავებული მეთოდები სიღმის გამოთვლისთვის ამ არეაში.</string>
+      <string original="Preview">ნახვა</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">ქვემოთ თქვენ შეგიძლიათ შეცვალოთ ლოკალური გრაფიკის დაგლუვება კინემატიკის გვერდზე. სიფართოვის პარამეტრები მოქმედებს სიჩქარის და აჩქარების შეფასებაზე. დიდი მნიშვნელობები მოგვცემს უფრო გლუვ შედეგებს ნაკლები დეტალებით.</string>
+      <string original="Width of LOESS fit">LOESS ფიტირების სიფართოვე</string>
+    </translation>
+    <translation locale="hi">
+      <title>गहराई सेंसर (LiDAR / ToF)</title>
+      <category>टूल्स</category>
+      <description>गहराई सेंसर का उपयोग करके दूरियों को मापें।
+
+    यह केवल तभी उपलब्ध होता है जब आपके फ़ोन के कैमरा सिस्टम में गहराई सेंसर हो। आप प्रीव्यू इमेज को टैप कर सकते हैं और अपने कैमरे के दृश्य के उस क्षेत्र का चयन कर सकते हैं जो माप में योगदान देता है और यह भी चुन सकता है कि परिणाम निकटतम दूरी, औसत दूरी या वह औसत है जो प्रत्येक मापित बिंदु की सटीकता के सेंसर द्वारा लगाये अनुमान को ध्यान में रखता है। .
+
+    मोशन टैब LOESS एल्गोरिथम का उपयोग करके मापी गई दूरी से वेग और त्वरण की गणना भी करता है।
+</description>
+      <string original="Graph">ग्राफ</string>
+      <string original="Distance / Depth">दूरी / गहराई</string>
+      <string original="Simple">साधारण (सामान्य)</string>
+      <string original="Kinematics">गतिकी</string>
+      <string original="Velocity">वेग</string>
+      <string original="Acceleration">त्वरण</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area.">प्रीव्यू पर टैप करें और दूरी की गणना करने के लिए ध्यान में रखी गई इमेज के क्षेत्र को बदलने के लिए ड्रैग करें। आप इस क्षेत्र के भीतर गहराई की माप को एकत्रित करने के लिए विभिन्न विधियों को भी चुन सकते हैं।</string>
+      <string original="Preview">पूर्वावलोकन</string>
+      <string original="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail.">नीचे कैनेमेटिक्स टैब पर ग्राफ़ की स्थानीय प्रवाह बदल सकते हैं। चौड़ाई सेटिंग वेग और त्वरण अनुमानों को प्रभावित करती है। बड़े मान कम विस्तार के साथ चिकने वक्र परिणाम में देते हैं।</string>
+      <string original="Width of LOESS fit">LOESS फ़िट की चौड़ाई</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="0">xmm</container>
+    <container size="0">x</container>
+    <container size="0">t</container>
+    <container size="1" init="0.02">dt</container>
+    <!-- Schrittweite für Glättung (kann normalerweise so bleiben) -->
+    <container size="1" init="0.2">d</container>
+    <!-- Breite der Glättung in Sekunden -->
+    <container size="0">tout</container>
+    <container size="0">xout</container>
+    <container size="0">vout</container>
+    <container size="0">aout</container>
+    <container size="0">toutpreview</container>
+    <container size="0">xoutpreview</container>
+    <container size="0">voutpreview</container>
+    <container size="0">aoutpreview</container>
+    <container size="1">newsmoothstart</container>
+    <container size="1">newsmoothstop</container>
+    <container size="1">tmaxsmooth</container>
+    <container size="101">newsmoothti100</container>
+    <container size="101">newsmoothti</container>
+    <container size="101">newsmoothxi</container>
+    <container size="101">newsmoothvi</container>
+    <container size="101">newsmoothai</container>
+    <container size="101">incompletesmoothti</container>
+    <container size="101">incompletesmoothxi</container>
+    <container size="101">incompletesmoothvi</container>
+    <container size="101">incompletesmoothai</container>
+    <container size="1">temp</container>
+  </data-containers>
+  <input>
+    <depth x1="0.4" x2="0.6" y1="0.4" y2="0.6" mode="average">
+      <output component="z">xmm</output>
+      <output component="t">t</output>
+    </depth>
+  </input>
+  <analysis>
+    <divide>
+      <input>xmm</input>
+      <input type="value">1</input>
+      <output clear="false">x</output>
+    </divide>
+    <!-- Neue Stützstellen für Glättung suchen -->
+    <append>
+      <input type="value">0</input>
+      <input clear="false">tout</input>
+      <output>temp</output>
+      <!-- Letzter schon berechneter Glättungswert -->
+    </append>
+    <add>
+      <input>temp</input>
+      <input clear="false">dt</input>
+      <output>newsmoothstart</output>
+      <!-- Erster zu berechnender Glättungswert -->
+    </add>
+    <append>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <output>temp</output>
+      <!-- Letzter Rohdatenwert, der schon aufgenommen wurde -->
+    </append>
+    <subtract>
+      <input>temp</input>
+      <input clear="false">d</input>
+      <output>tmaxsmooth</output>
+      <!-- Maximale Zeit, bis zu der eine Glättung schon sinnvoll wäre -->
+    </subtract>
+    <formula formula="[1]+100*[2]">
+      <input clear="false">newsmoothstart</input>
+      <input clear="false">dt</input>
+      <output>newsmoothstop</output>
+      <!-- Höchster der möglichen neuen Glättungswerte, der aber weit hinter den sinnvollen liegen kann -->
+    </formula>
+    <ramp>
+      <input as="start">newsmoothstart</input>
+      <input as="stop">newsmoothstop</input>
+      <output>newsmoothti100</output>
+      <!-- Mögliche neue Glättungswerte -->
+    </ramp>
+    <rangefilter>
+      <input clear="false">newsmoothti100</input>
+      <input as="max" clear="false">tmaxsmooth</input>
+      <output>newsmoothti</output>
+      <!-- Die Zeiten, zu denen wir nun wirklich glätten -->
+    </rangefilter>
+    <append>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <output>temp</output>
+      <!-- Erneut letzter Rohdatenwert, der schon aufgenommen wurde -->
+    </append>
+    <rangefilter>
+      <input>newsmoothti100</input>
+      <input as="min" clear="false">tmaxsmooth</input>
+      <input as="max">temp</input>
+      <output>incompletesmoothti</output>
+      <!-- Die Zeiten für neuere Datenpunkt, die wir nur als Vorschau glätten -->
+    </rangefilter>
+    <!-- Glätten -->
+    <loess>
+      <input as="x" clear="false">t</input>
+      <input as="y" clear="false">x</input>
+      <input as="xi" clear="false">newsmoothti</input>
+      <input as="d" clear="false">d</input>
+      <output as="yi0">newsmoothxi</output>
+      <output as="yi1">newsmoothvi</output>
+      <output as="yi2">newsmoothai</output>
+    </loess>
+    <loess>
+      <input as="x" clear="false">t</input>
+      <input as="y" clear="false">x</input>
+      <input as="xi" clear="false">incompletesmoothti</input>
+      <input as="d" clear="false">d</input>
+      <output as="yi0">incompletesmoothxi</output>
+      <output as="yi1">incompletesmoothvi</output>
+      <output as="yi2">incompletesmoothai</output>
+    </loess>
+    <!-- Ergebnisse anhängen -->
+    <append>
+      <input>newsmoothti</input>
+      <output clear="false">tout</output>
+    </append>
+    <append>
+      <input>newsmoothxi</input>
+      <output clear="false">xout</output>
+    </append>
+    <append>
+      <input>newsmoothvi</input>
+      <output clear="false">vout</output>
+    </append>
+    <append>
+      <input>newsmoothai</input>
+      <output clear="false">aout</output>
+    </append>
+    <!-- Puffer mit finalen Ergebnissen und Vorschau-Ergebnissen -->
+    <append>
+      <input clear="false">tout</input>
+      <input clear="true">incompletesmoothti</input>
+      <output clear="true">toutpreview</output>
+    </append>
+    <append>
+      <input clear="false">xout</input>
+      <input clear="true">incompletesmoothxi</input>
+      <output clear="true">xoutpreview</output>
+    </append>
+    <append>
+      <input clear="false">vout</input>
+      <input clear="true">incompletesmoothvi</input>
+      <output clear="true">voutpreview</output>
+    </append>
+    <append>
+      <input clear="false">aout</input>
+      <input clear="true">incompletesmoothai</input>
+      <output clear="true">aoutpreview</output>
+    </append>
+  </analysis>
+  <views>
+    <view label="Graph">
+      <graph label="Distance / Depth" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_distance]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter]]">
+        <input axis="x">t</input>
+        <input axis="y">x</input>
+      </graph>
+    </view>
+    <view label="Simple">
+      <value label="Distance / Depth" size="2" unit="[[unit_short_meter]]">
+        <input>x</input>
+      </value>
+    </view>
+    <view label="Kinematics">
+      <graph label="Distance / Depth" partialUpdate="false" labelX="[[quantity_short_time]]" labelY="[[quantity_short_distance]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter]]">
+        <input axis="x" lineWidth="2">toutpreview</input>
+        <input axis="y">xoutpreview</input>
+        <input axis="x" style="dots" color="white">t</input>
+        <input axis="y">x</input>
+      </graph>
+      <graph label="Velocity" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_velocity]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter_per_second]]">
+        <input axis="x" lineWidth="2">toutpreview</input>
+        <input axis="y">voutpreview</input>
+      </graph>
+      <graph label="Acceleration" partialUpdate="true" labelX="[[quantity_short_time]]" labelY="[[quantity_short_acceleration]]" unitX="[[unit_short_second]]" unitY="[[unit_short_meter_per_square_second]]">
+        <input axis="x" lineWidth="2">toutpreview</input>
+        <input axis="y">aoutpreview</input>
+      </graph>
+    </view>
+    <view label="Settings">
+      <info label="Tap onto the preview and drag to change the area of the image that is taken into account to calculate the distance. You can also choose different methods to aggregate the depth measurements within this area."/>
+      <separator height="1"/>
+      <depth-gui label="Preview"/>
+      <value label="Distance / Depth" size="2" unit="[[unit_short_meter]]">
+        <input>x</input>
+      </value>
+      <separator height="1"/>
+      <separator color="white"/>
+      <separator height="1"/>
+      <info label="Below you can change the local smoothing for the graphs on the kinematics tab. The width setting influences the velocity and acceleration estimates. Large values result in smoother curves with less detail."/>
+      <edit label="Width of LOESS fit" unit="[[unit_short_second]]" default="0.2">
+        <output>d</output>
+      </edit>
+    </view>
+  </views>
+  <export>
+    <set name="Data">
+      <data name="t">t</data>
+      <data name="z">x</data>
+    </set>
+    <set name="LOESS">
+      <data name="t">tout</data>
+      <data name="z">xout</data>
+      <data name="v">vout</data>
+      <data name="a">aout</data>
+    </set>
+  </export>
+</phyphox>

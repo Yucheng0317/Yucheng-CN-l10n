@@ -1,0 +1,748 @@
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板。"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题，请重试"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s小时"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "Accessibility service disabled, do you want to enable it?"
+  "无障碍服务已禁用，是否要启用它？"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Allow overlay permission"
+  "授予覆盖显示权限"
+}
+{
+  "Android API version:"
+  "安卓API版本："
+}
+{
+  "App version:"
+  "应用程序版本："
+}
+{
+  "Block"
+  "锁定"
+}
+{
+  "Block notification"
+  "阻止通知"
+}
+{
+  "Block on proximity"
+  "物体接近屏幕时锁定"
+}
+{
+  "Block screen"
+  "锁定屏幕"
+}
+{
+  "Block screen from touches"
+  "锁定屏幕触控"
+}
+{
+  "Block screen when an object is close to your device (sensor in upper part of your phone)"
+  "当物体靠近您的设备（手机上方传感器）时锁定屏幕"
+}
+{
+  "Cannot block screen"
+  "无法锁定屏幕"
+}
+{
+  "Cannot have only volume unblock when volume buttons are disabled!"
+  "当音量键被禁用时，不能仅解锁音量键！"
+}
+{
+  "Cannot show system settings for overlay permission. Please allow this permission manually in system settings."
+  "无法显示跳转屏幕覆盖授权的系统设置页面。请在系统设置中手动授权。"
+}
+{
+  "Change to next month"
+  "改到下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Chip text"
+  "标签文本"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "Column of days: %1$s"
+  "天数列：%1$s"
+}
+{
+  "Contact Us"
+  "联系我们"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Dark"
+  "暗色"
+}
+{
+  "Dark Theme"
+  "暗色主题"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Device:"
+  "设备："
+}
+{
+  "Dim screen and set black background (best to save energy on OLED displays)"
+  "调暗屏幕并设置黑色背景（在OLED显示器上能有效省电）"
+}
+{
+  "Dim screen when blocked"
+  "屏幕被遮挡时调暗"
+}
+{
+  "Disable"
+  "禁用"
+}
+{
+  "Disable HOME, RECENT and BACK buttons <font color=#3D5AFE>(Recommended)</font>"
+  "禁用主页、最近和后退按钮<font color=#3D5AFE>（推荐）</font>"
+}
+{
+  "Disable Up and Down volume buttons"
+  "禁用音量加／减按键"
+}
+{
+  "Disable hardware HOME, RECENT and BACK buttons"
+  "禁用主页、多任务和返回的实体按钮（非全面屏时）"
+}
+{
+  "Disable hardware keys"
+  "禁用实体按键"
+}
+{
+  "Disable sound effects"
+  "禁用声音效果"
+}
+{
+  "Disable system sound effects for unblock icon"
+  "禁用解锁图标时的系统音效"
+}
+{
+  "Disable unblock icon. Works when the only unblock options set are volume buttons"
+  "禁用解锁图标（当唯一解锁选项设置为音量按钮时生效。）"
+}
+{
+  "Disable volume buttons"
+  "禁用音量键"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Enable notification"
+  "启用通知"
+}
+{
+  "Enable on boot"
+  "软件启动时自动生效"
+}
+{
+  "Enable this application on boot, when left enabled last time."
+  "若上次退出应用时启用，在下次启动时自动启用功能"
+}
+{
+  "Enables dark theme"
+  "启用暗色主题"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Expand halfway"
+  "展开至一半"
+}
+{
+  "Feedback"
+  "反馈意见"
+}
+{
+  "First allow this app to overlay other apps"
+  "首先需允许此应用程序覆盖其他应用程序"
+}
+{
+  "Forbids moving the unblock icon when screen is blocked"
+  "当屏幕锁定时，禁止移动解锁图标"
+}
+{
+  "Hide"
+  "隐藏"
+}
+{
+  "Hide unblock icon"
+  "隐藏解锁图标"
+}
+{
+  "Home"
+  "主页"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "How many seconds you have to hold the unblock icon before screen is unblocked"
+  "在解锁屏幕前，您需长按解锁图标多少秒"
+}
+{
+  "How many seconds you need to hold volume button to unblock screen"
+  "按住音量按钮需要多少秒才能解锁屏幕"
+}
+{
+  "How many times you need to press volume button to unblock screen"
+  "需按多少次音量按钮才能解锁屏幕"
+}
+{
+  "How many times you need to tap the unblock icon to unblock screen"
+  "需点击解锁图标多少次才能解锁屏幕"
+}
+{
+  "How to unblock screen?"
+  "如何解锁屏幕？"
+}
+{
+  "I understand"
+  "我理解"
+}
+{
+  "Info"
+  "信息"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Keep screen on"
+  "保持屏幕常亮"
+}
+{
+  "Language"
+  "语言"
+}
+{
+  "Light"
+  "亮色"
+}
+{
+  "Lock rotation"
+  "方向旋转锁定"
+}
+{
+  "Lock rotation when screen is blocked"
+  "屏幕被遮挡时锁定旋转"
+}
+{
+  "Lock unlock icon position"
+  "锁定解锁图标位置"
+}
+{
+  "Looks like your system doesn't have accessibility settings screen. Therefore it is not possible to activate this setting."
+  "该系统无设置屏幕的功能。因此无法激活此设置。"
+}
+{
+  "Main settings"
+  "主要设置"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Navigate home"
+  "回主页"
+}
+{
+  "Navigate to year %1$s"
+  "切换到年 %1$s"
+}
+{
+  "Navigate up"
+  "返回上级"
+}
+{
+  "New"
+  "新"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "No"
+  "不"
+}
+{
+  "No browser found to display privacy policy"
+  "未找到显示隐私策略的浏览器"
+}
+{
+  "No unblock method selected, please select one in application settings!"
+  "未选择解锁方式，请在应用设置中选择一种！"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "On some phones hardware/software buttons cannot be blocked because of the software restrictions. Also on Android 8 or higher, Android restricts the ability to block all hardware buttons, so some of your hardware/software buttons may be working even after you block your screen."
+  "由于软件限制，某些手机的硬件／软件按钮无法被阻止。同样在Android 8或更高版本上，Android限制了屏蔽所有实体按钮的能力，因此即使在开启锁定后，部分硬件／软件按钮也可能正常工作。\n\n ━ 予澄◈汉化 ━"
+}
+{
+  "Open settings"
+  "打开设置"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Overlay permission denied, do you want to allow it?"
+  "无屏幕覆盖权限，前往授权"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "Please activate TouchBlocker service on this screen"
+  "请在此页面上激活TouchBlocker服务"
+}
+{
+  "Please allow overlay permission for this application"
+  "请允许应用的覆盖显示权限"
+}
+{
+  "Privacy policy"
+  "隐私策略"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "SYSTEM"
+  "系统"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Screen size:"
+  "屏幕尺寸："
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Send feedback"
+  "发送反馈"
+}
+{
+  "Send feedback…"
+  "发送反馈…"
+}
+{
+  "Set by System default"
+  "按系统默认设置"
+}
+{
+  "Set delay for timer to block screen (in seconds)"
+  "指定延迟多少秒后再锁定屏幕"
+}
+{
+  "Set language"
+  "设置语言"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Settings error"
+  "设置错误"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Show animation when unblocking"
+  "解锁时显示动画"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Show unblock animation"
+  "显示解锁动画"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "System locale"
+  "跟随系统（中文）"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Tap to enable screen block"
+  "点击锁定屏幕"
+}
+{
+  "Tap to switch to selecting a day"
+  "点击切换到选择日期"
+}
+{
+  "Tap to switch to selecting a year"
+  "点击切换到选择年份"
+}
+{
+  "Temporarily unblock screen on incoming phone call"
+  "来电时暂时取消锁定屏幕"
+}
+{
+  "Theme"
+  "主题"
+}
+{
+  "This option will enable notification that will be shown in your notification bar. By tapping on that notification you will block your screen from touches. You can then unblock your screen by holding unblock icon for 1 second or double tapping it. Unblock options can be changed in settings."
+  "启用通知栏的辅助通知。点击该通知可以锁定屏幕。按住解锁图标1秒或双击可解锁。解锁选项可在设置中更改。"
+}
+{
+  "This service block input from HOME, RECENT and BACK keys as well as Volume Up and Down keys. This service does not collect any data"
+  "此服务用以屏蔽主页、多任务和后退键及音量上下键输入。此服务不收集任何数据"
+}
+{
+  "Timer"
+  "定时器"
+}
+{
+  "Timer delay"
+  "延迟定时"
+}
+{
+  "Tip: You can move icon by dragging it!"
+  "提示：您可以通过拖动图标来移动它！"
+}
+{
+  "To unblock with only volume keys, accessibility service for this app has to be enabled. Please enable it in system settings"
+  "若要仅使用音量键解锁，必须启用此应用的无障碍服务。请在系统设置中启用它"
+}
+{
+  "Touch Blocker Feedback"
+  "Touch Blocker反馈"
+}
+{
+  "Unblock by holding"
+  "长按解锁"
+}
+{
+  "Unblock by pressing"
+  "按下解锁"
+}
+{
+  "Unblock on incoming phone call"
+  "来电时解锁"
+}
+{
+  "Unblock on proximity"
+  "物体接近时解锁"
+}
+{
+  "Unblock screen"
+  "解锁屏幕"
+}
+{
+  "Unblock screen by pressing and holding the unblock icon"
+  "长按解锁图标解锁屏幕"
+}
+{
+  "Unblock screen by pressing and holding volume up or down button"
+  "按住音量加／减键解锁屏幕"
+}
+{
+  "Unblock screen by quickly pressing volume up or down button %1$d times"
+  "通过快速按下音量上下按钮%1$d次来解锁屏幕"
+}
+{
+  "Unblock screen by quickly tapping on the unblock icon %1$d times"
+  "快速点击解锁图标%1$d次，解锁屏幕"
+}
+{
+  "Unblock screen when blocked with proximity"
+  "当有物体接近时解锁屏幕"
+}
+{
+  "Unblock settings"
+  "解除锁定设置"
+}
+{
+  "Unblock tap count"
+  "解锁点击次数"
+}
+{
+  "Unblock touch duration"
+  "解锁触摸持续时间"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Volume hold unblock"
+  "音量保持解除锁定"
+}
+{
+  "Volume press unblock"
+  "音量键解锁"
+}
+{
+  "Volume unblock press count"
+  "音量解锁按次数"
+}
+{
+  "Volume unblock settings"
+  "音量解锁设置"
+}
+{
+  "Volume unblock touch duration"
+  "音量解锁触摸持续时间"
+}
+{
+  "When you have blocked your screen, tap your screen anywhere to show the unblock icon in shape of padlock, then hold it down or double tap it to unblock your screen (you can change unblock options in settings)."
+  "当您锁定屏幕时，点击屏幕任意位置以显示挂锁形状的解锁图标。长按或双击以解锁屏幕（您可以在设置中更改解锁选项）。"
+}
+{
+  "Why are my home, back and recents buttons still working after blocking screen?"
+  "为何我的主页、后退和多任务按键在设置锁定后仍然有效？"
+}
+{
+  "Will not turn off screen while screen block is enabled"
+  "启用屏幕阻止时不会关闭屏幕"
+}
+{
+  "Write your feedback here"
+  "在此处写下您的反馈"
+}
+{
+  "Yes"
+  "确认"
+}
+{
+  "You can block your screen by tapping on newly created notification. To unblock your screen you need to either tap quickly %1$d times on block icon on your screen, or touch and hold block icon for %2$d second"
+  "您可以通过点击新创建的通知来锁定屏幕。要解锁屏幕，您需要快速点击屏幕上的阻止图标%1$d次，或长按阻止图标%2$d秒"
+}
+{
+  "You didn't allow permission. Cannot enable notification."
+  "没有权限，无法启用通知。"
+}
+{
+  "You didn't enable TouchBlocker service. Cannot disable all hardware keys."
+  "没有启用TouchBlocker服务，无法禁用所有实体按键。"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "space"
+  "空间"
+}

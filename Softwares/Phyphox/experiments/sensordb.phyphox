@@ -1,0 +1,1538 @@
+<phyphox version="1.19" locale="en">
+  <title>Submit to sensor database</title>
+  <category>phyphox.org</category>
+  <color>white</color>
+  <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAl8SURBVHic7d1bzBxlHcfxb6FSKtiWVvBAqQFRgglqRbAcKhHRBLSkQW80xlPjoV5hKKKSclCrcGeMoiYeQOSCSDAaC9WKSosCrUQMYgVjQAqIEFva0tPb0nrxbO123Xn2MPM8szvv95NM0t3Znf9/tvt7d84DkiRJkiRJkiRJkiRJkiRJkuoxpe4GGmI6cAawEDgTOB6YDRwDzEpc+3lgM7AJeApYB6wF1gM7E9eWok4HbiZ8EfeP2LAD+BEwP9ncSwXmALcA+6g/CL2GfYQQz07ySUgd3gw8Sf1f/EGHja3epWTeAmyh/i/7sMMWXORSIscBT1P/l7zs8BRwbMWfjcRt1P/lrmq4teLPRpPcOdT/pa56OKvST6ihptbdwJhYFhm3GrgrVyMDeifwroJxlwHvz9iLGmo2MEH3v8IPA0fX11pPRwMb6N77BGFHplTKxRQvpiyqsa9+Laa4//fW2Jca4nq6f7keAw6rsa9+HQY8Tvd5uK6+tsbDOPwH1+3sgufvJuylHnX7CL12UzRvajEgvR1f8Py6rF2Us77g+aJ5U4sB6a3oGKZnsnZRTlGvHp/VgwGJmwrMKBj3fM5GStpc8PxM3NQfZUDiXkrxOTM7cjZS0vaC56cQ5lEFDIgUYUCkCAMiRRgQKcKASBEGRIowIFKEAZEiDIgUYUCkCAMiRRgQKcKASBEGRIowIFKEAZEiDIgUYUCkCAMiRRgQKcKASBEGRIowIFKEAZEiDIgUYUCkCAMiRRgQKcKASBEGRIowIFKEAZEiDIgUYUCkCAMiRRgQKcKASBEGRIqo4x7Zs4APAucBpwHHANOGnNZuwj3AHwLWALcwXvcvl/7nMOBKYCuwP9GwtVWjql/GGZFaCyqqkcMCiudjRo19qeVw4KekC0bn8LNWzbIMyCSXax3kK8DiTLUALm7VlErJsQ4yD7is7fGLwD8T1XoNB385LgNuADYmqiVVYgWH/qQvS1hrWUetFSWn5yKWkruXg/8ZzwBHJKx1RKvGgXr3lpyeAZnkUq+DTAHmtz1eA0wkrDfRqnHA/FYP0lBSB+RlHLqP4/HE9TprTMO/kCohR0Da7UhcD+CFjscGREPLsYjVbn/iet1quIiloXkslhRhQKSIOg5W1OTxKsLBqNOHfP9OwsGo/6qsowEZEFXt3cCngIXAsRVN81lgLfAd4NcVTbMvLmKpKscBdwG/BC6hunAcmPb7gNWtocppRxkQVeHlwH3A+RlqXdCqNTtDLQOiStwInJix3kmtmsm5DjK82whnNI6DYc/Y7McC4D1tj58jnPuTwiWEXyuARcAZwPpEtQADUsbxdTcwIpZ0PP4wsCpRrZ8Dv+ionTQgLmKprLe3/XsD6cIBsBL4e9vjhQlrAQZE5UwFXtf2+A8ZarbXOIXE32EDojKO4dBj3Z7JULO9xuHAzJTFDIjK6NxDnmOjxc6Ox0elLGZApAgDIkUYECnC/SD12QQ81udrZwInJ+xFBQxI3K6E074T+FCfr70QuCNRHynncey5iBU3wf+f494k20h7lZmxZ0B621x3AwltqruBUWdAenu27gYSeq7uBkadAeltXd0NJHR/3Q2MOlfSe/s9sDTBdN8GfLfP156QoD7kOXZqrBmQ3tYmmu7J1L/pNtW8NYaLWL09QTP/0q7BW0P0ZED68426G0igifNUOQPSn58AD9TdRIXWA7fX3cQ4MCD92Qd8jPE5Bz1mF2FeclwneewZkP49BHyEEJZxtR/4BPBw3Y2MCwMymFuBjzKeh2dMEAL+47obGScGZHA3Ey5U8EjdjQxgA3AuoXeNkLnkuzd60TAv0bwdQdiB+OgIzGPR8Dfgk8BLEn0G8zrqLU9Up93VHTXnpizmjsLhTQDfJlxQ+SzgPOAc4GzCxQzqsImwz+Ye4G7CoSSujJdgQMrbT/hStu9MnEa4duxs4MjE9XcRgvEfxnPdaKQZkDR2E+5pUdt9LVQNV9KliNS/IMMs/+4GbioYdyGDH9nqMriGljog24Z4z3bCHYq6uYPBA7J1iB4kIP0i1jZgT+IaMXswICohxyLWg4T7OPRrKnB6wbhBr8P6IC5iqYQcW7F+x2ABmQH8scLao+4dHHoLgXZrgN9m7EU1OJGwqJN7L/Je4LUZ5q+sFRTPw4oa++pH4/ek59jM+xjwrQx1On0T+EcNddUgufaDXE7e+1vfBXwuYz01VK496XsI+zC+DFxKusMvdgFfJ/zU701UQ8VOItymOXWNRnsFcAXhfnNPEPZ7DLuesb01jZXA54FXZpyPqjRpHaSOoXFH8/4buL41SCPNY7GkCAMiRRgQKcLzQVTGi0O8ZxuwpGDclcCbMvTQNwOiMrYM8Z7dhAvxdbOEwQOS9P4tLmKpjBcIm9rrsoXEt5AbxV+Q2MF7a4HfZOxFvd0PnD/A66cT9oN1c+IQtZMaxYBcAHyxYNzXMCCj5k4GC8hRwHUV1V5V0XQKuYilsr5HPSelbQG+n7qIAVFZzwOfqaHupWQIpgFRFW4BriHP2Zv7gKuAGzPUMiCqzLXARcCfEtZ4gINHhWcxiivpGl+rWsOZwELgjZS7uuSBq0b+mbAFc30FPQ7EgCiFdTTk9tkuYkkRBkSKcBGrekspPhjvB8ANGXtRSQakenMpvvDdr3I2ovJcxJIi/AVRblMp/t7tZcSuRuMviHL7ErCzYLi2xr66MiBShAGRIgyIFGFApAi3YqnTacCpBeP+CvwlYy+1m4wBmQu8umDc08CTGXsZRR8AvlAw7quES/NMGpMxIEuJn/NeNE6TUI6ATKP4fIBdhOskqX9+nhnlWElfTjhvudtwTYb6TXM1xZ/nVTX21UhuxVLTLCPceq/b8NlBJzYZ10HUbHMovgvVnEEnZkBU1jzghIJxGwl3ABtbBkRlfZoGbxZ2HUSKaEJAlhMuQ9ltcKuOSmnCItaRwIzIOGloTfgFkZIxIFKEAZEihlkHWQwsKhi3Erh9+Hak0TJMQN4KfLxg3LMYEDWIi1gadVcQ9sh3Gy5PXbwJm3nVbLMIJ7l1MzN1cQPSfOcCCwrG3Qfck7GXsWNAmu8i4sdKGZAI10GkCAMiRRgQKcKASBEGRIpwK1ZvSyk+cuCHeEu1RjMgvc0lHF7TzeqcjSg/F7GkCAMiRRgQKcKASBEGRIowIFKEAZEiDIgUYUCkiClDvOdU4JSCcY8SbvSY6vWPABt8/aR6/RuA1yd8vSRJkiRJkiRJkiRJ6tt/ATy+3QMv5jZJAAAAAElFTkSuQmCC</icon>
+  <description>Submit information about the sensors in your phone to phyphox.org.
+
+This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.</description>
+  <translations>
+    <translation locale="cs">
+      <string original="Results">Výsledky</string>
+      <title>Odeslat do databáze senzorů</title>
+      <category>phyphox.org</category>
+      <description>Odešlete informace o senzorech v telefonu na phyphox.org.
+
+Tento experiment shromáždí technická data o vašem telefonu a senzorech, která můžete odeslat do naší databáze senzorů. Data budou agregována a dána k dispozici dalším uživatelům, aby nám a ostatním pomohla dozvědět se o dostupnosti a schopnostech senzorů napříč různými zařízeními.</description>
+      <string original="Submit">Odeslat</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Tento experiment shromáždí technická data o vašem telefonu a senzorech, která můžete odeslat do naší databáze senzorů. Data budou agregována a dána k dispozici dalším uživatelům, aby nám a ostatním pomohla dozvědět se o dostupnosti a schopnostech senzorů napříč různými zařízeními.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Položte telefon na stabilní povrch a stiskněte start. Vyvarujte se přitom pohybu (jízda v autě, ve vlaku atd.) a vibrujícím povrchům (hlasitá hudba, vibrace z vozidel atd.), protože by to zkreslilo výsledky.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox bude chvíli shromažďovat data a nakonec vám řekne, abyste data odeslali.</string>
+      <string original="Step">Krok</string>
+      <string original="Waiting for start">Čekání na start</string>
+      <string original="Collecting data">Sběr dat</string>
+      <string original="You may now press submit">Nyní můžete stisknout odeslat</string>
+      <string original="Success. Thank you!">Dokončeno. Děkujeme!</string>
+      <string original="Confidence">Spolehlivost</string>
+      <string original="Accelerometer">Měřič zrychlení</string>
+      <string original="Rate">Tempo</string>
+      <string original="Average">Průměr</string>
+      <string original="Standard deviation">Standardní odchylka</string>
+      <string original="Acceleration (without g)">Zrychlení (bez g)</string>
+      <string original="Gyroscope">Gyroskop</string>
+      <string original="Magnetometer">Magnetometr</string>
+      <string original="Barometer">Barometr</string>
+      <string original="Temperature">Teplota</string>
+      <string original="Humidity">Vlhkost</string>
+      <string original="Light">Světlo</string>
+      <string original="Proximity">Přiblížení</string>
+    </translation>
+    <translation locale="de">
+      <string original="Results">Ergebnisse</string>
+      <string original="Gyroscope">Gyroskop</string>
+      <title>An Sensor-Datenbank senden</title>
+      <category>phyphox.org</category>
+      <description>Übermittle Informationen zu den Sensoren deines Handys an phyphox.org.
+
+Dieses Experiment sammelt technische Informationen über dein Handy und seine Sensore. Dies kannst du an unsere Datenbank übermitteln, wo wir die Daten zusammenfassen und anderen Nutzern zur Verfügung stellen. Dies hilft uns und anderen, mehr über die Verfügbarkeit und die Fähigkeiten der Sensoren auf verschiedenen Geräten zu lernen.</description>
+      <string original="Submit">Abschicken</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Dieses Experiment sammelt technische Informationen über dein Handy und die darin verbauten Sensoren, was du an unsere Sensor-Datenbank senden kannst. Die Daten werden zusammengefasst und anderen Nutzern zur Verfügung gestellt, so dass wir und andere herausfinden können, welche Sensoren mit welchen Eigenschaften auf verschiedenen Geräten zur Verfügung stehen.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Bitte lege dein Handy auf eine stabile Unterlage und drücke Start. Vermeide bitte, dieses Experiment in Bewegung (Auto, Zug usw.) oder auf vibrierenden Flächen (laute Musik, Vibration von Fahrzeugen usw.) durchzuführen, da dies die Ergebnisse verfälscht.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox wird eine Weile Daten sammeln und dir schließlich mitteilen, dass du die Daten übermitteln kannst.</string>
+      <string original="Step">Schritt</string>
+      <string original="Waiting for start">Warte auf Start</string>
+      <string original="Collecting data">Sammle Daten</string>
+      <string original="You may now press submit">Du kannst nun "Abschicken" drücken</string>
+      <string original="Success. Thank you!">Übermittelt. Danke!</string>
+      <string original="Confidence">Zuverlässigkeit</string>
+      <string original="Accelerometer">Beschleunigungssensor</string>
+      <string original="Average">Mittelwert</string>
+      <string original="Standard deviation">Standardabweichung</string>
+      <string original="Acceleration (without g)">Beschleunigung (ohne g)</string>
+      <string original="Temperature">Temperatur</string>
+      <string original="Humidity">Luftfeuchtigkeit</string>
+      <string original="Light">Licht</string>
+      <string original="Proximity">Annäherung</string>
+    </translation>
+    <translation locale="el">
+      <string original="Results">Αποτελέσματα</string>
+      <string original="Gyroscope">Γυροσκόπιο</string>
+      <string original="Magnetometer">Μαγνητόμετρο</string>
+      <title>Υποβολή στη βάση δεδομένων αισθητήρων</title>
+      <category>phyphox.org</category>
+      <description>Υποβάλλεται πληροφορίες για τους αισθητήρες του κινητού σας στο phyphox.org.
+
+Αυτό το πείραμα θα συλλέξει τεχνικά στοιχεία σχετικά με το τηλέφωνο και τους αισθητήρες σας, τα οποία μπορείτε να υποβάλετε στην βάση δεδομένων αισθητήρων. Τα δεδομένα συγκεντρώνονται και θα είναι διαθέσιμα σε άλλους χρήστες για να βοηθήσουν εμάς και άλλους να μάθουμε τη διαθεσιμότητα και δυνατότητες των αισθητήρων διάφορων συσκευών.</description>
+      <string original="Submit">Υποβολή</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Αυτό το πείραμα θα συλλέξει τεχνικά στοιχεία σχετικά με το τηλέφωνο και τους αισθητήρες σας, τα οποία μπορείτε να υποβάλετε στην βάση δεδομένων αισθητήρων. Τα δεδομένα συγκεντρώνονται και θα είναι διαθέσιμα σε άλλους χρήστες για να βοηθήσουν εμάς και άλλους να μάθουμε τη διαθεσιμότητα και δυνατότητες των αισθητήρων διάφορων συσκευών.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Παρακαλώ τοποθετήστε το τηλέφωνό σας πάνω σε μια σταθερή επιφάνεια και πιέστε εκκίνηση. Αποφύγετε να το κάνετε κατά τη διάρκεια κίνησης (αυτοκίνητο, τρένο κ.λ.π) ή πάνω σε μια επιφάνεια που δονείται (δυνατή μουσική, δονήσεις οχημάτων) καθώς κάτι τέτοιο θα παραμορφώσει τα αποτελέσματα.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Το phyphox θα συλλέξει δεδομένα για ένα λεπτό και μετά θα σας ζητήσει την υποβολή τους.</string>
+      <string original="Step">Βήμα</string>
+      <string original="Waiting for start">Αναμονή για έναρξη</string>
+      <string original="Collecting data">Συλλογή δεδομένων</string>
+      <string original="You may now press submit">Μπορείτε τώρα να πατήσετε υποβολή</string>
+      <string original="Success. Thank you!">Επιτυχής Υποβολή. Ευχαριστούμε !</string>
+      <string original="Confidence">Εμπιστοσύνη</string>
+      <string original="Accelerometer">Επιταχυνσιόμετρο</string>
+      <string original="Rate">Ρυθμός</string>
+      <string original="Average">Μέσος</string>
+      <string original="Standard deviation">Τυπική απόκλιση</string>
+      <string original="Acceleration (without g)">Επιτάχυνση (χωρίς g)</string>
+      <string original="Barometer">Βαρόμετρο</string>
+      <string original="Temperature">Θερμοκρασία</string>
+      <string original="Humidity">Υγρασία</string>
+      <string original="Light">Φως</string>
+      <string original="Proximity">Εγγύτητα</string>
+    </translation>
+    <translation locale="fr">
+      <string original="Results">Résultats</string>
+      <string original="Magnetometer">Magnétomètre</string>
+      <title>Envoyez à la base de données sur les capteurs</title>
+      <category>phyphox.org</category>
+      <description>Envoyez des informations sur les capteurs de votre téléphone à phyphox.org.
+
+Cette expérience collectera des données techniques de votre téléphone et vos capteurs, que vous pourrez soumettre à notre base de données de capteurs. Les données seront regroupées et mises à la disposition d'autres utilisateurs pour nous aider, ainsi que d'autres, à connaître la disponibilité et la capacité des capteurs sur les différents appareils.</description>
+      <string original="Submit">Envoyez</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Cette expérience collectera des données techniques de votre téléphone et de vos capteurs, que vous pourrez soumettre à notre base de données de capteurs. Les données seront regroupées et mises à la disposition d'autres utilisateurs pour nous aider, ainsi que d'autres, à connaître la disponibilité et la capacité des capteurs sur les différents appareils.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Veuillez placer votre téléphone sur une surface stable et appuyez sur Démarrer. Évitez de le faire en vous déplaçant (voiture, train, etc.) ou sur une surface vibrante (musique forte, vibrations des véhicules, etc.) car cela fausserait les résultats.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox collectera les données pendant une certaine durée et vous demandera éventuellement d'envoyer les données.</string>
+      <string original="Step">Etape</string>
+      <string original="Waiting for start">En attente du début</string>
+      <string original="Collecting data">Collecte de données</string>
+      <string original="You may now press submit">Vous pouvez maintenant appuyer sur envoyer</string>
+      <string original="Success. Thank you!">Données envoyées. Merci !</string>
+      <string original="Accelerometer">Accéléromètre</string>
+      <string original="Rate">Taux</string>
+      <string original="Average">Moyenne</string>
+      <string original="Standard deviation">Déviation standard</string>
+      <string original="Acceleration (without g)">Accélération (sans la gravité g)</string>
+      <string original="Barometer">Baromètre</string>
+      <string original="Temperature">Température</string>
+      <string original="Humidity">Humidité</string>
+      <string original="Light">Lumière</string>
+      <string original="Proximity">Proximité</string>
+    </translation>
+    <translation locale="it">
+      <string original="Gyroscope">Giroscopio</string>
+      <string original="Magnetometer">Magnetometro</string>
+      <title>Invia al sensor database</title>
+      <category>phyphox.org</category>
+      <description>Invia informazioni sui sensori del tuo telefono a phyphox.org.
+
+Quest'esperimento raccoglierà alcuni dati usando i sensori a bordo del tuo telefono e li invierà alla nostra banca dati. Qui, i dati saranno analizzati e se ne ricaveranno le prestazioni in termini di precisione e accuratezza, per consentire la comparazione tra diversi modelli.</description>
+      <string original="Submit">Invia</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Quest'esperimento raccoglierà alcuni dati con i sensori del tuo telefono, che invierà nostra banca dati dei sensori. I dati saranno aggregati e messi a disposizione di altri utenti per conoscere la disponibilità e la capacità dei sensori su diversi dispositivi.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Posiziona il telefono su una superficie stabile e premi start. Non farlo se sei in un veicolo in moto (auto, treno, ecc.), in luoghi con musica ad alto volume, su superfici che possono vibrare in conseguenza al passaggio di veicoli, ecc.) perché questo distorcerà i risultati.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox acquisirà alcuni dati. Al termine ti chiederà di inviarli al nostro database.</string>
+      <string original="Waiting for start">In attesa della partenza</string>
+      <string original="Collecting data">Acquisizione in corso</string>
+      <string original="You may now press submit">Ora puoi inviare i dati</string>
+      <string original="Success. Thank you!">Fatto. Grazie!</string>
+      <string original="Confidence">Confidenza</string>
+      <string original="Accelerometer">Accelerometro</string>
+      <string original="Rate">Tasso</string>
+      <string original="Average">Media</string>
+      <string original="Standard deviation">Deviazione standard</string>
+      <string original="Acceleration (without g)">Accelerazione (senza g)</string>
+      <string original="Barometer">Barometro</string>
+      <string original="Temperature">Temperatura</string>
+      <string original="Humidity">Umidità</string>
+      <string original="Light">Luce</string>
+      <string original="Proximity">Prossimità</string>
+    </translation>
+    <translation locale="ja">
+      <string original="Results">結果</string>
+      <string original="Gyroscope">ジャイロスコープ</string>
+      <string original="Magnetometer">磁力計</string>
+    </translation>
+    <translation locale="nl">
+      <string original="Results">Resultaten</string>
+      <string original="Gyroscope">Gyroscoop</string>
+    </translation>
+    <translation locale="pl">
+      <string original="Results">Rezultaty</string>
+      <string original="Gyroscope">Żyroskop</string>
+      <string original="Magnetometer">Magnetometr</string>
+    </translation>
+    <translation locale="pt">
+      <string original="Results">Resultados</string>
+      <string original="Gyroscope">Giroscópio</string>
+      <string original="Magnetometer">Magnetômetro</string>
+    </translation>
+    <translation locale="ru">
+      <string original="Results">Результаты</string>
+      <string original="Gyroscope">Гироскоп</string>
+      <string original="Magnetometer">Магнитометр</string>
+      <title>Отправить в базу данных датчиков</title>
+      <category>phyphox.org</category>
+      <description>Отправьте информацию о датчиках в телефоне на phyphox.org.
+
+В ходе этого эксперимента будут собраны технические данные о вашем телефоне и датчиках, которые вы можете отправить в нашу базу данных датчиков. Данные будут агрегированы и доступны другим пользователям, чтобы помочь нам и другим узнать о доступности и возможностях датчиков на различных устройствах.</description>
+      <string original="Submit">Отправить</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">В ходе этого эксперимента будут собраны технические данные о вашем телефоне и датчиках, которые вы можете отправить в нашу базу данных датчиков. Данные будут агрегированы и доступны другим пользователям, чтобы помочь нам и другим узнать о доступности и возможностях датчиков на различных устройствах.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Пожалуйста, поместите телефон на устойчивую поверхность и нажмите Пуск. Не делайте этого во время движения (автомобиль, поезд и т.д.) или на вибрирующей поверхности (громкая музыка, вибрации от автомобилей и т.д.), так как это может исказить результаты.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox соберет данные в течение некоторого времени и в конечном итоге скажет вам, чтобы вы отправили эти данные.</string>
+      <string original="Step">Шаг</string>
+      <string original="Waiting for start">Ожидание старта</string>
+      <string original="Collecting data">Сбор данных</string>
+      <string original="You may now press submit">Теперь вы можете нажать кнопку Отправить</string>
+      <string original="Success. Thank you!">Отправлено. Спасибо!</string>
+      <string original="Confidence">Надёжность</string>
+      <string original="Accelerometer">Акселерометр</string>
+      <string original="Rate">Скорость</string>
+      <string original="Average">Среднее значение</string>
+      <string original="Standard deviation">Стандартное отклонение</string>
+      <string original="Acceleration (without g)">Ускорение (без g)</string>
+      <string original="Barometer">Барометр</string>
+      <string original="Temperature">Температура</string>
+      <string original="Humidity">Влажность</string>
+      <string original="Light">Свет</string>
+      <string original="Proximity">Сближение</string>
+    </translation>
+    <translation locale="sr">
+      <string original="Results">Rezultati</string>
+      <string original="Gyroscope">Žiroskop</string>
+      <string original="Magnetometer">Magnetometar</string>
+      <title>Pošaljite u bazu podataka senzora</title>
+      <category>phyphox.org</category>
+      <description>Informacije o senzorima u vašem telefonu pošaljite na phiphok.org.
+
+Ovaj eksperiment će prikupiti tehničke podatke o vašem telefonu i vašim senzorima koje možete poslati u našu bazu podataka senzora. Podaci će biti sakupljeni i dostupni drugim korisnicima kako bi se nama i drugima moglo pomoći da saznamo o dostupnosti i sposobnosti senzora na različitim uređajima.</description>
+      <string original="Submit">Prihvati</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Ovaj eksperiment će prikupiti tehničke podatke o vašem telefonu i vašim senzorima koje možete poslati u našu bazu podataka senzora. Podaci će biti sakupljeni i dostupni drugim korisnicima kako bi se nama i drugima moglo pomoći da saznamo o dostupnosti i sposobnosti senzora na različitim uređajima.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Postavite telefon na stabilnu površinu i pritisnite start. Izbegavajte to da činite dok se krećete (automobil, voz, itd.) ili dok se nalazite na vibrirajućoj površini (glasna muzika, vibracije iz vozila itd.), jer će to pokvariti rezultate.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox će na trenutak prikupljati podatke i na kraju vam reći da prihvatite podatke.</string>
+      <string original="Step">Korak</string>
+      <string original="Waiting for start">Čekanje na početak</string>
+      <string original="Collecting data">Prikupljanje podataka</string>
+      <string original="You may now press submit">Možete pritisnuti dugme prihvati</string>
+      <string original="Success. Thank you!">Uspešno obavljeno. Hvala vam!</string>
+      <string original="Confidence">Samopouzdanje</string>
+      <string original="Accelerometer">Merač ubrzanja</string>
+      <string original="Rate">Stopa</string>
+      <string original="Average">Prosek</string>
+      <string original="Standard deviation">Standardna devijacija</string>
+      <string original="Acceleration (without g)">Ubrzanje (bez g)</string>
+      <string original="Barometer">Barometar</string>
+      <string original="Temperature">Temperatura</string>
+      <string original="Humidity">Vlašnost</string>
+      <string original="Light">Svetlost</string>
+      <string original="Proximity">Blizina</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <string original="Results">Rezultati</string>
+      <string original="Gyroscope">Žiroskop</string>
+      <string original="Magnetometer">Magnetometar</string>
+    </translation>
+    <translation locale="tr">
+      <string original="Results">Sonuçlar</string>
+      <string original="Gyroscope">Jiroskop</string>
+      <string original="Magnetometer">Manyetometre</string>
+      <title>Sensör veritabanına gönder</title>
+      <category>phyphox.org</category>
+      <description>Telefonunuzdaki sensörler hakkında bilgileri phyphox.org adresine gönderin.
+
+Bu deney, telefonunuz ve sensörleriniz hakkında, sensör veri tabanımıza gönderebileceğiniz teknik veriler toplar. Veriler toplanıp, farklı cihazlardaki sensörlerin kullanılabilirliği ve kapasitesi hakkında bilgi edinmemize yardımcı olmak için diğer kullanıcılara sunulacaktır.</description>
+      <string original="Submit">Gönder</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Bu deney, telefonunuz ve sensörleriniz hakkında, sensör veri tabanımıza gönderebileceğiniz teknik veriler toplar. Veriler toplanıp, farklı cihazlardaki sensörlerin kullanılabilirliği ve kapasitesi hakkında bilgi edinmemize yardımcı olmak için diğer kullanıcılara sunulacaktır.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Lütfen telefonunuzu sabit bir yüzeye yerleştirin ve başlat düğmesine basın. Sonuçları değiştirebileceği için hareket halindeyken (araba, tren vb.) veya titreşimli bir yüzeyde (yüksek sesli müzik, araçlardan kaynaklanan titreşimler vb.) deney yapmaktan kaçının.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox bir an için veri toplayacak ve sonunda size veri göndermenizi söyleyecektir.</string>
+      <string original="Step">Adım</string>
+      <string original="Waiting for start">Başlatma bekleniyor</string>
+      <string original="Collecting data">Veri toplanıyor</string>
+      <string original="You may now press submit">Şimdi gönder'e basabilirsiniz</string>
+      <string original="Success. Thank you!">Başarılı. Teşekkür ederim!</string>
+      <string original="Confidence">Güven</string>
+      <string original="Accelerometer">İvme ölçer</string>
+      <string original="Rate">Oran</string>
+      <string original="Average">Ortalama</string>
+      <string original="Standard deviation">Standart sapma</string>
+      <string original="Acceleration (without g)">İvmelenme (g olmadan)</string>
+      <string original="Barometer">Barometre</string>
+      <string original="Temperature">Sıcaklık</string>
+      <string original="Humidity">Nem</string>
+      <string original="Light">Işık</string>
+      <string original="Proximity">Yakınlık</string>
+    </translation>
+    <translation locale="vi">
+      <string original="Results">Kết quả</string>
+      <string original="Gyroscope">Con quay hồi chuyển</string>
+      <string original="Magnetometer">Từ kế</string>
+      <title>Gửi đến dữ liệu cảm biến</title>
+      <category>phyphox.org</category>
+      <description>Gửi thông tin về các cảm biến trong điện thoại của bạn tới phyphox.org.
+
+Thí nghiệm này sẽ thu thập dữ liệu kỹ thuật về điện thoại và cảm biến của bạn. Bạn có thể gửi dữ liệu này tới cơ sở dữ liệu cảm biến của chúng tôi. Dữ liệu sẽ được tổng hợp và cung cấp cho những người dùng khác để giúp chúng tôi và những người khác tìm hiểu về tính khả dụng và khả năng của các cảm biến trên các thiết bị khác nhau.</description>
+      <string original="Submit">Gửi</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Thí nghiệm này sẽ thu thập dữ liệu kỹ thuật về điện thoại và cảm biến của bạn. Bạn có thể gửi dữ liệu này tới cơ sở dữ liệu cảm biến của chúng tôi. Dữ liệu sẽ được tổng hợp và cung cấp cho những người dùng khác để giúp chúng tôi và những người khác tìm hiểu về tính khả dụng và khả năng của các cảm biến trên các thiết bị khác nhau.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Vui lòng đặt điện thoại của bạn trên một bề mặt ổn định và nhấn bắt đầu. Tránh làm điều này khi đang di chuyển (ô tô, tàu hỏa, v.v.) hoặc trên bề mặt rung động (âm nhạc lớn, rung động từ xe cộ, v.v.) vì điều này sẽ làm sai lệch kết quả.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox sẽ thu thập dữ liệu trong giây lát và sau đó yêu cầu bạn gửi dữ liệu.</string>
+      <string original="Step">Bước</string>
+      <string original="Waiting for start">Đang chờ bắt đầu</string>
+      <string original="Collecting data">Đang thu thập dữ liệu</string>
+      <string original="You may now press submit">Bây giờ bạn có thể nhấn gửi</string>
+      <string original="Success. Thank you!">Thành công. Cảm ơn!</string>
+      <string original="Confidence">Sự tự tin</string>
+      <string original="Accelerometer">Gia tốc kế</string>
+      <string original="Rate">Tốc độ</string>
+      <string original="Average">Trung bình</string>
+      <string original="Standard deviation">Độ lệch chuẩn</string>
+      <string original="Acceleration (without g)">Gia tốc (không có g)</string>
+      <string original="Barometer">Áp kế</string>
+      <string original="Temperature">Nhiệt độ</string>
+      <string original="Humidity">Độ ẩm</string>
+      <string original="Light">Ánh sáng</string>
+      <string original="Proximity">Tiệm cận</string>
+    </translation>
+<translation locale="zh-Hans">
+      <string original="Results">结果</string>
+      <string original="Gyroscope">陀螺仪</string>
+      <title>发送至传感器数据库</title>
+      <category>phyphox.org</category>
+      <description>将手机传感器信息发送至 phyphox.org。
+
+本实验会收集有关你手机及其传感器的技术信息。你可以将这些信息发送到我们的数据库，我们会汇总这些数据并提供给其他用户。这有助于我们和其他人更多地了解不同设备上传感器的可用性和性能。</description>
+      <string original="Submit">提交</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">本实验会收集有关你手机及其内置传感器的技术信息，你可以将这些信息发送到我们的传感器数据库。这些数据将被汇总并提供给其他用户，以便我们和其他人了解不同设备上具备哪些特性的传感器可用。</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">请将手机放在稳定的平面上，然后按下开始。请勿在移动过程中（如乘车、火车等）或在振动表面上（如大声播放音乐、车辆振动等）进行此操作，因为这会影响结果的准确性。</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox 将收集一段时间的数据，最终会提示你提交数据。</string>
+      <string original="Step">步骤</string>
+      <string original="Waiting for start">等待开始</string>
+      <string original="Collecting data">正在收集数据</string>
+      <string original="You may now press submit">你现在可以点击“提交”</string>
+      <string original="Success. Thank you!">提交成功。感谢！</string>
+      <string original="Confidence">可信度</string>
+      <string original="Accelerometer">加速度计</string>
+      <string original="Average">平均值</string>
+      <string original="Standard deviation">标准差</string>
+      <string original="Acceleration (without g)">加速度（不含g）</string>
+      <string original="Temperature">温度</string>
+      <string original="Humidity">湿度</string>
+      <string original="Light">光线</string>
+      <string original="Proximity">距离</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <string original="Results">結果</string>
+    </translation>
+    <translation locale="es">
+      <title>Enviar a la base de datos del sensor</title>
+      <category>phyphox.org</category>
+      <description>Envíe información sobre los sensores en su teléfono a phyphox.org.
+
+Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, que puede enviar a nuestra base de datos de sensores. Los datos se agregarán y se pondrán a disposición de otros usuarios para ayudarnos a nosotros y a otros a conocer la disponibilidad y la capacidad de los sensores en diferentes dispositivos.</description>
+      <string original="Submit">Enviar</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">Este experimento recopilará datos técnicos sobre su teléfono y sus sensores, que puede enviar a nuestra base de datos de sensores. Los datos se agregarán y se pondrán a disposición de otros usuarios para ayudarnos a nosotros y a otros a conocer la disponibilidad y la capacidad de los sensores en diferentes dispositivos.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">Coloque su teléfono en una superficie estable y presione iniciar. Evite hacer esto mientras se mueve (automóvil, tren, etc.) o en una superficie vibratoria (música alta, vibraciones de vehículos, etc.) ya que esto distorsionará los resultados.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox recopilará datos por un momento y eventualmente le pedirá que envíe los datos.</string>
+      <string original="Step">Paso</string>
+      <string original="Waiting for start">Esperando el inicio</string>
+      <string original="Collecting data">Recolectando datos</string>
+      <string original="You may now press submit">Ahora puede presionar enviar</string>
+      <string original="Success. Thank you!">Éxito. ¡Gracias!</string>
+      <string original="Confidence">Confidencial</string>
+      <string original="Results">Resultados</string>
+      <string original="Accelerometer">Acelerómetro</string>
+      <string original="Rate">tasa</string>
+      <string original="Average">Promedio</string>
+      <string original="Standard deviation">Desviación Estándar</string>
+      <string original="Acceleration (without g)">Aceleración (sin g)</string>
+      <string original="Gyroscope">Giroscopio</string>
+      <string original="Magnetometer">Magnetómetro</string>
+      <string original="Barometer">Barómetro</string>
+      <string original="Temperature">Temperatura</string>
+      <string original="Humidity">Humedad</string>
+      <string original="Light">Luz</string>
+      <string original="Proximity">Proximidad</string>
+    </translation>
+    <translation locale="ka">
+      <title>შეავსე სენსორის მონაცემების ბაზა</title>
+      <category>phyphox.org</category>
+      <description>შეავსე ინფორმაცია თქვენი ტელეფონის სენსორებზე აქ phyphox.org.
+
+ეს ექსპერიმენტი შეაგროვებს თქვენი ტელეფონის სენსორების ტექნიკურ მონაცემებს რომლებიც შეგიძლია შეიყვანოთ ჩვენს მონაცემების ბაზაში. ეს მონაცემები იქნება დამუსავებული და გაზიარებული სხვა მომხმარებლებისთვისაც რადგან გვქონდეს ცოდნა სხვადასხვა მოწყობილობების შესაძლებლობების შესახებ.</description>
+      <string original="Submit">შეავსეთ</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">ეს ექსპერიმენტი შეაგროვებს თქვენი ტელეფონის სენსორების ტექნიკურ მონაცემებს, რომლებიც შეგიძლია შეიყვანოთ ჩვენს მონაცემების ბაზაში. ეს მონაცემები იქნება დამუსავებული და გაზიარებული სხვა მომხმარებლებისთვისაც რადგან გვქონდეს ცოდნა სხვადასხვა მოწყობილობების შესაძლებლობების შესახებ.</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">გთხოვთ მოათავსოთ თქვენი ტელეფონი სტაბილურ ზედაპირსე და დააჭიროთ დაწყებას. მოერიდეთ ამის გაკეთებას მოძრაობისას ან ვიბრაციულ ზედაბირზე (მხმის ვიბრაციებიც შეუშლის ხელს) რადგან ესენი შედეგების აღებას შეუშლის ხელს.</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">ფაიფოქსი შეაგროვებს მონაცემებს და საბოლოოდ გთხოვთ რომ გადააგზავნოთ მონაცემები.</string>
+      <string original="Step">ბიჯი</string>
+      <string original="Waiting for start">ველოდებით დაწყებას</string>
+      <string original="Collecting data">ვაგროვებთ მონაცემებს</string>
+      <string original="You may now press submit">ახლა შეგიძლიათ დაკლიკოთ მონაცემების გადაცემა</string>
+      <string original="Success. Thank you!">წარმატებულია. მადლობა!</string>
+      <string original="Confidence">დარწმუნებულობა</string>
+      <string original="Results">შედეგები</string>
+      <string original="Accelerometer">აქსელომეტრი</string>
+      <string original="Rate">სიხშირე</string>
+      <string original="Average">საშუალო</string>
+      <string original="Standard deviation">სტანდარტული გადახრა</string>
+      <string original="Acceleration (without g)">აჩქარება (g-ს გარეშე)</string>
+      <string original="Gyroscope">გიროსკოპი</string>
+      <string original="Magnetometer">მაგნიტომეტრი</string>
+      <string original="Barometer">ბარომეტრი</string>
+      <string original="Temperature">ტემპერატურა</string>
+      <string original="Humidity">სინესტე</string>
+      <string original="Light">სინათლე</string>
+      <string original="Proximity">სიახლოვე</string>
+    </translation>
+    <translation locale="hi">
+      <title>सेंसर डेटाबेस में जमा करें</title>
+      <category>phyphox.org</category>
+      <description>अपने फ़ोन में सेंसर के बारे में जानकारी phyphox.org पर सबमिट करें।
+
+यह प्रयोग आपके फ़ोन और आपके सेंसर के बारे में तकनीकी डेटा एकत्र करेगा, जिसे आप हमारे सेंसर डेटा बेस में सबमिट कर सकते हैं। विभिन्न उपकरणों में सेंसर की उपलब्धता और क्षमता के बारे में जानने के लिए हमें और अन्य लोगों की मदद करने के लिए डेटा एकत्र किया जाएगा और अन्य उपयोगकर्ताओं को उपलब्ध कराया जाएगा।</description>
+      <string original="Submit">सबमिट करें</string>
+      <string original="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices.">यह प्रयोग आपके फ़ोन और आपके सेंसर के बारे में तकनीकी डेटा एकत्र करेगा, जिसे आप हमारे सेंसर डेटा बेस में सबमिट कर सकते हैं। विभिन्न उपकरणों में सेंसर की उपलब्धता और क्षमता के बारे में जानने के लिए हमें और अन्य लोगों की मदद करने के लिए डेटा एकत्र किया जाएगा और अन्य उपयोगकर्ताओं को उपलब्ध कराया जाएगा।</string>
+      <string original="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results.">कृपया अपने फोन को एक स्थिर सतह पर रखें और स्टार्ट दबाएं। चलते समय (कार, ट्रेन, आदि) या हिलती हुई सतह (जोरदार संगीत, वाहनों से कंपन, आदि) पर ऐसा करने से बचें क्योंकि इससे परिणाम विकृत हो जाएंगे।</string>
+      <string original="Phyphox will collect data for a moment and eventually tell you to submit the data.">Phyphox एक क्षण के लिए डेटा एकत्र करेगा और अंततः आपको डेटा सबमिट करने के लिए कहेगा।</string>
+      <string original="Step">स्टेप</string>
+      <string original="Waiting for start">आरम्भ होने की प्रतीक्षा</string>
+      <string original="Collecting data">डाटा संग्रह कर रहा है</string>
+      <string original="You may now press submit">अब आप सबमिट दबा सकते हैं</string>
+      <string original="Success. Thank you!">सफलता. धन्यवाद!</string>
+      <string original="Confidence">आत्मविश्वास</string>
+      <string original="Results">परिणाम</string>
+      <string original="Accelerometer">एक्सेलोरोमीटर</string>
+      <string original="Rate">दर</string>
+      <string original="Average">औसत</string>
+      <string original="Standard deviation">मानक विचलन</string>
+      <string original="Acceleration (without g)">त्वरण (g के बिना)</string>
+      <string original="Gyroscope">जाइरोस्कोप</string>
+      <string original="Magnetometer">मैग्नेटोमीटर</string>
+      <string original="Barometer">दाबमापी</string>
+      <string original="Temperature">तापमान</string>
+      <string original="Humidity">आर्द्रता</string>
+      <string original="Light">प्रकाश</string>
+      <string original="Proximity">समीपता</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="1" init="0">state</container>
+    <container size="1" init="0">startState</container>
+    <container size="1" init="0">endState</container>
+    <container size="1" init="0">validCount</container>
+    <container size="1">validCount+1</container>
+    <container size="1" init="0">isResult</container>
+    <container size="1" init="0">activeSensor</container>
+    <container size="1" init="0">stdLimit</container>
+    <container size="1" init="0">newRate</container>
+    <container size="1" init="0">newAvg</container>
+    <container size="1" init="0">newStd</container>
+    <container size="1" init="0">count</container>
+    <container size="1" init="0">tmax</container>
+    <container size="1" init="0">tmin</container>
+    <container size="100">acc</container>
+    <container size="100">accx</container>
+    <container size="100">accy</container>
+    <container size="100">accz</container>
+    <container size="100">acct</container>
+    <container size="100">res_accx</container>
+    <container size="100">res_accy</container>
+    <container size="100">res_accz</container>
+    <container size="100">res_acct</container>
+    <container size="1">accelerometerRate</container>
+    <container size="1">accelerometerAvg</container>
+    <container size="1">accelerometerStd</container>
+    <container size="100">lin</container>
+    <container size="100">linx</container>
+    <container size="100">liny</container>
+    <container size="100">linz</container>
+    <container size="100">lint</container>
+    <container size="100">res_linx</container>
+    <container size="100">res_liny</container>
+    <container size="100">res_linz</container>
+    <container size="100">res_lint</container>
+    <container size="1">linear_accelerationRate</container>
+    <container size="1">linear_accelerationAvg</container>
+    <container size="1">linear_accelerationStd</container>
+    <container size="100">gyr</container>
+    <container size="100">gyrx</container>
+    <container size="100">gyry</container>
+    <container size="100">gyrz</container>
+    <container size="100">gyrt</container>
+    <container size="100">res_gyrx</container>
+    <container size="100">res_gyry</container>
+    <container size="100">res_gyrz</container>
+    <container size="100">res_gyrt</container>
+    <container size="1">gyroscopeRate</container>
+    <container size="1">gyroscopeAvg</container>
+    <container size="1">gyroscopeStd</container>
+    <container size="100">mag</container>
+    <container size="100">magx</container>
+    <container size="100">magy</container>
+    <container size="100">magz</container>
+    <container size="100">magt</container>
+    <container size="100">res_magx</container>
+    <container size="100">res_magy</container>
+    <container size="100">res_magz</container>
+    <container size="100">res_magt</container>
+    <container size="1">magnetic_fieldRate</container>
+    <container size="1">magnetic_fieldAvg</container>
+    <container size="1">magnetic_fieldStd</container>
+    <container size="100">pre</container>
+    <container size="100">pret</container>
+    <container size="100">res_pre</container>
+    <container size="100">res_pret</container>
+    <container size="1">pressureRate</container>
+    <container size="1">pressureAvg</container>
+    <container size="1">pressureStd</container>
+    <container size="100">tem</container>
+    <container size="100">temt</container>
+    <container size="100">res_tem</container>
+    <container size="100">res_temt</container>
+    <container size="1">temperatureRate</container>
+    <container size="1">temperatureAvg</container>
+    <container size="1">temperatureStd</container>
+    <container size="100">hum</container>
+    <container size="100">humt</container>
+    <container size="100">res_hum</container>
+    <container size="100">res_humt</container>
+    <container size="1">humidityRate</container>
+    <container size="1">humidityAvg</container>
+    <container size="1">humidityStd</container>
+    <container size="100">lig</container>
+    <container size="100">ligt</container>
+    <container size="100">res_lig</container>
+    <container size="100">res_ligt</container>
+    <container size="1">lightRate</container>
+    <container size="1">lightAvg</container>
+    <container size="1">lightStd</container>
+    <container size="100">pro</container>
+    <container size="100">prot</container>
+    <container size="100">res_pro</container>
+    <container size="100">res_prot</container>
+    <container size="1">proximityRate</container>
+    <container size="1">proximityAvg</container>
+    <container size="1">proximityStd</container>
+  </data-containers>
+  <network>
+    <connection address="https://phyphox.org/sensordb/submit.php" autoConnect="true" service="http/post" id="submit" privacy="https://phyphox.org/disclaimer/" conversion="json">
+      <send id="surveyState" type="buffer">state</send>
+      <send id="id" type="meta">uniqueID</send>
+      <send id="version" type="meta">version</send>
+      <send id="build" type="meta">build</send>
+      <send id="fileFormat" type="meta">fileFormat</send>
+      <send id="deviceModel" type="meta">deviceModel</send>
+      <send id="deviceBrand" type="meta">deviceBrand</send>
+      <send id="deviceBoard" type="meta">deviceBoard</send>
+      <send id="deviceManufacturer" type="meta">deviceManufacturer</send>
+      <send id="deviceBaseOS" type="meta">deviceBaseOS</send>
+      <send id="deviceCodename" type="meta">deviceCodename</send>
+      <send id="deviceRelease" type="meta">deviceRelease</send>
+      <send id="accelerometerName" type="meta">accelerometerName</send>
+      <send id="accelerometerVendor" type="meta">accelerometerVendor</send>
+      <send id="accelerometerRange" type="meta">accelerometerRange</send>
+      <send id="accelerometerResolution" type="meta">accelerometerResolution</send>
+      <send id="accelerometerMinDelay" type="meta">accelerometerMinDelay</send>
+      <send id="accelerometerMaxDelay" type="meta">accelerometerMaxDelay</send>
+      <send id="accelerometerPower" type="meta">accelerometerPower</send>
+      <send id="accelerometerVersion" type="meta">accelerometerVersion</send>
+      <send id="accelerometerRate" type="buffer">accelerometerRate</send>
+      <send id="accelerometerAvg" type="buffer">accelerometerAvg</send>
+      <send id="accelerometerStd" type="buffer">accelerometerStd</send>
+      <send id="linear_accelerationName" type="meta">linear_accelerationName</send>
+      <send id="linear_accelerationVendor" type="meta">linear_accelerationVendor</send>
+      <send id="linear_accelerationRange" type="meta">linear_accelerationRange</send>
+      <send id="linear_accelerationResolution" type="meta">linear_accelerationResolution</send>
+      <send id="linear_accelerationMinDelay" type="meta">linear_accelerationMinDelay</send>
+      <send id="linear_accelerationMaxDelay" type="meta">linear_accelerationMaxDelay</send>
+      <send id="linear_accelerationPower" type="meta">linear_accelerationPower</send>
+      <send id="linear_accelerationVersion" type="meta">linear_accelerationVersion</send>
+      <send id="linear_accelerationRate" type="buffer">linear_accelerationRate</send>
+      <send id="linear_accelerationAvg" type="buffer">linear_accelerationAvg</send>
+      <send id="linear_accelerationStd" type="buffer">linear_accelerationStd</send>
+      <send id="gyroscopeName" type="meta">gyroscopeName</send>
+      <send id="gyroscopeVendor" type="meta">gyroscopeVendor</send>
+      <send id="gyroscopeRange" type="meta">gyroscopeRange</send>
+      <send id="gyroscopeResolution" type="meta">gyroscopeResolution</send>
+      <send id="gyroscopeMinDelay" type="meta">gyroscopeMinDelay</send>
+      <send id="gyroscopeMaxDelay" type="meta">gyroscopeMaxDelay</send>
+      <send id="gyroscopePower" type="meta">gyroscopePower</send>
+      <send id="gyroscopeVersion" type="meta">gyroscopeVersion</send>
+      <send id="gyroscopeRate" type="buffer">gyroscopeRate</send>
+      <send id="gyroscopeAvg" type="buffer">gyroscopeAvg</send>
+      <send id="gyroscopeStd" type="buffer">gyroscopeStd</send>
+      <send id="magnetic_fieldName" type="meta">magnetic_fieldName</send>
+      <send id="magnetic_fieldVendor" type="meta">magnetic_fieldVendor</send>
+      <send id="magnetic_fieldRange" type="meta">magnetic_fieldRange</send>
+      <send id="magnetic_fieldResolution" type="meta">magnetic_fieldResolution</send>
+      <send id="magnetic_fieldMinDelay" type="meta">magnetic_fieldMinDelay</send>
+      <send id="magnetic_fieldMaxDelay" type="meta">magnetic_fieldMaxDelay</send>
+      <send id="magnetic_fieldPower" type="meta">magnetic_fieldPower</send>
+      <send id="magnetic_fieldVersion" type="meta">magnetic_fieldVersion</send>
+      <send id="magnetic_fieldRate" type="buffer">magnetic_fieldRate</send>
+      <send id="magnetic_fieldAvg" type="buffer">magnetic_fieldAvg</send>
+      <send id="magnetic_fieldStd" type="buffer">magnetic_fieldStd</send>
+      <send id="pressureName" type="meta">pressureName</send>
+      <send id="pressureVendor" type="meta">pressureVendor</send>
+      <send id="pressureRange" type="meta">pressureRange</send>
+      <send id="pressureResolution" type="meta">pressureResolution</send>
+      <send id="pressureMinDelay" type="meta">pressureMinDelay</send>
+      <send id="pressureMaxDelay" type="meta">pressureMaxDelay</send>
+      <send id="pressurePower" type="meta">pressurePower</send>
+      <send id="pressureVersion" type="meta">pressureVersion</send>
+      <send id="pressureRate" type="buffer">pressureRate</send>
+      <send id="pressureAvg" type="buffer">pressureAvg</send>
+      <send id="pressureStd" type="buffer">pressureStd</send>
+      <send id="temperatureName" type="meta">temperatureName</send>
+      <send id="temperatureVendor" type="meta">temperatureVendor</send>
+      <send id="temperatureRange" type="meta">temperatureRange</send>
+      <send id="temperatureResolution" type="meta">temperatureResolution</send>
+      <send id="temperatureMinDelay" type="meta">temperatureMinDelay</send>
+      <send id="temperatureMaxDelay" type="meta">temperatureMaxDelay</send>
+      <send id="temperaturePower" type="meta">temperaturePower</send>
+      <send id="temperatureVersion" type="meta">temperatureVersion</send>
+      <send id="temperatureRate" type="buffer">temperatureRate</send>
+      <send id="temperatureAvg" type="buffer">temperatureAvg</send>
+      <send id="temperatureStd" type="buffer">temperatureStd</send>
+      <send id="humidityName" type="meta">humidityName</send>
+      <send id="humidityVendor" type="meta">humidityVendor</send>
+      <send id="humidityRange" type="meta">humidityRange</send>
+      <send id="humidityResolution" type="meta">humidityResolution</send>
+      <send id="humidityMinDelay" type="meta">humidityMinDelay</send>
+      <send id="humidityMaxDelay" type="meta">humidityMaxDelay</send>
+      <send id="humidityPower" type="meta">humidityPower</send>
+      <send id="humidityVersion" type="meta">humidityVersion</send>
+      <send id="humidityRate" type="buffer">humidityRate</send>
+      <send id="humidityAvg" type="buffer">humidityAvg</send>
+      <send id="humidityStd" type="buffer">humidityStd</send>
+      <send id="lightName" type="meta">lightName</send>
+      <send id="lightVendor" type="meta">lightVendor</send>
+      <send id="lightRange" type="meta">lightRange</send>
+      <send id="lightResolution" type="meta">lightResolution</send>
+      <send id="lightMinDelay" type="meta">lightMinDelay</send>
+      <send id="lightMaxDelay" type="meta">lightMaxDelay</send>
+      <send id="lightPower" type="meta">lightPower</send>
+      <send id="lightVersion" type="meta">lightVersion</send>
+      <send id="lightRate" type="buffer">lightRate</send>
+      <send id="lightAvg" type="buffer">lightAvg</send>
+      <send id="lightStd" type="buffer">lightStd</send>
+      <send id="proximityName" type="meta">proximityName</send>
+      <send id="proximityVendor" type="meta">proximityVendor</send>
+      <send id="proximityRange" type="meta">proximityRange</send>
+      <send id="proximityResolution" type="meta">proximityResolution</send>
+      <send id="proximityMinDelay" type="meta">proximityMinDelay</send>
+      <send id="proximityMaxDelay" type="meta">proximityMaxDelay</send>
+      <send id="proximityPower" type="meta">proximityPower</send>
+      <send id="proximityVersion" type="meta">proximityVersion</send>
+      <send id="proximityRate" type="buffer">proximityRate</send>
+      <send id="proximityAvg" type="buffer">proximityAvg</send>
+      <send id="proximityStd" type="buffer">proximityStd</send>
+      <send id="depthFrontSensor" type="meta">depthFrontSensor</send>
+      <send id="depthFrontResolution" type="meta">depthFrontResolution</send>
+      <send id="depthFrontRate" type="meta">depthFrontRate</send>
+      <send id="depthBackSensor" type="meta">depthBackSensor</send>
+      <send id="depthBackResolution" type="meta">depthBackResolution</send>
+      <send id="depthBackRate" type="meta">depthBackRate</send>
+      <send id="raw_accx" type="buffer">res_accx</send>
+      <send id="raw_accy" type="buffer">res_accy</send>
+      <send id="raw_accz" type="buffer">res_accz</send>
+      <send id="raw_acct" type="buffer">res_acct</send>
+      <send id="raw_linx" type="buffer">res_linx</send>
+      <send id="raw_liny" type="buffer">res_liny</send>
+      <send id="raw_linz" type="buffer">res_linz</send>
+      <send id="raw_lint" type="buffer">res_lint</send>
+      <send id="raw_gyrx" type="buffer">res_gyrx</send>
+      <send id="raw_gyry" type="buffer">res_gyry</send>
+      <send id="raw_gyrz" type="buffer">res_gyrz</send>
+      <send id="raw_gyrt" type="buffer">res_gyrt</send>
+      <send id="raw_magx" type="buffer">res_magx</send>
+      <send id="raw_magy" type="buffer">res_magy</send>
+      <send id="raw_magz" type="buffer">res_magz</send>
+      <send id="raw_magt" type="buffer">res_magt</send>
+      <send id="raw_pre" type="buffer">res_pre</send>
+      <send id="raw_pret" type="buffer">res_pret</send>
+      <send id="raw_tem" type="buffer">res_tem</send>
+      <send id="raw_temt" type="buffer">res_temt</send>
+      <send id="raw_hum" type="buffer">res_hum</send>
+      <send id="raw_humt" type="buffer">res_humt</send>
+      <send id="raw_lig" type="buffer">res_lig</send>
+      <send id="raw_ligt" type="buffer">res_ligt</send>
+      <send id="raw_pro" type="buffer">res_pro</send>
+      <send id="raw_prot" type="buffer">res_prot</send>
+      <send id="camera2api" type="meta">camera2apiFull</send>
+      <receive id="result">state</receive>
+    </connection>
+  </network>
+  <input>
+    <sensor type="accelerometer" ignoreUnavailable="true">
+      <output component="x">accx</output>
+      <output component="y">accy</output>
+      <output component="z">accz</output>
+      <output component="abs">acc</output>
+      <output component="t">acct</output>
+    </sensor>
+    <sensor type="linear_acceleration" ignoreUnavailable="true">
+      <output component="x">linx</output>
+      <output component="y">liny</output>
+      <output component="z">linz</output>
+      <output component="abs">lin</output>
+      <output component="t">lint</output>
+    </sensor>
+    <sensor type="gyroscope" ignoreUnavailable="true">
+      <output component="x">gyrx</output>
+      <output component="y">gyry</output>
+      <output component="z">gyrz</output>
+      <output component="abs">gyr</output>
+      <output component="t">gyrt</output>
+    </sensor>
+    <sensor type="magnetic_field" ignoreUnavailable="true">
+      <output component="x">magx</output>
+      <output component="y">magy</output>
+      <output component="z">magz</output>
+      <output component="abs">mag</output>
+      <output component="t">magt</output>
+    </sensor>
+    <sensor type="pressure" ignoreUnavailable="true">
+      <output component="x">pre</output>
+      <output component="t">pret</output>
+    </sensor>
+    <sensor type="temperature" ignoreUnavailable="true">
+      <output component="x">tem</output>
+      <output component="t">temt</output>
+    </sensor>
+    <sensor type="humidity" ignoreUnavailable="true">
+      <output component="x">hum</output>
+      <output component="t">humt</output>
+    </sensor>
+    <sensor type="light" ignoreUnavailable="true">
+      <output component="x">lig</output>
+      <output component="t">ligt</output>
+    </sensor>
+    <sensor type="proximity" ignoreUnavailable="true">
+      <output component="x">pro</output>
+      <output component="t">prot</output>
+    </sensor>
+  </input>
+  <analysis sleep="2">
+    <!-- Check if the experiment has started -->
+    <count>
+      <input clear="false">acc</input>
+      <output>count</output>
+    </count>
+    <if equal="true" greater="true">
+      <input clear="false">count</input>
+      <input type="value">100</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output>startState</output>
+    </if>
+    <if greater="true">
+      <input clear="false">state</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output clear="false">startState</output>
+    </if>
+    <if equal="true">
+      <input clear="false">startState</input>
+      <input type="value">1</input>
+      <input type="value">1</input>
+      <output clear="false">state</output>
+    </if>
+    <!-- Accelerometer (calculate first as it is used to estimate whether the phone is resting -->
+    <average>
+      <input clear="false">acc</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">acct</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">acct</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">acc</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <!-- Check stddev to decide whether these are good values -->
+    <if equal="true">
+      <input clear="false">startState</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">accelerometerStd</output>
+    </if>
+    <multiply>
+      <input clear="false">accelerometerStd</input>
+      <input type="value">2</input>
+      <output>stdLimit</output>
+    </multiply>
+    <if equal="true">
+      <input clear="false">startState</input>
+      <input type="value">1</input>
+      <input clear="false">stdLimit</input>
+      <output clear="false">accelerometerStd</output>
+    </if>
+    <add>
+      <input clear="false">validCount</input>
+      <input type="value">1</input>
+      <output>validCount+1</output>
+    </add>
+    <if less="true">
+      <input clear="false">newStd</input>
+      <input clear="false">stdLimit</input>
+      <input clear="false">validCount+1</input>
+      <output clear="false">validCount</output>
+    </if>
+    <if less="true">
+      <input clear="false">newStd</input>
+      <input clear="false">accelerometerStd</input>
+      <input type="value">0</input>
+      <output clear="false">validCount</output>
+    </if>
+    <if less="true">
+      <input clear="false">newStd</input>
+      <input clear="false">accelerometerStd</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output clear="false">isResult</output>
+    </if>
+    <if less="true" greater="true">
+      <!-- If we have not yet started, if we already are ready to submit or if we have already submitted, we never use a new result. -->
+      <input clear="false">state</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output clear="false">isResult</output>
+    </if>
+    <!-- Accelerometer -->
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">accelerometerRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">accelerometerAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">accelerometerStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">accx</input>
+      <output clear="true">res_accx</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">accy</input>
+      <output clear="true">res_accy</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">accz</input>
+      <output clear="true">res_accz</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">acct</input>
+      <output clear="true">res_acct</output>
+    </if>
+    <!-- Linear acceleration -->
+    <average>
+      <input clear="false">lin</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">lint</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">lint</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">lin</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">linear_accelerationRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">linear_accelerationAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">linear_accelerationStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">linx</input>
+      <output clear="true">res_linx</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">liny</input>
+      <output clear="true">res_liny</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">linz</input>
+      <output clear="true">res_linz</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">lint</input>
+      <output clear="true">res_lint</output>
+    </if>
+    <!-- Gyroscope -->
+    <average>
+      <input clear="false">gyr</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">gyrt</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">gyrt</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">gyr</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">gyroscopeRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">gyroscopeAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">gyroscopeStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">gyrx</input>
+      <output clear="true">res_gyrx</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">gyry</input>
+      <output clear="true">res_gyry</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">gyrz</input>
+      <output clear="true">res_gyrz</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">gyrt</input>
+      <output clear="true">res_gyrt</output>
+    </if>
+    <!-- Magnetic field -->
+    <average>
+      <input clear="false">mag</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">magt</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">magt</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">mag</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">magnetic_fieldRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">magnetic_fieldAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">magnetic_fieldStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">magx</input>
+      <output clear="true">res_magx</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">magy</input>
+      <output clear="true">res_magy</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">magz</input>
+      <output clear="true">res_magz</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">magt</input>
+      <output clear="true">res_magt</output>
+    </if>
+    <!-- Pressure -->
+    <average>
+      <input clear="false">pre</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">pret</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">pret</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">pre</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">pressureRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">pressureAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">pressureStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">pre</input>
+      <output clear="true">res_pre</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">pret</input>
+      <output clear="true">res_pret</output>
+    </if>
+    <!-- Temperature -->
+    <average>
+      <input clear="false">tem</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">temt</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">temt</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">tem</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">temperatureRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">temperatureAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">temperatureStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">tem</input>
+      <output clear="true">res_tem</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">temt</input>
+      <output clear="true">res_temt</output>
+    </if>
+    <!-- Humidity -->
+    <average>
+      <input clear="false">hum</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">humt</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">humt</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">hum</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">humidityRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">humidityAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">humidityStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">hum</input>
+      <output clear="true">res_hum</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">humt</input>
+      <output clear="true">res_humt</output>
+    </if>
+    <!-- Light -->
+    <average>
+      <input clear="false">lig</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">ligt</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">ligt</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">lig</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">lightRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">lightAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">lightStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">lig</input>
+      <output clear="true">res_lig</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">ligt</input>
+      <output clear="true">res_ligt</output>
+    </if>
+    <!-- Proximity -->
+    <average>
+      <input clear="false">pro</input>
+      <output as="average">newAvg</output>
+      <output as="stddev">newStd</output>
+    </average>
+    <max>
+      <input as="y" clear="false">prot</input>
+      <output as="max">tmax</output>
+    </max>
+    <min>
+      <input as="y" clear="false">prot</input>
+      <output as="min">tmin</output>
+    </min>
+    <count>
+      <input clear="false">pro</input>
+      <output>count</output>
+    </count>
+    <formula formula="([1]-1)/([3]-[2])">
+      <input clear="false">count</input>
+      <input clear="false">tmin</input>
+      <input clear="false">tmax</input>
+      <output>newRate</output>
+    </formula>
+    <if greater="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input clear="false">isResult</input>
+      <input type="value">0</input>
+      <output clear="false">activeSensor</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newRate</input>
+      <output clear="false">proximityRate</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newAvg</input>
+      <output clear="false">proximityAvg</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">newStd</input>
+      <output clear="false">proximityStd</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">pro</input>
+      <output clear="true">res_pro</output>
+    </if>
+    <if equal="true">
+      <input clear="false">activeSensor</input>
+      <input type="value">1</input>
+      <input clear="false">prot</input>
+      <output clear="true">res_prot</output>
+    </if>
+    <!-- If we had five results for the standard deviation since the last minimum stddev that are no more than 20% above the best one, the best one is our result as it is supposedly one with a resting phone. -->
+    <if equal="true" greater="true">
+      <input clear="false">validCount</input>
+      <input type="value">5</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output clear="false">endState</output>
+    </if>
+    <if greater="true">
+      <input clear="false">state</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output clear="false">endState</output>
+    </if>
+    <if equal="true">
+      <input clear="false">endState</input>
+      <input type="value">1</input>
+      <input type="value">2</input>
+      <output clear="false">state</output>
+    </if>
+  </analysis>
+  <views>
+    <view label="Submit">
+      <info label="This experiment will collect technical data about your phone and your sensors, which you can submit to our sensor data base. The data will be aggregated and made available to other users to help us and others to learn about the availability and capability of sensors across different devices."/>
+      <separator height="1"/>
+      <info label="Please place your phone on a stable surface and press start. Avoid doing this while moving (car, train, etc) or on a vibrating surface (loud music, vibrations from vehicles, etc.) as this will distort the results."/>
+      <separator height="1"/>
+      <info label="Phyphox will collect data for a moment and eventually tell you to submit the data."/>
+      <separator height="1"/>
+      <value label="Step">
+        <input>state</input>
+        <map max="0">Waiting for start</map>
+        <map max="1">Collecting data</map>
+        <map max="2">You may now press submit</map>
+        <map max="3">Success. Thank you!</map>
+      </value>
+      <value label="Confidence" precision="0">
+        <input>validCount</input>
+        <map max="0">0%</map>
+        <map max="1">20%</map>
+        <map max="2">40%</map>
+        <map max="3">60%</map>
+        <map max="4">80%</map>
+        <map min="5">100%</map>
+      </value>
+      <button label="Submit">
+        <trigger>submit</trigger>
+      </button>
+    </view>
+    <view label="Results">
+      <info label="Accelerometer" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>accelerometerRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_meter_per_square_second]]" precision="3">
+        <input>accelerometerAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_meter_per_square_second]]" precision="3">
+        <input>accelerometerStd</input>
+      </value>
+      <separator height="1"/>
+      <info label="Acceleration (without g)" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>linear_accelerationRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_meter_per_square_second]]" precision="3">
+        <input>linear_accelerationAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_meter_per_square_second]]" precision="3">
+        <input>linear_accelerationStd</input>
+      </value>
+      <separator height="1"/>
+      <info label="Gyroscope" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>gyroscopeRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_radian_per_second]]" precision="4">
+        <input>gyroscopeAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_radian_per_second]]" precision="4">
+        <input>gyroscopeStd</input>
+      </value>
+      <separator height="1"/>
+      <info label="Magnetometer" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>magnetic_fieldRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_micro_tesla]]" precision="2">
+        <input>magnetic_fieldAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_micro_tesla]]" precision="2">
+        <input>magnetic_fieldStd</input>
+      </value>
+      <separator height="1"/>
+      <info label="Barometer" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>pressureRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_hecto_pascal]]" precision="2">
+        <input>pressureAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_hecto_pascal]]" precision="2">
+        <input>pressureStd</input>
+      </value>
+      <separator height="1"/>
+      <info label="Temperature" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>temperatureRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_degree_celsius]]" precision="2">
+        <input>temperatureAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_degree_celsius]]" precision="2">
+        <input>temperatureStd</input>
+      </value>
+      <separator height="1"/>
+      <info label="Humidity" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>humidityRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_percent]]" precision="2">
+        <input>humidityAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_percent]]" precision="2">
+        <input>humidityStd</input>
+      </value>
+      <separator height="1"/>
+      <info label="Light" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>lightRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_lux]]" precision="1">
+        <input>lightAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_lux]]" precision="1">
+        <input>lightStd</input>
+      </value>
+      <separator height="1"/>
+      <info label="Proximity" align="center" bold="true" size="1.5"/>
+      <value label="Rate" unit="[[unit_short_hertz]]" precision="1">
+        <input>proximityRate</input>
+      </value>
+      <value label="Average" unit="[[unit_short_centi_meter]]" precision="0">
+        <input>proximityAvg</input>
+      </value>
+      <value label="Standard deviation" unit="[[unit_short_centi_meter]]" precision="0">
+        <input>proximityStd</input>
+      </value>
+    </view>
+  </views>
+</phyphox>

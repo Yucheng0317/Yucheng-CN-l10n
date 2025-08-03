@@ -1,0 +1,868 @@
+{
+  "%1$d из %2$d"
+  "%2$d中的%1$d"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题。请重试。"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "ARP (Lan only, fixed range)"
+  "ARP（仅限局域网，固定范围）"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Allow Ad to create a calendar event?"
+  "是否允许广告创建日历事件？"
+}
+{
+  "Allow Ad to store image in Picture gallery?"
+  "是否允许广告将图像存储在图片库中？"
+}
+{
+  "App needs access to the location service to get WiFi information. With using WiFi information app can link personalization data with current network"
+  "应用程序需要访问位置服务才能获取WiFi信息。使用WiFi信息应用程序可以向网络传输个人数据"
+}
+{
+  "Associate host icon"
+  "关联主机图标"
+}
+{
+  "Body"
+  "车身"
+}
+{
+  "By IP ascending"
+  "按IP地址递增"
+}
+{
+  "By IP descending"
+  "按IP地址递减"
+}
+{
+  "By MAC ascending"
+  "按MAC地址递增"
+}
+{
+  "By MAC descending"
+  "按MAC地址降序"
+}
+{
+  "By name ascending"
+  "按名称升序"
+}
+{
+  "By name descending"
+  "按名称降序"
+}
+{
+  "Change icon"
+  "更改图标"
+}
+{
+  "Check ports at scan"
+  "扫描时检查端口"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Click again to exit"
+  "再次单击退出"
+}
+{
+  "Collapse"
+  "崩溃"
+}
+{
+  "Configuration"
+  "配置"
+}
+{
+  "Connection"
+  "连接"
+}
+{
+  "Continue without permission"
+  "跳过（不授权）"
+}
+{
+  "Copy Host"
+  "复制主机"
+}
+{
+  "Copy IP"
+  "复制IP地址"
+}
+{
+  "Copy MAC"
+  "复制MAC地址"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Count"
+  "计数"
+}
+{
+  "Create calendar event"
+  "创建日历事件"
+}
+{
+  "Creating a temporary file..."
+  "正在创建临时文件"
+}
+{
+  "DNS request"
+  "DNS请求"
+}
+{
+  "DNS server that will be used for name resolving and scan in the DNS mode"
+  "用于进行域名解析和在DNS模式下执行扫描的DNS服务器"
+}
+{
+  "DNS server that will be used for name resolving of local machines. Leave this field empty to use gateway address"
+  "用于解析本地机器域名的DNS服务器。若要使用网关地址，请留空。"
+}
+{
+  "DNS servers"
+  "DNS服务器"
+}
+{
+  "Dark"
+  "暗色"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Default IP range"
+  "默认IP地址范围"
+}
+{
+  "Default ports range (smart)"
+  "默认端口范围（智能）"
+}
+{
+  "Display active devices"
+  "显示活动设备"
+}
+{
+  "Display all hosts"
+  "显示所有主机"
+}
+{
+  "Don't show again"
+  "不再显示"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Edit host"
+  "编辑主机"
+}
+{
+  "Empty file name"
+  "空文件名"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "External DNS"
+  "外部DNS"
+}
+{
+  "File already exists"
+  "文件已存在"
+}
+{
+  "Filter hosts"
+  "筛选主机"
+}
+{
+  "Filter the hosts by open ports"
+  "按开放端口筛选主机"
+}
+{
+  "Function+"
+  "功能+"
+}
+{
+  "General"
+  "概述"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Giving 5 stars to the app you are helping us with its promotion"
+  "为应用程序打五星好评"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "Grant permission"
+  "授予权限"
+}
+{
+  "Headline"
+  "标题"
+}
+{
+  "Hide hosts those does not response to ping"
+  "隐藏不响应ping的主机"
+}
+{
+  "High port ports"
+  "高端口"
+}
+{
+  "Host or IP and netmask prefix:\nwww.google.com/24"
+  "主机或IP及子网掩码前缀：www.google.com/24 "
+}
+{
+  "Host scanner"
+  "主机扫描仪"
+}
+{
+  "IP or host"
+  "IP地址或主机"
+}
+{
+  "IP range"
+  "IP地址范围"
+}
+{
+  "IP range or CIDR, e.g.:\n192.168.1.1-192.168.1.254\nwww.google.com/24"
+  "IP地址范围或CIDR（无类别域间路由），例如：\n192.168.1.1-192.168.1.254\nwww.google.com/24"
+}
+{
+  "If at least one port is open"
+  "如果至少有一个端口处于打开状态"
+}
+{
+  "Incorrectly IP address"
+  "IP地址不正确"
+}
+{
+  "Information"
+  "信息"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Interface options"
+  "外观"
+}
+{
+  "Last port"
+  "末端口"
+}
+{
+  "Last port for scan 1-65535"
+  "扫描的最后一个端口 1-65535"
+}
+{
+  "Later"
+  "以后"
+}
+{
+  "Light"
+  "亮色"
+}
+{
+  "Link copied to clipboard"
+  "链接已复制到剪贴板"
+}
+{
+  "List of the ports numbers or ranges, e.g.: 21-23 80 443"
+  "端口号或范围列表，例如：21-23 80 443"
+}
+{
+  "Local DNS"
+  "本地 DNS"
+}
+{
+  "Location service is unavailable. Tap here to fix"
+  "位置服务不可用，点此修复"
+}
+{
+  "Low port"
+  "低端口"
+}
+{
+  "Main options"
+  "主要"
+}
+{
+  "Max TTL"
+  "最大TTL"
+}
+{
+  "Media View"
+  "媒体视图"
+}
+{
+  "Menu+"
+  "菜单+"
+}
+{
+  "Meta+"
+  "元+"
+}
+{
+  "More options"
+  "更多"
+}
+{
+  "My other APPs"
+  "其他应用程序"
+}
+{
+  "Name resolver"
+  "名称解析器"
+}
+{
+  "Navigate home"
+  "导航回家"
+}
+{
+  "Navigate up"
+  "向上导航"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的 Google Play 服务，它稍后将自动更新。"
+}
+{
+  "No sorting"
+  "无排序"
+}
+{
+  "No thanks"
+  "不，谢谢"
+}
+{
+  "Now personalization data will be linked with current local network. Launch scanning process again to use new configuration"
+  "现在，个性化数据将与当前本地网络链接。再次启动扫描过程以使用新配置"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "确定"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "Open"
+  "打开"
+}
+{
+  "Open ad when you're back online."
+  "当您重新上线时打开广告"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Open on phone"
+  "在手机上打开"
+}
+{
+  "Other"
+  "其他"
+}
+{
+  "Please wait for the current process to complete"
+  "请等待当前任务完成"
+}
+{
+  "Please wait until scanner will finish its work"
+  "请等待扫描仪完成工作"
+}
+{
+  "Port checker timeout"
+  "端口检查器超时"
+}
+{
+  "Port numbers for scan, e.g:\n21-23 80 443"
+  "用于扫描的端口号，例如：\n21-23 80 443"
+}
+{
+  "Port scanner"
+  "端口扫描程序"
+}
+{
+  "Ports"
+  "端口"
+}
+{
+  "Ports checker"
+  "端口检查器"
+}
+{
+  "Privacy"
+  "隐私"
+}
+{
+  "Privacy policy"
+  "隐私策略\n\n\n予澄 汉化"
+}
+{
+  "Remove AD"
+  "移除广告"
+}
+{
+  "Request the hostname from DNS"
+  "从 DNS 请求主机名"
+}
+{
+  "Request the hostname from mDNS"
+  "从mDNS请求主机名"
+}
+{
+  "Request the hostname from netbios-ns"
+  "从 netbios-ns 请求主机名"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Save image"
+  "保存图片"
+}
+{
+  "Save..."
+  "保存"
+}
+{
+  "Scan again"
+  "再次扫描"
+}
+{
+  "Scan default"
+  "默认扫描"
+}
+{
+  "Scan local network"
+  "扫描本地网络"
+}
+{
+  "Scan method"
+  "扫描方式"
+}
+{
+  "Scan of known ports or editable range"
+  "扫描已知端口或可编辑范围"
+}
+{
+  "Scan only known ports"
+  "仅扫描已知端口"
+}
+{
+  "Scan remote network"
+  "扫描远程网络"
+}
+{
+  "Scan the entered range"
+  "扫描输入的范围"
+}
+{
+  "Scan the known ports only"
+  "仅扫描已知端口"
+}
+{
+  "Scan with default or remote configuration?"
+  "使用默认配置还是远程配置进行扫描？"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Share"
+  "分享"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Share with"
+  "分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用 Google 帐号登录"
+}
+{
+  "Size"
+  "大小"
+}
+{
+  "Sort hosts"
+  "对主机进行排序"
+}
+{
+  "Sorting"
+  "排序"
+}
+{
+  "Start port for scan 1-65535"
+  "开始扫描端口1-65535"
+}
+{
+  "Stop scan"
+  "停止扫描"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Support us"
+  "支持我们"
+}
+{
+  "Sure"
+  "确定"
+}
+{
+  "Tap to open ad"
+  "点击打开广告"
+}
+{
+  "Test Ad"
+  "测试广告"
+}
+{
+  "The filter by ports is active, but you didn't enter the port numbers for check. Port checker options will ignored"
+  "目前为按端口筛选模式，但您未输入端口号。端口检查器选项将无效。"
+}
+{
+  "Theme"
+  "主题"
+}
+{
+  "Timeout"
+  "超时"
+}
+{
+  "Tools"
+  "工具"
+}
+{
+  "Unknown link address"
+  "未知链接地址"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "Update Google Play services"
+  "更新 Google Play 服务"
+}
+{
+  "Use DNS"
+  "使用 DNS"
+}
+{
+  "Use mDNS"
+  "使用 mDNS"
+}
+{
+  "Use netbios-ns"
+  "使用 netbios-ns"
+}
+{
+  "View the ad you saved when you were offline"
+  "查看您在离线时保存的广告"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "We'll send you a notification with a link to the advertiser site."
+  "我们将向您发送通知，其中包含指向广告客户网站的链接。"
+}
+{
+  "Wifi connection is not avaliable, but you can scan remote network using mobile connection"
+  "Wifi连接不可用，但您可以使用移动连接扫描远程网络"
+}
+{
+  "With IP"
+  "使用IP地址"
+}
+{
+  "With MAC"
+  "使用 MAC地址"
+}
+{
+  "Wrong host"
+  "错误的主机"
+}
+{
+  "Wrong hosts range, default range will be used"
+  "错误的主机范围，将使用默认范围"
+}
+{
+  "Wrong timeout value, port checker options will ignored"
+  "超时值错误，端口检查器选项将失效"
+}
+{
+  "You should enter address"
+  "需要输入地址"
+}
+{
+  "You should to enable location service in system settings to link personalization data with current network"
+  "您应该在系统设置中启用位置服务，以将个性化数据与当前网络链接"
+}
+{
+  "You'll get a notification with the link when you're back online"
+  "当您重新在线时，您将收到包含链接的通知"
+}
+{
+  "allow-parsing"
+  "允许解析"
+}
+{
+  "copied to the clipboard"
+  "复制到剪贴板"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "do-not-parse"
+  "不解析"
+}
+{
+  "domain"
+  "域"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "price"
+  "价格"
+}
+{
+  "rating"
+  "额定值"
+}
+{
+  "review count"
+  "评论计数"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "sponsored"
+  "赞助"
+}
+{
+  "yandex:ads:context"
+  "Yandex：广告：上下文"
+}
+{
+  "До начисления награды осталось"
+  "直到奖励被记入"
+}
+{
+  "Досмотреть"
+  "完成查看"
+}
+{
+  "Если закрыть рекламу до окончания таймера, награда за просмотр не будет начислена"
+  "如果您在计时器结束前关闭广告，则不会因观看而获得奖励"
+}
+{
+  "Закрыть"
+  "关闭"
+}
+{
+  "Закрыть рекламу?"
+  "关闭广告？"
+}
+{
+  "Перейти"
+  "去"
+}
+{
+  "Перейти на сайт"
+  "访问网站"
+}
+{
+  "Перейти ➔"
+  "去 ➔"
+}
+{
+  "Пропустить"
+  "思念"
+}
+{
+  "РЕКЛАМА"
+  "广告"
+}
+{
+  "СОЦИАЛЬНАЯ РЕКЛАМА"
+  "社交广告"
+}
+{
+  "Установить"
+  "安装"
+}
+{
+  "Установить из Google Play"
+  "从 Google Play 安装"
+}
+{
+  "сек"
+  "秒"
+}
+{
+  "✅LiteApks.Com✅"
+  "予澄 汉化｜LiteApks 修改"
+}
+{
+  "About"
+  "关于"
+}
+{
+  "AdMob - "
+  "AdMob-"
+}
+{
+  "Allow"
+  "允许"
+}
+{
+  "Allow app to send you notifications?"
+  "是否允许应用程序向您发送通知？"
+}
+{
+  "Don't allow"
+  "不允许"
+}
+{
+  "Get premium"
+  "获取高级版"
+}
+{
+  "Get premium to access to this icon"
+  "获取此图标的高级访问权限"
+}
+{
+  "Get premium to have fast access to the tools from this screen"
+  "获取高级权限，从此屏幕快速访问工具"
+}
+{
+  "Icon"
+  "图标"
+}
+{
+  "Network Scanner"
+  "局域网扫描工具"
+}
+{
+  "com.yandex.mobile.ads.AUTOMATIC_SDK_INITIALIZATION"
+  "com.yandex.mobile.ads.AUTOMATIC_SDK_INITIZATION"
+}
+{
+  "Есть противопоказания. Обратитесь к специалисту Есть противопоказания. Обратитесь к специалисту"
+  "有禁忌症。请咨询专家有禁忌症。请咨询专家"
+}
+{
+  "Огромный выбор авто. Удобный поиск. Авто новые и с пробегом. Ежедневные обновления. Огромный выбор авто. Огромный выбор авто. Удобный поиск. Авто новые и с пробегом. Ежедневные обновления. Огромный выбор авто"
+  "汽车的巨大选择。舒适的搜索新车和里程每日更新汽车的巨大选择。汽车的巨大选择。舒适的搜索新车和里程每日更新巨大的汽车选择"
+}
+{
+  "Покупка и продажа элитных и дешёвых машин на Авто.ру"
+  "在Auto.ru上购买和销售精英和廉价汽车"
+}

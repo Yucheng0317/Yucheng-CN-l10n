@@ -1,0 +1,596 @@
+<phyphox version="1.14" locale="en">
+  <title>Applause meter</title>
+  <category>Everyday life</category>
+  <icon format="base64">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</icon>
+  <description>
+        Assign scores to length and amplitude of an applause.
+
+        This experiments integrates the amplitude of sound over time and assigns scores. This way a loud and long applause gets the higher score. You can evaluate multiple contestants and compare their performance in the bar chart.
+
+        Usage: The history shows the noise level detected by phyphox. You can start the scoring by pressing "start" and stop the scoring by pressing "stop". During this period you will see the score increasing which is also indicated by the yellow bar. After stopping, you can press "next contestant" to get ready for measuring the next score. When you press "start" again, a second bar will grow until you press "stop" again. You can repeat this as often as you like to compare multiple scores.
+    </description>
+  <translations>
+    <translation locale="de">
+      <title>Applausmeter</title>
+      <category>Alltag</category>
+      <description>
+        Bewertet einen Applaus nach Lautstärke und Dauer.
+
+Dieses Experiment integriert die über das Mikrofon aufgezeichnete Lautstärke über die Zeit und ordnet eine Punktzahl zu. Somit kann hiermit ein Applaus bewertet werden. Mehrere Kandidaten können über das Balkendiagramm verglichen werden.
+
+Bedienung: Der Verlauf zeigt die von phyphox gemessene Lautstärke. Punkte werden erst ermittelt, wenn du auf "Start" drückst und es werden keine weiteren Punkte hinzugefügt wenn du "Stop" gedrückt hast. Während der Bewertung steigt die Punktzahl an, welche auch als gelber Balken gezeigt wird. Nach dem Stopp kannst du auf "nächster Kandidat" drücken um einen weiteren Punktestand zu ermitteln. Wenn du dann wieder auf "Start" drückst, wächst ein zweiter Balken. Dies kannst du beliebig oft wiederholen und damit mehrer Punktzahlen vergleichen.
+    </description>
+      <string original="Subscore">Teilpunkte</string>
+      <string original="Score">Punkte</string>
+      <string original="Scores">Punkte</string>
+      <string original="Controls">Steuerung</string>
+      <string original="History">Verlauf</string>
+      <string original="Reset active score">Aktuelle Punkte löschen</string>
+      <string original="Next contestant">Nächster Kandidat</string>
+      <string original="Time">Zeit</string>
+      <string original="Contestant">Kandidat</string>
+      <string original="Reset last score">Letzte Punkte löschen</string>
+      <string original="Clear all scores">Alle Punkte löschen</string>
+    </translation>
+    <translation locale="cs">
+      <string original="History">Historie</string>
+      <string original="Time">čas</string>
+      <title>Měřič potlesku</title>
+      <category>Každodenní život</category>
+      <description>
+        Přiřaďte skóre délce a amplitudě potlesku.
+
+         Tento experiment integruje amplitudu zvuku v čase a přiřazuje skóre. Tímto způsobem hlasitý a dlouhý potlesk získá vyšší skóre. Můžete hodnotit více soutěžících a porovnávat jejich výkony ve sloupcovém grafu.
+
+         Použití: Historie ukazuje úroveň hluku detekovanou phyphoxem. Bodování můžete spustit stisknutím tlačítka "start" a zastavit bodování stisknutím tlačítka "stop". Během této doby uvidíte, jak se skóre zvyšuje, což je také označeno žlutým pruhem. Po zastavení můžete stisknout „další soutěžící“ a připravit se na měření dalšího skóre. Když znovu stisknete "start", druhý pruh poroste, dokud znovu nestisknete "stop". Toto můžete opakovat tak často, jak chcete, abyste porovnali více skóre.
+    </description>
+      <string original="Score">Skóre</string>
+      <string original="Subscore">Meziskóre</string>
+      <string original="Scores">Skóre</string>
+      <string original="Contestant">Účastník</string>
+      <string original="Next contestant">Další účastník</string>
+      <string original="Controls">Ovládání</string>
+      <string original="Reset last score">Resetovat poslední skóre</string>
+      <string original="Clear all scores">Vymazat všechna skóre</string>
+    </translation>
+    <translation locale="el">
+      <string original="History">Ιστορικό</string>
+      <string original="Time">χρόνος</string>
+      <title>Χειροκροτημα-τόμετρο</title>
+      <category>Καθημερινή ζωή</category>
+      <description>
+        Βαθμολόγησε ένα χειροκρότημα με βάση τη διάρκεια και την ένταση.
+
+        Στο πείραμα αυτό ολοκληρώνεται το πλάτος του ήχου στον χρόνο και του αποδίδεται ένας βαθμός. Έτσι ένα δυνατό και παρατεταμένο χειροκρότημα παίρνει μεγαλύτερο βαθμό. Μπορείτε να βαθμολογήσετε πολλούς διαγωνιζόμενους και να συγκρίνετε τις επιδόσεις τους στο ραβδοδιάγραμμα.
+
+        Χρήση: Το ιστορικό δείχνει το επίπεδο θορύβου που καταγράφτηκε από το phyphox. Μπορείτε να ξεκινήσετε τη βαθμολόγηση πατώντας "εκκίνηση" και να σταματήσετε πατώντας "τερματισμός". Κατά τη διάρκεια αυτής της περιόδου θα δείτε το σκορ να αυξάνεται το οποίο επίσης καταδεικνύεται από την κίτρινη ράβδο. Μετά τον τερματισμό μπορείτε να πατήσετε "επόμενος διαγωνιζόμενος" ώστε να είστε έτοιμοι για τη μέτρηση του επόμενου. Όταν πατήσετε "εκκίνηση" ξανά, μια δεύτερη ράβδος θα αρχίζει να αυξάνεται μέχρι να πατήσετε "τερματισμός". Μπορείτε να επαναλάβετε τα παραπάνω όσο χρειάζεστε για να συγκρίνετε πολλαπλά σκορ.
+    </description>
+      <string original="Score">Βαθμός</string>
+      <string original="Subscore">Επι μέρους βαθμός</string>
+      <string original="Scores">Βαθμοί</string>
+      <string original="Contestant">Διαγωνιζόμενος</string>
+      <string original="Start">Εκκίνηση</string>
+      <string original="Stop">Τερματισμός</string>
+      <string original="Next contestant">Επόμενος διαγωνιζόμενος</string>
+      <string original="Controls">Κουμπιά ελέγχου</string>
+      <string original="Reset last score">Επαναφορά τελευταίου βαθμού</string>
+      <string original="Clear all scores">Καθαρισμός όλων των βαθμών</string>
+    </translation>
+    <translation locale="it">
+      <string original="History">Andamento</string>
+      <string original="Time">Tempo</string>
+      <title>Applausometro</title>
+      <category>Vita quotidiana</category>
+      <description>
+        Assegna un valore proporzionale alla lunghezza e all'intensità di un applauso.
+
+        Questo esperimento integra l'ampiezza di un suono nel tempo. In tal modo più un applauso è lungo e intenso, più il valore è elevato. Si può eseguire la misura su più contendenti e verificare il punteggio relativo attraverso un istogramma.
+        
+        Uso: la cronologia mostra il livello di rumore misurato da phyphox. Inizia la misura premendo "start" e termina premendo "stop". In questo intervallo il valore misurato aumenta. La misura è riprodotta anche graficamente come una banda gialla. Al termine premi "prossimo contendente" per eseguire un'altra misura. Premendo "start" si vedrà un'ulteriore banda crescere durante la misura. Ripeti le operazioni per il numero di volte necessario.
+    </description>
+      <string original="Score">Punteggio</string>
+      <string original="Subscore">Punt. parziale</string>
+      <string original="Scores">Punteggio</string>
+      <string original="Contestant">Contendente</string>
+      <string original="Next contestant">Prossimo contendente</string>
+      <string original="Controls">Controlli</string>
+      <string original="Reset last score">Cancella ultimo punteggio</string>
+      <string original="Clear all scores">Cancella tutti i punteggi</string>
+    </translation>
+    <translation locale="nl">
+      <string original="History">Geschiedenis</string>
+      <string original="Time">Tijd</string>
+      <title>Applausmeter</title>
+      <category>Alledaags</category>
+      <description>
+        Wijs scores toe aan lengte en amplitude van een applaus.
+
+         Dit experiment integreert de amplitude van geluid in de tijd en wijst scores toe. Op deze manier krijgt een luid en lang applaus de hogere score. U kunt meerdere deelnemers evalueren en hun prestaties vergelijken in het staafdiagram.
+
+         Gebruik: de geschiedenis toont het geluidsniveau gedetecteerd door phyphox. U kunt beginnen met het scoren door op "start" te drukken en het scoren te stoppen door op "stop" te drukken. Tijdens deze periode ziet u de score stijgen die ook wordt aangegeven door de gele balk. Na het stoppen kun je op "volgende deelnemer" drukken om je voor te bereiden op het meten van de volgende score. Wanneer u opnieuw op "start" drukt, zal een tweede balk groeien totdat u opnieuw op "stop" drukt. Je kunt dit zo vaak herhalen als je wilt om meerdere scores te vergelijken.
+    </description>
+      <string original="Subscore">Deelscore</string>
+      <string original="Contestant">Mededinger</string>
+      <string original="Next contestant">Volgende mededinger</string>
+      <string original="Controls">Controles</string>
+      <string original="Reset last score">Laatste score resetten</string>
+      <string original="Clear all scores">Wis alle scores</string>
+    </translation>
+    <translation locale="pl">
+      <string original="History">Historia</string>
+      <string original="Time">Czas</string>
+      <title>Licznik oklasków</title>
+      <category>Życie codzienne</category>
+      <description>
+        Przypisywanie parametrów czasu trwania i amplitudy oklasków.
+
+        Eksperyment łączy pomiar amplitudy dźwięku z pomiarem czasu jego trwania i przypisuje im łączny wynik. W ten sposób głośne i długie oklaski uzyskuje odpowiednio wyższy wynik. Dzięki temu można w powtarzalny sposób ocenić oklaski wielu uczestników i porównać je na wykresie słupkowym.
+
+        Zastosowanie: Historia pokazuje poziom hałasu rejestrowany przez aplikację. Można rozpocząć rejestrację naciskając "start" i zatrzymać ją naciskając "stop". Podczas pomiaru wynik wizualizowany jest w postaci żółtego paska. Po zatrzymaniu można wybrać opcję  "następny uczestnik", by przygotować się do kolejnego pomiaru. Ponowne naciśnięci "start" uruchamia kolejną wizualizację wyniku, która trwa do momentu powtórnego naciśnięcia "stop". Procedurę można powtarzać dla kolejnych oklasków.
+    </description>
+      <string original="Score">Wynik</string>
+      <string original="Subscore">Wynik cząstkowy</string>
+      <string original="Scores">Wyniki</string>
+      <string original="Contestant">Uczestnik</string>
+      <string original="Next contestant">Następny uczestnik</string>
+      <string original="Controls">Sterowanie</string>
+      <string original="Reset last score">Usuń poprzedni wynik</string>
+      <string original="Clear all scores">Usuń wszystkie wyniki</string>
+    </translation>
+    <translation locale="ru">
+      <string original="History">История</string>
+      <string original="Time">Время</string>
+      <title>Измеритель аплодисментов</title>
+      <category>Повседневная жизнь</category>
+      <description>
+        Установите баллы на длину и амплитуду аплодисментов.
+
+         Эти эксперименты объединяют амплитуду звука с временем и присваивают им баллы. Таким образом, громкие и длинные аплодисменты получают более высокий балл. Вы можете оценить несколько участников и сравнить их производительность на гистограмме.
+
+         Использование: История показывает уровень шума, измеренного в phyphox. Вы можете начать подсчет баллов, нажав «старт» и остановить счет, нажав «стоп». В течение этого периода вы увидите увеличение счета, которое также обозначается желтой полосой. После остановки вы можете нажать «следующий участник», чтобы подготовиться к оценке следующего балла. Когда вы снова нажмете «старт», вторая полоса будет расти, пока вы снова не нажмете «стоп». Вы можете повторять это с любым количеством участников.
+    </description>
+      <string original="Score">Балл</string>
+      <string original="Subscore">Дополнительный балл</string>
+      <string original="Scores">Баллы</string>
+      <string original="Contestant">Участник</string>
+      <string original="Start">Старт</string>
+      <string original="Stop">Стоп</string>
+      <string original="Next contestant">Следующий участник</string>
+      <string original="Controls">Управление</string>
+      <string original="Reset last score">Сбросить последний результат</string>
+      <string original="Clear all scores">Удалить все результаты</string>
+    </translation>
+    <translation locale="ja">
+      <title>Applause meter（拍手喝采音量計）</title>
+      <category>日常生活</category>
+      <description>
+        拍手喝采音の強度と長さを記録
+
+        この実験は，拍手喝采音の強度を積算します．このため音の強度と長さがないほど高い値が出ます．複数の出場者のスコアを棒グラフで比較できます．
+
+        利用方法：強度履歴はphyphoxで検出された音響レベルの履歴を示します．開始ボタンでスコアの積算が開始され，停止ボタンで終了します．計測中スコアが上昇していくのが見え，黄色のバーで表示されます．停止後，次の出場者ボタンで次のスコア計測準備ができます．再度開始ボタンを押すと，二つ目のバーが伸びていくのが見えます．これを繰り返し行います．
+    </description>
+      <string original="Score">スコア</string>
+      <string original="History">履歴</string>
+      <string original="Time">時間</string>
+      <string original="Subscore">音響レベルスコア</string>
+      <string original="Scores">スコア</string>
+      <string original="Contestant">出場者</string>
+      <string original="Start">開始</string>
+      <string original="Stop">停止</string>
+      <string original="Next contestant">次の出場者</string>
+      <string original="Controls">スコア計測</string>
+      <string original="Reset last score">直前のスコアのリセット</string>
+      <string original="Clear all scores">全てのスコアをクリア</string>
+    </translation>
+    <translation locale="pt">
+      <title>Medidor de Aplausos</title>
+      <category>Dia a Dia</category>
+      <description>
+        Atribui pontuação à duração e altura dos aplausos.
+
+        Este experimento integra a amplitude do som sobre o tempo e atribui uma pontuação. Desta forma, aplausos barulhentos e longos têm pontuação maior.  Você pode avaliar vários concorrentes e comparar o resultado no gráfico de barra.
+
+        Utilização: O histórico mostra o nível de barulho detectado pelo phyphox. Você pode iniciar a pontuação clicando em "iniciar" e parar a pontuação clicando em "parar". Durante este período você verá a pontuação aumentando, no que é indicado por uma barra amarela. Após parar, você pode clicar em "próximo concorrente" para preparar a medida para a próxima pontuação. Quando você clicar em "iniciar" novamente, uma segunda barra irá crescer até você apertar "parar" novamente. Você pode repetir este procedimento o quanto você quiser para comparar múltiplas pontuações.
+    </description>
+      <string original="Score">Ponto</string>
+      <string original="History">História</string>
+      <string original="Time">Tempo</string>
+      <string original="Subscore">Ponto Inicial</string>
+      <string original="Scores">Pontuação</string>
+      <string original="Contestant">Concorrente</string>
+      <string original="Start">Iniciar</string>
+      <string original="Stop">Parar</string>
+      <string original="Next contestant">Próximo Concorrente</string>
+      <string original="Controls">Controles</string>
+      <string original="Reset last score">Limpar última pontuação</string>
+      <string original="Clear all scores">Limpar todas pontuações</string>
+    </translation>
+    <translation locale="tr">
+      <title>Alkış ölçer</title>
+      <category>Gündelik Yaşam</category>
+      <description>
+        Bir alkışın uzunluğa ve genliğine puan verme.
+
+        Bu deneyler sesin zaman içindeki genliğini bütünleştirir ve puan verir. Bu şekilde yüksek ve uzun bir alkış daha yüksek puan alır. Birden çok yarışmacıyı değerlendirebilir ve performanslarını çubuk grafikte karşılaştırabilirsiniz..
+
+        Kullanım: Geçmiş phyphox tarafından tespit edilen gürültü seviyesini gösterir. "Başlat" a basarak puanlamaya başlayabilir ve "durdur" a basarak puanlamayı durdurabilirsiniz. Bu süre zarfında sarı çubuğunda gösterdiği gibi puan artışını göreceksiniz. Durduktan sonra, bir sonraki skoru ölçmek için "sonraki yarışmacı" tuşuna basabilirsiniz. "Başlat" a yeniden bastığınızda, tekrar "dur" a basana kadar ikinci bir çubuk büyüyecek. Birden çok puanı karşılaştırmak için istediğiniz sıklıkta tekrarlayabilirsiniz.
+    </description>
+      <string original="Score">Skor</string>
+      <string original="History">Geçmiş</string>
+      <string original="Time">Zaman</string>
+      <string original="Subscore">Altskor</string>
+      <string original="Scores">Skorlar</string>
+      <string original="Contestant">Yarışmacı</string>
+      <string original="Start">Başlat</string>
+      <string original="Stop">Durdur</string>
+      <string original="Next contestant">Sonraki yarışmacı</string>
+      <string original="Controls">Kontroller</string>
+      <string original="Reset last score">Son skoru sıfırla</string>
+      <string original="Clear all scores">Tüm skorları temizle</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <string original="History">歷史紀錄</string>
+      <string original="Time">時間</string>
+    </translation>
+    <translation locale="fr">
+      <title>Applaudimètre</title>
+      <category>Vie quotidienne</category>
+      <description>
+        Mesurer des applaudissements.
+
+         Cette expérience intègre l’amplitude du son dans le temps pour donner une note à des applaudissements. De cette façon, un applaudissement fort et long obtient le score le plus élevé. Vous pouvez comparer les performances de plusieurs concurrents en utilisant l'histogramme.
+
+         Utilisation: l'historique indique le niveau de bruit détecté par phyphox. Vous pouvez démarrer l'applaudimètre en appuyant sur "démarrer" et l'arrêter en appuyant sur "stop". Pendant cette période, le score augmente, ce qui est également indiqué par la barre jaune de l'histogramme. Une fois l'applaudimètre arrêté, vous pouvez appuyer sur "candidat suivant" afin d'être prêt pour les prochains applaudissements. Lorsque vous appuyez à nouveau sur "démarrer", une seconde mesure commence jusqu'à ce que vous appuyiez à nouveau sur "stop". Vous pouvez répéter cette opération aussi souvent que vous le souhaitez pour comparer plusieurs scores.
+    </description>
+      <string original="History">Historique</string>
+      <string original="Time">Durée</string>
+      <string original="Subscore">Applaudissements</string>
+      <string original="Contestant">Candidat</string>
+      <string original="Start">Démarrer</string>
+      <string original="Next contestant">Candidat suivant</string>
+      <string original="Controls">Contrôles</string>
+      <string original="Reset last score">Annule le dernier candidat</string>
+      <string original="Clear all scores">Efface tous les candidats</string>
+    </translation>
+    <translation locale="vi">
+      <title>Thước đo vỗ tay</title>
+      <category>Cuộc sống hằng ngày</category>
+      <description>
+        Gán điểm số cho khoảng thời gian và biên độ của một tràng pháo tay.
+
+        Thí nghiệm này tích hợp biên độ của âm thanh và khoảng thời gian để gán điểm số. Bằng cách này, một tràng pháo tay lớn và dài được điểm cao hơn. Bạn có thể đánh giá nhiều thí sinh và so sánh màn trình diễn của họ trong biểu đồ thanh.
+
+        Cách sử dụng: Lịch sử cho thấy mức độ tiếng ồn được phát hiện bởi phyphox. Bạn có thể bắt đầu đo điểm số bằng cách nhấn "bắt đầu" và dừng đo điểm số bằng cách nhấn "dừng". Trong giai đoạn này, bạn sẽ thấy điểm số tăng lên cũng được biểu thị bằng thanh màu vàng. Sau khi dừng, bạn có thể nhấn "thí sinh tiếp theo" để sẵn sàng đo điểm số tiếp theo. Khi bạn nhấn "bắt đầu" lại, một thanh thứ hai sẽ dần xuất hiện cho đến khi bạn nhấn "dừng" lại. Bạn có thể lặp lại điều này nhiều lần như bạn muốn để so sánh nhiều điểm số.
+    </description>
+      <string original="Score">Điểm số</string>
+      <string original="History">Lịch sử</string>
+      <string original="Time">Thời gian</string>
+      <string original="Subscore">Điểm số phụ</string>
+      <string original="Scores">Điểm số</string>
+      <string original="Contestant">Thí sinh</string>
+      <string original="Start">Bắt đầu</string>
+      <string original="Stop">Dừng</string>
+      <string original="Next contestant">Thí sinh tiếp theo</string>
+      <string original="Controls">Điều khiển</string>
+      <string original="Reset last score">Đặt lại điểm số</string>
+      <string original="Clear all scores">Xoá điểm số</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>掌声计</title>
+      <category>日常生活</category>
+      <description>
+        给一段掌声的时长与幅度计分。
+
+        这个实验整合了声音的振幅随时间的推移并分配分数。这种方式下长时间大声鼓掌可以得到更高的分数。你可以评估多个选手，并在条形图中比较他们的表现。
+
+       用法：历史记录显示了phyphox检测到的噪声水平。你可以按“开始”键开始计分，按“停止”键停止计分。在此期间，您将看到黄色状态栏代表的分数增加。停止后，您可以按下“下一位选手”，来测量下一个分数。当你再次按下“开始”键时，第二个栏会一直增长，直到你再次按下“停止”键为止。当你想要比较多个分数时可以重复该步骤。
+    </description>
+      <string original="Score">分数</string>
+      <string original="History">历史记录</string>
+      <string original="Time">时间</string>
+      <string original="Subscore">分项分数</string>
+      <string original="Scores">分数</string>
+      <string original="Contestant">选手</string>
+      <string original="Start">开始</string>
+      <string original="Stop">停止</string>
+      <string original="Next contestant">下一个选手</string>
+      <string original="Controls">控件</string>
+      <string original="Reset last score">重置最后得分</string>
+      <string original="Clear all scores">清空所有分数</string>
+    </translation>
+    <translation locale="sr">
+      <title>Merač aplauza</title>
+      <category>Svakodnevni život</category>
+      <description>
+        Dodeljivanje rezultata dužini i amplitudi aplauza.
+
+        Ovaj eksperiment objedinjuje amplitudu zvuka u toku vremena i dodeljuje rezultate. Na ovaj način glasni i dugi aplauz postiže viši rezultat. Možete proveriti više aplauza i uporediti njihove rezultate u grafikonu sa linijama.
+
+        Upotreba: Istorija pokazuje nivo buke detektovan od strane phyphox-a. Možete započeti merenje pritiskom ''start'' i zaustaviti pristiskom ''stop''. Tokom ovog perioda videće te kakao se rezultat povećava što se takođe naznačava žutom linijom. Nakon stopiranja, možete pritisnuti ''next contstant'' da bi ste se pripremili za merenje sledećeg rezultata. Kada pritisnite ''start'' ponovo, druga linija će rasti dok ne pritisnete ponovo ''stop''. Ovo možete ponavljati onoliko često koliko želite da poredite više rezultata.
+    </description>
+      <string original="Score">Rezultat</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Subscore">Podrezultat</string>
+      <string original="Scores">Rezultati</string>
+      <string original="Contestant">Takmičar</string>
+      <string original="Start">Početak</string>
+      <string original="Stop">Kraj</string>
+      <string original="Next contestant">Sledeći takmičar</string>
+      <string original="Controls">Kontrole</string>
+      <string original="Reset last score">Poništiti poslednji rezultat</string>
+      <string original="Clear all scores">Obrisati sve rezultate</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Merač aplauza</title>
+      <category>Svakodnevni život</category>
+      <description>
+        Dodeljivanje rezultata dužini i amplitudi aplauza.
+
+        Ovaj eksperiment objedinjuje amplitudu zvuka u toku vremena i dodeljuje rezultate. Na ovaj način glasni i dugi aplauz postiže viši rezultat. Možete proveriti više aplauza i uporediti njihove rezultate u grafikonu sa linijama.
+
+        Upotreba: Istorija pokazuje nivo buke detektovan od strane phyphox-a. Možete započeti merenje pritiskom ''start'' i zaustaviti pristiskom ''stop''. Tokom ovog perioda videće te kakao se rezultat povećava što se takođe naznačava žutom linijom. Nakon stopiranja, možete pritisnuti ''next contstant'' da bi ste se pripremili za merenje sledećeg rezultata. Kada pritisnite ''start'' ponovo, druga linija će rasti dok ne pritisnete ponovo ''stop''. Ovo možete ponavljati onoliko često koliko želite da poredite više rezultata.
+    </description>
+      <string original="Score">Rezultat</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Subscore">Podrezultat</string>
+      <string original="Scores">Rezultati</string>
+      <string original="Contestant">Takmičar</string>
+      <string original="Start">Početak</string>
+      <string original="Stop">Kraj</string>
+      <string original="Next contestant">Sledeći takmičar</string>
+      <string original="Controls">Kontrole</string>
+      <string original="Reset last score">Poništiti poslednji rezultat</string>
+      <string original="Clear all scores">Obrisati sve rezultate</string>
+    </translation>
+    <translation locale="es">
+      <title>Medidor de aplausos</title>
+      <category>Vida cotidiana</category>
+      <description>
+        Asignar puntajes a la longitud y amplitud de un aplauso.
+
+         Este experimento integra la amplitud del sonido a lo largo del tiempo y asigna puntuaciones. De esta manera, un fuerte y largo aplauso obtiene la puntuación más alta. Puede evaluar múltiples concursantes y comparar su desempeño en el gráfico de barras.
+
+         Uso: El historial muestra el nivel de ruido detectado por phyphox. Puede comenzar la puntuación presionando "inicio" y detener la puntuación presionando "detener". Durante este período, verá aumentar la puntuación, que también se indica mediante la barra amarilla. Después de detenerse, puede presionar "siguiente concursante" para prepararse para medir el próximo puntaje. Cuando presiona "iniciar" nuevamente, una segunda barra crecerá hasta que presione "detener" nuevamente. Puede repetir esto con la frecuencia que desee para comparar múltiples puntajes.
+    </description>
+      <string original="Score">Puntuación</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Subscore">Sub puntuación</string>
+      <string original="Scores">Puntuaciones</string>
+      <string original="Contestant">Concursantes</string>
+      <string original="Start">Iniciar</string>
+      <string original="Stop">Detener</string>
+      <string original="Next contestant">Próximo concursante</string>
+      <string original="Controls">Controles</string>
+      <string original="Reset last score">Reiniciar último puntaje</string>
+      <string original="Clear all scores">Borrar todos los puntajes</string>
+    </translation>
+    <translation locale="ka">
+      <title>ტაშის მთვლელი</title>
+      <category>ყოველდღიური ცხოვრება</category>
+      <description>
+        მიანიჭე ქულები ტაშების ამპლიტუდას და სიგრძეს.
+
+        ეს ექსპერიმენტი ინიშნავს ხმის ამპლიტუდას დროში და ანიჭებს ქულებს. ასრომ ხმამაღალი და გრძელი ტაში მიიღებს მეტ ქულას.თქვენ შეგიძლიათ გყავდეთ რამდენიმე კონკურსანტი და შეადაროთ მათი ასპარეზობა ერთმანეთს, სვეტოვანი დიაგრამით.
+
+        გამოყენება: ისორია გიჩვენებთ ხმის დონეს რაც ფაიფოქსმა დააფიქსირა. შეფასება შეიძლებაა დაიწყოს "დაწყების" დაჭერით და შეწყდება როდესაც "გაჩერება"-ს დააწვებით. მსვლელობის პერიოდში შეამჩნევთ ქულების ზრდას რომელიც ასევე შეგიძლიათ შეამჩნიოთ ყვითელი სვეტით. შეჩერების შემდეგ შეგიძლიათ დააწვეთ "შემდეგი კონკურსანტი" და მოემზადოთ შემდეგი გაზომვისთვის. როდესაც კიდევ ერთხელ დააწვებით "დაწყება"-ს მეორე სვეტი დაიწყებს გარდას სამამ ისევ არ დააწვებით "შეწყვეტა"-ს. შემდეგ შეგიძლიათ ეს პროცესი კიდევ გაიმეორეოთ.
+    </description>
+      <string original="Score">ქულა</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Subscore">ქვე ქულა</string>
+      <string original="Scores">ქულები</string>
+      <string original="Contestant">კონკურსანტი</string>
+      <string original="Start">დაწყება</string>
+      <string original="Stop">შეწყვეტა</string>
+      <string original="Next contestant">შემდეგი კონკურსანტი</string>
+      <string original="Controls">კონტრლები</string>
+      <string original="Reset last score">გაასუფთავე ბოლო ქულა</string>
+      <string original="Clear all scores">გაასუფთავე ყველა ქულა</string>
+    </translation>
+    <translation locale="hi">
+      <title>ताली मापक</title>
+      <category>दैनिक जीवन</category>
+      <description>
+        तालियों की अवधि और आयाम के लिए स्कोर निर्धारित करें।
+
+        यह प्रयोग समय के साथ ध्वनि के आयाम को एकीकृत करता है और अंक देता है। इस तरह जोरदार और लंबी तालियां उच्च अंक प्राप्त करती हैं। इससे आप कई प्रतियोगियों का मूल्यांकन कर सकते हैं और "बार" चार्ट में उनके प्रदर्शन की तुलना कर सकते हैं।
+
+        उदाहरण: यह हिस्ट्री फायफॉक्स द्वारा पहचाने गए शोर के स्तर को दर्शाती है। आप "स्टार्ट" दबाकर स्कोरिंग शुरू कर सकते हैं और "स्टॉप" दबाकर स्कोरिंग को रोक सकते हैं। इस अवधि के दौरान आप स्कोर को बढ़ते हुए देखेंगे जो कि पीली पट्टी द्वारा भी इंगित किया जाता है। रुकने के बाद, आप अगले स्कोर को मापने के लिए तैयार होने के लिए "अगला प्रतियोगी" दबा सकते हैं। जब आप फिर से "स्टार्ट" दबाते हैं, तो दूसरी पट्टी तब तक बढ़ेगी जब तक आप फिर से "स्टॉप" नहीं दबाते। आप इसे जितनी बार चाहें उतनी बार दोहरा सकते हैं जिससे कि आप एक से अधिक स्कोरों की तुलना करना चाहते हैं।
+    </description>
+      <string original="Score">स्कोर</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Subscore">सब-स्कोर</string>
+      <string original="Scores">स्कोर</string>
+      <string original="Contestant">प्रतियोगी</string>
+      <string original="Start">स्टार्ट</string>
+      <string original="Stop">स्टॉप</string>
+      <string original="Next contestant">अगला प्रतियोगी</string>
+      <string original="Controls">कंट्रोल्स</string>
+      <string original="Reset last score">अंतिम स्कोर को रिसेट करें</string>
+      <string original="Clear all scores">सभी स्कोर मिटायें</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="9600">recording</container>
+    <container size="9600">recordingSquared</container>
+    <container size="0">scores</container>
+    <container size="1" init="0">currentScore</container>
+    <container size="1">currentScoreNew</container>
+    <container size="1" init="0">target</container>
+    <container size="0">scorePlot</container>
+    <container size="0">xaxis</container>
+    <container>rms</container>
+    <container>sum</container>
+    <container size="150">score</container>
+    <container size="1">subscore</container>
+    <container size="150">time</container>
+    <container>now</container>
+    <container init="0">t0</container>
+    <container size="1">count</container>
+    <container size="1">count-0.5</container>
+    <container size="1" init="0">next</container>
+  </data-containers>
+  <input>
+    <audio rate="48000">
+      <output>recording</output>
+    </audio>
+  </input>
+  <views>
+    <view label="Score">
+      <graph label="History" labelX="Time" unitX="[[quantity_short_time]]" labelY="Subscore">
+        <input axis="x">time</input>
+        <input axis="y">score</input>
+      </graph>
+      <graph label="Scores" labelX="Contestant" labelY="Scores" style="vbars" color="yellow" lineWidth="0.6" minY="0" scaleMinY="fixed">
+        <input axis="x">xaxis</input>
+        <input axis="y">scorePlot</input>
+      </graph>
+      <value size="3" label="Score" precision="0">
+        <input>currentScore</input>
+      </value>
+      <button label="Start">
+        <input type="value">1</input>
+        <output>target</output>
+      </button>
+      <button label="Stop">
+        <input type="value">0</input>
+        <output>target</output>
+      </button>
+      <button label="Next contestant">
+        <input type="value">1</input>
+        <output>next</output>
+        <input type="value">0</input>
+        <output>target</output>
+      </button>
+    </view>
+    <view label="Controls">
+      <button label="Start">
+        <input type="value">1</input>
+        <output>target</output>
+      </button>
+      <button label="Stop">
+        <input type="value">0</input>
+        <output>target</output>
+      </button>
+      <button label="Reset last score">
+        <input type="value">0</input>
+        <output>currentScore</output>
+        <input type="value">0</input>
+        <output>target</output>
+      </button>
+      <button label="Clear all scores">
+        <input type="empty"/>
+        <output>scores</output>
+        <input type="value">0</input>
+        <output>currentScore</output>
+        <input type="value">0</input>
+        <output>target</output>
+      </button>
+      <button label="Next contestant">
+        <input type="value">1</input>
+        <output>next</output>
+        <input type="value">0</input>
+        <output>target</output>
+      </button>
+    </view>
+  </views>
+  <analysis sleep="0.2">
+    <if equal="true">
+      <input clear="false">next</input>
+      <input type="value">1</input>
+      <input clear="false">currentScore</input>
+      <output clear="false">scores</output>
+    </if>
+    <if equal="true">
+      <input clear="false">next</input>
+      <input type="value">1</input>
+      <input type="value">0</input>
+      <output>currentScore</output>
+    </if>
+    <append>
+      <input type="value">0</input>
+      <output>next</output>
+    </append>
+    <timer>
+      <output clear="false">now</output>
+    </timer>
+    <subtract>
+      <input clear="false">now</input>
+      <input clear="false">t0</input>
+      <output clear="false">time</output>
+    </subtract>
+    <power>
+      <input as="base" clear="true">recording</input>
+      <input as="exponent" type="value">2</input>
+      <output>recordingSquared</output>
+    </power>
+    <integrate>
+      <input>recordingSquared</input>
+      <output clear="false">sum</output>
+    </integrate>
+    <power>
+      <input as="base" clear="true">sum</input>
+      <input as="exponent" type="value">0.5</input>
+      <output>rms</output>
+    </power>
+    <divide>
+      <input>rms</input>
+      <input type="value">0.5</input>
+      <output>subscore</output>
+    </divide>
+    <append>
+      <input clear="false">subscore</input>
+      <output clear="false">score</output>
+    </append>
+    <add>
+      <input clear="false">currentScore</input>
+      <input clear="false">subscore</input>
+      <output>currentScoreNew</output>
+    </add>
+    <if greater="true">
+      <input clear="false">target</input>
+      <input type="value">0</input>
+      <input>currentScoreNew</input>
+      <output>currentScore</output>
+    </if>
+    <append>
+      <input type="empty"/>
+      <output>scorePlot</output>
+    </append>
+    <append>
+      <input clear="false">scores</input>
+      <output clear="false">scorePlot</output>
+    </append>
+    <append>
+      <input clear="false">currentScore</input>
+      <input type="value">0</input>
+      <output clear="false">scorePlot</output>
+    </append>
+    <count>
+      <input clear="false">scorePlot</input>
+      <output>count</output>
+    </count>
+    <subtract>
+      <input clear="false">count</input>
+      <input type="value">0.5</input>
+      <output>count-0.5</output>
+    </subtract>
+    <ramp>
+      <input as="start" type="value">0.5</input>
+      <input as="length" clear="false">count</input>
+      <input as="stop">count-0.5</input>
+      <output>xaxis</output>
+    </ramp>
+  </analysis>
+  <export>
+    <set name="Scores">
+      <data name="Index">xaxis</data>
+      <data name="Score">scorePlot</data>
+    </set>
+  </export>
+</phyphox>

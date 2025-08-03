@@ -1,0 +1,948 @@
+<phyphox version="1.14" locale="en">
+  <title>Magnetic Spectrum</title>
+  <category>Tools</category>
+  <icon format="base64">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
+    </icon>
+  <description>
+            Display the frequency spectrum of data from the magnetometer.
+
+            This experiment records data from the magnetometer and calculates its frequency spectrum through a Fourier transformation (FFT). The maximum detectable frequency depends on the maximum acquisition rate of your sensor.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Magnetic_Spectrum</link>
+  <translations>
+    <translation locale="de">
+      <title>Magnetfeld-Spektrum</title>
+      <category>Werkzeuge</category>
+      <description>
+            Zeigt das Frequenz-Spektrum des Magnetometers.
+
+                Dieses Experiment nimmt Daten über das Magnetometer auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Die maximale Frequenz im Spektrum hängt von der maximalen Aufnahmerate des Sensors ab.
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Fourier Transform">Fourier-Transformierte</string>
+      <string original="Settings">Einstellungen</string>
+      <string original="Raw data">Rohdaten</string>
+      <string original="Samples used">Genutzte Werte</string>
+      <string original="Period used">Genutzte Periode</string>
+      <string original="Acquisition rate">Aufnahmerate</string>
+      <string original="Nyquist frequency">Nyquist-Frequenz</string>
+      <string original="Magnetic field x">Magnetfeld x</string>
+      <string original="Magnetic field y">Magnetfeld y</string>
+      <string original="Magnetic field z">Magnetfeld z</string>
+      <string original="Samples">Messwerte</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="History">Verlauf</string>
+      <string original="Time">Zeit</string>
+      <string original="Resolution">Auflösung</string>
+    </translation>
+    <translation locale="cs">
+      <title>Magnetické spektrum</title>
+      <category>Nástroje</category>
+      <description>
+            Zobrazí spektra frekvencí signálů z magnetometru.
+
+Tento experiment zaznamenává data z magnetometru a provádí jejich spektrální analýzu pomocí Fourierovi transformace (FFT). Maximální detekovatelná frekvence záleží na maximální vzorkovací frekvenci vašeho senzoru.
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Fourier Transform">Fourierova transformace</string>
+      <string original="Samples used">Počet vzorků</string>
+      <string original="Period used">Použitá perioda</string>
+      <string original="Acquisition rate">Vzorkovací frekvence</string>
+      <string original="Nyquist frequency">Nyquistova frekvence</string>
+      <string original="Settings">Nastavení</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
+      <string original="Samples">Vzorků</string>
+      <string original="Raw data">Neupravená data</string>
+      <string original="Magnetic field x">Magnetické pole x</string>
+      <string original="Magnetic field y">Magnetické pole y</string>
+      <string original="Magnetic field z">Magnetické pole z</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="History">Historie</string>
+      <string original="Time">čas</string>
+      <string original="FFT Mag">Magnituda rychlé Fourierovy transformace</string>
+      <string original="Resolution">Rozlišení</string>
+    </translation>
+    <translation locale="pl">
+      <title>Widmo magnetyczne</title>
+      <category>Narzędzia</category>
+      <description>
+            Wyświetl widmo częstotliwości danych rejestrowanych za pomocą magnetometru.
+
+            W eksperymencie zapisywane są dane z magnetometru i określane jest ich widmo częstotliwościowe za pomocą szybkiej transformaty Fouriera (FFT). Maksymalna wykrywalna częstotliwość zależy od maksymalnej częstotliwości pracy czujnika urządzenia.
+    </description>
+      <string original="Spectrum">Widmo</string>
+      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Fourier Transform">Transformata Fourier'a</string>
+      <string original="Samples used">Rejestrowana próba</string>
+      <string original="Period used">Rejestrowany czas</string>
+      <string original="Acquisition rate">Częstotliwość próbkowania</string>
+      <string original="Nyquist frequency">Częstotliwość skł. widmowych</string>
+      <string original="Settings">Ustawienia</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string>
+      <string original="Samples">Liczba próbek</string>
+      <string original="Raw data">Surowe dane</string>
+      <string original="Magnetic field x">Składowa x indukcji magnetycznej</string>
+      <string original="Magnetic field y">Składowa y indukcji magnetycznej</string>
+      <string original="Magnetic field z">Składowa z indukcji magnetycznej</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="History">Historia</string>
+      <string original="Time">Czas</string>
+    </translation>
+    <translation locale="nl">
+      <title>Magnetisch Spectrum</title>
+      <category>Gereedschap</category>
+      <description>
+            Geef het frequentiespectrum weer van data van de magnetometer.
+
+             Dit experiment registreert data van de magnetometer en berekent er het frequentiespectrum van via Fourier-transformatie (FFT). De hoogst detecteerbare frequentie hangt af van de maximale acquisitiesnelheid van uw sensor.
+    </description>
+      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Fourier Transform">Fourier Transformatie</string>
+      <string original="Samples used">Gebruikte monsters</string>
+      <string original="Period used">Tijdsduur</string>
+      <string original="Acquisition rate">Acquisitiesnelheid</string>
+      <string original="Nyquist frequency">Nyquist frequentie</string>
+      <string original="Settings">Instellingen</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hieronder kunt u het aantal monsternames instellen dat voor de Fourier-transformatie wordt gebruikt. Meer monsternames betekenen langzamere updates, maar een hogere spectrale resolutie.</string>
+      <string original="Samples">Monsters</string>
+      <string original="Raw data">Onbewerkte data</string>
+      <string original="Magnetic field x">Magnetisch veld x</string>
+      <string original="Magnetic field y">Magnetisch veld y</string>
+      <string original="Magnetic field z">Magnetisch veld z</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="History">Geschiedenis</string>
+      <string original="Time">Tijd</string>
+    </translation>
+    <translation locale="ru">
+      <title>Магнитный спектр</title>
+      <category>Измерительные инструменты</category>
+      <description>
+            Отобразить частотный спектр магнитометра.
+
+            Этот эксперимент записывает данные с магнитометра и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Максимальная определяемая частота зависит от максимальной скорости приема вашего датчика.
+    </description>
+      <string original="Spectrum">Спектр</string>
+      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Fourier Transform">Преобразование Фурье</string>
+      <string original="Samples used">Используемые образцы</string>
+      <string original="Period used">Используемый период</string>
+      <string original="Acquisition rate">Cкорость сбора данных</string>
+      <string original="Nyquist frequency">Частота Найквиста</string>
+      <string original="Settings">Настройки</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
+      <string original="Samples">Дискретизация</string>
+      <string original="Raw data">Исходные данные</string>
+      <string original="Magnetic field x">Магнитное поле x</string>
+      <string original="Magnetic field y">Магнитное поле y</string>
+      <string original="Magnetic field z">Магнитное поле z</string>
+      <string original="Frequency">Частота</string>
+      <string original="FFT Mag">Величина FFT</string>
+      <string original="History">История</string>
+      <string original="Time">Время</string>
+      <string original="1/min">1/мин</string>
+      <string original="Resolution">Разрешение</string>
+    </translation>
+    <translation locale="it">
+      <title>Spettro magnetico</title>
+      <category>Strumenti</category>
+      <description>
+            Visualizza lo spettro di frequenza dei dati dal magnetometro.
+
+	Questo esperimento registra i dati dal magnetometro e calcola il suo spettro di frequenza attraverso una trasformata di Fourier (FFT). La frequenza massima rilevabile dipende dalla velocità di acquisizione massima del sensore a bordo del tuo telefono.
+    </description>
+      <string original="Spectrum">Spettro</string>
+      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Fourier Transform">Trasformata di Fourier</string>
+      <string original="Samples used">Campioni usati</string>
+      <string original="Period used">Periodo usato</string>
+      <string original="Acquisition rate">Frequenza di acquisizione</string>
+      <string original="Nyquist frequency">Frequenza di Nyquist</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di campionamenti per la trasformata di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, la risoluzione dello spettrometro sarà migliore.</string>
+      <string original="Samples">Campioni di dati</string>
+      <string original="Raw data">Dati grezzi</string>
+      <string original="Magnetic field x">Campo magnetico x</string>
+      <string original="Magnetic field y">Campo magnetico y</string>
+      <string original="Magnetic field z">Campo magnetico z</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="History">Andamento</string>
+      <string original="Time">Tempo</string>
+    </translation>
+    <translation locale="el">
+      <title>Μαγνητικό Φάσμα</title>
+      <category>Εργαλεία</category>
+      <description>
+            Το φάσμα της συχνότητας των δεδομένων του μαγνητόμετρου.
+
+            Σ' αυτό το πείραμα καταγράφονται τα δεδομένα του μαγνητόμετρου και υπολογίζεται το φάσμα της συχνότητας μέσα από ένα γρήγορο μετασχηματισμό Fourier (FFT). Η μέγιστη καταγραφόμενη συχνότητα εξαρτάται από το μέγιστο ρυθμό καταγραφής του αισθητήρα σας.
+    </description>
+      <string original="Spectrum">Φάσμα</string>
+      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
+      <string original="Samples used">Πλήθος δειγμάτων</string>
+      <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
+      <string original="Acquisition rate">Ρυθμός καταγραφής</string>
+      <string original="Nyquist frequency">Συχνότητα Nyquist</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Παρακάτω μπορείτε να ορίσετε τον αριθμό των δειγμάτων που χρησιμοποιούνται στο μετασχηματισμό Fourier. Μεγάλος αριθμός σημαίνει αργότερες ενημερώσεις αλλά υψηλότερη φασματική ανάλυση.</string>
+      <string original="Samples">Δείγματα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+      <string original="Magnetic field x">Μαγνητικό πεδίο x</string>
+      <string original="Magnetic field y">Μαγνητικό πεδίο y</string>
+      <string original="Magnetic field z">Μαγνητικό πεδίο z</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="History">Ιστορικό</string>
+      <string original="Time">χρόνος</string>
+      <string original="Resolution">Διακριτικότητα</string>
+    </translation>
+    <translation locale="ja">
+      <title>磁力スペクトル</title>
+      <category>ツール</category>
+      <description>
+            磁力計の周波数スペクトル.
+
+本実験では磁力計により計測したデータをフーリエ変換 (FFT) することで周波数スペクトルを計算します．測定可能な最大周波数は所有するセンサーの最大サンプリングレートによります．
+    </description>
+      <string original="Spectrum">スペクトル</string>
+      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Fourier Transform">フーリエ変換スペクトル</string>
+      <string original="Frequency">周波数</string>
+      <string original="FFT Mag">FFTピーク強度</string>
+      <string original="Samples used">使用サンプル数</string>
+      <string original="Period used">動作時間</string>
+      <string original="Acquisition rate">サンプリングレート</string>
+      <string original="Nyquist frequency">ナイキスト周波数</string>
+      <string original="History">履歴</string>
+      <string original="Time">時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下記より，フーリエ変換に使用するデータのサンプル数の変更が可能です．サンプル数を大きくすることで周波数分解能を改善できますが，データの取得と更新に時間を要します．</string>
+      <string original="Samples">サンプル数</string>
+      <string original="Raw data">時系列データ</string>
+      <string original="Magnetic field x">磁界 x</string>
+      <string original="Magnetic field y">磁界 y</string>
+      <string original="Magnetic field z">磁界 z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Espectro Magnético</title>
+      <category>Ferramentas</category>
+      <description>
+            Mostrar o espectro de frequência dos dados obtidos do magnetômetro.
+
+            Este experimento salva os dados do magnetômetro e calcula a frequência através de uma transformada de Fourier. A frequência máxima que pode ser detectada depende da taxa de leitura do seu sensor.
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frequência</string>
+      <string original="FFT Mag">TFR Mag</string>
+      <string original="Samples used">Amostragem</string>
+      <string original="Period used">Tempo utilizado</string>
+      <string original="Acquisition rate">Taxa de aquisição</string>
+      <string original="Nyquist frequency">Frequência de Nyquist</string>
+      <string original="History">História</string>
+      <string original="Time">Tempo</string>
+      <string original="Settings">Configurações</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Abaixo você pode escolher o número de medidas usado para a transformada de Fourier. Com uma amostragem maior você terá uma melhor definição do espectro, porém com menos atualizações.</string>
+      <string original="Samples">Amostragem</string>
+      <string original="Raw data">Sensores</string>
+      <string original="Magnetic field x">Campo magnético x</string>
+      <string original="Magnetic field y">Campo magnético Y</string>
+      <string original="Magnetic field z">Campo magnético z</string>
+    </translation>
+    <translation locale="tr">
+      <title>Manyetik spektrum</title>
+      <category>Araçlar</category>
+      <description>
+            Manyetometreden gelen verilerin frekans spektrumunu görüntüleyin.
+
+Bu deney, manyetometrenin verilerini kaydeder ve Fourier dönüşümü (FFT) kullanarak frekans spektrumunu hesaplar. Algılanabilir maksimum frekans sensörünüzün maksimum algılama oranına bağlıdır.
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="Fourier Transform">Fourier dönüşümü</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Samples used">Kullanılan örnekler</string>
+      <string original="Period used">Kullanılan periyot</string>
+      <string original="Acquisition rate">Edinme oranı</string>
+      <string original="Nyquist frequency">Nist frekansı</string>
+      <string original="History">Geçmiş</string>
+      <string original="Time">Zaman</string>
+      <string original="Settings">Ayarlar</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier dönüşümü için kullanılan örnek sayısını aşağıdan ayarlayabilirsiniz.  Daha fazla örnek, yavaş güncellemeler fakat daha yüksek spektral çözünürlük anlamına gelir.</string>
+      <string original="Samples">Örnekler</string>
+      <string original="Raw data">Ham veri</string>
+      <string original="Magnetic field x">Manyetik alan x</string>
+      <string original="Magnetic field y">Manyetik alan y</string>
+      <string original="Magnetic field z">Manyetik alan z</string>
+      <string original="1/min">1/dakika</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>磁場譜</title>
+      <category>工具</category>
+      <description>
+            由磁場計顯示頻譜。
+
+	本實驗藉由磁場計所得資料，利用快速傅立葉轉換(FFT)計算頻譜。最大可偵測頻率與您的偵測器的資料獲取最大速度有關。
+    </description>
+      <string original="Spectrum">加速頻譜</string>
+      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Fourier Transform">傅立葉轉換</string>
+      <string original="Frequency">頻率</string>
+      <string original="Samples used">使用樣本數</string>
+      <string original="Period used">使用週期數</string>
+      <string original="Acquisition rate">資料獲取速率</string>
+      <string original="Nyquist frequency">奈奎斯頻率</string>
+      <string original="History">歷史紀錄</string>
+      <string original="Time">時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">你可以在底下設定傅立葉轉換所需的樣本數。越多的樣本，相對應的代表更新速度會越慢，但會得到更高的頻譜解析度。</string>
+      <string original="Samples">樣本數</string>
+      <string original="Raw data">原始數據</string>
+      <string original="Magnetic field x">x方向磁場</string>
+      <string original="Magnetic field y">y方向磁場</string>
+      <string original="Magnetic field z">z方向磁場</string>
+    </translation>
+    <translation locale="fr">
+      <title>Spectre magnétique</title>
+      <category>Outils</category>
+      <description>
+            Trace spectre fréquentiel des mesures effectuées par le magnétomètre.
+
+             Cette expérience enregistre les mesures du magnétomètre et calcule son spectre de fréquence par transformée de Fourier rapide (FFT). La fréquence maximale détectable dépend de la vitesse d'acquisition de votre capteur.
+    </description>
+      <string original="Spectrum">Spectre</string>
+      <string original="Peak-Frequency">Fréquence du pic</string>
+      <string original="Fourier Transform">Transformée de Fourier</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="FFT Mag">FFT Amplitude</string>
+      <string original="Samples used">Nombre d'échantillons</string>
+      <string original="Period used">Durée de l’échantillonnage</string>
+      <string original="Acquisition rate">Fréquence d'acquisition</string>
+      <string original="Nyquist frequency">Fréquence de Nyquist</string>
+      <string original="History">Historique</string>
+      <string original="Time">Durée</string>
+      <string original="Settings">Paramètres</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Choisissez le nombre d'échantillons utilisés pour calculer la transformée de Fourier. Plus ce nombre est grand, plus la résolution en fréquence sera bonne, mais cela prendra plus de temps.</string>
+      <string original="Samples">Nombre d'échantillons</string>
+      <string original="Raw data">Données brutes</string>
+      <string original="Magnetic field x">Champs magnétique selon x</string>
+      <string original="Magnetic field y">Champs magnétique selon y</string>
+      <string original="Magnetic field z">Champs magnétique selon z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Từ phổ</title>
+      <category>Công cụ</category>
+      <description>
+            ........Hiển thị dữ liệu phổ tần số từ từ kế.
+
+........Thí nghiệm này ghi lại dữ liệu từ từ kế và tính toán phổ tần số của nó thông qua phép biến đổi Fourier (FFT). Tần số tối đa có thể phát hiện phụ thuộc vào tốc độ thu nhận tối đa của cảm biến của bạn.
+....
+    </description>
+      <string original="Spectrum">Phổ</string>
+      <string original="Peak-Frequency">Tần số đỉnh</string>
+      <string original="Fourier Transform">Biến đổi Fourier</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Samples used">Mẫu được dùng</string>
+      <string original="Period used">Khoảng được dùng</string>
+      <string original="Acquisition rate">Tốc độ thu được</string>
+      <string original="Nyquist frequency">Tần số Nyquist</string>
+      <string original="History">Lịch sử</string>
+      <string original="Time">Thời gian</string>
+      <string original="Settings">Cài đặt</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Bạn có thể đặt số lượng mẫu được sử dụng cho biến đổi Fourier bên dưới. Nhiều mẫu hơn có nghĩa là cập nhật chậm hơn, nhưng độ phân giải phổ cao hơn.</string>
+      <string original="Samples">Mẫu</string>
+      <string original="Raw data">Dữ liệu thô</string>
+      <string original="Magnetic field x">Từ trường x</string>
+      <string original="Magnetic field y">Từ trường y</string>
+      <string original="Magnetic field z">Từ trường z</string>
+      <string original="1/min">1/phút</string>
+      <string original="Resolution">Độ phân giải</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>磁场频谱</title>
+      <category>工具</category>
+      <description>
+            显示磁力计数据的频谱。
+
+            本实验记录来自磁力计的数据并利用快速傅里叶变换（FFT）计算其频谱。可测最大频率取决于你的传感器的最高采样率。
+    </description>
+      <string original="Spectrum">加速度频谱</string>
+      <string original="Peak-Frequency">峰值频率</string>
+      <string original="Fourier Transform">傅里叶变换</string>
+      <string original="Frequency">频率</string>
+      <string original="FFT Mag">FFT幅值</string>
+      <string original="Samples used">使用的采样数</string>
+      <string original="Period used">使用的周期</string>
+      <string original="Acquisition rate">采样率</string>
+      <string original="Nyquist frequency">奈奎斯特频率</string>
+      <string original="History">历史记录</string>
+      <string original="Time">时间</string>
+      <string original="Settings">设置</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下方可以设置傅里叶变换采用的样本数。更多样本意味更新更慢，但会得到更高的频谱分辨率。</string>
+      <string original="Samples">样本数</string>
+      <string original="Raw data">原始数据</string>
+      <string original="Magnetic field x">X方向磁场</string>
+      <string original="Magnetic field y">Y方向磁场</string>
+      <string original="Magnetic field z">Z方向磁场</string>
+      <string original="Resolution">分辨率</string>
+    </translation>
+    <translation locale="sr">
+      <title>Magnetni spektar</title>
+      <category>Alati</category>
+      <description>
+            Prikaži frekvenciju spektra podataka iz magnetometra.
+
+           Ovaj eksperiment snima podatke iz magnetometra i račina njegovi spektralnu frekvenciju kroz Furijeove transformacije (FFT). Maksimalna detektovana frekvencija zavisi od maksimalne sposobnosti vašeg senzora.
+    </description>
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="Acquisition rate">Stopa prikupljanja podataka</string>
+      <string original="Nyquist frequency">Nikvistova frekvencija</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Magnetic field x">Magnetno polje x</string>
+      <string original="Magnetic field y">Magnetno polje y</string>
+      <string original="Magnetic field z">Magnetno polje z</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Magnetni spektar</title>
+      <category>Alati</category>
+      <description>
+            Prikaži frekvenciju spektra podataka iz magnetometra.
+
+           Ovaj eksperiment snima podatke iz magnetometra i račina njegovi spektralnu frekvenciju kroz Furijeove transformacije (FFT). Maksimalna detektovana frekvencija zavisi od maksimalne sposobnosti vašeg senzora.
+    </description>
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="Acquisition rate">Stopa prikupljanja podataka</string>
+      <string original="Nyquist frequency">Nikvistova frekvencija</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Magnetic field x">Magnetno polje x</string>
+      <string original="Magnetic field y">Magnetno polje y</string>
+      <string original="Magnetic field z">Magnetno polje z</string>
+    </translation>
+    <translation locale="es">
+      <title>Espectro Magnético</title>
+      <category>Herramientas</category>
+      <description>
+            Mostrar el espectro de frecuencia de datos del magnetómetro.
+
+Este experimento registra datos del magnetómetro y calcula su frecuencia a través de una tranformación de Fourier (FFT). La frecuencia detectable máxima depende de la tasa de adquisición máxima de tu sensor.
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Samples used">Muestras usadas</string>
+      <string original="Period used">Período usado</string>
+      <string original="Acquisition rate">Tasa de adquisición</string>
+      <string original="Nyquist frequency">Frecuencia de Nyquist</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Debajo puedes establecer el número de muestras usadas en la transformación de Fourier. Más muestras significa actualizaciones más lentas, pero una resolución espectral más alta.</string>
+      <string original="Samples">Muestras</string>
+      <string original="Raw data">Datos sin procesar</string>
+      <string original="Magnetic field x">Campo magnético x</string>
+      <string original="Magnetic field y">Campo magnético y</string>
+      <string original="Magnetic field z">Campo magnético z</string>
+    </translation>
+    <translation locale="ka">
+      <title>მაგნიტური სპექტრი</title>
+      <category>ხელსაწყოები</category>
+      <description>
+            გამოაჩინე სიხშირის სპექტრის მონაცემები მაგნიტომეტრიდან.
+
+            ეს ექსპერიმენტი იწერს მონაცემებს მაგნიტომეტრიდან და ითვლის სიხშირეების სპექტრის ფურიეს გარდაქმებიდან (FFT).მაქსიმალური სიხშირე რისი დაფიქსირებაც შესაძლებელია დამოკიდებულია სენსორის აღქმაზე.
+    </description>
+      <string original="Spectrum">სპექტრი</string>
+      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="1/min">1/წთ</string>
+      <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Samples used">გამოყენებული ნიმუშები</string>
+      <string original="Period used">გამოყენებული პერიოდი</string>
+      <string original="Resolution">რეზოლუცია</string>
+      <string original="Acquisition rate">მიღების სიხშირე</string>
+      <string original="Nyquist frequency">ჩამკეტი სიხშირე</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">ქვემოთ შეგიძლია ჩაწეროთ ნიმუშების რაოდენობა ფურიეს გარდაქმნებისთვის. მეტი ნიმუში ნიშნავს ნელ განახლებას, თუმცა მაღალ სპექტრულ გარჩევადობას.</string>
+      <string original="Samples">ნიმუშები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Magnetic field x">მაგნიტური ველი x</string>
+      <string original="Magnetic field y">მაგნიტური ველი y</string>
+      <string original="Magnetic field z">მაგნიტური ველი z</string>
+    </translation>
+    <translation locale="hi">
+      <title>चुंबकीय वर्णक्रम</title>
+      <category>टूल्स</category>
+      <description>
+            यह मैग्नेटोमीटर डेटा से आवृत्ति वर्णक्रम प्रदर्शित करता है।
+
+            यह प्रयोग मैग्नेटोमीटर से डेटा रिकॉर्ड करता है और फूरियर ट्रांसफॉर्मेशन (FFT) के माध्यम से इसकी आवृत्ति स्पेक्ट्रम की गणना करता है। अधिकतम आवृत्ति जो आप इससे पता लगा सकते हैं वह आपके सेंसर की अधिकतम अर्जन दर (acquisition rate) पर निर्भर करती है।
+    </description>
+      <string original="Spectrum">वर्णक्रम</string>
+      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="1/min">1/मिनट</string>
+      <string original="Fourier Transform">फूरियर रूपांतरण</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="FFT Mag">FFT परिमाण</string>
+      <string original="Samples used">प्रयुक्त सेंपल</string>
+      <string original="Period used">प्रयुक्त अवधि</string>
+      <string original="Resolution">विभेदन</string>
+      <string original="Acquisition rate">अर्जन दर</string>
+      <string original="Nyquist frequency">नाइक्विस्ट आवृत्ति</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">नीचे आप फूरियर रूपांतरण के लिए उपयोग किए गए नमूनों (सैंपल) की संख्या निर्धारित कर सकते हैं। अधिक नमूने लेने पर अपडेट धीमे होगा परन्तु वर्णक्रमीय रिज़ॉल्यूशन (स्पेक्ट्रल रिज़ॉल्यूशन) अच्छा होगा।</string>
+      <string original="Samples">सैंपल्स</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Magnetic field x">चुंबकीय क्षेत्र x</string>
+      <string original="Magnetic field y">चुंबकीय क्षेत्र y</string>
+      <string original="Magnetic field z">चुंबकीय क्षेत्र z</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="4096">magInX</container>
+    <container size="4096">magInY</container>
+    <container size="4096">magInZ</container>
+    <container size="4096">magX</container>
+    <container size="4096">magY</container>
+    <container size="4096">magZ</container>
+    <container size="4096">time</container>
+    <container size="4096">magX_subrange</container>
+    <container size="4096">magY_subrange</container>
+    <container size="4096">magZ_subrange</container>
+    <container size="4096">time_subrange</container>
+    <container size="1">recording_length</container>
+    <container size="1">subrange_start</container>
+    <container init="256">samples</container>
+    <container size="1">actual_samples</container>
+    <container size="1">actual_samples+1</container>
+    <container size="1">period</container>
+    <container size="1">count-1</container>
+    <container size="1">count+1</container>
+    <container size="1">count/2</container>
+    <container size="1">count</container>
+    <container size="1">t0</container>
+    <container size="1">t1</container>
+    <container size="1">Dt</container>
+    <container size="1">dt</container>
+    <container size="1">maxf</container>
+    <container size="1">df</container>
+    <container size="1">arate</container>
+    <container size="4096">frequency</container>
+    <container size="4096">fftXX</container>
+    <container size="4096">fftYX</container>
+    <container size="4096">fftZX</container>
+    <container size="4096">fftXY</container>
+    <container size="4096">fftYY</container>
+    <container size="4096">fftZY</container>
+    <container size="2048">halfFrequency</container>
+    <container size="2048">halfFFTtempX</container>
+    <container size="2048">halfFFTtempY</container>
+    <container size="2048">halfFFTtempX2</container>
+    <container size="2048">halfFFTtempY2</container>
+    <container size="2048">fftX</container>
+    <container size="2048">fftY</container>
+    <container size="2048">fftZ</container>
+    <container size="2048">fft2</container>
+    <container size="2048">fft</container>
+    <container size="0">f0</container>
+    <container size="0">t</container>
+    <container size="1">resolutionRatio</container>
+    <container size="256">timeline</container>
+    <container size="256">reducedf</container>
+    <container size="256">reducedfft</container>
+    <container size="1">firstfft</container>
+    <container size="256">subf</container>
+    <container size="256">subfft</container>
+    <container size="32768">tmap</container>
+    <container size="32768">fmap</container>
+    <container size="32768">fftmap</container>
+  </data-containers>
+  <input>
+    <sensor type="magnetic_field" rate="0">
+      <output component="x">magInX</output>
+      <output component="y">magInY</output>
+      <output component="z">magInZ</output>
+      <output component="t">time</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Spectrum">
+      <value label="Peak-Frequency" unit="[[unit_short_hertz]]">
+        <input>f0</input>
+      </value>
+      <value label="Peak-Frequency" factor="60" unit="1/min">
+        <input>f0</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="FFT Mag" unitY="[[unit_short_arbitrary_unit]]">
+        <input axis="x">halfFrequency</input>
+        <input axis="y">fft</input>
+      </graph>
+      <separator height="1" precision="0"/>
+      <value label="Samples used" precision="0">
+        <input>actual_samples</input>
+      </value>
+      <value label="Period used" unit="[[unit_short_second]]" precision="2">
+        <input>period</input>
+      </value>
+      <value label="Resolution" unit="[[unit_short_hertz]]" precision="2">
+        <input>df</input>
+      </value>
+      <value label="Acquisition rate" unit="[[unit_short_hertz]]" precision="0">
+        <input>arate</input>
+      </value>
+      <value label="Nyquist frequency" unit="[[unit_short_hertz]]" precision="0">
+        <input>maxf</input>
+      </value>
+    </view>
+    <view label="History">
+      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="FFT Mag" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
+        <input axis="x">fmap</input>
+        <input axis="y">tmap</input>
+        <input axis="z">fftmap</input>
+      </graph>
+      <graph label="History" timeOnX="true" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak-Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
+        <input axis="x">t</input>
+        <input axis="y">f0</input>
+      </graph>
+    </view>
+    <view label="Settings">
+      <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
+      <dropdown label="Samples">
+        <output>samples</output>
+        <map value="128">128</map>
+        <map value="256">256</map>
+        <map value="512">512</map>
+        <map value="1024">1024</map>
+        <map value="2048">2048</map>
+        <map value="4096">4096</map>
+      </dropdown>
+    </view>
+    <view label="Raw data">
+      <graph label="Magnetic field x" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]">
+        <input axis="x">time_subrange</input>
+        <input axis="y">magX_subrange</input>
+      </graph>
+      <graph label="Magnetic field y" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]">
+        <input axis="x">time_subrange</input>
+        <input axis="y">magY_subrange</input>
+      </graph>
+      <graph label="Magnetic field z" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_magnetic_field]]" unitY="[[unit_short_micro_tesla]]">
+        <input axis="x">time_subrange</input>
+        <input axis="y">magZ_subrange</input>
+      </graph>
+    </view>
+  </views>
+  <analysis sleep="0.1">
+    <timer>
+      <output clear="false">t</output>
+    </timer>
+    <const>
+      <input as="value" clear="false">t</input>
+      <input as="length" type="value">256</input>
+      <output>timeline</output>
+    </const>
+    <append>
+      <input>magInX</input>
+      <output clear="false">magX</output>
+    </append>
+    <append>
+      <input>magInY</input>
+      <output clear="false">magY</output>
+    </append>
+    <append>
+      <input>magInZ</input>
+      <output clear="false">magZ</output>
+    </append>
+    <count>
+      <input clear="false">magX</input>
+      <output>count</output>
+    </count>
+    <subtract>
+      <input clear="false">count</input>
+      <input type="value">1</input>
+      <output>count-1</output>
+    </subtract>
+    <first>
+      <input clear="false">time</input>
+      <output>t0</output>
+    </first>
+    <subrange>
+      <input as="from" clear="false">count-1</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">time</input>
+      <output>t1</output>
+    </subrange>
+    <subtract>
+      <input clear="false">t1</input>
+      <input clear="false">t0</input>
+      <output>Dt</output>
+    </subtract>
+    <divide>
+      <input clear="false">Dt</input>
+      <input clear="false">count-1</input>
+      <output>dt</output>
+    </divide>
+    <count>
+      <input clear="false">magX</input>
+      <output>recording_length</output>
+    </count>
+    <subtract>
+      <input>recording_length</input>
+      <input clear="false">samples</input>
+      <output>subrange_start</output>
+    </subtract>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">magX</input>
+      <output>magX_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">magY</input>
+      <output>magY_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">magZ</input>
+      <output>magZ_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">time</input>
+      <output>time_subrange</output>
+    </subrange>
+    <count>
+      <input clear="false">magX_subrange</input>
+      <output>actual_samples</output>
+    </count>
+    <add>
+      <input clear="false">actual_samples</input>
+      <input type="value">1</input>
+      <output>actual_samples+1</output>
+    </add>
+    <multiply>
+      <input clear="false">actual_samples</input>
+      <input clear="false">dt</input>
+      <output>period</output>
+    </multiply>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>df</output>
+    </divide>
+    <fft>
+      <input clear="false">magX_subrange</input>
+      <output as="re">fftXX</output>
+      <output as="im">fftXY</output>
+    </fft>
+    <fft>
+      <input clear="false">magY_subrange</input>
+      <output as="re">fftYX</output>
+      <output as="im">fftYY</output>
+    </fft>
+    <fft>
+      <input clear="false">magZ_subrange</input>
+      <output as="re">fftZX</output>
+      <output as="im">fftZY</output>
+    </fft>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input type="value">2</input>
+      <output>count/2</output>
+    </divide>
+    <divide>
+      <input type="value">0.5</input>
+      <input clear="false">dt</input>
+      <output>maxf</output>
+    </divide>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">dt</input>
+      <output>arate</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">arate</input>
+      <input as="length" clear="false">actual_samples+1</input>
+      <output>frequency</output>
+    </ramp>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftXX</input>
+      <input as="in">fftXY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftX</output>
+    </add>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftYX</input>
+      <input as="in">fftYY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftY</output>
+    </add>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftZX</input>
+      <input as="in">fftZY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftZ</output>
+    </add>
+    <add>
+      <input>fftX</input>
+      <input>fftY</input>
+      <input>fftZ</input>
+      <output>fft2</output>
+    </add>
+    <power>
+      <input as="base">fft2</input>
+      <input as="exponent" type="value">0.5</input>
+      <output>fft</output>
+    </power>
+    <max>
+      <input as="y" clear="false">fft</input>
+      <input as="x" clear="false">halfFrequency</input>
+      <output as="position" clear="false">f0</output>
+    </max>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input type="value">512</input>
+      <output>resolutionRatio</output>
+    </divide>
+    <reduce averageY="true" averageX="false">
+      <input clear="false" as="factor">resolutionRatio</input>
+      <input clear="false" as="x">halfFrequency</input>
+      <input clear="false" as="y">fft</input>
+      <output as="x" clear="true">reducedf</output>
+      <output as="y" clear="true">reducedfft</output>
+    </reduce>
+    <const>
+      <output>subf</output>
+    </const>
+    <first>
+      <input clear="false">reducedfft</input>
+      <output>firstfft</output>
+    </first>
+    <const>
+      <input as="value">firstfft</input>
+      <output>subfft</output>
+    </const>
+    <subrange>
+      <input as="from" type="value">0</input>
+      <input as="to" type="value">256</input>
+      <input as="in">reducedf</input>
+      <input as="in">reducedfft</input>
+      <output clear="false">subf</output>
+      <output clear="false">subfft</output>
+    </subrange>
+    <append>
+      <input clear="false">timeline</input>
+      <output clear="false">tmap</output>
+    </append>
+    <append>
+      <input clear="false">subf</input>
+      <output clear="false">fmap</output>
+    </append>
+    <append>
+      <input clear="false">subfft</input>
+      <output clear="false">fftmap</output>
+    </append>
+  </analysis>
+  <export>
+    <set name="FFT Spectrum">
+      <data name="Frequency (Hz)">halfFrequency</data>
+      <data name="Absolute Amplitude (a.u.)">fft</data>
+    </set>
+    <set name="Peak History">
+      <data name="Time (s)">t</data>
+      <data name="Peak-Frequency">f0</data>
+    </set>
+    <set name="Raw data">
+      <data name="Time (s)">time_subrange</data>
+      <data name="Magnetic field x (µT)">magX_subrange</data>
+      <data name="Magnetic field y (µT)">magY_subrange</data>
+      <data name="Magnetic field z (µT)">magZ_subrange</data>
+    </set>
+  </export>
+</phyphox>

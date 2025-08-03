@@ -1,0 +1,2984 @@
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s” 已复制到剪贴板。"
+}
+{
+  "%1$d months"
+  "%1$d 月"
+}
+{
+  "%1$d years"
+  "%1$d 年"
+}
+{
+  "%1$s '%2$s' already exists!"
+  "%1$s '%2$s' 已存在"
+}
+{
+  "%1$s hours"
+  "%1$s 小时"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s 在使用 Google Play 服务时遇到问题。请再试一次。"
+}
+{
+  "%1$s minutes"
+  "%1$s 分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s 点钟"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新 Google Play 服务，否则 %1$s 不会运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有 Google Play 服务，%1$s 将无法运行，这些服务目前正在更新。"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有 Google Play 服务，%1$s 将无法运行，您的设备中缺少这些服务。"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有 Google Play 服务，%1$s 将无法运行，您的设备不支持这些服务。"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用 Google Play 服务，否则 %1$s 将无法正常工作。"
+}
+{
+  "%1$s – End date"
+  "%1$s – 结束日期"
+}
+{
+  "%d new notification"
+  "%d 新通知"
+}
+{
+  "%d new notifications"
+  "%d 新通知"
+}
+{
+  "%s ft"
+  "%s 英尺"
+}
+{
+  "%s km"
+  "%s 千米"
+}
+{
+  "%s m"
+  "%s 米"
+}
+{
+  "%s mi"
+  "%s 英里"
+}
+{
+  "%s nm"
+  "%秒纳米"
+}
+{
+  "%ssec"
+  "%秒"
+}
+{
+  "'%1$s' must not be empty!"
+  "'%1$s' 不能为空"
+}
+{
+  "'Automatically follow my location' is OFF"
+  "“自动关注我的位置”已关闭"
+}
+{
+  "'Automatically follow my location' is ON"
+  "“自动关注我的位置”已开启"
+}
+{
+  "-180° to 180°, enter negative values for western hemisphere!"
+  "-180° 到 180°，输入负值表示西半球"
+}
+{
+  "-90° to 90°, enter negative values for southern hemisphere!"
+  "-90° 到 90°，输入南半球的负值"
+}
+{
+  "1 month"
+  "1个月"
+}
+{
+  "1 year"
+  "1年"
+}
+{
+  "3D Distance"
+  "3D距离"
+}
+{
+  "<b>EGM96</b> Geoid<br>(orthometric height)"
+  "<b>EGM96</b>系列大地水准面<br>（正高）"
+}
+{
+  "<b>WGS84</b> Reference ellipsoid<br>(as supplied by Android)"
+  "<b>WGS84</b>型参考椭圆体<br>（由 Android 提供）"
+}
+{
+  "<p><b><i>Mapsforge</b></i> provides offline maps in vector format for the whole world.</p><i>Mapsforge</i> maps <ul><li>are displayed in <u>high quality</u> (because they are in vector format)</li> <li><u>do not cause any data traffic when used</u> (because they are offline)</li> <li>however require map data to be downloaded from the Internet once for every required area</li></ul> <u>We strongly recommend the use of <i>Mapsforge</i> maps!</u>"
+  "<p><b><i>Mapsforge</b></i> 为全世界提供矢量格式的离线地图。</p><i>Mapsforge</i> 地图<ul><li>以<u>高质量</u>显示（因为它们是矢量格式），</li><li><u>使用时不会引起任何数据流量</u>（因为它们是离线的），</li><li>但是需要从互联网上下载一次地图数据，对于每个必需的区域，</li></ul><u>我们强烈建议使用 <i>Mapsforge</i> 地图</u>"
+}
+{
+  "A total of %1$d locations successfully saved!"
+  "总共成功保存了 %1$d 的位置"
+}
+{
+  "AM"
+  "早上"
+}
+{
+  "About 'Text-to-speech'"
+  "关于“文字转语音”"
+}
+{
+  "About…"
+  "关于"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Account"
+  "帐户"
+}
+{
+  "Accuracy okay!"
+  "准确度高"
+}
+{
+  "Accuray low!"
+  "准确度低"
+}
+{
+  "Actions"
+  "行动"
+}
+{
+  "AdMob - "
+  "AdMob -"
+}
+{
+  "Add waypoint"
+  "添加航点"
+}
+{
+  "Address"
+  "地址"
+}
+{
+  "Ads"
+  "广告"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Allow"
+  "允许"
+}
+{
+  "Allow Ad to create a calendar event?"
+  "允许广告创建日历事件？"
+}
+{
+  "Allow Ad to store image in Picture gallery?"
+  "允许广告在图片库中存储图像？"
+}
+{
+  "Allow Rotation of maps"
+  "允许旋转地图"
+}
+{
+  "Allow app to send you notifications?"
+  "允许应用程序向您发送通知？"
+}
+{
+  "Allow big ads"
+  "允许投放大型广告"
+}
+{
+  "Already downloaded!"
+  "已经下载了"
+}
+{
+  "Altimeter#Pressure_altimeter"
+  "高度计#Pressure_altimeter"
+}
+{
+  "Altitude"
+  "高度"
+}
+{
+  "Altitude above"
+  "海拔高度以上"
+}
+{
+  "Always"
+  "总是"
+}
+{
+  "Ambient light sensor"
+  "环境光传感器"
+}
+{
+  "Android's 'Text-to-speech' feature can allow this app to talk to you while tracks are being recorded. In order for this to work, it is necessary to download the language data for the desired language once. To do this, use the 'Set up Text-to-Speech' button or, if you encounter problems, use Android system settings to configure 'Text-to-speech'."
+  "Android 的“文本转语音”功能能使软件在录制轨迹时播报语言。请在使用前下载一次所需语言的语言包（使用“设置文本转语音”按钮）如果遇到问题，请前往手机系统设置来配置“文本转语音”。"
+}
+{
+  "Answer"
+  "答"
+}
+{
+  "Antenna info"
+  "天线信息"
+}
+{
+  "App"
+  "应用程序"
+}
+{
+  "App recommendation"
+  "应用推荐"
+}
+{
+  "Apply"
+  "应用"
+}
+{
+  "Are you really sure you want to delete your account and all corresponding data on our server?"
+  "您确定要删除您的帐户和我们服务器上的所有相应数据吗？"
+}
+{
+  "Are you sure you want to overwrite the car's location?"
+  "您确定要覆盖汽车的位置吗？"
+}
+{
+  "Assist data (A-GNSS)"
+  "辅助数据 （A-GNSS）"
+}
+{
+  "Astro"
+  "天文"
+}
+{
+  "Astronomy"
+  "天文"
+}
+{
+  "At regular intervals (currently 5 minutes) it is checked whether there is more recent data on Dropbox that has been (automatically) backed up on another device. If so, the app asks the user if Dropbox should restore.<br><u><b>Attention: This feature is currently experimental!</b></u>"
+  "每隔一段时间（目前为 5 分钟），系统会检查 Dropbox 上是否有（自动）备份到另一台设备上的最新数据。如果是这样，该应用程序会询问用户 Dropbox 是否应恢复。<br><u><b>注意：此功能目前处于实验阶段</b></u>"
+}
+{
+  "At the moment it is not possible to purchase subscriptions and products that make the app ad-free. We ask for your understanding and will endeavor to make this option available again as soon as possible."
+  "目前，无法购买使应用程序无广告的订阅和产品。我们请求您的理解，并将努力尽快再次提供此选项。"
+}
+{
+  "Atmospheric pressure"
+  "气压"
+}
+{
+  "Authentication"
+  "认证"
+}
+{
+  "Automatic backup to Dropbox"
+  "自动备份到Dropbox"
+}
+{
+  "Automatic restore from Dropbox"
+  "从Dropbox自动恢复"
+}
+{
+  "Back"
+  "返回"
+}
+{
+  "Backing up data …"
+  "正在备份数据..."
+}
+{
+  "Backup to\nDropbox"
+  "备份到\nDropbox"
+}
+{
+  "Backup to Dropbox successful!"
+  "备份到Dropbox成功"
+}
+{
+  "Backup/Restore\n'My Locations', 'My Tracks'\nand 'Find my car' data"
+  "备份/恢复\n“我的位置”、“我的足迹”\n和“查找我的车”数据"
+}
+{
+  "Barometric altimeter"
+  "气压高度计"
+}
+{
+  "Bearing"
+  "方位"
+}
+{
+  "BeiDou"
+  "北斗"
+}
+{
+  "Bicycling"
+  "骑 自行车"
+}
+{
+  "Big ads"
+  "大型广告"
+}
+{
+  "Bing"
+  "必应"
+}
+{
+  "Body"
+  "身体"
+}
+{
+  "Body weight"
+  "体重"
+}
+{
+  "Buddhist"
+  "佛历（佛教历法）"
+}
+{
+  "Buy %1$s subscription"
+  "购买 %1 美元的订阅"
+}
+{
+  "Buy annual subscription"
+  "购买年度订阅"
+}
+{
+  "Buy product"
+  "购买产品"
+}
+{
+  "Calorie"
+  "卡路里"
+}
+{
+  "Calories"
+  "卡路里"
+}
+{
+  "Can not reach server!"
+  "无法访问服务器"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Cancel map download"
+  "取消地图下载"
+}
+{
+  "Carrier frequencies"
+  "载波频率"
+}
+{
+  "Center map to location"
+  "中心地图到位置"
+}
+{
+  "Change password"
+  "更改密码"
+}
+{
+  "Change to next month"
+  "更改为下个月"
+}
+{
+  "Change to previous month"
+  "与上月相比的变化"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过 %2$d 的 %1$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符 %1$d of %2$d"
+}
+{
+  "Check"
+  "检查"
+}
+{
+  "Check out my track"
+  "查看我的轨迹"
+}
+{
+  "Check product"
+  "检查产品"
+}
+{
+  "Check subscription"
+  "检查订阅"
+}
+{
+  "Checked"
+  "检查"
+}
+{
+  "Checkout this great app"
+  "看看这个伟大的应用程序"
+}
+{
+  "Chinese"
+  "中国农历"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Cleaning failed. %s tiles deleted."
+  "清洁失败 已删除 %s 个碎片"
+}
+{
+  "Cleaning tiles"
+  "清理碎片"
+}
+{
+  "Clear"
+  "清楚"
+}
+{
+  "Clear and update"
+  "清除和更新"
+}
+{
+  "Clear assist data"
+  "清除辅助数据"
+}
+{
+  "Clear clipboard"
+  "清除剪贴板"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "明文"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "Close navigation drawer"
+  "关闭导航抽屉"
+}
+{
+  "Collapse"
+  "崩溃"
+}
+{
+  "Collapse the bottom sheet"
+  "折叠底板"
+}
+{
+  "Compass"
+  "指南针"
+}
+{
+  "Compute"
+  "计算"
+}
+{
+  "Computing…"
+  "计算中"
+}
+{
+  "Confirm password"
+  "确认密码"
+}
+{
+  "Constellation filter"
+  "过滤卫星系统"
+}
+{
+  "Continue[ on %s]"
+  "继续[ 在 %s 上]"
+}
+{
+  "Contribution"
+  "贡献"
+}
+{
+  "Coordinates"
+  "坐标"
+}
+{
+  "Coptic"
+  "科普特历（亚历山大科普特正教会）"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Correct barometric\naltitude by"
+  "正确的气压测量\n海拔高度约"
+}
+{
+  "Could not load photo!"
+  "无法加载照片"
+}
+{
+  "Create calendar event"
+  "创建日历事件"
+}
+{
+  "Credentials"
+  "凭据"
+}
+{
+  "Current date"
+  "当前日期"
+}
+{
+  "Current selection: %1$s"
+  "当前选择： %1$s"
+}
+{
+  "Cycle Map"
+  "周期图"
+}
+{
+  "Data protection"
+  "数据保护"
+}
+{
+  "Data successfully restored!"
+  "数据已成功恢复"
+}
+{
+  "Data successfully saved!"
+  "数据已成功保存"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Day"
+  "日"
+}
+{
+  "Decline"
+  "下降"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Delete GPX files"
+  "删除 GPX 文件"
+}
+{
+  "Delete maps"
+  "删除地图"
+}
+{
+  "Deleting your account will also permanently delete %1$d backup(s) you created! Nevertheless delete the account?"
+  "删除您的帐户也将永久删除您创建的 %1$d 备份但是删除帐户？"
+}
+{
+  "Desired interval"
+  "所需间隔"
+}
+{
+  "Destination"
+  "目的地"
+}
+{
+  "Detect location"
+  "检测位置"
+}
+{
+  "Determining your current position is necessary for this app to function properly, so please allow this app to access your device's location services!"
+  "确定您当前的位置对于此应用程序正常运行是必要的，因此请允许此应用程序访问您设备的位置服务"
+}
+{
+  "Deutsch"
+  "德语"
+}
+{
+  "Device memory: %1$s free"
+  "设备内存： %1$s 可用"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Did not find backup on Dropbox!"
+  "在Dropbox上找不到备份"
+}
+{
+  "Disabled"
+  "禁用"
+}
+{
+  "Display"
+  "显示"
+}
+{
+  "Display settings"
+  "显示设置"
+}
+{
+  "Distance"
+  "距离"
+}
+{
+  "Do you want to cancel the map download?"
+  "是否要取消地图下载？"
+}
+{
+  "Don't allow"
+  "不允许"
+}
+{
+  "Don't touch theme"
+  "请勿触摸主题"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Download '%1$s'"
+  "下载 '%1$s'"
+}
+{
+  "Download detailed maps"
+  "下载详细地图"
+}
+{
+  "Download maps"
+  "下载地图"
+}
+{
+  "Download world map\n(Strongly recommended!)"
+  "下载世界地图\n（强烈推荐）"
+}
+{
+  "Downloading tiles"
+  "下载切片"
+}
+{
+  "Downloads"
+  "下载"
+}
+{
+  "Drag handle"
+  "拖动手柄"
+}
+{
+  "Drag handle double-tapped"
+  "拖动手柄，双击"
+}
+{
+  "Driving"
+  "驾驶"
+}
+{
+  "Dropbox Downloads"
+  "Dropbox 下载"
+}
+{
+  "Dropbox Uploads"
+  "Dropbox 上传"
+}
+{
+  "Dropbox access"
+  "Dropbox访问权限"
+}
+{
+  "Duration"
+  "期间"
+}
+{
+  "E-mail"
+  "电子邮件"
+}
+{
+  "EGM96 (Geoid)"
+  "EGM96 （大地水准面）"
+}
+{
+  "East"
+  "东"
+}
+{
+  "Edit consent settings"
+  "编辑意见征求设置"
+}
+{
+  "Elevation difference"
+  "高程差"
+}
+{
+  "Elevation gain"
+  "高程增益"
+}
+{
+  "Elevation loss"
+  "高程损失"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "Enable Google Play services"
+  "启用 Google Play 服务"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "End date %1$s"
+  "结束日期 %1$s"
+}
+{
+  "English"
+  "英语"
+}
+{
+  "Enter address to geocode"
+  "输入要进行地理编码的地址"
+}
+{
+  "Enter location"
+  "输入位置"
+}
+{
+  "Enter name"
+  "输入名称"
+}
+{
+  "Enter roundabout and leave at eighth exit[ on %s]"
+  "进入环形交叉路口，在第八个出口离开[ on %s]"
+}
+{
+  "Enter roundabout and leave at fifth exit[ on %s]"
+  "进入环形交叉路口，在第五个出口离开[ on %s]"
+}
+{
+  "Enter roundabout and leave at first exit[ on %s]"
+  "进入环形交叉路口，在第一个出口离开 [ on %s]"
+}
+{
+  "Enter roundabout and leave at fourth exit[ on %s]"
+  "进入环形交叉路口，在第四个出口离开[ on %s]"
+}
+{
+  "Enter roundabout and leave at second exit[ on %s]"
+  "进入环形交叉路口，在第二个出口离开[ on %s]"
+}
+{
+  "Enter roundabout and leave at seventh exit[ on %s]"
+  "进入环形交叉路口，在第七个出口离开[ on %s]"
+}
+{
+  "Enter roundabout and leave at sixth exit[ on %s]"
+  "进入环形交叉路口，在第六个出口离开[ on %s]"
+}
+{
+  "Enter roundabout and leave at third exit[ on %s]"
+  "进入环形交叉路口，在第三个出口离开[ on %s]"
+}
+{
+  "Entropy"
+  "熵"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error code"
+  "错误代码"
+}
+{
+  "Error occurred"
+  "发生错误"
+}
+{
+  "Error on calculating expression!"
+  "计算表达式时出错"
+}
+{
+  "Error on connecting to Server"
+  "连接到服务器时出错"
+}
+{
+  "Error on downloading '%1$s'"
+  "下载 '%1$s' 时出错"
+}
+{
+  "Error on parsing expression: {0}"
+  "解析表达式时出错：{0}"
+}
+{
+  "Error on parsing string constant!"
+  "解析字符串常量时出错"
+}
+{
+  "Error on restoring data!"
+  "恢复数据时出错"
+}
+{
+  "Error on saving data!"
+  "保存数据时出错"
+}
+{
+  "Error sending command!"
+  "发送命令时出错"
+}
+{
+  "Error: Device does not support clearing assist data!"
+  "错误：设备不支持清除辅助数据"
+}
+{
+  "Error: Device does not support injecting PSDS data!"
+  "错误：设备不支持注入 PSDS 数据"
+}
+{
+  "Error: Device does not support injecting time data!"
+  "错误：设备不支持注入时间数据"
+}
+{
+  "Error: geocoding not available!"
+  "错误：地理编码不可用"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Ethiopic"
+  "埃塞俄比亚历"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Expand halfway"
+  "中途扩张"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部工作表"
+}
+{
+  "Export GPX file"
+  "导出 GPX 文件"
+}
+{
+  "Export location"
+  "导出位置"
+}
+{
+  "Failed"
+  "失败"
+}
+{
+  "Failed to access Dropbox!"
+  "无法访问 Dropbox"
+}
+{
+  "Fastest interval"
+  "最快间隔"
+}
+{
+  "Feet"
+  "英尺"
+}
+{
+  "File on device"
+  "设备上的文件"
+}
+{
+  "Filter"
+  "滤波器"
+}
+{
+  "Filter altitude values"
+  "过滤高度值"
+}
+{
+  "Find my car"
+  "查找车的位置"
+}
+{
+  "Find route"
+  "查找路线"
+}
+{
+  "Fixed location"
+  "固定位置"
+}
+{
+  "Follow system dark mode"
+  "遵循系统暗模式"
+}
+{
+  "Foot"
+  "英寸"
+}
+{
+  "Found position, got fix!"
+  "找到位置，得到修复"
+}
+{
+  "Found valid product!"
+  "找到有效产品"
+}
+{
+  "Found valid subscription!"
+  "找到有效的订阅"
+}
+{
+  "Function+"
+  "功能+"
+}
+{
+  "GDPR"
+  "通用数据保护条例"
+}
+{
+  "GNSS altimeter"
+  "GNSS高度计"
+}
+{
+  "GPX files"
+  "GPX 文件"
+}
+{
+  "General"
+  "常规"
+}
+{
+  "GeoHack"
+  "地理黑客"
+}
+{
+  "Geocoded address"
+  "地理编码地址"
+}
+{
+  "Geocoding"
+  "地理编码"
+}
+{
+  "Geodatenzentrum provides maps for Germany and parts of neighboring countries up to zoom level 18, maps for the rest of Europe up to zoom level 16. We do not recommend using this provider for the rest of the world, as only maps up to zoom level 13 are available."
+  "Geodatenzentrum 提供德国和邻国部分地区的地图，最高缩放级别为 18，欧洲其他地区的地图最高缩放级别为 16。我们不建议在世界其他地区使用此提供商，因为只有缩放级别高达 13 的地图可用。"
+}
+{
+  "Get Google Play services"
+  "获取 Google Play 服务"
+}
+{
+  "Google Maps provides high-quality, high-performance, vector based maps. We recommend the use of Google Maps without restriction!"
+  "Google 地图提供高质量、高性能、基于矢量的地图。我们建议不受限制地使用谷歌地图"
+}
+{
+  "Google Play Subscriptions"
+  "Google Play 订阅"
+}
+{
+  "Google Play services availability"
+  "Google Play 服务的可用性"
+}
+{
+  "Google Play services error"
+  "Google Play 服务错误"
+}
+{
+  "Got the first fix"
+  "得到了第一个修复"
+}
+{
+  "Grant permission for notifications"
+  "授予通知权限"
+}
+{
+  "Gregorian"
+  "公历（格里高利历/公元）"
+}
+{
+  "HMS required"
+  "需要 HMS"
+}
+{
+  "HTTP status code"
+  "HTTP 状态代码"
+}
+{
+  "Handedness"
+  "惯用手"
+}
+{
+  "Handling zoom level: %1$s (from %2$s to %3$s)"
+  "处理缩放级别：%1$s（从 %2$s 到 %3$s）"
+}
+{
+  "Hang Up"
+  "挂断电话"
+}
+{
+  "Hardware model name"
+  "硬件型号名称"
+}
+{
+  "Hardware release year"
+  "硬件发布年份"
+}
+{
+  "Harnisch Account"
+  "Harnisch账户"
+}
+{
+  "Headline"
+  "标题"
+}
+{
+  "Hebrew"
+  "希伯来历（犹太历）"
+}
+{
+  "Help"
+  "帮助"
+}
+{
+  "Hills"
+  "山"
+}
+{
+  "Holiday"
+  "假期"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "Hours"
+  "小时"
+}
+{
+  "I no longer want to use this app"
+  "我不想再使用此应用程序"
+}
+{
+  "I'm on my way ..."
+  "我正在路上"
+}
+{
+  "Icon"
+  "图标"
+}
+{
+  "Imperial"
+  "英制单位"
+}
+{
+  "Import GPX file"
+  "导入 GPX 文件"
+}
+{
+  "Import and add locations"
+  "导入和添加位置"
+}
+{
+  "Import map '%1$s'?"
+  "导入映射 '%1$s'？"
+}
+{
+  "Import maps"
+  "导入地图"
+}
+{
+  "In use"
+  "使用中"
+}
+{
+  "Include altitude"
+  "包括海拔高度"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Incomplete track recording found. Continue?"
+  "发现轨迹记录不完整。继续？"
+}
+{
+  "Indian"
+  "印度历"
+}
+{
+  "Info"
+  "信息"
+}
+{
+  "Info on GNSS receiver"
+  "GNSS接收机信息"
+}
+{
+  "Info on GPX file"
+  "有关GPX文件的信息"
+}
+{
+  "Info on privacy"
+  "关于隐私的信息"
+}
+{
+  "Info to be output"
+  "要输出的信息"
+}
+{
+  "Information"
+  "信息"
+}
+{
+  "Inject PSDS data"
+  "注入 PSDS 数据"
+}
+{
+  "Inject time data"
+  "注入时间数据"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Invalid format."
+  "格式无效。"
+}
+{
+  "Invalid range."
+  "范围无效。"
+}
+{
+  "Islamic"
+  "伊斯兰历（回历）"
+}
+{
+  "Japanese"
+  "日本历"
+}
+{
+  "Keep screen on"
+  "保持屏幕常亮"
+}
+{
+  "Kilometer"
+  "公里"
+}
+{
+  "Kilometers"
+  "公里"
+}
+{
+  "Landscape"
+  "景观"
+}
+{
+  "Language"
+  "语言"
+}
+{
+  "Latitude"
+  "纬度"
+}
+{
+  "Latitude must be between -90 and 90!"
+  "纬度必须在 -90 到 90 之间"
+}
+{
+  "Left-hander"
+  "左撇子"
+}
+{
+  "Legal notice"
+  "法律声明"
+}
+{
+  "Length"
+  "长度"
+}
+{
+  "Licenses"
+  "许可证"
+}
+{
+  "Link copied to clipboard"
+  "链接已复制到剪贴板"
+}
+{
+  "Link to Baidu Maps"
+  "链接到百度地图"
+}
+{
+  "Link to Bing Maps"
+  "链接到 必应地图"
+}
+{
+  "Link to Google Maps"
+  "链接到谷歌地图"
+}
+{
+  "Link to Open Street Maps"
+  "链接到 Open Street Maps"
+}
+{
+  "Link to OpenTopoMap"
+  "链接到 OpenTopoMap"
+}
+{
+  "Link to Yandex Maps"
+  "链接到 Yandex 地图"
+}
+{
+  "Loading completed with %s errors."
+  "加载已完成，但出现 %s 错误。"
+}
+{
+  "Locale"
+  "现场"
+}
+{
+  "Location"
+  "位置"
+}
+{
+  "Location '%1$s' removed successfully!"
+  "已成功删除位置 '%1$s'"
+}
+{
+  "Location address"
+  "位置地址"
+}
+{
+  "Location of my car"
+  "我的车的位置"
+}
+{
+  "Location successfully saved!"
+  "位置已成功保存"
+}
+{
+  "Longitude"
+  "经度"
+}
+{
+  "Longitude must be between -180 and 180!"
+  "经度必须在 -180 到 180 之间"
+}
+{
+  "Lost position, no fix!"
+  "失去位置，无法修复"
+}
+{
+  "Main menu"
+  "主菜单"
+}
+{
+  "Manage subscriptions"
+  "管理订阅"
+}
+{
+  "Map"
+  "地图"
+}
+{
+  "Map Source"
+  "地图源"
+}
+{
+  "Map provider OpenStreetMap has very limited server capacities, intensive use must be avoided at all costs. So please only select in an absolute emergency!"
+  "地图提供商OpenStreetMap的服务器容量非常有限，必须不惜一切代价避免密集使用。因此，请仅在绝对紧急情况下选择"
+}
+{
+  "Mapquest Aerial"
+  "Mapquest 航拍"
+}
+{
+  "Maps"
+  "地图"
+}
+{
+  "Maps provider"
+  "地图提供商"
+}
+{
+  "Mapsforge offline maps"
+  "Mapsforge 离线地图"
+}
+{
+  "Max. elevation"
+  "最大海拔"
+}
+{
+  "Maybe later"
+  "也许以后"
+}
+{
+  "Media View"
+  "媒体视图"
+}
+{
+  "Menu+"
+  "菜单+"
+}
+{
+  "Meta+"
+  "元+"
+}
+{
+  "Meter"
+  "米"
+}
+{
+  "Meters"
+  "米"
+}
+{
+  "Metric"
+  "公制单位"
+}
+{
+  "Mile"
+  "英里"
+}
+{
+  "Miles"
+  "英里"
+}
+{
+  "Min. elevation"
+  "最小标高"
+}
+{
+  "Min. horizontal accuracy"
+  "最小水平精度"
+}
+{
+  "Min. vertical accuracy"
+  "最小垂直精度"
+}
+{
+  "Minimum accuracy"
+  "最小精度"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "Minutes"
+  "纪要"
+}
+{
+  "Miscellaneous"
+  "杂项"
+}
+{
+  "Mode"
+  "模式"
+}
+{
+  "Modify assist data"
+  "修改辅助数据"
+}
+{
+  "Month"
+  "月"
+}
+{
+  "Moon"
+  "月亮"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More recent data is available on Dropbox!"
+  "更多最新数据可在 Dropbox 上找到"
+}
+{
+  "More than %1$d new notifications"
+  "超过 %1$d 的新通知"
+}
+{
+  "More…"
+  "更多"
+}
+{
+  "Motion"
+  "位置状态"
+}
+{
+  "Move files …"
+  "移动文件"
+}
+{
+  "Move maps to device memory"
+  "将映射移动到设备内存"
+}
+{
+  "Move maps to sd card"
+  "将地图移动到SD卡"
+}
+{
+  "My car"
+  "我的车"
+}
+{
+  "My location"
+  "我的位置"
+}
+{
+  "My locations"
+  "我的位置"
+}
+{
+  "My tracks"
+  "我的足迹"
+}
+{
+  "Name"
+  "名字"
+}
+{
+  "Nautical"
+  "航海单位"
+}
+{
+  "Nautical mile"
+  "海里"
+}
+{
+  "Nautical miles"
+  "海里"
+}
+{
+  "Navigate home"
+  "导航主页"
+}
+{
+  "Navigate to current year %1$d"
+  "导航到当年 %1$d"
+}
+{
+  "Navigate to saved location"
+  "导航到保存的位置"
+}
+{
+  "Navigate to year %1$d"
+  "导航到年份 %1$d"
+}
+{
+  "Navigate up"
+  "向上导航"
+}
+{
+  "Nederlands"
+  "荷兰"
+}
+{
+  "Netherlands base overlay"
+  "荷兰基础覆盖层"
+}
+{
+  "Netherlands roads overlay"
+  "荷兰道路叠加层"
+}
+{
+  "Never"
+  "从不"
+}
+{
+  "New folder"
+  "新建文件夹"
+}
+{
+  "New name"
+  "新名称"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的 Google Play 服务。它将很快自行更新。"
+}
+{
+  "Night mode"
+  "夜间模式"
+}
+{
+  "Night mode for maps"
+  "地图的夜间模式"
+}
+{
+  "No"
+  "不"
+}
+{
+  "No address found!"
+  "未找到地址"
+}
+{
+  "No color scheme"
+  "无配色方案"
+}
+{
+  "No location data can be displayed at the moment because your device cannot receive any or too few satellite signals.\n\nPlease check your device's location setting and move the device to a location where you have a clear view of the sky."
+  "无位置信息（请检查并开启GPS或前往开阔地带）"
+}
+{
+  "No locations found in file!"
+  "在文件中找不到任何位置"
+}
+{
+  "No magnetic field sensor or no acceleration sensor found!"
+  "没有磁场传感器或没有找到加速度传感器"
+}
+{
+  "No map data found!"
+  "未找到地图数据"
+}
+{
+  "No maps to move!"
+  "没有地图可以移动"
+}
+{
+  "No motion data can be displayed at the moment because your device cannot receive any or too few satellite signals.\n\nPlease check your device's location setting and move the device to an area where you have a clear view of the sky."
+  "无运动状态信息（请检查并开启GPS或前往开阔地带）"
+}
+{
+  "No offline maps found! You need at least the world map and a detailed map of the area that you want to display. You can do the download right here or otherwise always in Settings ➔ Maps!"
+  "未找到离线地图您至少需要世界地图和要显示的区域的详细地图。您可以在此处进行下载，也可以始终在“设置”➔“地图”中进行下载"
+}
+{
+  "No pressure sensor found!"
+  "未找到压力传感器"
+}
+{
+  "No satellite data can be displayed at the moment because your device cannot receive any satellite signals.\n\nPlease check your device's location setting and move the device to an area where you have a clear view of the sky."
+  "无卫星数据（请检查并开启GPS或前往开阔地带）"
+}
+{
+  "No sd card found!"
+  "未找到SD卡"
+}
+{
+  "No thanks"
+  "不，谢谢"
+}
+{
+  "No valid product found!"
+  "未找到有效产品"
+}
+{
+  "No valid subscription found!"
+  "未找到有效的订阅"
+}
+{
+  "North"
+  "北"
+}
+{
+  "Not checked"
+  "未选中"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "Not signed in to Dropbox!"
+  "未登录 Dropbox"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "好"
+}
+{
+  "ON"
+  "开"
+}
+{
+  "OSM base layer"
+  "OSM 基础层"
+}
+{
+  "Offline mode"
+  "离线模式"
+}
+{
+  "One moment, please…"
+  "请稍等片刻......"
+}
+{
+  "Ongoing call"
+  "正在进行的通话"
+}
+{
+  "Open ad when you're back online."
+  "当您重新上线时打开广告。"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Open navigation drawer"
+  "打开导航抽屉"
+}
+{
+  "Open on phone"
+  "在手机上打开"
+}
+{
+  "OpenFietsKaart overlay"
+  "OpenFietsKaart 覆盖层"
+}
+{
+  "OpenStreetMap contributors"
+  "OpenStreetMap贡献者"
+}
+{
+  "Operator {0}: Too few arguments!"
+  "操作员 {0}：参数太少"
+}
+{
+  "Our apps"
+  "我们的应用程序"
+}
+{
+  "Out of range: %1$s"
+  "超出范围： %1$s"
+}
+{
+  "Output interval"
+  "输出间隔"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "Pace"
+  "步伐"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Partitioning"
+  "分区"
+}
+{
+  "Password"
+  "密码"
+}
+{
+  "Passwords are different!"
+  "密码不同"
+}
+{
+  "Pause/Resume track recording"
+  "暂停/恢复轨迹录制"
+}
+{
+  "Pay for the ad-free Version"
+  "为无广告版本付费"
+}
+{
+  "Permission 'Notifications' Denied\n\nWithout this permission, the app cannot send notifications while maps are downloaded.\n\nIf permission is granted, all notifications will be silent and a download icon will appear in the notification bar, indicating that downloads are (still) running. The notification also provides you with important information about when the download is complete and the downloaded maps can be used.\n\nAre you sure you want to deny permission?"
+  "权限“通知”被拒绝\n\n如果没有此权限，应用程序将无法在下载地图时发送通知。\n\n如果授予权限，所有通知都将静默，并且通知栏中将出现一个下载图标，表示下载正在（仍在）运行。该通知还为您提供了有关下载完成以及何时可以使用下载的地图的重要信息。\n\n您确定要拒绝权限吗？"
+}
+{
+  "Permission Denied\n\nWithout this permission, the app cannot send notifications while data is being backed up.\n\nIf permission is granted, all notifications will be silent and our app's icon will appear in the notification bar, indicating that backup is (still) running. Tapping the icon displays information about the backup.\n\nAre you sure you want to deny permission?"
+  "权限被拒绝\n\n如果没有此权限，应用程序将无法在备份数据时发送通知。\n\n如果获得权限，所有通知都将保持沉默，并且我们的应用程序的图标将出现在通知栏中，表明备份正在（仍在）运行。点击该图标可显示有关备份的信息。\n\n您确定要拒绝权限吗？"
+}
+{
+  "Permission Denied\n\nWithout this permission, the app cannot send notifications while recording tracks.\n\nIf permission is granted, all notifications will be silent and our app's icon will appear in the notification bar, indicating that the recording is (still) running. Tapping the icon displays information about the current track.\n\nAre you sure you want to deny permission?"
+  "权限被拒绝\n\n如果没有此权限，该应用程序将无法在录制轨迹时发送通知。\n\n如果获得权限，所有通知都将保持沉默，并且我们的应用程序的图标将出现在通知栏中，表示录制内容正在（仍在）运行。点击该图标可显示有关当前轨迹的信息。\n\n您确定要拒绝权限吗？"
+}
+{
+  "Persian"
+  "伊朗历（波斯历）"
+}
+{
+  "Phone"
+  "电话"
+}
+{
+  "Photo loaded successfully!"
+  "照片已成功加载"
+}
+{
+  "Please confirm…"
+  "请确认"
+}
+{
+  "Please enable location requests!"
+  "请启用位置请求"
+}
+{
+  "Please enter date"
+  "请输入日期"
+}
+{
+  "Please enter date and time"
+  "请输入日期和时间"
+}
+{
+  "Please make sure that language data for '%1$s' has been downloaded!"
+  "请确保已下载“%1$s”的语言数据"
+}
+{
+  "Please select an app for navigation!"
+  "请选择一个应用程序进行导航"
+}
+{
+  "Please select file!"
+  "请选择文件"
+}
+{
+  "Polski"
+  "波尔斯基"
+}
+{
+  "Portrait"
+  "肖像"
+}
+{
+  "Position of ads"
+  "广告的位置"
+}
+{
+  "Positions"
+  "位置"
+}
+{
+  "Print/PDF"
+  "打印/PDF"
+}
+{
+  "Privacy policy"
+  "隐私策略"
+}
+{
+  "Progress"
+  "进展"
+}
+{
+  "Public transport"
+  "公共交通"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Reading file…"
+  "正在读取文件..."
+}
+{
+  "Really backup to Dropbox?"
+  "确定备份到Dropbox吗？"
+}
+{
+  "Really import %1$d new locations?"
+  "确认导入 %1$d 新位置吗？"
+}
+{
+  "Really pause track recording?"
+  "确认暂停了轨迹录制吗？"
+}
+{
+  "Really remove %1$d GPX files?"
+  "确认删除了 %1$d GPX 文件吗？"
+}
+{
+  "Really remove %1$d locations?"
+  "确认删除了 %1$d 的位置吗？"
+}
+{
+  "Really remove '%1$s'?"
+  "确认删除了 '%1$s'？"
+}
+{
+  "Really remove all?"
+  "确认全部删除吗？"
+}
+{
+  "Really remove?"
+  "确认删除吗？"
+}
+{
+  "Really replace %1$d existing locations with %2$d new locations?"
+  "确认用 %2$d 新位置替换 %1$d 现有位置吗？"
+}
+{
+  "Really restore from Dropbox?"
+  "确认从Dropbox恢复吗？"
+}
+{
+  "Really resume track recording?"
+  "确认恢复轨迹录制吗？"
+}
+{
+  "Really start track recording?"
+  "确认开始记录吗？"
+}
+{
+  "Really stop track recording?"
+  "确认停止轨迹录制吗？"
+}
+{
+  "Record track"
+  "记录轨迹"
+}
+{
+  "Record: Minimum accuracy (68% probability)"
+  "记录：最小准确度（68% 概率）"
+}
+{
+  "Record: Successive locations"
+  "记录：连续位置"
+}
+{
+  "Recorded %1$d waypoints in this segment"
+  "在此航段中记录了 %1$d 航点"
+}
+{
+  "Recording started"
+  "录制已开始"
+}
+{
+  "Reference values at sea level"
+  "海平面的参考值"
+}
+{
+  "Remove %1$s"
+  "删除 %1$s"
+}
+{
+  "Remove from 'Recent apps'"
+  "从“最近使用的应用”中移除"
+}
+{
+  "Remove locations"
+  "移除营业地点"
+}
+{
+  "Rename GPX file"
+  "重命名 GPX 文件"
+}
+{
+  "Representation"
+  "表示法"
+}
+{
+  "Reset to default"
+  "重置为默认值"
+}
+{
+  "Restore 'My locations'"
+  "恢复“我的位置”"
+}
+{
+  "Restore from\nDropbox"
+  "从以下位置恢复\nDropbox的"
+}
+{
+  "Restore from Dropbox and overwrite all existing data?"
+  "从 Dropbox 恢复并覆盖所有现有数据？"
+}
+{
+  "Restoring data …"
+  "正在恢复数据"
+}
+{
+  "Results"
+  "结果"
+}
+{
+  "Reverse geocoding"
+  "反向地理编码"
+}
+{
+  "Right-hander"
+  "右撇子"
+}
+{
+  "Route"
+  "路线"
+}
+{
+  "Route type"
+  "路线类型"
+}
+{
+  "Routes"
+  "路线"
+}
+{
+  "Routing"
+  "路由"
+}
+{
+  "Routing powered by"
+  "路由由"
+}
+{
+  "SD card: %1$s free"
+  "SD 卡： %1 $s 免费"
+}
+{
+  "Samples"
+  "样品"
+}
+{
+  "Satellite imagery (if available)"
+  "卫星图像（如果有）"
+}
+{
+  "Satellite positions"
+  "卫星位置"
+}
+{
+  "Satellite table"
+  "卫星仪表盘"
+}
+{
+  "Satellites"
+  "卫星"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Save 'My locations'"
+  "保存“我的位置”"
+}
+{
+  "Save DOP in GPX file"
+  "将 DOP 保存在 GPX 文件中"
+}
+{
+  "Save as"
+  "另存为"
+}
+{
+  "Save image"
+  "保存图片"
+}
+{
+  "Save location"
+  "保存位置"
+}
+{
+  "Save location of the car"
+  "保存汽车的位置"
+}
+{
+  "Save offline map files to SD card if available"
+  "将离线地图文件保存到 SD 卡（如果可用）"
+}
+{
+  "Saving in progress…"
+  "正在保存"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索"
+}
+{
+  "Second"
+  "秒"
+}
+{
+  "Seconds"
+  "秒"
+}
+{
+  "Sections"
+  "部分"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Select AM or PM"
+  "选择“上午”或“下午”"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select GPX file"
+  "选择 GPX 文件"
+}
+{
+  "Select GPX files"
+  "选择 GPX 文件"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select location"
+  "选择地点"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Selected date"
+  "已选日期"
+}
+{
+  "Sent by %1$s\nGoogle Play: %2$s\nHuawei AppGallery: %3$s"
+  "发送者 %1$s\nGoogle Play： %2 美元\n华为应用市场： %3$s"
+}
+{
+  "Set to offline mode"
+  "设置为离线模式"
+}
+{
+  "Set to online mode"
+  "设置为在线模式"
+}
+{
+  "Set up 'Text-to-speech'"
+  "设置“文字转语音”"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Share"
+  "共享"
+}
+{
+  "Share GPX file"
+  "分享 GPX 文件"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Share location"
+  "共享位置"
+}
+{
+  "Share this app with friends"
+  "向他人分享"
+}
+{
+  "Share with"
+  "分享给"
+}
+{
+  "Share with %s"
+  "与 %s 共享"
+}
+{
+  "Show bearing in degrees"
+  "以度数显示方位角"
+}
+{
+  "Show context menu with 'long finger tip'!"
+  "用“长指尖”显示上下文菜单"
+}
+{
+  "Show current values"
+  "显示当前值"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show location"
+  "显示当前定位"
+}
+{
+  "Show location of the car"
+  "显示汽车的位置"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Show photo"
+  "显示照片"
+}
+{
+  "Show route"
+  "显示路线"
+}
+{
+  "Show seconds for sunrise and sunset"
+  "显示日出和日落的秒数"
+}
+{
+  "Show speedometer in map"
+  "在地图中显示车速计"
+}
+{
+  "Show track or route"
+  "显示轨迹或路线"
+}
+{
+  "Show traffic info (if available)"
+  "显示交通信息（如果有）"
+}
+{
+  "Side Sheet"
+  "侧板"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in to\nDropbox"
+  "登录\nDropbox"
+}
+{
+  "Sign in with Google"
+  "使用 Google 帐号登录"
+}
+{
+  "Sign up"
+  "注册"
+}
+{
+  "Signed in as\n%1$s\n(%2$s)"
+  "登录身份\n%1$s\n（%2$s）"
+}
+{
+  "Smallest displacement"
+  "最小间距"
+}
+{
+  "Snapshot"
+  "快照"
+}
+{
+  "Sorry we encountered an unknown error - probably there is a problem with your Android system!"
+  "对不起，我们遇到了一个未知错误 - 可能是您的Android系统有问题"
+}
+{
+  "Sorry we encountered an unknown error - we apologize for this inconvenience"
+  "很抱歉，我们遇到了一个未知错误 - 对于给您带来的不便，我们深表歉意"
+}
+{
+  "Sorry, cannot find navigation app!"
+  "对不起，找不到导航应用程序"
+}
+{
+  "Sorry, no geocoder is available on your device!"
+  "对不起，您的设备上没有可用的地理编码器"
+}
+{
+  "Sorry, no routing service available!"
+  "对不起，没有可用的路由服务"
+}
+{
+  "Sorry, routing service returns an error!"
+  "对不起，路由服务返回错误"
+}
+{
+  "Sorry, routing service returns error '%1$s'!"
+  "对不起，路由服务返回错误 '%1$s'"
+}
+{
+  "Sorry, there is no saved GPX file yet!"
+  "对不起，还没有保存的GPX文件"
+}
+{
+  "Sorry, there is no saved car location yet!"
+  "对不起，还没有保存的汽车位置"
+}
+{
+  "Sorry, there is no saved location yet!"
+  "对不起，还没有保存的位置"
+}
+{
+  "Sorry, this device does not support 'Storage Access Framework'!"
+  "对不起，此设备不支持“存储访问框架”"
+}
+{
+  "Sorry, this password is too weak!"
+  "对不起，这个密码太弱了"
+}
+{
+  "Sorry, this route type is not supported by the routing service!"
+  "对不起，路由服务不支持此路由类型"
+}
+{
+  "Sorry, your position could not be determined yet!"
+  "对不起，您的位置尚未确定"
+}
+{
+  "Sorry, your system reported an error while printing page %1$d of %2$d!"
+  "对不起，您的系统在打印第 %1$d 页（共 %2$d）时报告了错误"
+}
+{
+  "Source"
+  "源"
+}
+{
+  "South"
+  "南"
+}
+{
+  "Speed"
+  "速度"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date %1$s"
+  "开始日期 %1$s"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择： %1$s – 结束日期选择： %2$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期 – %1$s"
+}
+{
+  "Start date – End date"
+  "开始日期 – 结束日期"
+}
+{
+  "Start navigation app"
+  "启动导航应用程序"
+}
+{
+  "Start track recording"
+  "开始轨迹录制"
+}
+{
+  "States"
+  "国家/地区"
+}
+{
+  "Stop track recording"
+  "停止轨迹录制"
+}
+{
+  "Storage (Drive, …)"
+  "存储（驱动器等）"
+}
+{
+  "Strength"
+  "强度"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Successfully backed up %1$d location(s)!"
+  "已成功备份 %1$d 位置"
+}
+{
+  "Successfully cleared assist data!"
+  "成功清除辅助数据"
+}
+{
+  "Successfully downloaded '%1$s'"
+  "已成功下载 '%1$s'"
+}
+{
+  "Successfully exported file '%1$s'!"
+  "已成功导出文件 '%1$s'"
+}
+{
+  "Successfully imported file '%1$s'!"
+  "已成功导入文件 '%1$s'"
+}
+{
+  "Successfully imported map '%1$s'!"
+  "已成功导入地图 '%1$s'"
+}
+{
+  "Successfully injected PSDS data!"
+  "成功注入PSDS数据"
+}
+{
+  "Successfully injected time data!"
+  "成功注入时间数据"
+}
+{
+  "Successfully moved %1$d maps!"
+  "成功移动了 %1$d 地图"
+}
+{
+  "Successfully removed %1$d GPX files!"
+  "已成功删除 %1$d GPX 文件"
+}
+{
+  "Successfully removed %1$d locations!"
+  "已成功删除 %1$d 位置"
+}
+{
+  "Summary"
+  "总结"
+}
+{
+  "Sunrise/Sunset"
+  "日出/日落"
+}
+{
+  "Supports antenna info"
+  "支持天线信息"
+}
+{
+  "Supports dual frequency"
+  "支持双频"
+}
+{
+  "Supports measurements"
+  "支持测量"
+}
+{
+  "Supports navigation messages"
+  "支持导航消息"
+}
+{
+  "Suppress ads"
+  "禁止显示广告"
+}
+{
+  "SwissTopo (Switzerland only)"
+  "SwissTopo（仅限瑞士）"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时间输入的时钟模式。"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到时间输入的文本输入模式。"
+}
+{
+  "Sym+"
+  "符号+"
+}
+{
+  "System"
+  "系统"
+}
+{
+  "Tab"
+  "标签"
+}
+{
+  "Table"
+  "仪表盘"
+}
+{
+  "Taiwanese"
+  "民国纪年（台湾省部分地区）"
+}
+{
+  "Take photo?"
+  "拍照？"
+}
+{
+  "Take the ramp on the left[ on %s]"
+  "走左边的坡道[ on %s]"
+}
+{
+  "Take the ramp on the right[ on %s]"
+  "走右边的坡道[ on %s]"
+}
+{
+  "Take the ramp straight ahead[ on %s]"
+  "沿斜坡直行[ on %s]"
+}
+{
+  "Tap to switch to Calendar view"
+  "点击以切换到日历视图"
+}
+{
+  "Tap to switch to year view"
+  "点击以切换到年份视图"
+}
+{
+  "Tempo"
+  "速度"
+}
+{
+  "Test 'Text-to-speech'"
+  "测试“文字转语音”"
+}
+{
+  "Test Ad"
+  "测试广告"
+}
+{
+  "TestActivity"
+  "TestActivity（测试活动）"
+}
+{
+  "Text-To-Speech"
+  "文字转语音"
+}
+{
+  "Thanks for your interest.\nWe will share more once you're back online."
+  "感谢您的关注。\n一旦您重新上线，我们将分享更多内容。"
+}
+{
+  "The clipboard has been cleared!"
+  "剪贴板已被清除"
+}
+{
+  "The constellation filter only affects the display of satellite positions and satellite table, since Android currently does not offer the option of restricting the calculation of location to specific constellations."
+  "“过滤卫星系统”仅影响软件内卫星信息显示。系统本身不支持仅用某款卫星系统进行定位"
+}
+{
+  "Theme"
+  "主题"
+}
+{
+  "This online tile source doesn't support bulk download"
+  "此在线磁贴源不支持批量下载"
+}
+{
+  "This software uses map data provided by OpenStreetMap.org"
+  "该软件使用 OpenStreetMap.org 提供的地图数据"
+}
+{
+  "Time"
+  "时间"
+}
+{
+  "To use this functionality, another one of our apps has to be installed from the App Gallery. Continue to the App Gallery?"
+  "要使用此功能，必须从应用程序库中安装我们的另一个应用程序。继续访问 App Gallery？"
+}
+{
+  "To use this functionality, another one of our apps has to be installed from the Play Store. Continue to the Play Store?"
+  "要使用此功能，必须从 Play 商店安装我们的另一个应用程序。继续访问 Play 商店？"
+}
+{
+  "Today %1$s"
+  "今天 %1$s"
+}
+{
+  "Toggle 'Automatically follow my location'"
+  "切换“自动关注我的位置”"
+}
+{
+  "Topographic"
+  "地形"
+}
+{
+  "Track"
+  "跟踪"
+}
+{
+  "Track recording is already running!"
+  "轨迹录制已在运行"
+}
+{
+  "Track recording is not running!"
+  "轨迹录制未运行"
+}
+{
+  "Track recording paused!"
+  "轨迹录制暂停"
+}
+{
+  "Track recording resumed!"
+  "轨迹录制已恢复"
+}
+{
+  "Track recording started!"
+  "轨迹录制已开始"
+}
+{
+  "Track saved as '%1$s'"
+  "轨迹另存为 '%1$s'"
+}
+{
+  "Tracks"
+  "轨迹"
+}
+{
+  "Try geocoding"
+  "尝试地理编码"
+}
+{
+  "Turn left[ on %s]"
+  "左转[ 在 %s 上]"
+}
+{
+  "Turn right[ on %s]"
+  "右转[ on %s]"
+}
+{
+  "Turn sharp left[ on %s]"
+  "在 %s 上向左急转"
+}
+{
+  "Turn sharp right[ on %s]"
+  "在%s上向右急转"
+}
+{
+  "Turn slight left[ on %s]"
+  "稍微左转[ on %s]"
+}
+{
+  "Turn slight right[ on %s]"
+  "稍微右转[ on %s]"
+}
+{
+  "U-Turn[ on %s]"
+  "掉头[ on %s]"
+}
+{
+  "Unfortunately, your system does not support 'Text-to-speech'!"
+  "很遗憾，您的系统不支持“文字转语音”"
+}
+{
+  "Unfortunately, your system does not support setting up 'Text-to-speech'!"
+  "很遗憾，您的系统不支持设置“文字转语音”"
+}
+{
+  "Units of measurement"
+  "计量单位"
+}
+{
+  "Unknown"
+  "未知"
+}
+{
+  "Unknown error on checking product."
+  "检查产品时出现未知错误。"
+}
+{
+  "Unknown error on checking subscription."
+  "检查订阅时出现未知错误。"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "Update Google Play services"
+  "更新 Google Play 服务"
+}
+{
+  "Use 'Blue' as primary color"
+  "设置蓝色为主题色"
+}
+{
+  "Use 'Green' as primary color"
+  "设置绿色为主题色"
+}
+{
+  "Use 'Orange' as primary color"
+  "设置橙色为主题色"
+}
+{
+  "Use GNSS (GPS, Galileo, GLONASS, BeiDou…)"
+  "使用GNSS（GPS、Galileo、GLONASS、北斗等）"
+}
+{
+  "Use a narrow font (for small devices)"
+  "使用窄字体（适用于小型设备）"
+}
+{
+  "Use barometric altimeter (only)"
+  "使用气压高度计（仅限）"
+}
+{
+  "Use dark theme"
+  "使用深色主题"
+}
+{
+  "Use hardware acceleration"
+  "使用硬件加速"
+}
+{
+  "Use light theme"
+  "使用浅色主题"
+}
+{
+  "Use only in an emergency"
+  "仅在紧急情况下使用"
+}
+{
+  "Use toolbar instead of menu on small devices in landscape mode"
+  "在横向模式下，在小型设备上使用工具栏而不是菜单"
+}
+{
+  "Use when recording Tracks"
+  "在录制轨迹时使用"
+}
+{
+  "Use: %1$s"
+  "使用： %1$s"
+}
+{
+  "User"
+  "用户"
+}
+{
+  "Username"
+  "用户名"
+}
+{
+  "Value"
+  "价值"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Visible"
+  "可见"
+}
+{
+  "Voice output"
+  "语音输出"
+}
+{
+  "Voice output off"
+  "语音输出关闭"
+}
+{
+  "Voice output on"
+  "语音输出开启"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "WGS84 (Reference ellipsoid)"
+  "WGS84 （参考椭球体）"
+}
+{
+  "Walking"
+  "走"
+}
+{
+  "Want to support development?"
+  "想要支持开发？"
+}
+{
+  "Warning 'Accuracy low'"
+  "警告“精度低”"
+}
+{
+  "Warning 'Position lost'"
+  "警告“位置丢失”"
+}
+{
+  "We'll send you a notification with a link to the advertiser site."
+  "我们将向您发送通知，其中包含指向广告客户网站的链接。"
+}
+{
+  "Week"
+  "周"
+}
+{
+  "West"
+  "西"
+}
+{
+  "Worked!"
+  "已工作"
+}
+{
+  "Yandex.Maps"
+  "Yandex地图"
+}
+{
+  "Year"
+  "年"
+}
+{
+  "Yes"
+  "是的"
+}
+{
+  "You are back online! Continue learning about %s"
+  "您又上线了继续了解 %s"
+}
+{
+  "You are back online! Let's pick up where we left off"
+  "您又上线了让我们从上次停下来的地方继续"
+}
+{
+  "You have reached a waypoint of your trip"
+  "您已到达旅行的航点"
+}
+{
+  "You should hear me now"
+  "你现在应该听到我的声音了"
+}
+{
+  "You will be charged the displayed price only once to opt out of all ad serving forever."
+  "您只需按显示的价格支付一次费用，即可选择永久停止所有广告投放。"
+}
+{
+  "You will be charged the displayed price to opt out of all ad serving for one year from now. At the end of this one-year introductory period and at the end of each subsequent one-year period, you will be charged the displayed price automatically again to opt out of all ad serving for another year. This subscription can be canceled at any time via the Google Play Store."
+  "从现在起的一年内，您需要支付显示的价格才能选择停止所有广告投放。在为期一年的介绍期结束时以及随后的一年期结束时，系统将再次自动向您收取显示的价格，以选择停止再一年的所有广告投放。您可以随时通过 Google Play 商店取消此订阅。"
+}
+{
+  "[Go on %s]"
+  "[继续 %s]"
+}
+{
+  "basemap.at (Austria only)"
+  "basemap.at（仅限奥地利）"
+}
+{
+  "basemap.at is an internet-enabled basemap of Austria, based on the geodata of the Austrian federal states and their partners, freely available, high-performance and of high quality. This map material is unreservedly recommended for use in Austria."
+  "basemap.at 是支持互联网的奥地利底图，基于奥地利联邦各州及其合作伙伴的地理数据，可免费获取、高性能和高质量。此地图材料被毫无保留地推荐在奥地利使用。"
+}
+{
+  "button"
+  "按钮"
+}
+{
+  "button path"
+  "按钮路径"
+}
+{
+  "circle"
+  "圈"
+}
+{
+  "cubic-bezier(0, 0, 0, 1)"
+  "立方-贝塞尔（0， 0， 0， 1）"
+}
+{
+  "cubic-bezier(0, 0, 0.2, 1)"
+  "立方贝塞尔（0， 0， 0.2， 1）"
+}
+{
+  "cubic-bezier(0, 0, 1, 1)"
+  "立方-贝塞尔（0， 0， 1， 1）"
+}
+{
+  "cubic-bezier(0.0, 0.0, 0.2, 1.0)"
+  "立方-贝塞尔（0.0， 0.0， 0.2， 1.0）"
+}
+{
+  "cubic-bezier(0.0, 0.0, 1.0, 1.0)"
+  "立方-贝塞尔（0.0， 0.0， 1.0， 1.0）"
+}
+{
+  "cubic-bezier(0.1, 0.7, 0.1, 1)"
+  "立方贝塞尔（0.1， 0.7， 0.1， 1）"
+}
+{
+  "cubic-bezier(0.2, 0, 0, 1)"
+  "立方贝塞尔（0.2， 0， 0， 1）"
+}
+{
+  "cubic-bezier(0.3, 0, 0.8, 0.2)"
+  "立方贝塞尔（0.3， 0， 0.8， 0.2）"
+}
+{
+  "cubic-bezier(0.3, 0, 1, 1)"
+  "立方贝塞尔（0.3， 0， 1， 1）"
+}
+{
+  "cubic-bezier(0.4, 0, 0.2, 1)"
+  "立方贝塞尔（0.4， 0， 0.2， 1）"
+}
+{
+  "cubic-bezier(0.4, 0, 1, 1)"
+  "立方贝塞尔（0.4， 0， 1， 1）"
+}
+{
+  "cubic-bezier(0.4, 0.0, 0.2, 1.0)"
+  "立方-贝塞尔（0.4， 0.0， 0.2， 1.0）"
+}
+{
+  "cubic-bezier(0.4, 0.0, 1.0, 1.0)"
+  "立方-贝塞尔（0.4， 0.0， 1.0， 1.0）"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "down"
+  "下"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "ft"
+  "英尺"
+}
+{
+  "hiding my current location"
+  "隐藏我当前的位置"
+}
+{
+  "icon"
+  "图标"
+}
+{
+  "icon path"
+  "图标路径"
+}
+{
+  "km"
+  "公里"
+}
+{
+  "mi"
+  "英里"
+}
+{
+  "nm"
+  "纳米"
+}
+{
+  "none"
+  "没有"
+}
+{
+  "path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)"
+  "路径（M 0,0 C 0.05， 0， 0.133333， 0.06， 0.166666， 0.4 C 0.208333， 0.82， 0.25， 1， 1， 1）"
+}
+{
+  "per"
+  "每"
+}
+{
+  "showing and tracking my current location"
+  "显示和跟踪我的当前位置"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "up"
+  "向上"
+}
+{
+  "© OpenStreetMap contributors, CC BY-SA"
+  "© OpenStreetMap贡献者，CC BY-SA"
+}
+{
+  "⌀ Pace"
+  "⌀ 配速"
+}
+{
+  "⌀ Slope"
+  "⌀ 坡度"
+}
+{
+  "⌀ Speed"
+  "⌀ 速度"
+}

@@ -1,0 +1,2172 @@
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板。"
+}
+{
+  "\"%1$s\" is used in:"
+  "“%1$s”用于："
+}
+{
+  "\"%1$s\" isn't used in any setlists."
+  "“%1$s”未被任何预设组引用"
+}
+{
+  "%1$d bpm, %2$d beats per bar"
+  "%1$d bpm，每小节%2$d拍"
+}
+{
+  "%1$s - copy"
+  "%1$s-副本"
+}
+{
+  "%1$s beats per minute"
+  "%1$s 拍每分钟（bpm）"
+}
+{
+  "%1$s hours"
+  "%1$s小时"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题。请重试"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s 小时"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%d Hertz"
+  "%d赫兹"
+}
+{
+  "%d milliseconds"
+  "%d毫秒"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "1 millisecond"
+  "1毫秒"
+}
+{
+  "128 kbps (smaller file, lower quality)"
+  "128 kbps（文件较小，质量较低）"
+}
+{
+  "1m"
+  "1分"
+}
+{
+  "256 kbps (larger file, higher quality)"
+  "256 kbps（文件更大，质量更高）"
+}
+{
+  "2m"
+  "2分"
+}
+{
+  "30s"
+  "30秒"
+}
+{
+  "320 kbps (largest file, highest quality)"
+  "320 kbps（文件最大，最高质量）"
+}
+{
+  "5m"
+  "5分"
+}
+{
+  "About"
+  "关于"
+}
+{
+  "Accented Beat"
+  "重音节拍"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Access a basic drum pattern library by tapping here"
+  "点击此处访问基本鼓型库"
+}
+{
+  "Access more speed trainer options"
+  "访问更多速度训练器选项"
+}
+{
+  "Access tempo trainer controls"
+  "查看节奏训练器功能"
+}
+{
+  "Actions"
+  "行动"
+}
+{
+  "Add"
+  "添加"
+}
+{
+  "Add section"
+  "添加章节"
+}
+{
+  "Adjust length of sound"
+  "调整声音长度"
+}
+{
+  "Adjust pitch of sound"
+  "调整声音的音高"
+}
+{
+  "Adjust this slider until the metronome sound and visuals match correctly.\n\nOn some devices the audio might be delayed after the beat indicators, particularly if you are using bluetooth speakers or headphones. You can use this setting to reduce the discrepancy."
+  "调整滑块，直到节拍器声音和动画效果匹配。\n在某些设备上，音频可能会延迟，特别是蓝牙扬声器或耳机情况下。您可以使用此设置来减少延迟。"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Advanced chromatic tuner"
+  "高级彩色调音器"
+}
+{
+  "Advanced rhythms"
+  "高级节奏"
+}
+{
+  "Advertising consent"
+  "广告同意书"
+}
+{
+  "Allow"
+  "允许"
+}
+{
+  "Allow Ad to create a calendar event?"
+  "是否允许广告创建日历事件？"
+}
+{
+  "Allow Ad to store image in Picture gallery?"
+  "是否允许广告将图像存储在图片库中？"
+}
+{
+  "Allow app to send you notifications?"
+  "是否允许应用程序向您发送通知？"
+}
+{
+  "Alphabetical"
+  "按A-Z"
+}
+{
+  "Already used by over a million musicians!"
+  "已被超过一百万名音乐家使用！"
+}
+{
+  "Alter pitch and Change tempo"
+  "改变音高和节奏"
+}
+{
+  "Always keep screen unlocked"
+  "始终保持屏幕解锁"
+}
+{
+  "An error occurred reading this file. Is it a valid metronome beats export file?"
+  "读取此文件时出错，这可能不是一个支持的节拍器预设文件"
+}
+{
+  "An error occurred releasing the codec at the end of the export process. This shouldn't have happened, but the exported file might still be OK."
+  "在导出过程结束时释放编解码器时出错。这不应该发生，但导出的文件可能仍然正常。"
+}
+{
+  "An error occurred which caused Metronome Beats to crash. You can help us to fix this error by clicking 'OK' and sending the email that is generated."
+  "发生了一个错误，导致Metronome Beats崩溃。您可以通过单击“确定”并发送生成的电子邮件来帮助我们修复此错误。"
+}
+{
+  "And just so you know, we keep this app free by displaying personalised adverts. Please click below to indicate your consent to this."
+  "正如你所知，我们通过显示个性化广告来保持这个应用程序的免费。请点击下方表示您对此的同意。"
+}
+{
+  "Answer"
+  "答案"
+}
+{
+  "Application"
+  "应用程序"
+}
+{
+  "Are you enjoying Metronome Beats?"
+  "你喜欢Metronome Beats吗？"
+}
+{
+  "Audio latency"
+  "音频延迟"
+}
+{
+  "Back"
+  "< 返回"
+}
+{
+  "Bar"
+  "小节"
+}
+{
+  "Bar and beat counter settings"
+  "小节和节拍计数器设置"
+}
+{
+  "Bar and beat counters"
+  "小节和节拍计数器"
+}
+{
+  "Bar counter"
+  "小节计数器"
+}
+{
+  "Bass drum"
+  "低音鼓"
+}
+{
+  "Beat"
+  "节拍"
+}
+{
+  "Beat Subdivisions"
+  "节拍细分"
+}
+{
+  "Beat animation will be hidden when tempo is above:"
+  "当速度超过以下值时，节拍动画将隐藏："
+}
+{
+  "Beat counter"
+  "节拍计数器"
+}
+{
+  "Beats"
+  "拍数"
+}
+{
+  "Beats/bar"
+  "每小节拍数"
+}
+{
+  "Bit rate"
+  "比特率"
+}
+{
+  "Bluetooth pedal controls"
+  "蓝牙踏板控制"
+}
+{
+  "Body"
+  "车身"
+}
+{
+  "BodyBeat mode disabled"
+  "BodyBeat模式已禁用"
+}
+{
+  "BodyBeat® Pulse Solo™"
+  "BodyBeat®Pulse Solo™"
+}
+{
+  "CREATE SONGS with changing tempos"
+  "新建节奏谱来适配歌曲中途的节奏变化"
+}
+{
+  "CUSTOM"
+  "定制"
+}
+{
+  "Can't create a file to write to, did you give the app permission to write to your device storage?"
+  "无法创建要写入的文件，您是否允许应用程序写入您的设备存储？"
+}
+{
+  "Can't create an audio encoder. This shouldn't have happened, please contact us."
+  "无法创建音频编码器。这不应该发生，请联系我们。"
+}
+{
+  "Can't load sounds."
+  "无法加载声音"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Cannot export while the device is mounted as a disk drive. Please disconnect."
+  "设备作为磁盘驱动器装载时无法导出，请断开连接"
+}
+{
+  "Cannot read the generated AAC file to convert into M4A. This shouldn't have happened, please contact us."
+  "无法读取生成的AAC文件以转换为M4A，这是特殊错误，请联系我们"
+}
+{
+  "Change to next month"
+  "改到下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Changing the meter to %1$d beats per bar and %2$d clicks per beat will change the beat pattern. Are you sure you want to do this?"
+  "将节拍更改为每小节%1$d次，每节拍%2$d次点击将更改节拍模式。你确定要这样做吗？"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Checked"
+  "选中的"
+}
+{
+  "Choose DIFFERENT DRUM sounds"
+  "选择不同的鼓声"
+}
+{
+  "Choose a preset to add"
+  "选择要添加的预设"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Choose from one of the preset sound setups"
+  "从预设声音设置中选择一个"
+}
+{
+  "Choose sort order"
+  "选择排序顺序"
+}
+{
+  "Clap"
+  "拍手"
+}
+{
+  "Classic Beats"
+  "经典节拍"
+}
+{
+  "Claves"
+  "响棒"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Click the plus icon above to start adding sections to this song"
+  "单击上面的加号图标开始向这首歌添加章节"
+}
+{
+  "Clicks"
+  "细分数"
+}
+{
+  "Clicks/beat"
+  "每拍的细分数"
+}
+{
+  "Clicky"
+  "滴答"
+}
+{
+  "Collapse"
+  "崩溃"
+}
+{
+  "Collapse the bottom sheet"
+  "折叠底部表格"
+}
+{
+  "Configure"
+  "配置"
+}
+{
+  "Configure Metronome Beats for use with a bluetooth pedal. If you are using a keyboard for accessibility you should not enable this."
+  "将Metronome Beats配置为与蓝牙踏板一起使用。如果您使用键盘进行辅助，则不应启用此功能。"
+}
+{
+  "Contact"
+  "联系方式"
+}
+{
+  "Continue to see ads"
+  "继续查看广告"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Copy internal database"
+  "备份内部数据库"
+}
+{
+  "Copy internal db (not recommended)"
+  "备份内部数据库（不推荐）"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Couldn't create the output file. Maybe try a different file name, also make sure your phone is disconnected from your computer."
+  "无法创建输出文件。也许可以尝试使用其他文件名，并确保您的手机已与计算机断开连接。"
+}
+{
+  "Count in"
+  "在该小节后开始执行任务"
+}
+{
+  "Cowbell"
+  "牛铃"
+}
+{
+  "Crash"
+  "碎音镲"
+}
+{
+  "Create"
+  "创建"
+}
+{
+  "Create calendar event"
+  "创建日历事件"
+}
+{
+  "Create new preset"
+  "创建新预设"
+}
+{
+  "Create new..."
+  "新建文件"
+}
+{
+  "Create your own custom sound setup"
+  "创建自己的自定义声音设置"
+}
+{
+  "Current bpm"
+  "当前bpm"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Custom"
+  "自定义"
+}
+{
+  "Custom sounds"
+  "自定义声音"
+}
+{
+  "Customise the tempo percentage buttons"
+  "自定义速度百分比按钮"
+}
+{
+  "DOWNLOAD NOW"
+  "立即下载"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Decrease tempo"
+  "减慢节奏"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Delete %d items?"
+  "要删除%d个项目吗？"
+}
+{
+  "Delete exercise?"
+  "删除练习？"
+}
+{
+  "Delete items"
+  "删除项目"
+}
+{
+  "Delete preset?"
+  "删除预设？"
+}
+{
+  "Delete setlist?"
+  "删除预设组？"
+}
+{
+  "Delete song?"
+  "删除节奏谱？"
+}
+{
+  "Deleted"
+  "删除"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Disable BodyBeat® Pulse Solo™ mode"
+  "禁用BodyBeat®Pulse Solo™模式"
+}
+{
+  "Discard"
+  "放弃"
+}
+{
+  "Display BPM in notification bar"
+  "在通知栏中显示BPM"
+}
+{
+  "Do you want to delete \"%1$s\"?"
+  "您想删除“%1$s”吗？"
+}
+{
+  "Do you want to delete setlist \"%1$s\"?"
+  "确定删除预设组“%1$s”吗？"
+}
+{
+  "Does your instrument need tuning? We have released a new tuner app. You can access it from the main menu or click on the button below."
+  "你的乐器需要调音吗？我们发布了一款新的调音器应用程序。您可以从主菜单访问它，也可以单击下面的按钮。"
+}
+{
+  "Don't allow"
+  "不允许"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Download now!"
+  "立即下载！"
+}
+{
+  "Drag handle"
+  "拖动控制柄"
+}
+{
+  "Drag handle double-tapped"
+  "双击拖动手柄"
+}
+{
+  "Drum patterns"
+  "鼓点预设"
+}
+{
+  "Drums"
+  "鼓"
+}
+{
+  "Edit"
+  "编辑"
+}
+{
+  "Edit song"
+  "编辑节奏谱"
+}
+{
+  "Elapsed time"
+  "播放正计时"
+}
+{
+  "Email Stonekick"
+  "电子邮件Stonekick"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "Enable BodyBeat® Pulse Solo™ mode"
+  "启用BodyBeat®Pulse Solo™模式"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "Enable tablet layouts"
+  "启用平板电脑布局"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "End date %1$s"
+  "结束日期%1$s"
+}
+{
+  "Enter a name..."
+  "输入名称……"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error closing the finished output file. This shouldn't have happened, but the file might still be OK."
+  "关闭已完成的输出文件时出错。这不应该发生，但文件可能仍然正常。"
+}
+{
+  "Error creating a folder to write the file to. Make sure your phone is disconnected from your computer. Did you give the app permission to write to your device storage?"
+  "创建要写入文件的文件夹时出错。请确保您的手机已与计算机断开连接。您是否允许应用程序写入您的设备存储？"
+}
+{
+  "Error occurred"
+  "发生错误"
+}
+{
+  "Error occurred during export. Click for details"
+  "导出过程中出错。点击查看详情"
+}
+{
+  "Error opening the output file, did you give the app permission to write to your device storage? Maybe the filename is not allowed by the filesystem? Try removing special characters such as /?*, etc"
+  "打开输出文件时出错。请检查是否授予应用程序写入设备存储的权限，或存在文件系统不允许使用文件名如/？*等"
+}
+{
+  "Error writing to the output file, did you give the app permission to write to your device storage?"
+  "写入输出文件时出错，您是否授予应用程序写入设备存储的权限？"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Exercise name"
+  "练习名称"
+}
+{
+  "Exit"
+  "退出"
+}
+{
+  "Expand halfway"
+  "扩大一半"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部图纸"
+}
+{
+  "Export"
+  "导出"
+}
+{
+  "Export All"
+  "全部导出"
+}
+{
+  "Export Selected"
+  "导出选中"
+}
+{
+  "Export audio"
+  "导出音频"
+}
+{
+  "Export complete"
+  "导出完成"
+}
+{
+  "Export in progress"
+  "导出中"
+}
+{
+  "Export in progress..."
+  "正在导出"
+}
+{
+  "Exported file name"
+  "导出文件名"
+}
+{
+  "Exporting"
+  "导出中"
+}
+{
+  "Failed to initialise export"
+  "初始化导出失败"
+}
+{
+  "File name can't contain any of these characters: ?:|<>*\"/?"
+  "文件名不能包含以下任何字符 ？：|<>*\"/?"
+}
+{
+  "File name is too long."
+  "文件名太长。"
+}
+{
+  "Fix out of sync sound and visuals"
+  "修复声音和视觉不同步的问题"
+}
+{
+  "Flash screen to beat"
+  "打拍子时闪烁屏幕"
+}
+{
+  "Free to download now!"
+  "现在免费下载！"
+}
+{
+  "General"
+  "概述"
+}
+{
+  "Generate a polyrhythm"
+  "生成多节奏合成"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Get Unlimited Access to 40,000 scores with professional backing tracks for 14 Days."
+  "14天内无限制访问40000个带有专业背景曲目的分数。"
+}
+{
+  "Get one"
+  "买一个"
+}
+{
+  "Get the tuner"
+  "获取调音器"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "Hang Up"
+  "挂断"
+}
+{
+  "Headline"
+  "标题"
+}
+{
+  "Help and feedback"
+  "帮助和反馈"
+}
+{
+  "Here's the legal stuff:\n\nThis app has a privacy policy. By continuing to use this app you indicate that you consent to it."
+  "以下是法律方面的内容：\n此应用程序有隐私政策。继续使用此应用程序即表示您同意。"
+}
+{
+  "Hi tom"
+  "高音嗵鼓"
+}
+{
+  "Hi-Hat + Kick"
+  "踩镲+底鼓"
+}
+{
+  "Hi-Hat + Snare"
+  "踩镲+军鼓"
+}
+{
+  "Hi-Hats"
+  "踩镲"
+}
+{
+  "Hide beat animation"
+  "隐藏节拍动画"
+}
+{
+  "Hide setlists and presets"
+  "隐藏预设组和预设"
+}
+{
+  "High Beats"
+  "高节拍"
+}
+{
+  "High Smooth"
+  "高平滑"
+}
+{
+  "Hihat"
+  "闭镲"
+}
+{
+  "Hollow"
+  "空灵"
+}
+{
+  "Hollow Wood"
+  "木鱼"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "I agree"
+  "我同意"
+}
+{
+  "I couldn't find an email app. You can contact us at support@stonekick.com"
+  "我找不到电子邮件应用程序。您可以通过以下方式联系我们：support@stonekick.com"
+}
+{
+  "Icon"
+  "图标"
+}
+{
+  "If you like %1$s, please rate it.\n\nThanks for your support!"
+  "如果你喜欢%1$s，请给它评分。\n感谢您的支持！"
+}
+{
+  "If you no longer wish to see these adverts you can purchase the pro version of this app, %1$s."
+  "如果您不想再看到这些广告，可以购买此应用程序的专业版%1$s。"
+}
+{
+  "If you prefer not to see adverts you can purchase the pro version of this app, %1$s."
+  "如果你不想看到广告，你可以购买此应用程序的专业版%1$s。"
+}
+{
+  "Ignore audio focus"
+  "忽略音频焦点"
+}
+{
+  "Import"
+  "导入"
+}
+{
+  "Importing"
+  "导入"
+}
+{
+  "Importing, please wait..."
+  "正在导入"
+}
+{
+  "In this release:\n\n- For pro users we've added a few different drumkit options\n\n- We've improved drum sounds for all users by stopping the open hi-hat sound when a closed hi-hat is played and by adjusting the volumes of the cymbals.\n\n- We've made it easier to switch between modes on bigger screens by adding a toggle control at the top of the screen\n\nFor a full list of changes see www.stonekick.com/metronome_changelog.html"
+  "在此版本中：\n-对于专业用户，我们添加了一些不同的鼓手选项\n-我们通过在演奏关闭的高帽时停止打开的高帽声音和调整钹的音量，为所有用户改善了鼓声。\n-我们通过在屏幕顶部添加切换控件，使在更大屏幕上切换模式变得更加容易\n有关更改的完整列表，请访问www.stonekick.com/metronome_changelog.html"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Increase now!"
+  "设置"
+}
+{
+  "Increase over"
+  "增加超过"
+}
+{
+  "Increase tempo"
+  "加快节奏"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Instrument need tuning? Try Pitched - the perfect companion to Metronome Beats!"
+  "仪器需要调音吗？试试Pitched——Metronome Beats的完美伴侣！"
+}
+{
+  "Instrumentive requires a monthly subscription. You can try it free for 30 days."
+  "Instrumentative需要每月订阅。你可以免费试用30天。"
+}
+{
+  "Interstitial close button"
+  "间隙关闭按钮"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Keep playing even when other apps make sound."
+  "即使其他应用程序发出声音，也继续强制播放节拍"
+}
+{
+  "Keep screen unlocked when playing"
+  "播放时保持屏幕解锁"
+}
+{
+  "Keep the screen unlocked even if metronome is not running."
+  "即使节拍器未运行，也要保持屏幕解锁"
+}
+{
+  "Keep the screen unlocked while the metronome is running."
+  "节拍器运行时设备不会自动息屏"
+}
+{
+  "Kick + Snare"
+  "底鼓+军鼓"
+}
+{
+  "Large range of instrument tunings"
+  "仪器调谐范围广"
+}
+{
+  "Later"
+  "稍后"
+}
+{
+  "Learn more"
+  "了解更多"
+}
+{
+  "Left"
+  "左声道平移"
+}
+{
+  "Length of sound"
+  "声音长度"
+}
+{
+  "Link copied to clipboard"
+  "链接已复制到剪贴板"
+}
+{
+  "Live Mode"
+  "直播模式"
+}
+{
+  "Load"
+  "加载"
+}
+{
+  "Loop playback"
+  "循环播放"
+}
+{
+  "Low tom"
+  "低音嗵鼓"
+}
+{
+  "MUTE"
+  "静音"
+}
+{
+  "Make SETLISTS"
+  "制作列表"
+}
+{
+  "Maximum BPM"
+  "最大BPM"
+}
+{
+  "Maximum BPM achieved!"
+  "超出设置的最大BPM"
+}
+{
+  "Maximum BPM has been increased to %d bpm"
+  "最大BPM已增加到%d BPM"
+}
+{
+  "Mechanical"
+  "机械"
+}
+{
+  "Media View"
+  "媒体视图"
+}
+{
+  "Medium Smooth"
+  "中等平滑"
+}
+{
+  "Menu+"
+  "菜单+"
+}
+{
+  "Metallic"
+  "金属"
+}
+{
+  "Metronome"
+  "节拍器"
+}
+{
+  "Metronome Beats Pro has crashed!"
+  "Metronome Beats Pro崩溃了！"
+}
+{
+  "Metronome Beats cannot export audio without permission to write to your device's storage. Open the app settings screen to modify app permissions."
+  "Metronome Beats无法在未获得写入设备存储的许可的情况下导出音频。打开应用程序设置屏幕以修改应用程序权限。"
+}
+{
+  "Metronome Beats cannot show notifications relating to exporting without your permission."
+  "未经您的许可，Metronome Beats无法显示与导出相关的通知。"
+}
+{
+  "Metronome Beats cannot show notifications relating to exporting without your permission. Open the app settings screen to modify app permissions."
+  "未经您的许可，Metronome Beats无法显示与导出相关的通知。打开应用程序设置屏幕以修改应用程序权限。"
+}
+{
+  "Metronome Beats couldn't access this file."
+  "Metronome Beats无法访问此文件。"
+}
+{
+  "Metronome Beats export notifications"
+  "Metronome Beats导出通知"
+}
+{
+  "Metronome Beats needs access to your device storage to export audio."
+  "Metronome Beats需要访问您的设备存储才能导出音频。"
+}
+{
+  "Metronome stops ticking when the screen is locked."
+  "当屏幕锁定时，停止打拍子"
+}
+{
+  "Mid tom"
+  "中音嗵鼓"
+}
+{
+  "Minimum BPM"
+  "最小BPM"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "Mixer"
+  "混音器"
+}
+{
+  "Mono/Center"
+  "单声道/居中"
+}
+{
+  "More Features"
+  "更多功能"
+}
+{
+  "More apps"
+  "更多应用"
+}
+{
+  "More details"
+  "更多详情"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Music editor"
+  "音乐编辑器"
+}
+{
+  "Mute"
+  "静音"
+}
+{
+  "Mute bars (Pro only!)"
+  "静音栏（仅限专业版！）"
+}
+{
+  "Mute bars/beats"
+  "静音小节/节拍"
+}
+{
+  "Navigate home"
+  "导航回家"
+}
+{
+  "Navigate to current year %1$d"
+  "导航到当前年份%1$d"
+}
+{
+  "Navigate to year %1$d"
+  "导航到%1$d年"
+}
+{
+  "Navigate up"
+  "回上一页"
+}
+{
+  "Never"
+  "从未"
+}
+{
+  "New Year's Resolution to practice more?\nWe can help!"
+  "新年决心多练习？\n我们可以帮忙！"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "New setlist"
+  "未命名预设组"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务。它很快就会自我更新。"
+}
+{
+  "New:"
+  "新"
+}
+{
+  "Newest first"
+  "从新到旧"
+}
+{
+  "Next"
+  "下一个"
+}
+{
+  "No"
+  "不"
+}
+{
+  "No audio generated."
+  "未生成音频。"
+}
+{
+  "No banner ads"
+  "无横幅广告"
+}
+{
+  "No exercises have been created yet."
+  "尚未创建任何练习预设"
+}
+{
+  "No items match filter."
+  "没有项目与筛选器匹配。"
+}
+{
+  "No presets have been added to this setlist yet."
+  "此预设组中尚未添加预设"
+}
+{
+  "No presets have been created yet."
+  "尚未创建预设"
+}
+{
+  "No presets have been created yet. Create presets by tapping the \"save\" icon on the main metronome screen."
+  "尚未创建预设，点击节拍器主屏幕上的“保存”图标创建预设"
+}
+{
+  "No setlists have been created yet."
+  "尚未创建预设组"
+}
+{
+  "No songs have been created yet."
+  "尚未创建节奏谱预设"
+}
+{
+  "No thanks"
+  "不用了，谢谢"
+}
+{
+  "Normal Beat"
+  "正常节拍"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Not now"
+  "不是现在"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "Nothing to import"
+  "无需导入"
+}
+{
+  "Number of bars must be greater than zero"
+  "条数必须大于零"
+}
+{
+  "Number of bars to play"
+  "播放的小节数量"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "好的"
+}
+{
+  "OR"
+  "或"
+}
+{
+  "Off"
+  "关"
+}
+{
+  "Oldest first"
+  "从旧到新"
+}
+{
+  "On some devices enabling this may cause audio glitches when the speed trainer changes tempo."
+  "在某些设备上，启用此功能可能会在速度训练器改变速度时导致播放故障"
+}
+{
+  "One-time payment. No hidden subscription, NO RECURRING COSTS."
+  "一次性付款。无隐藏订阅，无回收费用。"
+}
+{
+  "Ongoing call"
+  "正在进行的通话"
+}
+{
+  "Open"
+  "打开"
+}
+{
+  "Open ad when you're back online."
+  "当你重新上线时打开广告。"
+}
+{
+  "Open hihat"
+  "开镲"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Open on phone"
+  "在电话上打开"
+}
+{
+  "Optimise sound output for BodyBeat Pulse Solo"
+  "优化BodyBeat Pulse Solo的声音输出"
+}
+{
+  "Our Instrumentive app lets you organize your practice and track your progress."
+  "我们的仪器应用程序可让您组织练习并跟踪进度。"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Out of space! No space on this device to write the file."
+  "太空之外！此设备上没有空间写入文件。"
+}
+{
+  "Over"
+  "每"
+}
+{
+  "Overwrite:"
+  "覆盖："
+}
+{
+  "PM"
+  "颗粒物"
+}
+{
+  "Pan the audio to left or right"
+  "将音频向左声道或向右声道平移"
+}
+{
+  "Panning"
+  "声道平衡（pan）"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Permissions Required"
+  "需要权限"
+}
+{
+  "Peterson BodyBeat® Pulse"
+  "Peterson BodyBeat®脉搏"
+}
+{
+  "Pitch"
+  "音高"
+}
+{
+  "Play"
+  "播放"
+}
+{
+  "Please add any comments about the problem below:"
+  "请在下面添加有关问题的任何评论："
+}
+{
+  "Polyrhythms"
+  "复式节奏"
+}
+{
+  "Practice log"
+  "练习日志"
+}
+{
+  "Practice more effectively and feel more motivated!"
+  "更有效地练习，感觉更有动力！"
+}
+{
+  "Preferences"
+  "设置"
+}
+{
+  "Preset name"
+  "预设名称"
+}
+{
+  "Preset sort order"
+  "预设排序顺序"
+}
+{
+  "Preset sounds"
+  "预设声音"
+}
+{
+  "Presets"
+  "预设"
+}
+{
+  "Previous"
+  "上一页"
+}
+{
+  "Privacy policy"
+  "隐私政策"
+}
+{
+  "Problem setting up in app billing. Is Google Play installed on this device?"
+  "设置应用内计费时出现问题。此设备上是否安装了Google Play？"
+}
+{
+  "Purchase the pro (ad-free) version"
+  "购买专业版（无广告）"
+}
+{
+  "Quickly record & track your practice"
+  "快速记录和跟踪您的练习"
+}
+{
+  "Random bars"
+  "随机小节"
+}
+{
+  "Random beats"
+  "随机节拍"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Rate %1$s"
+  "比率%1$s"
+}
+{
+  "Rate Now"
+  "立即评分"
+}
+{
+  "Rate this app"
+  "评价此应用程序"
+}
+{
+  "Record your playing"
+  "录制您的演奏"
+}
+{
+  "Regular bars"
+  "普通小节"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "Reset bar counter after "
+  "到达计数后重置小节计数器"
+}
+{
+  "Reset the bar counter after a specified number of bars"
+  "在指定数量的条形图后重置条形图计数器"
+}
+{
+  "Reset to default"
+  "重置为默认值"
+}
+{
+  "Reverse Beats"
+  "反向节拍"
+}
+{
+  "Reverse alphabetical"
+  "按Z-A"
+}
+{
+  "Ride"
+  "骑镲"
+}
+{
+  "Ride (bell)"
+  "镲帽"
+}
+{
+  "Right"
+  "右声道平移"
+}
+{
+  "Rimshot"
+  "边击"
+}
+{
+  "Rough"
+  "粗糙"
+}
+{
+  "SAVE your SETTINGS"
+  "保存您的设置"
+}
+{
+  "SOLO"
+  "独奏"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Save current settings for use later"
+  "保存当前设置以供以后使用"
+}
+{
+  "Save image"
+  "保存图像"
+}
+{
+  "Save your changes?"
+  "保存更改？"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select an existing preset to overwrite:"
+  "选择要覆盖的现有预设："
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select songs/presets"
+  "选择已有节奏谱/预设"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Set loop points"
+  "设置循环点"
+}
+{
+  "Set practice targets"
+  "设定实践目标"
+}
+{
+  "Set tempo to %1$s of %2$d bpm"
+  "将节奏设置为%2$d bpm的%1$s"
+}
+{
+  "Setlist"
+  "演出曲目"
+}
+{
+  "Setlist name"
+  "预设组名称"
+}
+{
+  "Setlists"
+  "预设组"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Share this app"
+  "分享此应用程序"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Shift+"
+  "轮班+"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show how long the metronome has been playing for"
+  "显示节拍器已经播放的时间"
+}
+{
+  "Show on practice screen"
+  "在练习屏幕上显示"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Side Sheet"
+  "侧板"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Smooth"
+  "平滑"
+}
+{
+  "Snare"
+  "军鼓"
+}
+{
+  "Snare + Kick"
+  "军鼓+底鼓"
+}
+{
+  "Song"
+  "节奏谱"
+}
+{
+  "Songs"
+  "节奏谱"
+}
+{
+  "Sorry to hear that. Would you like to send feedback?"
+  "听到这个消息我很难过。您想发送反馈吗？"
+}
+{
+  "Sorry, the sound won't start."
+  "抱歉，音效无法启动"
+}
+{
+  "Sound Type"
+  "声音类型"
+}
+{
+  "Sound note to tune by ear"
+  "通过耳朵听音调音"
+}
+{
+  "Sound output optimised for BodyBeat Pulse"
+  "针对BodyBeat Pulse优化的声音输出"
+}
+{
+  "Sounds"
+  "声音"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date %1$s"
+  "开始日期%1$s"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择：%1$s–结束日期选择：%2$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Start metronome from tap tempo"
+  "从打击节奏启动节拍器"
+}
+{
+  "Start/stop metronome"
+  "启动/停止节拍器"
+}
+{
+  "Stonekick"
+  "斯通尼克"
+}
+{
+  "Stop Sound"
+  "停止声音"
+}
+{
+  "Stop after"
+  "该小节/时间后停止："
+}
+{
+  "Stop on screen lock"
+  "锁屏后停止播放"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Success!"
+  "成功！"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Tablet Options"
+  "平板电脑选项"
+}
+{
+  "Tablet layouts not available on this device"
+  "平板电脑布局在此设备上不可用"
+}
+{
+  "Tablet layouts will be used when possible."
+  "如果可能，将使用平板电脑布局。"
+}
+{
+  "Tablet layouts will not be used."
+  "将不使用平板电脑布局。"
+}
+{
+  "Tambourine"
+  "铃鼓"
+}
+{
+  "Tap here to access the advanced rhythms mode, new drum machine mode and polyrhythm generator."
+  "点击此处访问高级节奏模式、新鼓机模式和多节奏发生器。"
+}
+{
+  "Tap in time to music to set the metronome tempo"
+  "按节奏点击按钮以自动判断bpm"
+}
+{
+  "Tap tempo"
+  "点击计算节奏"
+}
+{
+  "Tap to switch to Calendar view"
+  "点击切换到日历视图"
+}
+{
+  "Tap to switch to year view"
+  "点击切换到年景"
+}
+{
+  "Tempo %"
+  "节奏速率调整"
+}
+{
+  "Tempo Trainer"
+  "节奏训练器"
+}
+{
+  "Test Ad"
+  "测试广告"
+}
+{
+  "Test Sound"
+  "试音"
+}
+{
+  "Test your speed. MUTE BARS & BEATS at random"
+  "测试你的速度。随机涂抹木棒和木桩"
+}
+{
+  "Thank you !"
+  "非常感谢。"
+}
+{
+  "Thank you to everyone who has helped with translating Metronome Beats.\n\nGerman - Marcus Ohlhaut\nRussian - Alex Demurine\nSpanish - Luis Gil-Guijarro and Sebastián Pontigo"
+  "感谢所有参与到翻译软件的人员：\nGerman - Marcus Ohlhaut\nRussian - Alex Demurine\nSpanish - Luis Gil-Guijarro and Sebastián Pontigo\n中文（当前）-予澄"
+}
+{
+  "Thanks for your interest.\nWe will share more once you're back online."
+  "感谢您的关注。\n一旦你重新上线，我们将分享更多。"
+}
+{
+  "The error message reported by the app was:"
+  "应用程序报告的错误消息为："
+}
+{
+  "The perfect companion to Metronome Beats. Just plug it into your Android device and feel the beat."
+  "Metronome Beats的完美伴侣。只需将其插入您的Android设备即可感受节拍。"
+}
+{
+  "This app was created by Jo and Andy at Stonekick."
+  "本应用由Stonekick的Jo 和 Andy 开发"
+}
+{
+  "This function will create an exact copy of the app's internal database which contains your presets and setlists.\n\n*You should not normally need to do this.*\n\nThis file cannot be directly re-imported into the app. You should use the 'export' function from the main app menu if you want to share your presets and setlists."
+  "此功能将创建应用程序内部数据库的副本，其中包含您的预设和预设组。\n*通常无需在此导出*\n此文件无法直接重新导入到应用程序中，如果你是要分享你的预设和预设组，你应该使用应用菜单中的“导出”功能。"
+}
+{
+  "This is an advert for Tomplay which requires a subscription. You can try it free for 14 days."
+  "这是Tomplay的广告，需要订阅。你可以免费试用14天。"
+}
+{
+  "This release fixes problems with drum sounds in metronome mode.  Sorry about that!"
+  "此版本修复了节拍器模式下鼓声的问题，我们就先前版本的bug致歉！"
+}
+{
+  "This screen lets you create your own custom sound settings.\n\nYour device's built-in speaker might not be able to play low frequency sounds very well."
+  "此屏幕允许您创建自己的自定义声音设置。\n您设备的内置扬声器可能无法很好地播放低频声音。"
+}
+{
+  "This setlist needs some presets. Add some now?"
+  "此预设组需要包含一些预设，现在添加吗？"
+}
+{
+  "This song needs some presets. Add some now?"
+  "这首歌需要一些预设。现在添加一些？"
+}
+{
+  "This will change your pattern!"
+  "这将改变你的模式！"
+}
+{
+  "Tick"
+  "滴答"
+}
+{
+  "Timer"
+  "定时器"
+}
+{
+  "Title"
+  "标题"
+}
+{
+  "Today %1$s"
+  "今天%1$s"
+}
+{
+  "Toggle stop metronome after a number of bars have played"
+  "播放指定小节数后自动停止节拍器"
+}
+{
+  "TomPlay™ Interactive Sheet Music"
+  "TomPlay™互动乐谱"
+}
+{
+  "TomPlay™ Sheet Music"
+  "TomPlay™乐谱"
+}
+{
+  "Track your progress"
+  "跟踪您的进度"
+}
+{
+  "Translations"
+  "翻译"
+}
+{
+  "Try Free"
+  "免费试用"
+}
+{
+  "Try our Instrumentive app."
+  "试试我们的乐器应用程序。"
+}
+{
+  "Tuner"
+  "调音器"
+}
+{
+  "UNDO"
+  "撤消"
+}
+{
+  "Unknown export error. This shouldn't have happened, please contact us."
+  "未知导出错误。这不应该发生，请联系我们。"
+}
+{
+  "Up to <big><white>%1$d%%</white></big> of time"
+  "约占<big><white>%1$d%%</white></big>的时间"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "Updated!"
+  "更新！"
+}
+{
+  "Upgrade Now!"
+  "立即升级！"
+}
+{
+  "Upgrade now for LIFETIME ACCESS to Metronome Beats Pro! Remove adverts and much more."
+  "立即升级以终身访问Metronome Beats Pro！删除广告和更多内容。"
+}
+{
+  "Upgrade to Pro"
+  "升级到专业版"
+}
+{
+  "Upgrade to pro to choose from these drumkits:"
+  "升级到专业版，从以下鼓槌套件中进行选择："
+}
+{
+  "Upgrade to pro to enable this feature!"
+  "升级到专业版以启用此功能！"
+}
+{
+  "Use arrow keys to control the metronome. This may interfere with accessibility controls."
+  "使用箭头键控制节拍器，可能会干扰辅助功能控制"
+}
+{
+  "Use bluetooth/headphone media controls to control the metronome"
+  "使用蓝牙/耳机媒体控件控制节拍器"
+}
+{
+  "Use hardware media controls"
+  "使用硬件媒体控件"
+}
+{
+  "Use stave order for drums"
+  "使用五线谱顺序编排鼓点"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "User Guide"
+  "用户指南"
+}
+{
+  "Value"
+  "价值观"
+}
+{
+  "Version %1$s"
+  "版本%1$s"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "View app changelog"
+  "查看应用程序更改日志"
+}
+{
+  "View privacy policy"
+  "查看隐私政策"
+}
+{
+  "View waveform"
+  "查看波形"
+}
+{
+  "Visit Stonekick website"
+  "访问Stonelick网站"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "WARNING!"
+  "警告！"
+}
+{
+  "Want to save your favourite settings to access later? Upgrade to Metronome Beats Pro for this and even more features:"
+  "想保存您最喜欢的设置以供以后访问吗？升级到Metronome Beats Pro，以获得此功能和更多功能："
+}
+{
+  "Want to slow down or speed up a backing track? Practising a song that needs a different tuning?\n\nTry our new speed and pitch shifting app UpTempo!"
+  "想放慢或加快倒度吗？练习一首需要不同调音的歌曲？\n试试我们的新速度和音调转换应用程序UpTempo！"
+}
+{
+  "Warning - this file comes from a newer version of Metronome Beats."
+  "警告-此文件来自Metronome Beats的较新版本。"
+}
+{
+  "We are looking for people to translate this app, are you interested in helping? If so, please send us an email."
+  "我们正在寻找翻译此应用程序的人，您有兴趣提供帮助吗？如果是这样，请给我们发电子邮件。"
+}
+{
+  "We keep this app free by displaying personalised adverts."
+  "我们通过展示个性化广告来保持此应用程序的免费。"
+}
+{
+  "We recommend setting one of the buttons to 100%."
+  "建议将其中一个按钮设置为100%"
+}
+{
+  "We'd love to know what you are using it for, why not leave a review and tell us?"
+  "我们很想知道你在用它做什么，为什么不留下评论告诉我们呢？"
+}
+{
+  "We'll send you a notification with a link to the advertiser site."
+  "我们将向您发送一个通知，其中包含指向广告商网站的链接。"
+}
+{
+  "Welcome to %1$s by Stonekick. You can contact us at support@stonekick.com with any questions."
+  "欢迎来到Stonekick的%1$s。您可以通过以下方式联系我们：support@stonekick.com有任何问题。"
+}
+{
+  "Wooden"
+  "木质"
+}
+{
+  "Yes"
+  "是的"
+}
+{
+  "You are back online! Continue learning about %s"
+  "你又上线了！继续了解%s"
+}
+{
+  "You are back online! Let's pick up where we left off"
+  "你又上线了！让我们从中断的地方继续"
+}
+{
+  "You can increase the maximum in the preferences menu."
+  "您可以在设置中增加允许的最大值"
+}
+{
+  "You have the pro app installed, did you mean to open that instead?"
+  "你已经安装了专业版应用程序，你是想打开它吗？"
+}
+{
+  "You must disable BodyBeat® Pulse Solo™ mode to change sound settings."
+  "您必须禁用BodyBeat®Pulse Solo™模式才能更改声音设置。"
+}
+{
+  "You've unlocked the full power of Metronome Beats.\n\nIt can take a few hours for your purchase to sync to your other Android devices."
+  "你已经解锁了Metronome Beats的全部功能。\n您的购买可能需要几个小时才能同步到其他Android设备。"
+}
+{
+  "[Pro Only] %s"
+  "[仅限专业版]%s"
+}
+{
+  "bars"
+  "小节"
+}
+{
+  "button"
+  "按钮"
+}
+{
+  "button path"
+  "按钮路径"
+}
+{
+  "circle"
+  "圆圈"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "every"
+  "每一："
+}
+{
+  "icon path"
+  "图标路径"
+}
+{
+  "none"
+  "无"
+}
+{
+  "seconds"
+  "秒数"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "which has no adverts"
+  "没有广告"
+}

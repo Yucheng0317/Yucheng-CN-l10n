@@ -1,0 +1,366 @@
+<phyphox version="1.16" locale="en">
+  <title>Audio Scope</title>
+  <category>Acoustics</category>
+  <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAPcSURBVHic7d0xiFxVFMfhc8UUpoiFjYFgqSCiEdKJ2tiaNkUsLKzSKKgothYRBCGNnYWgSCy1tFvSJSSBKIighSjYKG6KCElxLaKod4Y/O5tx7mzyfeUpLmff7g9e8d7bKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACYoM1eYD96759U1WPD+HRr7bsZ+/CP3vsLVXV2GH/VWntnxj536v7ZC+zTE1X11DA7PGMRFjxUVSeG2Q8zFlmH+2YvANtMIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs9FGT3vuhqnplGN9srX20yT3+2uWZqnpyGF9orV3b9C7bovf+bN1+jOffdlpr32x4jweq6uVhfKO19vEm99i43vuRvuj6Ps65uuSc4yuecW7JGa+uusvdpPf+4ZJrcmbFM04tOeP8imc8vOSMX1b7adbDLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFgz9/m7b0/XVWvD+PLrbUP1rvSwdF7P1FVrw3ji621cxN2ea+qjg3jt1prP296l23Re3+/qo4O4zdaa3v+jOkqH68+VlWnh9mDVXXPBlJVj9TiNTlcVRsPpKperKrHh9nZqrpnA6mqk1X16DB7t6r2HIhbLAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAsEqr9zyP+i9H6mqL4fxbmvt5Ix9+C+BzHeoqp4bZr/NWIRFbrEgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoHAs1jz3aqqnWG2O2MRFglkstba9ap6fvYeLOcWCwKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQLDKK7c/VdWnw+zyGnc5iH6sxWtyccYidfuf8FwZZr/PWGSLfFFVR4fZSu/77zmQ1tqVqnpplcPvdq21S7Ul16S19vbsHbZNa+3NOz3DLRYEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFglW/zrsMfVXVmmN3c8A5/+7yqvh1mF2YsskU+q6prw2xnwh67tfh3cmPCHgdT7/1qX3R89l5U9d5PLfndnJ+91365xYJAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBBs+lmsdfm6qm4NM8/qbIdfq+rSMPt+xiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcGD9CfYbFrLu7jiUAAAAAElFTkSuQmCC</icon>
+  <description>
+        Show recorded audio data.
+
+        This experiment just records short periods of audio data and displays them. To achieve a steady image, a zero crossing is used as a trigger and t=0 is shifted to the first (positive) crossing.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Scope</link>
+  <translations>
+    <translation locale="de">
+      <title>Audio Oszilloskop</title>
+      <category>Akustik</category>
+      <description>
+        Stellt Audioaufnahmen dar.
+
+                Dieses Experiment nimmt Audiodaten über das Mikrofon auf und stellt diese dar. Um ein stabiles Bild zu zeigen, wird ähnlich einem Oszilloskop ein Trigger verwendet, wenn das Signal die Nulllinie durchläuft und die Zeitskala so verschoben, dass t=0 auf der ersten positiven Flanke liegt.
+    </description>
+      <string original="Scope">Oszilloskop</string>
+      <string original="Audio Data">Audiodaten</string>
+      <string original="Duration">Dauer</string>
+      <string original="Time">Zeit</string>
+    </translation>
+    <translation locale="cs">
+      <title>Zvukový záznam</title>
+      <category>Akustika</category>
+      <description>
+        Ukáže zaznamenaná zvuková data
+
+Tento experiment pouze zaznamenává a zobrazuje zvuková data z krátkého časového úseku. Kvůli zajištění stabilního záznamu je za spouštěč považováno překročení nuly a čas t=0 je přesunut do prvního (pozitivního) překročení.
+    </description>
+      <string original="Scope">Záznam</string>
+      <string original="Audio Data">Zvuková data</string>
+      <string original="Duration">Trvání</string>
+      <string original="Time">čas</string>
+      <string original="Amplitude">Amplituda</string>
+    </translation>
+    <translation locale="pl">
+      <title>Oscylogram audio</title>
+      <category>Akustyka</category>
+      <description>
+        Prezentuj zarejestrowane przebiegi akustyczne.
+
+        W eksperymencie rejestrowane są fragmenty nagrań dźwiękowych, które następnie są wizualizowane w postaci akustycznych przebiegów czasowych. Aby uzyskać stabilny obraz przebiegu przejście przez zerową wartość amplitudy zostało wybrane do wyzwalania rejestracji danych oraz t=0 zostało przypisane do pierwszego przejścia (w kierunku wartości dodatnich).
+    </description>
+      <string original="Scope">Oscylogram</string>
+      <string original="Audio Data">Dane audio</string>
+      <string original="Duration">Przedziały</string>
+      <string original="Time">Czas</string>
+      <string original="Amplitude">Amplituda</string>
+    </translation>
+    <translation locale="nl">
+      <title>Audio scoop</title>
+      <category>Geluid</category>
+      <description>
+        Toon opgenomen audio data.
+
+         Dit experiment registreert slechts korte periodes van audio data en geeft deze weer. Voor een stabiel beeld wordt een nuldoorgang als trigger gebruikt en wordt t = 0 naar het eerste (positieve) snijpunt verplaatst.
+    </description>
+      <string original="Duration">Duurtijd</string>
+      <string original="Scope">Scoop</string>
+      <string original="Time">Tijd</string>
+    </translation>
+    <translation locale="ru">
+      <title>Акустический диапазон</title>
+      <category>Акустика</category>
+      <description>
+        Показать записанные аудиоданные.
+
+        Этот эксперимент записывает и отображает короткие периоды аудиоданных. Для достижения устойчивого изображения в качестве триггера используется пересечение с нулём и t = 0 сдвигается на первое (положительное) пересечение.
+    </description>
+      <string original="Scope">Диапазон</string>
+      <string original="Audio Data">Аудиоданные</string>
+      <string original="Duration">Продолжительность</string>
+      <string original="Time">Время</string>
+      <string original="Amplitude">Амплитуда</string>
+    </translation>
+    <translation locale="it">
+      <title>Audioscopio</title>
+      <category>Acustica</category>
+      <description>
+        Mostra la forma del segnale audio.
+
+        Questo esperimento registra i dati dal microfono e ne mostra una loro rappresentazione grafica. Per ottenere un'immagine stabile, il sistema inizia a registrare quando i dati passano per zero e il punto a t=0 è definito come quello in cui i dati passano nuovamente da valori negativi a positivi.
+    </description>
+      <string original="Scope">Audioscopio</string>
+      <string original="Audio Data">Dati Audio</string>
+      <string original="Duration">Durata</string>
+      <string original="Time">Tempo</string>
+      <string original="Amplitude">Ampiezza</string>
+    </translation>
+    <translation locale="el">
+      <title>Ηχητικός παλμογράφος</title>
+      <category>Ακουστική</category>
+      <description>
+        Παρουσίαση ηχητικών δεδομένων.
+
+        Στο πείραμα αυτό καταγράφονται απλά, μικρής διάρκειας ηχητικά δεδομένα και παρουσιάζονται. Για να πετύχουμε σταθερή εικόνα η ενεργοποίηση γίνεται με τη διάσχιση μηδενός (zero crossing) και η χρονική στιγμή t=0 μετατοπίζεται στην πρώτη θετική διάσχιση.
+    </description>
+      <string original="Scope">Παλμογράφος</string>
+      <string original="Audio Data">Ηχητικά δεδομένα</string>
+      <string original="Duration">Διάρκεια</string>
+      <string original="Time">χρόνος</string>
+      <string original="Amplitude">Πλάτος</string>
+    </translation>
+    <translation locale="ja">
+      <title>聴音器</title>
+      <category>音響</category>
+      <description>
+        音声データの録音．
+
+本実験では，音声を短時間記録し表示します．振幅が０となる時をt = 0 とし表示しています．
+    </description>
+      <string original="Scope">波形表示器</string>
+      <string original="Audio Data">音響データ</string>
+      <string original="Time">時間</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Duration">トリガーイベント持続時間</string>
+    </translation>
+    <translation locale="pt">
+      <title>Osciloscópio de Som</title>
+      <category>Acústica</category>
+      <description>
+        Mostrar dados do áudio gravado.
+
+        Este experimento apenas grava e visualiza pequenos períodos de áudio. Para ter uma imagem estável, a passagem pelo zero é usada como gatilho e t=0 é deslocado para a primeiro passagem (positiva).
+    </description>
+      <string original="Scope">Osciloscópio</string>
+      <string original="Audio Data">Dados do áudio</string>
+      <string original="Time">Tempo</string>
+      <string original="Duration">Duração</string>
+    </translation>
+    <translation locale="tr">
+      <title>Ses kapsamı</title>
+      <category>Akustik</category>
+      <description>
+        Kaydedilen ses verilerini göster.
+Bu deney kısa süreli ses verilerini kaydeder ve görüntüler. Sabit bir görüntü elde etmek için, bir başlangıç olarak sıfır geçişi kullanılır ve t = 0, ilk (pozitif) geçişe kaydırılır.
+    </description>
+      <string original="Scope">Kapsam</string>
+      <string original="Audio Data">Ses Verileri</string>
+      <string original="Time">Zaman</string>
+      <string original="Amplitude">Genlik</string>
+      <string original="Duration">Süre</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>時變相對音強</title>
+      <category>聲學</category>
+      <description>
+        顯示已錄製的聲音數據。
+
+	本實驗僅是錄下短時間週期的聲音數據並且顯示它。為了要讓畫面停止，我們將數值0當作觸發點，此時t=0會移至第一個（正的）交點。
+    </description>
+      <string original="Scope">時變關係圖</string>
+      <string original="Audio Data">聲音數據</string>
+      <string original="Time">時間</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Duration">持續時間</string>
+    </translation>
+    <translation locale="fr">
+      <title>Mesure du son</title>
+      <category>Acoustique</category>
+      <description>
+        Affiche les données audio enregistrées.
+
+        Cette expérience enregistre de courtes périodes de données audio et les affiche sur un graphe. Pour obtenir un graphe stable, la mesure utilise un passage à zéro front montant comme trigger pour t=0.
+    </description>
+      <string original="Scope">Affichage</string>
+      <string original="Audio Data">Données audio</string>
+      <string original="Time">Durée</string>
+      <string original="Amplitude">Intensité</string>
+      <string original="Duration">Durée</string>
+    </translation>
+    <translation locale="vi">
+      <title>Đồ thị dao động âm</title>
+      <category>Âm học</category>
+      <description>
+        Hiển thị dữ liệu âm thanh ghi được.
+
+        Thí nghiệm này chỉ ghi lại các khoảng thời gian ngắn của dữ liệu âm thanh và hiển thị chúng. Để đạt được kết quả ổn định, thí nghiệm bắt đầu hiển thị dữ liệu khi biên độ bằng 0 và t = 0 được dịch chuyển sang vị trí biên độ bằng 0 (đang tăng) đầu tiên.
+    </description>
+      <string original="Scope">Phổ</string>
+      <string original="Audio Data">Dữ liệu âm</string>
+      <string original="Time">Thời gian</string>
+      <string original="Amplitude">Biên độ</string>
+      <string original="Duration">Khoảng t. gian</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>音频范围</title>
+      <category>声学</category>
+      <description>
+        显示已录制声音数据。
+
+        本实验仅录制并显示短时间内的音频数据。要实现画面静止，可以使用过零点来触发，此时t=0会移到第一（正）交叉点。
+    </description>
+      <string original="Scope">范围</string>
+      <string original="Audio Data">声音数据</string>
+      <string original="Time">时间</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Duration">持续时长</string>
+    </translation>
+    <translation locale="sr">
+      <title>Zvučno polje</title>
+      <category>Akustika</category>
+      <description>
+        Prikaži snimljeni zvuk.
+
+        Ovaj eksperiment snima samo kratke intervale zvuka i prikazuje ih. Da biste postigli stabilnu sliku, nulti presek ose se koristi kao polazna tačka i  t=0 je pomereno u prvi (pozitivni) presek.
+    </description>
+      <string original="Scope">Polje</string>
+      <string original="Audio Data">Zvučni materijal</string>
+      <string original="Time">Vreme</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="Duration">Trajanje</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Zvučno polje</title>
+      <category>Akustika</category>
+      <description>
+        Prikaži snimljeni zvuk.
+
+        Ovaj eksperiment snima samo kratke intervale zvuka i prikazuje ih. Da biste postigli stabilnu sliku, nulti presek ose se koristi kao polazna tačka i  t=0 je pomereno u prvi (pozitivni) presek.
+    </description>
+      <string original="Scope">Polje</string>
+      <string original="Audio Data">Zvučni materijal</string>
+      <string original="Time">Vreme</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="Duration">Trajanje</string>
+    </translation>
+    <translation locale="es">
+      <title>Visualizador de audio</title>
+      <category>Acústica</category>
+      <description>
+        Muestra datos de audio grabados.
+
+         Este experimento sólo registra períodos cortos de datos de audio y los muestra. Para lograr una imagen estable, se utiliza un cruce por cero como disparador, y t=0 se desplaza al primer cruce (positivo).
+    </description>
+      <string original="Scope">Alcance</string>
+      <string original="Audio Data">Datos de Audio</string>
+      <string original="Time">tiempo</string>
+      <string original="Amplitude">Amplitud</string>
+      <string original="Duration">Duración</string>
+    </translation>
+    <translation locale="ka">
+      <title>აუდიოსკოპი</title>
+      <category>აკუსტიკა</category>
+      <description>
+        მანახე ჩაწერილი აუდიო მონაცემი.
+
+        ეს ექსპერიმენტი იწერს მოკლე პერიოდის ხმოვან მონაცემებს და გიჩვენებს მათ. იმისათვის რომ მიიღო მდგრადი სურათი, ნულის კვეთაა მიღებული საწყისად ხოლო t=0 არის მიღებული პირველი პოზიტიური კვეთა.
+    </description>
+      <string original="Scope">სკოპი</string>
+      <string original="Audio Data">ხმოვანი მონაცემები</string>
+      <string original="Time">დრო</string>
+      <string original="Amplitude">ამპლიტუდა</string>
+      <string original="Duration">ხანგრძლივობა</string>
+    </translation>
+    <translation locale="hi">
+      <title>श्रव्य दर्शी (ऑडियो स्कोप)</title>
+      <category>ध्वनि विज्ञान</category>
+      <description>
+        दर्ज़ (रिकॉर्ड) किये गए श्रव्य आकड़े दिखाएँ 
+
+यह प्रयोग केवल छोटी अवधि के श्रव्य आकड़ों को दर्ज़ (रिकॉर्ड) करता है और उन्हें प्रदर्शित करता है। एक स्थिर प्रतिरूप (छवि) प्राप्त करने के लिए, एक शून्य क्रॉसिंग को ट्रिगर के रूप में उपयोग किया जाता है और t=0 को पहले (धनात्मक) क्रॉसिंग में स्थानांतरित कर दिया जाता है।
+    </description>
+      <string original="Scope">दर्शी (स्कोप)</string>
+      <string original="Audio Data">श्रव्य आकड़े</string>
+      <string original="Time">समय</string>
+      <string original="Amplitude">आयाम</string>
+      <string original="Duration">अवधि</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="26400">recording</container>
+    <container>rate</container>
+    <container>tmax</container>
+    <container size="26400">time</container>
+    <container size="26400">subtime0</container>
+    <container size="2">triggerTMinList</container>
+    <container>triggerT</container>
+    <container>triggerTend</container>
+    <container size="24000">subdata</container>
+    <container init="10">length</container>
+    <container>lengthSamples</container>
+    <container>lengthSamplesLimit</container>
+  </data-containers>
+  <input>
+    <audio>
+      <output>recording</output>
+      <output component="rate">rate</output>
+    </audio>
+  </input>
+  <views>
+    <view label="Scope">
+      <graph label="Audio Data" labelX="Time" unitX="[[unit_short_milli_second]]" labelY="Amplitude" unitY="[[unit_short_arbitrary_unit]]" scaleMinY="extend" scaleMaxY="extend">
+        <input axis="x">subtime0</input>
+        <input axis="y">subdata</input>
+      </graph>
+      <edit label="Duration" unit="[[unit_short_milli_second]]" min="1" max="500">
+        <output>length</output>
+      </edit>
+      <slider label="Duration" minValue="1" maxValue="500" stepSize="10" showValue="false">
+        <output>length</output>
+      </slider>
+    </view>
+  </views>
+  <analysis requireFill="recording" requireFillDynamic="lengthSamplesLimit">
+    <divide>
+      <input type="value">26400000</input>
+      <!-- 26400 / rate * 1000 -->
+      <input clear="false">rate</input>
+      <output>tmax</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">tmax</input>
+      <output>time</output>
+    </ramp>
+    <append>
+      <input type="value">2400</input>
+      <output>triggerTMinList</output>
+    </append>
+    <threshold falling="false">
+      <input as="y" clear="false">recording</input>
+      <output clear="false">triggerTMinList</output>
+    </threshold>
+    <min>
+      <input as="y">triggerTMinList</input>
+      <output as="min">triggerT</output>
+    </min>
+    <multiply>
+      <input clear="false">length</input>
+      <input clear="false">rate</input>
+      <input type="value">0.001</input>
+      <output>lengthSamples</output>
+    </multiply>
+    <add>
+      <input clear="false">lengthSamples</input>
+      <input type="value">2400</input>
+      <output>lengthSamplesLimit</output>
+    </add>
+    <add>
+      <input clear="false">triggerT</input>
+      <input clear="false">lengthSamples</input>
+      <output>triggerTend</output>
+    </add>
+    <subrange>
+      <input>recording</input>
+      <input as="from">triggerT</input>
+      <input as="to">triggerTend</input>
+      <output>subdata</output>
+    </subrange>
+    <match>
+      <input clear="false">time</input>
+      <input clear="false">subdata</input>
+      <output>subtime0</output>
+    </match>
+  </analysis>
+  <export>
+    <set name="Audio data">
+      <data name="Time (ms)">subtime0</data>
+      <data name="Recording (a.u.)">subdata</data>
+    </set>
+  </export>
+</phyphox>

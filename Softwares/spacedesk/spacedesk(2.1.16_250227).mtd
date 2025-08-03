@@ -1,0 +1,1336 @@
+{
+  "\n\nConnected time: "
+  "连接时间："
+}
+{
+  "\n\nError Info: "
+  "错误信息："
+}
+{
+  " for "
+  "对于"
+}
+{
+  "%1$s hours"
+  "%1$s小时"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题，请重试"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s小时"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%d new notification"
+  "%d条新通知"
+}
+{
+  "%d new notifications"
+  "%d条新通知"
+}
+{
+  "(native)"
+  "（本地）"
+}
+{
+  "16-bit (RGB 565)"
+  "16位（RGB 565）"
+}
+{
+  "24-bit (RGB 888)"
+  "24位（RGB 888）"
+}
+{
+  "<price> for one simultaneous connection between an arbitrary spacedesk Primary Machine and one of the Android devices associated with the current Google Play account."
+  "<price>可在任意spacedesk主机与当前Google Play账户关联的其中一个Android设备之间建立同步连接。"
+}
+{
+  "A Google Play Billing Service Error has occurred.\nPlease ensure that your spacedesk Android App was installed from official Google Play Store.\nPlease ensure that Google Play App is installed in the latest version.\nPlease ensure that Google Play Services are installed in the latest version.\nPlease ensure that you have a stable internet connection."
+  "发生Google Play计费服务错误。\n请确保您的spacedeskAndroid应用程序是从官方Google Play商店安装的。\n请确保安装了最新版本的Google Play应用程序。\n请确保Google Play服务安装在最新版本中。\n请确保您有稳定的互联网连接。"
+}
+{
+  "ADD"
+  "添加"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "APPLY"
+  "申请"
+}
+{
+  "Aborted"
+  "已中止"
+}
+{
+  "About"
+  "关于"
+}
+{
+  "Additional concurrent connections"
+  "其他并发连接"
+}
+{
+  "Are you sure that you want to quit the spacedesk Display Session?"
+  "确定要退出spacedesk显示会话吗？"
+}
+{
+  "Are you sure that you want to return back to the main menu?"
+  "确定返回主菜单吗？"
+}
+{
+  "Audio"
+  "音频"
+}
+{
+  "Auto-Rotation"
+  "自动旋转"
+}
+{
+  "Auto-connecting to %1$s"
+  "自动连接到%1$s"
+}
+{
+  "Auto-reconnect Timeout"
+  "自动重新连接超时"
+}
+{
+  "Automatic Connect"
+  "自动连接"
+}
+{
+  "Automatic Connect IP not saved - Please try again"
+  "自动连接IP未保存 - 请重试"
+}
+{
+  "Automatic Connect IP saved"
+  "自动连接IP已保存"
+}
+{
+  "Automatic Connect Timeout"
+  "自动连接超时"
+}
+{
+  "Automatic Connect disabled due to empty Automatic Connect Hostname"
+  "由于自动连接主机名为空，自动连接已禁用"
+}
+{
+  "Automatic Connect disabled due to empty Automatic Connect IP"
+  "由于自动连接IP为空，自动连接已禁用"
+}
+{
+  "Automatic Connect to Hostname:"
+  "自动连接到主机名："
+}
+{
+  "Automatic Connect to IP-Address:"
+  "自动连接到IP地址："
+}
+{
+  "Automatic Connect to…"
+  "自动连接到："
+}
+{
+  "Automatically connect to a server on app initialization"
+  "应用初始化时自动连接到服务器"
+}
+{
+  "Back"
+  "返回"
+}
+{
+  "Before connecting USB cable, enable \"USB Cable Android\" option in spacedesk Driver Console on Windows Primary Machine."
+  "在连接USB数据线之前，请在Windows主机上spacedesk Driver Console中启用“USB Cable Android”选项。"
+}
+{
+  "Billing Error"
+  "账单错误"
+}
+{
+  "CALIBRATED"
+  "已校准"
+}
+{
+  "CANCEL"
+  "取消"
+}
+{
+  "CONNECT"
+  "连接"
+}
+{
+  "Calibrate SonarPen"
+  "SonarPen 校准"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Cannot detect any Primary Machine"
+  "无法检测到任何主机"
+}
+{
+  "Change to next month"
+  "改为下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Changes applied"
+  "已应用更改"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Checked"
+  "已检查"
+}
+{
+  "Choose Custom Resolution"
+  "选择自定义分辨率"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Choose encrypted connection type"
+  "选择加密连接类型"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Click on the '+'-button to connect manually"
+  "点击“+”按钮手动连接"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "Collapse the bottom sheet"
+  "收起底部菜单"
+}
+{
+  "Column of days: %1$s"
+  "天数列：%1$s"
+}
+{
+  "Commercial Business"
+  "商业业务"
+}
+{
+  "Commercial Business (<price> for each Android Device)"
+  "商业业务（每台Android设备的price>＞）"
+}
+{
+  "Concurrent Access Licensing (CAL) Options"
+  "并发访问许可（CAL）选项"
+}
+{
+  "Configure SonarPen Stylus"
+  "配置SonarPen触控笔"
+}
+{
+  "Connect"
+  "连接"
+}
+{
+  "Connect to Primary Machine (Server)"
+  "连接到主机（服务器）"
+}
+{
+  "Connected - Display OFF"
+  "已连接 - 已关闭显示器"
+}
+{
+  "Connecting to "
+  "正在连接到"
+}
+{
+  "Connection"
+  "连接"
+}
+{
+  "Connection Encryption"
+  "连接加密"
+}
+{
+  "Connection Encryption Client Identity"
+  "连接加密客户端标识"
+}
+{
+  "Connection Encryption Key"
+  "连接加密密钥"
+}
+{
+  "Connection Failed!"
+  "连接失败！"
+}
+{
+  "Connection Timeout"
+  "连接超时"
+}
+{
+  "Connection Timeout Polling Period"
+  "连接超时轮询周期"
+}
+{
+  "Connection failure"
+  "连接失败"
+}
+{
+  "Connection: "
+  "连接："
+}
+{
+  "Could not establish USB connection. Closing session..."
+  "无法建立USB连接。正在结束会话……"
+}
+{
+  "Could not open browser: Please check if there is a browser installed on your device."
+  "无法打开浏览器：请检查您的设备上是否安装了浏览器。"
+}
+{
+  "Could not purchase this item. Please check the purchase state!"
+  "无法购买此商品。请检查购买状态！"
+}
+{
+  "Current Google Play Account"
+  "当前Google Play帐户"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Custom FPS Rate"
+  "自定义FPS速率"
+}
+{
+  "DISCOVERY"
+  "搜寻"
+}
+{
+  "DISPLAY OFF"
+  "显示器关闭"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Disable Palm Rejection"
+  "禁用防手掌误触"
+}
+{
+  "Disable SonarPen"
+  "禁用SonarPen"
+}
+{
+  "Disconnect"
+  "断开连接"
+}
+{
+  "Disconnected"
+  "已断开"
+}
+{
+  "Disconnected - Reconnecting to %1$s"
+  "已断开连接 - 正在重新连接到%1$s"
+}
+{
+  "Disconnected by server error\n\nError Code: "
+  "因服务器错误而断开连接\n错误代码："
+}
+{
+  "Disconnected manually"
+  "手动断开连接"
+}
+{
+  "Disconnecting from "
+  "断开连接"
+}
+{
+  "Discovery OFF - enable discovery checkbox to activate automatic discovery"
+  "已关闭搜寻 - 启用搜寻复选框以激活自动搜寻"
+}
+{
+  "Display connected"
+  "显示器已连接"
+}
+{
+  "Display disconnected"
+  "显示器已断开连接"
+}
+{
+  "Do not show this messagebox again"
+  "不再显示此消息框"
+}
+{
+  "Do not use this resolution on Windows 8.1 "
+  "请勿在Windows 8.1上使用此分辨率"
+}
+{
+  "Do you like spacedesk?"
+  "你喜欢spacedesk吗？"
+}
+{
+  "Do you want to support our developer team? Then please leave a rating in the Google Play Store."
+  "您想支持我们的开发团队吗？然后请在Google Play商店中留下评分。"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Drag handle"
+  "拖动控件"
+}
+{
+  "Drag handle double-tapped"
+  "双击拖动控件"
+}
+{
+  "Enable Palm Rejection"
+  "启用防手掌误触"
+}
+{
+  "Enable SonarPen"
+  "启用SonarPen"
+}
+{
+  "Enable Stylus Screen Control"
+  "启用触控笔屏幕控制"
+}
+{
+  "Enable Touch Screen Control"
+  "启用触摸屏控制"
+}
+{
+  "Encoding Color Depth"
+  "颜色深度编码模式"
+}
+{
+  "Encrypted connection needs Business License"
+  "加密连接需要营业执照"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "End date %1$s"
+  "结束日期 %1$s"
+}
+{
+  "Enter IP address of your primary-PC:"
+  "输入主机的IP地址："
+}
+{
+  "Enter the Hostname of the server for automatic connect"
+  "输入服务器的主机名以进行自动连接"
+}
+{
+  "Enter the IP address of the server for automatic connect"
+  "输入服务器的IP地址以进行自动连接"
+}
+{
+  "Enter your IP-Address"
+  "输入您的IP地址"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Expand halfway"
+  "展开至一半"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部菜单"
+}
+{
+  "Extended"
+  "扩展"
+}
+{
+  "Extended settings enabled"
+  "已启用扩展设置"
+}
+{
+  "Feature Info"
+  "特征信息"
+}
+{
+  "Free"
+  "免费"
+}
+{
+  "Function+"
+  "Function+ "
+}
+{
+  "High color quality, slow speed (YUV 4.4.4)"
+  "色彩质量高，速度慢（YUV 4.4.4）"
+}
+{
+  "Hostname"
+  "主机名"
+}
+{
+  "Hostname-Validation in progress…"
+  "验证主机名中……"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "IMPORTANT INFO:"
+  "重要信息："
+}
+{
+  "IP-Address"
+  "IP地址"
+}
+{
+  "IP-Validation in progress…"
+  "验证IP地址中……"
+}
+{
+  "Image Quality"
+  "图像质量"
+}
+{
+  "Inconsistent Licensing"
+  "许可不一致"
+}
+{
+  "Inconsistent Licensing detected.\nLicenses are available for purchase in sequential order only.\nPlease check the \"Additional concurrent connections\" button for further information.\nMissing licenses are shown with red arrows. These should be purchased for consistent licensing."
+  "检测到不一致的授权。\n许可证只能按顺序购买。\n请查看“其他并发连接”按钮以获取更多信息。\n缺失的许可证以红色箭头显示。应购买这些产品以获得一致的许可。"
+}
+{
+  "Information"
+  "信息"
+}
+{
+  "Input Devices"
+  "输入设备"
+}
+{
+  "Invalid IP"
+  "无效IP"
+}
+{
+  "Invalid IP - "
+  "无效IP-"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Invalid password!"
+  "密码无效！"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Keyboard"
+  "键盘"
+}
+{
+  "LAN / WiFi"
+  "局域网/WiFi"
+}
+{
+  "Leaving display"
+  "退出显示器"
+}
+{
+  "License"
+  "许可证"
+}
+{
+  "License Description"
+  "许可证说明"
+}
+{
+  "License Terms"
+  "许可条款"
+}
+{
+  "License issued:"
+  "已颁发许可证："
+}
+{
+  "Licensed to"
+  "授权给"
+}
+{
+  "Licensing"
+  "许可证"
+}
+{
+  "Low color quality, fast speed (YUV 4.2.0)"
+  "色彩质量低，速度快（YUV 4.2.0）"
+}
+{
+  "M3.27,4.27 L19.74,20.74"
+  "M3.27,4.27 L19.74,20.74 "
+}
+{
+  "MORE INFO"
+  "更多信息"
+}
+{
+  "Manually adding IP: "
+  "手动添加IP："
+}
+{
+  "Maximize"
+  "最大化"
+}
+{
+  "Medium color quality, medium speed (YUV 4.2.2)"
+  "色彩质量中等，速度一般（YUV 4.2.2）"
+}
+{
+  "Menu+"
+  "Menu+ "
+}
+{
+  "Meta+"
+  "Meta+ "
+}
+{
+  "Minimize"
+  "最小化"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "NOT CALIBRATED"
+  "未校准"
+}
+{
+  "Navigate home"
+  "回主页"
+}
+{
+  "Navigate to current year %1$d"
+  "导航至当前年份 %1$d"
+}
+{
+  "Navigate to year %1$d"
+  "导航至 %1$d 年"
+}
+{
+  "Navigate up"
+  "返回上级"
+}
+{
+  "Navigating to Licensing"
+  "导航到许可"
+}
+{
+  "Navigating to Settings"
+  "导航到设置"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "No Encryption"
+  "无加密"
+}
+{
+  "Non-Commercial Private & Academic"
+  "非商业的个人和学术用途"
+}
+{
+  "Non-numeric input for Width/Height"
+  "宽度/高度的非数字输入"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "确认"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "Off"
+  "关"
+}
+{
+  "On-Screen-Menu"
+  "屏幕菜单"
+}
+{
+  "Other Devices"
+  "其他设备"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "PURCHASE"
+  "购买"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Password Input"
+  "密码输入"
+}
+{
+  "Password field cannot be empty!"
+  "密码字段不能为空！"
+}
+{
+  "Payment option is not available yet."
+  "付款选项尚不可用。"
+}
+{
+  "Pen"
+  "笔"
+}
+{
+  "Perform audio input from your server"
+  "从服务端输入音频"
+}
+{
+  "Permission denied for USB. Closing session..."
+  "USB权限被拒绝。正在结束会话……"
+}
+{
+  "Please activate DISCOVERY for Auto Connection to Hostname"
+  "请激活DISCOVERY以自动连接到主机名"
+}
+{
+  "Please click on one discovered primary machine server address in order to connect.\n\nIf you don't see the server you want, enter the IP address manually by clicking on the +-button which is left to the i-button."
+  "单击一个找到的主机服务器地址来连接。\n如果您没有看到所需的服务器，请单击ℹ️按钮旁的的+按钮手动输入IP地址。"
+}
+{
+  "Please click on the button below to enter the IP-address of your primary machine.\nDue to the setting Discovery OFF you cannot discovery any primary machines automatically!"
+  "请单击下面的按钮输入您的主计算机的IP地址。\n由于设置了“关闭搜寻”，您无法自动发现任何主机！"
+}
+{
+  "Please enter the password for: "
+  "请输入密码："
+}
+{
+  "Purchase not successful - Billing Unavailable"
+  "购买不成功 - 账单不可用"
+}
+{
+  "Purchase not successful - Internal Error"
+  "购买不成功 - 内部错误"
+}
+{
+  "Purchase not successful - Purchase Cancelled"
+  "购买不成功 - 购买已取消"
+}
+{
+  "Purchase not successful - Service Unavailable"
+  "购买不成功 - 服务不可用"
+}
+{
+  "Purchase now"
+  "立即购买"
+}
+{
+  "Quality/Performance"
+  "质量/性能"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Recalibrate SonarPen"
+  "SonarPen重新校准"
+}
+{
+  "Recent:"
+  "最近："
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "Rendering Color Depth"
+  "颜色深度渲染模式"
+}
+{
+  "Resolution"
+  "分辨率"
+}
+{
+  "Resolution must not be bigger than "
+  "分辨率不得大于"
+}
+{
+  "Resolution must not be smaller than "
+  "分辨率不得小于"
+}
+{
+  "Resolutions…"
+  "分辨率……"
+}
+{
+  "Rotate primary machine's screen by client-device rotation"
+  "参照客户端设备旋转来旋转主机屏幕"
+}
+{
+  "Rotation"
+  "旋转"
+}
+{
+  "STATUS"
+  "状态"
+}
+{
+  "Same features and functionality as free version. Test thoroughly before purchasing!"
+  "与免费版本具有相同的特性和功能。可彻底试用后再订购！"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Send Stylus input to Windows Primary PC (server)"
+  "将触控笔输入发送到Windows主机（服务器）"
+}
+{
+  "Send touch screen input to Windows Primary PC (server)"
+  "将触摸屏输入发送到Windows主机（服务器）"
+}
+{
+  "Set Auto-reconnect Timeout in milliseconds"
+  "设置自动重新连接超时（毫秒）"
+}
+{
+  "Set Automatic Connect Timeout in milliseconds"
+  "设置自动连接超时（毫秒）"
+}
+{
+  "Set Connect Timeout Polling Period in milliseconds"
+  "设置连接超时轮询周期（毫秒）"
+}
+{
+  "Set Connect Timeout in milliseconds"
+  "设置连接超时（毫秒）"
+}
+{
+  "Set the Client Identity for encrypted connection"
+  "设置加密连接的客户端标识"
+}
+{
+  "Set the Key for encrypted connection as HEX"
+  "将加密连接的密钥设置为十六进制"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Shift+"
+  "Shift+ "
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show floating menu button. Please note that On-Screen-Keyboard is not accessible while On-Screen-Menu is turned OFF!"
+  "显示浮动菜单按钮。请注意，当屏幕菜单关闭时，无法访问屏幕键盘！"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Side Sheet"
+  "侧页"
+}
+{
+  "SonarPen Connected"
+  "SonarPen已连接"
+}
+{
+  "SonarPen Disconnected"
+  "SonarPen已断开连接"
+}
+{
+  "SonarPen Not Connected"
+  "SonarPen未连接"
+}
+{
+  "SonarPen Stylus"
+  "SonarPen触控笔"
+}
+{
+  "SonarPen Website"
+  "SonarPen 网站"
+}
+{
+  "SonarPen disabled"
+  "已禁用 SonarPen"
+}
+{
+  "SonarPen enabled"
+  "SonarPen已启用"
+}
+{
+  "SonarPen status - DISABLED"
+  "SonarPen状态 - 禁用"
+}
+{
+  "SonarPen status - ENABLED"
+  "SonarPen状态 - 已启用"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date %1$s"
+  "开始日期 %1$s"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择：%1$s - 结束日期选择：%2$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Sym+"
+  "Sym+ "
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Tap to switch to Calendar view"
+  "单击切换到日历视图"
+}
+{
+  "Tap to switch to year view"
+  "单击切换到年份视图"
+}
+{
+  "Technical Support"
+  "技术支持"
+}
+{
+  "The (*) marked entries are preferred resolutions matching your device's aspect ratio."
+  "标（*）的条目是匹配设备纵横比的首选分辨率。"
+}
+{
+  "The additional CAL license bundles below are only needed if multiple devices associated with the same Google Play account concurrently access arbitrary spacedesk Primary Machines. Licenses are available for purchase in sequential order only."
+  "仅当与同一Google Play帐户关联的多个设备同时访问任意spacebdesk主计算机时，才需要以下额外的CAL许可证包。许可证只能按顺序购买。"
+}
+{
+  "The network bandwidth is low and the screen sharing can be unstable"
+  "网络带宽低，屏幕共享可能不稳定"
+}
+{
+  "The spacedesk App supports the SonarPen stylus. See the options below to enable/disable it, visit the SonarPen-Website or calibrate the SonarPen."
+  "spacedesk应用程序支持SonarPen触控笔。请参阅下面的选项以启用/禁用它、访问SonarPen网站或校准Sonar Pen。"
+}
+{
+  "This spacedesk Android App can only connect to a spacedesk Windows DRIVER.\n\nYou can download the latest Windows DRIVER from: https://www.spacedesk.net/\n\nHelp and Release Notes: https://www.spacedesk.net"
+  "该 spacedeskAndroid 应用只能连接到 spacedeskWindows DRIVER。\n您可以从以下网址下载最新的Windows DRIVER：https://www.spacedesk.net/\n帮助和发行说明：https://www.spacedesk.net"
+}
+{
+  "Today %1$s"
+  "今天 %1$s"
+}
+{
+  "Touch Input Type"
+  "触摸输入类型"
+}
+{
+  "Touchpad (relative touch)"
+  "触摸板（相对触摸）"
+}
+{
+  "Touchscreen"
+  "触摸屏"
+}
+{
+  "Touchscreen (absolute touch)"
+  "触摸屏（绝对触摸）"
+}
+{
+  "Typically used for desktop duplication"
+  "常用于桌面复制模式"
+}
+{
+  "Typically used for desktop extension"
+  "常用于桌面扩展模式"
+}
+{
+  "USB Session connection lost..."
+  "USB会话连接丢失……"
+}
+{
+  "USB cable detached!"
+  "USB数据线断开！"
+}
+{
+  "USB cable detached! Closing session..."
+  "USB数据线断开！正在结束会话……"
+}
+{
+  "Unable to connect"
+  "无法连接"
+}
+{
+  "Unable to connect!"
+  "无法连接！"
+}
+{
+  "Unknown (Connect to the Internet for Validation)"
+  "未知（连接到Internet进行验证）"
+}
+{
+  "Unsupported feature on server-side"
+  "服务器端不支持的功能"
+}
+{
+  "Upgrade "
+  "升级"
+}
+{
+  "Use USB Cable"
+  "使用USB数据线"
+}
+{
+  "Use custom resolution"
+  "使用自定义分辨率"
+}
+{
+  "Use native android device resolution"
+  "使用Android设备原始分辨率"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "User Manual"
+  "用户手册"
+}
+{
+  "Value"
+  "值"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "WiFi Direct"
+  "WiFi直通"
+}
+{
+  "WiFi Direct Discovery will be available soon..."
+  "WiFi Direct Discovery即将推出……"
+}
+{
+  "Width/Height must be a multiple of 2"
+  "宽度/高度必须是2的倍数"
+}
+{
+  "Width/Height must not be empty"
+  "宽度/高度不能为空"
+}
+{
+  "You can find licensing options in the main menu under the Licensing section."
+  "您可以在主菜单的“许可”部分找到许可选项。"
+}
+{
+  "You cannot use SonarPen without granting permissions"
+  "未授予权限，您无法使用SonarPen"
+}
+{
+  "You cannot use the stylus feature with your current Windows-PC spacedesk DRIVER.\nPlease download the latest spacedesk DRIVER from www.spacedesk.net!"
+  "您无法将手写笔功能与当前的Windows PC桌面驱动程序一起使用。\n请从www.spacedesk.net下载最新的spacedesk驱动程序！"
+}
+{
+  "Your current session will be disconnected."
+  "您当前的会话将被断开。"
+}
+{
+  "Your device ran low on main memory. Please try to close other apps to get more free RAM."
+  "您的设备主内存不足。请尝试关闭其他应用程序以获得更多可用RAM。"
+}
+{
+  "aborted"
+  "已中止"
+}
+{
+  "androidx.startup"
+  "androidx.startup "
+}
+{
+  "button"
+  "button "
+}
+{
+  "button path"
+  "button path "
+}
+{
+  "circle"
+  "circle "
+}
+{
+  "cubic-bezier(0, 0, 0, 1)"
+  "cubic-bezier(0, 0, 0, 1) "
+}
+{
+  "cubic-bezier(0, 0, 0.2, 1)"
+  "cubic-bezier(0, 0, 0.2, 1) "
+}
+{
+  "cubic-bezier(0, 0, 1, 1)"
+  "cubic-bezier(0, 0, 1, 1) "
+}
+{
+  "cubic-bezier(0.0, 0.0, 0.2, 1.0)"
+  "cubic-bezier(0.0, 0.0, 0.2, 1.0) "
+}
+{
+  "cubic-bezier(0.0, 0.0, 1.0, 1.0)"
+  "cubic-bezier(0.0, 0.0, 1.0, 1.0) "
+}
+{
+  "cubic-bezier(0.1, 0.7, 0.1, 1)"
+  "cubic-bezier(0.1, 0.7, 0.1, 1) "
+}
+{
+  "cubic-bezier(0.2, 0, 0, 1)"
+  "cubic-bezier(0.2, 0, 0, 1) "
+}
+{
+  "cubic-bezier(0.3, 0, 0.8, 0.2)"
+  "cubic-bezier(0.3, 0, 0.8, 0.2) "
+}
+{
+  "cubic-bezier(0.3, 0, 1, 1)"
+  "cubic-bezier(0.3, 0, 1, 1) "
+}
+{
+  "cubic-bezier(0.4, 0, 0.2, 1)"
+  "cubic-bezier(0.4, 0, 0.2, 1) "
+}
+{
+  "cubic-bezier(0.4, 0, 1, 1)"
+  "cubic-bezier(0.4, 0, 1, 1) "
+}
+{
+  "cubic-bezier(0.4, 0.0, 0.2, 1.0)"
+  "cubic-bezier(0.4, 0.0, 0.2, 1.0) "
+}
+{
+  "cubic-bezier(0.4, 0.0, 1.0, 1.0)"
+  "cubic-bezier(0.4, 0.0, 1.0, 1.0) "
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "icon"
+  "icon "
+}
+{
+  "icon path"
+  "icon path "
+}
+{
+  "list is empty"
+  "列表为空"
+}
+{
+  "none"
+  "无"
+}
+{
+  "path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)"
+  "path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1) "
+}
+{
+  "space"
+  "空间"
+}
+{
+  "spacedesk - free for non-commercial use only!"
+  "spacedesk - 免费版仅供非商业用途！"
+}

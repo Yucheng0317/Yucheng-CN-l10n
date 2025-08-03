@@ -1,0 +1,954 @@
+<phyphox version="1.16" locale="en">
+  <title>Audio Spectrum</title>
+  <category>Acoustics</category>
+  <icon format="base64">iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAA2BSURBVHic7d1b7BxVAcfx35Reofxb2tJyKy13QlEhBUFA0chFNIiJAfESUIw8GYwRQjReMMQEH4zRB42XB0ETDfGBiyQSExQpLwRQLq0XEDRysxAgVSjBtl8fZtb//Gd3ZnZ2Z3Z2zv4+SbP//Xf+M2d297fnnJkzZyQzMzMzMzMzMzMzMzMzMzMzs8kDTgK2tl0Os6kE/IzYDuAGYFPbZTKbCsAc8BoL7QV+A1wBHNB2Gc1aA1xFsVeBW4DzgKjt8ppNFHBvSUDS/gHcBBzddrnNJiKpQe4D9lUIyl7gHuBKYGXb+2DWOGAjcD3wZIWgAOwGbgUuBvZrez/MGgdsBX4A7KoYlmeIm2DHt70PZo0DlgOXAncC/60YlgeBzwHr2t4Ps8YBhycf+EcqBuWNJGCXAkva3g+zxhE3wb4DvFgxLM8lf3dq2/tg1jhgGXHn/FbgzYph2U58UGB92/th1jhgDXA18FDFoOwhPmt/KbC07f0waxywhfho1gsVw/Iy8dGzc9reB7PGAfsRD1G5BXi9Ylg8cNJmB7CauAm2jepn7T1w0mYHcGJSOzxdsVZpZeAkHiFgbQAWAecQ9zv+UzEsExs4SXy9zDFNb8csF/F1KVckzamqTbBtxM23Axso1wbiUQTbgbm6129WGVM0cBK4LrX+24BFdazXrBa0PHASeCyz3m/UtW9mtaGFgZNJOLP2AR9raj/NxsaEBk4C381Zz27gjEnsq9lYaGjgJLAE2Fnw988DR0x6f81GQs0DJ4EPDfF3DwP7t7nfZpVRz8DJ24f8m1/i2V6sqxh94GQVX2l7P83GwngDJ8vsAz7S9j6a1QJYC3wWeKDGkLwOnNb2vpnVitEHTg7yLHBY2/tkVjvmB05WPbeSdT+wrO39MasdcT/lmTEDAnBz2/tiVjvgohrC0XNt2/tjVivg5zUGZA/wgbb3aVb5xFTNgNWSnpO0osbV7pL0jiiKdtS4ThuCr0mo32WqNxx7Je2UdFWN67QhLW67AAG6Yoy//bukHZIel7Q9efxTFEW7ayiXjcBNrBoBx0r6q8pf11cUB2F78viQpEeiKPp3syW0qlyD1OtKLQzHS5IeU6ZWiKLolRbKZiNwQOr1hqRrNB+EnS2Xx8zMbAT4Iqyx+TBv2Da2XYCuc0DC5mvdx+SAhO3wtgvQdQ5I2Da0XYCuc0DCdkjbBeg6ByRsDsiYHJCwuYk1JgckUMBySavbLkfXOSDh2l+S70MyJgckXCvkgIzNAQmXa5AaOCDh2l/SCnzj0LE4IOHqXfa7vNVSdJwDEq7eSF4HZAwOSLhWZB5LAXVONhEEByRco9QghzZRkC5zQMLVC0iVWsFDUzIckHCNUoM4IBkOSLhGOYrlJlaGAxKuSk0s4EBJBzRXnG5yQMJVtQbZIH8e+vgFCVfVTroDMoBfkHBVrUEOlj8PffyChKtqDXKwPFdzHwckXFUP866VPw99/IKEq+pQEwdkAL8g4erVIEuGXH6d3MTq44CEq1dzDHs9yNoKy84MByRcvRpk2Pd4jYavbWaGAxKuXkCGrRXm5PvF9HFAwlW1Blkp1yB9HJBwVe2DHCAHpI8DEq6qTayVchOrjwMSoGQmk6XJ09KAAIsU1zhLy5adNQ5ImNK3XhvmPZ5TfA7ENUiGAxKmdECGaWL1JphzHyTDAQlTenjJMAFZlTy6BslwQMK0MvWza5AxOCBhWpX6uUpA3EnPcEDClJ60epj3uBcoz8KY4YCEadQaZP/CpWaQAxKmdA1SJSCe1STDAQlTugYZ5j1emzx6bt4MByRMVWuQXkBcg2Q4IGFK37xzmIAclDy6D5LhgIRpXernYQLSW34F4MtuUxyQMK1N/TxMQNYkj5HcD1nAAQnTqAGR3MxawAEJU9WApJd3QFIckDCla4TCAYjAci1sVh3YSIk6ygEJDLBUCz/kZTXI2szzgwYuNaMckPBkP/BVA7Jm4FIzygEJz7rM87JrPLI1hmuQFAckPNnbqJXVINlAuQZJcUDCsyHzvKwGyQbCNUiKAxKe7J1qy2oQB6SAAxKeqjVINhBuYqV0NiCAR54O5hqkRp0NiPo7lxbL1iBll9FmA+IaJKXLATm47QJMqWwNUlbTugYp0OWArG+7AFMq+7qsHLjUvNWZ565BUjoZEGCJHJA+wGL1Nz2XJq9Xnr4z6cl6TB0NiOJmhOdw6rdeg9/TolokW2Mskvt3/9fVgBwqT5M5SLb/0TMwIEnNMuj/sh39mdXlgHiazH55zc68GiSvQ+6AJLoakCPlGmSQ7DisnrwjWdn+R48DkuhqQI6QAzJIXTWID4AkuhqQTXJABsnrg+QFIe+QrmuQRFcDslEOyCB5Ack7KuWAlOhqQI6QO+mD5H2w80YduJNeonMBSW5QeZg8TeYgR+T83jXIiDoXEMXhWCzPvjHI4Tm/z6tBHJASXQzIxuRxrnCpGQOsUf6cVlVrkIOTW0PPvC6+CA7IYIcV/F9eDZIdqNizWB60KKmbAdmUPLqJtVBe/0PKD09RCNzMUjcDsjl59DfcQnn9D0naACwb8Pui17BofTOjiwE5Knn0N9xCRTXIIs03TdOKXsOi9c2MLgfkoJxvxVlV9oHelH4CrNfCW7VlDQrUzOlUQJKbu6TfaNci84o66VImIJJOLVneNYg6FhDFQynSkxA4IPPKPtBHZZ6fVbK8axB1LyDZNzlv7NEsKutUn5R5/q6S5R0QdS8gmzPPs4GZScAK5V/b0bMltfwySWeULO8mlroXkGwgjmulFNNnmEOyx6QOapyu8nsRzgFloQte1wKyOfPcAYkNE5DFmq9FLhhyvceMVpxwdC0grkEGG7a/cGby+P4hlz96hLIEpWsB2Zx5vim55disG/as91nABpUf4u05dsTyBKMzAUmuAzky8+v9JJ3YQnGmTfZ1yXOepIs0/PvuGqTtAlSQdxVh2fH8WZA9CZhng6QvVliv+yBtF6CCt+b8/uyJlmI6DRsQSTq+oWWD1KWAnJbzewekWkCqOASY6Vn0QwjIUcDMntRKriRs8tqYkxtc99TrRECSDvrpBYu8d1JlmULDdtBHlde0nQmdCIikd6v4hjmfnEwxptLmhtfvGqQDLi/5/3OBLSXLhMo1SIOmPiDJ+KEPlywWSfr2BIozjZrqoPecCpTdpaoVk5h5ZeoDIukzGu6+eecDZTVNiJoOyBJJ72x4G6P6RNMbmOqAJN9cX67wJz+awaZW0wGRpPdMYBuVAHOSrmp6O1MdEElfULWrBldKugNoul0+FZKjeydMYFPnTWAbVV2qWb7TMbAVeIPRPAVMzTgioJF5hIEtI74+o3hLE/swKuAu4JmmtzOVNQiwStKtkkadteQoSQ8A59dXqtEAX5X0BJA3i+E4PtjAOvNcO8FtFSLunJ+lWbynO7AUuLOmb709wE3A8vItN7IvFwH7krLUepQN2A/4S02v0zD2AmeWl6x5wDGpcrXy3rYCWEZ94Uj7M3AJ8bRBk9qXo4GdqTK8CZRdB15l/Vc38DqV+RvQ+rc2cGGqTHn3ZQwLMAfc3fAb/ABw4QT25WTiflDW08QXLI27/uOAVxp+rfJso6E+VYX9T385ZGdrCQ/wduDJCb7J9wMfJ54NpM79WAN8i+KDC9sZIyTAkcQ1Ypv+CLR2rQhwXaos4Y7mJm5SfYm4+dGGV4HvA2cTHzIdZR8WAecm6xn2W/0JoGjwZd62LgSerf9lGMnLQNkIh0YAN6bKcXEbZWgUEAGXM7gZ0pYXgZ8S1ywDDxETd4yPBi4ArgduY2E/o4q9wM2UBIX5AN7OfId/mvwW2NrMJyX3Nbkptf1PN7mtiXVaJYn4iMPlkq7R8BMHtGWnpO2KD4WvUnxSar2auXnoPyVtk/SEpFcl7U22daLiC8K6MIPkvZJ+KOm2KIpeb3JDwNck3ZA8vSGKoq83ta3Gb6VMfORoq6TLJH1K+bcDmzbrk3+TsFHSRye0raacm/x7A7hH0v2S7pO0LYoiat7W7tTPjU6R2khAiE+KnS3pfZIuked5nSXLFc+71Zt76wngx5J+EkXRzpq2sSf1c6NXk44dEOKz3lsUX1hziqRzkudTeZbeJu44Sd+UdCPwa0m/kHRHFEWvjbHOdCuk0S/fgX0Q4lP5qxWfyk8/rlOc2CMVD+fYLE9ybNW9LulXku6SdHcURf8a9g+BJYr7hr1ZNXdFUVR0I6CxRMCDiidgm1Nco6yW7yBrk4OkP0i6W9KDkh6V9FQURfv6FoRNkr6n/qlTV0VRtKuJwkVA3R0os3G9JmmHpOckvam4X7NR0ts0uNVzchRF25soSONHscxGcICKZ7HJOkFxs6t27khbCE5pasUOiIWgsYC4D2IheEnSoVEU7SldsiLXIBaCdYrP4tfOAbFQfJ4G5u9yE8tCskvx+ZTfS/qdpO3jjgNzQCxkb0p6UtJDig8D75D0YBRFzw+7AgfEZtELkh5L/j2u+Oz9jiiKdmcXdEDMYnsVX4/zaPLvYUkPOCBmBXwUy6yAA2JWwAExK+CAmBVwQMwKOCBmBRwQswIOiFkBB8SsgANiVsABMSvggJgVcEDMCixWPG+qmZmZmZmZmZmZmZmZmZmZSdL/ADJDLz25M4vMAAAAAElFTkSuQmCC</icon>
+  <description>
+            Display the frequency spectrum of an audio signal.
+
+            This experiment records audio from the microphone and calculates its frequency spectrum through a Fourier transformation (FFT). If you only have a single tone with a single frequency, you might get more precise results from the "autocorrelation" audio experiment.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Spectrum</link>
+  <translations>
+    <translation locale="de">
+      <title>Audio Spektrum</title>
+      <category>Akustik</category>
+      <description>
+            Zeigt das Frequenz-Spektrum von Audiosignalen.
+
+                Dieses Experiment nimmt Audiodaten über das Mikrofon auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Wenn du nur eine einzige Frequenz analysieren möchtest, erhältst du möglicherweise präzisere Resultate mit dem Experiment "Autokorrelation".
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Fourier Transform">Fourier-Transformierte</string>
+      <string original="Settings">Einstellungen</string>
+      <string original="Raw data">Rohdaten</string>
+      <string original="Recording">Aufnahme</string>
+      <string original="Musical note">Note (Musik)</string>
+      <string original="Cents from note">Cent über Note</string>
+      <string original="Samples used">Genutzte Werte</string>
+      <string original="Period used">Genutzte Periode</string>
+      <string original="Samples">Messwerte</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
+      <string original="Low">Niedrig</string>
+      <string original="High">Hoch</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="History">Verlauf</string>
+      <string original="Time">Zeit</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Weißes Rauschen erzeugen. (Kann laut sein. Bitte zuerst die Wiedergabelautstärke reduzieren.)</string>
+      <string original="Off">Aus</string>
+      <string original="On">An</string>
+      <string original="Resolution">Auflösung</string>
+      <string original="White noise">Weißes Rauschen</string>
+    </translation>
+    <translation locale="cs">
+      <title>Zvukové spektrum</title>
+      <category>Akustika</category>
+      <description>
+            Zobrazuje spektrum frekvencí zvukového signálu.
+
+Tento experiment zaznamenává zvuk pomocí mikrofonu a provádí jeho spektrální analýzu pomocí Fourierovi transformace (FFT). Pokud chcete analyzovat zvuk tvořený jedním tónem, pak můžete docílit lepších výsledků použitím experimentu "autokorelace".
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Musical note">Tón</string>
+      <string original="Low">Nízká</string>
+      <string original="High">Vysoká</string>
+      <string original="Cents from note">Rozdíl od čistého tónu v centech</string>
+      <string original="Fourier Transform">Fourierova transformace</string>
+      <string original="Samples used">Počet vzorků</string>
+      <string original="Period used">Použitá perioda</string>
+      <string original="Settings">Nastavení</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
+      <string original="Samples">Vzorků</string>
+      <string original="Raw data">Neupravená data</string>
+      <string original="Recording">Záznam</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="History">Historie</string>
+      <string original="Time">čas</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="FFT Mag">Magnituda rychlé Fourierovy transformace</string>
+      <string original="Resolution">Rozlišení</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Generátor bílého šumu. (Může být hlasitý. Nejprve prosím snižte hlasitost přehrávání.)</string>
+      <string original="Off">Vypnuto</string>
+      <string original="On">Zapnuto</string>
+    </translation>
+    <translation locale="pl">
+      <title>Widmo audio</title>
+      <category>Akustyka</category>
+      <description>
+            Prezentuj widmo częstotliwościowe rejestrowanego sygnału dźwiękowego.
+
+            Podczas eksperymentu, za pomocą mikrofonu urządzenia, rejestrowany jest dźwięk, a uzyskane widmo częstotliwościowe jest rezultatem poddania danych analizie Fourier'a (FFT). W przypadku analizy dźwięku o pojedynczej częstotliwości bardziej precyzyjne wyniki otrzymuje się w eksperymencie "Autokorelacja".
+    </description>
+      <string original="Spectrum">Widmo</string>
+      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Musical note">Nuta</string>
+      <string original="Low">Niska</string>
+      <string original="High">Wysoka</string>
+      <string original="Cents from note">Odstępstwo od tonu</string>
+      <string original="Fourier Transform">Transformata Fourier'a</string>
+      <string original="Samples used">Rejestrowana próba</string>
+      <string original="Period used">Rejestrowany czas</string>
+      <string original="Settings">Ustawienia</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string>
+      <string original="Samples">Liczba próbek</string>
+      <string original="Raw data">Surowe dane</string>
+      <string original="Recording">Nagranie</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="History">Historia</string>
+      <string original="Time">Czas</string>
+      <string original="Amplitude">Amplituda</string>
+    </translation>
+    <translation locale="nl">
+      <title>Audio spectrum</title>
+      <category>Geluid</category>
+      <description>
+            Geef het frequentiespectrum van een audiosignaal weer.
+
+             Dit experiment neemt audio op via de microfoon en berekent het frequentiespectrum via een Fourier-transformatie (FFT). Als u slechts één toon hebt met een enkele frequentie, krijgt u mogelijk nauwkeuriger resultaten van het audio-experiment "autocorrelatie".
+    </description>
+      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Musical note">Muzieknoot</string>
+      <string original="Low">Laag</string>
+      <string original="High">Hoog</string>
+      <string original="Cents from note">Centen (van noot)</string>
+      <string original="Fourier Transform">Fourier Transformatie</string>
+      <string original="Samples used">Gebruikte monsters</string>
+      <string original="Period used">Tijdsduur</string>
+      <string original="Settings">Instellingen</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hieronder kunt u het aantal monsternames instellen dat voor de Fourier-transformatie wordt gebruikt. Meer monsternames betekenen langzamere updates, maar een hogere spectrale resolutie.</string>
+      <string original="Samples">Monsters</string>
+      <string original="Raw data">Onbewerkte data</string>
+      <string original="Recording">Opname</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="History">Geschiedenis</string>
+      <string original="Time">Tijd</string>
+      <string original="Status">Stand van zaken</string>
+    </translation>
+    <translation locale="ru">
+      <title>Звуковой спектр</title>
+      <category>Акустика</category>
+      <description>
+            Отображение частотного спектра аудиосигнала.
+
+            Этот эксперимент записывает звук с микрофона и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Если у вас есть только один тон с одной частотой, вы можете получить более точные результаты из акустического эксперимента «автокорреляция».
+    </description>
+      <string original="Spectrum">Спектр</string>
+      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Musical note">Музыкальная нота</string>
+      <string original="Low">Низкая</string>
+      <string original="High">Низкая</string>
+      <string original="Cents from note">Сотые части ноты</string>
+      <string original="Fourier Transform">Преобразование Фурье</string>
+      <string original="Samples used">Используемые образцы</string>
+      <string original="Period used">Используемый период</string>
+      <string original="Settings">Настройки</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
+      <string original="Samples">Дискретизация</string>
+      <string original="Raw data">Исходные данные</string>
+      <string original="Recording">Запись</string>
+      <string original="Frequency">Частота</string>
+      <string original="FFT Mag">Величина FFT</string>
+      <string original="History">История</string>
+      <string original="Time">Время</string>
+      <string original="Amplitude">Амплитуда</string>
+      <string original="Status">Статус</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Генератор белого шума. (Может быть громким. Пожалуйста, сначала убавьте громкость воспроизведения.)</string>
+      <string original="Off">Выкл.</string>
+      <string original="On">Вкл.</string>
+      <string original="Resolution">Разрешение</string>
+    </translation>
+    <translation locale="it">
+      <title>Spettro Audio</title>
+      <category>Acustica</category>
+      <description>
+            Mostra lo spettro in frequenza di un segnale audio.
+
+            Questo esperimento registra audio dal microfono e calcola il suo spettro in frequenza attraverso una trasformata di Fourier (FFT). Risultati più precisi si possono ottenere con l'esperimento "autocorrelazione" dell'audio per suoni semplici, composti di un'unica frequenza.
+    </description>
+      <string original="Spectrum">Spettro</string>
+      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Musical note">Nota musicale</string>
+      <string original="Low">Bassa</string>
+      <string original="High">Alta</string>
+      <string original="Cents from note">Centesimi di nota</string>
+      <string original="Fourier Transform">Trasformata di Fourier</string>
+      <string original="Samples used">Campioni usati</string>
+      <string original="Period used">Periodo usato</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di campionamenti per la trasformata di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, la risoluzione dello spettrometro sarà migliore.</string>
+      <string original="Samples">Campioni di dati</string>
+      <string original="Raw data">Dati grezzi</string>
+      <string original="Recording">Registrazione</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="History">Andamento</string>
+      <string original="Time">Tempo</string>
+      <string original="Amplitude">Ampiezza</string>
+      <string original="Status">Stato</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Generatore di rumore bianco (può essere forte: riduci il volume del tuo dispositivo)</string>
+    </translation>
+    <translation locale="el">
+      <title>Ηχητικό Φάσμα</title>
+      <category>Ακουστική</category>
+      <description>
+            Παρουσίαση του ηχητικού φάσματος ενός ηχητικού σήματος.
+
+            Σ' αυτό το πείραμα καταγράφεται ήχος από το μικρόφωνο και υπολογίζεται η συχνότητά του με χρήση μετασχηματισμού Fourier (FFT). Αν πρόκειται για ένα απλό τόνο με μια συχνότητα, είναι πιθανό να πάρετε ακριβέστερα αποτελέσματα με το πείραμα της συχνότητας ήχου που χρησιμοποιεί αυτοσυσχέτιση.
+    </description>
+      <string original="Spectrum">Φάσμα</string>
+      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Musical note">Μουσική νότα</string>
+      <string original="Low">Χαμηλά</string>
+      <string original="High">Υψηλή</string>
+      <string original="Cents from note">Εκατοστά από τη νότα</string>
+      <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
+      <string original="Samples used">Πλήθος δειγμάτων</string>
+      <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Παρακάτω μπορείτε να ορίσετε τον αριθμό των δειγμάτων που χρησιμοποιούνται στο μετασχηματισμό Fourier. Μεγάλος αριθμός σημαίνει αργότερες ενημερώσεις αλλά υψηλότερη φασματική ανάλυση.</string>
+      <string original="Samples">Δείγματα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+      <string original="Recording">Εγγραφή</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="History">Ιστορικό</string>
+      <string original="Time">χρόνος</string>
+      <string original="Amplitude">Πλάτος</string>
+      <string original="Status">Κατάσταση</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Δημιουργία λευκού θορύβου. (Μπορεί να είναι δυνατά. Παρακαλώ μειώστε την ένταση πρώτα.)</string>
+      <string original="Resolution">Διακριτικότητα</string>
+      <string original="White noise">Λευκός θόρυβος</string>
+    </translation>
+    <translation locale="ja">
+      <title>オーディオスペクトル</title>
+      <category>音響</category>
+      <description>
+            音響信号の周波数スペクトル表示．
+
+本実験は，マイクから音声を録音し，フーリエ変換により周波数スペクトルの計算を行います．単一周波数を有する単一音源を利用する場合は，"音響の自己相関"実験の方がより正確な測定結果が得られるかもしれません．
+    </description>
+      <string original="Spectrum">スペクトル</string>
+      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Musical note">音名</string>
+      <string original="Low">低い</string>
+      <string original="Cents from note">音名に対するセント値</string>
+      <string original="Fourier Transform">フーリエ変換スペクトル</string>
+      <string original="Frequency">周波数</string>
+      <string original="FFT Mag">FFTピーク強度</string>
+      <string original="Samples used">使用サンプル数</string>
+      <string original="Period used">動作時間</string>
+      <string original="History">履歴</string>
+      <string original="Time">時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下記より，フーリエ変換に使用するデータのサンプル数の変更が可能です．サンプル数を大きくすることで周波数分解能を改善できますが，データの取得と更新に時間を要します．</string>
+      <string original="Samples">サンプル数</string>
+      <string original="Raw data">時系列データ</string>
+      <string original="Recording">記録</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Status">ステータス</string>
+    </translation>
+    <translation locale="pt">
+      <title>Espectro do áudio</title>
+      <category>Acústica</category>
+      <description>
+            Mostra o espectro de frequência do sinal de áudio.
+
+            Este experimento grava o áudio do microfone e calcula o espectro de frequência através de uma transformada de Fourier (FFT). Caso você tenha um tom com apenas uma frequência, você pode ter resultados mais precisos através do experimento de "autocorrelação" do áudio .
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Musical note">Nota musical</string>
+      <string original="Low">Baixa</string>
+      <string original="High">Alta</string>
+      <string original="Cents from note">Cents da nota</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frequência</string>
+      <string original="FFT Mag">TFR Mag</string>
+      <string original="Samples used">Amostragem</string>
+      <string original="Period used">Tempo utilizado</string>
+      <string original="History">História</string>
+      <string original="Time">Tempo</string>
+      <string original="Settings">Configurações</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Abaixo você pode escolher o número de medidas usado para a transformada de Fourier. Com uma amostragem maior você terá uma melhor definição do espectro, porém com menos atualizações.</string>
+      <string original="Samples">Amostragem</string>
+      <string original="Raw data">Sensores</string>
+      <string original="Recording">Gravando</string>
+      <string original="Status">Estado</string>
+    </translation>
+    <translation locale="tr">
+      <title>Ses Spektrumu</title>
+      <category>Akustik</category>
+      <description>
+            Bir ses sinyalinin frekans spektrumunu görüntüler.
+
+Bu deney mikrofondan ses kaydeder ve frekans spektrumunu Fourier dönüşümü (FFT) ile hesaplar. Tek frekanslı tek bir tonunuz varsa, "otokorelasyon" ses denemesinden daha kesin sonuçlar alabilirsiniz.
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="Musical note">Müzik notası</string>
+      <string original="Low">Düşük</string>
+      <string original="High">Yüksek</string>
+      <string original="Cents from note">Notadan sent</string>
+      <string original="Fourier Transform">Fourier dönüşümü</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Samples used">Kullanılan örnekler</string>
+      <string original="Period used">Kullanılan periyot</string>
+      <string original="History">Geçmiş</string>
+      <string original="Time">Zaman</string>
+      <string original="Settings">Ayarlar</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier dönüşümü için kullanılan örnek sayısını aşağıdan ayarlayabilirsiniz.  Daha fazla örnek, yavaş güncellemeler fakat daha yüksek spektral çözünürlük anlamına gelir.</string>
+      <string original="Samples">Örnekler</string>
+      <string original="Raw data">Ham veri</string>
+      <string original="Recording">Kayıt</string>
+      <string original="Amplitude">Genlik</string>
+      <string original="Status">Durum</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>聲譜</title>
+      <category>聲學</category>
+      <description>
+            顯示聲音訊號的頻譜。
+
+	此實驗由麥克風錄製聲音，並利用快速傅立葉轉換 (FFT)計算得頻譜。如果你只有單頻的音調，你可能可以在「自相關」聲學實驗中得到更精確的結果。
+    </description>
+      <string original="Spectrum">加速頻譜</string>
+      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Musical note">音符</string>
+      <string original="Low">低</string>
+      <string original="High">高</string>
+      <string original="Cents from note">音符百分偏差</string>
+      <string original="Fourier Transform">傅立葉轉換</string>
+      <string original="Frequency">頻率</string>
+      <string original="Samples used">使用樣本數</string>
+      <string original="Period used">使用週期數</string>
+      <string original="History">歷史紀錄</string>
+      <string original="Time">時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">你可以在底下設定傅立葉轉換所需的樣本數。越多的樣本，相對應的代表更新速度會越慢，但會得到更高的頻譜解析度。</string>
+      <string original="Samples">樣本數</string>
+      <string original="Raw data">原始數據</string>
+      <string original="Recording">錄製</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Status">狀態</string>
+    </translation>
+    <translation locale="fr">
+      <title>Spectre Audio</title>
+      <category>Acoustique</category>
+      <description>
+            Affiche le spectre fréquentiel d'un signal audio.
+
+            Cette expérience enregistre le signal audio du micro et calcule son spectre fréquentiel par une transformée de Fourier (FFT). Si le signal ne comporte qu'une seule tonalité avec une seule fréquence, vous pouvez obtenir des résultats plus précis avec l'expérience « Autocorrélation Audio ».
+    </description>
+      <string original="Spectrum">Spectre</string>
+      <string original="Peak-Frequency">Fréquence du pic</string>
+      <string original="Musical note">Note Musicale</string>
+      <string original="Low">Basse</string>
+      <string original="High">Haute</string>
+      <string original="Cents from note">différence avec la note idéale (en cents)</string>
+      <string original="Fourier Transform">Transformée de Fourier</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="FFT Mag">FFT Amplitude</string>
+      <string original="Samples used">Nombre d'échantillons</string>
+      <string original="Period used">Durée de l’échantillonnage</string>
+      <string original="History">Historique</string>
+      <string original="Time">Durée</string>
+      <string original="Settings">Paramètres</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Choisissez le nombre d'échantillons utilisés pour calculer la transformée de Fourier. Plus ce nombre est grand, plus la résolution en fréquence sera bonne, mais cela prendra plus de temps.</string>
+      <string original="Samples">Nombre d'échantillons</string>
+      <string original="Raw data">Données brutes</string>
+      <string original="Recording">Enregistrement</string>
+      <string original="Amplitude">Intensité</string>
+      <string original="Status">État</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Générateur de bruit blanc. (Il est préférable de baisser le volume d'abord : le son peut être désagréable.)</string>
+    </translation>
+    <translation locale="vi">
+      <title>Phổ âm thanh</title>
+      <category>Âm học</category>
+      <description>
+            Hiển thị phổ tần số của tín hiệu âm thanh.
+
+            Thí nghiệm này ghi lại âm thanh từ micrô và tính toán phổ tần số của nó thông qua phép biến đổi Fourier (FFT). Nếu bạn chỉ có một đơn âm với một tần số duy nhất, bạn có thể nhận được kết quả chính xác hơn từ thí nghiệm âm thanh "tự tương quan".
+    </description>
+      <string original="Spectrum">Phổ</string>
+      <string original="Peak-Frequency">Tần số đỉnh</string>
+      <string original="Musical note">Nốt nhạc</string>
+      <string original="Low">Thấp</string>
+      <string original="High">Cao</string>
+      <string original="Cents from note">Phầm trăm lệch nốt</string>
+      <string original="Fourier Transform">Biến đổi Fourier</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Samples used">Mẫu được dùng</string>
+      <string original="Period used">Khoảng được dùng</string>
+      <string original="History">Lịch sử</string>
+      <string original="Time">Thời gian</string>
+      <string original="Settings">Cài đặt</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Bạn có thể đặt số lượng mẫu được sử dụng cho biến đổi Fourier bên dưới. Nhiều mẫu hơn có nghĩa là cập nhật chậm hơn, nhưng độ phân giải phổ cao hơn.</string>
+      <string original="Samples">Mẫu</string>
+      <string original="Raw data">Dữ liệu thô</string>
+      <string original="Recording">Đang ghi âm</string>
+      <string original="Amplitude">Biên độ</string>
+      <string original="Status">Trạng thái</string>
+      <string original="Resolution">Độ phân giải</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Máy tạo tiếng ồn trắng. (Có thể to. Vui lòng giảm âm lượng phát trước.)</string>
+      <string original="Off">Tắt</string>
+      <string original="On">Mở</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>声音频谱</title>
+      <category>声学</category>
+      <description>
+            显示一个声音信号的频谱。
+
+            本实验记录来自麦克风的声音并通过快速傅里叶变换（FFT）来计算它的频谱。如果你只有一个单一频率的音调，你可以在“自相关”声学实验中得到更精确的结果。
+    </description>
+      <string original="Spectrum">加速度频谱</string>
+      <string original="Peak-Frequency">峰值频率</string>
+      <string original="Musical note">音符</string>
+      <string original="Low">低</string>
+      <string original="High">高</string>
+      <string original="Cents from note">音符百分偏差</string>
+      <string original="Fourier Transform">傅里叶变换</string>
+      <string original="Frequency">频率</string>
+      <string original="FFT Mag">FFT幅值</string>
+      <string original="Samples used">使用的采样数</string>
+      <string original="Period used">使用的周期</string>
+      <string original="History">历史记录</string>
+      <string original="Time">时间</string>
+      <string original="Settings">设置</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">白噪音生成器（声音可能较大。请先调低播放音量。）</string>
+      <string original="White noise">白噪音</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下方可以设置傅里叶变换采样数。更多样本意味更新更慢，但会得到更高的频谱分辨率。</string>
+      <string original="Resolution">分辨率</string>
+      <string original="Samples">样本数</string>
+      <string original="Raw data">原始数据</string>
+      <string original="Recording">录制</string>
+      <string original="Amplitude">振幅</string>
+      <string original="Status">状态</string>
+    </translation>
+    <translation locale="sr">
+      <title>Spektar zvuka</title>
+      <category>Akustika</category>
+      <description>
+            Prikaži spektar frekvencija zvučnog signala.
+
+            Ovaj eksepriment snima zvuk iz mikrofona i računa njegov spektar frekvencija po sistemu Fourierove transformacije (FFT). Ako imate samo jedan ton sa jednom frekvencijom, možete dobiti preciznije rezultate iz "autokorelacija" zvučnog eksperimenta.
+    </description>
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Musical note">Muzička nota</string>
+      <string original="Low">Niska</string>
+      <string original="High">Visoka</string>
+      <string original="Cents from note">Centi (od note)</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Recording">Snimanje</string>
+      <string original="Amplitude">Amplituda</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Spektar zvuka</title>
+      <category>Akustika</category>
+      <description>
+            Prikaži spektar frekvencija zvučnog signala.
+
+            Ovaj eksepriment snima zvuk iz mikrofona i računa njegov spektar frekvencija po sistemu Fourierove transformacije (FFT). Ako imate samo jedan ton sa jednom frekvencijom, možete dobiti preciznije rezultate iz "autokorelacija" zvučnog eksperimenta.
+    </description>
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Musical note">Muzička nota</string>
+      <string original="Low">Niska</string>
+      <string original="High">Visoka</string>
+      <string original="Cents from note">Centi (od note)</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Recording">Snimanje</string>
+      <string original="Amplitude">Amplituda</string>
+    </translation>
+    <translation locale="es">
+      <title>Espectro de audio</title>
+      <category>Acústica</category>
+      <description>
+            Muestra el espectro de frecuencia de una señal de audio.
+
+             Este experimento graba audio del micrófono y calcula su espectro de frecuencia a través de una transformada de Fourier (FFT). Si sólo se tiene un único tono con una sola frecuencia, puede obtener resultados más precisos con el experimento de audio de "autocorrelación".
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Musical note">Nota musical</string>
+      <string original="Low">Bajo</string>
+      <string original="High">Alto</string>
+      <string original="Cents from note">Cents de nota</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Samples used">Muestras usadas</string>
+      <string original="Period used">Período usado</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Debajo puedes establecer el número de muestras usadas en la transformación de Fourier. Más muestras significa actualizaciones más lentas, pero una resolución espectral más alta.</string>
+      <string original="Samples">Muestras</string>
+      <string original="Raw data">Datos sin procesar</string>
+      <string original="Recording">Grabación</string>
+      <string original="Amplitude">Amplitud</string>
+      <string original="Status">Estado</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">Generador de ruido blanco. (Puede sonar fuerte. Por favor, reducir el volumen de reproducción primero.)</string>
+      <string original="Off">Apagado</string>
+      <string original="On">Encendido</string>
+    </translation>
+    <translation locale="ka">
+      <title>აუდიო სპექტრი</title>
+      <category>აკუსტიკა</category>
+      <description>
+            მანახე აუდიო სიგნალის სიხშირის სპექტრი.
+
+            ეს ექსპერიმენტი იწერს ხმას მიკროფონის საშუალებით და ითვლის მის სიხშირის სპექტრს ფურიეს გარდაქმნებით. თუ თქვენ გაქვთ მონო სიგნალი ერთი სიხშირით, ალბათ უკეთეს შედეგს მიიღებთ "აუტოკორელაციის" აუდიო ექსპერიმენტით.
+    </description>
+      <string original="Spectrum">სპექტრი</string>
+      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="Musical note">მუსიკალური ნოტი</string>
+      <string original="Low">დაბალი</string>
+      <string original="High">მაღალი</string>
+      <string original="Cents from note">ნოტის ცენტები</string>
+      <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Samples used">გამოყენებული ნიმუშები</string>
+      <string original="Period used">გამოყენებული პერიოდი</string>
+      <string original="Resolution">რეზოლუცია</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">ქვემოთ შეგიძლია ჩაწეროთ ნიმუშების რაოდენობა ფურიეს გარდაქმნებისთვის. მეტი ნიმუში ნიშნავს ნელ განახლებას, თუმცა მაღალ სპექტრულ გარჩევადობას.</string>
+      <string original="Samples">ნიმუშები</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">თერთი ხმაურის გენერატორი. (შეიძლება იყოს ხმამაღალი. გთხოვთ დაუწიოთ დინამიკის სიმძლავრეს)</string>
+      <string original="Off">გამორთვა</string>
+      <string original="On">ჩართვა</string>
+      <string original="Status">სტატუსი</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Recording">ჩაწერა</string>
+      <string original="Amplitude">ამპლიტუდა</string>
+    </translation>
+    <translation locale="hi">
+      <title>श्रव्य वर्णक्रम</title>
+      <category>ध्वनि विज्ञान</category>
+      <description>
+            एक ऑडियो सिग्नल का आवृत्ति  वर्णक्रम (स्पेक्ट्रम) प्रदर्शित करें।
+
+यह प्रयोग माइक्रोफ़ोन से ऑडियो रिकॉर्ड (श्रव्य दर्ज़) करता है, और फूरियर रूपांतरण (FFT) के माध्यम से इसके आवृत्ति वर्णक्रम (स्पेक्ट्रम) की गणना करता है। यदि आपके पास एकल आवृत्ति वाला केवल एक स्वर है, तो आपको "स्वतःसहसंबंध" श्रव्य प्रयोग से अधिक सटीक परिणाम मिल सकते हैं।
+    </description>
+      <string original="Spectrum">वर्णक्रम</string>
+      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="Musical note">संगीत नोट</string>
+      <string original="Low">निम्न</string>
+      <string original="High">उच्च</string>
+      <string original="Cents from note">नोट से सेंट में</string>
+      <string original="Fourier Transform">फूरियर रूपांतरण</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="FFT Mag">FFT परिमाण</string>
+      <string original="Samples used">प्रयुक्त सेंपल</string>
+      <string original="Period used">प्रयुक्त अवधि</string>
+      <string original="Resolution">विभेदन</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">नीचे आप फूरियर रूपांतरण के लिए उपयोग किए गए नमूनों (सैंपल) की संख्या निर्धारित कर सकते हैं। अधिक नमूने लेने पर अपडेट धीमे होगा परन्तु वर्णक्रमीय रिज़ॉल्यूशन (स्पेक्ट्रल रिज़ॉल्यूशन) अच्छा होगा।</string>
+      <string original="Samples">सैंपल्स</string>
+      <string original="White noise generator. (Can be loud. Please reduce your playback volume first.)">श्वेत शोर जनरेटर। (तीव्र हो सकता है। कृपया पहले अपना प्लेबैक वॉल्यूम कम करें।)</string>
+      <string original="Off">बंद</string>
+      <string original="On">चालू</string>
+      <string original="Status">अवस्था</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Recording">रिकॉर्डिंग</string>
+      <string original="Amplitude">आयाम</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="32768">recording</container>
+    <container>rate</container>
+    <container>rate/2</container>
+    <container size="32768">recording_remainder</container>
+    <container size="32768">recording_subrange</container>
+    <container init="2048">samples</container>
+    <container>actual_samples/2</container>
+    <container>actual_samples/2+1</container>
+    <container>actual_samples+1</container>
+    <container>actual_samples</container>
+    <container>period</container>
+    <container size="1">df</container>
+    <container size="32768">time</container>
+    <container size="32769">frequency</container>
+    <container size="32768">fftX</container>
+    <container size="32768">fftY</container>
+    <container size="16384">halfFrequency</container>
+    <container size="16384">halfFFTtempX</container>
+    <container size="16384">halfFFTtempY</container>
+    <container size="16384">fft</container>
+    <container size="0">f0</container>
+    <container size="0">t</container>
+    <container size="2">tnext</container>
+    <container>ratio</container>
+    <container static="true">log2</container>
+    <container>logRatio</container>
+    <container>log2Ratio</container>
+    <container>cents</container>
+    <container>semitones</container>
+    <container>semitonesRound</container>
+    <container>semitonesDiff</container>
+    <container>centsDiff</container>
+    <container size="1">resolutionRatio</container>
+    <container size="256">timeline</container>
+    <container size="4096">reducedf</container>
+    <container size="4096">reducedfft</container>
+    <container size="256">subf</container>
+    <container size="256">subfft</container>
+    <container size="32768">tmap</container>
+    <container size="32768">fmap</container>
+    <container size="32768">fftmap</container>
+    <container init="0">wnamplitude</container>
+  </data-containers>
+  <input>
+    <audio append="true">
+      <output>recording</output>
+      <output component="rate">rate</output>
+    </audio>
+  </input>
+  <output>
+    <audio loop="true">
+      <noise>
+        <input parameter="amplitude">wnamplitude</input>
+      </noise>
+    </audio>
+  </output>
+  <views>
+    <view label="Spectrum">
+      <value label="Peak-Frequency" unit="[[unit_short_hertz]]">
+        <input>f0</input>
+      </value>
+      <separator height="1"/>
+      <value label="Musical note">
+        <input>semitonesRound</input>
+        <map max="-25">Low</map>
+        <map max="-24">[[musical_note_a2]]</map>
+        <map max="-23">[[musical_note_bb2]]</map>
+        <map max="-22">[[musical_note_b2]]</map>
+        <map max="-21">[[musical_note_c3]]</map>
+        <map max="-20">[[musical_note_db3]]</map>
+        <map max="-19">[[musical_note_d3]]</map>
+        <map max="-18">[[musical_note_eb3]]</map>
+        <map max="-17">[[musical_note_e3]]</map>
+        <map max="-16">[[musical_note_f3]]</map>
+        <map max="-15">[[musical_note_gb3]]</map>
+        <map max="-14">[[musical_note_g3]]</map>
+        <map max="-13">[[musical_note_ab3]]</map>
+        <map max="-12">[[musical_note_a3]]</map>
+        <map max="-11">[[musical_note_bb3]]</map>
+        <map max="-10">[[musical_note_b3]]</map>
+        <map max="-9">[[musical_note_c4]]</map>
+        <map max="-8">[[musical_note_db4]]</map>
+        <map max="-7">[[musical_note_d4]]</map>
+        <map max="-6">[[musical_note_eb4]]</map>
+        <map max="-5">[[musical_note_e4]]</map>
+        <map max="-4">[[musical_note_f4]]</map>
+        <map max="-3">[[musical_note_gb4]]</map>
+        <map max="-2">[[musical_note_g4]]</map>
+        <map max="-1">[[musical_note_ab4]]</map>
+        <map max="0">[[musical_note_a4]]</map>
+        <map max="1">[[musical_note_bb4]]</map>
+        <map max="2">[[musical_note_b4]]</map>
+        <map max="3">[[musical_note_c5]]</map>
+        <map max="4">[[musical_note_db5]]</map>
+        <map max="5">[[musical_note_d5]]</map>
+        <map max="6">[[musical_note_eb5]]</map>
+        <map max="7">[[musical_note_e5]]</map>
+        <map max="8">[[musical_note_f5]]</map>
+        <map max="9">[[musical_note_gb5]]</map>
+        <map max="10">[[musical_note_g5]]</map>
+        <map max="11">[[musical_note_ab5]]</map>
+        <map max="12">[[musical_note_a5]]</map>
+        <map max="13">[[musical_note_bb5]]</map>
+        <map max="14">[[musical_note_b5]]</map>
+        <map max="15">[[musical_note_c6]]</map>
+        <map max="16">[[musical_note_db6]]</map>
+        <map max="17">[[musical_note_d6]]</map>
+        <map max="18">[[musical_note_eb6]]</map>
+        <map max="19">[[musical_note_e6]]</map>
+        <map max="20">[[musical_note_f6]]</map>
+        <map max="21">[[musical_note_gb6]]</map>
+        <map max="22">[[musical_note_g6]]</map>
+        <map max="23">[[musical_note_ab6]]</map>
+        <map max="24">[[musical_note_a6]]</map>
+        <map max="25">[[musical_note_bb6]]</map>
+        <map max="26">[[musical_note_b6]]</map>
+        <map max="27">[[musical_note_c7]]</map>
+        <map max="28">[[musical_note_db7]]</map>
+        <map max="29">[[musical_note_d7]]</map>
+        <map max="30">[[musical_note_eb7]]</map>
+        <map max="31">[[musical_note_e7]]</map>
+        <map max="32">[[musical_note_f7]]</map>
+        <map max="33">[[musical_note_gb7]]</map>
+        <map max="34">[[musical_note_g7]]</map>
+        <map max="35">[[musical_note_ab7]]</map>
+        <map min="35">High</map>
+      </value>
+      <value label="Cents from note">
+        <input>centsDiff</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Fourier Transform" logX="true" logY="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="FFT Mag" unitY="[[unit_short_arbitrary_unit]]">
+        <input axis="x">halfFrequency</input>
+        <input axis="y">fft</input>
+      </graph>
+      <separator height="1" precision="0"/>
+      <value label="Samples used" precision="0">
+        <input>actual_samples</input>
+      </value>
+      <value label="Period used" unit="[[unit_short_milli_second]]" precision="2" factor="1000">
+        <input>period</input>
+      </value>
+      <value label="Resolution" unit="[[unit_short_hertz]]" precision="2">
+        <input>df</input>
+      </value>
+    </view>
+    <view label="History">
+      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="FFT Mag" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
+        <input axis="x">fmap</input>
+        <input axis="y">tmap</input>
+        <input axis="z">fftmap</input>
+      </graph>
+      <graph label="History" timeOnX="true" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak-Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
+        <input axis="x">t</input>
+        <input axis="y">f0</input>
+      </graph>
+    </view>
+    <view label="Settings">
+      <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
+      <dropdown label="Samples">
+        <output>samples</output>
+        <map value="2048">2048</map>
+        <map value="4096">4096</map>
+        <map value="8192">8192</map>
+        <map value="16384">16384</map>
+        <map value="32768">32768</map>
+      </dropdown>
+      <separator height="0.5"/>
+      <separator color="white"/>
+      <separator height="0.5"/>
+      <info label="White noise generator. (Can be loud. Please reduce your playback volume first.)"/>
+      <toggle label="White noise">
+        <output>wnamplitude</output>
+      </toggle>
+    </view>
+    <view label="Raw data">
+      <graph label="Recording" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Amplitude" unitY="[[unit_short_arbitrary_unit]]">
+        <input axis="x">time</input>
+        <input axis="y">recording_subrange</input>
+      </graph>
+    </view>
+  </views>
+  <analysis requireFill="recording" requireFillDynamic="samples">
+    <formula formula="[1]+[2]/[3]">
+      <input clear="false">t</input>
+      <input clear="false">samples</input>
+      <input clear="false">rate</input>
+      <output clear="true">tnext</output>
+    </formula>
+    <timer>
+      <output clear="false">tnext</output>
+    </timer>
+    <max>
+      <input as="y">tnext</input>
+      <output as="max" clear="false">t</output>
+    </max>
+    <const>
+      <input as="value" clear="false">t</input>
+      <input as="length" type="value">256</input>
+      <output>timeline</output>
+    </const>
+    <subrange>
+      <input clear="false" as="to">samples</input>
+      <input as="in" clear="false">recording</input>
+      <output>recording_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">samples</input>
+      <input as="in" clear="true">recording</input>
+      <output>recording_remainder</output>
+    </subrange>
+    <subrange>
+      <input>recording_remainder</input>
+      <output>recording</output>
+    </subrange>
+    <count>
+      <input clear="false">recording_subrange</input>
+      <output>actual_samples</output>
+    </count>
+    <add>
+      <input clear="false">actual_samples</input>
+      <input type="value">1</input>
+      <output>actual_samples+1</output>
+    </add>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input type="value">2</input>
+      <output>actual_samples/2</output>
+    </divide>
+    <add>
+      <input clear="false">actual_samples/2</input>
+      <input type="value">1</input>
+      <output>actual_samples/2+1</output>
+    </add>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input clear="false">rate</input>
+      <output>period</output>
+    </divide>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>df</output>
+    </divide>
+    <divide>
+      <input clear="false">rate</input>
+      <input type="value">2</input>
+      <output>rate/2</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">period</input>
+      <input as="length" clear="false">actual_samples+1</input>
+      <output>time</output>
+    </ramp>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">rate/2</input>
+      <input as="length" clear="false">actual_samples/2+1</input>
+      <output>frequency</output>
+    </ramp>
+    <fft>
+      <input clear="false">recording_subrange</input>
+      <output as="re">fftX</output>
+      <output as="im">fftY</output>
+    </fft>
+    <subrange>
+      <input type="value" as="from">1</input>
+      <input clear="false" as="to">actual_samples/2</input>
+      <input as="in">frequency</input>
+      <input as="in">fftX</input>
+      <input as="in">fftY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <formula formula="sqrt([1_]*[1_]+[2_]*[2_])">
+      <input>halfFFTtempX</input>
+      <input>halfFFTtempY</input>
+      <output>fft</output>
+    </formula>
+    <max>
+      <input as="y" clear="false">fft</input>
+      <input as="x" clear="false">halfFrequency</input>
+      <output as="position" clear="false">f0</output>
+    </max>
+    <divide>
+      <input clear="false">f0</input>
+      <input type="value">440</input>
+      <output>ratio</output>
+    </divide>
+    <log>
+      <input type="value">2</input>
+      <output>log2</output>
+    </log>
+    <log>
+      <input>ratio</input>
+      <output>logRatio</output>
+    </log>
+    <divide>
+      <input>logRatio</input>
+      <input clear="false">log2</input>
+      <output>log2Ratio</output>
+    </divide>
+    <multiply>
+      <input>log2Ratio</input>
+      <input type="value">1200</input>
+      <output>cents</output>
+    </multiply>
+    <divide>
+      <input clear="false">cents</input>
+      <input type="value">100</input>
+      <output>semitones</output>
+    </divide>
+    <round>
+      <input clear="false">semitones</input>
+      <output>semitonesRound</output>
+    </round>
+    <subtract>
+      <input clear="false">semitones</input>
+      <input clear="false">semitonesRound</input>
+      <output>semitonesDiff</output>
+    </subtract>
+    <multiply>
+      <input clear="false">semitonesDiff</input>
+      <input type="value">100</input>
+      <output>centsDiff</output>
+    </multiply>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input type="value">2048</input>
+      <output>resolutionRatio</output>
+    </divide>
+    <reduce averageY="true" averageX="true">
+      <input clear="false" as="factor">resolutionRatio</input>
+      <input clear="false" as="x">halfFrequency</input>
+      <input clear="false" as="y">fft</input>
+      <output as="x" clear="true">reducedf</output>
+      <output as="y" clear="true">reducedfft</output>
+    </reduce>
+    <subrange>
+      <input as="from" type="value">0</input>
+      <input as="to" type="value">256</input>
+      <input as="in">reducedf</input>
+      <input as="in">reducedfft</input>
+      <output>subf</output>
+      <output>subfft</output>
+    </subrange>
+    <append>
+      <input clear="false">timeline</input>
+      <output clear="false">tmap</output>
+    </append>
+    <append>
+      <input clear="false">subf</input>
+      <output clear="false">fmap</output>
+    </append>
+    <append>
+      <input clear="false">subfft</input>
+      <output clear="false">fftmap</output>
+    </append>
+  </analysis>
+  <export>
+    <set name="FFT Spectrum">
+      <data name="Frequency (Hz)">halfFrequency</data>
+      <data name="Absolute Amplitude (a.u.)">fft</data>
+    </set>
+    <set name="Peak History">
+      <data name="Time (s)">t</data>
+      <data name="Peak-Frequency">f0</data>
+    </set>
+    <set name="Raw data">
+      <data name="Time (s)">time</data>
+      <data name="Recording (a.u.)">recording_subrange</data>
+    </set>
+  </export>
+</phyphox>

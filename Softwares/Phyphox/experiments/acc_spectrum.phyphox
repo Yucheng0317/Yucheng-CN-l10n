@@ -1,0 +1,955 @@
+<phyphox version="1.14" locale="en">
+  <title>Acceleration Spectrum</title>
+  <category>Tools</category>
+  <icon format="base64">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
+    </icon>
+  <description>
+            Display the frequency spectrum of data from the accelerometer.
+
+            This experiment records data from the accelerometer and calculates its frequency spectrum through a Fourier transformation (FFT). The maximum detectable frequency depends on the maximum acquisition rate of your sensor.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Acceleration_Spectrum</link>
+  <translations>
+    <translation locale="de">
+      <title>Beschleunigungs-Spektrum</title>
+      <category>Werkzeuge</category>
+      <description>
+            Zeigt das Frequenz-Spektrum des Beschleunigungssensors.
+
+                Dieses Experiment nimmt Daten über den Beschleunigungssensor auf und berechnet das Frequenzspektrum mittels einer Fourier-Transformation (FFT). Die maximale Frequenz im Spektrum hängt von der maximalen Aufnahmerate des Sensors ab.
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Frequenzspitze</string>
+      <string original="Fourier Transform">Fourier-Transformierte</string>
+      <string original="Settings">Einstellungen</string>
+      <string original="Raw data">Rohdaten</string>
+      <string original="Samples used">Genutzte Werte</string>
+      <string original="Period used">Genutzte Periode</string>
+      <string original="Acquisition rate">Aufnahmerate</string>
+      <string original="Nyquist frequency">Nyquist-Frequenz</string>
+      <string original="Acceleration x">Beschleunigung x</string>
+      <string original="Acceleration y">Beschleunigung y</string>
+      <string original="Acceleration z">Beschleunigung z</string>
+      <string original="Samples">Messwerte</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hier kannst du die Anzahl der Messwerte einstellen, die für die Fourier-Transformation genutzt werden. Mehr Messwerte bedeuten langsamere Aktualisierung, aber auch ein Spektrum mit höherer Auflösung.</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="History">Verlauf</string>
+      <string original="Time">Zeit</string>
+      <string original="Resolution">Auflösung</string>
+    </translation>
+    <translation locale="cs">
+      <title>Spektrum zrychlení</title>
+      <category>Nástroje</category>
+      <description>
+            Zobrazí spektrum frekvence hodnot z akcelerometru.
+
+Tento experiment zaznamenává hodnoty naměřené akcelerometrem a vypočítává spektrum jejich frekvencí pomocí Fourierovy transformace(FFT). Maximální detekovatelná frekvence záleží na maximální vzorkovací frekvenci vašeho senzoru.
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Maximální frekvence</string>
+      <string original="Fourier Transform">Fourierova transformace</string>
+      <string original="Samples used">Počet vzorků</string>
+      <string original="Period used">Použitá perioda</string>
+      <string original="Acquisition rate">Vzorkovací frekvence</string>
+      <string original="Nyquist frequency">Nyquistova frekvence</string>
+      <string original="Settings">Nastavení</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Zde můžete nastavit množství vzorků použitých pro Fourierovu transformaci. Více vzorků znamená pomalejší obnovování dat, ale vyšší rozlišení spektra.</string>
+      <string original="Samples">Vzorků</string>
+      <string original="Raw data">Neupravená data</string>
+      <string original="Acceleration x">Zrychlení x</string>
+      <string original="Acceleration y">Zrychlení y</string>
+      <string original="Acceleration z">Zrychlení z</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="History">Historie</string>
+      <string original="Time">čas</string>
+      <string original="FFT Mag">Magnituda rychlé Fourierovy transformace</string>
+      <string original="Resolution">Rozlišení</string>
+    </translation>
+    <translation locale="pl">
+      <title>Widmo przyspieszenia</title>
+      <category>Narzędzia</category>
+      <description>
+            Wyświetl widmo częstotliwościowe danych z akcelerometru.
+
+            W tym eksperymencie rejestrowane są dane pochodzące z czujnika przyspieszenia urządzenia (akcelerometru) i poddawane są one szybkiej transformacie Fourier (FFT). Maksymalna częstotliwość w widmie zdeterminowana jest szybkością pracy czujnika rejestrującego dane.
+    </description>
+      <string original="Spectrum">Widmo</string>
+      <string original="Peak-Frequency">Częstotliwość dominująca</string>
+      <string original="Fourier Transform">Transformata Fourier'a</string>
+      <string original="Samples used">Rejestrowana próba</string>
+      <string original="Period used">Rejestrowany czas</string>
+      <string original="Acquisition rate">Częstotliwość próbkowania</string>
+      <string original="Nyquist frequency">Częstotliwość skł. widmowych</string>
+      <string original="Settings">Ustawienia</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Poniżej można wybrać liczbę punktów wykorzystywanych w transformacie Fourier'a. Więcej punktów oznacza rzadsze odświeżanie, ale gwarantuje wyższą rozdzielczość spektralną.</string>
+      <string original="Samples">Liczba próbek</string>
+      <string original="Raw data">Surowe dane</string>
+      <string original="Acceleration x">Przyspieszenie - składowa x</string>
+      <string original="Acceleration y">Przyspieszenie - składowa y</string>
+      <string original="Acceleration z">Przyspieszenie - składowa z</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="History">Historia</string>
+      <string original="Time">Czas</string>
+    </translation>
+    <translation locale="nl">
+      <title>Spectrum Versnelling</title>
+      <category>Gereedschap</category>
+      <description>
+            Geef het frequentiespectrum weer van data van de accelerometer (versnellingsmeter).
+
+            Dit experiment registreert gegevens van de accelerometer en berekent het frequentiespectrum via een Fourier-transformatie (FFT). De maximaal waarneembare frequentie hangt af van de maximale snelheid van dataverwerving van uw sensor.
+    </description>
+      <string original="Peak-Frequency">Piekfrequentie</string>
+      <string original="Fourier Transform">Fourier Transformatie</string>
+      <string original="Samples used">Gebruikte monsters</string>
+      <string original="Period used">Tijdsduur</string>
+      <string original="Acquisition rate">Acquisitiesnelheid</string>
+      <string original="Nyquist frequency">Nyquist frequentie</string>
+      <string original="Settings">Instellingen</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Hieronder kunt u het aantal monsternames instellen dat voor de Fourier-transformatie wordt gebruikt. Meer monsternames betekenen langzamere updates, maar een hogere spectrale resolutie.</string>
+      <string original="Samples">Monsters</string>
+      <string original="Raw data">Onbewerkte data</string>
+      <string original="Acceleration x">Versnelling x</string>
+      <string original="Acceleration y">Versnelling y</string>
+      <string original="Acceleration z">Versnelling z</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="History">Geschiedenis</string>
+      <string original="Time">Tijd</string>
+    </translation>
+    <translation locale="ru">
+      <title>Спектр ускорения</title>
+      <category>Измерительные инструменты</category>
+      <description>
+            Отобразить частотный спектр данных с акселерометра.
+
+            Этот эксперимент записывает данные с акселерометра и вычисляет его частотный спектр посредством преобразования Фурье (БПФ). Максимальная определяемая частота зависит от максимальной скорости приема вашего датчика.
+    </description>
+      <string original="Spectrum">Спектр</string>
+      <string original="Peak-Frequency">Частота пиков</string>
+      <string original="Fourier Transform">Преобразование Фурье</string>
+      <string original="Samples used">Используемые образцы</string>
+      <string original="Period used">Используемый период</string>
+      <string original="Acquisition rate">Cкорость сбора данных</string>
+      <string original="Nyquist frequency">Частота Найквиста</string>
+      <string original="Settings">Настройки</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ниже вы можете установить дискретизацию, используемую для преобразования Фурье. Высокая дискретизация означает более медленное обновление, но более высокое спектральное разрешение.</string>
+      <string original="Samples">Дискретизация</string>
+      <string original="Raw data">Исходные данные</string>
+      <string original="Acceleration x">Ускорение x</string>
+      <string original="Acceleration y">Ускорение y</string>
+      <string original="Acceleration z">Ускорение z</string>
+      <string original="Frequency">Частота</string>
+      <string original="FFT Mag">Величина FFT</string>
+      <string original="History">История</string>
+      <string original="Time">Время</string>
+      <string original="1/min">1/мин</string>
+      <string original="Resolution">Разрешение</string>
+    </translation>
+    <translation locale="it">
+      <title>Spettro di accelerazione</title>
+      <category>Strumenti</category>
+      <description>
+            Grafico dello spettro in funzione dei dati dell'accelerometro.
+
+            Questo esperimento riceve i dati dall'accelerometro e ricava lo spettro di frequenza attraverso la trasformata di Fourier (FFT). La massima frequenza rilevabile dipende dalla massima acquisizione di frequenza del tuo sensore.
+    </description>
+      <string original="Spectrum">Spettro</string>
+      <string original="Peak-Frequency">Frequenza di picco</string>
+      <string original="Fourier Transform">Trasformata di Fourier</string>
+      <string original="Samples used">Campioni usati</string>
+      <string original="Period used">Periodo usato</string>
+      <string original="Acquisition rate">Frequenza di acquisizione</string>
+      <string original="Nyquist frequency">Frequenza di Nyquist</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Puoi scegliere tra i seguenti il numero di campionamenti per la trasformata di Fourier. Più è alto il numero e più l'elaborazione sarà lenta, la risoluzione dello spettrometro sarà migliore.</string>
+      <string original="Samples">Campioni di dati</string>
+      <string original="Raw data">Dati grezzi</string>
+      <string original="Acceleration x">Accelerazione x</string>
+      <string original="Acceleration y">Accelerazione y</string>
+      <string original="Acceleration z">Accelerazione z</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="History">Andamento</string>
+      <string original="Time">Tempo</string>
+    </translation>
+    <translation locale="el">
+      <title>Φάσμα επιτάχυνσης</title>
+      <category>Εργαλεία</category>
+      <description>
+            Παρουσίαση του φάσματος συχνότητας δεδομένων από το επιταχυνσιόμετρο.
+
+            Αυτό το πείραμα καταγράφει δεδομένα από το επιταχυνσιόμετρο και υπολογίζει το φάσμα της συχνότητάς του με μετασχηματισμός Fourier (FFT). Η μέγιστη αντιληπτή συχνότητα εξαρτάται από τον μέγιστο ρυθμό καταγραφής του αισθητήρα σας.
+    </description>
+      <string original="Spectrum">Φάσμα</string>
+      <string original="Peak-Frequency">Συχνότητα μεγίστου</string>
+      <string original="Fourier Transform">Μετασχηματισμός Fourier</string>
+      <string original="Samples used">Πλήθος δειγμάτων</string>
+      <string original="Period used">Χρησιμοποιούμενη Περίοδος</string>
+      <string original="Acquisition rate">Ρυθμός καταγραφής</string>
+      <string original="Nyquist frequency">Συχνότητα Nyquist</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Παρακάτω μπορείτε να ορίσετε τον αριθμό των δειγμάτων που χρησιμοποιούνται στο μετασχηματισμό Fourier. Μεγάλος αριθμός σημαίνει αργότερες ενημερώσεις αλλά υψηλότερη φασματική ανάλυση.</string>
+      <string original="Samples">Δείγματα</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+      <string original="Acceleration x">Επιτάχυνση x</string>
+      <string original="Acceleration y">Επιτάχυνση y</string>
+      <string original="Acceleration z">Επιτάχυνση z</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="History">Ιστορικό</string>
+      <string original="Time">χρόνος</string>
+      <string original="Resolution">Διακριτικότητα</string>
+    </translation>
+    <translation locale="ja">
+      <title>加速度スペクトル</title>
+      <category>ツール</category>
+      <description>
+            加速度スペクトルの表示．
+
+本実験では，加速度計により測定された加速度の時系列データを記録し，フーリエ変換 (FFT) を用いて加速度スペクトルの計算を行います．測定可能な最大（ナイキスト周波数）周波数は所有するセンサーの最大サンプリングレートによります．
+    </description>
+      <string original="Spectrum">スペクトル</string>
+      <string original="Peak-Frequency">ピーク周波数</string>
+      <string original="Fourier Transform">フーリエ変換スペクトル</string>
+      <string original="Frequency">周波数</string>
+      <string original="FFT Mag">FFTピーク強度</string>
+      <string original="Samples used">使用サンプル数</string>
+      <string original="Period used">動作時間</string>
+      <string original="Acquisition rate">サンプリングレート</string>
+      <string original="Nyquist frequency">ナイキスト周波数</string>
+      <string original="History">履歴</string>
+      <string original="Time">時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下記より，フーリエ変換に使用するデータのサンプル数の変更が可能です．サンプル数を大きくすることで周波数分解能を改善できますが，データの取得と更新に時間を要します．</string>
+      <string original="Samples">サンプル数</string>
+      <string original="Raw data">時系列データ</string>
+      <string original="Acceleration x">加速度 x</string>
+      <string original="Acceleration y">加速度 y</string>
+      <string original="Acceleration z">加速度 z</string>
+    </translation>
+    <translation locale="pt">
+      <title>Espectro da Aceleração</title>
+      <category>Ferramentas</category>
+      <description>
+            Mostra o espectro de frequências dos dados do acelerômetro.
+
+            Este experimento grava dados do acelerômetro e calcula seu espectro de frequências através da transformada de Fourier (FFT). A máxima frequência detectável depende da taxa máxima de aquisição do seu sensor.
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Frequência do pico</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frequência</string>
+      <string original="FFT Mag">TFR Mag</string>
+      <string original="Samples used">Amostragem</string>
+      <string original="Period used">Tempo utilizado</string>
+      <string original="Acquisition rate">Taxa de aquisição</string>
+      <string original="Nyquist frequency">Frequência de Nyquist</string>
+      <string original="History">História</string>
+      <string original="Time">Tempo</string>
+      <string original="Settings">Configurações</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Abaixo você pode escolher o número de medidas usado para a transformada de Fourier. Com uma amostragem maior você terá uma melhor definição do espectro, porém com menos atualizações.</string>
+      <string original="Samples">Amostragem</string>
+      <string original="Raw data">Sensores</string>
+      <string original="Acceleration x">Aceleração X</string>
+      <string original="Acceleration y">Aceleração Y</string>
+      <string original="Acceleration z">Aceleração Z</string>
+    </translation>
+    <translation locale="tr">
+      <title>İvme Spektrumu</title>
+      <category>Araçlar</category>
+      <description>
+            İvme ölçerdeki verim frekans spektrumunu göster.
+
+            Bu deney, verileri ivme ölçerden kaydeder ve frekans spektrumunu Fourier dönüşümü (FFT) ile hesaplar. Algılanabilir maksimum frekans, sensörünüzün maksimum alım oranına bağlıdır.
+    </description>
+      <string original="Spectrum">Spektrum</string>
+      <string original="Peak-Frequency">Zirve frekansı</string>
+      <string original="Fourier Transform">Fourier dönüşümü</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Samples used">Kullanılan örnekler</string>
+      <string original="Period used">Kullanılan periyot</string>
+      <string original="Acquisition rate">Edinme oranı</string>
+      <string original="Nyquist frequency">Nist frekansı</string>
+      <string original="History">Geçmiş</string>
+      <string original="Time">Zaman</string>
+      <string original="Settings">Ayarlar</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Fourier dönüşümü için kullanılan örnek sayısını aşağıdan ayarlayabilirsiniz.  Daha fazla örnek, yavaş güncellemeler fakat daha yüksek spektral çözünürlük anlamına gelir.</string>
+      <string original="Samples">Örnekler</string>
+      <string original="Raw data">Ham veri</string>
+      <string original="Acceleration x">İvme x</string>
+      <string original="Acceleration y">İvme y</string>
+      <string original="Acceleration z">İvme z</string>
+      <string original="1/min">1/dakika</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>加速譜</title>
+      <category>工具</category>
+      <description>
+            自加速儀獲取資料以顯示頻譜。
+
+	此實驗自加速儀取得資料並利用快速傅力葉轉換(FFT)計算其頻譜。最大可偵測頻率與你手機感測器的最大資料獲取速度有關。
+    </description>
+      <string original="Spectrum">加速頻譜</string>
+      <string original="Peak-Frequency">峰值頻率</string>
+      <string original="Fourier Transform">傅立葉轉換</string>
+      <string original="Frequency">頻率</string>
+      <string original="Samples used">使用樣本數</string>
+      <string original="Period used">使用週期數</string>
+      <string original="Acquisition rate">資料獲取速率</string>
+      <string original="Nyquist frequency">奈奎斯頻率</string>
+      <string original="History">歷史紀錄</string>
+      <string original="Time">時間</string>
+      <string original="Settings">設定</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">你可以在底下設定傅立葉轉換所需的樣本數。越多的樣本，相對應的代表更新速度會越慢，但會得到更高的頻譜解析度。</string>
+      <string original="Samples">樣本數</string>
+      <string original="Raw data">原始數據</string>
+      <string original="Acceleration x">x方向加速度</string>
+      <string original="Acceleration y">y方向加速度</string>
+      <string original="Acceleration z">z方向加速度</string>
+    </translation>
+    <translation locale="fr">
+      <title>Spectre d'accélération</title>
+      <category>Outils</category>
+      <description>
+            Affiche le spectre en fréquences de l'accélération mesurée.
+
+             Cette expérience enregistre les données de l'accéléromètre et calcule son spectre en fréquences par transformation de Fourier (FFT). La fréquence maximale que l'on peut détecter dépend du taux d'acquisition du capteur.
+    </description>
+      <string original="Spectrum">Spectre</string>
+      <string original="Peak-Frequency">Fréquence du pic</string>
+      <string original="Fourier Transform">Transformée de Fourier</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="FFT Mag">FFT Amplitude</string>
+      <string original="Samples used">Nombre d'échantillons</string>
+      <string original="Period used">Durée de l’échantillonnage</string>
+      <string original="Acquisition rate">Fréquence d'acquisition</string>
+      <string original="Nyquist frequency">Fréquence de Nyquist</string>
+      <string original="History">Historique</string>
+      <string original="Time">Durée</string>
+      <string original="Settings">Paramètres</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Choisissez le nombre d'échantillons utilisés pour calculer la transformée de Fourier. Plus ce nombre est grand, plus la résolution en fréquence sera bonne, mais cela prendra plus de temps.</string>
+      <string original="Samples">Nombre d'échantillons</string>
+      <string original="Raw data">Données brutes</string>
+      <string original="Acceleration x">Accélération selon x</string>
+      <string original="Acceleration y">Accélération selon y</string>
+      <string original="Acceleration z">Accélération selon z</string>
+    </translation>
+    <translation locale="vi">
+      <title>Phổ gia tốc</title>
+      <category>Công cụ</category>
+      <description>
+            Hiển thị phổ tần số của dữ liệu từ gia tốc kế.
+
+            Thí nghiệm này ghi lại dữ liệu từ gia tốc kế và tính toán phổ tần số của nó thông qua phép biến đổi Fourier (FFT). Tần số phát hiện tối đa phụ thuộc vào tốc độ thu nhận tối đa của cảm biến của bạn.
+    </description>
+      <string original="Spectrum">Phổ</string>
+      <string original="Peak-Frequency">Tần số đỉnh</string>
+      <string original="Fourier Transform">Biến đổi Fourier</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Samples used">Mẫu được dùng</string>
+      <string original="Period used">Khoảng được dùng</string>
+      <string original="Acquisition rate">Tốc độ thu được</string>
+      <string original="Nyquist frequency">Tần số Nyquist</string>
+      <string original="History">Lịch sử</string>
+      <string original="Time">Thời gian</string>
+      <string original="Settings">Cài đặt</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Bạn có thể đặt số lượng mẫu được sử dụng cho biến đổi Fourier bên dưới. Nhiều mẫu hơn có nghĩa là cập nhật chậm hơn, nhưng độ phân giải phổ cao hơn.</string>
+      <string original="Samples">Mẫu</string>
+      <string original="Raw data">Dữ liệu thô</string>
+      <string original="Acceleration x">Gia tốc x</string>
+      <string original="Acceleration y">Gia tốc y</string>
+      <string original="Acceleration z">Gia tốc z</string>
+      <string original="1/min">1/phút</string>
+      <string original="Resolution">Độ phân giải</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>加速度频谱</title>
+      <category>工具</category>
+      <description>
+           显示来自加速度计数据的频谱。
+
+           本实验记录加速度计的数据并通过傅里叶变换（FFT）计算其频谱。最大可测频率与你的传感器的最大采样率有关。
+    </description>
+      <string original="Spectrum">加速度频谱</string>
+      <string original="Peak-Frequency">峰值频率</string>
+      <string original="Fourier Transform">傅里叶变换</string>
+      <string original="Frequency">频率</string>
+      <string original="FFT Mag">FFT幅值</string>
+      <string original="Samples used">使用的采样数</string>
+      <string original="Period used">使用的周期</string>
+      <string original="Acquisition rate">采样率</string>
+      <string original="Nyquist frequency">奈奎斯特频率</string>
+      <string original="History">历史记录</string>
+      <string original="Time">时间</string>
+      <string original="Settings">设置</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">下方可以设置傅里叶变换采用的样本数。更多样本意味更新更慢，但会得到更高的频谱分辨率。</string>
+      <string original="Samples">样本数</string>
+      <string original="Raw data">原始数据</string>
+      <string original="Acceleration x">x轴加速度</string>
+      <string original="Acceleration y">y轴加速度</string>
+      <string original="Acceleration z">z轴加速度</string>
+      <string original="Frequency 1">Frequenz 1</string>
+      <string original="Frequency 2">Frequenz 2</string>
+      <string original="Note that the total maximum amplitude is 1. If the sum of both amplitudes exceeds 1, you will experience distortion.">Beachte, dass die maximale Gesamtamplitude 1 ist. Wenn die Summe beider Amplituden 1 übersteigt, kommt es zu Verzerrungen.</string>
+      <string original="Use multi tone generator">Mehrfach-Tongenerator nutzen</string>
+      <string original="Resolution">分辨率</string>
+    </translation>
+    <translation locale="sr">
+      <title>Spektar ubrzanja</title>
+      <category>Alati</category>
+      <description>
+            Prikaz frekvencijskog spektra podataka sa brzinometra.
+
+            Ovaj eksperiment snima podatke iz brzinometra i izračunava njegov frekvencijski spektar kroz Furijeovu transformaciju (FFT). Maksimalna frekvencija koja se može detektovati zavisi od maksimalne brzine moći prikupljanja Vašeg senzora.
+    </description>
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="Acquisition rate">Stopa prikupljanja podataka</string>
+      <string original="Nyquist frequency">Nikvistova frekvencija</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Acceleration x">Ubrzanje x</string>
+      <string original="Acceleration y">Ubrzanje y</string>
+      <string original="Acceleration z">Ubrzanje z</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Spektar ubrzanja</title>
+      <category>Alati</category>
+      <description>
+            Prikaz frekvencijskog spektra podataka sa brzinometra.
+
+            Ovaj eksperiment snima podatke iz brzinometra i izračunava njegov frekvencijski spektar kroz Furijeovu transformaciju (FFT). Maksimalna frekvencija koja se može detektovati zavisi od maksimalne brzine moći prikupljanja Vašeg senzora.
+    </description>
+      <string original="Spectrum">Spektar</string>
+      <string original="Peak-Frequency">Maskimalna frekvencija</string>
+      <string original="Fourier Transform">Furijeove transformacije</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Samples used">Korišćeni primeri</string>
+      <string original="Period used">Korišćeni period</string>
+      <string original="Acquisition rate">Stopa prikupljanja podataka</string>
+      <string original="Nyquist frequency">Nikvistova frekvencija</string>
+      <string original="History">Istorija</string>
+      <string original="Time">Vreme</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Ispod možete podesiti broj uzoraka koji se koriste za Fourieovu transformaciju. Više uzoraka znači sporije ažuriranje, ali veća spektralna rezolucija.</string>
+      <string original="Samples">Primeri</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Acceleration x">Ubrzanje x</string>
+      <string original="Acceleration y">Ubrzanje y</string>
+      <string original="Acceleration z">Ubrzanje z</string>
+    </translation>
+    <translation locale="es">
+      <title>Espectro de aceleración</title>
+      <category>Herramientas</category>
+      <description>
+            Muestra el espectro de frecuencia de los datos del acelerómetro.
+
+             Este experimento registra datos del acelerómetro y calcula su espectro de frecuencia a través de una transformación de Fourier (FFT). La frecuencia máxima detectable depende de la velocidad máxima de adquisición de su sensor.
+    </description>
+      <string original="Spectrum">Espectro</string>
+      <string original="Peak-Frequency">Pico de frecuencia</string>
+      <string original="Fourier Transform">Transformada de Fourier</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Samples used">Muestras usadas</string>
+      <string original="Period used">Período usado</string>
+      <string original="Acquisition rate">Tasa de adquisición</string>
+      <string original="Nyquist frequency">Frecuencia de Nyquist</string>
+      <string original="History">Historia</string>
+      <string original="Time">tiempo</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">Debajo puedes establecer el número de muestras usadas en la transformación de Fourier. Más muestras significa actualizaciones más lentas, pero una resolución espectral más alta.</string>
+      <string original="Samples">Muestras</string>
+      <string original="Raw data">Datos sin procesar</string>
+      <string original="Acceleration x">Aceleración x</string>
+      <string original="Acceleration y">Aceleración y</string>
+      <string original="Acceleration z">Aceleración z</string>
+    </translation>
+    <translation locale="ka">
+      <title>აჩქარების სპექტრი</title>
+      <category>ხელსაწყოები</category>
+      <description>
+            გაჩვენებს სიხშირეების სპექტრს აქსელომეტრის მონაცემებიდან.
+
+            ეს ექსპერიმენტი იღებს მონაცემებს აქსელომეტრიდან და ითვლის სიხშირეების სპექტრს ფურიეს გარდაქმნებით (FFT). მაქსიმალური სიხშირე რისი აღმოჩენაც შესაძლებელია დამოკიდებულია თქვენს ტელეფონზე.
+    </description>
+      <string original="Spectrum">სპექტრი</string>
+      <string original="Peak-Frequency">პიკი-სიხშირე</string>
+      <string original="1/min">1/წთ</string>
+      <string original="Fourier Transform">ფურიეს გარდაქმნები</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Samples used">გამოყენებული ნიმუშები</string>
+      <string original="Period used">გამოყენებული პერიოდი</string>
+      <string original="Resolution">რეზოლუცია</string>
+      <string original="Acquisition rate">მიღების სიხშირე</string>
+      <string original="Nyquist frequency">ჩამკეტი სიხშირე</string>
+      <string original="History">ისტორია</string>
+      <string original="Time">დრო</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">ქვემოთ შეგიძლია ჩაწეროთ ნიმუშების რაოდენობა ფურიეს გარდაქმნებისთვის. მეტი ნიმუში ნიშნავს ნელ განახლებას, თუმცა მაღალ სპექტრულ გარჩევადობას.</string>
+      <string original="Samples">ნიმუშები</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Acceleration x">აჩქარება x</string>
+      <string original="Acceleration y">აჩქარება y</string>
+      <string original="Acceleration z">აჩქარება z</string>
+    </translation>
+    <translation locale="hi">
+      <title>त्वरण स्पेक्ट्रम</title>
+      <category>टूल्स</category>
+      <description>
+            त्वरणमापी (एक्सेलेरोमीटर) के डेटा का आवृत्ति स्पेक्ट्रम प्रदर्शित करता है।
+
+            यह प्रयोग त्वरणमापी से डेटा रिकॉर्ड करता है और फूरियर रूपांतरण (FFT) के माध्यम से इसकी आवृत्ति स्पेक्ट्रम की गणना करता है। अधिकतम पता लगाने योग्य आवृत्ति आपके फ़ोन के सेंसर की अधिकतम अर्जन दर पर निर्भर करती है।
+    </description>
+      <string original="Spectrum">वर्णक्रम</string>
+      <string original="Peak-Frequency">शिखर (Peak) आवृत्ति</string>
+      <string original="1/min">1/मिनट</string>
+      <string original="Fourier Transform">फूरियर रूपांतरण</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="FFT Mag">FFT परिमाण</string>
+      <string original="Samples used">प्रयुक्त सेंपल</string>
+      <string original="Period used">प्रयुक्त अवधि</string>
+      <string original="Resolution">विभेदन</string>
+      <string original="Acquisition rate">अर्जन दर</string>
+      <string original="Nyquist frequency">नाइक्विस्ट आवृत्ति</string>
+      <string original="History">हिस्ट्री</string>
+      <string original="Time">समय</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution.">नीचे आप फूरियर रूपांतरण के लिए उपयोग किए गए नमूनों (सैंपल) की संख्या निर्धारित कर सकते हैं। अधिक नमूने लेने पर अपडेट धीमे होगा परन्तु वर्णक्रमीय रिज़ॉल्यूशन (स्पेक्ट्रल रिज़ॉल्यूशन) अच्छा होगा।</string>
+      <string original="Samples">सैंपल्स</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Acceleration x">त्वरण x</string>
+      <string original="Acceleration y">त्वरण y</string>
+      <string original="Acceleration z">त्वरण z</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="4096">accInX</container>
+    <container size="4096">accInY</container>
+    <container size="4096">accInZ</container>
+    <container size="4096">accX</container>
+    <container size="4096">accY</container>
+    <container size="4096">accZ</container>
+    <container size="4096">time</container>
+    <container size="4096">accX_subrange</container>
+    <container size="4096">accY_subrange</container>
+    <container size="4096">accZ_subrange</container>
+    <container size="4096">time_subrange</container>
+    <container size="1">recording_length</container>
+    <container size="1">subrange_start</container>
+    <container init="256">samples</container>
+    <container size="1">actual_samples</container>
+    <container size="1">actual_samples+1</container>
+    <container size="1">period</container>
+    <container size="1">count-1</container>
+    <container size="1">count+1</container>
+    <container size="1">count/2</container>
+    <container size="1">count</container>
+    <container size="1">t0</container>
+    <container size="1">t1</container>
+    <container size="1">Dt</container>
+    <container size="1">dt</container>
+    <container size="1">maxf</container>
+    <container size="1">df</container>
+    <container size="1">arate</container>
+    <container size="4096">frequency</container>
+    <container size="4096">fftXX</container>
+    <container size="4096">fftYX</container>
+    <container size="4096">fftZX</container>
+    <container size="4096">fftXY</container>
+    <container size="4096">fftYY</container>
+    <container size="4096">fftZY</container>
+    <container size="2048">halfFrequency</container>
+    <container size="2048">halfFFTtempX</container>
+    <container size="2048">halfFFTtempY</container>
+    <container size="2048">halfFFTtempX2</container>
+    <container size="2048">halfFFTtempY2</container>
+    <container size="2048">fftX</container>
+    <container size="2048">fftY</container>
+    <container size="2048">fftZ</container>
+    <container size="2048">fft2</container>
+    <container size="2048">fft</container>
+    <container size="0">f0</container>
+    <container size="0">t</container>
+    <container size="1">resolutionRatio</container>
+    <container size="256">timeline</container>
+    <container size="256">reducedf</container>
+    <container size="256">reducedfft</container>
+    <container size="1">firstfft</container>
+    <container size="256">subf</container>
+    <container size="256">subfft</container>
+    <container size="32768">tmap</container>
+    <container size="32768">fmap</container>
+    <container size="32768">fftmap</container>
+  </data-containers>
+  <input>
+    <sensor type="accelerometer" rate="0">
+      <output component="x">accInX</output>
+      <output component="y">accInY</output>
+      <output component="z">accInZ</output>
+      <output component="t">time</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Spectrum">
+      <value label="Peak-Frequency" unit="[[unit_short_hertz]]">
+        <input>f0</input>
+      </value>
+      <value label="Peak-Frequency" factor="60" unit="1/min">
+        <input>f0</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Fourier Transform" logX="false" logY="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="FFT Mag" unitY="[[unit_short_arbitrary_unit]]">
+        <input axis="x">halfFrequency</input>
+        <input axis="y">fft</input>
+      </graph>
+      <separator height="1"/>
+      <value label="Samples used" precision="0">
+        <input>actual_samples</input>
+      </value>
+      <value label="Period used" unit="[[unit_short_second]]" precision="2">
+        <input>period</input>
+      </value>
+      <value label="Resolution" unit="[[unit_short_hertz]]" precision="2">
+        <input>df</input>
+      </value>
+      <value label="Acquisition rate" unit="[[unit_short_hertz]]" precision="0">
+        <input>arate</input>
+      </value>
+      <value label="Nyquist frequency" unit="[[unit_short_hertz]]" precision="0">
+        <input>maxf</input>
+      </value>
+    </view>
+    <view label="History">
+      <graph label="Fourier Transform" logZ="true" labelX="Frequency" unitX="[[unit_short_hertz]]" labelY="Time" unitY="[[unit_short_second]]" labelZ="FFT Mag" unitZ="[[unit_short_arbitrary_unit]]" aspectRatio="1" style="map" mapWidth="256" partialUpdate="true">
+        <input axis="x">fmap</input>
+        <input axis="y">tmap</input>
+        <input axis="z">fftmap</input>
+      </graph>
+      <graph label="History" labelX="Time" unitX="[[unit_short_second]]" labelY="Peak-Frequency" unitY="[[unit_short_hertz]]" partialUpdate="true" style="dots">
+        <input axis="x">t</input>
+        <input axis="y">f0</input>
+      </graph>
+    </view>
+    <view label="Settings">
+      <info label="Below you can set the number of samples used for the Fourier transform. More samples means slower updates, but higher spectral resolution."/>
+      <dropdown label="Samples">
+        <output>samples</output>
+        <map value="128">128</map>
+        <map value="256">256</map>
+        <map value="512">512</map>
+        <map value="1024">1024</map>
+        <map value="2048">2048</map>
+        <map value="4096">4096</map>
+      </dropdown>
+    </view>
+    <view label="Raw data">
+      <graph label="Acceleration x" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³">
+        <input axis="x">time_subrange</input>
+        <input axis="y">accX_subrange</input>
+      </graph>
+      <graph label="Acceleration y" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³">
+        <input axis="x">time_subrange</input>
+        <input axis="y">accY_subrange</input>
+      </graph>
+      <graph label="Acceleration z" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³">
+        <input axis="x">time_subrange</input>
+        <input axis="y">accZ_subrange</input>
+      </graph>
+    </view>
+  </views>
+  <analysis sleep="0.1">
+    <timer>
+      <output clear="false">t</output>
+    </timer>
+    <const>
+      <input as="value" clear="false">t</input>
+      <input as="length" type="value">256</input>
+      <output>timeline</output>
+    </const>
+    <append>
+      <input>accInX</input>
+      <output clear="false">accX</output>
+    </append>
+    <append>
+      <input>accInY</input>
+      <output clear="false">accY</output>
+    </append>
+    <append>
+      <input>accInZ</input>
+      <output clear="false">accZ</output>
+    </append>
+    <count>
+      <input clear="false">accX</input>
+      <output>count</output>
+    </count>
+    <subtract>
+      <input clear="false">count</input>
+      <input type="value">1</input>
+      <output>count-1</output>
+    </subtract>
+    <first>
+      <input clear="false">time</input>
+      <output>t0</output>
+    </first>
+    <subrange>
+      <input as="from" clear="false">count-1</input>
+      <input as="length" type="value">1</input>
+      <input as="in" clear="false">time</input>
+      <output>t1</output>
+    </subrange>
+    <subtract>
+      <input clear="false">t1</input>
+      <input clear="false">t0</input>
+      <output>Dt</output>
+    </subtract>
+    <divide>
+      <input clear="false">Dt</input>
+      <input clear="false">count-1</input>
+      <output>dt</output>
+    </divide>
+    <count>
+      <input clear="false">accX</input>
+      <output>recording_length</output>
+    </count>
+    <subtract>
+      <input>recording_length</input>
+      <input clear="false">samples</input>
+      <output>subrange_start</output>
+    </subtract>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">accX</input>
+      <output>accX_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">accY</input>
+      <output>accY_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">accZ</input>
+      <output>accZ_subrange</output>
+    </subrange>
+    <subrange>
+      <input clear="false" as="from">subrange_start</input>
+      <input as="in" clear="false">time</input>
+      <output>time_subrange</output>
+    </subrange>
+    <count>
+      <input clear="false">accX_subrange</input>
+      <output>actual_samples</output>
+    </count>
+    <add>
+      <input clear="false">actual_samples</input>
+      <input type="value">1</input>
+      <output>actual_samples+1</output>
+    </add>
+    <multiply>
+      <input clear="false">actual_samples</input>
+      <input clear="false">dt</input>
+      <output>period</output>
+    </multiply>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>df</output>
+    </divide>
+    <fft>
+      <input clear="false">accX_subrange</input>
+      <output as="re">fftXX</output>
+      <output as="im">fftXY</output>
+    </fft>
+    <fft>
+      <input clear="false">accY_subrange</input>
+      <output as="re">fftYX</output>
+      <output as="im">fftYY</output>
+    </fft>
+    <fft>
+      <input clear="false">accZ_subrange</input>
+      <output as="re">fftZX</output>
+      <output as="im">fftZY</output>
+    </fft>
+    <count>
+      <input clear="false">fftXX</input>
+      <output>count</output>
+    </count>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input type="value">2</input>
+      <output>count/2</output>
+    </divide>
+    <divide>
+      <input type="value">0.5</input>
+      <input clear="false">dt</input>
+      <output>maxf</output>
+    </divide>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">dt</input>
+      <output>arate</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">arate</input>
+      <input as="length" clear="false">actual_samples+1</input>
+      <output>frequency</output>
+    </ramp>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftXX</input>
+      <input as="in">fftXY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftX</output>
+    </add>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftYX</input>
+      <input as="in">fftYY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftY</output>
+    </add>
+    <subrange>
+      <input as="from" type="value">1</input>
+      <input as="to" clear="false">count/2</input>
+      <input as="in" clear="false">frequency</input>
+      <input as="in">fftZX</input>
+      <input as="in">fftZY</input>
+      <output>halfFrequency</output>
+      <output>halfFFTtempX</output>
+      <output>halfFFTtempY</output>
+    </subrange>
+    <multiply>
+      <input clear="false">halfFFTtempX</input>
+      <input>halfFFTtempX</input>
+      <output>halfFFTtempX2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">halfFFTtempY</input>
+      <input>halfFFTtempY</input>
+      <output>halfFFTtempY2</output>
+    </multiply>
+    <add>
+      <input>halfFFTtempX2</input>
+      <input>halfFFTtempY2</input>
+      <output>fftZ</output>
+    </add>
+    <add>
+      <input>fftX</input>
+      <input>fftY</input>
+      <input>fftZ</input>
+      <output>fft2</output>
+    </add>
+    <power>
+      <input as="base">fft2</input>
+      <input as="exponent" type="value">0.5</input>
+      <output>fft</output>
+    </power>
+    <max>
+      <input as="y" clear="false">fft</input>
+      <input as="x" clear="false">halfFrequency</input>
+      <output as="position" clear="false">f0</output>
+    </max>
+    <divide>
+      <input clear="false">actual_samples</input>
+      <input type="value">512</input>
+      <output>resolutionRatio</output>
+    </divide>
+    <reduce averageY="true" averageX="false">
+      <input clear="false" as="factor">resolutionRatio</input>
+      <input clear="false" as="x">halfFrequency</input>
+      <input clear="false" as="y">fft</input>
+      <output as="x" clear="true">reducedf</output>
+      <output as="y" clear="true">reducedfft</output>
+    </reduce>
+    <const>
+      <output>subf</output>
+    </const>
+    <first>
+      <input clear="false">reducedfft</input>
+      <output>firstfft</output>
+    </first>
+    <const>
+      <input as="value">firstfft</input>
+      <output>subfft</output>
+    </const>
+    <subrange>
+      <input as="from" type="value">0</input>
+      <input as="to" type="value">256</input>
+      <input as="in">reducedf</input>
+      <input as="in">reducedfft</input>
+      <output clear="false">subf</output>
+      <output clear="false">subfft</output>
+    </subrange>
+    <append>
+      <input clear="false">timeline</input>
+      <output clear="false">tmap</output>
+    </append>
+    <append>
+      <input clear="false">subf</input>
+      <output clear="false">fmap</output>
+    </append>
+    <append>
+      <input clear="false">subfft</input>
+      <output clear="false">fftmap</output>
+    </append>
+  </analysis>
+  <export>
+    <set name="FFT Spectrum">
+      <data name="Frequency (Hz)">halfFrequency</data>
+      <data name="Absolute Amplitude (a.u.)">fft</data>
+    </set>
+    <set name="Peak History">
+      <data name="Time (s)">t</data>
+      <data name="Peak-Frequency">f0</data>
+    </set>
+    <set name="Raw data">
+      <data name="Time (s)">time_subrange</data>
+      <data name="Acceleration x (m/s²)">accX_subrange</data>
+      <data name="Acceleration y (m/s²)">accY_subrange</data>
+      <data name="Acceleration z (m/s²)">accZ_subrange</data>
+    </set>
+  </export>
+</phyphox>

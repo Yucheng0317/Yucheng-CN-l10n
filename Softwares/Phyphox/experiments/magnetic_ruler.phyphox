@@ -1,0 +1,554 @@
+<phyphox version="1.14" locale="en">
+  <title>Magnetic ruler</title>
+  <category>Tools</category>
+  <icon format="base64">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</icon>
+  <description>
+        Use a series of magnets to measure distance, speed and acceleration of the phone.
+
+        For this experiment you should place a series of identical magnets along the track the phone will travel. The distance between the magnets has to be the same for each magnet and should be entered in the experiment. The phone will then use its magnetometer to determine when it has passed a magnet, allowing to calculate the total distance covered.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Magnetic_Ruler</link>
+  <link label="Video" highlight="true">https://youtu.be/TS0zw1ecy6A</link>
+  <link label="x / y / z">http://phyphox.org/sensors/</link>
+  <translations>
+    <translation locale="de">
+      <title>Magnet-Lineal</title>
+      <category>Werkzeuge</category>
+      <description>
+        Mit einer Reihe von Magneten die zurückgelegte Entfernung, Geschwindigkeit und Beschleunigung des Handys messen.
+
+                Für dieses Experiment muss eine Reihe identischer Magnete entlang der Strecke platziert werden, die das Smartphone zurücklegen wird. Der Abstand zwischen den Magneten muss gleich sein und sollte im Experiment eingegeben werden. Mit Hilfe des Magnetometers kann dann bestimmt werden, wann ein Magnet in der Nähe ist und so die insgesamt zurückgelegte Strecke berechnet werden.
+    </description>
+      <link label="Video" highlight="true">https://youtu.be/kyxQukhq_io</link>
+      <link label="x / y / z">http://phyphox.org/de/unterstutzte-sensoren/</link>
+      <string original="Distance">Entfernung</string>
+      <string original="Velocity">Geschwindigkeit</string>
+      <string original="Results">Ergebnisse</string>
+      <string original="Raw Data">Rohdaten</string>
+      <string original="Magnetic field x">Magnetfeld x</string>
+      <string original="Magnetic field y">Magnetfeld y</string>
+      <string original="Magnetic field z">Magnetfeld z</string>
+      <string original="Total magnetic field squared and filtered">Gesamtfeld quadriert und gefiltert</string>
+      <string original="Filtered B² (µT²)">Gefiltertes B² (µT²)</string>
+      <string original="dx is the distance between two magnets">dx ist der Abstand zwischen zwei Magneten</string>
+      <string original="Filtered B²">Gefiltertes B²</string>
+    </translation>
+    <translation locale="cs">
+      <title>Magnetické pravítko</title>
+      <category>Nástroje</category>
+      <description>
+        Měří ujetou vzdálenost, rychlost a zrychlení mobilu pomocí série magnetů.
+
+Umístěte sérii stejných magnetů podél trati, po které mobil pojede. Vzdálenost mezi magnety musí být stejná a je potřeba ji zadat do experimentu. Telefon využije svůj magnetometr k tomu, aby zjistil, kdy projel kolem magnetu a pomocí toho může určit ujetou vzdálenost.
+    </description>
+      <string original="Results">Výsledky</string>
+      <string original="dx is the distance between two magnets">dx je vzdálenost mezi dvěma magenty</string>
+      <string original="Distance">vzdálenost</string>
+      <string original="Velocity">Rychlost</string>
+      <string original="Raw Data">Neupravená data</string>
+      <string original="Magnetic field x">Magnetické pole x</string>
+      <string original="Magnetic field y">Magnetické pole y</string>
+      <string original="Magnetic field z">Magnetické pole z</string>
+      <string original="Total magnetic field squared and filtered">Filtrovaný kvadrát celkové magnetické indukce</string>
+      <string original="Filtered B² (µT²)">Filtrované B² (µT²)</string>
+      <string original="Filtered B²">Filtrované B²</string>
+    </translation>
+    <translation locale="pl">
+      <title>Linijka magnetyczna</title>
+      <category>Narzędzia</category>
+      <description>
+        Wykorzystaj kilka magnesów do określenia odległości, wartości prędkości oraz wartości przyspieszenia poruszającego się smartfonu.
+
+        W tym eksperymencie rozmieść kilka identycznych magnesów wzdłuż toru ruchu urządzenia. Odległość między poszczególnymi magnesami powinna być ściśle określona. Dzięki danym pomiarowym uzyskanym z magnetometru urządzenia określone zostaną przedziały czasu, w których mijane były magnesy i obliczone zostaną parametry ruchu.
+    </description>
+      <string original="Results">Rezultaty</string>
+      <string original="dx is the distance between two magnets">dx jest odległością pomiędzy kolejnymi magnesami</string>
+      <string original="Distance">Dystans</string>
+      <string original="Velocity">Prędkość</string>
+      <string original="Raw Data">Surowe dane</string>
+      <string original="Magnetic field x">Składowa x indukcji magnetycznej</string>
+      <string original="Magnetic field y">Składowa y indukcji magnetycznej</string>
+      <string original="Magnetic field z">Składowa z indukcji magnetycznej</string>
+      <string original="Total magnetic field squared and filtered">Kwadrat wypadkowej wartości indukcji magnetycznej</string>
+      <string original="Filtered B² (µT²)">Wygładzone B² (µT²)</string>
+      <string original="Filtered B²">Wygładzone B²</string>
+    </translation>
+    <translation locale="nl">
+      <title>Magnestische meetlat</title>
+      <category>Gereedschap</category>
+      <description>
+        Gebruik een reeks magneten om de afstand, snelheid en versnelling van een smartphone te meten.
+
+        Voor dit experiment plaatst u een reeks identieke magneten langs het traject dat de smartphone zal afleggen. De afstand tussen de magneten moet gelijk zijn en moet in het experiment worden ingegeven. De smartphone gebruikt dan zijn magnetometer om te registreren wanneer hij een magneet heeft gepasseerd, waardoor de totale afgelegde afstand kan worden berekend.
+    </description>
+      <string original="Results">Resultaten</string>
+      <string original="dx is the distance between two magnets">dx is de afstand tussen twee magneten</string>
+      <string original="Distance">Afstand</string>
+      <string original="Velocity">Snelheid</string>
+      <string original="Raw Data">Onbewerkte data</string>
+      <string original="Magnetic field x">Magnetisch veld x</string>
+      <string original="Magnetic field y">Magnetisch veld y</string>
+      <string original="Magnetic field z">Magnetisch veld z</string>
+      <string original="Total magnetic field squared and filtered">Totaal magnetisch veld (kwadratisch, na filtering)</string>
+      <string original="Filtered B² (µT²)">B² (µT²)  (gefilterd)</string>
+      <string original="Filtered B²">Gefilterde B²</string>
+    </translation>
+    <translation locale="ru">
+      <title>Магнитная линейка</title>
+      <category>Измерительные инструменты</category>
+      <description>
+        Используйте ряд магнитов для измерения расстояния, скорости и ускорения телефона.
+
+       Для этого эксперимента вы должны разместить серию одинаковых магнитов вдоль линии, по которой телефон будет перемещаться. Расстояние между магнитами должно быть одинаковым и его необходимо задать в соответствующее поле. Затем телефон будет использовать свой магнитометр, чтобы определить, когда он прошел каждый магнит, что позволяет рассчитать общее пройденное расстояние.
+    </description>
+      <string original="Results">Результаты</string>
+      <string original="dx is the distance between two magnets">dx - расстояние между двумя магнитами</string>
+      <string original="Distance">Дистанция</string>
+      <string original="t (s)">t (c)</string>
+      <string original="x (m)">x (м)</string>
+      <string original="Velocity">Скорость</string>
+      <string original="v (m/s)">v (м/с)</string>
+      <string original="Raw Data">Исходные данные</string>
+      <string original="Magnetic field x">Магнитное поле x</string>
+      <string original="Bx (µT)">Bx (мкTл)</string>
+      <string original="Magnetic field y">Магнитное поле y</string>
+      <string original="By (µT)">By (мкTл)</string>
+      <string original="Magnetic field z">Магнитное поле z</string>
+      <string original="Bz (µT)">Bz (мкTл)</string>
+      <string original="Total magnetic field squared and filtered">Квадрат общего магнитного поля после поправки</string>
+      <string original="Filtered B² (µT²)">B² (мкTл²) с поправкой</string>
+      <string original="Filtered B²">B² после поправки</string>
+    </translation>
+    <translation locale="it">
+      <title>Righello magnetico</title>
+      <category>Strumenti</category>
+      <description>
+        Utilizza una serie di magneti per misurare la distanza, la velocità e l'accelerazione del tuo telefono.
+
+        Per questo esperimento devi posizionare una serie di magneti tutti uguali lungo il tragitto del telefono. La distanza tra un magnete e l'altro deve essere la stessa per tutti e deve essere inserita prima dell'esperimento. Il telefono userà quindi il suo magnetometro per determinare il passaggio vicino ad ogni magnete, in modo da calcolare la distanza totale percorsa.
+    </description>
+      <string original="dx is the distance between two magnets">dx è la distanza fra due magneti</string>
+      <string original="Distance">Distanza</string>
+      <string original="Velocity">Velocità</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Magnetic field x">Campo magnetico x</string>
+      <string original="Magnetic field y">Campo magnetico y</string>
+      <string original="Magnetic field z">Campo magnetico z</string>
+      <string original="Total magnetic field squared and filtered">Modulo quadro del campo magnetico filtrato</string>
+      <string original="Filtered B² (µT²)">B² (µT²) filtrato</string>
+      <string original="Filtered B²">B² filtrato</string>
+    </translation>
+    <translation locale="el">
+      <title>Μαγνητικός χάρακας</title>
+      <category>Εργαλεία</category>
+      <description>
+        Χρησιμοποιείστε μια σειρά από μαγνήτες για να μετρήστε απόσταση, ταχύτητα και επιτάχυνση στο τηλέφωνο.
+
+        Για το πείραμα αυτό θα πρέπει να τοποθετήσετε μια σειρά από όμοιους μαγνήτες κατά μήκος της διαδρομής που θα ακολουθήσεις το τηλέφωνο. Η απόσταση ανάμεσα στους μαγνήτες πρέπει να είναι σταθερή και θα την εισάγετε στο πείραμα. Το τηλέφωνο θα χρησιμοποιήσει τότε το μαγνητόμετρό του για να καθορίσει πότε πέρασε από κάθε μαγνήτη επιτρέποντας έτσι να υπολογίσουμε τη συνολική διανυθείσα απόσταση.
+    </description>
+      <string original="Results">Αποτελέσματα</string>
+      <string original="dx is the distance between two magnets">dx είναι η απόσταση ανάμεσα σε δύο μαγνήτες</string>
+      <string original="Distance">Απόσταση</string>
+      <string original="Velocity">Ταχύτητα</string>
+      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Magnetic field x">Μαγνητικό πεδίο x</string>
+      <string original="Magnetic field y">Μαγνητικό πεδίο y</string>
+      <string original="Magnetic field z">Μαγνητικό πεδίο z</string>
+      <string original="Total magnetic field squared and filtered">Ολικό μαγνητικό πεδίο τετραγωνισμένο και φιλτραρισμένο</string>
+      <string original="Filtered B² (µT²)">Φιλτραρισμένο B² (µT²)</string>
+      <string original="Filtered B²">Φιλτραρισμένο B²</string>
+    </translation>
+    <translation locale="ja">
+      <title>磁力定規</title>
+      <category>ツール</category>
+      <description>
+        連続的に配置された磁石を用いて，移動距離，速度，加速度を測定
+
+本実験ではスマートフォンが動く経路に沿って磁石を置いてください．磁石間の距離は各磁石ごとに同じであるようにし，その値を入力してください．
+スマートフォンの磁力計を使用し，いつ磁石を通ったかを特定し，移動距離を計算します．
+    </description>
+      <string original="Results">結果</string>
+      <string original="dx is the distance between two magnets">dx : 磁石間の距離</string>
+      <string original="Distance">距離</string>
+      <string original="Velocity">速度</string>
+      <string original="Raw Data">センサー出力</string>
+      <string original="Magnetic field x">磁界 x</string>
+      <string original="Magnetic field y">磁界 y</string>
+      <string original="Magnetic field z">磁界 z</string>
+      <string original="Total magnetic field squared and filtered">フィルターされた磁界の二乗</string>
+      <string original="Filtered B²">フィルターされたB²</string>
+    </translation>
+    <translation locale="pt">
+      <title>Régua Magnética</title>
+      <category>Ferramentas</category>
+      <description>
+        Use uma série de imãs para medir distância, velocidade e aceleração do aparelho.
+
+        Para este experimento, você deve colocar uma série de imãs idênticos ao longo do caminho que o aparelho irá se deslocar. A distância entre os imãs tem que ser a mesma para cada imã e deve ser informada no experimento. O aparelho irá então usar o magnetômetro para determinar quando ele passou por um imão, permitindo calcular a distância total percorrida.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="dx is the distance between two magnets">dx é a distância entre dois imãs</string>
+      <string original="Distance">Distância</string>
+      <string original="x">X</string>
+      <string original="Velocity">Velocidade</string>
+      <string original="Raw Data">Sensores</string>
+      <string original="Magnetic field x">Campo magnético x</string>
+      <string original="Magnetic field y">Campo magnético Y</string>
+      <string original="Magnetic field z">Campo magnético z</string>
+      <string original="Total magnetic field squared and filtered">Campo magnético total ao quadrado e filtrado</string>
+      <string original="Filtered B²">B² Filtrado</string>
+    </translation>
+    <translation locale="tr">
+      <title>Manyetik cetvel</title>
+      <category>Araçlar</category>
+      <description>
+        Telefonun mesafesini, hızını ve ivmesini ölçmek için bir dizi mıknatıs kullanır.
+
+      Bu deney için, telefonun gideceği ray boyunca bir dizi özdeş mıknatıs yerleştirmelisiniz. Mıknatıslar arasındaki mesafe, her mıknatıs için aynı olmalı ve deney arayüzüne girilmelidir. Telefon daha sonra bir mıknatısı geçtiğini belirlemek için manyetometresini kullanacak ve toplam mesafeyi hesaplayacaktır.
+    </description>
+      <string original="Results">Sonuçlar</string>
+      <string original="dx is the distance between two magnets">dx iki mıknatıs arasındaki mesafedir</string>
+      <string original="Distance">Mesafe</string>
+      <string original="Velocity">Hız</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Magnetic field x">Manyetik alan x</string>
+      <string original="Magnetic field y">Manyetik alan y</string>
+      <string original="Magnetic field z">Manyetik alan z</string>
+      <string original="Total magnetic field squared and filtered">Karesi alınmış ve filtrelenmiş toplam manyetik alan</string>
+      <string original="Filtered B²">Süzülmüş B²</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>磁性尺</title>
+      <category>工具</category>
+      <description>
+        利用一序列的磁鐵以測量距離、速度及手機的加速度。
+
+	在此實驗中，你可以沿著手機經過的路徑放置一連串的磁鐵，每個磁鐵間的間距必須相同。手機會利用磁力計以判斷其是否經過一個磁鐵，進而計算出總距離…等。
+    </description>
+      <string original="Results">結果</string>
+      <string original="dx is the distance between two magnets">dx 是兩個磁鐵中的間距</string>
+      <string original="Distance">距離</string>
+      <string original="Velocity">速度</string>
+      <string original="Raw Data">原始數據</string>
+      <string original="Magnetic field x">x方向磁場</string>
+      <string original="Magnetic field y">y方向磁場</string>
+      <string original="Magnetic field z">z方向磁場</string>
+      <string original="Total magnetic field squared and filtered">過濾及平方後的總磁場</string>
+    </translation>
+    <translation locale="fr">
+      <title>Règle magnétique</title>
+      <category>Outils</category>
+      <description>
+        Mesure de la distance, vitesse et accélération du smartphone à l'aide d'une rangée d'aimants.
+
+       Pour que cette expérience fonctionne, il faut placer une série d'aimants le long de la trajectoire que suivra le téléphone. La distance entre les aimants doit être constante, et sa valeur doit être connue. L'expérience utilisera le magnétomètre pour détecter le passage devant un aimant, permettant ainsi le calcul de la distance parcourue.
+    </description>
+      <string original="Results">Résultats</string>
+      <string original="dx is the distance between two magnets">dx est la distance entre deux aimants</string>
+      <string original="Velocity">Vitesse</string>
+      <string original="Raw Data">Données brutes</string>
+      <string original="Magnetic field x">Champs magnétique selon x</string>
+      <string original="Magnetic field y">Champs magnétique selon y</string>
+      <string original="Magnetic field z">Champs magnétique selon z</string>
+      <string original="Total magnetic field squared and filtered">Champ magnétique total - élevé au carré et filtré</string>
+      <string original="Filtered B²">B² filtré</string>
+    </translation>
+    <translation locale="vi">
+      <title>Thước đo từ</title>
+      <category>Công cụ</category>
+      <description>
+        Sử dụng nhiều nam châm để đo khoảng cách, tốc độ và gia tốc của điện thoại.
+
+        Đối với thí nghiệm này, bạn nên đặt nhiều nam châm giống hệt nhau dọc theo đường điện thoại sẽ di chuyển. Khoảng cách giữa các nam châm phải bằng nhau cho mỗi nam châm và nên được nhập vào trong thí nghiệm. Sau đó, điện thoại sẽ sử dụng từ kế của nó để xác định khi nào nó đã vượt qua một nam châm, cho phép tính tổng khoảng cách đã đi qua.
+    </description>
+      <string original="Results">Kết quả</string>
+      <string original="dx is the distance between two magnets">dx là khoảng cách giữa hai nam châm</string>
+      <string original="Distance">Khoảng cách</string>
+      <string original="Velocity">Vận tốc</string>
+      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Magnetic field x">Từ trường x</string>
+      <string original="Magnetic field y">Từ trường y</string>
+      <string original="Magnetic field z">Từ trường z</string>
+      <string original="Total magnetic field squared and filtered">Tổng bình phương từ trường đã lọc</string>
+      <string original="Filtered B²">B² đã lọc</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>磁性标尺</title>
+      <category>工具</category>
+      <description>
+        利用一系列的磁铁来测量距离、速度和手机的加速度。
+
+       在此实验中，你可以沿着手机经过的路径放置一系列磁铁。每个磁铁间的距离应该相同且需在实验中输入。手机会利用磁力计来确定是否经过每个磁铁，进而计算出总距离。
+    </description>
+      <string original="Results">结果</string>
+      <string original="dx is the distance between two magnets">dx是两个磁铁间的间距</string>
+      <string original="Distance">距离</string>
+      <string original="Velocity">速度</string>
+      <string original="Raw Data">原始数据</string>
+      <string original="Magnetic field x">X方向磁场</string>
+      <string original="Magnetic field y">Y方向磁场</string>
+      <string original="Magnetic field z">Z方向磁场</string>
+      <string original="Total magnetic field squared and filtered">平方和滤波后的总磁场</string>
+      <string original="Filtered B²">滤波后的B²</string>
+    </translation>
+    <translation locale="sr">
+      <title>Magnetni lenjir</title>
+      <category>Alati</category>
+      <description>
+        Koristite set magneta kako biste izmerili razdaljinu, brzinu i ubrzanje telefona.
+
+       Za ovaj eksperiment potrebno je postaviti set identičnih magneta duž putanje kojom će se telefon kretati. Razdaljina između magneta mora biti ista za svaki magnet i treba biti uneta u ekpseriment. Telefon će tada koristiti svoj magnetometar da odredi kada je prošao kraj magneta, dozvoljavajući da izračuna ukupnu prebvrisanu razdaljinu.
+    </description>
+      <string original="Results">Rezultati</string>
+      <string original="dx is the distance between two magnets">dx je razdaljina između dva magneta</string>
+      <string original="Distance">Razdaljina</string>
+      <string original="Velocity">Brzina</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Magnetic field x">Magnetno polje x</string>
+      <string original="Magnetic field y">Magnetno polje y</string>
+      <string original="Magnetic field z">Magnetno polje z</string>
+      <string original="Total magnetic field squared and filtered">Kvadrat ukupnog magnetnog polja nakon obrade</string>
+      <string original="Filtered B²">Obrađen B²</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Magnetni lenjir</title>
+      <category>Alati</category>
+      <description>
+        Koristite set magneta kako biste izmerili razdaljinu, brzinu i ubrzanje telefona.
+
+       Za ovaj eksperiment potrebno je postaviti set identičnih magneta duž putanje kojom će se telefon kretati. Razdaljina između magneta mora biti ista za svaki magnet i treba biti uneta u ekpseriment. Telefon će tada koristiti svoj magnetometar da odredi kada je prošao kraj magneta, dozvoljavajući da izračuna ukupnu prebvrisanu razdaljinu.
+    </description>
+      <string original="Results">Rezultati</string>
+      <string original="dx is the distance between two magnets">dx je razdaljina između dva magneta</string>
+      <string original="Distance">Razdaljina</string>
+      <string original="Velocity">Brzina</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Magnetic field x">Magnetno polje x</string>
+      <string original="Magnetic field y">Magnetno polje y</string>
+      <string original="Magnetic field z">Magnetno polje z</string>
+      <string original="Total magnetic field squared and filtered">Kvadrat ukupnog magnetnog polja nakon obrade</string>
+      <string original="Filtered B²">Obrađen B²</string>
+    </translation>
+    <translation locale="es">
+      <title>Regla magnética</title>
+      <category>Herramientas</category>
+      <description>
+        Use una serie de imanes para medir la distancia, la velocidad y la aceleración del teléfono.
+
+         Para este experimento, debe colocar una serie de imanes idénticos a lo largo de la pista que recorrerá el teléfono. La distancia entre los imanes tiene que ser la misma para cada imán y debe ingresarse en el experimento. Luego, el teléfono usará su magnetómetro para determinar cuándo ha pasado un imán, lo que permite calcular la distancia total cubierta.
+    </description>
+      <string original="Results">Resultados</string>
+      <string original="dx is the distance between two magnets">dx es la distancia entre dos imanes</string>
+      <string original="Distance">Distancia</string>
+      <string original="Velocity">Velocidad</string>
+      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Magnetic field x">Campo magnético x</string>
+      <string original="Magnetic field y">Campo magnético y</string>
+      <string original="Magnetic field z">Campo magnético z</string>
+      <string original="Total magnetic field squared and filtered">Campo magnético total al cuadrado y filtrado</string>
+      <string original="Filtered B²">Filtrado  B²</string>
+    </translation>
+    <translation locale="ka">
+      <title>მაგნიტური სახაზავი</title>
+      <category>ხელსაწყოები</category>
+      <description>
+        იყენებს რამდენიმე მაგნიტს ტელეფონის მანძილის, სიჩქარის და აჩქარების გასაზომად.
+
+        ამ ექსპერიმენტისთვის თქვენ უნდა დაალაგოთ იდენტური მაგნიტები იმ ბილიკზე რომელზეც იმოძრავებს ტელეფონი. მაგნიტებს შორის დაშორება უნდა იყოს ერთი და იგივე. ეს მანძილი წინასწარ შეყვანილი უნდა იყოს ექპერიმენტში. ტელეფონი შემდეგ გამოიყენებს მაგნიტომეტრს და გამოთვლის რა მაინძილი იქნა დაფარული.
+    </description>
+      <string original="Results">შედეგები</string>
+      <string original="dx is the distance between two magnets">dx არის მანძილი ორ მაგნიტს შორის</string>
+      <string original="Distance">მანძილი</string>
+      <string original="Velocity">სიჩქარე</string>
+      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Magnetic field x">მაგნიტური ველი x</string>
+      <string original="Magnetic field y">მაგნიტური ველი y</string>
+      <string original="Magnetic field z">მაგნიტური ველი z</string>
+      <string original="Total magnetic field squared and filtered">მთლიანი მაგნიტური ველი გაფილტრული</string>
+      <string original="Filtered B²">გაფილტრული B²</string>
+    </translation>
+    <translation locale="hi">
+      <title>चुम्बकीय रूलर</title>
+      <category>टूल्स</category>
+      <description>
+        फोन की दूरी, गति और त्वरण को मापने के लिए चुम्बकों की एक श्रृंखला का उपयोग करें।
+
+        इस प्रयोग के लिए आपको फोन द्वारा चले जाने वाले ट्रैक के साथ समान चुम्बकों की एक श्रृंखला रखनी चाहिए। प्रत्येक चुम्बक के लिए चुम्बकों के बीच की दूरी समान होनी चाहिए और प्रयोग में दर्ज की जानी चाहिए। फोन तब अपने मैग्नेटोमीटर का उपयोग यह निर्धारित करने के लिए करेगा कि उसने चुंबक को कब पार किया है, जिससे कुल दूरी की गणना की जाती है।
+    </description>
+      <string original="Results">परिणाम</string>
+      <string original="dx is the distance between two magnets">dx दो चुम्बकों के बीच की दूरी है</string>
+      <string original="Distance">दूरी</string>
+      <string original="Velocity">वेग</string>
+      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Magnetic field x">चुंबकीय क्षेत्र x</string>
+      <string original="Magnetic field y">चुंबकीय क्षेत्र y</string>
+      <string original="Magnetic field z">चुंबकीय क्षेत्र z</string>
+      <string original="Total magnetic field squared and filtered">कुल चुंबकीय क्षेत्र स्क्वेर्ड और फ़िल्टर्ड</string>
+      <string original="Filtered B²">फिल्टर्ड B²</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container>magnetDistance</container>
+    <container size="0">count</container>
+    <container size="0">count-1</container>
+    <container size="0">magnetIndices</container>
+    <container size="0">magX</container>
+    <container size="0">magY</container>
+    <container size="0">magZ</container>
+    <container size="0">magSum</container>
+    <container size="0">magSumSmooth</container>
+    <container size="0">magSumFiltered</container>
+    <container>magMax</container>
+    <container>magThreshold</container>
+    <container size="0">t</container>
+    <container size="0">max</container>
+    <container size="0">pos</container>
+    <container size="0">posT</container>
+    <container size="0">speed</container>
+    <container size="0">speedT</container>
+    <container size="0">speedClean</container>
+    <container size="0">speedTClean</container>
+    <container size="0">dpos</container>
+    <container size="0">dt</container>
+    <container size="0">dt2</container>
+  </data-containers>
+  <input>
+    <sensor type="magnetic_field" rate="25" average="true">
+      <output component="x">magX</output>
+      <output component="y">magY</output>
+      <output component="z">magZ</output>
+      <output component="t">t</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Results">
+      <edit label="dx" unit="[[unit_short_milli_meter]]" factor="1000" signed="false" default="0.1" min="0.02" max="2">
+        <output>magnetDistance</output>
+      </edit>
+      <info label="dx is the distance between two magnets"/>
+      <separator height="1"/>
+      <graph label="Distance" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="x" unitY="[[unit_short_meter]]">
+        <input axis="x">posT</input>
+        <input axis="y">pos</input>
+      </graph>
+      <graph label="Velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_velocity]]" unitY="[[unit_short_meter_per_second]]" unitYperX="[[unit_short_meter_per_square_second]]">
+        <input axis="x">speedTClean</input>
+        <input axis="y">speedClean</input>
+      </graph>
+    </view>
+    <view label="Raw Data">
+      <graph label="Magnetic field x" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Bx" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="ffffff">
+        <input axis="x">t</input>
+        <input axis="y">magX</input>
+      </graph>
+      <graph label="Magnetic field y" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="By" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="ffffff">
+        <input axis="x">t</input>
+        <input axis="y">magY</input>
+      </graph>
+      <graph label="Magnetic field z" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Bz" unitY="[[unit_short_micro_tesla]]" partialUpdate="true" color="ffffff">
+        <input axis="x">t</input>
+        <input axis="y">magZ</input>
+      </graph>
+      <graph label="Total magnetic field squared and filtered" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="Filtered B²" unitY="µT²" lineWidth="2" partialUpdate="true">
+        <input axis="x">t</input>
+        <input axis="y">magSumFiltered</input>
+      </graph>
+    </view>
+  </views>
+  <analysis>
+    <formula formula="[1_]*[1_]+[2_]*[2_]+[3_]*[3_]">
+      <input clear="false">magX</input>
+      <input clear="false">magY</input>
+      <input clear="false">magZ</input>
+      <output>magSum</output>
+    </formula>
+    <gausssmooth sigma="15">
+      <input clear="false">magSum</input>
+      <output>magSumSmooth</output>
+    </gausssmooth>
+    <subtract>
+      <input>magSum</input>
+      <input>magSumSmooth</input>
+      <output>magSumFiltered</output>
+    </subtract>
+    <max>
+      <input as="y" clear="false">magSumFiltered</input>
+      <output as="max">magMax</output>
+    </max>
+    <multiply>
+      <input>magMax</input>
+      <input type="value">0.1</input>
+      <output>magThreshold</output>
+    </multiply>
+    <max multiple="true">
+      <input as="y" clear="false">magSumFiltered</input>
+      <input as="x" clear="false">t</input>
+      <input as="threshold">magThreshold</input>
+      <output as="max">max</output>
+      <output as="position">posT</output>
+    </max>
+    <count>
+      <input clear="false">max</input>
+      <output>count</output>
+    </count>
+    <subtract>
+      <input clear="false">count</input>
+      <input type="value">1</input>
+      <output>count-1</output>
+    </subtract>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop">count-1</input>
+      <input as="length">count</input>
+      <output>magnetIndices</output>
+    </ramp>
+    <multiply>
+      <input>magnetIndices</input>
+      <input clear="false">magnetDistance</input>
+      <output>pos</output>
+    </multiply>
+    <differentiate>
+      <input clear="false">posT</input>
+      <output>dt</output>
+    </differentiate>
+    <divide>
+      <input clear="false">dt</input>
+      <input type="value">2</input>
+      <output>dt2</output>
+    </divide>
+    <add>
+      <input clear="false">posT</input>
+      <input>dt2</input>
+      <output>speedT</output>
+    </add>
+    <differentiate>
+      <input clear="false">pos</input>
+      <output>dpos</output>
+    </differentiate>
+    <divide>
+      <input>dpos</input>
+      <input>dt</input>
+      <output>speed</output>
+    </divide>
+    <match>
+      <input>speed</input>
+      <input>speedT</input>
+      <output>speedClean</output>
+      <output>speedTClean</output>
+    </match>
+  </analysis>
+  <export>
+    <set name="Results">
+      <data name="t (s)">posT</data>
+      <data name="x (m)">pos</data>
+      <data name="t_v (s)">speedTClean</data>
+      <data name="v (m/s)">speedClean</data>
+    </set>
+    <set name="Raw Data">
+      <data name="t (s)">t</data>
+      <data name="Magnetometer x (uT)">magX</data>
+      <data name="Magnetometer y (uT)">magY</data>
+      <data name="Magnetometer z (uT)">magZ</data>
+    </set>
+  </export>
+</phyphox>

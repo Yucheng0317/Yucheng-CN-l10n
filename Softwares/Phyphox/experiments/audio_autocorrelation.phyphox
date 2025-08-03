@@ -1,0 +1,686 @@
+<phyphox version="1.14" locale="en">
+  <title>Audio Autocorrelation</title>
+  <category>Acoustics</category>
+  <icon format="base64">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</icon>
+  <description>
+        Measure the frequency of a single tone.
+
+        This experiment records audio from the microphone and analyses it for its frequency. This only works if there is a single tone with a fixed frequency - if there are multiple frequencies (like an accord), use the "spectrum" experiment instead.
+
+        The analysis is done by calculating the autocorrelation of the audio signal. The experiment then considers all peaks that exceed half of the maximum signal in the autocorrelation. The position of the last of these peaks within the autocorrelation gives a multiple of the period of the signal. By counting the number of peaks we can get the period of the base frequency.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Audio_Autocorrelation</link>
+  <translations>
+    <translation locale="de">
+      <title>Audio Autokorrelation</title>
+      <category>Akustik</category>
+      <description>
+        Die Frequenz eines einzelnen Tons ermitteln.
+
+                Dieses Experiment nimmt über das Mikrofon Töne auf und ermittelt ihre Frequenz. Dies funktioniert nur wenn es sich dabei um einen einzigen Ton mit fester Frequenz handelt - Wenn du mehrere Frequenzen (wie in einem Akkord) analysieren möchtest, verwende statt dessen das Experiment "Audio Spektrum".
+
+                Die Frequenz wird mittels einer Autokorrelation des Audiosignals ermittelt. Das Experiment sucht alle Maxima im Korrelationssignal heraus, die die Hälfte des globalen Maximums überschreiten. Die Position des letzten Maximums in der Autokorrelation entspricht dem Vielfachen der gesuchten Periode, die wir durch Abzählen der Maxima ermitteln können.
+    </description>
+      <string original="Autocorr.">Autokorr.</string>
+      <string original="Period">Periode</string>
+      <string original="Frequency">Frequenz</string>
+      <string original="Autocorrelation">Autokorrelation</string>
+      <string original="Raw data">Rohdaten</string>
+      <string original="Recording">Aufnahme</string>
+      <string original="Musical note">Note (Musik)</string>
+      <string original="Cents from note">Cent über Note</string>
+      <string original="Low">Niedrig</string>
+      <string original="High">Hoch</string>
+      <string original="correlation">Korrelation</string>
+    </translation>
+    <translation locale="cs">
+      <title>Zvuková autokorelace</title>
+      <category>Akustika</category>
+      <description>
+        Měření frekvence tónu.
+
+Tento experiment analyzuje frekvenci zvukového záznamu z mikrofonu. To ovšem funguje pouze v tom případě, že je zaznamenán jeden tón s konstantní frekvencí. Chcete-li analyzovat několik tónů současně (např. akord), pak použijte experiment "spektrum".
+
+Analýza je provedena pomocí výpočtu autokorelace zvukového signálu. Experiment pak vyhodnotí všechny špičky, které přesáhnou o víc jak půlku maximálního signálu z autokorelace. Pozice poslední z těchto špiček v autokorelaci udává násobek periody signálu. Spočítáním počtu špiček pak můžeme získat periodu základní frekvence.
+    </description>
+      <string original="Autocorr.">Autokor.</string>
+      <string original="Period">Perioda</string>
+      <string original="Frequency">Frekvence</string>
+      <string original="Musical note">Tón</string>
+      <string original="Low">Nízká</string>
+      <string original="High">Vysoká</string>
+      <string original="Cents from note">Rozdíl od čistého tónu v centech</string>
+      <string original="Autocorrelation">Autokorelace</string>
+      <string original="Raw data">Neupravená data</string>
+      <string original="Recording">Záznam</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="correlation">korelace</string>
+    </translation>
+    <translation locale="pl">
+      <title>Częstotliwość dźwięku</title>
+      <category>Akustyka</category>
+      <description>
+        Wyznacz częstotliwość tonu.
+
+        W tym eksperymencie rejestrowany jest dźwięk i określana jest jego częstotliwość. Eksperyment przeznaczony jest wyłącznie do analizy tonów. W przypadku analizy dźwięków złożonych (np. akordów) zaleca się korzystanie z eksperymentu 'Widmo audio'.
+
+        Analiza prowadzona jest w oparciu o procedurę autokorelacji sygnału dźwiękowego. W korelacji uwzględniane są wszystkie maksima sygnału o amplitudzie przekraczającej połowę rejestrowanej wartości maksymalnej. Położenie w czasie ostatniego z analizowanych maksimów odpowiada wielokrotności okresu i na podstawie informacji o liczbie okresów wyznaczana jest częstotliwość rejestrowanego sygnału dźwiękowego.
+    </description>
+      <string original="Autocorr.">Autokorel.</string>
+      <string original="Period">Okres</string>
+      <string original="Frequency">Częstotliwość</string>
+      <string original="Musical note">Nuta</string>
+      <string original="Low">Niska</string>
+      <string original="High">Wysoka</string>
+      <string original="Cents from note">Odstępstwo od tonu</string>
+      <string original="Autocorrelation">Autokorelacja</string>
+      <string original="Raw data">Surowe dane</string>
+      <string original="Recording">Nagranie</string>
+      <string original="Amplitude">Amplituda</string>
+      <string original="correlation">Korelacja</string>
+    </translation>
+    <translation locale="nl">
+      <title>Geluid Autocorrelatie</title>
+      <category>Geluid</category>
+      <description>
+        Meet de frequentie van een enkele toon.
+
+        In dit experiment wordt een audiosignaal via de microfoon opgenomen en zijn frequentie berekend. Dit werkt alleen als er één toon met een vaste frequentie is - als er meerdere frequenties zijn (zoals een akkoord), gebruik dan het "spectrum"-experiment.
+
+        De analyse wordt uitgevoerd door de autocorrelatie van het audiosignaal te berekenen. Het experiment bestudeert vervolgens alle pieken die in de autocorrelatie de helft van het maximale signaal overschrijden. De positie van de laatste van deze pieken binnen de autocorrelatie geeft een veelvoud van de periode van het signaal. Door het aantal pieken te tellen, kunnen we de periode van de basisfrequentie krijgen.
+    </description>
+      <string original="Period">Periode</string>
+      <string original="Frequency">Frequentie</string>
+      <string original="Musical note">Muzieknoot</string>
+      <string original="Low">Laag</string>
+      <string original="High">Hoog</string>
+      <string original="Cents from note">Centen (van noot)</string>
+      <string original="Autocorrelation">Autocorrelatie</string>
+      <string original="Raw data">Onbewerkte data</string>
+      <string original="Recording">Opname</string>
+      <string original="correlation">correlatie</string>
+    </translation>
+    <translation locale="ru">
+      <title>Звуковая автокорреляция</title>
+      <category>Акустика</category>
+      <description>
+        Измерьте частоту одного тона.
+
+          Этот эксперимент записывает звук на микрофон и анализирует его частоту. Это работает только в том случае, если издаётся только один тон с фиксированной частотой - если есть несколько частот (например, аккорд), то используйте эксперимент «спектр».
+
+          Анализ выполняется путем вычисления автокорреляции аудиосигнала. Затем эксперимент рассматривает все пики, которые превышают половину максимального сигнала в автокорреляции. Положение последнего из этих пиков в автокорреляции дает кратное периоду сигнала. Подсчитывая количество пиков, мы можем получить период базовой частоты.
+    </description>
+      <string original="Autocorr.">Автокорр.</string>
+      <string original="Period">Период</string>
+      <string original="Frequency">Частота</string>
+      <string original="Musical note">Музыкальная нота</string>
+      <string original="Low">Низкая</string>
+      <string original="High">Низкая</string>
+      <string original="Cents from note">Сотые части ноты</string>
+      <string original="Autocorrelation">Автокорреляция</string>
+      <string original="Raw data">Исходные данные</string>
+      <string original="Recording">Запись</string>
+      <string original="Amplitude">Амплитуда</string>
+      <string original="correlation">корреляция</string>
+    </translation>
+    <translation locale="it">
+      <title>Autocorrelazione audio</title>
+      <category>Acustica</category>
+      <description>
+        Misura la frequenza di un singolo tono
+
+Questo esperimento registra un segnale audio attraverso il microfono e ne analizza la frequenza. Funziona solo se vi è un singolo tono con una frequenza fissa - per analizzare un segnale con più frequenze (es. un accordo), usare l’esperimento “Spettro”.
+
+L’analisi viene effettuata calcolando l’auto-correlazione del segnale audio. Il sistema considera tutti i picchi di altezza maggiore di metà del massimo segnale nello spettro di autocorrelazione. La posizione dell'ultimo di questo picchi fornisce un multiplo del periodo del segnale. Contando il numero di picchi si ottiene il periodo della frequenza di base.
+    </description>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frequenza</string>
+      <string original="Musical note">Nota musicale</string>
+      <string original="Low">Bassa</string>
+      <string original="High">Alta</string>
+      <string original="Cents from note">Centesimi di nota</string>
+      <string original="Autocorrelation">Autocorrelazione</string>
+      <string original="Raw data">Dati grezzi</string>
+      <string original="Recording">Registrazione</string>
+      <string original="Amplitude">Ampiezza</string>
+      <string original="correlation">correlazione</string>
+    </translation>
+    <translation locale="el">
+      <title>Συχνότητα ήχου</title>
+      <category>Ακουστική</category>
+      <description>
+        Μέτρηση της συχνότητας ενός μοναδικού τόνου.
+
+Στο πείραμα καταγράφεται ήχος από το μικρόφωνο και αναλύεται η συχνότητά του. Αυτό λειτουργεί μόνο αν είναι ένας τόνος με συγκεκριμένη συχνότητα - αν υπάρχουν περισσότερες συχνότητας (όπως μια συγχορδία), χρησιμοποιήστε εναλλακτικά το πείραμα του ηχητικού φάσματος.
+
+Η ανάλυση γίνεται με τον υπολογισμό της αυτοσυσχέτισης του ηχητικού σήματος. Στη συνέχεια βρίσκονται οι κορυφές που ξεπερνούν το μισό του μέγιστου σήματος της αυτοσυσχέτισης. Η θέση των τελευταίων από αυτές τις κορυφές μέσα στην αυτοσυσχέτιση  είναι πολλαπλάσιο της περιόδου του σήματος. Μετρώντας το πλήθος των κορυφών μπορούμε να βρούμε την περίοδο της βασικής συχνότητας
+    </description>
+      <string original="Autocorr.">Αυτοσυσχέτ.</string>
+      <string original="Period">Περίοδος</string>
+      <string original="Frequency">Συχνότητα</string>
+      <string original="Musical note">Μουσική νότα</string>
+      <string original="Low">Χαμηλά</string>
+      <string original="High">Υψηλή</string>
+      <string original="Cents from note">Εκατοστά από τη νότα</string>
+      <string original="Autocorrelation">Αυτοσυσχέτιση</string>
+      <string original="Raw data">Καταγραφές Αισθητήρα</string>
+      <string original="Recording">Εγγραφή</string>
+      <string original="Amplitude">Πλάτος</string>
+      <string original="correlation">συσχέτιση</string>
+    </translation>
+    <translation locale="ja">
+      <title>音響自己相関</title>
+      <category>音響</category>
+      <description>
+        単一音の周波数測定．
+
+本実験はマイクから音を録音し，その周波数を解析します．一定周波数の単一音源の場合においてのみ，本実験は期待した動作をします．もし和音のように複数の周波数が含まれる場合，音響スペクトル の実験を使用してください．
+
+解析は音声信号の自己相関計算から行われます．本実験は，自己相関の最大ピーク値の半分を超えたピークを考慮し，周波数解析に用います．信号強度が十分な最後の自己相関ピークの位置は，信号周期の整数（n）倍を示します．最終自己相関ピークの番号(n)を数えることで，信号の正確な周期が得られます．
+    </description>
+      <string original="Autocorr.">自己相関</string>
+      <string original="Period">周期</string>
+      <string original="Frequency">周波数</string>
+      <string original="Musical note">音名</string>
+      <string original="Low">低い</string>
+      <string original="Cents from note">音名に対するセント値</string>
+      <string original="Autocorrelation">自己相関</string>
+      <string original="correlation">相関係数</string>
+      <string original="Raw data">時系列データ</string>
+      <string original="Recording">記録</string>
+      <string original="Amplitude">振幅</string>
+    </translation>
+    <translation locale="pt">
+      <title>Autocorrelação do Som</title>
+      <category>Acústica</category>
+      <description>
+        Mede a frequência de um tom único.
+
+        Este experimento grava o som do microfone e analisa-o pela sua frequência. Ele só funciona se houver apenas um tom com uma frequência fixa - se houver múltiplas frequências (como um acorde), use o experimento "Espectro". 
+
+        A análise é feita pelo cálculo da autocorrelação do sinal de som. O experimento então considera todos os picos que ultrapassem a metade do sinal máximo na autocorrelação. A posição do último destes picos dentro da autocorrelação dá um múltiplo do período do sinal. Contando o número de picos, podemos obter o período da frequência de base.
+    </description>
+      <string original="Autocorr.">Autocor.</string>
+      <string original="Period">Período</string>
+      <string original="Frequency">Frequência</string>
+      <string original="Musical note">Nota musical</string>
+      <string original="Low">Baixa</string>
+      <string original="High">Alta</string>
+      <string original="Cents from note">Cents da nota</string>
+      <string original="Autocorrelation">Autocorrelação</string>
+      <string original="correlation">correlação</string>
+      <string original="Raw data">Sensores</string>
+      <string original="Recording">Gravando</string>
+    </translation>
+    <translation locale="tr">
+      <title>Ses Otokorelasyonu</title>
+      <category>Akustik</category>
+      <description>
+        Tek bir ton frekansını ölçün.
+
+        Bu deney mikrofondan sesi kaydeder ve frekans için analiz eder. Sadece sabit frekansta tek bir ton varsa çalışır eğer birden fazla frekans varsa (bir akort gibi), bunun yerine "spektrum" deneyini kullanın.
+
+        Analiz ses sinyalinin otokorelasyonu hesaplanarak yapılır. Deney daha sonra otokorelasyonda maksimum sinyalin yarısını geçen tüm tepe noktalarını dikkate alır. Otokorelasyon içindeki son tepe noktalarının konumu, sinyalin periyodunun bir çoğunu verir. Tepelerin sayısını hesaplayarak baz frekansının periyodunu alabiliriz.
+    </description>
+      <string original="Autocorr.">Otokorel.</string>
+      <string original="Period">Periyot</string>
+      <string original="Frequency">Frekans</string>
+      <string original="Musical note">Müzik notası</string>
+      <string original="Low">Düşük</string>
+      <string original="High">Yüksek</string>
+      <string original="Cents from note">Notadan sent</string>
+      <string original="Autocorrelation">Otokorelasyon</string>
+      <string original="correlation">bağıntı</string>
+      <string original="Raw data">Ham veri</string>
+      <string original="Recording">Kayıt</string>
+      <string original="Amplitude">Genlik</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>聲頻自相關</title>
+      <category>聲學</category>
+      <description>
+        測量單音調的頻率。
+
+	此實驗利用麥克風錄製並分析音調頻率。這只在只有單頻的清況下才能使用，如有多頻率（例如調和），請使用「頻譜」。
+
+	此分析計算音訊的自相關。實驗考慮所有超過1/2最大峰值的訊號的峰值的自相關。這些在自相關中峰值的位置給出了訊號週期的數倍，藉由計算峰值的個數，可以求得基準頻率的週期。
+    </description>
+      <string original="Autocorr.">自相關</string>
+      <string original="Period">週期</string>
+      <string original="Frequency">頻率</string>
+      <string original="Musical note">音符</string>
+      <string original="Low">低</string>
+      <string original="High">高</string>
+      <string original="Cents from note">音符百分偏差</string>
+      <string original="Autocorrelation">自相關</string>
+      <string original="Raw data">原始數據</string>
+      <string original="Recording">錄製</string>
+      <string original="Amplitude">振幅</string>
+    </translation>
+    <translation locale="fr">
+      <title>Autocorrélation Audio</title>
+      <category>Acoustique</category>
+      <description>
+        Mesurer la fréquence d'une note unique.
+
+         Cette expérience enregistre un son et détermine sa fréquence. Cela ne fonctionne que si le son ne contient qu'une seule note - s'il y a plusieurs fréquences dans le son (comme dans un accord), utilisez plutôt l'expérience "spectre audio".
+
+         L'analyse est effectuée en calculant l'autocorrélation du signal audio. L'analyse tient compte des pics dépassant la moitié du signal maximum dans l'autocorrélation. La position du dernier de ces pics donne un multiple de la période du signal. En comptant le nombre de pics on peut obtenir la période de la fréquence de base.
+    </description>
+      <string original="Period">Période</string>
+      <string original="Frequency">Fréquence</string>
+      <string original="Musical note">Note Musicale</string>
+      <string original="Low">Basse</string>
+      <string original="High">Haute</string>
+      <string original="Cents from note">différence avec la note idéale (en cents)</string>
+      <string original="Autocorrelation">Autocorrélation</string>
+      <string original="correlation">corrélation</string>
+      <string original="Raw data">Données brutes</string>
+      <string original="Recording">Enregistrement</string>
+      <string original="Amplitude">Intensité</string>
+    </translation>
+    <translation locale="vi">
+      <title>Tự tương quan âm</title>
+      <category>Âm học</category>
+      <description>
+        Đo tần số của một âm đơn.
+
+        Thí nghiệm này ghi lại âm thanh từ micrô và phân tích tần số của nó. Thí nghiệm này chỉ hoạt động tốt nếu có một âm đơn với tần số cố định - nếu có nhiều tần số, hãy sử dụng thí nghiệm "phổ âm thanh".
+
+        Việc phân tích được thực hiện bằng cách tính toán tương quan tín hiệu âm thanh. Thí nghiệm sau đó xem xét tất cả các đỉnh vượt quá một nửa tín hiệu tối đa trong tự tương quan. Vị trí của các đỉnh cuối cùng trong phạm vi tự tương quan sẽ cho nhiều chu kỳ của tín hiệu. Bằng cách đếm số lượng đỉnh chúng ta có thể có được chu kỳ của tần số cơ sở.
+    </description>
+      <string original="Autocorr.">Tự tương quan.</string>
+      <string original="Period">Chu kỳ</string>
+      <string original="Frequency">Tần số</string>
+      <string original="Musical note">Nốt nhạc</string>
+      <string original="Low">Thấp</string>
+      <string original="High">Cao</string>
+      <string original="Cents from note">Phầm trăm lệch nốt</string>
+      <string original="Autocorrelation">Tự tương quan</string>
+      <string original="correlation">tương quan</string>
+      <string original="Raw data">Dữ liệu thô</string>
+      <string original="Recording">Đang ghi âm</string>
+      <string original="Amplitude">Biên độ</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>音频自相关</title>
+      <category>声学</category>
+      <description>
+        测量单个音调的频率。
+
+        本实验记录手机麦克风的音频并分析其频率。这只有在固定频率的单音调下才能工作——如有多种频率（比如和声），则需使用“声音频谱”实验。
+
+        分析是通过计算音频信号的自相关实现的。本实验考虑自相关中所有超过1/2最大峰值的信号的峰值。这些自相关中的峰值位置给出了信号周期的倍数。通过计算峰值的数量，我们可以得到基频的周期。
+    </description>
+      <string original="Autocorr.">自相关</string>
+      <string original="Period">周期</string>
+      <string original="Frequency">频率</string>
+      <string original="Musical note">音符</string>
+      <string original="Low">低</string>
+      <string original="High">高</string>
+      <string original="Cents from note">音符百分偏差</string>
+      <string original="Autocorrelation">自相关</string>
+      <string original="correlation">相关系数</string>
+      <string original="Raw data">原始数据</string>
+      <string original="Recording">录制</string>
+      <string original="Amplitude">振幅</string>
+    </translation>
+    <translation locale="sr">
+      <title>Zvučna autokorelacija</title>
+      <category>Akustika</category>
+      <description>
+        Izmerite frekvenciju jednog tona.
+
+        Ovaj eksperiment snima zvuk iz mikrofona i analizira njegovu frekvenciju. Ovo radi samo ako postoji jedan ton sa fiksnom frekvencijom - ako postoji više frekvencija (kao što je akord), koristite eksperiment "spektar".
+
+        Analiza se vrši izračunavanjem autokorelacije zvučnih signala. Eksperiment zatim razmatra sve vrhove koji premašuju polovinu maksimalnog signala u autokorelaciji. Položaj poslednjeg od ovih vrhova unutar autokorelacije daje višestruki period signala. Brojeći broj vrhova možemo dobiti period osnovne frekvencije.
+    </description>
+      <string original="Autocorr.">Autokorelacija.</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Musical note">Muzička nota</string>
+      <string original="Low">Niska</string>
+      <string original="High">Visoka</string>
+      <string original="Cents from note">Centi (od note)</string>
+      <string original="Autocorrelation">Autokorelacija</string>
+      <string original="correlation">korelacija</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Recording">Snimanje</string>
+      <string original="Amplitude">Amplituda</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Zvučna autokorelacija</title>
+      <category>Akustika</category>
+      <description>
+        Izmerite frekvenciju jednog tona.
+
+        Ovaj eksperiment snima zvuk iz mikrofona i analizira njegovu frekvenciju. Ovo radi samo ako postoji jedan ton sa fiksnom frekvencijom - ako postoji više frekvencija (kao što je akord), koristite eksperiment "spektar".
+
+        Analiza se vrši izračunavanjem autokorelacije zvučnih signala. Eksperiment zatim razmatra sve vrhove koji premašuju polovinu maksimalnog signala u autokorelaciji. Položaj poslednjeg od ovih vrhova unutar autokorelacije daje višestruki period signala. Brojeći broj vrhova možemo dobiti period osnovne frekvencije.
+    </description>
+      <string original="Autocorr.">Autokorelacija.</string>
+      <string original="Frequency">Frekvencija</string>
+      <string original="Musical note">Muzička nota</string>
+      <string original="Low">Niska</string>
+      <string original="High">Visoka</string>
+      <string original="Cents from note">Centi (od note)</string>
+      <string original="Autocorrelation">Autokorelacija</string>
+      <string original="correlation">korelacija</string>
+      <string original="Raw data">Sirovi podaci</string>
+      <string original="Recording">Snimanje</string>
+      <string original="Amplitude">Amplituda</string>
+    </translation>
+    <translation locale="es">
+      <title>Autocorrelación de audio</title>
+      <category>Acústica</category>
+      <description>
+        Mide la frecuencia de un solo tono.
+
+         Este experimento graba audio del micrófono y lo analiza para determinar su frecuencia. Esto solo funciona si hay un solo tono con una frecuencia fija; si hay múltiples frecuencias (como un acuerdo), utilice el experimento de "espectro".
+
+         El análisis se realiza calculando la autocorrelación de la señal de audio. Luego, el experimento considera todos los picos que exceden la mitad de la señal máxima en la autocorrelación. La posición del último de estos picos dentro de la autocorrelación da un múltiplo del período de la señal. Al contar el número de picos podemos obtener el período de la frecuencia base.
+    </description>
+      <string original="Autocorr.">Autocorrelación</string>
+      <string original="Period">Periodo</string>
+      <string original="Frequency">Frecuencia</string>
+      <string original="Musical note">Nota musical</string>
+      <string original="Low">Bajo</string>
+      <string original="High">Alto</string>
+      <string original="Cents from note">Cents de nota</string>
+      <string original="Autocorrelation">Autocorrelación</string>
+      <string original="correlation">Correlación</string>
+      <string original="Raw data">Datos sin procesar</string>
+      <string original="Recording">Grabación</string>
+      <string original="Amplitude">Amplitud</string>
+    </translation>
+    <translation locale="ka">
+      <title>აუდიო ავტოკორელაცია</title>
+      <category>აკუსტიკა</category>
+      <description>
+        გაზომე ერთი ტონის სიხშირე.
+
+        Tეს ექსპერიმენტი იწერს ხმას და აანალიზებს მის სიხშირეს. ეს მუსაობს მხოლოდ მაშინ როცა გვაქვს ერთი ტონი ფიქსირებული სიხშირით - თუ გვაქვს რამდენიმე სიხშირე (მაგალითად აკორდი), გამოიყენე "სპექტრი"-ის ექსპერიმენტი.
+
+        ანალიზი ჩატარდა აუდიო სიგნალის აუტოკორელაციით. შემდეგ გათვალისწინებული ხდება მაქსიმალური სიგნალის ნახევარზე მეტი სიგნალები. ბოლო პიკების პოზიციები ავტოკორელაციაში იძლევა სიგნალის ჯერად პიკებს. პიკების რაოდენობის დათვლით ჩვენ შეგვიძლია მივიღოთ საწყისი სიხშირის პერიოდი.
+    </description>
+      <string original="Autocorr.">აუტოკორ.</string>
+      <string original="Period">პერიოდი</string>
+      <string original="Frequency">სიხშირე</string>
+      <string original="Musical note">მუსიკალური ნოტი</string>
+      <string original="Low">დაბალი</string>
+      <string original="High">მაღალი</string>
+      <string original="Cents from note">ნოტის ცენტები</string>
+      <string original="Autocorrelation">ავტო კორელაცია</string>
+      <string original="correlation">კორელაცია</string>
+      <string original="Raw data">დაუმუშავებელი მონაცემები</string>
+      <string original="Recording">ჩაწერა</string>
+      <string original="Amplitude">ამპლიტუდა</string>
+    </translation>
+    <translation locale="hi">
+      <title>ध्वनिक स्व-सहसंबंध (ऑटो-कोरिलेशन)</title>
+      <category>ध्वनि विज्ञान</category>
+      <description>
+        सिंगल टोन की की आवृत्ति का मापन ।
+
+यह प्रयोग आपके माइक्रोफ़ोन से ऑडियो रिकॉर्ड करता है और इसकी आवृत्ति के लिए इसका विश्लेषण करता है। यह केवल तभी काम करेगा जब एक नियत आवृत्ति वाला एक स्वर होता है - यदि कई आवृतियां हैं, तो इसके बजाय "स्पेक्ट्रम" प्रयोग का उपयोग करें।
+
+ऑडियो सिगनल के स्वत: सहसंबंध (ऑटो को-रिलेशन) की गणना करके इसका विश्लेषण किया जाता है। फिर प्रयोग में उन सभी शिखरों पर विचार किया जाता है जो स्वत: सहसंबंध में अधिकतम मान के आधे से अधिक हैं। स्वत: सहसंबंध के भीतर, इन शिखरों में से अंतिम की स्थिति सिगनल के आवर्तकाल का एक गुणज देती है। शिखरों की संख्या की गिनती करके हम मूल आवृत्ति के लिए आवर्तकाल प्राप्त कर सकते हैं|
+    </description>
+      <string original="Autocorr.">स्वत: सहसंबंध.</string>
+      <string original="Period">काल</string>
+      <string original="Frequency">आवृत्ति</string>
+      <string original="Musical note">संगीत नोट</string>
+      <string original="Low">निम्न</string>
+      <string original="High">उच्च</string>
+      <string original="Cents from note">नोट से सेंट में</string>
+      <string original="Autocorrelation">स्वतः सहसंबंध</string>
+      <string original="correlation">सहसंबंध</string>
+      <string original="Raw data">मूल (रॉ) डेटा</string>
+      <string original="Recording">रिकॉर्डिंग</string>
+      <string original="Amplitude">आयाम</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="4800">recording</container>
+    <container size="4800">recording_raw</container>
+    <container>rate</container>
+    <container>tmax</container>
+    <container size="4800">time</container>
+    <container size="4800">autocorrelation</container>
+    <container size="4800">autoco_t</container>
+    <container>period</container>
+    <container>frequency</container>
+    <container>max</container>
+    <container>threshold</container>
+    <container>count</container>
+    <container>count-1</container>
+    <container size="0">peaksX</container>
+    <container size="0">peaksXfiltered</container>
+    <container size="1">lastX</container>
+    <container>ratio</container>
+    <container static="true">log2</container>
+    <container>logRatio</container>
+    <container>log2Ratio</container>
+    <container>cents</container>
+    <container>semitones</container>
+    <container>semitonesRound</container>
+    <container>semitonesDiff</container>
+    <container>centsDiff</container>
+  </data-containers>
+  <input>
+    <audio>
+      <output>recording</output>
+      <output component="rate">rate</output>
+    </audio>
+  </input>
+  <views>
+    <view label="Autocorr.">
+      <value label="Period" unit="[[unit_short_milli_second]]" factor="1000">
+        <input>period</input>
+      </value>
+      <value label="Frequency" unit="[[unit_short_hertz]]">
+        <input>frequency</input>
+      </value>
+      <separator height="1"/>
+      <value label="Musical note">
+        <input>semitonesRound</input>
+        <map max="-25">Low</map>
+        <map max="-24">[[musical_note_a2]]</map>
+        <map max="-23">[[musical_note_bb2]]</map>
+        <map max="-22">[[musical_note_b2]]</map>
+        <map max="-21">[[musical_note_c3]]</map>
+        <map max="-20">[[musical_note_db3]]</map>
+        <map max="-19">[[musical_note_d3]]</map>
+        <map max="-18">[[musical_note_eb3]]</map>
+        <map max="-17">[[musical_note_e3]]</map>
+        <map max="-16">[[musical_note_f3]]</map>
+        <map max="-15">[[musical_note_gb3]]</map>
+        <map max="-14">[[musical_note_g3]]</map>
+        <map max="-13">[[musical_note_ab3]]</map>
+        <map max="-12">[[musical_note_a3]]</map>
+        <map max="-11">[[musical_note_bb3]]</map>
+        <map max="-10">[[musical_note_b3]]</map>
+        <map max="-9">[[musical_note_c4]]</map>
+        <map max="-8">[[musical_note_db4]]</map>
+        <map max="-7">[[musical_note_d4]]</map>
+        <map max="-6">[[musical_note_eb4]]</map>
+        <map max="-5">[[musical_note_e4]]</map>
+        <map max="-4">[[musical_note_f4]]</map>
+        <map max="-3">[[musical_note_gb4]]</map>
+        <map max="-2">[[musical_note_g4]]</map>
+        <map max="-1">[[musical_note_ab4]]</map>
+        <map max="0">[[musical_note_a4]]</map>
+        <map max="1">[[musical_note_bb4]]</map>
+        <map max="2">[[musical_note_b4]]</map>
+        <map max="3">[[musical_note_c5]]</map>
+        <map max="4">[[musical_note_db5]]</map>
+        <map max="5">[[musical_note_d5]]</map>
+        <map max="6">[[musical_note_eb5]]</map>
+        <map max="7">[[musical_note_e5]]</map>
+        <map max="8">[[musical_note_f5]]</map>
+        <map max="9">[[musical_note_gb5]]</map>
+        <map max="10">[[musical_note_g5]]</map>
+        <map max="11">[[musical_note_ab5]]</map>
+        <map max="12">[[musical_note_a5]]</map>
+        <map max="13">[[musical_note_bb5]]</map>
+        <map max="14">[[musical_note_b5]]</map>
+        <map max="15">[[musical_note_c6]]</map>
+        <map max="16">[[musical_note_db6]]</map>
+        <map max="17">[[musical_note_d6]]</map>
+        <map max="18">[[musical_note_eb6]]</map>
+        <map max="19">[[musical_note_e6]]</map>
+        <map max="20">[[musical_note_f6]]</map>
+        <map max="21">[[musical_note_gb6]]</map>
+        <map max="22">[[musical_note_g6]]</map>
+        <map max="23">[[musical_note_ab6]]</map>
+        <map max="24">[[musical_note_a6]]</map>
+        <map max="25">[[musical_note_bb6]]</map>
+        <map max="26">[[musical_note_b6]]</map>
+        <map max="27">[[musical_note_c7]]</map>
+        <map max="28">[[musical_note_db7]]</map>
+        <map max="29">[[musical_note_d7]]</map>
+        <map max="30">[[musical_note_eb7]]</map>
+        <map max="31">[[musical_note_e7]]</map>
+        <map max="32">[[musical_note_f7]]</map>
+        <map max="33">[[musical_note_gb7]]</map>
+        <map max="34">[[musical_note_g7]]</map>
+        <map max="35">[[musical_note_ab7]]</map>
+        <map min="35">High</map>
+      </value>
+      <value label="Cents from note">
+        <input>centsDiff</input>
+      </value>
+      <separator height="1"/>
+      <graph label="Autocorrelation" labelX="Δt" unitX="[[unit_short_milli_second]]" labelY="correlation" unitY="[[unit_short_arbitrary_unit]]">
+        <input axis="x">autoco_t</input>
+        <input axis="y">autocorrelation</input>
+      </graph>
+    </view>
+    <view label="Raw data">
+      <graph label="Recording" labelX="[[quantity_short_time]]" unitX="[[unit_short_milli_second]]" labelY="Amplitude" unitY="[[unit_short_arbitrary_unit]]">
+        <input axis="x">time</input>
+        <input axis="y">recording_raw</input>
+      </graph>
+    </view>
+  </views>
+  <analysis sleep="0.1">
+    <append>
+      <input keep="true">recording</input>
+      <output>recording_raw</output>
+    </append>
+    <divide>
+      <input type="value">4800000</input>
+      <!-- 4800 / rate * 1000 -->
+      <input clear="false">rate</input>
+      <output>tmax</output>
+    </divide>
+    <ramp>
+      <input as="start" type="value">0</input>
+      <input as="stop" clear="false">tmax</input>
+      <output>time</output>
+    </ramp>
+    <autocorrelation>
+      <input as="x" clear="false">time</input>
+      <input as="y" clear="false">recording</input>
+      <output as="y">autocorrelation</output>
+      <output as="x">autoco_t</output>
+      <input as="minX" type="value">0</input>
+      <input as="maxX" type="value">20</input>
+    </autocorrelation>
+    <max>
+      <input as="y" clear="false">autocorrelation</input>
+      <output as="max">max</output>
+    </max>
+    <multiply>
+      <input clear="false">max</input>
+      <input type="value">0.5</input>
+      <output>threshold</output>
+    </multiply>
+    <max multiple="true">
+      <input as="x" clear="false">autoco_t</input>
+      <input as="y" clear="false">autocorrelation</input>
+      <input as="threshold" clear="false">threshold</input>
+      <output as="position">peaksX</output>
+    </max>
+    <rangefilter>
+      <input clear="false">peaksX</input>
+      <input as="max" type="value">19.9</input>
+      <output>peaksXfiltered</output>
+    </rangefilter>
+    <count>
+      <input clear="false">peaksXfiltered</input>
+      <output>count</output>
+    </count>
+    <subtract>
+      <input clear="false">count</input>
+      <input type="value">1</input>
+      <output>count-1</output>
+    </subtract>
+    <append>
+      <input clear="false">peaksXfiltered</input>
+      <output>lastX</output>
+    </append>
+    <divide>
+      <input clear="false">lastX</input>
+      <input type="value">1000</input>
+      <input clear="false">count-1</input>
+      <output>period</output>
+    </divide>
+    <divide>
+      <input type="value">1</input>
+      <input clear="false">period</input>
+      <output>frequency</output>
+    </divide>
+    <divide>
+      <input clear="false">frequency</input>
+      <input type="value">440</input>
+      <output>ratio</output>
+    </divide>
+    <log>
+      <input type="value">2</input>
+      <output>log2</output>
+    </log>
+    <log>
+      <input>ratio</input>
+      <output>logRatio</output>
+    </log>
+    <divide>
+      <input>logRatio</input>
+      <input>log2</input>
+      <output>log2Ratio</output>
+    </divide>
+    <multiply>
+      <input>log2Ratio</input>
+      <input type="value">1200</input>
+      <output>cents</output>
+    </multiply>
+    <divide>
+      <input clear="false">cents</input>
+      <input type="value">100</input>
+      <output>semitones</output>
+    </divide>
+    <round>
+      <input clear="false">semitones</input>
+      <output>semitonesRound</output>
+    </round>
+    <subtract>
+      <input clear="false">semitones</input>
+      <input clear="false">semitonesRound</input>
+      <output>semitonesDiff</output>
+    </subtract>
+    <multiply>
+      <input clear="false">semitonesDiff</input>
+      <input type="value">100</input>
+      <output>centsDiff</output>
+    </multiply>
+  </analysis>
+  <export>
+    <set name="Autocorrelation">
+      <data name="Delay (ms)">autoco_t</data>
+      <data name="Autocorrelation (a.u.)">autocorrelation</data>
+    </set>
+    <set name="Raw data">
+      <data name="Time (ms)">time</data>
+      <data name="Recording (a.u.)">recording_raw</data>
+    </set>
+  </export>
+</phyphox>

@@ -1,0 +1,1385 @@
+<phyphox version="1.14" locale="en">
+  <title>(In)elastic collision</title>
+  <category>Mechanics</category>
+  <icon format="base64">
+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
+    </icon>
+  <description>
+        Determine the energy lost during (in)elastic collisions of a bouncing ball.
+
+        In principle, this experiment works like the acoustic stopwatch experiment. However, this experiment expects the sound to come from a ball (or something similar) bouncing on a surface and will calculate the bouncing height and remaining kinetic energy relative to the first bounce by analyzing the interval between the sound from the impact.
+
+        Also, by assuming that the ball retains the same percentage of kinetic energy on its first bounce, phyphox will calculate the initial height 0 from which the ball is dropped.
+
+        So, start the experiment and let a ball bounce of a surface in a way that it generates a clearly hearable noise. You might want to change the threshold in the settings (in the range 0 to 1), so that the experiment reacts to the noise level of the ball but not to the background noise. Also, if you struggle with echoes, you might want to change the minimum delay as well to set the minimum interval the experiment will ignore before reacting to the next noise.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Inelastic_Collision</link>
+  <link label="Video" highlight="true">https://youtu.be/ikvtPDwV1FE</link>
+  <translations>
+    <translation locale="de">
+      <title>(In)elastischer Stoß</title>
+      <category>Mechanik</category>
+      <description>
+        Bestimme den Energieverlust während des (in)elastischen Stoßes eines springenden Balls.
+
+                Im Grunde arbeitet dieses Experiment wie das Akustische Stoppuhr-Experiment. Diese Experiment erwartet jedoch, dass die Geräusche von einem springenden Ball (oder etwas ähnlichem) stammen und berechnet aus den Zeitintervallen der Aufprallgeräusche, wie hoch der Ball springt und viel kinetische Energie bei jedem Aufprall verloren geht.
+
+                Außerdem wird die Höhe 0, aus der der Ball fallengelassen wird, unter der Annahme berechnet, dass beim ersten Stoß der gleiche Anteil kinetischer Energie erhalten bleibt wie beim zweiten Stoß.
+
+                Starte also das Experiment und lasse einen Ball so springen, dass er ein deutlich hörbares Geräusch erzeugt. Eventuell solltest du auf der Einstellungs-Seite die Schwelle (im Bereich von 0 bis 1) anpassen, so dass das Experiment auf die Geräusche des Balls, nicht aber auf die Geräusche der Umgebung reagiert. Ebenso kannst du die Mindestverzögerung einstellen, wenn du Probleme mit Echos hast, so dass das Experiment wartet, bevor es auf ein neues Geräusch reagiert.
+    </description>
+      <link label="Video" highlight="true">https://youtu.be/sqCEo4tj3e4</link>
+      <string original="Threshold">Schwelle</string>
+      <string original="Minimum Delay">Mindestverzögerung</string>
+      <string original="Heights">Höhen</string>
+      <string original="Energy">Energie</string>
+      <string original="Settings">Einstellungen</string>
+      <string original="Time 1">Zeit 1</string>
+      <string original="Time 2">Zeit 2</string>
+      <string original="Time 3">Zeit 3</string>
+      <string original="Time 4">Zeit 4</string>
+      <string original="Time 5">Zeit 5</string>
+      <string original="Height 0">Höhe 0</string>
+      <string original="Height 1">Höhe 1</string>
+      <string original="Height 2">Höhe 2</string>
+      <string original="Height 3">Höhe 3</string>
+      <string original="Height 4">Höhe 4</string>
+      <string original="Height 5">Höhe 5</string>
+      <string original="Energy 1">Energie 1</string>
+      <string original="Energy 2">Energie 2</string>
+      <string original="Energy 3">Energie 3</string>
+      <string original="Energy 4">Energie 4</string>
+      <string original="Energy 5">Energie 5</string>
+      <string original="Retained on collision 2">Bei Stoß 2 behalten</string>
+      <string original="Retained on collision 3">Bei Stoß 3 behalten</string>
+      <string original="Retained on collision 4">Bei Stoß 4 behalten</string>
+      <string original="Retained on collision 5">Bei Stoß 5 behalten</string>
+      <string original="Average retained">Im Mittel behalten</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Leider funktioniert dieses Experiment nicht auf langsamen Geräten. Bitte vergleiche das Akustische Stoppuhr-Experiment erst mit einer normalen Uhr, um sicherzugehen, dass es wie gewünscht arbeitet. Wenn ja, sollte dieses Experiment hier ebenso funktionieren.</string>
+    </translation>
+    <translation locale="cs">
+      <title>(Ne)pružná srážka</title>
+      <category>Mechanika</category>
+      <description>
+        Určí ztrátu kinetické energie při nepružné srážce skákajícího se míče.
+
+Princip tohoto experimentu je stejný jako experiment s akustickými stopkami, avšak zde aplikace předpokládá, že zvuk vzniká nárazem míčku (nebo něčeho podobného) do povrchu. Analýzou intervalů mezi dopady aplikace vypočítá výšku odrazu a zbývající kinetickou energii (relativně vůči energii při prvním dopadu).
+
+Aplikace také umí vypočítat původní výšku 0, ze které byl míč upuštěn za předpokladu, že procento zachování energie bylo stejné i při prvním dopadu.
+
+Takže, odstartujte experiment a pak upusťte míč na povrch na němž budou dopady jasně slyšet. Je možné, že budete muset změnit práh snímání záznamu v nastavení (v rozsahu 0 až 1), tak aby experiment reagoval na zvuk dopadu, ale ignoroval zvukový šum v místnosti. Pokud máte problémy s ozvěnami, pak můžete nastavit minimální zpoždění, po kterém začne přístroj opět měřit zvuky.
+    </description>
+      <string original="Heights">Výška</string>
+      <string original="Height 0">Výška 0</string>
+      <string original="Height 1">Výška 1</string>
+      <string original="Time 1">Čas 1</string>
+      <string original="Height 2">Výška 2</string>
+      <string original="Time 2">Čas 2</string>
+      <string original="Height 3">Výška 3</string>
+      <string original="Time 3">Čas 3</string>
+      <string original="Height 4">Výška 4</string>
+      <string original="Time 4">Čas 4</string>
+      <string original="Height 5">Výška 5</string>
+      <string original="Time 5">Čas 5</string>
+      <string original="Energy">Energie</string>
+      <string original="Energy 1">Energie 1</string>
+      <string original="Energy 2">Energie 2</string>
+      <string original="Retained on collision 2">Zachováno po srážce 2</string>
+      <string original="Energy 3">Energie 3</string>
+      <string original="Retained on collision 3">Zachováno po srážce 3</string>
+      <string original="Energy 4">Energie 4</string>
+      <string original="Retained on collision 4">Zachováno po srážce 4</string>
+      <string original="Energy 5">Energie 5</string>
+      <string original="Retained on collision 5">Zachováno po srážce 5</string>
+      <string original="Average retained">Průměrně zachováno</string>
+      <string original="Settings">Nastavení</string>
+      <string original="Threshold">Práh měření</string>
+      <string original="Minimum Delay">Minimální zpoždění</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Tento modul bohužel nefunguje na pomalých mobilních zařízeních. Pro ověření použitelnosti prosím nejdříve vyzkoušejte experiment akustických stopek a srovnejte ho s měřením s pomocí normálních hodin. Pokud měření stopkami funguje jak má, pak by tento experiment měl fungovat také.</string>
+    </translation>
+    <translation locale="pl">
+      <title>(Nie)sprężyste zderzenie</title>
+      <category>Mechanika</category>
+      <description>
+        Określ ilość energii przekazywanej podczas (nie)strężystego odbicia piłki.
+
+        W eksperymencie tym wykorzystywany jest stoper akustyczny, który rejestruje dźwięk pochodzący od piłki odbijającej się od powierzchni. W oparciu o informacje o czasie poszczególnych odbić wyznaczana jest wysokość, na jaką unosi się piłka oraz szacowana jest jej energia potencjalna i kinetyczna.
+
+        Zakładając, że podczas każdego aktu odbicia rozproszeniu ulega ten sam procent początkowej energii mechanicznej piłki możliwe jest wyznaczenie początkowej wysokości z jakiej została upuszczona.
+
+        Rozpocznij eksperyment upuszczając piłkę z pewnej wysokości tak, by przy każdym odbici udało się zarejestrować towarzyszący mu dźwięk. Może okazać się, że niezbędne jest dopasowanie warunków wyzwalania pomiaru w ustawieniach eksperymentu (zakres czułości od 0 do 1). W przypadku występowania zjawiska echa utrudniającego pomiar pomocne może okazać się zmodyfikowanie ustawień czasu opóźnienia rejestracji dźwięku.
+    </description>
+      <string original="Heights">Wysokości</string>
+      <string original="Height 0">Wysokość 0</string>
+      <string original="Height 1">Wysokość 1</string>
+      <string original="Time 1">Czas 1</string>
+      <string original="Height 2">Wysokość 2</string>
+      <string original="Time 2">Czas 2</string>
+      <string original="Height 3">Wysokość 3</string>
+      <string original="Time 3">Czas 3</string>
+      <string original="Height 4">Wysokość 4</string>
+      <string original="Time 4">Czas 4</string>
+      <string original="Height 5">Wysokość 5</string>
+      <string original="Time 5">Czas 5</string>
+      <string original="Reset">Wyczyść</string>
+      <string original="Energy">Energia</string>
+      <string original="Energy 1">Energia 1</string>
+      <string original="Energy 2">Energia 2</string>
+      <string original="Retained on collision 2">Pozostało po zderzeniu 2</string>
+      <string original="Energy 3">Energia 3</string>
+      <string original="Retained on collision 3">Pozostało po zderzeniu 3</string>
+      <string original="Energy 4">Energia 4</string>
+      <string original="Retained on collision 4">Pozostało po zderzeniu 4</string>
+      <string original="Energy 5">Energia 5</string>
+      <string original="Retained on collision 5">Pozostało po zderzeniu 5</string>
+      <string original="Average retained">Średnio pozostawało</string>
+      <string original="Settings">Ustawienia</string>
+      <string original="Threshold">Poziom wyzwalania</string>
+      <string original="Minimum Delay">Minimalne opóźnienie</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Niestety wyniki eksperymentu mogą być niepoprawne w przypadku smartfonów pracujących z niską częstotliwością. Podczas pierwszego pomiaru zaleca się porównać uzyskane wyniki z rezultatami tradycyjnych pomiarów ze stoperem.</string>
+    </translation>
+    <translation locale="nl">
+      <title>(On)elastische botsing</title>
+      <category>Mechanica</category>
+      <description>
+        Bepaal de verloren energie tijdens (on) elastische botsingen van een botsende bal.
+
+        In principe werkt dit experiment zoals het akoestische chronometer-experiment. Dit experiment werkt evenwel met geluid dat afkomstig is van een bal (of iets dergelijks) die op een oppervlak botst en berekent de terugbotshoogte en resterende kinetische energie ten opzichte van de eerste botsing. Dit door het tijdsinterval tussen (het geluid van) opeenvolgende botsingen te analyseren.
+
+        Ook, door aan te nemen dat de bal hetzelfde percentage kinetische energie behoudt bij zijn eerste botsing, berekent phyphox de initiële hoogte 0 van waarop de bal valt.
+
+        Start het experiment en laat een bal op een oppervlak botsen op een manier die een duidelijk hoorbaar geluid genereert. U kunt u de drempelwaarde in de instellingen wijzigen (in het bereik van 0 tot 1), zodat het experiment reageert op het geluidsniveau van de bal, maar niet op het achtergrondgeluid. Als u te maken hebt met echo's, kunt u ook de minimale vertraging wijzigen en het minimale tijdsinterval instellen dat het experiment zal negeren voordat het op het volgende geluid reageert
+    </description>
+      <string original="Heights">Hoogtes</string>
+      <string original="Height 0">Hoogte 0</string>
+      <string original="Height 1">Hoogte 1</string>
+      <string original="Time 1">Tijdstip 1</string>
+      <string original="Height 2">Hoogte 2</string>
+      <string original="Time 2">Tijdstip 2</string>
+      <string original="Height 3">Hoogte 3</string>
+      <string original="Time 3">Tijdstip 3</string>
+      <string original="Height 4">Hoogte 4</string>
+      <string original="Time 4">Tijdstip 4</string>
+      <string original="Height 5">Hoogte 5</string>
+      <string original="Time 5">Tijdstip 5</string>
+      <string original="Energy">Energie</string>
+      <string original="Energy 1">Energie 1</string>
+      <string original="Energy 2">Energie 2</string>
+      <string original="Retained on collision 2">Behouden bij botsing 2</string>
+      <string original="Energy 3">Energie 3</string>
+      <string original="Retained on collision 3">Behouden bij botsing 3</string>
+      <string original="Energy 4">Energie 4</string>
+      <string original="Retained on collision 4">Behouden bij botsing 4</string>
+      <string original="Energy 5">Energie 5</string>
+      <string original="Retained on collision 5">Behouden bij botsing 5</string>
+      <string original="Average retained">Gemiddelde behouden</string>
+      <string original="Settings">Instellingen</string>
+      <string original="Threshold">Drempel</string>
+      <string original="Minimum Delay">Minimale vertraging</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Helaas werkt dit niet op langzame smartphones. Vergelijk eerst het akoestische chronometer-experiment met een gewone klok, om er zeker van te zijn dat het experiment werkt zoals verwacht. Als het werkt, zou dit experiment hier ook moeten werken.</string>
+    </translation>
+    <translation locale="ru">
+      <title>(Не)упругое столкновение</title>
+      <category>Механика</category>
+      <description>
+        Определите потерю энергии во время (не)упругих столкновений прыгающего мячика.
+
+         В принципе, этот эксперимент работает как эксперимент с акустическим секундомером. Тем не менее, этот эксперимент предполагает, что звук исходит от мячика (или чего-то подобного), подпрыгивающего на поверхности, и вычисляет высоту прыжка и оставшуюся кинетическую энергию относительно первого скачка, анализируя интервал между звукоми от удара мячика о поверхность.
+
+         Кроме того, предполагая, что мяч сохраняет тот же процент кинетической энергии при его первом скачке, phyphox вычисляет начальную высоту 0, с которой роняется мяч.
+
+         Итак, начните эксперимент и позвольте мячу прыгать на поверхности таким образом, чтобы он создавал отчетливо слышимый звук. Вы можете изменить порог в настройках (от 0 до 1), чтобы эксперимент реагировал на уровень звука от мяча, а не на фоновый шум. Кроме того, если вам мешает эхо, вы можете также изменить минимальную задержку, чтобы установить минимальный интервал между звуковыми сигналами.
+    </description>
+      <string original="Heights">Высота</string>
+      <string original="Height 0">Высота 0</string>
+      <string original="Height 1">Высота 1</string>
+      <string original="Time 1">Время 1</string>
+      <string original="Height 2">Высота 2</string>
+      <string original="Time 2">Время 2</string>
+      <string original="Height 3">Высота 3</string>
+      <string original="Time 3">Время 3</string>
+      <string original="Height 4">Высота 4</string>
+      <string original="Time 4">Время 4</string>
+      <string original="Height 5">Высота 6</string>
+      <string original="Time 5">Время 5</string>
+      <string original="Reset">Сброс</string>
+      <string original="Energy">Энергия</string>
+      <string original="Energy 1">Энергия 1</string>
+      <string original="Energy 2">Энергия 2</string>
+      <string original="Retained on collision 2">Сохранено при столкновении 2</string>
+      <string original="Energy 3">Энергия 3</string>
+      <string original="Retained on collision 3">Сохранено при столкновении 3</string>
+      <string original="Energy 4">Энергия 4</string>
+      <string original="Retained on collision 4">Сохранено при столкновении 4</string>
+      <string original="Energy 5">Энергия 5</string>
+      <string original="Retained on collision 5">Сохранено при столкновении 5</string>
+      <string original="Average retained">Сохранённое среднее значение</string>
+      <string original="Settings">Настройки</string>
+      <string original="Threshold">Порог</string>
+      <string original="Minimum Delay">Минимальная задержка</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">К сожалению, это не будет работать на вашем телефоне. Сравните результаты эксперимента «акустический секундомер» с обычными часами, чтобы убедиться, что эксперимент работает должным образом. Если результаты сходятся, то этот эксперимент должен работать также.</string>
+    </translation>
+    <translation locale="it">
+      <title>Collisione (an)elastica</title>
+      <category>Meccanica</category>
+      <description>
+        Misura l'energia persa negli urti (an)elastici di una pallina che rimbalza.
+
+In linea di principio, questo esperimento funziona come il cronometro acustico. In questo caso l'esperimento assume che il suono provenga da una pallina magica (o qualcosa di simile) che rimbalza su una superficie e calcola l'altezza raggiunta dopo il rimbalzo e l'energia cinetica rimanente rispetto al primo rimbalzo attraverso l'analisi del tempo necessario a misurare due rimbalzi consecutivi.
+
+Assumendo che la pallina perda sempre la stessa percentuale di energia a ogni urto, l'esperimento riesce a determinare anche l'altezza iniziale dalla quale la pallina è stata lasciata cadere.
+
+Pertanto, per eseguire l'esperimento, lascia cadere una pallina magica su una superficie in modo tale che produca un suono chiaramente udibile. Puoi modificare la soglia di udibilità del suono nella configurazione su una scala compresa tra 0 e 1, in maniera che phyphox reagisca al suono del rimbalzo, ma non ad altri suoni ambientali. Se hai problemi con echi puoi cambiare il ritardo minimo tra due rivelazioni successive e il minimo intervallo di tempo entro il quale il sistema deve ignorare un suono.
+    </description>
+      <string original="Heights">Altezza</string>
+      <string original="Height 0">Altezza 0</string>
+      <string original="Height 1">Altezza 1</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Height 2">Altezza 2</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Height 3">Altezza 3</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Height 4">Altezza 4</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Height 5">Altezza 5</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Energy">Energia</string>
+      <string original="Energy 1">Energia 1</string>
+      <string original="Energy 2">Energia 2</string>
+      <string original="Retained on collision 2">Rimasta al 2° rimbalzo</string>
+      <string original="Energy 3">Energia 3</string>
+      <string original="Retained on collision 3">Rimasta al 3° rimbalzo</string>
+      <string original="Energy 4">Energia 4</string>
+      <string original="Retained on collision 4">Rimasta al 4° rimbalzo</string>
+      <string original="Energy 5">Energia 5</string>
+      <string original="Retained on collision 5">Rimasta al 5° rimbalzo</string>
+      <string original="Average retained">Energia media rimasta</string>
+      <string original="Settings">Impostazioni</string>
+      <string original="Threshold">Soglia</string>
+      <string original="Minimum Delay">Ritardo minimo</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Purtroppo questo esperimento non funziona su telefoni troppo lenti. Per assicurarti che l'esperimento stia funzionando correttamente, confronta l'esperimento del cronometro acustico con un qualsiasi cronometro. Se si comporta correttamente l'esperimento funziona.</string>
+    </translation>
+    <translation locale="el">
+      <title>(Αν)ελαστική κρούση</title>
+      <category>Μηχανική</category>
+      <description>
+        Προσδιορίστε την ενεργειακή απώλεια κατά τη διάρκεια ανελαστικών συγκρούσεων μια μπάλας που αναπηδά.
+
+        Η αρχή της λειτουργία του πειράματος είναι όμοια με το πείραμα με το ακουστικό χρονόμετρο. Σ' αυτό όμως το πείραμα περιμένουμε τον ήχο να παραχθεί από μια μπάλα (ή κάτι παρόμοιο) που αναπηδά σε μια επιφάνεια και θα υπολογίσει το ύψος αναπήδησης και την εναπομένουσα κινητική ενέργεια σχετικά με το πρώτο χτύπημα αναλύοντας το χρονικό διάστημα ανάμεσα στον ήχο και στο χτύπημα.
+
+        Επίσης, θεωρώντας ότι η μπάλα διατηρεί το ίδιο ποσοστό κινητικής ενέργειας κατά το πρώτο χτύπημα, το phyphox θα υπολογίσει το αρχικό ύψος 0 από το οποίο αφέθηκε η μπάλα.
+
+        Άρα, ξεκινήστε το πείραμα αφήνοντας μια μπάλα να αναπηδά σε μια επιφάνεια με τέτοιο τρόπο ώστε να παράγει ένα αντιληπτό ήχο. Ίσως χρειαστεί να μεταβάλλεται το κατώφλι ενεργοποίησης στις ρυθμίσεις (στο διάστημα από 0-1) ώστε το χρονόμετρο να αντιδρά στη στάθμη ήχου της αναπήδησης αλλά όχι στους περιβαλλοντικούς θορύβους. Επίσης αν έχετε ηχώ, πιθανόν να χρειαστεί να αλλάξετε επίσης την ελάχιστη καθυστέρηση, ώστε να ορίσετε το ελάχιστο διάστημα στο οποίο το πείραμα θα παραμένει αδρανές  πριν αντιδράσει στον επόμενο ήχο.
+    </description>
+      <string original="Heights">Ύψη</string>
+      <string original="Height 0">Ύψος 0</string>
+      <string original="Height 1">Ύψος 1</string>
+      <string original="Time 1">Χρόνος 1</string>
+      <string original="Height 2">Ύψος 2</string>
+      <string original="Time 2">Χρόνος 2</string>
+      <string original="Height 3">Ύψος 3</string>
+      <string original="Time 3">Χρόνος 3</string>
+      <string original="Height 4">Ύψος 4</string>
+      <string original="Time 4">Χρόνος 4</string>
+      <string original="Height 5">Ύψος 5</string>
+      <string original="Time 5">Χρόνος 5</string>
+      <string original="Reset">Επαναφορά</string>
+      <string original="Energy">Ενέργεια</string>
+      <string original="Energy 1">Ενέργεια 1</string>
+      <string original="Energy 2">Ενέργεια 2</string>
+      <string original="Retained on collision 2">Διατηρούμενη στη σύγκρουση 2</string>
+      <string original="Energy 3">Ενέργεια 3</string>
+      <string original="Retained on collision 3">Διατηρούμενη στη σύγκρουση 3</string>
+      <string original="Energy 4">Ενέργεια 4</string>
+      <string original="Retained on collision 4">Διατηρούμενη στη σύγκρουση 4</string>
+      <string original="Energy 5">Ενέργεια 5</string>
+      <string original="Retained on collision 5">Διατηρούμενη στη σύγκρουση 5</string>
+      <string original="Average retained">Μέση διατηρούμενη</string>
+      <string original="Settings">Ρυθμίσεις</string>
+      <string original="Threshold">Κατώφλι ενεργοπ.</string>
+      <string original="Minimum Delay">Ελάχιστη καθυστέρηση</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Δυστυχώς αυτό το πείραμα δεν λειτουργεί σε αργά τηλέφωνα. Παρακαλώ ελέγξτε πρώτα το ακουστικό χρονόμετρο με ένα κανονικό ρολόϊ, ώστε να βεβαιωθείτε, ότι το πείραμα λειτουργεί όπως αναμένονταν. Αν ναι, τότε το πείραμα αυτό θα λειτουργεί επίσης.</string>
+    </translation>
+    <translation locale="ja">
+      <title>(非) 弾性衝突</title>
+      <category>力学・運動</category>
+      <description>
+        跳ね返るボールが非弾性衝突をしている間のエネルギー損失の特定．
+
+理論的には本実験は音響ストップウォッチのように動作します．本実験はボールが表面で弾む時の音，あるいはそれに似た現象による音を想定しており，ボールの衝突による音の間隔を解析することで，弾むボールの高さと運動エネルギ―を初めの衝突からの相対値として計算します．
+
+また，最初の衝突の運動エネルギーの損失割合は同じと仮定して，phyphoxはボールが落ちた初期高さを計算します．
+
+それでは，ボールから弾む音が聞こえるようにボールを弾ませて，実験を始めてください．本実験がボール以外からの音で反応しないように閾値の設定を0から1の範囲で変更できます．もし壁などからの反射音に反応して誤作動してしまう場合は，次の衝突音が発生するまでの間ストップウォッチをトリガーさせない期間（ホールドオフ）を設定することが可能です．
+    </description>
+      <string original="Heights">高さ</string>
+      <string original="Height 0">高さ 0</string>
+      <string original="Height 1">高さ 1</string>
+      <string original="Time 1">時間 1</string>
+      <string original="Height 2">高さ 2</string>
+      <string original="Time 2">時間 2</string>
+      <string original="Height 3">高さ 3</string>
+      <string original="Time 3">時間 3</string>
+      <string original="Height 4">高さ 4</string>
+      <string original="Time 4">時間 4</string>
+      <string original="Height 5">高さ 5</string>
+      <string original="Time 5">時間 5</string>
+      <string original="Reset">リセット</string>
+      <string original="Energy">エネルギー</string>
+      <string original="Energy 1">エネルギー 1</string>
+      <string original="Energy 2">エネルギー 2</string>
+      <string original="Retained on collision 2">衝突後に残ったエネルギー割合 2</string>
+      <string original="Energy 3">エネルギー 3</string>
+      <string original="Retained on collision 3">衝突後に残ったエネルギー割合 3</string>
+      <string original="Energy 4">エネルギー　4</string>
+      <string original="Retained on collision 4">衝突後に残ったエネルギー割合 4</string>
+      <string original="Energy 5">エネルギー 5</string>
+      <string original="Retained on collision 5">衝突後に残ったエネルギー割合 5</string>
+      <string original="Average retained">衝突後に残るエネルギー割合の平均</string>
+      <string original="Settings">設定</string>
+      <string original="Threshold">閾値</string>
+      <string original="Minimum Delay">ホールドオフ時間</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">残念ながら，本実験は動作速度の遅いスマートフォンにおいては機能しません．本実験が予測通り動作するかどうか確かめるために，音響ストップウォッチの実験結果と通常のタイマーを比較して下さい．問題なく動作していることが確認できれば，本実験も問題なく動作します．</string>
+    </translation>
+    <translation locale="pt">
+      <title>Colisão (IN)elástica</title>
+      <category>Mecânica</category>
+      <description>
+        Determina a perda de energia durante colisões (in)elásticas de uma bola quicando.
+
+        A princípio, este experimento funciona como o experimento do cronômetro acústico. Entretanto, este experimento espera o som vindo de uma bola (ou algo similar) quicando em uma superfície e irá calcular a altura do quique e a energia cinética remanescente relativa ao primeiro quique através da análise do intervalo entre o som do impacto.
+
+        Além disso,  supondo que a bola mantém o mesmo percentual de energia cinética do primeiro quique, o phyphox calculará a altura inicial 0 no qual a bola foi solta.
+
+        Então, inicie o experimento e deixe a bola quicar na superfície de uma forma que gere um som audível. Você pode querer mudar o limiar na configuração (na faixa de 0 a 1), para que o experimento reaja ao nível de barulho da bola e não ao ruído do ambiente. Também, se você tiver dificuldades com ecos, você pode querer mudar o atraso mínimo, bem como configurar o intervalo mínimo do experimento irá ignorar antes de reagir ao próximo barulho.
+    </description>
+      <string original="Heights">Alturas</string>
+      <string original="Height 0">Altura 0</string>
+      <string original="Height 1">Altura 1</string>
+      <string original="Time 1">Tempo 1</string>
+      <string original="Height 2">Altura 2</string>
+      <string original="Time 2">Tempo 2</string>
+      <string original="Height 3">Altura 3</string>
+      <string original="Time 3">Tempo 3</string>
+      <string original="Height 4">Altura 4</string>
+      <string original="Time 4">Tempo 4</string>
+      <string original="Height 5">Altura 5</string>
+      <string original="Time 5">Tempo 5</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Energy">Energia</string>
+      <string original="Energy 1">Energia 1</string>
+      <string original="Energy 2">Energia 2</string>
+      <string original="Retained on collision 2">Retido na colisão 2</string>
+      <string original="Energy 3">Energia 3</string>
+      <string original="Retained on collision 3">Retido na colisão 3</string>
+      <string original="Energy 4">Energia 4</string>
+      <string original="Retained on collision 4">Retido na colisão 4</string>
+      <string original="Energy 5">Energia 5</string>
+      <string original="Retained on collision 5">Retido na colisão 5</string>
+      <string original="Average retained">Média retida</string>
+      <string original="Settings">Configurações</string>
+      <string original="Threshold">Limiar</string>
+      <string original="Minimum Delay">Intervalo Mínimo</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Infelizmente, isto não funcionará em aparelhos lentos. Por favor, compare o experimento do cronômetro acústico com um cronômetro normal primeiro, para garantir que o experimento funcione como esperado. Se funcionar, este experimento aqui deverá funcionar também.</string>
+    </translation>
+    <translation locale="tr">
+      <title>Elastik olmayan çarpışma</title>
+      <category>Mekanik</category>
+      <description>
+        Zıplayan topun esnek olmayan çarpışmalar sırasında kaybettiği enerjiyi belirleyin.
+
+      Bu deney prensip olarak, akustik kronometre deneyi gibi çalışır. Bununla birlikte, bu deney, sesin bir yüzey üzerinde sıçrayan bir toptan (veya benzer bir şeyden) gelmesini bekler ve çarpışmadan gelen sesler arasındaki zamanı analiz ederek, sıçrayan yüksekliğe ve ilk sıçramaya göre kalan kinetik enerjiyi hesaplar.
+
+        Ayrıca, topun ilk sıçrama sırasında aynı yüzdeyle kinetik enerjiyi koruduğu varsayılarak, phyphox topun bırakıldığı başlangıç yüksekliğini (0) hesaplayacaktır.
+
+        Böylece, deneyi başlatın ve topun net algılanabilir bir gürültü oluşturması için bir yüzeyden sıçramasına izin verin. Ayarlardaki eşiği (0 ila 1 aralığında) değiştirmek isteyebilirsiniz, böylece deney, topun gürültü seviyesine tepki verir ancak arka plan gürültüsüne tepki vermez. Ayrıca, ortamdaki eko ile mücadele ediyorsanız, bir sonraki gürültüye tepki vermeden önce deneyin görmezden geleceği minimum aralığı ayarlamak için minimum gecikmeyi de değiştirmek isteyebilirsiniz.
+    </description>
+      <string original="Heights">Yükseklik</string>
+      <string original="Height 0">Yükseklik 0</string>
+      <string original="Height 1">Yükseklik 1</string>
+      <string original="Time 1">Zaman 1</string>
+      <string original="Height 2">Yükseklik 2</string>
+      <string original="Time 2">Zaman 2</string>
+      <string original="Height 3">Yükseklik 3</string>
+      <string original="Time 3">Zaman 3</string>
+      <string original="Height 4">Yükseklik 4</string>
+      <string original="Time 4">Zaman 4</string>
+      <string original="Height 5">Yükseklik 5</string>
+      <string original="Time 5">Zaman 5</string>
+      <string original="Reset">Sıfırla</string>
+      <string original="Energy">Enerji</string>
+      <string original="Energy 1">Enerji 1</string>
+      <string original="Energy 2">Enerji 2</string>
+      <string original="Retained on collision 2">Çarpışma 2'de saklanan</string>
+      <string original="Energy 3">Enerji 3</string>
+      <string original="Retained on collision 3">Çarpışma 3'de saklanan</string>
+      <string original="Energy 4">Enerji 4</string>
+      <string original="Retained on collision 4">Çarpışma 4'te saklanan</string>
+      <string original="Energy 5">Enerji 5</string>
+      <string original="Retained on collision 5">Çarpışma 5'de saklanan</string>
+      <string original="Average retained">Ortalama saklanan</string>
+      <string original="Settings">Ayarlar</string>
+      <string original="Threshold">Eşik</string>
+      <string original="Minimum Delay">Minimum Gecikme</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Ne yazık ki, bu yavaş telefonlarda çalışmaz. Lütfen deneyin beklendiği gibi çalıştığından emin olmak için akustik kronometre deneyi önce normal bir saate göre karşılaştırın. Eğer işe yarıyorsa, bu deney de burada çalışmalıdır.</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>（非）彈性碰撞</title>
+      <category>力學</category>
+      <description>
+        測得彈跳中的球在（非）彈性碰撞中損失的能量。
+
+	原則上，此實驗的運作原理與聲學碼表類似。然而，此實驗預期聲音的來源為球（或類似物）在表面上的彈跳，並且透過分析撞擊的時間間隔，計算相對於第一次彈跳的跳躍高度及剩餘動能。
+
+	並且，透過假設球在第一次彈跳保持相同的動能比例，phyphox會計算球掉落處的初始高度0。
+
+	因此，使球在一表面彈跳並使之產生一清楚的聲音。你可能會想調整設定中的門檻（由0至1），使實驗裝置僅受球的聲音而不受背景噪音影響。如果你有回音上的困擾，你可以嘗試改變最小延遲，即調整裝置於多少秒內忽略下一個聲音。
+    </description>
+      <string original="Heights">高度</string>
+      <string original="Height 0">高度 0</string>
+      <string original="Height 1">高度 1</string>
+      <string original="Time 1">時間 1</string>
+      <string original="Height 2">高度 2</string>
+      <string original="Time 2">時間 2</string>
+      <string original="Height 3">高度 3</string>
+      <string original="Time 3">時間 3</string>
+      <string original="Height 4">高度 4</string>
+      <string original="Time 4">時間 4</string>
+      <string original="Height 5">高度 5</string>
+      <string original="Time 5">時間 5</string>
+      <string original="Reset">重置</string>
+      <string original="Energy">能量</string>
+      <string original="Energy 1">能量 1</string>
+      <string original="Energy 2">能量 2</string>
+      <string original="Retained on collision 2">於碰撞2中保持</string>
+      <string original="Energy 3">能量 3</string>
+      <string original="Retained on collision 3">於碰撞3中保持</string>
+      <string original="Energy 4">能量 4</string>
+      <string original="Retained on collision 4">於碰撞4中保持</string>
+      <string original="Energy 5">能量 5</string>
+      <string original="Retained on collision 5">於碰撞5中保持</string>
+      <string original="Average retained">平均能量保持</string>
+      <string original="Settings">設定</string>
+      <string original="Threshold">門檻</string>
+      <string original="Minimum Delay">最小延遲</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">不幸地，這在慢的手機中不能使用。請將聲學碼表與正常的時鐘比較已確保此實驗能如期地運作。如果在聲學碼表中可以使用，則此實驗亦能使用。</string>
+    </translation>
+    <translation locale="fr">
+      <title>Collision (in)élastique</title>
+      <category>Mécanique</category>
+      <description>
+        Détermine l'énergie perdue lors des collisions (in)élastiques d'une balle qui rebondit.
+
+        En principe, cette expérience fonctionne comme l'expérience du chronomètre sonore. Cependant, on s'attend ici à ce que le son provienne d'une balle (ou autre) qui rebondit sur une surface : la hauteur de rebondissement et l'énergie cinétique restante par rapport au premier rebond seront calculées en analysant les intervalles de temps entre les impacts (sonores).
+
+        En outre, en supposant que la balle conserve le même pourcentage d'énergie cinétique à chaque rebond, phyphox calculera la hauteur initiale à partir de laquelle la balle a été lâchée.
+
+        Pour faire l'expérience, lâchez une balle sur une surface et laissez la rebondir. Il faut que les rebonds fassent un bruit clairement audible. Vous pouvez modifier le seuil dans les paramètres (dans la plage 0 à 1), de façon à être sensible au bruit de la balle mais pas au bruit de fond. De plus, si vous avez des problèmes avec les échos, vous pouvez également modifier le délai minimum afin de définir l'intervalle de temps que l'expérience ignorera avant de réagir au prochain bruit.
+    </description>
+      <string original="Heights">Hauteurs</string>
+      <string original="Height 0">Hauteur 0</string>
+      <string original="Height 1">Hauteur 1</string>
+      <string original="Time 1">Temps 1</string>
+      <string original="Height 2">Hauteur 2</string>
+      <string original="Time 2">Temps 2</string>
+      <string original="Height 3">Hauteur 3</string>
+      <string original="Time 3">Temps 3</string>
+      <string original="Height 4">Hauteur 4</string>
+      <string original="Time 4">Temps 4</string>
+      <string original="Height 5">Hauteur 5</string>
+      <string original="Time 5">Temps 5</string>
+      <string original="Reset">Remise à zéro</string>
+      <string original="Energy">Énergie</string>
+      <string original="Energy 1">Énergie 2</string>
+      <string original="Energy 2">Énergie 3</string>
+      <string original="Retained on collision 2">énergie conservée lors de la collision 2</string>
+      <string original="Energy 3">Énergie 3</string>
+      <string original="Retained on collision 3">énergie conservée lors de la collision 3</string>
+      <string original="Energy 4">Énergie 4</string>
+      <string original="Retained on collision 4">énergie conservée lors de la collision 4</string>
+      <string original="Energy 5">Énergie 5</string>
+      <string original="Retained on collision 5">énergie conservée lors de la collision 5</string>
+      <string original="Average retained">Conservation moyenne de l'énergie</string>
+      <string original="Settings">Paramètres</string>
+      <string original="Threshold">Seuil</string>
+      <string original="Minimum Delay">Délai minimum</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Malheureusement, cette expérience ne fonctionnera pas sur les téléphones les plus lents. Vérifiez d'abord que l'expérience chronomètre sonore fonctionne comme prévu en comparant ses résultats à ceux d'un chronomètre classique. Si cela fonctionne, cette expérience devrait également fonctionner.</string>
+    </translation>
+    <translation locale="vi">
+      <title>Va chạm (không) đàn hồi</title>
+      <category>Cơ học</category>
+      <description>
+        Xác định năng lượng bị mất trong các va chạm (không) đàn hồi của một quả bóng nảy.
+
+        Về nguyên tắc, thí nghiệm này hoạt động giống như thí nghiệm đồng hồ bấm giờ âm thanh. Tuy nhiên, thí nghiệm này sử dụng âm thanh phát ra từ một quả bóng (hoặc một cái gì đó tương tự) nảy trên bề mặt và sẽ tính toán độ cao nảy và động năng còn lại theo độ cao lần nảy đầu tiên bằng cách phân tích khoảng cách giữa các âm thanh từ va chạm.
+
+        Ngoài ra, bằng cách giả sử rằng quả bóng giữ nguyên tỷ lệ phần trăm động năng trong lần nảy đầu tiên, phyphox sẽ tính chiều cao ban đầu mà từ đó quả bóng được thả.
+
+        Vì vậy, hãy bắt đầu thí nghiệm và để một quả bóng nảy lên trên bề mặt sao cho nó tạo ra âm thanh to. Bạn có thể muốn thay đổi ngưỡng trong cài đặt (trong phạm vi 0 thành 1), để thí nghiệm phản ứng với mức độ ồn của bóng nhưng không phải là tiếng ồn nền. Ngoài ra, nếu bạn gặp khó với tiếng vang, bạn cũng có thể muốn thay đổi độ trễ tối thiểu để đặt khoảng thời gian tối thiểu mà thí nghiệm sẽ bỏ qua trước khi phản ứng với tiếng ồn tiếp theo.
+    </description>
+      <string original="Heights">Độ cao</string>
+      <string original="Height 0">Độ cao 0</string>
+      <string original="Height 1">Độ cao 1</string>
+      <string original="Time 1">Thời gian 1</string>
+      <string original="Height 2">Độ cao 2</string>
+      <string original="Time 2">Thời gian 2</string>
+      <string original="Height 3">Độ cao 3</string>
+      <string original="Time 3">Thời gian 3</string>
+      <string original="Height 4">Độ cao 4</string>
+      <string original="Time 4">Thời gian 4</string>
+      <string original="Height 5">Độ cao 5</string>
+      <string original="Time 5">Thời gian 5</string>
+      <string original="Reset">Đặt lại</string>
+      <string original="Energy">Năng lượng</string>
+      <string original="Energy 1">Năng lượng 1</string>
+      <string original="Energy 2">Năng lượng 2</string>
+      <string original="Retained on collision 2">C.lại sau v.chạm 2</string>
+      <string original="Energy 3">Năng lượng 3</string>
+      <string original="Retained on collision 3">C.lại sau v.chạm 3</string>
+      <string original="Energy 4">Năng lượng 4</string>
+      <string original="Retained on collision 4">C.lại sau v.chạm 4</string>
+      <string original="Energy 5">Năng lượng 5</string>
+      <string original="Retained on collision 5">C.lại sau v.chạm 5</string>
+      <string original="Average retained">Trung bình còn lại</string>
+      <string original="Settings">Cài đặt</string>
+      <string original="Threshold">Ngưỡng</string>
+      <string original="Minimum Delay">Độ trễ tối thiểu</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Thật không may, thí nghiệm sẽ không hoạt động trên điện thoại chậm. Trước tiên, hãy so sánh thí nghiệm đồng hồ bấm giờ âm thanh với đồng hồ thông thường, để đảm bảo rằng thí nghiệm đang hoạt động như mong đợi. Nếu nó hoạt động, thí nghiệm này cũng sẽ hoạt động tốt.</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>（非）弹性碰撞</title>
+      <category>力学</category>
+      <description>
+      确定弹跳中的球在（非）弹性碰撞中的能量损耗。
+
+	  理论上，本实验工作原理与声学秒表类似。然而，本实验需要声音来源于在任一平面上弹跳的球（或类似物体），并将分析声音时间间隔来计算出弹起高度和相对于第一次弹跳的剩余动能。
+
+      此外，假设球在第一次弹跳时保持相同的动能百分比，phyphox会将球下落的初始高度计为0。
+
+      因此，启动实验并让小球在表面弹起时产生一个能清晰听见的声音。可以改变设置中的阈值（范围从0至1），这样实验仅受球的声音而不是环境噪声影响。同时，如果受回声的干扰，可能还需更改最小延迟，设置实验在对下一次噪音做出反应之前将忽略的最小间隔。
+    </description>
+      <string original="Heights">高度</string>
+      <string original="Height 0">高度 0</string>
+      <string original="Height 1">高度 1</string>
+      <string original="Time 1">时间 1</string>
+      <string original="Height 2">高度 2</string>
+      <string original="Time 2">时间 2</string>
+      <string original="Height 3">高度 3</string>
+      <string original="Time 3">时间 3</string>
+      <string original="Height 4">高度 4</string>
+      <string original="Time 4">时间 4</string>
+      <string original="Height 5">高度 5</string>
+      <string original="Time 5">时间 5</string>
+      <string original="Reset">复位</string>
+      <string original="Energy">能量</string>
+      <string original="Energy 1">能量 1</string>
+      <string original="Energy 2">能量 2</string>
+      <string original="Retained on collision 2">在碰撞2中剩余</string>
+      <string original="Energy 3">能量3</string>
+      <string original="Retained on collision 3">在碰撞3中剩余</string>
+      <string original="Energy 4">能量4</string>
+      <string original="Retained on collision 4">在碰撞4中剩余</string>
+      <string original="Energy 5">能量5</string>
+      <string original="Retained on collision 5">在碰撞5中剩余</string>
+      <string original="Average retained">平均剩余</string>
+      <string original="Settings">设置</string>
+      <string original="Threshold">阈值</string>
+      <string original="Minimum Delay">最小时延</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">很遗憾，此功能在运行较慢的手机上无法使用。请先将声学秒表实验与普通时钟进行对比，以确保实验按预期正常运行。如果声学秒表实验运行正常，那么本实验也应能正常运行。</string>
+    </translation>
+    <translation locale="sr">
+      <title>(Ne)elastični sudar</title>
+      <category>Mehanika</category>
+      <description>
+        Odredite energiju izgubljenu tokom (ne)elastičnih sudara lopte.
+
+        U principu, ovaj eksperiment funkcioniše kao akustični eksperiment štoperice. Međutim, ovaj eksperiment očekuje da zvuk dolazi od lopte (ili nečeg sličnog) koja se odbija od površine i izračunava visinu poskakivanja i preostalu kinetičku energiju u odnosu na prvi skok analizirajući interval između zvuka udara.
+
+        Takođe, pretpostavljajući da lopta zadržava isti procenat kinetičke energije na svom prvom odskoku, phyphox će izračunati početnu visinu 0 od koje je lopta ispuštena.
+
+        Dakle, pokrenite eksperiment i pustite da se lopta odbije od površine na način da proizvede jasno čujni šum. Možda želite da promenite prag u podešavanjima (u opsegu od 0 do 1), tako da eksperiment reaguje na nivo buke lopte, ali ne i na pozadinsku buku. Takođe, ako imate problema sa ehoom, možda ćete želeti da promenite i minimalno kašnjenje tako da postavite minimalni interval koji će eksperiment ignorisati pre reagovanja na sledeći šum.
+    </description>
+      <string original="Heights">Visine</string>
+      <string original="Height 0">Visina 0</string>
+      <string original="Height 1">Visina 1</string>
+      <string original="Time 1">Vreme 1</string>
+      <string original="Height 2">Visina 2</string>
+      <string original="Time 2">Vreme 2</string>
+      <string original="Height 3">Visina 3</string>
+      <string original="Time 3">Vreme 3</string>
+      <string original="Height 4">Visina 4</string>
+      <string original="Time 4">Vreme 4</string>
+      <string original="Height 5">Visina 5</string>
+      <string original="Time 5">Vreme 5</string>
+      <string original="Energy">Energija</string>
+      <string original="Energy 1">Energija 1</string>
+      <string original="Energy 2">Energija 2</string>
+      <string original="Retained on collision 2">Zadržano u sudaru 2</string>
+      <string original="Energy 3">Energija 3</string>
+      <string original="Retained on collision 3">Zadržano u sudaru 3</string>
+      <string original="Energy 4">Energija 4</string>
+      <string original="Retained on collision 4">Zadržano u sudaru 4</string>
+      <string original="Energy 5">Energija 5</string>
+      <string original="Retained on collision 5">Zadržano u sudaru 5</string>
+      <string original="Average retained">U proseku zadržano</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Threshold">Prag</string>
+      <string original="Minimum Delay">Minimalno zakašnjenje</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo uporedite eksperiment Akustična štoperica sa običnim satom, kako biste se uverili da eksperiment radi kako treba. Ukoliko radi, ovaj eksperiment bi takođe trebalo da funkcioniše.</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>(Ne)elastični sudar</title>
+      <category>Mehanika</category>
+      <description>
+        Odredite energiju izgubljenu tokom (ne)elastičnih sudara lopte.
+
+        U principu, ovaj eksperiment funkcioniše kao akustični eksperiment štoperice. Međutim, ovaj eksperiment očekuje da zvuk dolazi od lopte (ili nečeg sličnog) koja se odbija od površine i izračunava visinu poskakivanja i preostalu kinetičku energiju u odnosu na prvi skok analizirajući interval između zvuka udara.
+
+        Takođe, pretpostavljajući da lopta zadržava isti procenat kinetičke energije na svom prvom odskoku, phyphox će izračunati početnu visinu 0 od koje je lopta ispuštena.
+
+        Dakle, pokrenite eksperiment i pustite da se lopta odbije od površine na način da proizvede jasno čujni šum. Možda želite da promenite prag u podešavanjima (u opsegu od 0 do 1), tako da eksperiment reaguje na nivo buke lopte, ali ne i na pozadinsku buku. Takođe, ako imate problema sa ehoom, možda ćete želeti da promenite i minimalno kašnjenje tako da postavite minimalni interval koji će eksperiment ignorisati pre reagovanja na sledeći šum.
+    </description>
+      <string original="Heights">Visine</string>
+      <string original="Height 0">Visina 0</string>
+      <string original="Height 1">Visina 1</string>
+      <string original="Time 1">Vreme 1</string>
+      <string original="Height 2">Visina 2</string>
+      <string original="Time 2">Vreme 2</string>
+      <string original="Height 3">Visina 3</string>
+      <string original="Time 3">Vreme 3</string>
+      <string original="Height 4">Visina 4</string>
+      <string original="Time 4">Vreme 4</string>
+      <string original="Height 5">Visina 5</string>
+      <string original="Time 5">Vreme 5</string>
+      <string original="Energy">Energija</string>
+      <string original="Energy 1">Energija 1</string>
+      <string original="Energy 2">Energija 2</string>
+      <string original="Retained on collision 2">Zadržano u sudaru 2</string>
+      <string original="Energy 3">Energija 3</string>
+      <string original="Retained on collision 3">Zadržano u sudaru 3</string>
+      <string original="Energy 4">Energija 4</string>
+      <string original="Retained on collision 4">Zadržano u sudaru 4</string>
+      <string original="Energy 5">Energija 5</string>
+      <string original="Retained on collision 5">Zadržano u sudaru 5</string>
+      <string original="Average retained">U proseku zadržano</string>
+      <string original="Settings">Podešavanja</string>
+      <string original="Threshold">Prag</string>
+      <string original="Minimum Delay">Minimalno zakašnjenje</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Nažalost, ovo neće funkcionisati na sporim telefonima. Molimo uporedite eksperiment Akustična štoperica sa običnim satom, kako biste se uverili da eksperiment radi kako treba. Ukoliko radi, ovaj eksperiment bi takođe trebalo da funkcioniše.</string>
+    </translation>
+    <translation locale="es">
+      <title>Colisión Inelástica</title>
+      <category>Mecánica</category>
+      <description>
+        Determine la energía perdida durante colisiones inelásticas de una pelota que rebota.
+
+        En principio, este experimento funciona como el experimento del cronómetro acústico. Sin embargo, este experimento espera que el sonido provenga de una pelota (o algo similar) que rebota en una superficie y calculará la altura de rebote y la energía cinética restante en relación con el primer rebote analizando el intervalo entre el sonido del impacto.
+
+        Además, al suponer que la pelota retiene el mismo porcentaje de energía cinética en su primer rebote, phyphox calculará la altura inicial 0 desde la cual se deja caer la pelota.
+
+        Entonces, comience el experimento y deje que una pelota rebote en una superficie de manera que genere un ruido claramente audible. Es posible que desee cambiar el umbral en la configuración (en el rango de 0 a 1), para que el experimento reaccione al nivel de ruido de la pelota pero no al ruido de fondo. Además, si tiene problemas con los ecos, es posible que también desee cambiar el retraso mínimo para establecer el intervalo mínimo que el experimento ignorará antes de reaccionar al siguiente ruido.
+    </description>
+      <string original="Heights">Alturas</string>
+      <string original="Height 0">Altura 0</string>
+      <string original="Height 1">Altura 1</string>
+      <string original="Time 1">Tiempo 1</string>
+      <string original="Height 2">Altura 2</string>
+      <string original="Time 2">Tiempo 2</string>
+      <string original="Height 3">Altura 3</string>
+      <string original="Time 3">Tiempo 3</string>
+      <string original="Height 4">Altura 4</string>
+      <string original="Time 4">Tiempo 4</string>
+      <string original="Height 5">Altura 5</string>
+      <string original="Time 5">Tiempo 5</string>
+      <string original="Reset">Reiniciar</string>
+      <string original="Energy">Energía</string>
+      <string original="Energy 1">Energía 1</string>
+      <string original="Energy 2">Energía 2</string>
+      <string original="Retained on collision 2">Retenido en colisión 2</string>
+      <string original="Energy 3">Energía 3</string>
+      <string original="Retained on collision 3">Retenido en colisión 3</string>
+      <string original="Energy 4">Energía 4</string>
+      <string original="Retained on collision 4">Retenido en colisión 4</string>
+      <string original="Energy 5">Energía 5</string>
+      <string original="Retained on collision 5">Retenido en colisión 5</string>
+      <string original="Average retained">Promedio retenido</string>
+      <string original="Settings">Ajustes</string>
+      <string original="Threshold">Umbral</string>
+      <string original="Minimum Delay">Retraso mínimo</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">Desafortunadamente, esto no funcionará en teléfonos lentos. Compare primero el experimento del cronómetro acústico con un reloj normal, para asegurarse de que el experimento funciona como se esperaba. Si funciona, este experimento aquí debería funcionar también.</string>
+    </translation>
+    <translation locale="ka">
+      <title>(არა)ინერტული დაჯახება</title>
+      <category>მექანიკა</category>
+      <description>
+        გამოთვალე ენერგიის დანაკარგი (არა)ინერტულ ბურთის ხტუნაობისას.
+
+        საერთო ჯამში ეს ექსპერიმენტი მუშაობს როგორც აკუსტიკური წამზომი. იმ განსხვავებით რომ აქ ბურთის დაცემის ხმას ინიშნავს (ან რაიმე მსგავისი), მიღებული მონაცემებით დამუშავდება ინტერვალების დროები და გამოითვლება საწყისი სიმაღლე და დარჩენილი კინეტიკური ენერგიები.
+
+        იმის გათვალისწინებით რომ ბურთი კარგავს ერთი და იმავე პროცენტულ კინეტიკურ ენერგიას, ფაიფოქსი გამოთვლის საწყის სიმაღლეს საიდანაც ბურთი ჩამოვარდა.
+
+        დაიწყეთ ექსპერიმენტი და აცადეთ ბურთს რამდენიმე დაცემა ახტომა ისე რომ დაჯახების ხმები აღქმადი იყოს. თუ ღმა ცოტაა საზღვრების შეცვლა შეიძლება გახდეს საჭირო პარამეტრებში (საზღვრებში 0-დან 1-მდე), ასე რომ ექსპერიმენტმა აღიქვას ბურთის ხმა და არა უკანა ხმაური. ასევე თუ თქვენთვის ექსო პრობლემაა, პარამეტრებში ასევე შეგიძლიათ შეცვალოთ მინიმალური დაშორება იმპულსებს შორის რათაგანმეორებითი ექოს ხმები არგახდეს ახალი მონაცემად აღქმული.
+    </description>
+      <string original="Heights">სიმაღლეები</string>
+      <string original="Height 0">სიმაღლე 0</string>
+      <string original="Height 1">სიმაღლე 1</string>
+      <string original="Time 1">დრო 1</string>
+      <string original="Height 2">სიმაღლე 2</string>
+      <string original="Time 2">დრო 2</string>
+      <string original="Height 3">სიმაღლე 3</string>
+      <string original="Time 3">დრო 3</string>
+      <string original="Height 4">სიმაღლე 4</string>
+      <string original="Time 4">დრო 4</string>
+      <string original="Height 5">სიმაღლე 5</string>
+      <string original="Time 5">დრო 5</string>
+      <string original="Reset">გადატვირთვა</string>
+      <string original="Energy">ენერგია</string>
+      <string original="Energy 1">ენერგია 1</string>
+      <string original="Energy 2">ენერგია 2</string>
+      <string original="Retained on collision 2">შენარჩუნებული დაღახებაის შემდეგ 2</string>
+      <string original="Energy 3">ენერგია 3</string>
+      <string original="Retained on collision 3">შენარჩუნებული დაჯახების შემდეგ 3</string>
+      <string original="Energy 4">ენერგია 4</string>
+      <string original="Retained on collision 4">შენარჩუნებული დაჯახების შემდეგ 4</string>
+      <string original="Energy 5">ენერგია 5</string>
+      <string original="Retained on collision 5">შენარჩუნებული დაჯახების შემდეგ 5</string>
+      <string original="Average retained">საშუალო შენარჩუნებული</string>
+      <string original="Settings">პარამეტრები</string>
+      <string original="Threshold">გაშვების ზღვარი</string>
+      <string original="Minimum Delay">საშუალო დაგვიანება</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">სამწუხაროდ, ეს არიმუშავებს ნელ ტელეფონებზე. გთხოვთ შეადაროთ აკუსტიკური საათის ექსპერიმენტი რეალურს საათს, რომ დარწმუნდეთ მის სისწორეში. თუ მუშაობს ამ ექსპერიმენტსაც არ უნდა ქონდეს პრობლემა.</string>
+    </translation>
+    <translation locale="hi">
+      <title>(अ)प्रत्यास्थ संघट्ट</title>
+      <category>यांत्रिकी</category>
+      <description>
+        उछलती हुई गेंद के अप्रत्यास्थ संघट्ट के दौरान ऊर्जा हानि का निर्धारण करें।
+
+सैद्धांतिक रूप में, यह प्रयोग ध्वनिकी विराम घडी प्रयोग की तरह काम करता है। हालांकि, यह प्रयोग सतह पर उछलती हुई गेंद (या कुछ इसी तरह) से आने वाली ध्वनि की संभावनाओं पर आधारित है और यह प्रयोग प्रभावी रूप से ध्वनि के बीच के अंतराल का विश्लेषण करके पहली उछाल के सापेक्ष उछलती ऊंचाई और शेष गतिज ऊर्जा की गणना करेगा।
+
+इसके अलावा, यह मानते हुए कि गेंद अपनी पहली उछाल पर गतिज ऊर्जा का समान प्रतिशत यथावत (उतना ही) रखती है, फायफॉक्स प्रारंभिक ऊंचाई शून्य (0) की गणना करेगा जिससे गेंद गिराई जाती है।
+
+अतः, प्रयोग शुरू करें और एक गेंद को सतह पर इस तरह उछाल दें, कि यह स्पष्ट रूप से सुनने योग्य शोर उत्पन्न करे। आप सेटिंग में देहली (थेरसोल्ड) को वदल सकते हैं (0 से 1 की सीमा में), ताकि प्रयोग गेंद के शोर स्तर पर प्रतिक्रिया (रेस्पॉन्स) करे, लेकिन पृष्ठभूमि (बैकग्राउंड) के शोर पर नहीं। इसके अलावा, यदि आप गूँज (इको) के साथ स्ट्रगल करते हैं, तो आप न्यूनतम विलंब (डिले) को बदल सकते हैं और साथ ही न्यूनतम अंतराल सेट (नियत) कर सकते हैं जिसे प्रयोग अगले शोर पर प्रतिक्रिया करने से पहले अनदेखा कर देगा।
+    </description>
+      <string original="Heights">ऊंचाइयां</string>
+      <string original="Height 0">शून्य ऊंचाई</string>
+      <string original="Height 1">ऊंचाई 1</string>
+      <string original="Time 1">समय 1</string>
+      <string original="Height 2">ऊंचाई 2</string>
+      <string original="Time 2">समय 2</string>
+      <string original="Height 3">ऊंचाई 3</string>
+      <string original="Time 3">समय 3</string>
+      <string original="Height 4">ऊंचाई 4</string>
+      <string original="Time 4">समय 4</string>
+      <string original="Height 5">ऊंचाई 5</string>
+      <string original="Time 5">समय 5</string>
+      <string original="Reset">रीसेट</string>
+      <string original="Energy">ऊर्जा</string>
+      <string original="Energy 1">ऊर्जा 1</string>
+      <string original="Energy 2">ऊर्जा 2</string>
+      <string original="Retained on collision 2">संघट्ट 2 पर बरकरार</string>
+      <string original="Energy 3">ऊर्जा 3</string>
+      <string original="Retained on collision 3">संघट्ट 3 पर बरकरार</string>
+      <string original="Energy 4">ऊर्जा 4</string>
+      <string original="Retained on collision 4">संघट्ट 4 पर बरकरार</string>
+      <string original="Energy 5">ऊर्जा 5</string>
+      <string original="Retained on collision 5">संघट्ट 5 पर बरकरार</string>
+      <string original="Average retained">सुरक्षित औसत</string>
+      <string original="Settings">सेटिंग्स</string>
+      <string original="Threshold">थ्रेशोल्ड</string>
+      <string original="Minimum Delay">न्यूनतम डिले</string>
+      <string original="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well.">दुर्भाग्य से, यह धीमे फ़ोन पर काम नहीं करेगा। यह सुनिश्चित करने के लिए कि प्रयोग अपेक्षित रूप से काम कर रहा है, कृपया पहले ध्वनिक विरामघड़ी (स्टॉपवॉच) प्रयोग की तुलना नियमित घड़ी से करें। अगर वह काम करता है, तो यहां यह प्रयोग भी काम करना चाहिए।</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container>threshold</container>
+    <container>mindelay</container>
+    <container size="16384" init="0">recording</container>
+    <container>rate</container>
+    <container>i</container>
+    <container>i2</container>
+    <container>t</container>
+    <container>limit</container>
+    <container>max</container>
+    <container init="0">t0</container>
+    <container init="0">t1</container>
+    <container init="0">t2</container>
+    <container init="0">t3</container>
+    <container init="0">t4</container>
+    <container init="0">t5</container>
+    <container init="0">last</container>
+    <container>t0effective</container>
+    <container>t1effective</container>
+    <container>t2effective</container>
+    <container>t3effective</container>
+    <container>t4effective</container>
+    <container>t5effective</container>
+    <container>tmax</container>
+    <container>dt01</container>
+    <container>dt12</container>
+    <container>dt23</container>
+    <container>dt34</container>
+    <container>dt45</container>
+    <container>dt23show</container>
+    <container>dt34show</container>
+    <container>dt45show</container>
+    <container>dt01_2</container>
+    <container>dt12_2</container>
+    <container>dt23_2</container>
+    <container>dt34_2</container>
+    <container>dt45_2</container>
+    <container>h0</container>
+    <container>h1</container>
+    <container>h2</container>
+    <container>h3</container>
+    <container>h4</container>
+    <container>h5</container>
+    <container init="1">E1</container>
+    <container>E2</container>
+    <container>E3</container>
+    <container>E4</container>
+    <container>E5</container>
+    <container>E12</container>
+    <container>E23</container>
+    <container>E34</container>
+    <container>E45</container>
+    <container>dEsum</container>
+    <container>dEavg</container>
+    <container>count</container>
+    <container init="0">index</container>
+  </data-containers>
+  <input>
+    <audio rate="48000">
+      <output>recording</output>
+      <output component="rate">rate</output>
+    </audio>
+  </input>
+  <views>
+    <view label="Heights">
+      <value label="Height 0" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
+        <input>h0</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Height 1" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
+        <input>h1</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Time 1" precision="3" unit="[[unit_short_second]]">
+        <input>dt01</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Height 2" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
+        <input>h2</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Time 2" precision="3" unit="[[unit_short_second]]">
+        <input>dt12</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Height 3" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
+        <input>h3</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Time 3" precision="3" unit="[[unit_short_second]]">
+        <input>dt23show</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Height 4" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
+        <input>h4</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Time 4" precision="3" unit="[[unit_short_second]]">
+        <input>dt34show</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Height 5" size="2" precision="2" unit="[[unit_short_centi_meter]]" factor="100">
+        <input>h5</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Time 5" precision="3" unit="[[unit_short_second]]">
+        <input>dt45show</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <button label="Reset">
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <output>t0</output>
+        <output>t1</output>
+        <output>t2</output>
+        <output>t3</output>
+        <output>t4</output>
+        <output>t5</output>
+        <output>index</output>
+      </button>
+    </view>
+    <view label="Energy">
+      <value label="Energy 1" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E1</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Energy 2" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E2</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Retained on collision 2" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E12</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Energy 3" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E3</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Retained on collision 3" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E23</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Energy 4" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E4</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Retained on collision 4" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E34</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="1"/>
+      <value label="Energy 5" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E5</input>
+        <map max="0">-</map>
+      </value>
+      <value label="Retained on collision 5" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>E45</input>
+        <map max="0">-</map>
+      </value>
+      <separator height="0.5"/>
+      <separator color="a0a0a0"/>
+      <separator height="0.5"/>
+      <value label="Average retained" size="2" precision="1" unit="[[unit_short_percent]]" factor="100">
+        <input>dEavg</input>
+      </value>
+      <separator height="0.5"/>
+      <separator color="a0a0a0"/>
+      <separator height="0.5"/>
+      <button label="Reset">
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <input type="value">0</input>
+        <output>t0</output>
+        <output>t1</output>
+        <output>t2</output>
+        <output>t3</output>
+        <output>t4</output>
+        <output>t5</output>
+        <output>index</output>
+      </button>
+    </view>
+    <view label="Settings">
+      <edit label="Threshold" unit="[[unit_short_arbitrary_unit]]" default="0.1" signed="false" min="0" max="1">
+        <output>threshold</output>
+      </edit>
+      <edit label="Minimum Delay" unit="[[unit_short_second]]" default="0.1" signed="false">
+        <output>mindelay</output>
+      </edit>
+      <separator height="1"/>
+      <info label="Unfortunately, this won't work on slow phones. Please compare the acoustic stopwatch experiment to a regular clock first, to make sure, that the experiment is working as expected. If it works, this experiment here should work as well."/>
+    </view>
+  </views>
+  <analysis requireFill="recording">
+    <count>
+      <input clear="false">recording</input>
+      <output>count</output>
+    </count>
+    <max>
+      <input as="y">recording</input>
+      <output as="position">i</output>
+      <output as="max">max</output>
+    </max>
+    <if equal="true">
+      <input clear="false">count</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <output>i</output>
+    </if>
+    <add>
+      <input>i</input>
+      <input clear="false">index</input>
+      <output>i2</output>
+    </add>
+    <divide>
+      <input>i2</input>
+      <input clear="false">rate</input>
+      <output>t</output>
+    </divide>
+    <if less="true" equal="true">
+      <input clear="false">max</input>
+      <input clear="false">threshold</input>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <output>t</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t0</input>
+      <input type="value">0</input>
+      <input type="value">0</input>
+      <input clear="false">t0</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t1</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t1</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t2</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t2</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t3</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t3</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t4</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t4</input>
+      <output>last</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t5</input>
+      <input type="value">0</input>
+      <input clear="false">last</input>
+      <input clear="false">t5</input>
+      <output>last</output>
+    </if>
+    <add>
+      <input clear="false">last</input>
+      <input clear="false">mindelay</input>
+      <output>limit</output>
+    </add>
+    <if less="true" equal="true">
+      <input clear="false">limit</input>
+      <input clear="false">t</input>
+      <input clear="false">t</input>
+      <input type="value">0</input>
+      <output>t</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t</input>
+      <input clear="false">last</input>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <output>t</output>
+    </if>
+    <if less="true">
+      <input clear="false">t5</input>
+      <input clear="false">t4</input>
+      <input clear="false">t</input>
+      <input clear="false">t5</input>
+      <output>t5</output>
+    </if>
+    <if less="true">
+      <input clear="false">t4</input>
+      <input clear="false">t3</input>
+      <input clear="false">t</input>
+      <input clear="false">t4</input>
+      <output>t4</output>
+    </if>
+    <if less="true">
+      <input clear="false">t3</input>
+      <input clear="false">t2</input>
+      <input clear="false">t</input>
+      <input clear="false">t3</input>
+      <output>t3</output>
+    </if>
+    <if less="true">
+      <input clear="false">t2</input>
+      <input clear="false">t1</input>
+      <input clear="false">t</input>
+      <input clear="false">t2</input>
+      <output>t2</output>
+    </if>
+    <if less="true">
+      <input clear="false">t1</input>
+      <input clear="false">t0</input>
+      <input clear="false">t</input>
+      <input clear="false">t1</input>
+      <output>t1</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t0</input>
+      <input type="value">0</input>
+      <input clear="false">t</input>
+      <input clear="false">t0</input>
+      <output>t0</output>
+    </if>
+    <add>
+      <input clear="false">index</input>
+      <input>count</input>
+      <output>index</output>
+    </add>
+    <divide>
+      <input clear="false">index</input>
+      <input clear="false">rate</input>
+      <output>tmax</output>
+    </divide>
+    <if less="true" equal="true">
+      <input clear="false">t5</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t5</input>
+      <output>t5effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t4</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t4</input>
+      <output>t4effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t3</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t3</input>
+      <output>t3effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t2</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t2</input>
+      <output>t2effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t1</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t1</input>
+      <output>t1effective</output>
+    </if>
+    <if less="true" equal="true">
+      <input clear="false">t0</input>
+      <input type="value">0</input>
+      <input clear="false">tmax</input>
+      <input clear="false">t0</input>
+      <output>t0effective</output>
+    </if>
+    <subtract>
+      <input clear="false">t5effective</input>
+      <input clear="false">t4effective</input>
+      <output>dt45</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t4effective</input>
+      <input clear="false">t3effective</input>
+      <output>dt34</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t3effective</input>
+      <input clear="false">t2effective</input>
+      <output>dt23</output>
+    </subtract>
+    <subtract>
+      <input clear="false">t2effective</input>
+      <input clear="false">t1effective</input>
+      <output>dt12</output>
+    </subtract>
+    <subtract>
+      <input>t1effective</input>
+      <input>t0effective</input>
+      <output>dt01</output>
+    </subtract>
+    <!-- dt23, dt34 and dt45 are optional. We want to hide them if we did not measure them confidently -->
+    <if greater="true">
+      <input clear="false">dt23</input>
+      <input clear="false">dt12</input>
+      <input type="value">0</input>
+      <input clear="false">dt23</input>
+      <output>dt23</output>
+    </if>
+    <if greater="true">
+      <input clear="false">dt34</input>
+      <input clear="false">dt23</input>
+      <input type="value">0</input>
+      <input clear="false">dt34</input>
+      <output>dt34</output>
+    </if>
+    <if greater="true">
+      <input clear="false">dt45</input>
+      <input clear="false">dt34</input>
+      <input type="value">0</input>
+      <input clear="false">dt45</input>
+      <output>dt45</output>
+    </if>
+    <append>
+      <input clear="false">dt23</input>
+      <output>dt23show</output>
+    </append>
+    <append>
+      <input clear="false">dt34</input>
+      <output>dt34show</output>
+    </append>
+    <append>
+      <input clear="false">dt45</input>
+      <output>dt45show</output>
+    </append>
+    <multiply>
+      <input clear="false">dt01</input>
+      <input clear="false">dt01</input>
+      <output>dt01_2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt12</input>
+      <input clear="false">dt12</input>
+      <output>dt12_2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt23</input>
+      <input clear="false">dt23</input>
+      <output>dt23_2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt34</input>
+      <input clear="false">dt34</input>
+      <output>dt34_2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt45</input>
+      <input clear="false">dt45</input>
+      <output>dt45_2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt01_2</input>
+      <input type="value">1.22625</input>
+      <!-- 1/8 g -->
+      <output>h1</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt12_2</input>
+      <input type="value">1.22625</input>
+      <!-- 1/8 g -->
+      <output>h2</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt23_2</input>
+      <input type="value">1.22625</input>
+      <!-- 1/8 g -->
+      <output>h3</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt34_2</input>
+      <input type="value">1.22625</input>
+      <!-- 1/8 g -->
+      <output>h4</output>
+    </multiply>
+    <multiply>
+      <input clear="false">dt45_2</input>
+      <input type="value">1.22625</input>
+      <!-- 1/8 g -->
+      <output>h5</output>
+    </multiply>
+    <divide>
+      <input clear="false">dt12_2</input>
+      <input clear="false">dt01_2</input>
+      <output>E2</output>
+    </divide>
+    <divide>
+      <input clear="false">dt23_2</input>
+      <input clear="false">dt01_2</input>
+      <output>E3</output>
+    </divide>
+    <divide>
+      <input clear="false">dt34_2</input>
+      <input clear="false">dt01_2</input>
+      <output>E4</output>
+    </divide>
+    <divide>
+      <input clear="false">dt45_2</input>
+      <input clear="false">dt01_2</input>
+      <output>E5</output>
+    </divide>
+    <divide>
+      <input clear="false">dt12_2</input>
+      <input clear="false">dt01_2</input>
+      <output>E12</output>
+    </divide>
+    <divide>
+      <input clear="false">dt23_2</input>
+      <input clear="false">dt12_2</input>
+      <output>E23</output>
+    </divide>
+    <divide>
+      <input clear="false">dt34_2</input>
+      <input clear="false">dt23_2</input>
+      <output>E34</output>
+    </divide>
+    <divide>
+      <input clear="false">dt45_2</input>
+      <input clear="false">dt34_2</input>
+      <output>E45</output>
+    </divide>
+    <add>
+      <input clear="false">E12</input>
+      <input clear="false">E23</input>
+      <input clear="false">E34</input>
+      <input clear="false">E45</input>
+      <output>dEsum</output>
+    </add>
+    <divide>
+      <input clear="false">dEsum</input>
+      <input type="value">4</input>
+      <output>dEavg</output>
+    </divide>
+    <divide>
+      <input clear="false">h1</input>
+      <input clear="false">E12</input>
+      <output>h0</output>
+    </divide>
+  </analysis>
+  <export>
+    <set name="Energy">
+      <data name="Bounce 0 (s)">t0</data>
+      <data name="Height 0 (m)">h0</data>
+      <data name="Bounce 1 (s)">t1</data>
+      <data name="Height 1 (m)">h1</data>
+      <data name="Energy 1">E1</data>
+      <data name="Bounce 2 (s)">t2</data>
+      <data name="Height 2 (m)">h2</data>
+      <data name="Energy 2">E2</data>
+      <data name="Bounce 3 (s)">t3</data>
+      <data name="Height 3 (m)">h3</data>
+      <data name="Energy 3">E3</data>
+      <data name="Bounce 4 (s)">t4</data>
+      <data name="Height 4 (m)">h4</data>
+      <data name="Energy 4">E4</data>
+      <data name="Bounce 5 (s)">t5</data>
+      <data name="Height 5 (m)">h5</data>
+      <data name="Energy 5">E5</data>
+    </set>
+  </export>
+</phyphox>

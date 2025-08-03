@@ -1,0 +1,6016 @@
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板。"
+}
+{
+  "\"All the time\" location permission is required for airport notifications."
+  "机场通知需要“始终”位置权限。"
+}
+{
+  "\"All the time\" precise location permission is required for airport notifications."
+  "机场通知需要“始终”精确位置权限。"
+}
+{
+  "%1$d hours"
+  "%1$d小时"
+}
+{
+  "%1$d minutes"
+  "%1$d分钟"
+}
+{
+  "%1$d o'clock"
+  "%1$d 小时"
+}
+{
+  "%1$s + %2$d"
+  "%1$s+%2$d"
+}
+{
+  "%1$s hours"
+  "%1$s 小时"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题，请重试"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s小时"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%d character left"
+  "%d字符剩余"
+}
+{
+  "%d characters left"
+  "剩余%d个字符"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "%d of %d aircraft"
+  "%d架飞机，共%d架"
+}
+{
+  "%d selected"
+  "%d已选择"
+}
+{
+  "%d year"
+  "%d年"
+}
+{
+  "%d years"
+  "%d年"
+}
+{
+  "%s FLIGHT FROM %s TO %s"
+  "%s 航班由 %s 飞往 %s"
+}
+{
+  "%s ago"
+  "%s 前"
+}
+{
+  "%s annual"
+  "%s年度"
+}
+{
+  "%s away"
+  "距离您%s"
+}
+{
+  "%s days ago"
+  "%s天前"
+}
+{
+  "%s feature is available with %s upgrade.\n"
+  "%s功能在%s升级时可用。"
+}
+{
+  "%s flight %s"
+  "%s航班%s"
+}
+{
+  "%s flights"
+  "%s航班"
+}
+{
+  "%s hrs ago"
+  "%s小时前"
+}
+{
+  "%s min ago"
+  "%s分钟前"
+}
+{
+  "%s monthly"
+  "%s每月"
+}
+{
+  "%s months ago"
+  "%s几个月前"
+}
+{
+  "%s will be charged at time of upgrade.\nStandard price (%s) applies at renewal."
+  "%s升级时将收取费用。\n续订时适用标准价格（%s）。"
+}
+{
+  "%s years ago"
+  "%s年前"
+}
+{
+  "(UTC %s)"
+  "（UTC %s）"
+}
+{
+  "(inbound)"
+  "（进港）"
+}
+{
+  "(outbound)"
+  "（出境）"
+}
+{
+  "* It is currently later at the arriving airport than the expected arrival time and we have not been able to confirm that the flight has landed. While this may indicate a delay, it may also be that the arrival information is not available or has not yet reached one of our data sources."
+  "*目前到达机场的时间比预期的到达时间晚，我们无法确认航班是否已经降落。虽然这可能表示延迟，但也可能是到达信息不可用或我们的数据源尚未更新。"
+}
+{
+  "* It is currently later at the departing airport than the expected departure time and the flight is not yet active. While this may indicate a delay or cancellation, it may also be that the departure information is not available or has not yet reached one of our data sources."
+  "*目前，离港机场的时间比预期的离港时间晚，航班尚未开通。虽然这可能表示延迟或取消，但也可能是出发信息不可用或我们的数据源尚未更新。"
+}
+{
+  "+ %s more"
+  "+ %s 更多"
+}
+{
+  "- OR -"
+  "- 或 -"
+}
+{
+  "12-hour"
+  "12小时"
+}
+{
+  "120 min"
+  "120分钟"
+}
+{
+  "14 days free, then only %s/year."
+  "14天免费体验，随后%s/每年。"
+}
+{
+  "14-day Gold free trial"
+  "14天免费试用"
+}
+{
+  "14-day Silver free trial"
+  "14天银牌会员免费试用"
+}
+{
+  "14-days FREE trial | Learn more"
+  "14天免费试用|了解更多"
+}
+{
+  "15 min"
+  "15分钟"
+}
+{
+  "24 hour offer"
+  "24小时优惠"
+}
+{
+  "24-hour"
+  "24小时"
+}
+{
+  "240 min"
+  "240分钟"
+}
+{
+  "3 months of<br />Gold for<br /><font color=#f8c023>%s</font>"
+  "3个月的<br />金牌会员<br /><font color=#f8c023>%s</font>"
+}
+{
+  "3 months of<br />Silver for<br /><font color=#f8c023>%s</font>"
+  "3个月的<br />银牌会员<br /><font color=#f8c023>%s</font>"
+}
+{
+  "3-month FREE trial | Learn more"
+  "3个月免费试用  |了解更多"
+}
+{
+  "30 min"
+  "30分钟"
+}
+{
+  "30% off"
+  "七折"
+}
+{
+  "30% off Gold annual"
+  "年度金牌会员七折优惠"
+}
+{
+  "365 days flight history"
+  "365天飞行历史"
+}
+{
+  "3D view"
+  "三维视图"
+}
+{
+  "60 min"
+  "60分钟"
+}
+{
+  "7 days free, then only %s/month."
+  "7天免费，接着每月只有%s。"
+}
+{
+  "7 days free, then only %s/year."
+  "7天免费，接着每年只有%s。"
+}
+{
+  "7-day FREE trial | Learn more"
+  "7天免费试用|了解更多"
+}
+{
+  "<font color=#6ccb78><b>Save %s</b></font> by choosing <font color=#327db6><b><u>annual subscription</u></b></font>"
+  "<font color=#6ccb78><b>节省 %s</b></font> 通过选择 <font color=#327db6><b><u>年费订阅</u></b></font>"
+}
+{
+  "<font color=#6ccb78><b>Save %s</b></font> compared to <font color=#327db6><b><u>monthly subscription</u></b></font>"
+  "<font color=#6ccb78><b>节省 %s</b></font> 与 <font color=#327db6><b><u>月度订阅</u></b></font>"
+}
+{
+  "<font face=sans-serif-medium>Unable to load ad. Please try again.</font>"
+  "<font face=sans-serif-medium>无法加载广告。请再试一次。</font>"
+}
+{
+  "<font face=sans-serif-medium>Unable to load ad. Please try again.</font><br/>TIP: for a higher chance of getting a rewarded ad, change your ad preferences in the Privacy preference center."
+  "<font face=sans-serif-medium>无法加载广告。请重试。</font><br/>提示：要获得更高的奖励广告机会，请在隐私偏好中心更改您的广告偏好。"
+}
+{
+  "<small><font color=#6ccb78><b>Save %1$s</b></font> by choosing</small> <u>%2$s Annual</u>"
+  "<small><font color=#6ccb78><b>节省 %1$s</b></font> 通过选择</small> <u>%2$s 年费</u>"
+}
+{
+  "<small><font color=#6ccb78><b>Save %1$s</b></font> compared to</small> <u>%2$s Monthly</u>"
+  "<small><font color=#6ccb78><b>节省 %1$s</b></font> 与</small> <u>%2$s 每月</u>"
+}
+{
+  "A - F"
+  "A-F"
+}
+{
+  "A free account is needed to access this feature."
+  "需要一个免费帐户才能访问此功能。"
+}
+{
+  "A free account is needed to be able to use the Live notifications feature."
+  "需要一个免费帐户才能使用实时通知功能。"
+}
+{
+  "A new password is now sent to your email"
+  "新密码现已发送到您的电子邮件"
+}
+{
+  "A total of %s user have visited this airport."
+  "共有%s名用户访问了此机场。"
+}
+{
+  "A total of %s users have taken this flight."
+  "共有%s名用户乘坐了此航班。"
+}
+{
+  "A total of %s users have visited this airport."
+  "共有%s名用户访问了此机场。"
+}
+{
+  "A weekly round-up of the latest aviation news every Friday"
+  "每周五推送本周航空新闻"
+}
+{
+  "ACTUAL DEPARTURE"
+  "实际出发"
+}
+{
+  "AGE"
+  "机龄"
+}
+{
+  "AIRCRAFT"
+  "飞机"
+}
+{
+  "AIRCRAFT TYPE"
+  "飞机类型"
+}
+{
+  "AIRLINE"
+  "航空公司"
+}
+{
+  "AIRMETS / SIGMETS"
+  "气象/信号"
+}
+{
+  "AIRMETS/SIGMETS issued by authorities forecasting significant weather events that are potentially hazardous to flights in the area for which they are issued, refreshed every 30 minutes."
+  "由当局发布的AIRMETS/SIGMETS，用于预测可能对发布地区的航班造成潜在危险的重大天气事件，每30分钟更新一次。"
+}
+{
+  "AIRPORT"
+  "机场"
+}
+{
+  "ALTITUDE"
+  "海拔高度"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "AR view"
+  "AR视图"
+}
+{
+  "AR view allows you point your device at the sky to identify aircraft passing overhead. In order to use this function we require camera and location permissions.\n\nIn order to enable camera and location permissions, please go to App settings ➞ Permissions and enable camera and location permissions."
+  "在AR视图中将设备举向天空，以识别头顶飞过的飞机。为了使用此功能，我们需要相机和位置权限。\n要启用相机和位置权限，请转到应用程序设置➞权限并启用相机和地点权限。"
+}
+{
+  "AR view allows you point your device at the sky to identify aircraft passing overhead. In order to use this function we require camera and precise location permissions.\n\nIn order to enable camera and precise location permissions, please go to App settings ➞ Permissions and enable camera and precise location permissions."
+  "在AR视图中将设备举向天空，以识别头顶飞过的飞机。为了使用此功能，我们需要相机和精确位置权限。\n为了启用相机和精确位置权限，请转到应用程序设置➞权限并启用相机和准确位置权限。"
+}
+{
+  "AR view allows you point your device at the sky to identify aircraft passing overhead. In order to use this function we require camera permissions.\n\nIn order to enable camera permissions, please go to App settings ➞ Permissions and enable camera permissions."
+  "在AR视图中将设备举向天空，以识别头顶飞过的飞机。为了使用此功能，我们需要相机权限。\n要启用相机权限，请转到应用程序设置➞权限并启用相机权限。"
+}
+{
+  "AR view allows you point your device at the sky to identify aircraft passing overhead. In order to use this function we require location permissions.\n\nIn order to enable location permissions, please go to App settings ➞ Permissions and enable location permissions"
+  "在AR视图中将设备举向天空，以识别头顶飞过的飞机。为了使用此功能，我们需要位置权限。\n要启用位置权限，请转到应用程序设置➞权限并启用位置权限"
+}
+{
+  "AR view allows you point your device at the sky to identify aircraft passing overhead. In order to use this function we require precise location permissions.\n\nIn order to enable precise location permissions, please go to App settings ➞ Permissions and enable precise location permissions"
+  "在AR视图中将设备举向天空，以识别头顶飞过的飞机。为了使用此功能，我们需要精确的位置权限。\n为了启用精确位置权限，请转到应用程序设置➞权限并启用精确位置许可"
+}
+{
+  "AR view requires device with a back facing camera."
+  "AR视图需要安装后置摄像头的设备。"
+}
+{
+  "AREA"
+  "面积"
+}
+{
+  "ARRIVAL INFORMATION"
+  "到达信息"
+}
+{
+  "ATC boundaries"
+  "ATC边界"
+}
+{
+  "ATC boundaries and map layers"
+  "ATC边界和地图图层"
+}
+{
+  "AVERAGE FLIGHT TIME"
+  "平均飞行时间"
+}
+{
+  "About"
+  "关于"
+}
+{
+  "Above are the myFlightradar24 users that have flown from %s (%s) to %s (%s) on %s the most."
+  "以上是从 %s（%s）飞往 %s（%s），且在 %s 飞行次数最多的 myFlightradar24 用户。"
+}
+{
+  "Above are the myFlightradar24 users that have flown to/from %s (%s) the most."
+  "以上是到达/离开 %s（%s）飞行次数最多的 myFlightradar24 用户。"
+}
+{
+  "Above is a myFlightradar24 user that has flown from %s (%s) to %s (%s) on %s the most."
+  "以上是一位从 %s（%s）飞往 %s（%s），且在 %s 飞行次数最多的 myFlightradar24 用户。"
+}
+{
+  "Above is a myFlightradar24 user that have flown to/from %s (%s) the most."
+  "以上是一位到达/离开 %s（%s）飞行次数最多的 myFlightradar24 用户。"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Access 365 days flight history"
+  "访问365天航班历史记录"
+}
+{
+  "Access 365 days of past flight history"
+  "访问365天的过去航班历史记录"
+}
+{
+  "Access 90 days flight history"
+  "访问90天的航班历史记录"
+}
+{
+  "Access timely airport info"
+  "及时获取机场信息"
+}
+{
+  "Access to detailed aeronautical charts"
+  "获取详细的航图"
+}
+{
+  "Accessibility"
+  "实用"
+}
+{
+  "Account already exists for your email address"
+  "您的电子邮件地址的帐户已存在"
+}
+{
+  "Account deleted"
+  "帐户已删除"
+}
+{
+  "Actual"
+  "实际"
+}
+{
+  "Ad"
+  "广告"
+}
+{
+  "Add"
+  "添加"
+}
+{
+  "Add a device"
+  "添加设备"
+}
+{
+  "Add a filter by tapping on the “Add custom filter” button below."
+  "点击下面的“添加自定义过滤器”按钮添加过滤器。"
+}
+{
+  "Add a flight by tapping the Add bookmark button below or by clicking the star next to a flight number anywhere in the app."
+  "点击下方的“添加书签”按钮，或在应用程序中的任何位置单击航班号旁边的星号，添加航班。"
+}
+{
+  "Add a flight to Bookmarks!"
+  "将航班添加到书签！"
+}
+{
+  "Add a location by tapping the Add bookmark button below. The saved location will be your current position on the map, including zoom."
+  "点击下面的添加书签按钮添加位置。保存的位置将是您在地图上的当前位置，包括缩放。"
+}
+{
+  "Add a location to Bookmarks!"
+  "将位置添加到书签！"
+}
+{
+  "Add alert"
+  "添加提醒"
+}
+{
+  "Add an aircraft by tapping the Add bookmark button below or by clicking the star next to a flight number anywhere in the app."
+  "点击下方的“添加书签”按钮，或在应用程序中的任何位置单击航班号旁边的星号，添加飞机。"
+}
+{
+  "Add an aircraft to Bookmarks!"
+  "将飞机添加到书签！"
+}
+{
+  "Add an airport by tapping the Add bookmark button below or by clicking the star icon at the top of an airport panel anywhere in the app."
+  "通过点击下面的添加书签按钮或单击应用程序中任何位置的机场面板顶部的星形图标来添加机场。"
+}
+{
+  "Add an airport to Bookmarks!"
+  "将机场添加到书签！"
+}
+{
+  "Add bookmark"
+  "加入书签"
+}
+{
+  "Add cloud, precipitation, aeronautical charts, oceanic tracks, and other layers to the main map. Tap Settings to see all the available layers."
+  "在主地图上添加云、降水、航图、海洋轨迹和其他图层。点击“设置”以查看所有可用图层。"
+}
+{
+  "Add condition"
+  "添加条件"
+}
+{
+  "Add coverage"
+  "增加覆盖范围"
+}
+{
+  "Add custom filter"
+  "添加自定义筛选器"
+}
+{
+  "Add location to bookmarks"
+  "将位置添加到书签"
+}
+{
+  "Add useful map layers"
+  "添加实用的地图图层"
+}
+{
+  "Additional aircraft details and extended history"
+  "更多飞机细节和详细历史"
+}
+{
+  "Additional conditions (optional)"
+  "附加条件（可选）"
+}
+{
+  "Ads removed = faster app"
+  "删除广告 = 更快的体验"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Advanced aircraft details and history"
+  "更多飞机细节和历史"
+}
+{
+  "Advanced flight details"
+  "更多航班详细信息"
+}
+{
+  "Aeronautical charts"
+  "航图"
+}
+{
+  "Aeronautical charts, including high altitude charts"
+  "航图，包括高空图"
+}
+{
+  "Air pressure"
+  "气压"
+}
+{
+  "Airborne aircraft"
+  "飞行中的飞机"
+}
+{
+  "Aircraft"
+  "飞机"
+}
+{
+  "Aircraft bookmark removed."
+  "飞机书签已删除。"
+}
+{
+  "Aircraft bookmark successfully added."
+  "已成功添加飞机书签。"
+}
+{
+  "Aircraft categories"
+  "飞机类别"
+}
+{
+  "Aircraft info"
+  "飞机信息"
+}
+{
+  "Aircraft labels"
+  "飞机标签"
+}
+{
+  "Aircraft on ground"
+  "地面上的飞机"
+}
+{
+  "Aircraft on map"
+  "地图中的飞机"
+}
+{
+  "Aircraft photo not available"
+  "飞机照片不可用"
+}
+{
+  "Aircraft photos"
+  "飞机照片"
+}
+{
+  "Aircraft registration"
+  "飞机注册号"
+}
+{
+  "Aircraft speed"
+  "飞机速度"
+}
+{
+  "Aircraft type"
+  "飞机类型"
+}
+{
+  "Aircraft type is"
+  "飞机类型为"
+}
+{
+  "Aircraft type is not"
+  "飞机类型不是"
+}
+{
+  "Aircraft with registration %s is currently not tracked by Flightradar24. It’s either out of coverage or has already landed.\n\nDo you want to see the history of this flight?"
+  "注册号为%s的飞机当前未被Flightradar24跟踪。它要么已经超出覆盖范围，要么已经着陆。\n你想看看这次飞行的历史吗？"
+}
+{
+  "Aircraft:"
+  "飞机："
+}
+{
+  "Aircraft: %s"
+  "飞机：%s"
+}
+{
+  "Airline"
+  "航空公司"
+}
+{
+  "Airline is"
+  "航空公司是"
+}
+{
+  "Airline is not"
+  "航空公司不是"
+}
+{
+  "Airline name or ICAO code"
+  "航空公司名称或ICAO代码"
+}
+{
+  "Airlines"
+  "航班"
+}
+{
+  "Airport"
+  "机场"
+}
+{
+  "Airport bookmark removed."
+  "机场书签已删除。"
+}
+{
+  "Airport bookmark successfully added."
+  "已成功添加机场书签。"
+}
+{
+  "Airport by country"
+  "按国家/地区下属机场查询"
+}
+{
+  "Airport disruption index"
+  "机场中断指数"
+}
+{
+  "Airport disruptions"
+  "机场中断"
+}
+{
+  "Airport name A-Z"
+  "机场名称A-Z"
+}
+{
+  "Airport name or IATA code"
+  "机场名称或IATA代码"
+}
+{
+  "Airport name, IATA or ICAO code"
+  "机场名称、IATA或ICAO代码"
+}
+{
+  "Airport photo not available"
+  "机场照片不可用"
+}
+{
+  "Airport pins"
+  "机场标记"
+}
+{
+  "Airports"
+  "机场"
+}
+{
+  "Airports in %s"
+  "%s中的机场"
+}
+{
+  "Airports served"
+  "服务机场"
+}
+{
+  "Album art"
+  "专辑封面"
+}
+{
+  "Alert log deleted"
+  "提醒日志已删除"
+}
+{
+  "Alert region"
+  "提醒区域"
+}
+{
+  "Alert trigger"
+  "提醒触发器"
+}
+{
+  "Alert trigger must be at least 3 characters long."
+  "提醒触发器的长度必须至少为3个字符。"
+}
+{
+  "Alert trigger must be exactly 3 characters long (ICAO code)."
+  "提醒触发器的长度必须恰好为3个字符（ICAO代码）。"
+}
+{
+  "Alert type"
+  "提醒类型"
+}
+{
+  "Alerts"
+  "提醒"
+}
+{
+  "All Consent Allowed"
+  "允许所有同意"
+}
+{
+  "All categories"
+  "所有类别"
+}
+{
+  "Allow"
+  "允许"
+}
+{
+  "Allow Ad to create a calendar event?"
+  "允许广告创建日历事件吗？"
+}
+{
+  "Allow Ad to store image in Picture gallery?"
+  "允许广告在相册中存储图片吗？"
+}
+{
+  "Allow All"
+  "允许所有"
+}
+{
+  "Allow app to send you notifications?"
+  "是否允许应用程序向您发送通知？"
+}
+{
+  "Allowing Flightradar24 access to your location all the time lets you:"
+  "允许Flightradar24随时访问您的位置可以让您："
+}
+{
+  "Allowing Flightradar24 access to your location while you are using the app lets you:"
+  "允许Flightradar24在您使用应用程序时访问您的位置，可以让您："
+}
+{
+  "Already added"
+  "已添加"
+}
+{
+  "Already have an account?"
+  "已经有账号了？"
+}
+{
+  "Already subscribed? Log in"
+  "已订阅？登录"
+}
+{
+  "Alt. in feet"
+  "高度（英尺）"
+}
+{
+  "Altitude"
+  "海拔高度"
+}
+{
+  "Altitude less than"
+  "海拔高度小于"
+}
+{
+  "Altitude more than"
+  "海拔高度超过"
+}
+{
+  "Altitude:"
+  "海拔高度："
+}
+{
+  "Always Active"
+  "始终处于活动状态"
+}
+{
+  "An aircraft's position can be estimated for up to 240 minutes after it exits Flightradar24's coverage area."
+  "在飞机离开Flightradar24的覆盖范围后，其位置可以估算最多240分钟。"
+}
+{
+  "An aircraft's position may be estimated for up to 240 minutes after coverage has been lost based on the great circle path between the last received position and destination. Accuracy of estimated positions will vary based on time since last received position and flight route."
+  "基于最后接收到的位置和目的地之间的大圆航程，可以在在丢失信号后估算240分钟内的飞机位置。估计位置的准确性取决于上次收到位置和飞行路线以来的时间，可能有误差。"
+}
+{
+  "An error has occurred when fetching the license."
+  "获取许可证时出错。"
+}
+{
+  "An error occurred"
+  "发生错误"
+}
+{
+  "An invitation has been sent to the user."
+  "已向用户发送邀请。"
+}
+{
+  "An overview of current global precipitation overlaid on our live map. The total precipitation layer is refreshed 12 times a day."
+  "覆盖在地图上显示当前全球降水概览。总降水层每天更新12次。"
+}
+{
+  "Analytics"
+  "分析"
+}
+{
+  "AndroidManifest Error"
+  "AndroidManifest错误"
+}
+{
+  "Annual %s subscription"
+  "年度%s订阅"
+}
+{
+  "Annual Gold subscription"
+  "订阅年度金牌会员"
+}
+{
+  "Annual Silver subscription"
+  "年度银牌会员订阅"
+}
+{
+  "Annual subscription"
+  "年度订阅"
+}
+{
+  "Answer"
+  "回答"
+}
+{
+  "Appearance"
+  "外观"
+}
+{
+  "Apply"
+  "应用"
+}
+{
+  "Are you sure you want to clear search history?"
+  "您确定要清除搜索历史记录吗？"
+}
+{
+  "Are you sure you want to delete selected alert log?"
+  "您确定要删除所选的提醒日志吗？"
+}
+{
+  "Are you sure you want to delete selected alert logs?"
+  "您确定要删除所选的提醒日志吗？"
+}
+{
+  "Are you sure you want to delete selected alert?"
+  "您确定要删除所选提醒吗？"
+}
+{
+  "Are you sure you want to delete selected alerts?"
+  "您确定要删除所选提醒吗？"
+}
+{
+  "Arrival airport"
+  "到达机场"
+}
+{
+  "Arrival disruption index: %s"
+  "到达中断指数：%s"
+}
+{
+  "Arrivals"
+  "进港"
+}
+{
+  "Arrived %s ago"
+  "%s前到达"
+}
+{
+  "Arriving in %s"
+  "到达于%s"
+}
+{
+  "As Gold user you can have up to 4 text labels."
+  "作为Gold用户，您最多可以有4个文本标签。"
+}
+{
+  "As Silver user you can have up to 4 text labels."
+  "作为Silver用户，您最多可以有4个文本标签。"
+}
+{
+  "As a new user, try the Gold plan for 14 days instead of 7."
+  "作为新用户，您可以体验金牌会员14天，而非7天。"
+}
+{
+  "As a new user, try the Gold plan free for 7 days."
+  "作为新用户，您可以体验金牌会员14天，而非7天。"
+}
+{
+  "As a new user, try the Silver plan for 14 days instead of 7."
+  "作为新用户，可体验14天的银牌会员订阅，而非7天。"
+}
+{
+  "Asphalt"
+  "沥青"
+}
+{
+  "Aubergine"
+  "紫茄"
+}
+{
+  "Australia Radar"
+  "澳大利亚雷达"
+}
+{
+  "Australian radar"
+  "澳大利亚雷达"
+}
+{
+  "Australian radar is a composite image of precipitation throughout Australia at 2 km resolution updated every 7.5 minutes."
+  "澳大利亚雷达是澳大利亚全境降水的合成图像，分辨率为2公里，每7.5分钟更新一次。"
+}
+{
+  "Available features"
+  "可用功能"
+}
+{
+  "Available with account"
+  "帐户可用"
+}
+{
+  "Available with upgrade"
+  "可升级"
+}
+{
+  "Average delay"
+  "平均延迟"
+}
+{
+  "Aviation weather layers"
+  "航空气象层"
+}
+{
+  "Aviation weather layers, including precipitation"
+  "航空天气层，包括降水"
+}
+{
+  "Back"
+  "返回"
+}
+{
+  "Back icon for Vendor List "
+  "供应商列表的后退图标"
+}
+{
+  "Bad request"
+  "错误请求"
+}
+{
+  "Baggage belt"
+  "行李转盘"
+}
+{
+  "Banner view Close"
+  "横幅视图关闭"
+}
+{
+  "Banner view Logo"
+  "横幅视图徽标"
+}
+{
+  "Barometric alt."
+  "气压高度"
+}
+{
+  "Barometric alt.:"
+  "气压高度："
+}
+{
+  "Barometric altitude"
+  "气压高度"
+}
+{
+  "Basic"
+  "基础"
+}
+{
+  "Basic aviation weather layers"
+  "基础航空气象层"
+}
+{
+  "Basic users can have 1 text label at the time. To have up to 4 labels, please upgrade.<br/><u>Learn more.</u>"
+  "基本用户一次可以有一个文本标签。要拥有最多4个标签，请升级<br/><u>了解更多信息</u"
+}
+{
+  "Behavior:"
+  "行为："
+}
+{
+  "Best value"
+  "最佳价值"
+}
+{
+  "Billing details"
+  "账单明细"
+}
+{
+  "Bituminous"
+  "沥青"
+}
+{
+  "Black/White"
+  "黑色/白色"
+}
+{
+  "Blocked"
+  "此 路 不通"
+}
+{
+  "Blue"
+  "蓝色"
+}
+{
+  "Body"
+  "主页"
+}
+{
+  "Bookmarks"
+  "书签"
+}
+{
+  "Bookmarks: aircraft bookmarked"
+  "书签：飞机书签"
+}
+{
+  "Bookmarks: airport bookmarked"
+  "书签：机场书签"
+}
+{
+  "Bookmarks: flight and aircraft bookmarked"
+  "书签：航班和飞机书签"
+}
+{
+  "Bookmarks: flight bookmarked"
+  "书签：航班书签"
+}
+{
+  "Bookmarks: locked"
+  "书签：已锁定"
+}
+{
+  "Bookmarks: not bookmarked"
+  "书签：未添加书签"
+}
+{
+  "Both"
+  "全部"
+}
+{
+  "Bottom Sheet"
+  "底部图纸"
+}
+{
+  "Boundaries of volcanic eruptions and ash clouds impacting aviation. Only shown when applicable."
+  "影响飞行的火山爆发和火山灰云的边界。仅在适用时显示。"
+}
+{
+  "Brand new"
+  "全新"
+}
+{
+  "Bricks"
+  "砖"
+}
+{
+  "Busiest route"
+  "最繁忙的路线"
+}
+{
+  "Business jets"
+  "公务机"
+}
+{
+  "By creating an account you can unlock the bookmarks feature and view your bookmarks across all Flightradar24 platforms."
+  "通过创建帐户，您可以解锁书签功能，并在所有Flightradar24平台上查看您的书签。"
+}
+{
+  "CALL SIGN"
+  "呼号"
+}
+{
+  "CODE"
+  "代码"
+}
+{
+  "CURRENT DISRUPTIONS"
+  "当前中断"
+}
+{
+  "Call sign"
+  "呼号"
+}
+{
+  "Call sign:"
+  "呼号："
+}
+{
+  "Call sign: %s"
+  "呼号：%s"
+}
+{
+  "Calm"
+  "无风"
+}
+{
+  "Camera and location permissions are required for AR view."
+  "AR视图需要相机和位置权限。"
+}
+{
+  "Camera and precise location permissions are required for AR view."
+  "AR视图需要相机和精确位置权限。"
+}
+{
+  "Camera permission is required for AR view."
+  "AR视图需要相机权限。"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Cancel subscription"
+  "取消订阅"
+}
+{
+  "Canceled"
+  "取消"
+}
+{
+  "Cargo"
+  "货物"
+}
+{
+  "Cast"
+  "演员阵容"
+}
+{
+  "Cast to"
+  "演员阵容"
+}
+{
+  "Cast. Connected"
+  "演员。有联系的"
+}
+{
+  "Cast. Connecting"
+  "演员。连接"
+}
+{
+  "Cast. Disconnected"
+  "演员。断开的"
+}
+{
+  "Casting screen"
+  "铸造筛网"
+}
+{
+  "Categories"
+  "类别"
+}
+{
+  "Celsius"
+  "摄氏度℃"
+}
+{
+  "Center"
+  "居中"
+}
+{
+  "Change Password"
+  "修改密码"
+}
+{
+  "Change password"
+  "更改密码"
+}
+{
+  "Change payment method"
+  "更改付款方式"
+}
+{
+  "Change subscription plan"
+  "更改订阅计划"
+}
+{
+  "Change to next month"
+  "改到下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Changes have been saved to Bookmarks."
+  "更改已保存到书签。"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Check out Flightradar24, the app that turns your phone into an air traffic radar. %s"
+  "看看Flightradar24，这款应用程序可以把你的手机变成空中交通雷达。%s"
+}
+{
+  "Check out playback of aircraft %s from %s to %s on Flightradar24."
+  "在Flightradar24上查看飞机%s从%s到%s的回放。"
+}
+{
+  "Check out playback of aircraft %s on Flightradar24."
+  "在Flightradar24上查看飞机%s的回放。"
+}
+{
+  "Check out playback of flight %s from %s to %s on Flightradar24."
+  "在Flightradar24上查看从%s到%s的航班%s的回放。"
+}
+{
+  "Check out playback of flight %s on Flightradar24."
+  "在Flightradar24上查看航班%s的回放。"
+}
+{
+  "Check your connection and try again."
+  "请检查您的连接，然后重试。"
+}
+{
+  "Checked"
+  "已检查"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "Chromecast shuffle mode can be enabled and disabled in the notification menu."
+  "Chromecast shuffle模式可以在通知菜单中启用和禁用。"
+}
+{
+  "Clay"
+  "粘土"
+}
+{
+  "Clear"
+  "清除"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Click the star next to the aircraft, airport or flight number to add the item to your bookmarks."
+  "单击飞机、机场或航班号旁边的星号，将项目添加到书签中。"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "Close navigation menu"
+  "关闭导航菜单"
+}
+{
+  "Close sheet"
+  "关闭工作表"
+}
+{
+  "Cloud"
+  "云"
+}
+{
+  "Cloud layer"
+  "云层"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "Collapse bottom sheet"
+  "折叠底板"
+}
+{
+  "Collapse the bottom sheet"
+  "收起底部面板"
+}
+{
+  "Collapsed"
+  "崩溃了"
+}
+{
+  "Commercial services"
+  "商业服务"
+}
+{
+  "Communication error"
+  "通信错误"
+}
+{
+  "Communication with FR24 failed."
+  "与FR24的通信失败。"
+}
+{
+  "Communication with FR24 server failed. Please re-start the app to validate your purchase."
+  "与FR24服务器的通信失败。请重新启动应用程序以验证您的购买。"
+}
+{
+  "Communication with FR24 server failed. Please use \"%s\" button to use the purchase with this account."
+  "与FR24服务器的通信失败。请使用“%s”按钮使用此帐户进行购买。"
+}
+{
+  "Communication with Google Play billing service failed. Please check your internet connection and try again."
+  "与Google Play计费服务的通信失败。请检查您的互联网连接，然后重试。"
+}
+{
+  "Concrete"
+  "混凝土"
+}
+{
+  "Condition %d too short."
+  "条件%d太短。"
+}
+{
+  "Conditions"
+  "环境"
+}
+{
+  "Confirm Login"
+  "确认登录"
+}
+{
+  "Confirm My Choices"
+  "确认我的选择"
+}
+{
+  "Connected to %1$s"
+  "已连接到%1$s"
+}
+{
+  "Connected to %s"
+  "已连接到%s"
+}
+{
+  "Connecting to %1$s"
+  "正在连接到%1$s"
+}
+{
+  "Consent"
+  "同意书"
+}
+{
+  "Consent Purposes"
+  "同意目的"
+}
+{
+  "Consent form is not available"
+  "同意书不可用"
+}
+{
+  "Continue"
+  "继续"
+}
+{
+  "Continue as %1$s"
+  "以%1$s继续"
+}
+{
+  "Continue with %s"
+  "继续%s"
+}
+{
+  "Continue with %s (%s)"
+  "继续%s（%s）"
+}
+{
+  "Continue with Basic"
+  "继续基本"
+}
+{
+  "Continue with Facebook"
+  "继续使用Facebook"
+}
+{
+  "Continue without accepting Banner. This will dismiss banner and save default consent values"
+  "继续而不接受Banner。这将关闭横幅并保存默认同意值"
+}
+{
+  "Continue without account"
+  "无帐户继续"
+}
+{
+  "Controls the time zone used to display times in the app. \"Airport\" displays departure and arrival times in the local time of the appropriate airport for a flight. \"Local\" uses the time zone of your Android device. \"UTC\" displays all times in Coordinated Universal Time (UTC), the time standard used in aviation."
+  "控制用于在应用程序中显示时间的时区。“机场”显示航班在相应机场的当地时间出发和到达时间。“本地”使用您的Android设备的时区。“UTC”以航空中使用的时间标准协调世界时（UTC）显示所有时间。"
+}
+{
+  "Cookie Settings"
+  "Cookie设置"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Coral"
+  "珊瑚"
+}
+{
+  "Could be better"
+  "差强人意"
+}
+{
+  "Could not complete your request at this time. Please try again later."
+  "此时无法完成您的请求。请稍后再试。"
+}
+{
+  "Could not connect to the Flightradar24 server. Please check your connection and try again."
+  "无法连接到Flightradar24服务器。请检查您的连接，然后重试。"
+}
+{
+  "Couldn't find the email in our database"
+  "在我们的数据库中找不到电子邮件"
+}
+{
+  "Countries served"
+  "服务国家"
+}
+{
+  "Country name"
+  "国家/地区名称"
+}
+{
+  "Country of reg."
+  "注册地"
+}
+{
+  "Country of registration"
+  "注册地"
+}
+{
+  "Create Password"
+  "创建密码"
+}
+{
+  "Create a free Basic account to add one bookmark or upgrade to <b>Silver (%d)</b> or <b>Gold (%d)</b> to add a higher number of bookmarks."
+  "创建一个免费的基本帐户以添加一个书签，或升级到<b>银牌（%d）</b>或<b>金牌（%d）>/b>以添加更多书签。"
+}
+{
+  "Create a live notification when tapping the Follow button in the live flight panel."
+  "点击实时航班面板中的“关注”按钮时创建实时通知。"
+}
+{
+  "Create account"
+  "创建帐户"
+}
+{
+  "Create calendar event"
+  "创建日历事件"
+}
+{
+  "Create free Flightradar24 account"
+  "创建免费Flightradar24帐户"
+}
+{
+  "Create free account"
+  "创建免费帐户"
+}
+{
+  "Create name for location"
+  "为位置创建名称"
+}
+{
+  "Create one Flightradar24 account for all your devices"
+  "为您的所有设备创建一个Flightradar24帐户"
+}
+{
+  "Create password"
+  "创建密码"
+}
+{
+  "Create your own order"
+  "创建自己的订单"
+}
+{
+  "Creating live notification…"
+  "正在创建实时通知…"
+}
+{
+  "Current North Atlantic and Pacific oceanic tracks and Australian flex tracks."
+  "当前北大西洋和太平洋的海洋航路，以及澳大利亚的动态航路。"
+}
+{
+  "Current ash area"
+  "当前灰区"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Current waiting time:"
+  "当前等待时间："
+}
+{
+  "Current weather"
+  "当前天气"
+}
+{
+  "Current weather for 3,000 airports around the world."
+  "全球3000个机场的当前天气。"
+}
+{
+  "Currently not tracked"
+  "目前未跟踪"
+}
+{
+  "Custom"
+  "自定义"
+}
+{
+  "Custom alerts"
+  "自定义提醒"
+}
+{
+  "Custom fleets"
+  "定制车队"
+}
+{
+  "DATA SOURCE"
+  "数据源"
+}
+{
+  "Dark"
+  "黑暗"
+}
+{
+  "Data Declaration"
+  "数据声明"
+}
+{
+  "Data Retention | if applicable value displayed in days"
+  "数据保留|如果适用，以天为单位显示值"
+}
+{
+  "Data from sources not currently classified here."
+  "来自目前未在此处分类的来源的数据。"
+}
+{
+  "Data sharing"
+  "数据共享"
+}
+{
+  "Data source — %s"
+  "数据源--%s"
+}
+{
+  "Data sources"
+  "数据来源"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Date does not match expected pattern: %1$s"
+  "日期与预期模式不匹配：%1$s"
+}
+{
+  "Date not allowed: %1$s"
+  "不允许的日期：%1$s"
+}
+{
+  "Date out of expected year range %1$s - %2$s"
+  "日期超出预期年份范围%1$s-%2$s"
+}
+{
+  "Day/night line"
+  "晨昏线"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Delayed"
+  "延迟"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Delete account"
+  "删除帐户"
+}
+{
+  "Delete account not possible"
+  "无法删除帐户"
+}
+{
+  "Delete profile failed."
+  "删除配置文件失败。"
+}
+{
+  "Departed"
+  "出港"
+}
+{
+  "Departed %s ago"
+  "起飞于%s"
+}
+{
+  "Departed N/A"
+  "出发不可用"
+}
+{
+  "Departure airport"
+  "出发机场"
+}
+{
+  "Departure disruption index: %s"
+  "发车中断指数：%s"
+}
+{
+  "Departures"
+  "出港"
+}
+{
+  "Destination"
+  "目的地"
+}
+{
+  "Destination is"
+  "目的地是"
+}
+{
+  "Destination is not"
+  "目的地不是"
+}
+{
+  "Detailed aviation weather layers"
+  "详细的航空天气层"
+}
+{
+  "Details"
+  "细节"
+}
+{
+  "Device setting"
+  "设备设置（中文）"
+}
+{
+  "Devices"
+  "设备"
+}
+{
+  "Dew point"
+  "露点"
+}
+{
+  "Dialog"
+  "对话框"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Dialog box on exit"
+  "退出对话框"
+}
+{
+  "Direction"
+  "方向"
+}
+{
+  "Dirt"
+  "污垢"
+}
+{
+  "Disabled"
+  "禁用"
+}
+{
+  "Discard"
+  "丢弃"
+}
+{
+  "Discard changes?"
+  "放弃更改？"
+}
+{
+  "Disclaimer: An aircraft will remain on the list until we can confirm that it has departed from the airport. Please note that the data could contain inaccuracies."
+  "免责声明：在我们确认飞机已离开机场之前，飞机将保留在名单上。请注意，数据可能不准确。"
+}
+{
+  "Disconnect"
+  "断开连接"
+}
+{
+  "Dismiss"
+  "解散"
+}
+{
+  "Dismiss bottom sheet"
+  "拆下底板"
+}
+{
+  "Disruption index"
+  "中断指数"
+}
+{
+  "Disruption index is available for about 300 of the busiest airports."
+  "大约300个最繁忙的机场都有中断指数。"
+}
+{
+  "Disruptions"
+  "中断"
+}
+{
+  "Distance"
+  "距离"
+}
+{
+  "Diverted"
+  "转移"
+}
+{
+  "Diverted to %s"
+  "已转移到%s"
+}
+{
+  "Diverting"
+  "转移"
+}
+{
+  "Diverting to %s"
+  "转向%s"
+}
+{
+  "Diverting to — %1$s (%2$s)"
+  "转移到--%1$s（%2$s）"
+}
+{
+  "Do you really want to quit the app?"
+  "您真的要退出应用程序吗？"
+}
+{
+  "Do you want to see the flight history of this aircraft %s?"
+  "您想查看这架飞机%s的飞行历史吗？"
+}
+{
+  "Do you work at an airport?"
+  "你在机场工作吗？"
+}
+{
+  "Don't allow"
+  "不允许"
+}
+{
+  "Don't show again"
+  "不再显示"
+}
+{
+  "Don't show this again"
+  "不再显示此内容"
+}
+{
+  "Don't show this again "
+  "不再显示此内容"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Don’t have an account?"
+  "没有账号？"
+}
+{
+  "Download CSV"
+  "下载CSV"
+}
+{
+  "Download KML"
+  "下载KML"
+}
+{
+  "Download SDK Data"
+  "下载SDK数据"
+}
+{
+  "Download data files"
+  "下载数据文件"
+}
+{
+  "Downloads"
+  "下载专区"
+}
+{
+  "Drag handle"
+  "拖动控件"
+}
+{
+  "Drag handle double-tapped"
+  "双击拖动控件"
+}
+{
+  "Drones"
+  "无人机"
+}
+{
+  "Dropdown menu"
+  "下拉菜单"
+}
+{
+  "E.g. BA112, Heathrow, LHR-JFK, BAW112"
+  "例如，BA112、希思罗机场、LHR-JFK、BAW112"
+}
+{
+  "EMAIL"
+  "电子邮件"
+}
+{
+  "EQUIPMENT"
+  "机型"
+}
+{
+  "ERUPTION"
+  "喷发"
+}
+{
+  "ETA %s"
+  "预计到达时间%s"
+}
+{
+  "Easily find a flight"
+  "轻松找到航班"
+}
+{
+  "Edit"
+  "编辑"
+}
+{
+  "Edit aircraft"
+  "编辑飞机"
+}
+{
+  "Edit airports"
+  "编辑机场"
+}
+{
+  "Edit flights"
+  "编辑航班"
+}
+{
+  "Edit locations"
+  "编辑位置"
+}
+{
+  "Elev. %s"
+  "海拔高度：%s"
+}
+{
+  "Elevation %s"
+  "海拔高度：%s"
+}
+{
+  "Elevation not available"
+  "海拔高度不可用"
+}
+{
+  "Email"
+  "电子邮件"
+}
+{
+  "Email address mismatched"
+  "电子邮件地址不匹配"
+}
+{
+  "Email not found"
+  "未找到电子邮件"
+}
+{
+  "Emergency alert (squawk %s)"
+  "紧急提醒（应答器代码%s）"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "End date %1$s"
+  "结束日期 %1$s"
+}
+{
+  "Enjoy 3 months of Gold for %s. Learn more"
+  "体验%s的3个月金牌会员。了解更多"
+}
+{
+  "Enjoy 3 months of Silver for %s. Learn more"
+  "体验%s的3个月银牌会员。了解更多"
+}
+{
+  "Enjoy 3 months of ad-free flight tracking and over <b>30</b> premium-only features for just %s in this <font color=#f8c023><b>limited time 24 hour offer.</b></font>"
+  "在此<font color=#f8c023><b>限时24小时优惠中，只需%s即可享受3个月的无广告航班跟踪和超过30个</b>的高级功能</b> </font>"
+}
+{
+  "Enjoy 3 months of ad-free flight tracking and over <b>50</b> premium-only features for just %s in this <font color=#f8c023><b>limited time 24 hour offer.</b></font>"
+  "享受 3 个月无广告的航班追踪服务，并获得超过 <b>50</b> 项仅限高级会员的功能，仅需 %s，在此 <font color=#f8c023><b>限时 24 小时优惠。</b></font>"
+}
+{
+  "Enjoy 3 months of full features for %s. Learn more"
+  "享受%s 3个月的完整功能。了解更多"
+}
+{
+  "Enter IATA code"
+  "输入IATA代码"
+}
+{
+  "Enter ICAO code"
+  "输入ICAO代码"
+}
+{
+  "Enter a valid email address"
+  "输入有效的电子邮件地址"
+}
+{
+  "Enter a valid email address."
+  "输入有效的电子邮件地址。"
+}
+{
+  "Enter airline name or ICAO code. Separate ICAO codes with a comma e.g. BAW, UAL to filter for multiple airlines."
+  "输入航空公司名称或国际民航组织代码。用英文逗号分隔ICAO代码，例如 BAW,UAL，以过滤多家航空公司。"
+}
+{
+  "Enter an ICAO code or select from the list. Filters now show the exact match, e.g. C17 will only show C17s and not C172s as well. Use the * character to show all aircraft matching a partial ICAO code, e.g., B77* for all Boeing 777 models. Separate multiple entries with a comma, e.g., A35*,B789 to see all Airbus A350s and the Boeing 787-9."
+  "输入ICAO代码或从列表中选择。过滤器现在显示完全匹配，例如C17将仅显示C17，而不显示C172。使用*字符显示与部分ICAO代码匹配的所有飞机，例如，所有波音777型号的B77*。用逗号分隔多个条目，例如A35*、B789，以查看所有空客A350和波音787-9。"
+}
+{
+  "Enter an airport name, IATA code or select from the list. Separate with comma e.g. JFK, ARN to filter multiple airports."
+  "输入机场名称、IATA代码或从列表中选择。用逗号分隔，例如JFK、ARN，以过滤多个机场。"
+}
+{
+  "Enter code"
+  "输入代码"
+}
+{
+  "Enter dates"
+  "输入日期"
+}
+{
+  "Enter email"
+  "输入电子邮件"
+}
+{
+  "Enter registration"
+  "输入注册信息"
+}
+{
+  "Enter your email in order to request a new password."
+  "输入您的电子邮件以请求新密码。"
+}
+{
+  "Entered date"
+  "输入日期"
+}
+{
+  "Entered date: %1$s"
+  "输入日期：%1$s"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Estimated"
+  "预计"
+}
+{
+  "Estimated arrival %s"
+  "预计于%s到达"
+}
+{
+  "Estimated departure %s"
+  "预计出发时间%s"
+}
+{
+  "Estimation"
+  "估算"
+}
+{
+  "Estimations"
+  "估算"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Expand"
+  "展开"
+}
+{
+  "Expand bottom sheet"
+  "展开底部图纸"
+}
+{
+  "Expand halfway"
+  "展开至一半"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部面板"
+}
+{
+  "Expanded"
+  "扩大"
+}
+{
+  "Expanded info shows full flight status and aircraft details. You can also view large photos of the actual aircraft you're following."
+  "展开的信息显示了完整的航班状态和飞机详细信息。您还可以查看您正在跟踪的实际飞机的大图。"
+}
+{
+  "Experience past flights"
+  "探索历史航班"
+}
+{
+  "Explore our best features"
+  "探索我们的绝佳功能"
+}
+{
+  "FAQ"
+  "常见问题解答"
+}
+{
+  "FIR/UIR"
+  "飞行情报区（FIR）/高空飞行情报区（UIR）"
+}
+{
+  "FIRST FORECASTED ASH AREA (usually +6 hours)"
+  "第一预测灰区（通常+6小时）"
+}
+{
+  "FLIGHT"
+  "飞行"
+}
+{
+  "FLIGHT DISRUPTIONS (TODAY)"
+  "航班中断（今天）"
+}
+{
+  "FLIGHT DISRUPTIONS (TOMORROW)"
+  "航班中断（明天）"
+}
+{
+  "FLIGHT DISRUPTIONS (YESTERDAY)"
+  "航班中断（昨天）"
+}
+{
+  "FLIGHT TIME"
+  "飞行时间"
+}
+{
+  "Fahrenheit"
+  "华氏度℉"
+}
+{
+  "Failed to authenticate on FR24 server."
+  "无法在FR24服务器上进行身份验证。"
+}
+{
+  "Faster, ad-free experience"
+  "更快、无广告的体验"
+}
+{
+  "Feature not available. Upgrade subscription."
+  "功能不可用。升级订阅。"
+}
+{
+  "Featured flight alert"
+  "特色航班提醒"
+}
+{
+  "Featured flights"
+  "特色航班"
+}
+{
+  "Features"
+  "特征"
+}
+{
+  "Feedback"
+  "反馈意见"
+}
+{
+  "Feeder inactive, no data received for more than seven days"
+  "馈线处于非活动状态，超过七天未收到数据"
+}
+{
+  "Feet"
+  "英尺"
+}
+{
+  "Filter"
+  "过滤器"
+}
+{
+  "Filter by aircraft"
+  "按飞机筛选"
+}
+{
+  "Filter by airline"
+  "按航空公司筛选"
+}
+{
+  "Filter by airport"
+  "按机场筛选"
+}
+{
+  "Filter by registration"
+  "按注册号筛选"
+}
+{
+  "Filter name"
+  "筛选器名称"
+}
+{
+  "Filters"
+  "过滤器"
+}
+{
+  "Find a flight by searching for a flight number, route, or registration. Or find flights just by origin or destination."
+  "通过搜索航班号、路线或注册号来查找航班。或者只按出发地或目的地查找航班。"
+}
+{
+  "Find arriving flight"
+  "查找到达航班"
+}
+{
+  "Find departing flight"
+  "查找出发航班"
+}
+{
+  "Find out more"
+  "了解更多"
+}
+{
+  "Finding devices"
+  "查找设备"
+}
+{
+  "Flight"
+  "航班"
+}
+{
+  "Flight %s is currently not tracked by Flightradar24. It’s either out of coverage or has already landed.\n\nDo you want to see the history of this flight?"
+  "航班%s当前未被Flightradar24跟踪。它要么已经超出覆盖范围，要么已经着陆。\n你想看看这次飞行的历史吗？"
+}
+{
+  "Flight alert"
+  "飞行提醒"
+}
+{
+  "Flight bookmark removed."
+  "航班书签已删除。"
+}
+{
+  "Flight bookmark successfully added."
+  "已成功添加航班书签。"
+}
+{
+  "Flight by route"
+  "按起降机场查询"
+}
+{
+  "Flight info"
+  "航班信息"
+}
+{
+  "Flight level"
+  "飞行高度层"
+}
+{
+  "Flight no. or call sign"
+  "航班号或呼号"
+}
+{
+  "Flight number"
+  "航班号"
+}
+{
+  "Flight number A-Z"
+  "航班号A-Z"
+}
+{
+  "Flight number, airport, route or reg."
+  "航班号、机场、航线或注册号。"
+}
+{
+  "Flight number: %s, call sign: %s"
+  "航班号：%s，呼号：%s"
+}
+{
+  "Flight path failed to load, please try again."
+  "航班路径加载失败，请重试。"
+}
+{
+  "Flight: %s"
+  "航班：%s"
+}
+{
+  "Flight: no call sign"
+  "航班：无呼号"
+}
+{
+  "Flightradar24 Terms of Service"
+  "Flightradar24服务条款"
+}
+{
+  "Flightradar24 app requires Google Play Services to be updated or reinstalled."
+  "Flightradar24应用程序需要更新或重新安装Google Play服务。"
+}
+{
+  "Flightradar24 feedback"
+  "Flightradar24反馈"
+}
+{
+  "Flightradar24 has been featured by:"
+  "Flightradar24的特色是："
+}
+{
+  "Flightradar24 server not responding"
+  "Flightradar24服务器没有响应"
+}
+{
+  "Flightradar24 works best with location and camera permissions"
+  "需要位置和相机权限来获得更佳效果"
+}
+{
+  "Flightradar24 works best with location permissions"
+  "需要位置信息授权来获得更佳效果"
+}
+{
+  "Flights"
+  "航班"
+}
+{
+  "Flights canceled"
+  "航班取消"
+}
+{
+  "Flights delayed"
+  "航班延误"
+}
+{
+  "Flying %1$s — %2$s"
+  "飞行%1$s--%2$s"
+}
+{
+  "Follow"
+  "跟踪"
+}
+{
+  "Follow a flight’s live progress on the lock screen and the notifications drawer."
+  "在锁屏和通知抽屉上跟踪航班的实时进度。"
+}
+{
+  "Follow a flight’s live progress on the lock screen and the notifications drawer. Only one live notification can be active at a time."
+  "在锁屏和通知抽屉上跟踪航班的实时进度。一次只能有一个实时通知处于活动状态。"
+}
+{
+  "Follow an ultra-realistic 3D model including the airline livery over high-resolution earth imagery."
+  "遵循超现实的3D模型，包括高分辨率地球图像上的航空公司制服。"
+}
+{
+  "Follow flights in 3D"
+  "在3D中追踪航班"
+}
+{
+  "Followers: %d"
+  "关注者：%d"
+}
+{
+  "Forecast of icing severity for 36 hours into the future at flight levels FL060 through FL300. Forecast information is generated by the U.S. Aviation Weather Center and categorized as none, trace, light, moderate, or severe."
+  "预测未来36小时飞行高度FL060至FL300的结冰严重程度。预报信息由美国航空气象中心生成，分为分为无（None）、痕量（Trace）、轻度（Light）、中度（Moderate）和重度（Severe）五级。"
+}
+{
+  "Forecast of turbulence for 36 hours into the future at flight levels FL100 through FL450. Forecast information is generated by the U.S. Aviation Weather Center and categorized as none, light, moderate, or severe."
+  "预测未来36小时飞行高度FL100至FL450的湍流。预报信息由美国航空气象中心生成，分为无（None）、轻度（Light）、中度（Moderate）和重度（Severe）四级"
+}
+{
+  "Forecasted areas of high level significant weather, available for up to 24-hour period in six hour increments."
+  "预报的高级别重要天气区域，最多可在24小时内以6小时为增量提供。"
+}
+{
+  "Forecasts"
+  "预测"
+}
+{
+  "Forgot Password?"
+  "忘记密码？"
+}
+{
+  "Forgot password?"
+  "忘记密码？"
+}
+{
+  "Free trial"
+  "免费试用"
+}
+{
+  "Frequent fliers"
+  "常旅客"
+}
+{
+  "From"
+  "从"
+}
+{
+  "G - L"
+  "G-L"
+}
+{
+  "GLOBAL"
+  "全球"
+}
+{
+  "GOT IT"
+  "知道了"
+}
+{
+  "GPS altitude"
+  "GPS高度"
+}
+{
+  "GPS based aircraft tracking technology, used mainly by light aircraft, helicopters and gliders. Data quality is variable due to limited tracking capability for gliders. Data is provided by Open Glider Network and displayed in real-time."
+  "基于GPS的飞机跟踪技术，主要用于轻型飞机、直升机和滑翔机。由于滑翔机的跟踪能力有限，数据质量是可变的。数据由Open Glider Network提供并实时显示。"
+}
+{
+  "GPS based aircraft tracking via ADS-B receivers installed on satellites. ADS-B provides the greatest level of flight tracking accuracy, though some older transponders may provide less precise data. Data is displayed in near real-time."
+  "通过安装在卫星上的ADS-B接收器进行基于GPS的飞机跟踪。ADS-B提供了最高水平的飞行跟踪精度，尽管一些较旧的转发器可能提供不太精确的数据。数据几乎实时显示。"
+}
+{
+  "GPS based aircraft tracking via terrestrial receivers used to track small, light aircraft mainly operating in the United States below 18,000 feet. Data is displayed in real-time."
+  "通过地面接收器进行基于GPS的飞机跟踪，用于跟踪主要在美国18000英尺以下运行的小型轻型飞机，数据实时显示。"
+}
+{
+  "GPS based aircraft tracking via terrestrial receivers. ADS-B provides the greatest level of flight tracking accuracy, though some older transponders may provide less precise data. Data is displayed in real-time."
+  "通过地面接收器进行基于GPS的飞机跟踪。ADS-B提供了最高的飞行跟踪精度，但一些较旧的转发器可能提供不太精确的数据。数据实时显示。"
+}
+{
+  "GPS-based aircraft tracking technology, mainly light aircraft, helicopters, and gliders. Real-time."
+  "基于GPS的飞机跟踪技术，主要是轻型飞机、直升机和滑翔机。实时。"
+}
+{
+  "GPS-based aircraft tracking via satellite receivers. Near real-time."
+  "通过卫星接收器进行基于GPS的飞机跟踪。近乎实时。"
+}
+{
+  "GPS-based aircraft tracking via terrestrial receivers. Real-time."
+  "通过地面接收器进行基于GPS的飞机跟踪，实时。"
+}
+{
+  "GPS-based aircraft tracking, mainly light aircraft in the US operating below 18,000 feet. Real-time."
+  "基于GPS的飞机跟踪，主要是美国18000英尺以下的轻型飞机。实时。"
+}
+{
+  "GREAT CIRCLE DISTANCE"
+  "大圆航程"
+}
+{
+  "GROUND SPEED"
+  "地面速度"
+}
+{
+  "Gate"
+  "登机口"
+}
+{
+  "General"
+  "概述"
+}
+{
+  "General aviation"
+  "通用航空"
+}
+{
+  "General emergency alert"
+  "一般紧急提醒"
+}
+{
+  "Get 3 months for %s"
+  "为%s获得3个月"
+}
+{
+  "Get 3 months of Gold for %s"
+  "以%s获得3个月的金牌会员"
+}
+{
+  "Get 3 months of Silver for %s"
+  "%s可获得3个月的银牌会员"
+}
+{
+  "Get 30% off the Gold annual plan. Only available for a limited time! Try Gold now"
+  "获得年度金牌会员30%的折扣。仅在有限的时间内可用！立即试用"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Get email updates from Flightradar24"
+  "获取来自Flightradar24的电子邮件更新"
+}
+{
+  "Get full flight & aircraft info"
+  "获取完整的航班和飞机信息"
+}
+{
+  "Get more from Flightradar24"
+  "从Flightradar24获取更多信息"
+}
+{
+  "Get push notifications based on flight events of your choosing."
+  "根据您选择的航班事件获取推送通知。"
+}
+{
+  "Get push notifications based on flight events of your choosing. Simultaneous alerts: 10 Silver | 25 Gold"
+  "根据您选择的航班事件获取推送通知。同时提醒：10银|25金"
+}
+{
+  "Get the latest arrival/departure & weather info"
+  "获取最新的到达/离开和天气信息"
+}
+{
+  "Glad to hear it! \nWe'd really appreciate it if you could rate or write a review for Flightradar24 in the Google Play Store to help more users find the app."
+  "很高兴听到这个消息！\n如果您能在Google Play商店中为Flightradar24评分或撰写评论，以帮助更多用户找到该应用程序，我们将不胜感激。"
+}
+{
+  "Gliders"
+  "滑翔机"
+}
+{
+  "Global"
+  "全球"
+}
+{
+  "Global IR Satellite provides worldwide cloud cover displayed on map, refreshed every 60 minutes."
+  "全球红外卫星提供的全球云量地图，每60分钟刷新一次。"
+}
+{
+  "Global radar systems provide worldwide areas and intensity of precipitation on the map, refreshed every 30 minutes."
+  "全球雷达系统提供的全球降水面积和强度，每30分钟刷新一次。"
+}
+{
+  "Go ad free"
+  "无广告"
+}
+{
+  "Go to bookmarks"
+  "转到书签"
+}
+{
+  "Go to detail about the category"
+  "转到有关类别的详细信息"
+}
+{
+  "Go to my location"
+  "转到我的位置"
+}
+{
+  "Gold"
+  "金牌"
+}
+{
+  "Gold Annual"
+  "年度金牌订阅"
+}
+{
+  "Gold Monthly"
+  "月度金牌订阅"
+}
+{
+  "Good traffic flow."
+  "交通通畅。"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "Gradient"
+  "梯度"
+}
+{
+  "Grass"
+  "草"
+}
+{
+  "Gravel"
+  "砾石"
+}
+{
+  "Great"
+  "出类拔萃"
+}
+{
+  "Great that you found Bookmarks"
+  "很高兴你找到了书签"
+}
+{
+  "Green"
+  "绿色"
+}
+{
+  "Ground speed"
+  "地面速度"
+}
+{
+  "Ground speed:"
+  "地面速度："
+}
+{
+  "Ground vehicles"
+  "地面车辆"
+}
+{
+  "Group"
+  "集团"
+}
+{
+  "Hang Up"
+  "挂断电话"
+}
+{
+  "Have you published the SDK_VERSION SDK data in the OneTrust portal?"
+  "您是否在OneTrust门户中发布了SDK_VERSION SDK数据？"
+}
+{
+  "Headline"
+  "标题"
+}
+{
+  "Helicopters"
+  "直升机"
+}
+{
+  "Help"
+  "帮助"
+}
+{
+  "Help us improve ground coverage"
+  "帮助我们提高地面覆盖率"
+}
+{
+  "Hi-res icing"
+  "高精度结冰预警"
+}
+{
+  "Hi-res turbulence"
+  "高精度湍流预警"
+}
+{
+  "High altitude"
+  "高空"
+}
+{
+  "High level significant weather"
+  "高级别重要天气"
+}
+{
+  "High-resolution North American radar is a mosaic image of radars covering the continental US, Alaska, Hawaii, Puerto Rico, and the southern portion of Canada. High-resolution North American radar combines 1 km resolution with 2-minute updates for the best weather detail and timeliness."
+  "高分辨率北美雷达是覆盖美国大陆、阿拉斯加、夏威夷、波多黎各和加拿大南部的雷达拼接图像。高分辨率北美雷达拥有1公里分辨率，每2分钟更新，可及时获得最佳的天气细节。"
+}
+{
+  "High: Make sound"
+  "高：发出声音"
+}
+{
+  "Highlight"
+  "突出"
+}
+{
+  "Hold your phone up to the sky!"
+  "把手机举向天空！"
+}
+{
+  "Hold your tablet up to the sky!"
+  "把你的平板举向天空！"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "How are you liking the Flightradar24 app so far?"
+  "到目前为止，你觉得Flightradar24应用程序怎么样？"
+}
+{
+  "Humidity"
+  "湿度"
+}
+{
+  "Hurry, your offer expires soon."
+  "快点，你的报价很快就要到期了。"
+}
+{
+  "Hybrid"
+  "混合"
+}
+{
+  "IATA code (e.g. LHR)"
+  "IATA代码（例如LHR）"
+}
+{
+  "IATA code A-Z"
+  "IATA代码A-Z"
+}
+{
+  "IATA code: %s"
+  "IATA代码：%s"
+}
+{
+  "IATA codes: %s"
+  "IATA代码：%s"
+}
+{
+  "ICAO 24-bit address"
+  "ICAO 24位地址"
+}
+{
+  "ICAO code (e.g. SAS)"
+  "ICAO代码（如SAS）"
+}
+{
+  "ICAO code: %s"
+  "ICAO代码：%s"
+}
+{
+  "ICAO codes: %s"
+  "ICAO代码：%s"
+}
+{
+  "ISSUE TIME"
+  "发行时间"
+}
+{
+  "Identify flights overhead"
+  "识别头顶的航班"
+}
+{
+  "If you close Edit without saving you will lose your changes."
+  "如果关闭编辑而不保存，您将丢失更改。"
+}
+{
+  "If you experience poor compass behavior, please try to re-calibrate. You can do that using the following steps:\n\nTilt your phone forward and back\n\nMove it side to side\n\nAnd then tilt left and right\n\nYou may need to repeat the steps until your compass is calibrated."
+  "如果您遇到指南针性能不佳的情况，请尝试重新校准。您可以使用以下步骤进行操作：\n前后倾斜手机\n左右移动\n然后左右倾斜\n您可能需要重复这些步骤，直到指南针校准。"
+}
+{
+  "If you have a photo and want it to appear on Flightradar24, upload it to jetphotos.com"
+  "如果你有一张照片并希望它出现在Flightradar24上，请将其上传到jetphotos.com"
+}
+{
+  "Imperial miles"
+  "英里"
+}
+{
+  "Importance:"
+  "重要性："
+}
+{
+  "In order to use Live notifications, please enable notifications in System settings."
+  "要使用实时通知，请在系统设置中启用通知。"
+}
+{
+  "In progress"
+  "进行中"
+}
+{
+  "In range"
+  "在范围内"
+}
+{
+  "Inbound"
+  "出港"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Increase the coverage in your area"
+  "扩大您所在地区的覆盖范围"
+}
+{
+  "Indicated airspeed"
+  "指示空速（IAS）"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Intense precipitation"
+  "强降水"
+}
+{
+  "Invalid date range input"
+  "日期范围输入无效"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Invalid input"
+  "输入无效"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Invalid subscription"
+  "订阅无效"
+}
+{
+  "Invalid transponder"
+  "应答器无效"
+}
+{
+  "It seems that you have an active Flightradar24 subscription but that subscription was purchased using a different Google account. Please log into that Google account in Google Play to change your subscription."
+  "您似乎有一个活跃的Flightradar24订阅，但该订阅是使用不同的谷歌帐户购买的。请在Google Play中登录该Google帐户以更改您的订阅。"
+}
+{
+  "Join 1,000,000+ other subscribers and get access to premium-only features including:"
+  "加入1000000+其他订阅者，获得仅限高级功能，包括："
+}
+{
+  "Join 1,000,000+ other users and get access to premium-only features including:"
+  "加入1000000+其他用户，获得仅限高级功能，包括："
+}
+{
+  "Kilometers"
+  "公里"
+}
+{
+  "Knots"
+  "节（kn）"
+}
+{
+  "LED notification"
+  "LED通知"
+}
+{
+  "LENGTH (m/ft)"
+  "长度（米/英尺）"
+}
+{
+  "LIVE NOTIFICATIONS"
+  "实时通知"
+}
+{
+  "LIVE flight by airline"
+  "按航空公司查询"
+}
+{
+  "Labels travel with the aircraft and are shown when there are fewer than %d aircraft on the map."
+  "标签随飞机一起移动，当地图上的飞机少于%d架时显示。"
+}
+{
+  "Landed"
+  "降落"
+}
+{
+  "Landed %s"
+  "已于%s着陆"
+}
+{
+  "Landed as %s"
+  "以%s为航班号"
+}
+{
+  "Language"
+  "语言"
+}
+{
+  "Last added"
+  "最后添加时间"
+}
+{
+  "Laterite"
+  "红土"
+}
+{
+  "Latest METAR"
+  "最新METAR"
+}
+{
+  "Latitude"
+  "纬度"
+}
+{
+  "Launch AR"
+  "启动AR"
+}
+{
+  "Launch Bookmarks"
+  "启动书签"
+}
+{
+  "Learn how to cast"
+  "学习如何铸造"
+}
+{
+  "Learn more"
+  "了解更多"
+}
+{
+  "Learn more about subscriptions"
+  "了解有关订阅的更多信息"
+}
+{
+  "Leave feedback"
+  "留下反馈"
+}
+{
+  "Legitimate \nInterest"
+  "合法的\n兴趣"
+}
+{
+  "Less info"
+  "简洁信息"
+}
+{
+  "License details for open source software"
+  "开源软件的许可证详细信息"
+}
+{
+  "License info is loading."
+  "正在加载许可证信息。"
+}
+{
+  "License list is loading."
+  "正在加载许可证列表。"
+}
+{
+  "Lighter-than-air"
+  "比空气轻"
+}
+{
+  "Lightning"
+  "闪电"
+}
+{
+  "Like"
+  "喜欢"
+}
+{
+  "Liked"
+  "喜欢"
+}
+{
+  "Link copied to clipboard"
+  "链接复制到剪贴板"
+}
+{
+  "Live"
+  "现场直播"
+}
+{
+  "Live Notifications"
+  "实时通知"
+}
+{
+  "Live flight not found"
+  "未找到实时航班"
+}
+{
+  "Live flights"
+  "实时航班"
+}
+{
+  "Live notification created for %s"
+  "为%s创建实时通知"
+}
+{
+  "Live notifications"
+  "实时通知"
+}
+{
+  "Load earlier flights"
+  "加载较早的航班"
+}
+{
+  "Load later flights"
+  "加载后续航班"
+}
+{
+  "Load more"
+  "加载更多"
+}
+{
+  "Load more flights"
+  "加载更多航班"
+}
+{
+  "Loading playback data…"
+  "正在加载回放数据…"
+}
+{
+  "Loading…"
+  "正在加载…"
+}
+{
+  "Local"
+  "本地"
+}
+{
+  "Location"
+  "地点"
+}
+{
+  "Location A-Z"
+  "位置A-Z"
+}
+{
+  "Location bookmark successfully added."
+  "已成功添加位置书签。"
+}
+{
+  "Location permission is required for AR view."
+  "AR视图需要位置权限。"
+}
+{
+  "Location permission is required for airport notifications."
+  "机场通知需要位置许可。"
+}
+{
+  "Location permission is required."
+  "需要位置权限。"
+}
+{
+  "Locations"
+  "位置"
+}
+{
+  "Log In"
+  "登录"
+}
+{
+  "Log in"
+  "登录"
+}
+{
+  "Log in with Apple"
+  "使用Apple登录"
+}
+{
+  "Log in with Facebook"
+  "使用Facebook登录"
+}
+{
+  "Log in with Google"
+  "使用Google登录"
+}
+{
+  "Log in with email"
+  "使用电子邮件登录"
+}
+{
+  "Log in | Upgrade"
+  "登录|升级"
+}
+{
+  "Log out"
+  "注销"
+}
+{
+  "Logged in as: %1$s"
+  "登录身份：%1$s"
+}
+{
+  "Logged in using Facebook"
+  "使用Facebook登录"
+}
+{
+  "Login authorization succeeded"
+  "登录授权成功"
+}
+{
+  "Logo"
+  "标志"
+}
+{
+  "Longitude"
+  "经度"
+}
+{
+  "Looking for devices..."
+  "正在查找设备……"
+}
+{
+  "Looks like you already purchased this subscription. Please re-start the app to validate your purchase."
+  "看起来您已经购买了此订阅。请重新启动应用程序以验证您的购买。"
+}
+{
+  "Low altitude"
+  "低空"
+}
+{
+  "Low: No sound or visual interruption"
+  "低：无声音或视觉中断"
+}
+{
+  "M - R"
+  "M-R"
+}
+{
+  "METAR is a format that airports use for reporting weather information to pilots."
+  "METAR是机场用于向飞行员报告天气信息的格式。"
+}
+{
+  "MODE S"
+  "S模式应答器"
+}
+{
+  "Macadam"
+  "碎石"
+}
+{
+  "Mach"
+  "马赫"
+}
+{
+  "Major problems with long delays and several canceled flights."
+  "长时间延误和几次航班取消的大问题。"
+}
+{
+  "Make sound"
+  "发出声音"
+}
+{
+  "Make sound and pop on screen"
+  "发出声音并弹出消息"
+}
+{
+  "Make sure the other device is on the same Wi-Fi network as this car"
+  "确保其他设备与这辆车位于同一Wi-Fi网络上"
+}
+{
+  "Make sure the other device is on the same Wi-Fi network as this device"
+  "确保其他设备与此设备位于同一Wi-Fi网络上"
+}
+{
+  "Make sure the other device is on the same Wi-Fi network as this phone"
+  "确保其他设备与此手机位于同一Wi-Fi网络上"
+}
+{
+  "Make sure the other device is on the same Wi-Fi network as this tablet"
+  "确保其他设备与此平板电脑位于同一Wi-Fi网络上"
+}
+{
+  "Make sure the other device is on the same Wi-Fi network as this tv"
+  "确保其他设备与此电视位于同一Wi-Fi网络上"
+}
+{
+  "Make sure the other device is on the same Wi-Fi network as this watch"
+  "确保其他设备与此手表位于同一Wi-Fi网络上"
+}
+{
+  "Manage Cookies Preferences"
+  "管理Cookie首选项"
+}
+{
+  "Manage your personal data and ad preferences"
+  "管理您的个人数据和广告偏好"
+}
+{
+  "Many of the features in the app are free. By upgrading you get access to:"
+  "应用程序中的许多功能都是免费的。通过升级，您可以访问："
+}
+{
+  "Map"
+  "地图"
+}
+{
+  "Map brightness"
+  "地图亮度"
+}
+{
+  "Map controls"
+  "地图控件"
+}
+{
+  "Map type"
+  "地图类型"
+}
+{
+  "Max number of profiles already created. Please delete one of the profiles to be able to add a new one."
+  "已创建的配置文件的最大数量。请删除其中一个配置文件，以便添加新的配置文件。"
+}
+{
+  "Maximum number of text labels reached."
+  "已达到最大文本标签数。"
+}
+{
+  "Media View"
+  "媒体视图"
+}
+{
+  "Medium: No sound"
+  "介质：无声音"
+}
+{
+  "Meters"
+  "米"
+}
+{
+  "Military and government"
+  "军事和政府"
+}
+{
+  "Minor problems with some delays or few cancellations."
+  "一些如延误或少量取消的小问题。"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "Misc"
+  "其他"
+}
+{
+  "Miscellaneous"
+  "其他"
+}
+{
+  "Missing or invalid device param"
+  "设备参数缺失或无效"
+}
+{
+  "Missing required params"
+  "缺少必需的参数"
+}
+{
+  "Monthly %s subscription"
+  "每月%s订阅"
+}
+{
+  "Monthly Gold subscription"
+  "每月黄金订阅"
+}
+{
+  "Monthly Silver subscription"
+  "每月银牌会员订阅"
+}
+{
+  "Monthly subscription"
+  "每月订阅"
+}
+{
+  "More"
+  "更多"
+}
+{
+  "More %s flights"
+  "更多%s航班"
+}
+{
+  "More %s information"
+  "更多%s信息"
+}
+{
+  "More info"
+  "更多信息"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More search history"
+  "更多搜索历史记录"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "More weather & METAR"
+  "更多天气和METAR"
+}
+{
+  "Most popular"
+  "最受欢迎"
+}
+{
+  "Most tracked"
+  "追踪最多"
+}
+{
+  "Most tracked flights"
+  "人们追踪最多的航班"
+}
+{
+  "Move map down"
+  "向下移动地图"
+}
+{
+  "Move map left"
+  "将地图向左移动"
+}
+{
+  "Move map right"
+  "将地图向右移动"
+}
+{
+  "Move map up"
+  "向上移动地图"
+}
+{
+  "Mph"
+  "英里每小时（mph）"
+}
+{
+  "Multi-select is not currently available in the app"
+  "应用程序中当前没有多选功能"
+}
+{
+  "My account"
+  "我的账户"
+}
+{
+  "My data sharing"
+  "我的数据共享"
+}
+{
+  "NM"
+  "海里"
+}
+{
+  "Name cannot be empty"
+  "名称不能为空"
+}
+{
+  "Name location"
+  "名称位置"
+}
+{
+  "Nautical miles"
+  "海里"
+}
+{
+  "Navaids are radio navigation beacons used by aircrews. Low and high altitude layers show navigational waypoints and airways."
+  "Navaids是机组人员使用的无线电导航信标。低空和高空图层显示导航航路点和航线。"
+}
+{
+  "Navigate home"
+  "导航回家"
+}
+{
+  "Navigate to current year %1$d"
+  "导航至当前年份 %1$d"
+}
+{
+  "Navigate to year %1$d"
+  "导航至 %1$d 年"
+}
+{
+  "Navigate to year %1$s"
+  "导航到%1$s年"
+}
+{
+  "Navigate up"
+  "返回上级"
+}
+{
+  "Navigation menu"
+  "导航菜单"
+}
+{
+  "Nearby"
+  "附近"
+}
+{
+  "Nearby airports"
+  "附近机场"
+}
+{
+  "Nearby airports lets you easily access flight information when you arrive at an airport.\n\nIn order to use this function we require location permissions.\n\nIn order to enable location permissions, please go to App settings ➞ Permissions and enable location permissions."
+  "当您到达机场时，附近的机场可以让您轻松获取航班信息。\n为了使用此功能，我们需要位置权限。\n要启用位置权限，请转到应用程序设置➞权限并启用位置权限。"
+}
+{
+  "New"
+  "新"
+}
+{
+  "New features"
+  "新功能"
+}
+{
+  "New filter"
+  "新过滤器"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "New password"
+  "新密码"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务，它将自动更新。"
+}
+{
+  "Next"
+  "下一个"
+}
+{
+  "No"
+  "不"
+}
+{
+  "No ads"
+  "没有广告"
+}
+{
+  "No aircraft are visible because all aircraft categories are disabled."
+  "没有飞机可见，因为所有飞机类别都已禁用。"
+}
+{
+  "No aircraft are visible because all data sources are disabled."
+  "由于所有数据源均已禁用，因此无法看到任何飞机。"
+}
+{
+  "No aircraft found."
+  "没有发现飞机。"
+}
+{
+  "No call sign"
+  "无呼号"
+}
+{
+  "No commitment. Cancel anytime."
+  "没有承诺。随时取消。"
+}
+{
+  "No custom alerts found. Tap on + to add one."
+  "未找到自定义提醒。点击+添加一个。"
+}
+{
+  "No data found to render the UI, Please initialize the SDK and try again."
+  "找不到用于呈现UI的数据，请初始化SDK并重试。"
+}
+{
+  "No database connection. Please try again later"
+  "没有数据库连接。请稍后再试"
+}
+{
+  "No devices available"
+  "没有可用设备"
+}
+{
+  "No flights found."
+  "未找到航班。"
+}
+{
+  "No info available"
+  "无可用信息"
+}
+{
+  "No internet connection detected"
+  "未检测到互联网连接"
+}
+{
+  "No media selected"
+  "未选择媒体"
+}
+{
+  "No myFR24 users have flown via this airport."
+  "没有myFR24用户通过此机场飞行。"
+}
+{
+  "No planes in sight? Try increasing the radius of discovery."
+  "看不到飞机吗？尝试增加发现半径。"
+}
+{
+  "No playback available"
+  "没有可用的回放"
+}
+{
+  "No received alerts found."
+  "未找到收到的提醒。"
+}
+{
+  "No results."
+  "没有结果。"
+}
+{
+  "No saved filters found."
+  "未找到已保存的筛选器。"
+}
+{
+  "No subscription found."
+  "未找到订阅。"
+}
+{
+  "No thanks"
+  "不，谢谢"
+}
+{
+  "No thanks, I don't want updates from Flightradar24."
+  "不，我不需要Flightradar24的广告。"
+}
+{
+  "No, go back to live map"
+  "不，回到实时地图"
+}
+{
+  "No, thanks"
+  "不用了，谢谢"
+}
+{
+  "None"
+  "没有"
+}
+{
+  "Normal"
+  "正常"
+}
+{
+  "North American radar"
+  "北美雷达"
+}
+{
+  "Not EEA"
+  "不是欧洲经济区"
+}
+{
+  "Not available"
+  "不可用"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Not now"
+  "以后再说"
+}
+{
+  "Not selected"
+  "未选择"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "Not updating data as the data received from server is same"
+  "不更新数据，因为从服务器接收到的数据是相同的"
+}
+{
+  "Not you?"
+  "不是你？"
+}
+{
+  "Note: Not all aircraft models and liveries are currently available. For a full list of available models and liveries included, see our blog post."
+  "注意：目前并非所有飞机型号和涂装都可用。有关可用型号和制服的完整列表，请参阅我们的博客文章。"
+}
+{
+  "Notification permission is required."
+  "需要通知权限。"
+}
+{
+  "Notify me of unique or interesting flights selected by Flightradar24 staff."
+  "通知我Flightradar24工作人员选择的独特或有趣的航班"
+}
+{
+  "Notify me when I visit an airport to easily access flight information."
+  "当我访问机场时通知我，以便轻松获取航班信息。"
+}
+{
+  "Notify me when a flight squawks 7600 due to radio/communications failure."
+  "当航班因无线电/通信故障而发布应答机代码7600时通知我。"
+}
+{
+  "Notify me when a flight squawks 7700, used to indicate an emergency situation."
+  "当航班发出代表特情的应答机代码7700时通知。"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "确认"
+}
+{
+  "OK, go back to live map"
+  "好的，返回实时地图"
+}
+{
+  "OK, got it"
+  "好的，明白了"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "OPERATOR"
+  "经营"
+}
+{
+  "Object to Legitimate Interests"
+  "反对合法利益"
+}
+{
+  "Observations"
+  "观察"
+}
+{
+  "Occasional updates of the latest features and exclusive offers"
+  "偶尔推送最新功能和独家优惠"
+}
+{
+  "Oceanic tracks"
+  "大洋航路"
+}
+{
+  "Off"
+  "关"
+}
+{
+  "Offer available for 24 hours."
+  "优惠24小时有效。"
+}
+{
+  "Official radar data covering Australia and certain oceanic areas around Australia. Real-time."
+  "覆盖澳大利亚和澳大利亚周围某些海洋地区的官方雷达数据，实时。"
+}
+{
+  "Official radar data covering North America and certain oceanic areas around North America. Real-time."
+  "覆盖北美和北美周围某些海洋地区的官方雷达数据，实时。"
+}
+{
+  "On"
+  "开"
+}
+{
+  "On ground"
+  "地面"
+}
+{
+  "On ground at %s"
+  "在%s的地面上"
+}
+{
+  "Ongoing call"
+  "持续通话"
+}
+{
+  "Only %s flights currently in Flightradar24 coverage are listed."
+  "仅列出了当前在Flightradar24覆盖范围内的%s个航班。"
+}
+{
+  "Only %s/first year"
+  "仅%s/第一年"
+}
+{
+  "Only %s/month"
+  "仅%s/月"
+}
+{
+  "Only %s/year"
+  "仅%s/年"
+}
+{
+  "Ooops, Looks like in-app purchases are not available on your device"
+  "哎呀，看来你的设备上没有应用内购买功能"
+}
+{
+  "Opacity"
+  "不透明度"
+}
+{
+  "Open"
+  "正常开放"
+}
+{
+  "Open ad when you're back online."
+  "重新上线后打开广告"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Open navigation drawer"
+  "打开导航抽屉"
+}
+{
+  "Open on phone"
+  "在手机上打开"
+}
+{
+  "Open source licenses"
+  "开源许可证"
+}
+{
+  "Operated by %s"
+  "由%s操作"
+}
+{
+  "Options"
+  "选项"
+}
+{
+  "Or watch videos to unlock 3D view sessions"
+  "或观看视频以解锁3D视图会话"
+}
+{
+  "Other"
+  "其他"
+}
+{
+  "Other tracking technologies used by Flightradar24 not classified above."
+  "Flightradar24使用的其他未在上述分类的跟踪技术。"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Outbound"
+  "出境"
+}
+{
+  "Over 30 premium-only features"
+  "超过30个仅限高级功能"
+}
+{
+  "Over 50 premium-only features"
+  "50多种仅限高级功能"
+}
+{
+  "Overview"
+  "概述"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Pass a valid ISO Language code to get the data"
+  "传递有效的ISO语言代码以获取数据"
+}
+{
+  "Pass valid parameters to get the data"
+  "传递有效参数以获取数据"
+}
+{
+  "Passenger"
+  "乘客"
+}
+{
+  "Passkey"
+  "密钥"
+}
+{
+  "Password"
+  "密码"
+}
+{
+  "Password doesn't match"
+  "密码不匹配"
+}
+{
+  "Pause"
+  "暂停"
+}
+{
+  "Paved"
+  "铺面"
+}
+{
+  "Payment overdue, please check your payment details in your account page"
+  "付款逾期，请在您的帐户页面查看您的付款详细信息"
+}
+{
+  "Plain"
+  "简约"
+}
+{
+  "Plan auto-renews. Cancel anytime, including during free trial."
+  "计划自动续订。随时取消，包括免费试用期间。"
+}
+{
+  "Play"
+  "播放"
+}
+{
+  "Play on a group"
+  "在小组中玩"
+}
+{
+  "Playback"
+  "回放"
+}
+{
+  "Please add at least one filter"
+  "请至少添加一个筛选器"
+}
+{
+  "Please add the name for filter"
+  "请添加筛选器的名称"
+}
+{
+  "Please confirm your email address by clicking on the link in the email that Flightradar24 just sent to you."
+  "请点击Flightradar24刚刚发送给您的电子邮件中的链接，确认您的电子邮件地址。"
+}
+{
+  "Please delete a bookmark if you wish to add more."
+  "如果您想添加更多书签，请删除书签。"
+}
+{
+  "Please enter the code below to confirm that you want to delete your account."
+  "请在下面输入代码以确认要删除您的帐户。"
+}
+{
+  "Please let us know your email preferences."
+  "请告知我们您的电子邮件偏好。"
+}
+{
+  "Please restart Flightradar24 to apply your selected language settings."
+  "请重新启动Flightradar24以应用您选择的语言设置。"
+}
+{
+  "Please select area"
+  "请选择区域"
+}
+{
+  "Please select at least one category"
+  "请至少选择一个类别"
+}
+{
+  "Please select one of the flights or airports from the list below"
+  "请从以下列表中选择一个航班或机场"
+}
+{
+  "Please specify user role."
+  "请指定用户角色。"
+}
+{
+  "Please try again later."
+  "请稍后再试。"
+}
+{
+  "Please wait…"
+  "请稍候…"
+}
+{
+  "Points"
+  "积分"
+}
+{
+  "Pop-Up Window"
+  "弹出窗口"
+}
+{
+  "Powered by OneTrust"
+  "由OneTrust提供技术支持"
+}
+{
+  "Precipitation layers"
+  "降水层"
+}
+{
+  "Precise location permission is required for AR view."
+  "AR视图需要精确的位置权限。"
+}
+{
+  "Precise location permission is required."
+  "需要精确的位置许可。"
+}
+{
+  "Preference Center View Close"
+  "首选项中心视图关闭"
+}
+{
+  "Preference Center view Logo"
+  "首选项中心视图徽标"
+}
+{
+  "Privacy"
+  "隐私"
+}
+{
+  "Privacy Notice"
+  "隐私声明"
+}
+{
+  "Privacy Preference Center"
+  "隐私偏好中心"
+}
+{
+  "Privacy policy"
+  "隐私政策"
+}
+{
+  "Profile already active, not downloading the data/not parsing the data again."
+  "配置文件已处于活动状态，未下载数据/未再次解析数据。"
+}
+{
+  "Profile deleted successfully."
+  "配置文件已成功删除。"
+}
+{
+  "Profile rename failed."
+  "配置文件重命名失败。"
+}
+{
+  "Profile renamed successfully."
+  "配置文件重命名成功。"
+}
+{
+  "Profile switched with existing data."
+  "配置文件已与现有数据切换。"
+}
+{
+  "Proprietary data provided by Spidertracks used to track light aircraft equipped with a Spidertracks transmitter. Data is displayed in real-time."
+  "Spidertracks提供的专有数据用于跟踪配备Spidertrack发射器的轻型飞机。数据实时显示。"
+}
+{
+  "Proprietary, GPS-based aircraft tracking for light aircraft with a Spidertracks transmitter. Real-time."
+  "专有的、基于GPS的飞机跟踪，用于使用Spidertracks发射器的轻型飞机。实时。"
+}
+{
+  "Purchased through Google Play?"
+  "通过Google Play购买？"
+}
+{
+  "Purposes (Consent)"
+  "目的（同意）"
+}
+{
+  "Purposes (Legitimate Interest)"
+  "目的（合法利益）"
+}
+{
+  "REG."
+  "注册号"
+}
+{
+  "RUNWAY"
+  "跑道"
+}
+{
+  "Radio failure alert"
+  "无线电故障提醒"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Rate/review"
+  "费率/评论"
+}
+{
+  "Read our full terms of service"
+  "阅读我们的完整服务条款"
+}
+{
+  "Received alerts"
+  "收到提醒"
+}
+{
+  "Received:"
+  "收到："
+}
+{
+  "Recent %s flights"
+  "最近的%s航班"
+}
+{
+  "Recent or scheduled flights"
+  "最近或预定的航班"
+}
+{
+  "Recorded lightning strikes shown on the map, updated every 15 minutes."
+  "显示记录的雷击，每15分钟更新一次。"
+}
+{
+  "Red"
+  "红色"
+}
+{
+  "Reg"
+  "注册号"
+}
+{
+  "Registration"
+  "注册号"
+}
+{
+  "Registration A-Z"
+  "注册号A-Z"
+}
+{
+  "Registration can include a combination of letters and numbers, 2 to 12 characters. Use * at the beginning or end to include all possible combinations, e.g. M-* will show all flights that begin with registration M-, *HV will show all flights ending in HV. Use a comma to enter multiple registrations, e.g. D-AIHV,M-ILAN"
+  "注册号是包括字母和数字的组合，由2到12个字符组成。在开头或结尾使用*以包含所有可能的组合，例如 M-* 将显示以注册号 M- 开头的所有航班，*HV 将显示以 HV 结尾的所有航班。使用英文逗号输入多个注册号，例如 D-AIHV,M-ILAN"
+}
+{
+  "Registration: %s"
+  "注册号：%s"
+}
+{
+  "Reject All"
+  "全部拒绝"
+}
+{
+  "Reload"
+  "重新加载"
+}
+{
+  "Reload or try again later."
+  "重新加载或稍后重试。"
+}
+{
+  "Remain in the waiting room as a free user"
+  "作为免费用户留在候诊室"
+}
+{
+  "Remarks"
+  "评论"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "Remove ads - get a faster app experience"
+  "删除广告-获得更快的应用体验"
+}
+{
+  "Remove this filter"
+  "删除此过滤器"
+}
+{
+  "Reorder"
+  "重新订购"
+}
+{
+  "Repeat new password"
+  "重复新密码"
+}
+{
+  "Request failed"
+  "请求失败"
+}
+{
+  "Request failed. Please try again later."
+  "请求失败。请稍后再试。"
+}
+{
+  "Request new password"
+  "请求新密码"
+}
+{
+  "Restart"
+  "重新启动"
+}
+{
+  "Restart and get %1$s a %2$s annual subscription for just %3$s %4$s!"
+  "重新启动并获得%1$s的%2$s年度订阅，只需%3$s%4$s！"
+}
+{
+  "Restore"
+  "还原"
+}
+{
+  "Restore access to over 50 premium\nfeatures including:"
+  "恢复对50多种高级服务的访问\n功能包括："
+}
+{
+  "Restore now"
+  "立即还原"
+}
+{
+  "Restore purchased plan"
+  "恢复已购买的计划"
+}
+{
+  "Resubscribe and save 30%"
+  "重新订阅并节省30%"
+}
+{
+  "Risk free. Cancel anytime."
+  "无风险。随时取消。"
+}
+{
+  "Route"
+  "路线"
+}
+{
+  "Route:"
+  "路线："
+}
+{
+  "Runway details"
+  "跑道细节"
+}
+{
+  "S - Z"
+  "S-Z"
+}
+{
+  "SCHEDULED ARRIVAL"
+  "预定到达时间"
+}
+{
+  "SCHEDULED DEPARTURE"
+  "预定出发"
+}
+{
+  "SECOND FORECASTED ASH AREA (usually +12 hours)"
+  "第二预测灰区（通常+12小时）"
+}
+{
+  "SERIAL NUMBER (MSN)"
+  "序列号（MSN）"
+}
+{
+  "SESSION REMAINING"
+  "会话剩余"
+}
+{
+  "SESSIONS REMAINING"
+  "剩余会话"
+}
+{
+  "SPEED"
+  "倍速"
+}
+{
+  "START 7-DAY FREE TRIAL"
+  "开始7天免费试用"
+}
+{
+  "STATUS"
+  "状态"
+}
+{
+  "SUBSCRIPTION PLAN"
+  "订阅计划"
+}
+{
+  "SURFACE"
+  "材质"
+}
+{
+  "Sand"
+  "沙子"
+}
+{
+  "Satellite"
+  "卫星"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Save %s"
+  "保存%s"
+}
+{
+  "Save & apply"
+  "保存并应用"
+}
+{
+  "Save filter"
+  "保存筛选器"
+}
+{
+  "Save image"
+  "保存图片"
+}
+{
+  "Saved filters"
+  "已保存的筛选器"
+}
+{
+  "Saved filters feature is available with Silver or Gold upgrade. The number of filters you are able to save depends on your subscription plan - Silver (10), Gold (25)."
+  "保存过滤器功能可用于银级或金级升级。您可以保存的过滤器数量取决于您的订阅计划-银牌（10）、金牌（25）。"
+}
+{
+  "Saving alerts failed, please restart and try again"
+  "保存提醒失败，请重新启动并重试"
+}
+{
+  "Scheduled"
+  "计划"
+}
+{
+  "Scheduled flights — next 7 days"
+  "未来7天的定期航班"
+}
+{
+  "Screen sleep"
+  "屏幕睡眠"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "Scroll to show earlier years"
+  "滚动显示早年"
+}
+{
+  "Scroll to show later years"
+  "滚动显示晚年"
+}
+{
+  "Scroll to show the next month"
+  "滚动显示下个月"
+}
+{
+  "Scroll to show the previous month"
+  "滚动显示上个月"
+}
+{
+  "Sealed"
+  "密封的"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search arrival airport"
+  "搜索到达机场"
+}
+{
+  "Search by city, airport name, or IATA or ICAO code."
+  "按城市、机场名称或IATA或ICAO代码搜索。"
+}
+{
+  "Search departure airport"
+  "搜索出发机场"
+}
+{
+  "Search for Nearby aircraft uses your location to determine a list aircraft close to you. In order to use this feature we require location permissions.\n\nIf you wish to use Search for Nearby aircraft, please go to App Settings → Permissions and enable location permissions."
+  "搜索附近的飞机使用您的位置来确定您附近的飞机列表。为了使用此功能，我们需要位置权限。\n如果您想使用搜索附近的飞机，请转到应用程序设置→权限并启用位置权限。"
+}
+{
+  "Search for airports by name or code, or just tap an airport pin on the map. See real-time arrivals and departures plus current weather."
+  "按名称或代码搜索机场，或者只需点击地图上的机场标记。查看实时到达和离开以及当前天气。"
+}
+{
+  "Search for flight number, airport, route, call sign or registration."
+  "搜索航班号、机场、路线、呼号或注册号。"
+}
+{
+  "Search history"
+  "搜索历史记录"
+}
+{
+  "Search history cleared"
+  "搜索历史记录已清除"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search.."
+  "搜索。。"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "See all subscription plans"
+  "查看所有订阅计划"
+}
+{
+  "See aviation weather conditions live"
+  "实时查看航空天气状况"
+}
+{
+  "See flight history and playback previous flights. See the track of the flight with detailed speed and altitude graphs. Access history via search or tap “More” or “Recent” flights after selecting a flight."
+  "查看航班历史并回放以前的航班。通过详细的速度和高度图查看飞行轨迹。通过搜索访问历史记录，或在选择航班后点击“更多”或“最近”航班。"
+}
+{
+  "See latest update"
+  "查看最新更新"
+}
+{
+  "See offer"
+  "查看报价"
+}
+{
+  "See the top 10 airports with the most cancellations and longest delays."
+  "查看取消次数最多、延误时间最长的前10个机场。"
+}
+{
+  "See the top 10 flights other Flightradar24 users are following right now.\nList is updated every %d seconds."
+  "查看其他Flightradar24用户关注最多的10个航班。\n列表每%d秒更新一次。"
+}
+{
+  "See where it is day and night on the map at a glance."
+  "在地图上可见白天和黑夜的位置。"
+}
+{
+  "See wind speed and direction on our live map in increments of 1,000 feet from 1,000 to 51,000 feet. Displayed in either wind barbs or a color gradient. The winds layer is refreshed 12 times a day."
+  "在我们的实时地图上查看风速和风向，从1000英尺到51000英尺的增量为1000英尺。以风向标或颜色渐变显示。风力层每天更新12次。"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select Your Country"
+  "选择您的国家"
+}
+{
+  "Select all"
+  "全选"
+}
+{
+  "Select area"
+  "选择区域"
+}
+{
+  "Select date"
+  "选择日期"
+}
+{
+  "Select dates"
+  "选择日期"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select ringtone"
+  "选择铃声"
+}
+{
+  "Select the type of filter you wish to add."
+  "选择要添加的筛选器类型。"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Select what you want to bookmark"
+  "选择要添加书签的内容"
+}
+{
+  "Selected altitude"
+  "选定高度"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Send"
+  "发送"
+}
+{
+  "Send analytics data to help us improve the app."
+  "发送分析数据以帮助我们改进应用程序。"
+}
+{
+  "Serial number (MSN)"
+  "序列号（MSN）"
+}
+{
+  "Set alert type and conditions"
+  "设置提醒类型和条件"
+}
+{
+  "Set custom alerts for flights"
+  "为航班设置自定义提醒"
+}
+{
+  "Set up to 10 custom alerts"
+  "最多设置10个自定义提醒"
+}
+{
+  "Set up to 25 custom alerts"
+  "最多设置25个自定义提醒"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Share"
+  "分享"
+}
+{
+  "Share flight"
+  "共享航班"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Share playback"
+  "共享回放"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Shift+"
+  "轮班+"
+}
+{
+  "Shortcuts to find"
+  "查找快捷方式"
+}
+{
+  "Show aircraft on ground"
+  "展示地面上的飞机"
+}
+{
+  "Show airport locations on the map. Zoom in to see additional airports."
+  "在地图上显示机场位置。放大以查看其他机场。"
+}
+{
+  "Show arrival board"
+  "进港航班信息"
+}
+{
+  "Show departure board"
+  "出港航班信息"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show general info"
+  "显示一般信息"
+}
+{
+  "Show message prompt before closing app."
+  "关闭应用程序前显示消息提示。"
+}
+{
+  "Show my location"
+  "显示我的位置"
+}
+{
+  "Show my location allows you to view your current location as a dot on the map screen. In order to use this feature we require location permissions.\n\nIf you wish to use Show my location please go to App Settings → Permissions and enable location permissions."
+  "显示我的位置允许您在地图屏幕上以点的形式查看当前位置。为了使用此功能，我们需要位置权限。\n如果您想使用“显示我的位置”，请转到“应用程序设置”→“权限”并启用位置权限。"
+}
+{
+  "Show my location allows you to view your current location as a dot on the map screen. In order to use this feature we require precise location permissions.\n\nIf you wish to use Show my location please go to App Settings → Permissions and enable precise location permissions."
+  "显示我的位置允许您在地图屏幕上以点的形式查看当前位置。为了使用此功能，我们需要精确的位置权限。\n如果您希望使用“显示我的位置”，请转到“应用程序设置”→“权限”，并启用精确的位置权限。"
+}
+{
+  "Show on map"
+  "在地图上显示"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Show silently"
+  "静默显示"
+}
+{
+  "Show silently and minimize"
+  "静音显示并最小化"
+}
+{
+  "Show system bar"
+  "显示系统栏"
+}
+{
+  "Show the system notification bar at the top of the screen."
+  "在屏幕顶部显示系统通知栏。"
+}
+{
+  "Show tooltip"
+  "显示工具提示"
+}
+{
+  "Show your location as a dot on the map."
+  "在地图上用圆点显示你的位置。"
+}
+{
+  "Side Sheet"
+  "侧页"
+}
+{
+  "Sign Up"
+  "注册"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Sign up"
+  "注册"
+}
+{
+  "Sign up with Apple"
+  "使用苹果账号注册"
+}
+{
+  "Sign up with Facebook"
+  "使用Facebook注册"
+}
+{
+  "Sign up with Google"
+  "使用谷歌账号注册"
+}
+{
+  "Sign up with email"
+  "使用电子邮件注册"
+}
+{
+  "Silent"
+  "无声"
+}
+{
+  "Silt"
+  "淤泥"
+}
+{
+  "Silver"
+  "银色"
+}
+{
+  "Silver Annual"
+  "年度银奖"
+}
+{
+  "Silver Monthly"
+  "每月银牌会员"
+}
+{
+  "Since it is the first time you clicked on the star we would like to take the opportunity to tell you about how it works.\n\nWhen you click on the star the flight, aircraft or airport will be added to your Bookmarks list for easy access. You open the Bookmarks by swiping down the top bar on the map screen."
+  "由于这是您第一次设置星标，我们想借此机会告诉您它是如何工作的。\n当您点击星号时，航班、飞机或机场将被添加到您的书签列表中，以便于访问。您可以通过向下滑动地图屏幕上的顶部栏来打开书签。"
+}
+{
+  "Snow"
+  "雪"
+}
+{
+  "Soil"
+  "土壤"
+}
+{
+  "Something went wrong."
+  "出了点问题。"
+}
+{
+  "Something went wrong. Please try again"
+  "出了点问题。请重试"
+}
+{
+  "Sorry to hear it!\nWe'd really appreciate it if you could let us know how we can make Flightradar24 better."
+  "听到这个消息我很难过！\n如果您能告诉我们如何改进Flightradar24，我们将不胜感激。"
+}
+{
+  "Sorry, but we couldn’t find data about this flight."
+  "很抱歉，我们找不到有关此航班的数据。"
+}
+{
+  "Sorry, your location could not be established. Be sure that location services are turned on."
+  "抱歉，无法确定您的位置。确保位置服务已打开。"
+}
+{
+  "Sort alphabetically by airport name"
+  "按机场名称的字母顺序排序"
+}
+{
+  "Sort by alphabetical order"
+  "按字母顺序排序"
+}
+{
+  "Sort by alphabetically by IATA code"
+  "按IATA代码的字母顺序排序"
+}
+{
+  "Sort by current status, e.g. Live"
+  "按当前状态排序，例如Live"
+}
+{
+  "Sort by when item was added"
+  "按添加项目的时间排序"
+}
+{
+  "Sort by:"
+  "排序方式："
+}
+{
+  "Special Features"
+  "特殊功能"
+}
+{
+  "Special Purposes"
+  "特殊用途"
+}
+{
+  "Speed"
+  "速度"
+}
+{
+  "Speed & altitude graph"
+  "速度和高度图"
+}
+{
+  "Squawk"
+  "应答器代码"
+}
+{
+  "Squawk 7600"
+  "应答器代码7600"
+}
+{
+  "Squawk 7700"
+  "应答器代码7700"
+}
+{
+  "Squawk: %s"
+  "应答器代码：%s"
+}
+{
+  "Standard Retention"
+  "标准保留"
+}
+{
+  "Start 14-day free trial"
+  "开始14天免费试用"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date %1$s"
+  "开始日期 %1$s"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择：%1$s - 结束日期选择：%2$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Start logging your flights"
+  "开始记录您的航班"
+}
+{
+  "Start playback"
+  "开始回放"
+}
+{
+  "Start subscription"
+  "开始订阅"
+}
+{
+  "Stats"
+  "统计数据"
+}
+{
+  "Status"
+  "状态"
+}
+{
+  "Status N/A"
+  "状态N/A"
+}
+{
+  "Stay up to date on the flights that matter to you with Flightradar24."
+  "使用Flightradar24了解对您重要的航班的最新信息。"
+}
+{
+  "Stop"
+  "停下"
+}
+{
+  "Stop Following"
+  "停止跟踪"
+}
+{
+  "Stop casting"
+  "停止铸造"
+}
+{
+  "Stop shuffle"
+  "停止洗牌"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Subscribe and get 3 months for %s"
+  "订阅并获得3个月的%s"
+}
+{
+  "Subscribe now"
+  "立即订阅"
+}
+{
+  "Subscriber?"
+  "用户？"
+}
+{
+  "Subscription has been successfully created"
+  "已成功创建订阅"
+}
+{
+  "Subscription is being used by another account"
+  "订阅正被另一个帐户使用"
+}
+{
+  "Subscription package was missing or no active subscription"
+  "订阅包丢失或没有活动订阅"
+}
+{
+  "Subscription suspended"
+  "订阅已暂停"
+}
+{
+  "Subscription terminated by user"
+  "用户终止订阅"
+}
+{
+  "Suggestions below"
+  "以下建议"
+}
+{
+  "Sunrise"
+  "日出"
+}
+{
+  "Sunset"
+  "日落"
+}
+{
+  "Swipe down to see the most tracked flights, airport disruptions, saved bookmarks, and tracking statistics."
+  "向下滑动以查看跟踪次数最多的航班、机场中断、保存的书签和跟踪统计数据。"
+}
+{
+  "Swipe to select a year, or tap to switch back to selecting a day"
+  "滑动选择年份，或点击切换回选择日期"
+}
+{
+  "Switch"
+  "开关"
+}
+{
+  "Switch profile not supported without SDK initialized."
+  "未初始化SDK时不支持切换配置文件。"
+}
+{
+  "Switch profile not supported."
+  "不支持交换机配置文件。"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Switch to selecting a year"
+  "切换到指定年份"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "System"
+  "系统"
+}
+{
+  "System settings"
+  "系统设置"
+}
+{
+  "THIRD FORECASTED ASH AREA (usually +18 hours)"
+  "第三预测灰区（通常+18小时）"
+}
+{
+  "TIME"
+  "时间"
+}
+{
+  "TOTAL AIRCRAFT"
+  "飞机总数"
+}
+{
+  "TRACK"
+  "航路"
+}
+{
+  "TRY 14 DAYS FREE"
+  "免费试用14天"
+}
+{
+  "TRY 7 DAYS FREE"
+  "免费试用7天"
+}
+{
+  "TYPE CODE"
+  "机型代码"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Tap a plane icon to see a flight overview that includes a photo of the aircraft. Tap “More info” to get in-depth details."
+  "点击飞机图标查看航班概览，其中包括飞机照片。点击“更多信息”以获取详细信息。\n\n- ━ 予澄◈汉化 ━"
+}
+{
+  "Tap the AR view button and point your device to the sky to quickly identify flights overhead."
+  "点击AR视图按钮，将设备指向天空，快速识别头顶的航班。"
+}
+{
+  "Tap the chart or swipe up again to open the Altitude and Speed graph. Swipe down to hide everything but the time line."
+  "点击图表或再次向上滑动以打开高度和速度图。向下滑动以隐藏除时间线之外的所有内容。"
+}
+{
+  "Tap to switch to Calendar view"
+  "单击切换到日历视图"
+}
+{
+  "Tap to switch to year view"
+  "单击切换到年份视图"
+}
+{
+  "Tap ”Delete account” to delete your Flightradar24 account and any associated personal data and product data including any active saved filters, settings, alerts, bookmarks and MyFR24 data across any logged-in device. Some product data saved locally in the app will remain on your iOS/Android devices and may require manual deletion.\n\nIf you have a Google Play subscription, this will remain active without a Flightradar24 account attached. If you wish to cancel your Android subscription, visit Payments & subscriptions in your Google Play account.\n\nYou can create a new account at any time."
+  "点击“删除帐户”以删除您的Flightradar24帐户以及任何相关的个人数据和产品数据，包括任何已登录设备上的任何活动保存的过滤器、设置、提醒、书签和MyFR24数据。应用程序中本地保存的一些产品数据将保留在您的iOS/Android设备上，可能需要手动删除。\n如果您有Google Play订阅，则该订阅将保持活动状态，而无需附加Flightradar24帐户。如果您想取消Android订阅，请访问您的Google Play帐户中的付款和订阅。\n您可以随时创建新帐户。"
+}
+{
+  "Tap ”Delete account” to delete your Flightradar24 account and any associated personal data and product data including any active saved filters, settings, alerts, bookmarks and MyFR24 data across any logged-in device. Some product data saved locally in the app will remain on your iOS/Android devices and may require manual deletion.\n\nYou can create a new account at any time."
+  "点击“删除帐户”以删除您的Flightradar24帐户以及任何相关的个人数据和产品数据，包括任何已登录设备上的任何活动保存的过滤器、设置、提醒、书签和MyFR24数据。应用程序中本地保存的一些产品数据将保留在您的iOS/Android设备上，可能需要手动删除。\n您可以随时创建新帐户。"
+}
+{
+  "Tarmac"
+  "柏油路"
+}
+{
+  "Technical problems"
+  "技术问题"
+}
+{
+  "Temperature"
+  "温度"
+}
+{
+  "Temporary waiting room"
+  "临时候诊室"
+}
+{
+  "Terminal"
+  "终点站"
+}
+{
+  "Terms of service"
+  "服务条款"
+}
+{
+  "Terrain"
+  "地形"
+}
+{
+  "Test Ad"
+  "测试广告"
+}
+{
+  "Test flight"
+  "试飞"
+}
+{
+  "Text labels"
+  "文本标签"
+}
+{
+  "Thanks for your interest.\nWe will share more once you're back online."
+  "感谢您的关注。\n一旦您重新上线，我们将与您分享更多信息。"
+}
+{
+  "The arrows display the current disruption index trend."
+  "箭头显示当前的中断指数趋势。"
+}
+{
+  "The flight with call sign %s is currently not tracked by Flightradar24. It’s either out of coverage or has already landed."
+  "Flightradar24当前未跟踪呼号为%s的航班。它要么已经超出覆盖范围，要么已经着陆。"
+}
+{
+  "The followed flight has landed or is out of coverage"
+  "后续航班已降落或超出覆盖范围"
+}
+{
+  "The language code passed is not supported by the platform, Data may be returned in the default language if language code is not configured in OneTrust admin UI"
+  "平台不支持传递的语言代码，如果OneTrust管理UI中未配置语言代码，则可能会以默认语言返回数据"
+}
+{
+  "The location button allows you to zoom to your location on the map with one tap. In order to use this feature we require location permissions.\n\nIf you wish to use the location button please go to App Settings → Permissions and enable location permissions."
+  "位置按钮允许您一键缩放到地图上的位置。为了使用此功能，我们需要位置权限。\n如果您想使用位置按钮，请转到应用程序设置→权限并启用位置权限。"
+}
+{
+  "The password must be at least 7 characters"
+  "密码必须至少包含7个字符"
+}
+{
+  "The password must be at least 7 characters."
+  "密码必须至少包含7个字符。"
+}
+{
+  "The server has encountered an error processing the request. Please try again."
+  "服务器在处理请求时遇到错误。请重试。"
+}
+{
+  "The value between 0 and 5 is a balanced value that includes the number of delayed flights, average delay, and number of canceled flights. The higher the value, the higher the number of cancelations and/or delays."
+  "0到5之间的值是一个平衡值，包括延迟航班数、平均延迟和取消航班数。值越高，取消和/或延迟的次数就越多。"
+}
+{
+  "Then <b>%s</b>/year"
+  "然后<b>%s</b>/年"
+}
+{
+  "Third party radar data from official sources covering Australia and oceanic areas near Australia. Data is provided to Flightradar24 in real-time as is, with variable quality based on multiple factors."
+  "来自官方来源的第三方雷达数据，覆盖澳大利亚和澳大利亚附近的海洋地区。数据按原样实时提供给Flightradar24，质量因多种因素而异。"
+}
+{
+  "Third party radar data from official sources covering North America and oceanic areas near North America. Data is provided to Flightradar24 in real-time as is, with variable quality based on multiple factors."
+  "来自官方来源的第三方雷达数据，覆盖北美和北美附近的海洋地区。数据按原样实时提供给Flightradar24，质量因多种因素而异。"
+}
+{
+  "This aircraft is broadcasting an invalid transponder code due to malfunction or incorrect programming. As the ICAO 24-bit address is incorrect, it's often impossible to identify the aircraft."
+  "由于故障或编程错误，这架飞机正在广播无效的应答机代码。由于ICAO 24位地址不正确，通常无法识别飞机。"
+}
+{
+  "This app does not have any open source licenses."
+  "此应用程序没有任何开源许可证。"
+}
+{
+  "This type of flight is not compatible."
+  "这种飞行方式不兼容。"
+}
+{
+  "Time"
+  "时间"
+}
+{
+  "Time difference of arrival-based aircraft tracking via terrestrial receivers. Real-time."
+  "通过地面接收器进行基于到达时间差的飞机跟踪，实时。"
+}
+{
+  "Time format"
+  "时间格式"
+}
+{
+  "Time zone"
+  "时区信息"
+}
+{
+  "To access your %s subscription on other devices, please <b>create a Flightradar24 account</b>"
+  "要在其他设备上访问您的%s订阅，请<b>创建Flightradar24帐户</b>"
+}
+{
+  "To access your Flightradar %s Plan on other devices, you need to create a Flightradar24 account."
+  "要在其他设备上访问您的Flightradar%s计划，您需要创建一个Flightradar24帐户。"
+}
+{
+  "To add more than (%1$d) filters, upgrade to a %2$s plan."
+  "若要添加超过（%1$d）个筛选器，请升级到%2$s计划。"
+}
+{
+  "To add more than one filter, upgrade to a %1$s or, %2$s plan."
+  "若要添加多个筛选器，请升级到%1$s或%2$s计划。"
+}
+{
+  "To connect your account, open the Facebook app on your mobile device and check for notifications."
+  "要连接您的帐户，请在移动设备上打开Facebook应用程序并检查通知。"
+}
+{
+  "To filter by aircraft category, upgrade to a paid plan."
+  "要按飞机类别筛选，请升级到付费计划。"
+}
+{
+  "To get more than 7 days of Playback history, please upgrade to a Silver (90 days playback) or Gold (365 days playback) subscription."
+  "要获得超过7天的回放历史记录，请升级到银牌（90天播放）或金牌（365天播放）订阅。"
+}
+{
+  "To get more than 7 days of flight history for aircraft %s, please upgrade to Silver (90 days) or Gold (365 days) subscription."
+  "若要获取%s飞机超过7天的飞行历史记录，请升级到银级（90天）或金级（365天）订阅。"
+}
+{
+  "To get more than 7 days of flight history for flight %s, please upgrade to Silver (90 days) or Gold (365 days) subscription."
+  "若要获取%s航班超过7天的航班历史记录，请升级到银级（90天）或金级（365天）订阅。"
+}
+{
+  "To get more than 90 days of Playback history, please upgrade to a Gold (365 days playback) subscription."
+  "要获得超过90天的回放历史记录，请升级到金牌会员（365天播放）订阅。"
+}
+{
+  "To get more than 90 days of flight history for aircraft %s, please upgrade to a Gold (365 days) subscription."
+  "要获取%s飞机90天以上的飞行历史记录，请升级到黄金（365天）订阅。"
+}
+{
+  "To get more than 90 days of flight history for flight %s, please upgrade to a Gold (365 days) subscription."
+  "要获取%s航班90天以上的航班历史记录，请升级到金牌会员（365天）订阅。"
+}
+{
+  "To get more than one bookmark, please upgrade to a <b>Silver (%d)</b> or <b>Gold (%d)</b> subscription."
+  "要获得多个书签，请升级到<b>银牌（%d）</b>或<b>金牌（%d）</b>订阅。"
+}
+{
+  "To get more than ten bookmarks, please upgrade to a <b>Gold (%d)</b> subscription."
+  "要获得10个以上的书签，请升级到<b>金牌会员（%d）</b>订阅。"
+}
+{
+  "To save a location, select the position you wish on the map, including zoom. Your default location is your current location on the map. Create a name for your location and select to add."
+  "要保存位置，请在地图上选择您想要的位置，包括缩放。您的默认位置是您在地图上的当前位置。为您的位置创建一个名称，然后选择添加。"
+}
+{
+  "To save more than the 10 filters that are included with your Silver subscription you need to upgrade to a Gold subscription (25 saved filters)."
+  "要保存Silver订阅中包含的10个以上过滤器，您需要升级到Gold订阅（已保存25个过滤器）。"
+}
+{
+  "To stop receiving a notification when you visit an airport, please update your airport notification preferences under Alerts."
+  "要在您访问机场时停止接收通知，请在“提醒”下更新您的机场通知首选项。"
+}
+{
+  "To unlock the Bookmarks feature you must have an account"
+  "创建账户后解锁书签功能"
+}
+{
+  "To unlock the Filters feature you must have an account"
+  "创建账户后解锁过滤器功能"
+}
+{
+  "To use AR view it is necessary to allow access to your location and camera. Allowing location permissions also lets you:"
+  "要使用AR视图，必须允许访问您的位置和相机。允许位置权限还可以让您："
+}
+{
+  "To use Bookmarks you are required to create a free Flightradar24 account. By creating an account you’ll be able to access all the benefits, features and saved settings of your subscription on multiple platforms (iOS, Android and Flightradar24.com) matched to your profile.\n\nAfter creating an account you can access your bookmarks across any platform. Access Bookmarks by swiping down on the main map screen."
+  "要使用书签，您需要创建一个免费的Flightradar24帐户。通过创建帐户，您将能够在与您的个人资料匹配的多个平台（iOS、Android和Flightradar24.com）上访问订阅的所有福利、功能和保存的设置。\n创建帐户后，您可以在任何平台上访问书签。通过在主地图屏幕上向下滑动来访问书签。"
+}
+{
+  "To use Filters, an account is required."
+  "要使用过滤器，需要一个帐户。"
+}
+{
+  "Today"
+  "今天"
+}
+{
+  "Today %1$s"
+  "今天 %1$s"
+}
+{
+  "Today only - 30% off"
+  "今天打七折"
+}
+{
+  "Toggle filter/highlight mode"
+  "切换过滤器/突出显示模式"
+}
+{
+  "Toggle swipe down panel"
+  "切换向下滑动面板"
+}
+{
+  "Token authorization succeeded"
+  "令牌授权成功"
+}
+{
+  "Token deleted"
+  "令牌已删除"
+}
+{
+  "Token expired"
+  "令牌已过期"
+}
+{
+  "Token not found"
+  "未找到令牌"
+}
+{
+  "Tooltip"
+  "工具提示"
+}
+{
+  "Total precipitation"
+  "总降水量"
+}
+{
+  "Track"
+  "航路"
+}
+{
+  "Track flights in 3D"
+  "3D追踪航班"
+}
+{
+  "Tracked by <b>%s</b>"
+  "由<b>%s跟踪</b>"
+}
+{
+  "Tracked by satellite"
+  "卫星跟踪"
+}
+{
+  "Transaction id not found"
+  "未找到交易id"
+}
+{
+  "Transponder signal time difference of arrival is used to calculate the aircraft’s position by terrestrial receivers. MLAT provides high positional accuracy during most phases of flight. Altitude data comes directly from the transponder while position, ground speed, and vertical speed are calculated and may be subject to error. Errors can occur during aircraft turns and at low altitudes where coverage is variable. Data is displayed in real-time."
+  "地面接收器使用转发器信号到达时间差来计算飞机的位置。MLAT在飞行的大多数阶段提供高位置精度。高度数据直接来自应答器，而位置、地面速度和垂直速度是计算出来的，可能会有误差。在飞机转弯和覆盖范围可变的低空时可能会出现错误。数据实时显示。"
+}
+{
+  "Travelers"
+  "旅行者"
+}
+{
+  "Treated"
+  "治疗"
+}
+{
+  "True airspeed"
+  "真实空速（TAS）"
+}
+{
+  "Try Gold"
+  "试试金牌会员"
+}
+{
+  "Try Silver"
+  "试试银牌会员"
+}
+{
+  "Try again"
+  "再试一次"
+}
+{
+  "Try the Gold plan for 14-days instead of 7. Only available for a limited time! Try Gold now"
+  "体验金牌会员14天，而不是7天。限时可用！立即试用"
+}
+{
+  "Try the Silver plan for 14-days instead of 7. Only available for a limited time! Try Silver now"
+  "体验白银会员14天，而非7天，限时可用！立即试用"
+}
+{
+  "Trying to connect…"
+  "正在尝试连接…"
+}
+{
+  "Turf"
+  "草皮"
+}
+{
+  "Tutorial"
+  "教程"
+}
+{
+  "Types of traffic"
+  "交通类型"
+}
+{
+  "US/Canada Radar"
+  "美国/加拿大雷达"
+}
+{
+  "UTC %s"
+  "UTC%s"
+}
+{
+  "UTC displays all time in 24-hour Coordinated Universal Time (UTC). To see 12-hour time, please choose a non-UTC timezone."
+  "UTC以24小时协调世界时（UTC）显示所有时间。要查看12小时时间，请选择非UTC时区。"
+}
+{
+  "Unable to add bookmark."
+  "无法添加书签。"
+}
+{
+  "Unable to connect to server."
+  "无法连接到服务器。"
+}
+{
+  "Unable to create Live notification"
+  "无法创建实时通知"
+}
+{
+  "Unable to get your location, please check your location settings and try again"
+  "无法获取您的位置，请检查您的位置设置，然后重试"
+}
+{
+  "Unable to remove bookmark."
+  "无法删除书签。"
+}
+{
+  "Unable to save changes. Try again later."
+  "无法保存更改。请稍后再试。"
+}
+{
+  "Unavailable airport"
+  "机场不可用"
+}
+{
+  "Unavailable flight"
+  "航班不可用"
+}
+{
+  "Uncategorized"
+  "未分类"
+}
+{
+  "Unexpected error while downloading an image."
+  "下载图像时发生意外错误。"
+}
+{
+  "Unexpected token error"
+  "意外的令牌错误"
+}
+{
+  "Unfortunately there is no playback data available for this flight!"
+  "很遗憾，此航班没有可用的回放数据！"
+}
+{
+  "Units"
+  "单位"
+}
+{
+  "Unknown"
+  "未知"
+}
+{
+  "Unlimited 3D view"
+  "无限3D视图"
+}
+{
+  "Unlimited access to 3D view is available with any paid Flightradar24 plan"
+  "任何付费的Flightradar24计划都可以无限制地访问3D视图"
+}
+{
+  "Unlock"
+  "解锁"
+}
+{
+  "Unlock %s"
+  "解锁%s"
+}
+{
+  "Unlock 50+ features"
+  "解锁50+功能"
+}
+{
+  "Unlock ATC map layers"
+  "解锁ATC地图图层"
+}
+{
+  "Unlock additional aircraft details and extended history"
+  "解锁更多飞机详细信息和扩展历史记录"
+}
+{
+  "Unlock aeronautical charts"
+  "解锁航图"
+}
+{
+  "Unlock aircraft details"
+  "解锁飞机详细信息"
+}
+{
+  "Unlock aircraft history"
+  "解锁飞机历史记录"
+}
+{
+  "Unlock customization"
+  "解锁自定义"
+}
+{
+  "Unlock flight history"
+  "解锁航班历史记录"
+}
+{
+  "Unlock weather layers"
+  "解锁天气图层"
+}
+{
+  "Unpaved"
+  "未保存"
+}
+{
+  "Until"
+  "直到"
+}
+{
+  "Up to 3 concurrent sessions"
+  "最多3个并发会话"
+}
+{
+  "Up to 4 aircraft text labels"
+  "最多4个飞机文本标签"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "Update Flightradar24"
+  "更新flightradar24"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "Update Now"
+  "立即更新"
+}
+{
+  "Update settings"
+  "更新设置"
+}
+{
+  "Updated 3D view"
+  "更新的三维视图"
+}
+{
+  "Upgrade"
+  "升级"
+}
+{
+  "Upgrade for a faster, ad-free Flightradar24 experience with more features & data. Start your FREE trial today."
+  "升级以获得更快、无广告的Flightradar24体验，并获得更多功能和数据。立即开始免费试用。"
+}
+{
+  "Upgrade for full info."
+  "升级以获取完整信息。"
+}
+{
+  "Upgrade options"
+  "升级选项"
+}
+{
+  "Upgrade subscription plan"
+  "升级订阅计划"
+}
+{
+  "Upgrade to <b>Gold (%d)</b> to add a higher number."
+  "升级到<b>金牌会员（%d）</b>以添加更高的数字。"
+}
+{
+  "Upgrade to <b>Silver (%d)</b> or <b>Gold (%d)</b> to add a higher number."
+  "升级到<b>银牌（%d）</b>或<b>金牌会员（%d）</b>以添加更高的数字。"
+}
+{
+  "Upgrade to Silver or Gold at anytime."
+  "随时升级到银牌或金牌。"
+}
+{
+  "Upgrade to gain access to 50+ features"
+  "升级以访问50多种功能"
+}
+{
+  "Upgrade to gold"
+  "升级到金牌会员"
+}
+{
+  "Upgrade to see more than %d days of Playback history"
+  "升级以查看%d天以上的回放历史记录"
+}
+{
+  "Upgrade to silver"
+  "升级到银牌会员"
+}
+{
+  "Upgrade today and get:"
+  "立即升级并获得："
+}
+{
+  "Urgent: Make sound and pop on screen"
+  "紧急：发出声音并弹出消息"
+}
+{
+  "Use buttons to zoom and move the map"
+  "使用按钮缩放和移动地图"
+}
+{
+  "Use the AR view to point your camera towards the sky and see details of flights overhead."
+  "使用AR视图将相机指向天空，查看头顶航班的详细信息。"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "User account has been created and invitation has been sent"
+  "用户帐户已创建，邀请已发送"
+}
+{
+  "User onboard this flight"
+  "本次航班上的用户"
+}
+{
+  "Username is already taken."
+  "用户名已被占用。"
+}
+{
+  "Username must be at least 4 and max 15 characters."
+  "用户名必须至少包含4个字符，最多包含15个字符。"
+}
+{
+  "Username should contain only latin letters and numbers."
+  "用户名应仅包含拉丁字母和数字。"
+}
+{
+  "Users onboard this flight"
+  "本次航班上的用户"
+}
+{
+  "VALID"
+  "有效"
+}
+{
+  "VIEW"
+  "视图"
+}
+{
+  "Value"
+  "值"
+}
+{
+  "Vendor Details"
+  "供应商详细信息"
+}
+{
+  "Vendor List"
+  "供应商清单"
+}
+{
+  "Vendor Privacy policy QR code"
+  "供应商隐私政策二维码"
+}
+{
+  "Vendors List"
+  "供应商名单"
+}
+{
+  "Vendors Name"
+  "供应商名称"
+}
+{
+  "Vertical speed"
+  "垂直速度"
+}
+{
+  "Vibrate"
+  "振动"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "View Privacy Notice"
+  "查看隐私声明"
+}
+{
+  "View a photo of the aircraft when available. Switch photos off to limit data usage."
+  "在可用时查看飞机的照片。关闭照片可以节省流量。"
+}
+{
+  "View bookmarks"
+  "查看书签"
+}
+{
+  "Visibility"
+  "视图"
+}
+{
+  "Visit <b>facebook.com/device</b> and enter the code shown above."
+  "访问<b>facebook.com/device</b>并输入上面显示的代码。"
+}
+{
+  "Visit our blog for a complete guide on how to use filters"
+  "访问我们的博客，了解如何使用过滤器的完整指南"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Volcanic eruption"
+  "火山喷发"
+}
+{
+  "Volcano"
+  "火山"
+}
+{
+  "Volume slider"
+  "音量滑块"
+}
+{
+  "Want to get rid of ads?"
+  "想摆脱广告吗？"
+}
+{
+  "Watch a video | Get %d session"
+  "观看视频|获取%d个会话"
+}
+{
+  "Watch a video | Get %d sessions"
+  "观看视频|获取%d个会话"
+}
+{
+  "Water"
+  "水"
+}
+{
+  "We are currently experiencing a very high volume of users trying to access the app. As a temporary measure, we have added a waiting room to prevent the service from crashing. Subscribers will be given priority until normal volumes resume.\n\nOur engineers are continuing to work hard to further increase the capacity of our servers and we hope to remove the waiting room as soon as possible.\n\nThank you for supporting Flightradar24. We apologize for any inconvenience this has caused."
+  "我们目前遇到了大量用户试图访问该应用程序。作为一项临时措施，我们增加了一个候诊室，以防止服务崩溃。在恢复正常卷之前，订阅者将获得优先权。\n我们的工程师正在继续努力，以进一步提高我们服务器的容量，我们希望尽快拆除候诊室。\n感谢您对Flightradar24的支持。对于由此造成的不便，我们深表歉意。"
+}
+{
+  "We are sorry, 3D view could not be loaded."
+  "很抱歉，无法加载三维视图。"
+}
+{
+  "We are sorry, 3D view has stopped working. Please restart the app and try again."
+  "很抱歉，3D视图已停止工作。请重新启动应用程序并重试。"
+}
+{
+  "We are sorry, 3D view has stopped working. You will be reverted to low quality settings upon restart. Please reopen 3D view to resume."
+  "很抱歉，3D视图已停止工作。重新启动后，您将恢复到低质量设置。请重新打开三维视图以继续。"
+}
+{
+  "We are sorry, the flight could not be found."
+  "很抱歉，找不到航班。"
+}
+{
+  "We do not share your personal details with anyone. You can change your email preferences at any time.\nRead our %s"
+  "我们不会与任何人分享您的个人信息。您可以随时更改电子邮件首选项。\n阅读我们的%s"
+}
+{
+  "We'll send you a notification with a link to the advertiser site."
+  "我们将向您发送带有广告商网站链接的通知。"
+}
+{
+  "Weather"
+  "天气"
+}
+{
+  "Weather currently N/A"
+  "天气目前不可用"
+}
+{
+  "Weather is currently not available"
+  "目前天气不可用"
+}
+{
+  "WebView login requires INTERNET permission"
+  "WebView登录需要互联网权限"
+}
+{
+  "Welcome to %s"
+  "欢迎来到%s"
+}
+{
+  "Welcome to Flightradar24"
+  "欢迎来到Flightradar24"
+}
+{
+  "When enabled, screen will sleep after inactivity."
+  "启用后，屏幕将在不活动后休眠。"
+}
+{
+  "When in shuffle mode, it's not possible to control the map from this unit.\n\nCurrently map layers are not supported whilst casting"
+  "在洗牌模式下，无法从该单元控制地图。\n目前，投射时不支持贴图层"
+}
+{
+  "Wind"
+  "风"
+}
+{
+  "Wind barb combinations"
+  "风向标组合"
+}
+{
+  "Wind barbs"
+  "风向标"
+}
+{
+  "Wind barbs (%s)"
+  "风向标（%s）"
+}
+{
+  "Wind speed"
+  "风速"
+}
+{
+  "Wind speed (%s)"
+  "风速（%s）"
+}
+{
+  "Winds"
+  "风"
+}
+{
+  "Winds %1$d degrees, at %2$d %3$s"
+  "风%1$d度，位于%2$d%3$s"
+}
+{
+  "Winds variable, at %1$d %2$s"
+  "风向可变，位于%1$d%2$s"
+}
+{
+  "With 3D view, follow a flight and see a detailed 3D model of the aircraft, high resolution satellite and terrain imagery, and other nearby flights."
+  "使用3D视图跟踪航班，查看飞机的详细3D模型、高分辨率卫星和地形图像以及附近的其他航班。"
+}
+{
+  "Worldwide Flight Information Region (FIR) and Upper Information Region (UIR) boundaries."
+  "全球的飞行情报区（FIR）和高空飞行情报区（UIR）边界。"
+}
+{
+  "Wrong current password"
+  "当前密码错误"
+}
+{
+  "Year %s"
+  "%s年"
+}
+{
+  "Year picker visible"
+  "年份选择器可见"
+}
+{
+  "Yes"
+  "是的"
+}
+{
+  "Yes, I want email updates from Flightradar24:"
+  "是的，我需要来自Flightradar24的电子邮件广告："
+}
+{
+  "Yes, show aircraft history"
+  "是，显示飞机历史"
+}
+{
+  "Yes, show flight history"
+  "是的，显示航班历史记录"
+}
+{
+  "You already have an active %s subscription which you received as a thank you for feeding data to us. If you need any further assistance, please check our FAQ section or contact us at support@fr24.com"
+  "您已经拥有一个有效的%s订阅，我们感谢您向我们提供数据。如果您需要任何进一步的帮助，请查看我们的常见问题部分或通过以下方式与我们联系：support@fr24.com"
+}
+{
+  "You already have an active %s subscription. To modify, upgrade or cancel please go to https://www.flightradar24.com/account and make your changes there. \n\nUnfortunately cross-platform purchases are not allowed. If you need any further assistance, please check our FAQ section or contact us at support@fr24.com"
+  "您已经有一个活动的%s订阅。要修改、升级或取消，请转到https://www.flightradar24.com/account并在那里进行更改。\n不幸的是，不允许跨平台购买。如果您需要任何进一步的帮助，请查看我们的常见问题部分或通过以下方式联系我们support@fr24.com"
+}
+{
+  "You already have an active %s subscription. To modify, upgrade or cancel please go to the App Store and make your changes there.\n\nUnfortunately cross-platform purchases are not allowed. If you need any further assistance, please check our FAQ section or contact us at support@fr24.com"
+  "您已经有一个活动的%s订阅。要修改、升级或取消，请前往App Store并在那里进行更改。\n不幸的是，不允许跨平台购买。如果您需要任何进一步的帮助，请查看我们的常见问题部分或通过以下方式联系我们support@fr24.com"
+}
+{
+  "You are back online! Continue learning about %s"
+  "您已重新联网！继续了解 %s"
+}
+{
+  "You are back online! Let's pick up where we left off"
+  "您已重新上线！让我们继续刚才的话题"
+}
+{
+  "You are either watching an area without coverage, or have set a too strict filter."
+  "您可能正在观看一个没有覆盖的区域，或是设置了过于严格的过滤选项。"
+}
+{
+  "You are using an unsupported version of Flightradar24. Please update to the latest version of Flightradar24 for a superior flight tracking experience."
+  "您正在使用不受支持的Flightradar24版本。请更新至Flightradar24的最新版本，以获得卓越的飞行跟踪体验。"
+}
+{
+  "You can add multiple aircraft, flights, airports and locations to your own bookmarks for easy access. Access Bookmarks by swiping down on the main map screen.<br /><br />Create a free Flightradar24 Basic account to add one bookmark or upgrade to <b>Silver (%d)</b> or <b>Gold (%d)</b> to add a higher number."
+  "您可以将多架飞机、航班、机场和地点添加到自己的书签中，以便轻松访问。通过在主地图屏幕上向下滑动来访问书签<br/><br/>创建一个免费的Flightradar24 Basic帐户以添加一个书签，或升级到<b>银牌（%d）</b>或<b>金牌（%d）>/b>以添加更高的数字。"
+}
+{
+  "You can always change your preference in your device's App permissions settings."
+  "您始终可以在设备的应用程序权限设置中更改您的偏好。"
+}
+{
+  "You can disable this feature in the Misc tab on the Settings menu."
+  "您可以在“设置”菜单的“其他”选项卡中禁用此功能。"
+}
+{
+  "You can download flight data in format of KML or CSV file."
+  "您可以下载KML或CSV文件格式的航班数据。"
+}
+{
+  "You can manage this feature in the Misc tab on the Settings menu."
+  "您可以在“设置”菜单的“其他”选项卡中管理此功能。"
+}
+{
+  "You can now access your Flightradar24 %s plan subscription on other devices."
+  "您现在可以在其他设备上访问您的Flightradar24%s计划订阅。"
+}
+{
+  "You can only add 5 conditions"
+  "您只能添加5个条件"
+}
+{
+  "You can search for flight numbers, airports, routes, call sign or registration directly in the search bar as shown."
+  "您可以直接在搜索栏中搜索航班号、机场、路线、呼号或注册号，如图所示。"
+}
+{
+  "You can see extra flight details by interacting with these tabs."
+  "您可以点击这些选项来查看额外的航班详细信息。"
+}
+{
+  "You have been logged out"
+  "您已注销"
+}
+{
+  "You have been successfully logged out!"
+  "您已成功注销！"
+}
+{
+  "You have no saved filters yet"
+  "您还没有保存筛选器"
+}
+{
+  "You have reached the bookmark limit for a %s account"
+  "您已达到%s帐户的书签限制"
+}
+{
+  "You have reached the bookmark limit of %d."
+  "您已达到%d的书签限制。"
+}
+{
+  "You have reached the maximum number of alerts (10) included in your Silver subscription. To create a new alert, please first delete an old one."
+  "您已达到Silver订阅中包含的最大提醒数（10）。要创建新提醒，请先删除旧提醒。"
+}
+{
+  "You have reached the maximum number of alerts (25) included in your Gold subscription. To create a new alert, please first delete an old one."
+  "您已达到金牌会员订阅中包含的最大提醒数（25）。要创建新提醒，请先删除旧提醒。"
+}
+{
+  "You have reached the maximum number of filters available. To add more filters please delete an existing one."
+  "您已达到可用筛选器的最大数量。要添加更多筛选器，请删除一个现有筛选器。"
+}
+{
+  "You have reached the maximum number of saved alerts (60) included in your Business subscription. To create a new alert, please first delete an old one."
+  "您已达到Business订阅中包含的已保存提醒的最大数量（60）。要创建新提醒，请先删除旧提醒。"
+}
+{
+  "You have reached the maximum number of saved filters (25) included in your Gold subscription. To save a new filter, please first delete an old one."
+  "您已达到金牌会员订阅中包含的已保存过滤器的最大数量（25个）。要保存新筛选器，请先删除旧筛选器。"
+}
+{
+  "You have reached the maximum number of saved filters (60) included in your Business subscription. To save a new filter, please first delete an old one."
+  "您已达到Business订阅中包含的已保存筛选器的最大数量（60）。要保存新筛选器，请先删除旧筛选器。"
+}
+{
+  "You have reached your download limit"
+  "您已达到下载限制"
+}
+{
+  "You have reached your download limit."
+  "您已达到下载限制。"
+}
+{
+  "You're almost done"
+  "你快做完了"
+}
+{
+  "You're currently enjoying Flightradar24 Basic."
+  "您当前正在享受Flightradar24 Basic。"
+}
+{
+  "You're in control - choose what info you want to share with apps."
+  "您可以控制一切-选择要与应用程序共享的信息。"
+}
+{
+  "You're logged in!"
+  "您已登录！"
+}
+{
+  "Your Apple account is linked"
+  "您的Apple帐户已链接"
+}
+{
+  "Your Facebook account is linked"
+  "您的Facebook帐户已链接"
+}
+{
+  "Your Flightradar24 account has been created. Please confirm your email address by clicking on the link in the email that Flightradar24 just sent to you."
+  "您的Flightradar24帐户已创建。请点击Flightradar24刚刚发送给您的电子邮件中的链接，确认您的电子邮件地址。"
+}
+{
+  "Your Google account is linked"
+  "您的Google帐户已链接"
+}
+{
+  "Your account belongs to a group. Please contact the group administrator to delete your account."
+  "您的帐户属于某个组。请联系组管理员删除您的帐户。"
+}
+{
+  "Your account could not be deleted. Please try again later. If the error persists, please contact support."
+  "无法删除您的帐户。请稍后再试。如果错误仍然存在，请联系支持人员。"
+}
+{
+  "Your account has been created successfully"
+  "您的帐户已成功创建"
+}
+{
+  "Your account has been expired."
+  "您的帐户已过期。"
+}
+{
+  "Your account has been permanently deleted."
+  "您的帐户已被永久删除。"
+}
+{
+  "Your device is not equipped with a compass."
+  "您的设备未安装指南针。"
+}
+{
+  "Your email address has not been confirmed."
+  "您的电子邮件地址尚未确认。"
+}
+{
+  "Your email or password is incorrect"
+  "您的电子邮件或密码不正确"
+}
+{
+  "Your extended trial offer is still available."
+  "您的延长试用期仍然可用。"
+}
+{
+  "Your password has been changed"
+  "您的密码已更改"
+}
+{
+  "Your session has expired or you may have exceeded the number of active sessions allowed for your subscription type by logging in to another device. You can log in again on this device."
+  "您的会话已过期，或者您登录到其他设备时可能已超过订阅类型允许的活动会话数。您可以在此设备上重新登录。"
+}
+{
+  "Your username has been changed."
+  "您的用户名已更改。"
+}
+{
+  "You’ve reached your bookmarks limit"
+  "您已达到书签限制"
+}
+{
+  "Zoom in map"
+  "放大地图"
+}
+{
+  "Zoom out map"
+  "缩小地图"
+}
+{
+  "airports found"
+  "找到的机场"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "e.g. A388 or B73"
+  "例： A388 或 B73"
+}
+{
+  "e.g. D-AIHV"
+  "例： D-AIHV"
+}
+{
+  "e.g. D–AIHV"
+  "例： D-AIHV"
+}
+{
+  "e.g. London Heathrow or LHR"
+  "例： London Heathrow 或 LHR"
+}
+{
+  "e.g. SQ23 or AM22"
+  "例： SQ23 或 AM22"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "flights"
+  "航班"
+}
+{
+  "flights found"
+  "找到的航班"
+}
+{
+  "fpm"
+  "英尺每分钟（fpm）"
+}
+{
+  "in %s"
+  "于 %s"
+}
+{
+  "more"
+  "更多"
+}
+{
+  "more than"
+  "超过"
+}
+{
+  "or with email"
+  "或使用邮箱"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "© %d Flightradar24 AB"
+  "© %d Flightradar24 AB\n ━ 予澄◈汉化 ━"
+}
+{
+  "• Find out which flights are near you with AR view simply by pointing your device at the sky - see screenshot above"
+  "•只需将设备对准天空，即可通过 AR 视图查看附近的航班--见上面的截图"
+}
+{
+  "• Get a list of all nearby flights and airports"
+  "• 获取附近所有航班和机场的列表"
+}
+{
+  "• Zoom to your location on the map with one click"
+  "•一键缩放到地图上的位置"
+}
+{
+  "╳ Clear history"
+  "╳ 清除历史记录"
+}

@@ -1,0 +1,482 @@
+<phyphox version="1.14" locale="en">
+  <title>Elevator</title>
+  <category>Everyday life</category>
+  <icon format="base64">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</icon>
+  <description>
+        Determine the speed of an elevator using the barometer.
+
+        Changes in altitude within a short time can be measured very accurately using the barometer - even where GPS does not work. This can be used to derive the vertical speed of an elevator. Additionally, the acceleration is measured using the z-component accelerometer, so for an accurate measurement of the acceleration, the phone should lie flat on the floor of the elevator.
+
+        More details:
+        To eliminate some of the noise in this experiment, the readings from the barometer are averaged over 1 s. The difference of consecutive averages is converted into a altitude difference using the international barometric height formula. The altitude difference divided by the time difference gives the vertical speed.
+    </description>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Elevator</link>
+  <link label="Video" highlight="true">https://youtu.be/y-goBtfuXAM</link>
+  <translations>
+    <translation locale="de">
+      <title>Aufzug</title>
+      <category>Alltag</category>
+      <description>
+        Bestimmt Höhe und Geschwindigkeit eines Aufzugs mithilfe des Barometers.
+
+                Höhenänderung können über eine kurze Zeitdauer sehr genau mit einem Barometer bestimmt werden - auch dort wo GPS nicht funktioniert. Dies wird hier genutzt, um die vertikale Geschwindigkeit eines Aufzugs zu bestimmen. Zusätzlich wird die Beschleunigung über die z-Komponente des Beschleunigungssensors aufgezeichnet. Um die Beschleunigung genau zu messen, sollte das Smartphone entsprechend flach auf dem Boden des Aufzugs liegen.
+
+                Weitere Details:
+                Um das Rauschen des Experiments zu reduzieren, werden die Messdaten des Barometers über jeweils eine Sekunde gemittelt. Die Differenz aufeinander folgender Werte wird über die internationale barometrische Höhenformel in eine Höhendifferenz umgerechnet. Diese Höhendifferenz geteilt durch das Zeitintervall entspricht der vertikalen Geschwindigkeit.
+    </description>
+      <string original="Raw Data">Rohdaten</string>
+      <string original="Pressure">Druck</string>
+      <string original="Altitude (from barometer)">Höhe (über Barometer)</string>
+      <string original="Motion">Bewegung</string>
+      <string original="z acceleration (from accelerometer)">z-Beschleunigung (über Beschleunigungssensor)</string>
+      <string original="Accelerometer z">Beschleunigung z</string>
+      <link label="Video" highlight="true">https://youtu.be/Jgzym7tplVU</link>
+      <string original="Vertical velocity (from altitude)">Vertikale Geschwindigkeit (aus Höhe)</string>
+    </translation>
+    <translation locale="cs">
+      <title>Výtah</title>
+      <category>Běžný život</category>
+      <description>
+        Zjistí rychlost výtahu pomocí barometru.
+
+Rychlé změny výšky mohou být velmi přesně změřeny pomocí barometru - dokonce i tam kde nefunguje GPS. Zároveň můžeme z tohoto měření zjistit i rychlost svislého pohybu výtahu. Zároveň je měřeno zrychlení Z-složkou akcelerometru. Pro přesné měření by tedy měl váš mobilní telefon ležet na plocho na podlaze výtahu.
+   
+Více podrobností:
+Aby se v tomto experimentu eliminoval určitý šum, jsou hodnoty z barometru zprůměrovány za 1 s. Rozdíl po sobě jdoucích průměrů je převeden na výškový rozdíl pomocí mezinárodního vzorce pro barometrické výšky. Výškový rozdíl dělený časovým rozdílem udává vertikální rychlost.
+    </description>
+      <string original="Motion">Pohyb</string>
+      <string original="Altitude (from barometer)">Výška (z barometru)</string>
+      <string original="z acceleration (from accelerometer)">Z zrychlení (z akcelerometru)</string>
+      <string original="Raw Data">Neupravená data</string>
+      <string original="Pressure">Tlak</string>
+      <string original="Accelerometer z">Akcelerometr z</string>
+      <string original="Vertical velocity (from altitude)">Svislá rychlost (z výšky)</string>
+    </translation>
+    <translation locale="pl">
+      <title>Winda</title>
+      <category>Życie codzienne</category>
+      <description>
+        Wyznacz szybkość ruchu windy korzystając z barometru.
+
+        Zmiany w położeniu windy mogą być bardo precyzyjnie określone dzięki wykorzystaniu barometru - zwłaszcza w miejscach gdzie nie działa GPS. Informacje o zmianie położenia mogą posłużyć do wyznaczenia prędkości ruchu w pionie. 
+Dodatkowo, dzięki wskazaniom akcelerometru można zarejestrować pionową składową przyspieszenia pod warunkiem, że urządzenie spoczywa na płaskiej powierzchni podłogi windy.
+
+        Dodatkowe wskazówki:
+        Wskazania czujnika ciśnienia atmosferycznego - barometru - są uśredniane w czasie 1 s. Różnica kolejnych średnich jest przekształcana na różnicę wysokości za pomocą międzynarodowej formuły wysokości barometrycznej. Uzyskana w doświadczeniu różnica wysokości podzielona przez różnicę czasu, w którym została pokonana umożliwia określenie prędkości ruchu w pionie.
+    </description>
+      <string original="Motion">Ruch</string>
+      <string original="Altitude (from barometer)">Wysokość (z barometru)</string>
+      <string original="z acceleration (from accelerometer)">składowa z przyspieszenia (z akceleromatru)</string>
+      <string original="Raw Data">Surowe dane</string>
+      <string original="Pressure">Ciśnienie</string>
+      <string original="Accelerometer z">Akcelerometr - składowa z</string>
+      <string original="Vertical velocity (from altitude)">Prędkość w pionie (z wysokości)</string>
+    </translation>
+    <translation locale="nl">
+      <title>Lift</title>
+      <category>Leven van elke dag</category>
+      <description>
+        Bepaal de snelheid van een lift met behulp van de drukmeter.
+
+    Snelle hoogteveranderingen kunnen zeer nauwkeurig worden gemeten met behulp van de drukmeter - zelfs als GPS niet werkt. Dit kan worden gebruikt om de verticale snelheid van een lift af te leiden. De versnelling wordt gemeten met behulp van de versnellingsmeter met z-component, dus voor een nauwkeurige meting van de versnelling moet de smartphone plat op de vloer van de lift liggen.
+
+ Meer details:
+         Om een deel van de ruis in dit experiment te elimineren, worden de waarden van de drukmeter uitgemiddeld over 1 s. Het verschil van opeenvolgende gemiddelden wordt omgezet in een hoogteverschil met behulp van de internationale barometrische hoogteformule. Het hoogteverschil gedeeld door het tijdsverschil geeft de verticale snelheid.
+    </description>
+      <string original="Motion">Beweging</string>
+      <string original="Altitude (from barometer)">Hoogte (van drukmeter)</string>
+      <string original="z acceleration (from accelerometer)">z versnelling (uit accelerometer)</string>
+      <string original="Raw Data">Onbewerkte data</string>
+      <string original="Pressure">Druk</string>
+      <string original="Vertical velocity (from altitude)">Verticale snelheid (uit hoogte)</string>
+    </translation>
+    <translation locale="ru">
+      <title>Лифт</title>
+      <category>Повседневная жизнь</category>
+      <description>
+        Определите скорость лифта с помощью барометра.
+
+        Изменение высоты в течение короткого времени можно измерить очень точно с помощью барометра - даже там, где GPS не работает. Этот метод можно использовать для получения вертикальной скорости лифта. Кроме того, ускорение измеряется с помощью z-компоненты акселерометра, поэтому для точного измерения ускорения телефон должен лежать ровно на полу лифта.
+
+        Подробнее:
+        Чтобы частично устранить погрешности в этом эксперименте, данные барометра, считанные за 1 с, усредняются. Разница между последовательными средними значениями преобразуется в разность высот с использованием барометрической формулы. Разница в высоте с делением на разницу во времени дает вертикальную скорость.
+    </description>
+      <string original="Motion">Движение</string>
+      <string original="Altitude (from barometer)">Высота (барометр)</string>
+      <string original="z acceleration (from accelerometer)">z ускорение (от акселерометра)</string>
+      <string original="Raw Data">Исходные данные</string>
+      <string original="Pressure">Давление</string>
+      <string original="Accelerometer z">Акселерометр z</string>
+      <string original="Vertical velocity (from altitude)">Вертикальная скорость (от высоты)</string>
+    </translation>
+    <translation locale="it">
+      <title>Ascensore</title>
+      <category>Vita quotidiana</category>
+      <description>
+        Misura la velocità di un ascensore usando il barometro.
+
+        Variazioni di altezza in tempi brevi si possono misurare usando il barometro - anche in assenza di GPS. Si può usare questo sistema per rilevare la velocità verticale di un ascensore. L'accelerazione è inoltre misurata usando la componente z dell'accelerometro, quindi per un'accurata misurazione il telefono dev'essere poggiato sul pavimento dell'ascensore.
+
+        Altri dettagli:
+        Per eliminare alcuni disturbi nell'esperimento, le letture del barometro sono intervallate di 1 s. Differenze su intervalli consecutivi sono convertite in differenze di altezza usando la formula dell'altezza barometrica. Le differenze di altezza divise gli intervalli di tempo danno la velocità verticale.
+    </description>
+      <string original="Motion">Movimento</string>
+      <string original="Altitude (from barometer)">Altezza (dal barometro)</string>
+      <string original="z acceleration (from accelerometer)">accelerazione lungo z (dall'accelerometro)</string>
+      <string original="Raw Data">Dati grezzi</string>
+      <string original="Pressure">Pressione</string>
+      <string original="Accelerometer z">Accelerazione z</string>
+      <string original="Vertical velocity (from altitude)">Velocità verticale (dall'altezza)</string>
+    </translation>
+    <translation locale="el">
+      <title>Ανελκυστήρας</title>
+      <category>Καθημερινότητα</category>
+      <description>
+        Καθορίστε την ταχύτητα ενός ανελκυστήρα χρησιμοποιώντας το βαρόμετρο.
+
+        Μεταβολές στο υψόμετρο μέσα σε μικρό χρονικό διάστημα μπορούν να μετρηθούν με μεγάλη ακρίβεια χρησιμοποιώντας το βαρόμετρο  - ακόμα κι αν δεν λειτουργεί το GPS. Το τελευταίο μπορεί να χρησιμοποιηθεί για να υπολογιστεί η κατακόρυφη ταχύτητα ενός ανελκυστήρα. Επιπλέον, η επιτάχυνση μετρείται χρησιμοποιώντας τη συνιστώσα z του επιταχυνσιόμετρου, έτσι για να είναι ακριβής η μέτρηση, το τηλέφωνο πρέπει να είναι οριζόντιο στο πάτωμα του ανελκυστήρα.
+
+        Περισσότερες λεπτομέρειες:
+        Για να απομονωθεί ένα μέρος του θορύβου στο πείραμα αυτό, υπολογίζεται ο μέσος όρος των ενδείξεων του βαρομέτρου σε διάστημα 1s. H διαφορά διαδοχικών μέγιστων μετατρέπεται σε υψόμετρο από την βαρομετρική εξίσωση του ύψους. Η διαφορά υψομέτρου διαιρεμένη με τους χρόνους δίνει την κατακόρυφη ταχύτητα.
+    </description>
+      <string original="Motion">Κίνηση</string>
+      <string original="Altitude (from barometer)">Υψόμετρο (από το βαρόμετρο)</string>
+      <string original="z acceleration (from accelerometer)">Επιτάχυνση στον z (από το επιταχυνσιόμετρο)</string>
+      <string original="Raw Data">Καταγραφές Αισθητήρα</string>
+      <string original="Pressure">Πίεση</string>
+      <string original="Accelerometer z">Επιταχυνσιόμετρο z</string>
+      <string original="Vertical velocity (from altitude)">Κατακόρυφη ταχύτητα (από το ύψος)</string>
+    </translation>
+    <translation locale="ja">
+      <title>エレベーター</title>
+      <category>日常生活</category>
+      <description>
+        バロメーター（圧力センサー）を用いたエレベーターの速度の同定．
+
+GPSが動作しないような場所においても，バロメータにより，短時間の高度変化の測定が可能です．これはエレベータの垂直速度を導出するのに用いることができます．さらに加速度はz方向の加速度計を用いて測定されるので，正確な加速度計測のためにスマートフォンを水平にエレベーターのフロアに置いて使用してください．
+本実験において，ノイズを除去するため，バロメーターからの出力は1秒以上の平均値です．連続計測された平均値の差は，国際的な圧力高度換算公式を用い高度に変換されます．高度を時間差で割ることでエレベータの速度が得られます．
+    </description>
+      <string original="Motion">位置・速度・加速度</string>
+      <string original="Altitude (from barometer)">バロメーターから換算された高度</string>
+      <string original="z acceleration (from accelerometer)">加速度計により測定されるz 加速度</string>
+      <string original="Raw Data">センサー出力</string>
+      <string original="Pressure">圧力</string>
+      <string original="Accelerometer z">加速度計 z</string>
+      <string original="Vertical velocity (from altitude)">高度から計算される垂直速度</string>
+    </translation>
+    <translation locale="pt">
+      <title>Elevador</title>
+      <category>Dia a dia</category>
+      <description>
+        Determina a velocidade de um elevador usando o barômetro.
+
+        Mudanças na altura dentro em um curto espaço de tempo podem ser medidas precisamente usando um barômetro - mesmo onde o GPS não funciona. Isto pode ser utilizado para calcular a velocidade vertical do elevador. O acelerômetro também é utilizado para medir a componente z da aceleração, logo para uma medida correta, o aparelho deve estar deitado no chão do elevador.
+
+        Mais detalhes:
+        Para diminuir o ruído do experimento, é utilizada a média das medidas do barômetro durante 1s. A diferença das médias consecutivas é convertida em altura usando a equação barométrica. A diferença de altura dividida pela diferenca de tempo dá a velocidade vertical.
+    </description>
+      <string original="Motion">Movimento</string>
+      <string original="Altitude (from barometer)">Altura (a partir do barômetro)</string>
+      <string original="z acceleration (from accelerometer)">Aceleração z (a partir do acelerômetro)</string>
+      <string original="Raw Data">Sensores</string>
+      <string original="Pressure">Pressão</string>
+      <string original="Accelerometer z">Acelerômetro z</string>
+      <string original="Vertical velocity (from altitude)">Velocidade vertical (a partir da altura)</string>
+    </translation>
+    <translation locale="tr">
+      <title>Asansör</title>
+      <category>Gündelik Yaşam</category>
+      <description>
+        Barometreyi kullanarak asansörün hızını belirleyin.
+
+Kısa bir süre içindeki yükseklik değişiklikleri GPS'in çalışmadığı durumlarda bile barometre kullanılarak çok hassas bir şekilde ölçülebilir. Bu, bir asansörün dikey hızını türetmek için kullanılabilir. İvmelenme şimdiye kadar doğru ölçümler yapan z-bileşenli ivmeölçer kullanılarak ölçülür, telefonun asansörün zemininde düz durması gerekir.
+
+Daha fazla detay:
+Bu deneydeki bazı gürültüyü ortadan kaldırmak için, barometreden alınan okumaların ortalaması 1 saniyeden fazladır. Ardışık ortalamaların farkı, uluslararası barometrik yükseklik formülü kullanılarak bir yükseklik farkına dönüştürülür. Zaman farkı ile bölünen yükseklik farkı, dikey hızı verir.
+    </description>
+      <string original="Motion">Hareket</string>
+      <string original="Altitude (from barometer)">Yükseklik (barometreden)</string>
+      <string original="z acceleration (from accelerometer)">z ivmesi (ivmeölçerden)</string>
+      <string original="Raw Data">Ham veri</string>
+      <string original="Pressure">Basınç</string>
+      <string original="Accelerometer z">İvmeölçer Z</string>
+      <string original="Vertical velocity (from altitude)">Düşey hız (yükseklikten)</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>電梯</title>
+      <category>每日生活</category>
+      <description>
+        利用氣壓計測量電梯的速度。
+
+	透過氣壓計可以精確的測量短時間內高度的變化--即使是GPS不能使用的地方。這可以用來導出電梯的鉛直速度。除此之外，加速度透過z分量的加速儀測得，為了達到精確的測量，手機應平躺於電梯地板。
+
+	更多內容：
+	為消除一些實驗中的雜音，氣壓計所讀的數據為每1秒鐘的平均值。此持續平均值的差利用國際氣壓高公式轉換成高度。將高度差除以時間差得到鉛直速度。
+    </description>
+      <string original="Motion">運動</string>
+      <string original="Altitude (from barometer)">高度（由高度計）</string>
+      <string original="z acceleration (from accelerometer)">z方向加速度 （由加速儀）</string>
+      <string original="Raw Data">原始數據</string>
+      <string original="Pressure">壓力</string>
+      <string original="Accelerometer z">z方向加速儀</string>
+      <string original="Vertical velocity (from altitude)">鉛直速度 (由高度）</string>
+    </translation>
+    <translation locale="fr">
+      <title>Ascenseur</title>
+      <category>Vie quotidienne</category>
+      <description>
+        Mesure la vitesse d'un ascenseur à l'aide du baromètre.
+
+        Les variations rapides d'altitude  peuvent être mesurées très précisément à l'aide du baromètre, même lorsque le GPS ne fonctionne pas. À partir de ces mesures, on peut déterminer la vitesse verticale d'un ascenseur. Par ailleurs, l'accélération est également mesurée en utilisant la composante z de l'accéléromètre ; il faut donc que le téléphone soit à plat sur le plancher de l'ascenseur pour que la mesure de l'accélération soit correcte.
+
+        Plus précisément : pour éliminer une partie du bruit dans cette expérience, les mesures du baromètre sont moyennées sur 1 s. La variation de pression à chaque seconde est convertie en une variation d'altitude à l'aide de la relation pression / hauteur. La différence d'altitude divisée par l’intervalle de temps donne la vitesse verticale.
+    </description>
+      <string original="Motion">Mouvement</string>
+      <string original="Altitude (from barometer)">Altitude (selon le baromètre)</string>
+      <string original="z acceleration (from accelerometer)">accélération selon z (selon l'accéléromètre)</string>
+      <string original="Raw Data">Données brutes</string>
+      <string original="Pressure">Pression</string>
+      <string original="Accelerometer z">Accélération selon z</string>
+      <string original="Vertical velocity (from altitude)">vitesse verticale (à partir de la hauteur)</string>
+    </translation>
+    <translation locale="vi">
+      <title>Thang máy</title>
+      <category>Cuộc sống hằng ngày</category>
+      <description>
+        Xác định tốc độ của thang máy bằng cách dùng áp kế.
+
+        Thay đổi độ cao trong một thời gian ngắn có thể được xác định rất chính xác bằng áp kế - kể cả khi GPS không hoạt động. Điều này có thể dùng để suy ra tốc độ thẳng đứng của thang máy. Thêm vào đó, gia tốc được đo bằng gia tốc kế thành phần theo trục z, để có phép đo chính xác của gia tốc, điện thoại được đặt nằm trên sàn.
+
+        Cụ thể hơn:
+        Để giảm nhiễu trong thí nghiệm này, dữ liệu từ áp kế được tính trung bình cho từng giây. Hiệu trung bình áp suất liên tiếp được đổi thành độ cao theo công thức quốc tế tính độ cao theo áp suất. Hiệu độ cao được chia cho thời di chuyển để có tốc độ theo phương thẳng đứng.
+    </description>
+      <string original="Motion">Chuyển động</string>
+      <string original="Altitude (from barometer)">Độ cao (từ áp kế)</string>
+      <string original="z acceleration (from accelerometer)">gia tốc z (từ gia tốc kế)</string>
+      <string original="Raw Data">Dữ liệu thô</string>
+      <string original="Pressure">Áp suất</string>
+      <string original="Accelerometer z">Gia tốc kế z</string>
+      <string original="Vertical velocity (from altitude)">Tốc độ thẳng đứng (từ độ cao)</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>电梯</title>
+      <category>日常生活</category>
+      <description>
+        利用气压计确定电梯的速度。
+
+        利用气压计能十分精确地测量短时间内的高度变化，即使是GPS不能使用的地方。借此可以得出电梯的垂直速度。此外，使用Z分量加速度计能测得加速度，为实现加速度的准确测量，手机应该平放在电梯地板上。
+
+        更多细节：
+        为了消除本实验中的一些噪声，气压表读数取每秒钟的平均值。使用国际气压高度公式，能将连续平均值的差异转化为高度差。高度差除以时间差得到电梯的垂直速度。
+    </description>
+      <string original="Motion">运动</string>
+      <string original="Altitude (from barometer)">高度（来自气压计）</string>
+      <string original="z acceleration (from accelerometer)">Z轴加速度（来自加速度计）</string>
+      <string original="Raw Data">原始数据</string>
+      <string original="Pressure">压力</string>
+      <string original="Accelerometer z">z轴加速度计</string>
+      <string original="Vertical velocity (from altitude)">垂直速度（来自高度）</string>
+    </translation>
+    <translation locale="sr">
+      <title>Lift</title>
+      <category>Svakodnevni život</category>
+      <description>
+        Odredite brzinu lifta koristeći barometar.
+
+         Promene u visini za kratko vreme mogu se vrlo precizno meriti pomoću barometra - čak i tamo gde GPS ne radi. Ovo se može koristiti za izvođenje vertikalne brzine lifta. Pored toga, ubrzanje se meri pomoću z-komponentnog merača akceleratora, pa bi za precizno merenje ubrzanja telefon trebalo da se nalazi ravno na podu lifta.
+
+         Detaljnije:
+         Da bi se eliminisale smetnje u ovom eksperimentu, očitavanja iz barometra prosečno su veća od 1 s. Razlika uzastopnih proseka pretvara se u visinsku razliku koristeći međunarodnu barometrijsku visinu. Visinska razlika podeljena sa vremenskom razlikom daje vertikalnu brzinu.
+    </description>
+      <string original="Motion">Kretanje</string>
+      <string original="Altitude (from barometer)">Visina (sa barometra)</string>
+      <string original="z acceleration (from accelerometer)">z ubrzanje (sa brzinometra)</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Pressure">Pritisak</string>
+      <string original="Accelerometer z">Brzinometar z</string>
+      <string original="Vertical velocity (from altitude)">Vertikalna brzina (iz visine)</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Lift</title>
+      <category>Svakodnevni život</category>
+      <description>
+        Odredite brzinu lifta koristeći barometar.
+
+         Promene u visini za kratko vreme mogu se vrlo precizno meriti pomoću barometra - čak i tamo gde GPS ne radi. Ovo se može koristiti za izvođenje vertikalne brzine lifta. Pored toga, ubrzanje se meri pomoću z-komponentnog merača akceleratora, pa bi za precizno merenje ubrzanja telefon trebalo da se nalazi ravno na podu lifta.
+
+         Detaljnije:
+         Da bi se eliminisale smetnje u ovom eksperimentu, očitavanja iz barometra prosečno su veća od 1 s. Razlika uzastopnih proseka pretvara se u visinsku razliku koristeći međunarodnu barometrijsku visinu. Visinska razlika podeljena sa vremenskom razlikom daje vertikalnu brzinu.
+    </description>
+      <string original="Motion">Kretanje</string>
+      <string original="Altitude (from barometer)">Visina (sa barometra)</string>
+      <string original="z acceleration (from accelerometer)">z ubrzanje (sa brzinometra)</string>
+      <string original="Raw Data">Sirovi podaci</string>
+      <string original="Pressure">Pritisak</string>
+      <string original="Accelerometer z">Brzinometar z</string>
+      <string original="Vertical velocity (from altitude)">Vertikalna brzina (iz visine)</string>
+    </translation>
+    <translation locale="es">
+      <title>Ascensor</title>
+      <category>Vida cotidiana</category>
+      <description>
+        Determinar la velocidad de un ascensor usando un barómetro.
+
+        Pueden medirse cambios en la altitud en un corto lapso de tiempo con mucha exactitud usando el barómetro, aún cuando el GPS no funciona. Esto puede utilizarse para obtener la velocidad vertical de un ascensor. Vale aclarar que la aceleración se mide usando la componente z del acelerómetro, por lo que para conseguir una medida exacta de la aceleración, el teléfono móvil debería permanecer apoyado con su cara más amplia sobre el suelo del ascensor.
+
+        Más detalles:
+        Para eliminar algo del ruido en este experimento, las mediciones están promediadas sobre 1 s. La diferencia entre medias consecutivas es convertida en una diferencia de altitud usando la fórmula de altura barométrica universal. La diferencia de altitud dividida por la diferencia de tiempo da como resultado la velocidad vertical.
+    </description>
+      <string original="Motion">Movimiento</string>
+      <string original="Altitude (from barometer)">Altitud (tomada del barómetro)</string>
+      <string original="z acceleration (from accelerometer)">aceleración z (tomada del acelerómetro)</string>
+      <string original="Raw Data">Datos sin procesar</string>
+      <string original="Pressure">Presión</string>
+      <string original="Accelerometer z">Acelerómetro z</string>
+      <string original="Vertical velocity (from altitude)">Velocidad vertical (tomada de la altura)</string>
+    </translation>
+    <translation locale="ka">
+      <title>ლიფტი</title>
+      <category>ყოველდღიური ცხოვრება</category>
+      <description>
+        გამოთვალე ლიფტის სიჩქარე ბარომეტის გამოყენებით.
+
+        სიმაღლის ცვლილება ძალიან ზუსტად შეიძლება გაიზომოს ბარომეტრის საშუალებით, თუნდაც GPS-ის უმექმედობისას.ეს შეიძლება გამოყენებული იქნას ლიფტის ვერტიკალური სიჩქარის დასათვლელად. ამასთან ერთად, აჩქარება ითვლება z-მდგენელი აქსელომეტრით, ამისათვის ტელეფონი უნდა იწვებს ბრტყელი ზედაპირით ლიფტის იატაკზე.
+
+        დამატებითი დეტალები:
+        იმისათვის რომ გამოვრიცხოთ ექსპერიმენტში ხმაური, ბარომეტრი ანათვლებს იღებს ყოველ 1 წამში. საშუალოებს შორის განსხვავება გადაგვყავს სიმაღლის განსხვავებებში საერთაშორისო ბარომეტრის სიმაღლის ფორმულით. სიმაღლეებს შორის სხვაობა იყოფა დროზე რაც გვაძლევს ვერტიკალურ სიჩქარეს.
+    </description>
+      <string original="Motion">მოძრაობა</string>
+      <string original="Altitude (from barometer)">სიმაღლე (ბარომეტრიდან)</string>
+      <string original="Vertical velocity (from altitude)">ვერტიკალური სიჩქარე (სიმაღლიდან)</string>
+      <string original="z acceleration (from accelerometer)">z აჩქარება (აქსელომეტრიდან)</string>
+      <string original="Raw Data">დაუმუშავებელი მონაცემები</string>
+      <string original="Pressure">წნევა</string>
+      <string original="Accelerometer z">აქსელომეტრი z</string>
+    </translation>
+    <translation locale="hi">
+      <title>एलीवेटर (लिफ्ट)</title>
+      <category>दैनिक जीवन</category>
+      <description>
+        बैरोमीटर का उपयोग करके लिफ्ट की गति निर्धारित करें.
+
+        कम समय के भीतर ऊंचाई में होने वाले परिवर्तन को बैरोमीटर का उपयोग करके बहुत सटीक रूप से मापा जा सकता है - यहां तक कि जहां जीपीएस भी काम नहीं करता है। इसका उपयोग लिफ्ट की ऊर्ध्वाधर गति प्राप्त करने के लिए किया जा सकता है। इसके अतिरिक्त, त्वरण को z-घटक एक्सेलेरोमीटर का उपयोग करके मापा जाता है, इसलिए त्वरण के सटीक माप के लिए, फोन को लिफ्ट के फर्श पर सपाट होना चाहिए.
+
+         अधिक विवरण :
+        इस प्रयोग में कुछ शोर को कम करने के लिए, बैरोमीटर से रीडिंग का 1 s पर औसत लिया गया है | अंतरराष्ट्रीय बैरोमेट्रिक ऊंचाई सूत्र का उपयोग करके क्रमानुगत औसत के अंतर को ऊंचाई के अंतर में बदल दिया जाता है। ऊंचाई के अंतर को समय के अंतर से विभाजित करने पर ऊर्ध्वाधर गति प्राप्त होती है।
+    </description>
+      <string original="Motion">गति</string>
+      <string original="Altitude (from barometer)">ऊँचाई</string>
+      <string original="Vertical velocity (from altitude)">उर्ध्वाधर वेग (ऊँचाई से )</string>
+      <string original="z acceleration (from accelerometer)">z त्वरण (अक्सेलेरोमीटर- त्वरणमापी से )</string>
+      <string original="Raw Data">मूल (रॉ) डेटा</string>
+      <string original="Pressure">दबाव</string>
+      <string original="Accelerometer z">त्वरण मापी z</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="0">pressure</container>
+    <container size="0">p_time</container>
+    <container size="0">v_time</container>
+    <container size="0">dt</container>
+    <container size="0">dt2</container>
+    <container size="0">v</container>
+    <container size="0">h</container>
+    <container>h0</container>
+    <container size="0">temp1</container>
+    <container size="0">temp2</container>
+    <container size="0">a_time</container>
+    <container size="0">a</container>
+  </data-containers>
+  <input>
+    <sensor type="pressure" rate="1" average="true">
+      <output component="x">pressure</output>
+      <output component="t">p_time</output>
+    </sensor>
+    <sensor type="linear_acceleration" rate="25" average="true">
+      <output component="t">a_time</output>
+      <output component="z">a</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Motion">
+      <graph label="Altitude (from barometer)" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_height]]" unitY="[[unit_short_meter]]" unitYperX="[[unit_short_meter_per_second]]" partialUpdate="true">
+        <input axis="x">p_time</input>
+        <input axis="y">h</input>
+      </graph>
+      <graph label="Vertical velocity (from altitude)" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_velocity]]" unitY="[[unit_short_meter_per_second]]" unitYperX="[[unit_short_meter_per_square_second]]" partialUpdate="true" color="ffff00">
+        <input axis="x">v_time</input>
+        <input axis="y">v</input>
+      </graph>
+      <graph label="z acceleration (from accelerometer)" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true" color="e0ff00">
+        <input axis="x">a_time</input>
+        <input axis="y">a</input>
+      </graph>
+    </view>
+    <view label="Raw Data">
+      <graph label="Pressure" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_pressure]]" unitY="[[unit_short_hecto_pascal]]" partialUpdate="true">
+        <input axis="x">p_time</input>
+        <input axis="y">pressure</input>
+      </graph>
+      <graph label="Accelerometer z" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true">
+        <input axis="x">a_time</input>
+        <input axis="y">a</input>
+      </graph>
+    </view>
+  </views>
+  <analysis>
+    <differentiate>
+      <input clear="false">p_time</input>
+      <output>dt</output>
+    </differentiate>
+    <divide>
+      <input clear="false">dt</input>
+      <input type="value">2</input>
+      <output>dt2</output>
+    </divide>
+    <match>
+      <input clear="false">p_time</input>
+      <input clear="false">dt2</input>
+      <output>temp1</output>
+    </match>
+    <add>
+      <input>temp1</input>
+      <input>dt2</input>
+      <output>v_time</output>
+    </add>
+    <formula formula="([1_]/1013.25)^0.190294957*-44330.769230769">
+      <input clear="false">pressure</input>
+      <output>temp1</output>
+    </formula>
+    <first>
+      <input clear="false">temp1</input>
+      <output>h0</output>
+    </first>
+    <subtract>
+      <input>temp1</input>
+      <input>h0</input>
+      <output>h</output>
+    </subtract>
+    <differentiate>
+      <input clear="false">h</input>
+      <output>temp1</output>
+    </differentiate>
+    <divide>
+      <input>temp1</input>
+      <input>dt</input>
+      <output>v</output>
+    </divide>
+  </analysis>
+  <export>
+    <set name="Pressure and velocity">
+      <data name="Time (s)">p_time</data>
+      <data name="Pressure (hPa)">pressure</data>
+      <data name="Altitude (m)">h</data>
+      <data name="Time (velocity) (s)">v_time</data>
+      <data name="Velocity (m/s)">v</data>
+    </set>
+    <set name="Acceleration">
+      <data name="Time (s)">a_time</data>
+      <data name="Acceleration (m/s²)">a</data>
+    </set>
+  </export>
+</phyphox>

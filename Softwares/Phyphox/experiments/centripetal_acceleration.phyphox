@@ -1,0 +1,438 @@
+<phyphox version="1.14" locale="en">
+  <title>Centripetal acceleration</title>
+  <category>Mechanics</category>
+  <description>
+        Visualizes the centripetal acceleration as a function of angular velocity.
+
+        This experiment calculates the absolute value of the angular velocity ω from the gyroscope as well as the absolute acceleration a from the accelerometer. By plotting a against ω the relation a = r·ω² can be shown easily, hence plotting against ω² should result in a straight line.
+
+        To see this, you need to measure at different angular velocities but at a fixed radius. A salad spinner or a small carousel work great.
+    </description>
+  <icon format="base64">
+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
+    </icon>
+  <link label="Wiki">http://phyphox.org/wiki/index.php?title=Experiment:_Centripetal_Acceleration</link>
+  <link label="Video" highlight="true">https://youtu.be/lLCf05Hc83Y</link>
+  <translations>
+    <translation locale="de">
+      <title>Zentripetalbeschleunigung</title>
+      <category>Mechanik</category>
+      <description>
+        Stellt die Zentripetalbeschleunigung als Funktion der Winkelgeschwindigkeit dar.
+
+                Dieses Experiment berechnet den Absolutwert der Winkelgeschwindigkeit ω des Gyroskops sowie den Absolutwert der Beschleunigung a des Beschleunigungssensors. Durch Auftragen von a gegen ω kann man leicht die Beziehung a = r·ω² veranschaulichen und entsprechend sollte bei der Auftragung gegen ω² eine Gerade entstehen.
+
+                Um dies sehen zu können, muss bei verschiedenen Winkelgeschwindigkeiten mit festem Radius gemessen werden. Eine Salatschleuder oder ein kleines Karussell eigenen sich hierfür hervorragend.
+    </description>
+      <link label="Video" highlight="true">https://youtu.be/W9p_KNRK-0Y</link>
+      <string original="Relation">Verhältnis</string>
+      <string original="Time">Zeit</string>
+      <string original="Acceleration">Beschleunigung</string>
+      <string original="Angular velocity">Winkelgeschwindigkeit</string>
+      <string original="Square plot">Quadratische Auftragung</string>
+      <string original="Angular velocity ω">Winkelgeschwindigkeit ω</string>
+      <string original="Acceleration a">Beschleunigung a</string>
+    </translation>
+    <translation locale="cs">
+      <title>Odstředivé zrychlení</title>
+      <category>Mechanika</category>
+      <description>
+        Vizualizuje odstředivého zrychlení jako funkci úhlové rychlosti.
+
+Tento experiment počítá pomocí gyroskopu hodnotu celkové úhlové rychlosti ω a celkové zrychlení pomocí akcelerometru. Vynesením závislosti a vůči ω můžeme snadno prokázat, že platí vztah a = r·ω². Závislost na ω² je přímkou.
+
+Abyste mohli dosáhnout tohoto výsledku, je potřeba měřit rotace s různými úhlovými rychlostmi, avšak s konstantním poloměrem otáčení. Velmi dobře funguje odstředivá sušička na salát nebo malý kolotoč.
+    </description>
+      <string original="Acceleration">Zrychlení</string>
+      <string original="Square plot">Graf druhé mocniny</string>
+      <string original="Time">čas</string>
+      <string original="Angular velocity">Úhlová rychlost</string>
+      <string original="Relation">Závislost</string>
+      <string original="Angular velocity ω">Úhlová rychlost ω</string>
+      <string original="Acceleration a">Zrychlení a</string>
+    </translation>
+    <translation locale="pl">
+      <title>Przyspieszenie dośrodkowe</title>
+      <category>Mechanika</category>
+      <description>
+        Wizualizuj wartość przyspieszenie dośrodkowe jako funkcję wartości prędkości kątowej.
+
+        W tym eksperymencie wyznaczana jest całkowita wartość prędkości kątowej ω uzyskiwana z żyroskopu oraz całkowita wartość przyspieszenia a rejestrowana przez akcelerometr urządzenia. Wizualizacja zależności a od ω pozwala zobrazować równanie a = r·ω², a w konsekwencji zależności ω² od a ilustruje linia prosta.
+
+        Pomiary należy przeprowadzić dla różnych wartości prędkości kątowej przy stałym promieniu okręgu, po którym porusza się badane ciało. W tym celu można wykorzystać obrotową suszarkę do sałaty bądź niewielką karuzelę (np. tarczę gramofonu).
+    </description>
+      <string original="Relation">Zależności</string>
+      <string original="Acceleration">Przyspieszenie</string>
+      <string original="Square plot">Zależność kwadratowa</string>
+      <string original="Time">Czas</string>
+      <string original="Angular velocity">Prędkość kątowa</string>
+      <string original="Angular velocity ω">Prędkość kątowa ω</string>
+      <string original="Acceleration a">Przyspieszenia a</string>
+    </translation>
+    <translation locale="nl">
+      <title>Centripetale versnelling</title>
+      <category>Mechanica</category>
+      <description>
+        Visualiseert de centripetale versnelling als een functie van de hoeksnelheid.
+
+        Dit experiment berekent de absolute waarde van de hoeksnelheid ω van de gyroscoop, evenals de absolute versnelling a via de accelerometer (versnellingsmeter). Door a tegenover ω uit te zetten, kan het verband a = r · ω² eenvoudig worden aangetoond, vooral wanneer de grafiek een rechte lijn is.
+
+        Om dit te zien, moet u meten met verschillende hoeksnelheden, maar met een contante straal. Een slacentrifuge of een (speelgoed) draaimolen werkt geweldig.
+    </description>
+      <string original="Relation">Verband</string>
+      <string original="Acceleration">Versnelling</string>
+      <string original="Square plot">Plot tegenover ω²</string>
+      <string original="Time">Tijd</string>
+      <string original="Angular velocity">Hoeksnelheid</string>
+      <string original="Angular velocity ω">Hoeksnelheid ω</string>
+      <string original="Acceleration a">Versnelling a</string>
+    </translation>
+    <translation locale="ru">
+      <title>Центростремительное ускорение</title>
+      <category>Механика</category>
+      <description>
+        Визуализирует центростремительное ускорение как функцию угловой скорости.
+
+         Этот эксперимент вычисляет абсолютное значение угловой скорости ω гироскопа, а также абсолютное ускорение a акселерометра. При построении графика против ω показывается отношение a = r · ω², поэтому построение против ω² должно приводить к прямой линии. 
+
+         Чтобы убедиться в этом, вам нужно произвести измерения с разными угловыми скоростями, но с фиксированным радиусом. Центрифуга для сушки зелени или маленькая карусель могут помочь вам в этом.
+    </description>
+      <string original="Relation">Соотношение</string>
+      <string original="Acceleration">Ускорение</string>
+      <string original="Square plot">График квадратичной зависимости</string>
+      <string original="ω² (rad/s)²">ω² (рад/с)²</string>
+      <string original="Time">Время</string>
+      <string original="Angular velocity">Угловая скорость</string>
+      <string original="Angular velocity ω">Угловая скорость ω</string>
+      <string original="Acceleration a">Ускорение a</string>
+    </translation>
+    <translation locale="it">
+      <title>Accelerazione centripeta</title>
+      <category>Meccanica</category>
+      <description>
+        Visualizza l'accelerazione centripeta in funzione della velocità angolare.
+
+L'esperimento calcola il valore assoluto della velocità angolare ω dai giroscopi e quello dell'accelerazione a dall'accelerometro. Dal grafico di a in funzione di ω si vede che a=r·ω², mentre il grafico di a in funzione di ω² si presenta come una retta.
+
+Per osservare bene il fenomeno devi evidentemente eseguire l'esperimento in maniera tale che la distanza r dal centro di rotazione sia costante. Puoi, per esempio, fissare lo smartphone sul bordo del cestello di un asciugatore d'insalata.
+    </description>
+      <string original="Relation">Relazione</string>
+      <string original="Acceleration">Accelerazione</string>
+      <string original="Square plot">Accelerazione vs ω²</string>
+      <string original="Time">Tempo</string>
+      <string original="Angular velocity">Velocità angolare</string>
+      <string original="Angular velocity ω">Velocità angolare ω</string>
+      <string original="Acceleration a">Accelerazione a</string>
+    </translation>
+    <translation locale="el">
+      <title>Κεντρομόλος επιτάχυνση</title>
+      <category>Μηχανική</category>
+      <description>
+        Οπτικοποίηση της κεντρομόλου επιτάχυνσης σαν συνάρτηση της γωνιακής ταχύτητας. 
+
+        Αυτό το πείραμα υπολογίζει το μέτρο της γωνιακής ταχύτητας v από το γυροσκόπιο  και το μέτρο της  επιτάχυνσης από το επιταχυνσιόμετρο. Σχεδιάζοντας το a σε συνάρτηση με το ω μπορεί εύκολα να δειχτεί η σχέση a=r·ω²  ενώ, σε συνάρτηση με το ω² θα δώσει ευθεία γραμμή. 
+
+        Για να το δείτε πρέπει να μετρήσετε διαφορετικές γωνιακές ταχύτητας αλλά με σταθερή ακτίνα. Ένα σκεύος που γυρίζει τη σαλάτα ή ένα μικρό καρουζέλ λειτουργεί εξαιρετικά.
+    </description>
+      <string original="Relation">Σχέση</string>
+      <string original="Acceleration">Επιτάχυνση</string>
+      <string original="Square plot">Γράφημα α - ω²</string>
+      <string original="Time">χρόνος</string>
+      <string original="Angular velocity">Γωνιακή ταχύτητα</string>
+      <string original="Angular velocity ω">Γωνιακή ταχύτητα ω</string>
+      <string original="Acceleration a">Επιτάχυνση a</string>
+    </translation>
+    <translation locale="ja">
+      <title>向心加速度</title>
+      <category>力学・運動</category>
+      <description>
+        角速度の関数として，遠心加速度の可視化．
+
+本実験では，加速度計による絶対加速度と同様にジャイロスコープから角速度ωの絶対値を計算します．ωに対してプロットすることで，a = r·ω²の関係が簡単に表示され，特にω²に対してプロットしたときに線形関係が得られます．
+
+これを観測するためには，固定された半径で異なる角速度の測定が必要です．サラダスピナーや小さめのメリーゴーラウンドなどが良く動作します．
+    </description>
+      <string original="Relation">角速度と遠心加速度の関係</string>
+      <string original="Acceleration">加速</string>
+      <string original="Angular velocity ω">角速度　ω</string>
+      <string original="Acceleration a">加速度 a</string>
+      <string original="Square plot">二乗角速度に対する遠心加速度</string>
+      <string original="Time">時間</string>
+      <string original="Angular velocity">角速度</string>
+    </translation>
+    <translation locale="pt">
+      <title>Aceleração Centrípeda</title>
+      <category>Mecânica</category>
+      <description>
+        Visualize a aceleração centrípeda como uma função da velocidade angular.
+
+        Este experimento calcula o valor absoluto da velocidade angular ω fo giroscópio bem como a aceleração absoluta do acelerômetro. Fazendo o gráfico contra ω a relação a = r·ω² pode ser facilmente mostrada, portanto o gráfico contra ω² deve resultar em uma linha reta.
+
+        Para ver isto, você precisa medir em diferentes velocidades angulares mas com um raio fixo. Uma centrífuga de salada ou um carrosel funcionam muito bem.
+    </description>
+      <string original="Relation">Relação</string>
+      <string original="Acceleration">Aceleração</string>
+      <string original="Angular velocity ω">Velocidade Angular ω</string>
+      <string original="Acceleration a">Aceleração a</string>
+      <string original="Square plot">Gráfico do Quadrado</string>
+      <string original="Time">Tempo</string>
+      <string original="Angular velocity">Velocidade Angular</string>
+    </translation>
+    <translation locale="tr">
+      <title>Merkezcil ivme</title>
+      <category>Mekanik</category>
+      <description>
+        Merkezcil ivmeyi açısal hızın bir fonksiyonu olarak görselleştirir.
+
+        Bu deney, jiroskoptan ω açısal hızın mutlak değerini ve ayrıca ivmeölçerden mutlak ivmeyi hesaplar. ω'ya karşı bir çizim yapılarak a = r · ω² arasındaki ilişki kolayca gösterilebilir, dolayısıyla ω²'ye karşı yapılan çizim düz bir çizgiyle sonuçlanmalıdır.
+
+        Bunu görmek için sabit bir yarıçapta ve farklı açısal hızlarda ölçüm yapmanız gerekir. Bir salata karıştırıcı veya küçük bir atlıkarınca harika çalışıyor.
+    </description>
+      <string original="Relation">İlişki</string>
+      <string original="Acceleration">İvmelenme</string>
+      <string original="Angular velocity ω">Açısal hız ω</string>
+      <string original="Acceleration a">İvme a</string>
+      <string original="Square plot">Kare plan</string>
+      <string original="Time">Zaman</string>
+      <string original="Angular velocity">Açısal hız</string>
+    </translation>
+    <translation locale="zh_Hant">
+      <title>向心加速度</title>
+      <category>力學</category>
+      <description>
+        利用角速度的函數視覺化向心加速度。
+
+	此實驗透過陀螺儀及計算角速度ω的絕對值，及透過加速儀測得加速度的絕對值。藉由繪製a對ω的作圖，a = r·ω²可以被清楚的看到，因此對ω²繪製應可以看到一條直線。
+
+	您需要量測固定頻率下不同的角速度才能觀察到此現象。沙拉旋轉器及旋轉木馬皆能有效地運作。
+    </description>
+      <string original="Relation">關係</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Square plot">平方作圖</string>
+      <string original="Time">時間</string>
+      <string original="Angular velocity">角速度</string>
+    </translation>
+    <translation locale="fr">
+      <title>Accélération centripète</title>
+      <category>Mécanique</category>
+      <description>
+        Représente l'accélération centripète en fonction de la vitesse angulaire.
+
+         Cette expérience mesure la valeur absolue de la vitesse angulaire ω à partir du gyroscope ainsi que de l'accélération absolue a à partir de l'accéléromètre. En traçant a en fonction de ω, la relation a = r · ω² peut être facilement étudiée, en comparant à une droite la représentation de a en fonction de ω².
+
+         Pour cela, il faut faire des mesures à différentes vitesses angulaires mais avec un rayon constant. Une essoreuse à salade ou les tourniquets des aires de jeux pour enfants conviennent parfaitement.
+    </description>
+      <string original="Acceleration">Accélération</string>
+      <string original="Angular velocity ω">Vitesse angulaire ω</string>
+      <string original="Acceleration a">Accélération a</string>
+      <string original="Square plot">Passage au carré</string>
+      <string original="Time">Durée</string>
+      <string original="Angular velocity">Vitesse angulaire</string>
+    </translation>
+    <translation locale="vi">
+      <title>Gia tốc hướng tâm</title>
+      <category>Cơ học</category>
+      <description>
+        Hình dung gia tốc hướng tâm là một hàm của vận tốc góc.
+
+        Thí nghiệm này tính toán giá trị tuyệt đối của vận tốc góc từ con quay hồi chuyển cũng như gia tốc tuyệt đối a từ gia tốc kế. Bằng cách vẽ đồ thị theo ω, mối liên hệ a = r·ω² có thể được hiển thị dễ dàng, và nếu vẽ theo ω² thì ta sẽ có một đường thẳng.
+
+        Để thấy điều này, bạn cần đo ở các vận tốc góc khác nhau nhưng ở bán kính cố định. Một máy quay làm khô rau hoặc một băng chuyền nhỏ sẽ cho kết quả tuyệt vời.
+    </description>
+      <string original="Relation">Đồ thị</string>
+      <string original="Acceleration">Gia tốc</string>
+      <string original="Angular velocity ω">Vận tốc góc ω</string>
+      <string original="Acceleration a">Gia tốc a</string>
+      <string original="Square plot">Đồ thị bình phương</string>
+      <string original="Time">Thời gian</string>
+      <string original="Angular velocity">Vận tốc góc</string>
+    </translation>
+    <translation locale="zh_Hans">
+      <title>向心加速度</title>
+      <category>力学</category>
+      <description>
+ 将向心加速度可视化为角速度的函数。
+
+本实验通过陀螺仪计算角速度ω的绝对值，并通过加速度计计算绝对加速度a。通过绘制a与ω的关系图，可以很容易地显示出a = r·ω²的关系，因此，绘制a与ω²的关系图应得到一条直线。
+
+要实现这一点需要在不同的角速度下进行测量，但半径要固定，例如沙拉搅拌器或小型旋转木马。
+    </description>
+      <string original="Relation">关系</string>
+      <string original="Acceleration">加速度</string>
+      <string original="Angular velocity ω">角速度 ω</string>
+      <string original="Acceleration a">加速度 a</string>
+      <string original="Square plot">平方作图</string>
+      <string original="Time">时间</string>
+      <string original="Angular velocity">角速度</string>
+    </translation>
+    <translation locale="sr">
+      <title>Centripetalno ubrzanje</title>
+      <category>Mehanika</category>
+      <description>
+        Vizualizuje centripetalno ubrzanje kao funkciju ugaone brzine.
+
+        Ovaj eksperiment izračunava apsolutnu vrednost ugaone brzine ω iz žiroskopa, kao i apsolutno ubrzanje a iz brzinometra. Iscrtavanjem a po ω, odnos a = r·ω² se može lako prikazati, tako da crtanje po ω² treba da rezultira pravom linijom.
+
+        Da biste to videli, morate da merite na različitim ugaonim brzinama, ali na fiksnom prečniku. Centrifugalni sušač za salatu ili mali vrtuljak mogu poslužiti.
+    </description>
+      <string original="Relation">Relacija</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Angular velocity ω">Ugaona brzina ω</string>
+      <string original="Acceleration a">Ubrzanje a</string>
+      <string original="Square plot">Grafik kvadratne zavisnosti</string>
+      <string original="Time">Vreme</string>
+      <string original="Angular velocity">Ugaona brzina</string>
+    </translation>
+    <translation locale="sr_Latn">
+      <title>Centripetalno ubrzanje</title>
+      <category>Mehanika</category>
+      <description>
+        Vizualizuje centripetalno ubrzanje kao funkciju ugaone brzine.
+
+        Ovaj eksperiment izračunava apsolutnu vrednost ugaone brzine ω iz žiroskopa, kao i apsolutno ubrzanje a iz brzinometra. Iscrtavanjem a po ω, odnos a = r·ω² se može lako prikazati, tako da crtanje po ω² treba da rezultira pravom linijom.
+
+        Da biste to videli, morate da merite na različitim ugaonim brzinama, ali na fiksnom prečniku. Centrifugalni sušač za salatu ili mali vrtuljak mogu poslužiti.
+    </description>
+      <string original="Relation">Relacija</string>
+      <string original="Acceleration">Ubrzanje</string>
+      <string original="Angular velocity ω">Ugaona brzina ω</string>
+      <string original="Acceleration a">Ubrzanje a</string>
+      <string original="Square plot">Grafik kvadratne zavisnosti</string>
+      <string original="Time">Vreme</string>
+      <string original="Angular velocity">Ugaona brzina</string>
+    </translation>
+    <translation locale="es">
+      <title>Aceleración centrípeta</title>
+      <category>Mecánica</category>
+      <description>
+        Visualiza la aceleración centrípeta en función de la velocidad angular.
+
+         Este experimento calcula el valor absoluto de la velocidad angular ω del giroscopio, así como la aceleración absoluta a del acelerómetro. Al trazar a contra ω, la relación a = r · ω² se puede mostrar fácilmente, por lo tanto, al trazar contra ω² se debe obtener una línea recta.
+
+         Para ver esto, debe medir a diferentes velocidades angulares pero a un radio fijo. Una hiladora de ensalada o un pequeño carrusel funcionan muy bien.
+    </description>
+      <string original="Relation">Relación</string>
+      <string original="Acceleration">Aceleración</string>
+      <string original="Angular velocity ω">Velocidad angular ω</string>
+      <string original="Acceleration a">Aceleración a</string>
+      <string original="Square plot">Gráfica cuadrada</string>
+      <string original="Time">tiempo</string>
+      <string original="Angular velocity">Velocidad Angular</string>
+    </translation>
+    <translation locale="ka">
+      <title>ცენტრისკენული აჩქარება</title>
+      <category>მექანიკა</category>
+      <description>
+        ვიზუალურად წარმოადგენს ცენტრისკენული აჩქარების როგორც კუთხური სიჩქარის ფუნქციას.
+
+        ეს ექსპერიმენტი ითვლის კუთხური სიჩქარის მოდულს ω გიროსკოპით, ასევე აჩქარების მოდულს a ასკელომემტრით. გრაფიკით წარმოდგება ω დამოკიდებულება a = r·ω² სახით, ასე რომ თუ დავხაზავთ ω² წრფე უნდა მივიღოთ.
+
+        Tამის მისაღებას საჭიროა სხვადასხვა კუთხური სიჩქარეების გაზომვა მუდმივ რადიუსზე. სალათის მომრევი აპარატი ან პატარა კარუსელი იმუსავებს იდეალურად.
+    </description>
+      <string original="Relation">დამოკიდებულება</string>
+      <string original="Acceleration">აჩქარება</string>
+      <string original="Angular velocity ω">კუთხური სიჩქარე ω</string>
+      <string original="Acceleration a">აჩქარება a</string>
+      <string original="Square plot">კვადრატული გრაფიკი</string>
+      <string original="Time">დრო</string>
+      <string original="Angular velocity">კუთხური სიჩქარე</string>
+    </translation>
+    <translation locale="hi">
+      <title>अभिकेंद्रीय त्वरण</title>
+      <category>यांत्रिकी</category>
+      <description>
+        अभिकेन्द्रीय त्वरण का कोणीय वेग के फलन के रूप में अवलोकन करता है।
+
+        यह प्रयोग जाइरोस्कोप से कोणीय वेग ω के निरपेक्ष मान के साथ-साथ त्वरणमापी से निरपेक्ष त्वरण a की गणना करता है। a को ω के सापेक्ष प्लॉट करके इनके मध्य संबंध a = r·ω² आसानी से दिखाया जा सकता है, अतः a का ω² के साथ प्लॉट एक सीधी रेखा होनी चाहिए।
+
+        इसे देखने के लिए आपको अलग-अलग कोणीय वेगों पर लेकिन एक निश्चित त्रिज्या पर मापन करना होगा। इसके लिए एक सलाद स्पिनर या एक छोटा मेरी-गो-राउंड अच्छा काम करेगा।
+    </description>
+      <string original="Relation">संबंध</string>
+      <string original="Acceleration">त्वरण</string>
+      <string original="Angular velocity ω">कोणीय वेग ω</string>
+      <string original="Acceleration a">त्वरण a</string>
+      <string original="Square plot">ω² के साथ प्लॉट</string>
+      <string original="Time">समय</string>
+      <string original="Angular velocity">कोणीय वेग</string>
+    </translation>
+  </translations>
+  <data-containers>
+    <container size="1">acc_result</container>
+    <container size="1">acc_time</container>
+    <container size="1">gyr_squared_result</container>
+    <container size="1">gyr_result</container>
+    <container size="1">gyr_time</container>
+    <container size="1">t_temp</container>
+    <container size="1">t_result</container>
+    <container size="0">acc</container>
+    <container size="0">gyr</container>
+    <container size="0">gyr_squared</container>
+    <container size="0">t</container>
+  </data-containers>
+  <input>
+    <sensor type="linear_acceleration" rate="2" average="true">
+      <output component="abs">acc_result</output>
+      <output component="t">acc_time</output>
+    </sensor>
+    <sensor type="gyroscope" rate="2" average="true">
+      <output component="abs">gyr_result</output>
+      <output component="t">gyr_time</output>
+    </sensor>
+  </input>
+  <views>
+    <view label="Relation">
+      <graph label="Acceleration" labelX="Angular velocity ω" unitX="[[unit_short_radian_per_second]]" labelY="Acceleration a" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter_per_second]]" partialUpdate="false" style="dots">
+        <input axis="x">gyr</input>
+        <input axis="y">acc</input>
+      </graph>
+      <graph label="Square plot" labelX="ω²" unitX="rad²/s²" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="[[unit_short_meter]]" partialUpdate="false" style="dots">
+        <input axis="x">gyr_squared</input>
+        <input axis="y">acc</input>
+      </graph>
+    </view>
+    <view label="Time">
+      <graph label="Acceleration" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_acceleration]]" unitY="[[unit_short_meter_per_square_second]]" unitYperX="m/s³" partialUpdate="true">
+        <input axis="x">t</input>
+        <input axis="y">acc</input>
+      </graph>
+      <graph label="Angular velocity" timeOnX="true" labelX="[[quantity_short_time]]" unitX="[[unit_short_second]]" labelY="[[quantity_short_angular_velocity]]" unitY="[[unit_short_radian_per_second]]" unitYperX="rad/s²" partialUpdate="true">
+        <input axis="x">t</input>
+        <input axis="y">gyr</input>
+      </graph>
+    </view>
+  </views>
+  <analysis sleep="0.5">
+    <add>
+      <input clear="true">acc_time</input>
+      <input clear="true">gyr_time</input>
+      <output clear="true">t_temp</output>
+    </add>
+    <divide>
+      <input clear="true">t_temp</input>
+      <input type="value">2</input>
+      <output clear="true">t_result</output>
+    </divide>
+    <multiply>
+      <input clear="false">gyr_result</input>
+      <input clear="false">gyr_result</input>
+      <output clear="true">gyr_squared_result</output>
+    </multiply>
+    <match>
+      <input clear="true">acc_result</input>
+      <input clear="true">gyr_result</input>
+      <input clear="true">gyr_squared_result</input>
+      <input clear="true">t_result</input>
+      <output clear="false">acc</output>
+      <output clear="false">gyr</output>
+      <output clear="false">gyr_squared</output>
+      <output clear="false">t</output>
+    </match>
+  </analysis>
+  <export>
+    <set name="Data">
+      <data name="Time (s)">t</data>
+      <data name="Angular velocity (rad/s)">gyr</data>
+      <data name="Acceleration (m/s^2)">acc</data>
+    </set>
+  </export>
+</phyphox>

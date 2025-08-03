@@ -1,0 +1,2468 @@
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "Showing %1$d of %2$d item"
+  "显示%1$d个，共%2$d个记录"
+}
+{
+  "Showing %1$d of %2$d items"
+  "显示%1$d个，共%2$d个记录"
+}
+{
+  "Navigate home"
+  "导航回家"
+}
+{
+  "Navigate up"
+  "返回上级"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "Function+"
+  "功能+"
+}
+{
+  "Sym+"
+  "符号+"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "Change map layer"
+  "更改地图图层"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Edit"
+  "编辑"
+}
+{
+  "Hide unknown fields"
+  "隐藏未知字段"
+}
+{
+  "Show unknown fields"
+  "显示未知字段"
+}
+{
+  "Home"
+  "主页"
+}
+{
+  "Logout"
+  "注销"
+}
+{
+  "More"
+  "更多"
+}
+{
+  "Now"
+  "现在"
+}
+{
+  "Open in another app"
+  "在另一个应用程序中打开"
+}
+{
+  "Remove EXIF"
+  "删除EXIF"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Save as"
+  "另存为"
+}
+{
+  "Select all"
+  "全选"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Sort"
+  "排序"
+}
+{
+  "Grid"
+  "网格"
+}
+{
+  "List"
+  "列表"
+}
+{
+  "Ad Units"
+  "广告单位"
+}
+{
+  "INTERSTITIAL-3320029"
+  "间隙-3320029"
+}
+{
+  "Add files"
+  "添加文件"
+}
+{
+  "Add tag"
+  "添加标签"
+}
+{
+  "Create template"
+  "创建模板"
+}
+{
+  "SDK Version"
+  "SDK版本"
+}
+{
+  "Advertisement Network Settings"
+  "广告网络设置"
+}
+{
+  "Age Restricted User"
+  "年龄限制用户"
+}
+{
+  "Albums"
+  "相册"
+}
+{
+  "API Level"
+  "API水平"
+}
+{
+  "Convert images from HEIC/HEIF to JPG/PNG and reversed"
+  "将图像从HEIC/HEIF转换为JPG/PNG并反转"
+}
+{
+  "HEIF Converter"
+  "HEIF转换器"
+}
+{
+  "App Review Status"
+  "应用程序审核状态"
+}
+{
+  "App Version"
+  "应用程序版本"
+}
+{
+  "Application Info"
+  "应用程序信息"
+}
+{
+  "Application name"
+  "应用程序名称"
+}
+{
+  "Application need permission to access the external sdcard"
+  "应用程序需要访问外部SD卡的权限"
+}
+{
+  "Application version"
+  "应用程序版本"
+}
+{
+  "Apply"
+  "应用"
+}
+{
+  "Apply template"
+  "应用模板"
+}
+{
+  "Auto bracket"
+  "自动包围曝光 BKT"
+}
+{
+  "Billing unavailable"
+  "账单不可用"
+}
+{
+  "Feature not supported"
+  "功能不受支持"
+}
+{
+  "Item already owned"
+  "项目已拥有"
+}
+{
+  "Item not owned"
+  "物品不属于"
+}
+{
+  "Item unavailable"
+  "项目不可用"
+}
+{
+  "Network error"
+  "网络错误"
+}
+{
+  "Service disconnected"
+  "服务已断开连接"
+}
+{
+  "Service timeout"
+  "服务超时"
+}
+{
+  "Service unavailable"
+  "服务不可用"
+}
+{
+  "User canceled"
+  "用户已取消"
+}
+{
+  "Collapse the bottom sheet"
+  "收起底部面板"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部面板"
+}
+{
+  "Expand halfway"
+  "展开至一半"
+}
+{
+  "Drag handle double-tapped"
+  "双击拖动控件"
+}
+{
+  "Drag handle"
+  "拖动控件"
+}
+{
+  "Answer"
+  "回答"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Hang Up"
+  "挂断电话"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Ongoing call"
+  "持续通话"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "Canceled"
+  "取消"
+}
+{
+  "Rename file"
+  "重命名文件"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Check out this helpful application!"
+  "看看这个有用的应用程序！"
+}
+{
+  "Checking license…"
+  "正在检查许可证…"
+}
+{
+  "Target directory"
+  "目标目录"
+}
+{
+  "Clear"
+  "清除"
+}
+{
+  "Clear all"
+  "全部清除"
+}
+{
+  "Clear failed items"
+  "清除失败项目"
+}
+{
+  "Clear files"
+  "清除文件"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Clearing history"
+  "清除历史记录"
+}
+{
+  "This collection has no photo"
+  "此收藏没有照片"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题，请重试"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务，它将自动更新。"
+}
+{
+  "Open on phone"
+  "在手机上打开"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Completed Integration"
+  "已完成集成"
+}
+{
+  "Convert"
+  "转换"
+}
+{
+  "Convert HEIF Image"
+  "转换HEIF图像"
+}
+{
+  "Convert to HEIF/AVIF"
+  "转换为HEIF/AVIF"
+}
+{
+  "Convert to JPEG/PNG"
+  "转换为JPEG/PNG"
+}
+{
+  "Converting"
+  "转换"
+}
+{
+  "Converting history"
+  "转换历史记录"
+}
+{
+  "Converting %1$s"
+  "正在转换%1$s"
+}
+{
+  "Nothing to convert yet"
+  "没有能够转换的内容"
+}
+{
+  "%1$d items"
+  "%1$d项目"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Copy EXIF"
+  "复制EXIF"
+}
+{
+  "This location had already copied"
+  "此位置已复制"
+}
+{
+  "Link copied to clipboard"
+  "链接复制到剪贴板"
+}
+{
+  "Format"
+  "格式"
+}
+{
+  "ID"
+  "身份证件"
+}
+{
+  "No location"
+  "无位置"
+}
+{
+  "Delete all"
+  "全部删除"
+}
+{
+  "Description"
+  "说明"
+}
+{
+  "Disable"
+  "禁用"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Do you want to enable logging?"
+  "您想启用日志记录吗？"
+}
+{
+  "Don't ask again"
+  "不再询问"
+}
+{
+  "Don't show again"
+  "不再显示"
+}
+{
+  "The application does not have permission to access this photo"
+  "应用程序无权访问此照片"
+}
+{
+  "Downloading photo"
+  "正在下载照片"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Amazon services is not available"
+  "亚马逊服务不可用"
+}
+{
+  "Error when querying items! Please recheck your connection!"
+  "查询项目时出错！请重新检查您的连接！"
+}
+{
+  "Unknown error"
+  "未知错误"
+}
+{
+  "There is an error while getting photo"
+  "获取照片时出错"
+}
+{
+  "No Aperture"
+  "无光圈"
+}
+{
+  "EXIF data"
+  "EXIF数据"
+}
+{
+  "EXIF data copied"
+  "EXIF数据已复制"
+}
+{
+  "EXIF data saved"
+  "EXIF数据已保存"
+}
+{
+  "Action (High speed)"
+  "动作（高速）"
+}
+{
+  "Aperture-priority AE"
+  "光圈优先自动曝光 Av/A"
+}
+{
+  "Bulb"
+  "长时间/延时曝光 B"
+}
+{
+  "Creative (Slow speed)"
+  "创意（慢速）"
+}
+{
+  "Program AE"
+  "程序自动曝光 P"
+}
+{
+  "Shutter speed priority AE"
+  "快门优先自动曝光 Tv/S"
+}
+{
+  "%1$d/%2$d (%3$.8f s)"
+  "%1$d/%2$d（%3$.8f秒）"
+}
+{
+  "Off"
+  "关"
+}
+{
+  "On"
+  "开"
+}
+{
+  "High gain down"
+  "高增益下降"
+}
+{
+  "High gain up"
+  "高增益提升"
+}
+{
+  "Low gain down"
+  "低增益下降"
+}
+{
+  "Low gain up"
+  "低增益提升"
+}
+{
+  "The inputted value is invalid"
+  "输入值无效"
+}
+{
+  "ISO %d"
+  "ISO%d"
+}
+{
+  "Average"
+  "平均测光"
+}
+{
+  "Center weighted average"
+  "中央重点（平均）测光"
+}
+{
+  "Multi-segment"
+  "多段测光｜评价测光｜矩阵测光"
+}
+{
+  "Multi-spot"
+  "多点测光"
+}
+{
+  "Other"
+  "其他"
+}
+{
+  "Partial"
+  "局部测光"
+}
+{
+  "Spot"
+  "点测光"
+}
+{
+  "Horizontal (Normal)"
+  "水平（正常）"
+}
+{
+  "Mirror horizontal"
+  "水平镜像翻转 ⇆"
+}
+{
+  "Mirror horizontal and rotate 270 CW"
+  "水平镜像并顺时针旋转270°"
+}
+{
+  "Mirror horizontal and rotate 90 CW"
+  "水平镜像并顺时针旋转90°"
+}
+{
+  "Mirror vertical"
+  "垂直镜像翻转 ⇅"
+}
+{
+  "Rotate 180"
+  "旋转180° ↷"
+}
+{
+  "Rotate 270 CW"
+  "顺时针旋转270° ↻"
+}
+{
+  "Rotate 90 CW"
+  "顺时针旋转90° ↱"
+}
+{
+  "Night"
+  "夜景"
+}
+{
+  "The selected value is invalid"
+  "所选值无效"
+}
+{
+  "Auto"
+  "自动"
+}
+{
+  "cm"
+  "cm 厘米"
+}
+{
+  "Hard"
+  "硬"
+}
+{
+  "High"
+  "高"
+}
+{
+  "inches"
+  "inches 英寸"
+}
+{
+  "Landscape"
+  "景观模式"
+}
+{
+  "Low"
+  "低"
+}
+{
+  "Manual"
+  "手动 M"
+}
+{
+  "None"
+  "无"
+}
+{
+  "Normal"
+  "正常"
+}
+{
+  "Not defined"
+  "未定义"
+}
+{
+  "Portrait"
+  "人像模式"
+}
+{
+  "Soft"
+  "柔"
+}
+{
+  "Standard"
+  "标准"
+}
+{
+  "Unknown"
+  "未知"
+}
+{
+  "Edit captured time"
+  "编辑拍摄时间"
+}
+{
+  "Edit location"
+  "编辑位置"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "General"
+  "概述"
+}
+{
+  "<Multiple photos>"
+  "<多张照片>"
+}
+{
+  "<Multiple paths>"
+  "<多条路径>"
+}
+{
+  "<Multiple values>"
+  "<多个值>"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "The application does not have permission to access the external sdcard"
+  "应用程序没有访问外部SD卡的权限"
+}
+{
+  "Failed"
+  "失败"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Fast"
+  "快速"
+}
+{
+  "The feature is not available"
+  "该功能不可用"
+}
+{
+  "Features"
+  "特征"
+}
+{
+  "Feedback"
+  "反馈意见"
+}
+{
+  "Report bug, get help or request new feature"
+  "报告错误、获取帮助或请求新功能"
+}
+{
+  "Files applied"
+  "已应用的文件"
+}
+{
+  "Files in directory"
+  "目录中的文件"
+}
+{
+  "Binary"
+  "二进制"
+}
+{
+  "Not writable"
+  "不可写"
+}
+{
+  "Protected"
+  "受保护的"
+}
+{
+  "Unsafe"
+  "不安全的"
+}
+{
+  "Auto, Did not fire"
+  "自动模式｜未触发"
+}
+{
+  "Auto, Did not fire, Red-eye reduction"
+  "自动模式｜未触发｜防红眼模式"
+}
+{
+  "Auto, Fired"
+  "自动模式｜已触发"
+}
+{
+  "Auto, Fired, Red-eye reduction"
+  "自动模式｜已触发｜防红眼模式"
+}
+{
+  "Auto, Fired, Red-eye reduction, Return detected"
+  "自动模式｜已触发｜防红眼模式｜检测到反射光"
+}
+{
+  "Auto, Fired, Red-eye reduction, Return not detected"
+  "自动模式｜已触发｜防红眼模式｜未检测到反射光"
+}
+{
+  "Auto, Fired, Return detected"
+  "自动模式｜已触发｜检测到反射光"
+}
+{
+  "Auto, Fired, Return not detected"
+  "自动模式｜已触发｜未检测到反射光"
+}
+{
+  "Fired"
+  "已触发"
+}
+{
+  "Fired, Red-eye reduction"
+  "已触发｜防红眼模式"
+}
+{
+  "Fired, Red-eye reduction, Return detected"
+  "已触发｜防红眼模式｜检测到反射光"
+}
+{
+  "Fired, Red-eye reduction, Return not detected"
+  "已触发｜防红眼模式｜未检测到反射光"
+}
+{
+  "Fired, Return detected"
+  "已触发｜检测到反射光"
+}
+{
+  "Fired, Return not detected"
+  "已触发｜未检测到反射光"
+}
+{
+  "No Flash"
+  "无闪光灯功能"
+}
+{
+  "No flash function"
+  "无闪光功能"
+}
+{
+  "Off, Did not fire"
+  "关闭｜未触发"
+}
+{
+  "Off, Did not fire, Return not detected"
+  "关闭｜未触发｜未检测到反射光"
+}
+{
+  "Off, No flash function"
+  "关闭｜无闪光功能"
+}
+{
+  "Off, Red-eye reduction"
+  "关闭｜防红眼模式"
+}
+{
+  "On, Did not fire"
+  "启用｜未触发"
+}
+{
+  "On, Fired"
+  "启用｜已触发"
+}
+{
+  "On, Red-eye reduction"
+  "启用｜防红眼模式"
+}
+{
+  "On, Red-eye reduction, Return detected"
+  "启用｜防红眼模式｜检测到反射光"
+}
+{
+  "On, Red-eye reduction, Return not detected"
+  "启用｜防红眼模式｜未检测到反射光"
+}
+{
+  "On, Return detected"
+  "打开｜检测到返回"
+}
+{
+  "On, Return not detected"
+  "打开｜未检测到返回"
+}
+{
+  "Error: %1$d"
+  "错误：%1$d"
+}
+{
+  "(0x%1$x)"
+  "（0x%1$x）"
+}
+{
+  "Need permission: %1$d"
+  "需要权限：%1$d"
+}
+{
+  "%1$d files applied"
+  "已应用到%1$d个文件"
+}
+{
+  "%1$d file applied"
+  "已应用到%1$d个文件"
+}
+{
+  "All finished"
+  "全部完成"
+}
+{
+  "Success: %1$d"
+  "成功：%1$d"
+}
+{
+  "From file"
+  "从文件"
+}
+{
+  "Image converter"
+  "图像转换器"
+}
+{
+  "HEIC/HEIF/AVIF to JPEG/PNG"
+  "HEIC/HEIF/AVIF转JPEG/PNG"
+}
+{
+  "JPEG/PNG to HEIF"
+  "JPEG/PNG转换为HEIF"
+}
+{
+  "Get HEIF Converter"
+  "获取HEIF转换器"
+}
+{
+  "Install the separated PRO version"
+  "安装独立的PRO版本"
+}
+{
+  "Get the paid version"
+  "获取付费版本"
+}
+{
+  "Has Location Consent"
+  "已获得位置许可"
+}
+{
+  "Has User Consent"
+  "已获得用户同意"
+}
+{
+  "File Browser"
+  "文件浏览器"
+}
+{
+  "Camera"
+  "照相机"
+}
+{
+  "Upgrade"
+  "升级"
+}
+{
+  "HEIC/HEIF/AVIF\n to JPEG Converter"
+  "HEIC/HEIF/AVIF转JPEG"
+}
+{
+  "Photo map"
+  "照片地图"
+}
+{
+  "Photos"
+  "照片"
+}
+{
+  "Google Photos\n Tools"
+  "谷歌照片\n工具"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Integrated"
+  "集成"
+}
+{
+  "Integration Errors"
+  "集成错误"
+}
+{
+  "Interrupted"
+  "打断"
+}
+{
+  "Exposure time is invalid (numerator and denominator must not be zero)"
+  "曝光时间无效（分子和分母不得为零）"
+}
+{
+  "Invalid Integration"
+  "集成无效"
+}
+{
+  "License error"
+  "许可证错误"
+}
+{
+  "Invalid mediation adapter version"
+  "中介适配器版本无效"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Jump to page"
+  "跳转到第页"
+}
+{
+  "Keep metadata"
+  "保留元数据"
+}
+{
+  "Language"
+  "语言"
+}
+{
+  "System language"
+  "系统语言"
+}
+{
+  "Loading…"
+  "正在加载…"
+}
+{
+  "The location (%s) has been copied to clipboard"
+  "位置（%s）已复制到剪贴板"
+}
+{
+  "Logging is disabled"
+  "日志记录已禁用"
+}
+{
+  "Logging is enabled"
+  "日志记录已启用"
+}
+{
+  "Login"
+  "登录"
+}
+{
+  "Lossless"
+  "无损"
+}
+{
+  "Lossless mode"
+  "无损模式"
+}
+{
+  "Lossy"
+  "有损"
+}
+{
+  "Enter name, GPS (e.g. -27.14,-109.43) to search"
+  "输入名称、GPS（例如-27.14、-109.43）进行搜索"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "%1$s hours"
+  "%1$s 小时"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "%1$s o'clock"
+  "%1$s小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "Value"
+  "值"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Media viewer"
+  "媒体查看器"
+}
+{
+  "Misc tools"
+  "其他工具"
+}
+{
+  "Missing Integration"
+  "缺少集成"
+}
+{
+  "Установить из Google Play"
+  "从 Google Play 安装"
+}
+{
+  "%1$d из %2$d"
+  "%2$d中的%1$d"
+}
+{
+  "More apps"
+  "更多应用"
+}
+{
+  "Get more interesting apps!"
+  "获取更多有趣的应用程序！"
+}
+{
+  "You have added some files. Are you sure you want to leave this page?"
+  "您添加了一些文件。您确定要离开此页面吗？"
+}
+{
+  "Checking files"
+  "正在检查文件"
+}
+{
+  "Please grant the required permissions for this application"
+  "请授予此应用程序所需的权限"
+}
+{
+  "Open settings"
+  "打开设置"
+}
+{
+  "This application needs permission in order to operate normally"
+  "此应用程序需要权限才能正常运行"
+}
+{
+  "This will delete the selected template! Are you sure?"
+  "这将删除所选模板，确定删除？"
+}
+{
+  "Some items could not be parsed"
+  "某些项目无法解析"
+}
+{
+  "Could not parse the selected files"
+  "无法解析所选文件"
+}
+{
+  "Seems that the input file does not contain any EXIF data"
+  "输入文件似乎不包含任何EXIF数据"
+}
+{
+  "Could not read the file"
+  "无法读取文件"
+}
+{
+  "No item or file is selected"
+  "未选择任何项目或文件"
+}
+{
+  "The name is invalid"
+  "名称无效"
+}
+{
+  "The tags is empty"
+  "标签为空"
+}
+{
+  "Failed to load the video"
+  "加载视频失败"
+}
+{
+  "Enter an easy-to-remember name for the location"
+  "为位置输入一个易于记忆的名称"
+}
+{
+  "No item has been converted yet!"
+  "尚未转换任何项目！"
+}
+{
+  "An error occurred when adding files to convert. Please contact support for assistance!"
+  "添加要转换的文件时出错。请联系支持人员寻求帮助！"
+}
+{
+  "Please grant permission to this application to operate normally"
+  "请允许此应用程序正常运行"
+}
+{
+  "Please grant Storage permission to this application"
+  "请授予此应用程序存储权限"
+}
+{
+  "Please add at least a file to convert!"
+  "请至少添加一个要转换的文件！"
+}
+{
+  "This permission allows the app to read and write geo location of the media file (Android Q+)."
+  "此权限授权应用读写媒体文件的地理位置（Android 10+）。"
+}
+{
+  "Access media geographic location"
+  "访问媒体地理位置"
+}
+{
+  "This application accesses File system to browse files (Using File Browser), read and write data of file. So that it requires the permission All Files Access to be granted. This will allow application to manage the whole Storage."
+  "此应用程序访问文件系统浏览文件（使用文件浏览器），读取和写入文件数据。因此，它需要授予“所有文件访问”权限。这将允许应用程序管理整个存储。"
+}
+{
+  "Application needs the permission to access approximate location!"
+  "应用程序需要访问大致位置的权限！"
+}
+{
+  "If the permission is not granted to this application, the system will always display a confirmation dialog for each saving request."
+  "如果未授权，系统将始终弹出确认保存的对话框。"
+}
+{
+  "Manage media files"
+  "管理媒体文件"
+}
+{
+  "When you are running sessions in the background, this application keeps the conversion running and updates status via notification. Would you like to enable the notification?"
+  "当您在后台运行会话时，此应用会持续运行转换器，并用通知来更新状态。您想启用通知吗？"
+}
+{
+  "Allow app to read external storage for accessing files"
+  "允许应用读取外部存储以访问文件"
+}
+{
+  "Read external storage"
+  "读取外部存储"
+}
+{
+  "This permission allows the app to read image files from external storage."
+  "此权限授权应用从外部存储读取图像文件。"
+}
+{
+  "Read images"
+  "读取图像"
+}
+{
+  "Application needs the permission to access your storage!"
+  "应用程序需要权限才能访问您的存储！"
+}
+{
+  "Write to external storage"
+  "写入外部存储"
+}
+{
+  "For converting files, this application reads and writes file to the storage. \nPlease allow this application to access your media!"
+  "为了转换文件，此应用程序将文件读写到存储中。\n请允许此应用程序访问您的媒体！"
+}
+{
+  "You need to login in order to access photos which is stored in the cloud"
+  "您需要登录才能访问存储在云中的照片"
+}
+{
+  "Preparing to convert"
+  "准备转换"
+}
+{
+  "This application will request the permission Get Accounts to setup feature"
+  "此应用程序将请求获取帐户以设置功能的权限"
+}
+{
+  "Please allow this application to access device's storage"
+  "请允许此应用程序访问设备的存储"
+}
+{
+  "Setting up application"
+  "设置应用程序"
+}
+{
+  "Tap this button to get start"
+  "点击此按钮开始"
+}
+{
+  "This will delete all templates! Are you sure?"
+  "这将删除所有模板，确定删除？"
+}
+{
+  "Set to the current time"
+  "设置为当前时间"
+}
+{
+  "Ad will not be displayed until %1$s"
+  "广告在%1$s之前不会显示"
+}
+{
+  "This will clear all history"
+  "这将清除所有历史"
+}
+{
+  "This option if checked will replace all exif data of the target files by the exif block of the source file"
+  "如果选中此选项，将用源文件的exif块替换目标文件的所有exif数据"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "Checked"
+  "已检查"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Change to next month"
+  "改到下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择：%1$s - 结束日期选择：%2$s"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "OK"
+  "确认"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "End date %1$s"
+  "结束日期 %1$s"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Navigate to current year %1$d"
+  "导航至当前年份 %1$d"
+}
+{
+  "Navigate to year %1$d"
+  "导航至 %1$d 年"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Start date %1$s"
+  "开始日期 %1$s"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Today %1$s"
+  "今天 %1$s"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Tap to switch to Calendar view"
+  "单击切换到日历视图"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Tap to switch to year view"
+  "单击切换到年份视图"
+}
+{
+  "Multiple files"
+  "多个文件"
+}
+{
+  "Name"
+  "名称"
+}
+{
+  "Body"
+  "主页"
+}
+{
+  "Headline"
+  "标题"
+}
+{
+  "Media View"
+  "媒体视图"
+}
+{
+  "Open navigation drawer"
+  "打开导航抽屉"
+}
+{
+  "No"
+  "不"
+}
+{
+  "There is no application can handle this request"
+  "没有应用程序可以处理此请求"
+}
+{
+  "There are no items!"
+  "没有项目！"
+}
+{
+  "No value set"
+  "未设置值"
+}
+{
+  "Not Integrated"
+  "未集成"
+}
+{
+  "The type of selected photo has not been supported yet. Currently only support JPEG/PNG!"
+  "所选照片的类型尚不支持。目前只支持JPEG/PNG！"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "This photo doesn't have any geo tags! Long press on the map to set location"
+  "这张照片不含地理标签！长按地图来设置定位"
+}
+{
+  "Long press on the map or drag the marker to change photo's location"
+  "长按地图选点或拖动标记以更改照片定位"
+}
+{
+  "Allow"
+  "允许"
+}
+{
+  "Don't allow"
+  "不允许"
+}
+{
+  "Allow app to send you notifications?"
+  "是否允许应用程序向您发送通知？"
+}
+{
+  "Icon"
+  "图标"
+}
+{
+  "Thanks for your interest.\nWe will share more once you're back online."
+  "感谢您的关注。\n一旦您重新上线，我们将与您分享更多信息。"
+}
+{
+  "You are back online! Let's pick up where we left off"
+  "你又上线了！让我们从中断的地方继续"
+}
+{
+  "You are back online! Continue learning about %s"
+  "你又上线了！继续了解%s"
+}
+{
+  "No thanks"
+  "不，谢谢"
+}
+{
+  "We'll send you a notification with a link to the advertiser site."
+  "我们将向您发送一个通知，其中包含指向广告商网站的链接。"
+}
+{
+  "Open ad when you're back online."
+  "重新上线后打开广告"
+}
+{
+  "%1$d file"
+  "%1$d文件"
+}
+{
+  "This online photo cannot be edited!"
+  "此在线照片无法编辑！"
+}
+{
+  "Another option:"
+  "另一种选择："
+}
+{
+  "%1$d files"
+  "%1$d文件"
+}
+{
+  "Output format"
+  "输出格式"
+}
+{
+  "Output quality"
+  "输出质量"
+}
+{
+  "Overwrite"
+  "覆盖"
+}
+{
+  "Page %1$d"
+  "第%1$d页"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Paste"
+  "粘贴"
+}
+{
+  "Pending"
+  "悬而未决的"
+}
+{
+  "Dependencies: %1$s"
+  "依赖关系：%1$s"
+}
+{
+  "(Optional) %1$s"
+  "（可选）%1$s"
+}
+{
+  "(Required) %1$s"
+  "（必需）%1$s"
+}
+{
+  "Permissions"
+  "权限"
+}
+{
+  "File path"
+  "文件路径"
+}
+{
+  "Photo was not created"
+  "照片未创建"
+}
+{
+  "The following photos were not saved:"
+  "以下照片未保存："
+}
+{
+  "Pick file"
+  "选择文件"
+}
+{
+  "Pick files"
+  "选择文件"
+}
+{
+  "Pick folder"
+  "选择文件夹"
+}
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板。"
+}
+{
+  "Privacy policy"
+  "隐私策略◈予澄汉化"
+}
+{
+  "Privacy Policy Agreement"
+  "隐私政策协议"
+}
+{
+  "Professional"
+  "专业"
+}
+{
+  "Provided"
+  "提供"
+}
+{
+  "Development team"
+  "开发团队"
+}
+{
+  "Get the free"
+  "免费获得"
+}
+{
+  "Get the pro"
+  "获得专业版"
+}
+{
+  "The features are bundled inside the application Photo EXIF Editor and Photo EXIF Editor Pro"
+  "这些功能捆绑在应用程序Photo EXIF Editor和Photo EXIF Editor-Pro中"
+}
+{
+  "Thanks for using this application!"
+  "感谢您使用此应用程序！"
+}
+{
+  "Purchased"
+  "购买"
+}
+{
+  "Quality"
+  "质量"
+}
+{
+  "Quick Convert HEIF/AVIF to JPG/PNG"
+  "快速将HEIF/AVIF转换为JPG/PNG"
+}
+{
+  "Quit application"
+  "退出应用程序"
+}
+{
+  "Rate"
+  "为软件评分"
+}
+{
+  "If you enjoy using %s, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!"
+  "如果你喜欢使用%s，你介意花点时间给它评分吗？不会超过一分钟。感谢您的支持！"
+}
+{
+  "Rate our app"
+  "评价我们的应用程序"
+}
+{
+  "Encourage us"
+  "鼓励我们"
+}
+{
+  "Raw data"
+  "原始数据"
+}
+{
+  "Remove ads"
+  "删除广告"
+}
+{
+  "Remove ads and support our development"
+  "删除广告并支持我们的开发"
+}
+{
+  "Remove from history"
+  "从历史记录中删除"
+}
+{
+  "Request permission"
+  "授权"
+}
+{
+  "Retry"
+  "重试"
+}
+{
+  "Watch video"
+  "观看视频"
+}
+{
+  "Watch video to hide advertising for days"
+  "观看视频以隐藏广告数天"
+}
+{
+  "Save image"
+  "保存图片"
+}
+{
+  "Allow Ad to store image in Picture gallery?"
+  "允许广告在相册中存储图片吗？"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Create calendar event"
+  "创建日历事件"
+}
+{
+  "Allow Ad to create a calendar event?"
+  "允许广告创建日历事件吗？"
+}
+{
+  "Test Ad"
+  "测试广告"
+}
+{
+  "Cannot get permission"
+  "无法获得权限"
+}
+{
+  "1. Tap the icon \"Hamburger\" on the upper left or swipe from left to right."
+  "1.点击左上角图标或从左向右滑动。"
+}
+{
+  "2. Select your external SD card."
+  "2.选择您的外部SD卡。"
+}
+{
+  "3. Select the root of SD card."
+  "3.选择SD卡的根目录。"
+}
+{
+  "4. Press \"Select XXX\". XXX is your card ID. DO NOT navigate to sub-folder."
+  "4.按“选择XXX”。XXX是您的卡ID。不要导航到子文件夹。"
+}
+{
+  "EXIF data was not saved"
+  "EXIF数据未保存"
+}
+{
+  "Saving data! Please wait…"
+  "正在保存数据！请稍候…"
+}
+{
+  "Save the current data as a template"
+  "将当前数据另存为模板"
+}
+{
+  "Save to"
+  "保存到"
+}
+{
+  "The history of Geo Tag is empty!"
+  "没有地理标签的历史记录"
+}
+{
+  "Saved templates"
+  "已保存的模板"
+}
+{
+  "Saving data"
+  "保存数据"
+}
+{
+  "Need permission"
+  "需要权限"
+}
+{
+  "SDK Integration"
+  "SDK集成"
+}
+{
+  "SDK Integration Status"
+  "SDK集成状态"
+}
+{
+  "SDK Undefined"
+  "SDK未定义"
+}
+{
+  "Search location"
+  "搜索位置"
+}
+{
+  "Back"
+  "返回"
+}
+{
+  "Add folder"
+  "添加文件夹"
+}
+{
+  "Select function"
+  "选择功能"
+}
+{
+  "Select the tags you want to remove:"
+  "选择要删除的标记："
+}
+{
+  "Send feedback using"
+  "使用发送反馈"
+}
+{
+  "Share"
+  "分享"
+}
+{
+  "Side Sheet"
+  "侧页"
+}
+{
+  "Single file"
+  "单个文件"
+}
+{
+  "Size"
+  "大小"
+}
+{
+  "Successful"
+  "成功"
+}
+{
+  "System"
+  "系统"
+}
+{
+  "Aperture (F-stop)"
+  "光圈Aperture（F-stop）"
+}
+{
+  "Artist"
+  "艺术家Artist"
+}
+{
+  "Bits per sample"
+  "每样本位数BitsPerSample"
+}
+{
+  "Brightness Value"
+  "亮度值BrightnessValue"
+}
+{
+  "CFA pattern"
+  "色彩滤波阵列CFA-Pattern"
+}
+{
+  "Color space"
+  "色彩空间ColorSpace"
+}
+{
+  "Components Configuration"
+  "组件配置ComponentsConfiguration"
+}
+{
+  "Compressed Bits Per Pixel"
+  "每像素压缩位数CompressedBitsPerPixel"
+}
+{
+  "Compression"
+  "压缩方式Compression"
+}
+{
+  "Contrast"
+  "对比度Contrast"
+}
+{
+  "Copyright"
+  "版权Copyright"
+}
+{
+  "Custom rendered"
+  "自定义渲染CustomRendered"
+}
+{
+  "Captured time"
+  "拍摄时间CapturedTime"
+}
+{
+  "Device setting description"
+  "设备设置说明DeviceSettingDescription"
+}
+{
+  "Digital zoom ratio"
+  "数码变焦比DigitalZoomRatio"
+}
+{
+  "EXIF Version"
+  "EXIF版本"
+}
+{
+  "Exposure Compensation"
+  "曝光补偿Exposure Compensation"
+}
+{
+  "Exposure index"
+  "曝光指数ExposureIndex"
+}
+{
+  "Exposure mode"
+  "曝光模式ExposureMode"
+}
+{
+  "Exposure Program"
+  "曝光程序ExposureProgram"
+}
+{
+  "Exposure time"
+  "曝光时间ExposureTime"
+}
+{
+  "File source"
+  "文件来源FileSource"
+}
+{
+  "Flash"
+  "闪光灯Flash"
+}
+{
+  "Flash energy"
+  "闪光能量FlashEnergy"
+}
+{
+  "Focal length"
+  "焦距FocalLength"
+}
+{
+  "Focal length in 35mm format"
+  "35mm格式等效焦距FocalLengthIn35mmFormat"
+}
+{
+  "Focal plane resolution unit"
+  "焦平面分辨率单位FocalPlaneResolutionUnit"
+}
+{
+  "Focal plane X resolution"
+  "焦平面X轴分辨率FocalPlaneX-Resolution"
+}
+{
+  "Focal plane Y resolution"
+  "焦平面Y轴分辨率FocalPlaneY-Resolution"
+}
+{
+  "Gain control"
+  "增益控制GainControl"
+}
+{
+  "Geolocation"
+  "地理位置Geolocation"
+}
+{
+  "Image description"
+  "图片描述ImageDescription"
+}
+{
+  "Image unique ID"
+  "图像唯一ID ImageUniqueID"
+}
+{
+  "ISO speed"
+  "ISO感光度"
+}
+{
+  "ISO speed latitude yyy"
+  "ISO感光度宽容度yyy"
+}
+{
+  "ISO speed latitude zzz"
+  "ISO感光度宽容度zzz"
+}
+{
+  "Lens info"
+  "镜头信息LensInfo"
+}
+{
+  "Lens make"
+  "镜头制造商LensMake"
+}
+{
+  "Lens model"
+  "镜头型号LensModel"
+}
+{
+  "Lens serial number"
+  "镜头序列号LensSerialNumber"
+}
+{
+  "Light Source"
+  "光源LightSource"
+}
+{
+  "Camera maker"
+  "相机制造商CameraMaker"
+}
+{
+  "Max Aperture Value"
+  "最大光圈值MaxApertureValue"
+}
+{
+  "Metering Mode"
+  "测光模式MeteringMode"
+}
+{
+  "Camera model"
+  "相机型号CameraModel"
+}
+{
+  "Modify Date"
+  "修改日期ModifyDate"
+}
+{
+  "Opto electric conv factor"
+  "光电转换系数OptoElectricConFactor"
+}
+{
+  "Orientation"
+  "方向Orientation"
+}
+{
+  "Owner name"
+  "所有者名称OwnerName"
+}
+{
+  "Photometric interpretation"
+  "光度学解释PhotometricInterpretation"
+}
+{
+  "Planar configuration"
+  "平面配置PlanarConfiguration"
+}
+{
+  "Primary chromaticities"
+  "原色色度PrimaryChromaticities"
+}
+{
+  "Recommended exposure index"
+  "推荐曝光指数 REI"
+}
+{
+  "Reference black white"
+  "参考黑白ReferenceBlackWhite"
+}
+{
+  "Related sound file"
+  "相关声音文件RelatedSoundFile"
+}
+{
+  "Resolution Unit"
+  "分辨率单位ResolutionUnit"
+}
+{
+  "Rows per strip"
+  "每条带的行数RowsPerStrip"
+}
+{
+  "Samples per pixel"
+  "每像素采样数SamplesPerPixel"
+}
+{
+  "Saturation"
+  "饱和度Saturation"
+}
+{
+  "Scene capture type"
+  "场景捕捉类型SceneCaptureType"
+}
+{
+  "Scene type"
+  "场景类型SceneType"
+}
+{
+  "Sensing method"
+  "感应方法SensingMethod"
+}
+{
+  "Sensitivity Type"
+  "感光度类型SensitivityType"
+}
+{
+  "Serial number"
+  "序列号SerialNumber"
+}
+{
+  "Sharpness"
+  "锐度Sharpness"
+}
+{
+  "Shutter speed value"
+  "快门速度值ShutterSpeedValue"
+}
+{
+  "Software"
+  "软件Software"
+}
+{
+  "Spatial frequency response"
+  "空间频率响应SpatialFrequencyResponse"
+}
+{
+  "Spectral sensitivity"
+  "光谱灵敏度SpectralSensitivity"
+}
+{
+  "Standard output sensitivity"
+  "标准输出感光度StandardOutputSensitivity"
+}
+{
+  "Flashpix version"
+  "Flashpix版本"
+}
+{
+  "Sub sec time"
+  "亚秒时间SubSecTime"
+}
+{
+  "Sub sec time digitized"
+  "数字化亚秒时间SubSecTimeDigitized"
+}
+{
+  "Sub sec time original"
+  "原始亚秒时间SubSecTimeOriginal"
+}
+{
+  "Subject area"
+  "被摄主体区域SubjectArea"
+}
+{
+  "Subject distance"
+  "被摄体距离SubjectDistanceRange"
+}
+{
+  "Subject distance range"
+  "被摄体距离范围SubjectDistanceRange"
+}
+{
+  "Subject location"
+  "被摄体位置SubjectLocation"
+}
+{
+  "Transfer function"
+  "传递函数TransferFunction"
+}
+{
+  "User Comment"
+  "用户评论UserComment"
+}
+{
+  "White balance"
+  "白平衡White balance"
+}
+{
+  "White point"
+  "白点White point"
+}
+{
+  "X Resolution"
+  "X轴分辨率Resolution"
+}
+{
+  "XP Author"
+  "XP作者Author"
+}
+{
+  "XP Comment"
+  "XP评论Comment"
+}
+{
+  "XP Keywords"
+  "XP关键字Keywords"
+}
+{
+  "XP Subject"
+  "XP主题Subject"
+}
+{
+  "XP Title"
+  "XP标题Title"
+}
+{
+  "Y Resolution"
+  "Y轴分辨率Resolution"
+}
+{
+  "YCbCr coefficients"
+  "YCbCr系数"
+}
+{
+  "YCbCr Positioning"
+  "YCbCr位置"
+}
+{
+  "YCbCr sub sampling"
+  "YCbCr子采样"
+}
+{
+  "Tags"
+  "标签"
+}
+{
+  "TCF Consent"
+  "TCF同意书"
+}
+{
+  "Add template"
+  "添加模板"
+}
+{
+  "Template manager"
+  "模板管理器"
+}
+{
+  "Update template"
+  "更新模板"
+}
+{
+  "Time"
+  "时间"
+}
+{
+  "History"
+  "历史"
+}
+{
+  "Converter"
+  "转换器"
+}
+{
+  "To"
+  "到"
+}
+{
+  "To files"
+  "到文件"
+}
+{
+  "Toggle selection"
+  "切换选择"
+}
+{
+  "User Privacy"
+  "用户隐私"
+}
+{
+  "Version history"
+  "版本历史"
+}
+{
+  "Show the version history"
+  "显示版本历史记录"
+}
+{
+  "Warning"
+  "警告"
+}
+{
+  "Some fields have been changed. Are you sure to quit the editing?"
+  "某些字段已更改，确定要退出编辑并不保存吗？"
+}
+{
+  "You have photo which has not been saved! Do you want to return home screen?"
+  "您的照片尚未保存！您想返回主页吗？"
+}
+{
+  "AdMob - "
+  "AdMob-"
+}
+{
+  "Work offline"
+  "离线工作"
+}
+{
+  "Replace the whole data"
+  "替换整个数据"
+}
+{
+  "Yes"
+  "是"
+}

@@ -1,0 +1,82 @@
+<phyphox version="1.10">
+    <title>Accelerometer</title>
+    <category>PocketLab One</category>
+    <description>Simple readings from the accelerometer of a PocketLab One.</description>
+    <data-containers>
+        <container size="0">accXRaw</container>
+        <container size="0">accXCal</container>
+        <container size="0">accYRaw</container>
+        <container size="0">accYCal</container>
+        <container size="0">accZRaw</container>
+        <container size="0">accZCal</container>
+        <container size="0">t</container>
+        <container size="1">count</container>
+        <container size="1">tmax</container>
+    </data-containers>
+    <input>
+        <bluetooth name="MS-PL" mode="notification">
+            <config char="F000AA12-0451-4000-B000-000000000000" conversion="hexadecimal">01</config>
+            <config char="F000AA13-0451-4000-B000-000000000000" conversion="hexadecimal">05</config>
+            <output char="F000AA11-0451-4000-B000-000000000000" conversion="int16BigEndian" offset="0">accYRaw</output>
+            <output char="F000AA11-0451-4000-B000-000000000000" conversion="int16BigEndian" offset="2">accXRaw</output>
+            <output char="F000AA11-0451-4000-B000-000000000000" conversion="int16BigEndian" offset="4">accZRaw</output>
+        </bluetooth>
+    </input>
+    <views>
+        <view label="Accelerometer">
+            <graph label="Acceleration x" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accXCal</input>
+            </graph>
+            <graph label="Acceleration y" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accYCal</input>
+            </graph>
+            <graph label="Acceleration z" labelX="t" unitX="s" labelY="a" unitY="m/s²" unitYperX="m/s³" partialUpdate="true">
+                <input axis="x">t</input>
+                <input axis="y">accZCal</input>
+            </graph>
+        </view>
+
+    </views>
+    <analysis optimization="true">
+        <multiply>
+            <input clear="false">accXRaw</input>
+            <input type="value">0.002395019531</input> <!-- 9.81/4096 -->
+            <output clear="true">accXCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">accYRaw</input>
+            <input type="value">0.002395019531</input> <!-- 9.81/4096 -->
+            <output clear="true">accYCal</output>
+        </multiply>
+        <multiply>
+            <input clear="false">accZRaw</input>
+            <input type="value">0.002395019531</input> <!-- 9.81/4096 -->
+            <output clear="true">accZCal</output>
+        </multiply>
+
+        <count>
+            <input clear="false">accXRaw</input>
+            <output>count</output>
+        </count>
+        <formula formula="([1]-1)*0.05">
+            <input clear="false">count</input>
+            <output>tmax</output>
+        </formula>
+        <ramp>
+            <input as="start" type="value">0</input>
+            <input as="stop">tmax</input>
+            <input as="length">count</input>
+            <output>t</output>
+        </ramp>
+    </analysis>
+    <export>
+        <set name="Accelerometer">
+            <data name="Time (s)">t</data>
+            <data name="Acceleration x (m/s²)">accXCal</data>
+            <data name="Acceleration y (m/s²)">accYCal</data>
+            <data name="Acceleration z (m/s²)">accZCal</data>
+        </set>
+    </export>
+</phyphox>
