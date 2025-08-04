@@ -10,7 +10,7 @@
 >
 > ● 🏠我的吾爱破解主页：[https://www.52pojie.cn/?2264572](https://www.52pojie.cn/?2264572)
 ## 🔹更新动态
-- 2025/08/03 更新软件【Phyphox】
+- 2025/08/03 新上架软件【Phyphox】v1.2.0
   <details>
   <summary>  📜 查看更早记录 </summary>
     - 2025/08/03 启用Github同步库
