@@ -10,6 +10,7 @@
 >
 > ● 🏠我的吾爱破解主页：[https://www.52pojie.cn/?2264572](https://www.52pojie.cn/?2264572)
 ## 🔹更新动态
+- 2025/10/28 更新【GPS Test Plus】 ：汉化优化、改为Plus版包
 - 2025/08/06 更新【meteoblue】⨠v2.11.13
 - 2025/08/03 新上架【Phyphox】v1.2.0
   <details>
@@ -27,6 +28,9 @@
 
 🕒2024.7  |  ⏏️1.6.5  
 [https://www.52pojie.cn/thread-1949932-1-1.html](https://www.52pojie.cn/thread-1949932-1-1.html)
+
+🕒2025.10  |  ⏏️ ⨠ 1.6.5（汉化优化/改为Plus版包）
+[https://www.52pojie.cn/thread-2068564-1-1.html](https://www.52pojie.cn/thread-2068564-1-1.html)
 
 ### 3. [GPS Data](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/GPS-Data)
 
