@@ -1,0 +1,1756 @@
+{
+  "Navigate home"
+  "回主页"
+}
+{
+  "Navigate up"
+  "返回上级"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s分享"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "Database Version %d.%d"
+  "数据库版本%d.%d"
+}
+{
+  "Version %s"
+  "%s版本"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Clear"
+  "清除"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "Delete"
+  "删除"
+}
+{
+  "Location Services"
+  "定位服务"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Stop"
+  "停止"
+}
+{
+  "Answer"
+  "应答"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Hang Up"
+  "挂断电话"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Ongoing call"
+  "通话中"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "Accuracy"
+  "精度"
+}
+{
+  "Accuracy (± ft)"
+  "精度（±ft）"
+}
+{
+  "Accuracy (± m)"
+  "精度（±m）"
+}
+{
+  "Altitude"
+  "海拔高度"
+}
+{
+  "Altitude (ft)"
+  "海拔高度（ft）"
+}
+{
+  "Altitude (m)"
+  "海拔高度（m）"
+}
+{
+  "Bearing"
+  "方位"
+}
+{
+  "Bearing (° M)"
+  "方位（°M）"
+}
+{
+  "Bearing (° T)"
+  "方位（°T）"
+}
+{
+  "Bearing (M)"
+  "方位（M）"
+}
+{
+  "Bearing (mils M)"
+  "方位（mils M）"
+}
+{
+  "Bearing (mils T)"
+  "方位（mils T）"
+}
+{
+  "Bearing (T)"
+  "方位（T）"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Local Date"
+  "本地日期"
+}
+{
+  "Date Saved"
+  "保存日期"
+}
+{
+  "UTC Date"
+  "UTC日期"
+}
+{
+  "Datum"
+  "基准坐标系"
+}
+{
+  "Declination (° E)"
+  "赤纬角（°E）"
+}
+{
+  "Declination (° W)"
+  "赤纬角（°W）"
+}
+{
+  "Declination (mils E)"
+  "赤纬角（mils E）"
+}
+{
+  "Declination (mils W)"
+  "赤纬角（mils W）"
+}
+{
+  "Distance To Go"
+  "距终点距离"
+}
+{
+  "Distance To Go (ft)"
+  "行驶距离（ft）"
+}
+{
+  "Distance To Go (km)"
+  "距离（km）"
+}
+{
+  "Distance To Go (m)"
+  "距离（m）"
+}
+{
+  "Distance To Go (mi)"
+  "行驶距离（mi）"
+}
+{
+  "Distance To Go (nm)"
+  "行进距离（nm）"
+}
+{
+  "Elevation"
+  "海拔"
+}
+{
+  "Elevation (ft)"
+  "海拔（英尺）"
+}
+{
+  "Elevation (m)"
+  "海拔（m）"
+}
+{
+  "First Fix Time"
+  "首次定位时间"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "2D Fix"
+  "平面定位"
+}
+{
+  "3D Fix"
+  "立体定位"
+}
+{
+  "No Fix"
+  "无定位"
+}
+{
+  "None"
+  "无"
+}
+{
+  "Off"
+  "关"
+}
+{
+  "GNSS Status"
+  "定位状态"
+}
+{
+  "Good"
+  "优"
+}
+{
+  "Grid"
+  "网格"
+}
+{
+  "Heading"
+  "朝向"
+}
+{
+  "Heading (° M)"
+  "航向（°M）"
+}
+{
+  "Heading (° T)"
+  "航向（°T）"
+}
+{
+  "Heading (M)"
+  "朝向（M）"
+}
+{
+  "Heading (mils M)"
+  "朝向（mils M）"
+}
+{
+  "Heading (mils T)"
+  "朝向（mils T）"
+}
+{
+  "Heading (T)"
+  "朝向（T）"
+}
+{
+  "High"
+  "高"
+}
+{
+  "Latitude"
+  "纬度"
+}
+{
+  "Latitude (WGS84)"
+  "纬度（WGS84）"
+}
+{
+  "Local"
+  "本地"
+}
+{
+  "Longitude"
+  "经度"
+}
+{
+  "Longitude (WGS84)"
+  "经度（WGS84）"
+}
+{
+  "Low"
+  "低"
+}
+{
+  "magnetic"
+  "磁北（M）"
+}
+{
+  "Magnetic Accuracy"
+  "磁精度"
+}
+{
+  "Medium"
+  "中等"
+}
+{
+  "Name"
+  "名称"
+}
+{
+  "Not in use"
+  "未使用"
+}
+{
+  "Notes"
+  "备注"
+}
+{
+  "Orientation"
+  "方向"
+}
+{
+  "Position"
+  "位置"
+}
+{
+  "Reciprocal Heading (° M)"
+  "背后朝向（°M）"
+}
+{
+  "Reciprocal Heading (° T)"
+  "背后朝向（°T）"
+}
+{
+  "Reciprocal Heading (mils M)"
+  "背后朝向（mils M）"
+}
+{
+  "Reciprocal Heading (mils T)"
+  "背后朝向（mils T）"
+}
+{
+  "Recommended"
+  "推荐"
+}
+{
+  "Required"
+  "需要"
+}
+{
+  "In Use"
+  "使用中"
+}
+{
+  "In View"
+  "检测到"
+}
+{
+  "Saved On"
+  "已保存"
+}
+{
+  "No Sensor"
+  "无传感器"
+}
+{
+  "Speed"
+  "速度"
+}
+{
+  "Speed (km/h)"
+  "速度（km/h）"
+}
+{
+  "Speed (knots)"
+  "速度（节）"
+}
+{
+  "Speed (mph)"
+  "速度（mph）"
+}
+{
+  "Sunrise"
+  "日出"
+}
+{
+  "Sunset"
+  "日落"
+}
+{
+  "Time"
+  "时间"
+}
+{
+  "Local Time"
+  "本地时间"
+}
+{
+  "Time Saved"
+  "保存时间"
+}
+{
+  "Time Since Start"
+  "开始时间"
+}
+{
+  "UTC Time"
+  "UTC时间"
+}
+{
+  "true"
+  "真北（T）"
+}
+{
+  "degrees"
+  "度"
+}
+{
+  "feet"
+  "英尺"
+}
+{
+  "in Hg"
+  "英寸汞柱"
+}
+{
+  "kilometers"
+  "公里"
+}
+{
+  "knts"
+  "节"
+}
+{
+  "mBars"
+  "毫巴"
+}
+{
+  "meters"
+  "米"
+}
+{
+  "miles"
+  "英里"
+}
+{
+  "mils"
+  "密位"
+}
+{
+  "mm Hg"
+  "毫米汞柱"
+}
+{
+  "nautical miles"
+  "海里"
+}
+{
+  "yards"
+  "码"
+}
+{
+  "Unreliable"
+  "不可靠的"
+}
+{
+  "World Map"
+  "世界地图"
+}
+{
+  "Imperial (ft)"
+  "英制（ft）"
+}
+{
+  "Metric (m)"
+  "公制（m）"
+}
+{
+  "Altimeter"
+  "高度计"
+}
+{
+  "This dial shows your current altitude with moving pointers"
+  "用移动指针显示您当前的高度"
+}
+{
+  "This digital screen panel shows your current altitude"
+  "显示您当前的高度"
+}
+{
+  "Altitude Dial"
+  "高度仪表盘"
+}
+{
+  "Altitude Panel"
+  "高度面板"
+}
+{
+  "Compass Analog"
+  "模拟指南针"
+}
+{
+  "This compass shows your current heading with a moving pointer"
+  "用移动的刻度与数字直接显示当前的朝向"
+}
+{
+  "Degrees"
+  "度（°）"
+}
+{
+  "Mils"
+  "密位（mils）"
+}
+{
+  "Compass Classic"
+  "经典指南针"
+}
+{
+  "This compass shows North with a moving pointer"
+  "用移动的指针指示北方，模拟经典的指南针"
+}
+{
+  "Accelerometer"
+  "加速度计"
+}
+{
+  "Automatic"
+  "自动"
+}
+{
+  "Rotation Vector"
+  "旋转向量"
+}
+{
+  "Compass Digital"
+  "数字指南针"
+}
+{
+  "This compass shows your current heading with a moving dial"
+  "用移动的刻度与数字直接显示当前的朝向"
+}
+{
+  "Direction Pointer"
+  "方向指针"
+}
+{
+  "This navigation dial shows the direction to your destination"
+  "此导航拨盘显示前往目的地的方向"
+}
+{
+  "Direction Radar"
+  "方向雷达"
+}
+{
+  "This navigation dial shows the direction and distance to your destination"
+  "此导航拨盘显示到目的地的方向和距离"
+}
+{
+  "Distance To Go Panel"
+  "距离面板"
+}
+{
+  "This digital screen field shows the distance to your destination"
+  "显示到目的地的距离"
+}
+{
+  "Imperial (mi,ft)"
+  "英制（mi / ft）"
+}
+{
+  "Metric (km,m)"
+  "公制（km / m）"
+}
+{
+  "Nautical (nm,ft)"
+  "航海（nm / ft）"
+}
+{
+  "Nautical (nm,m)"
+  "海里（nm / m）"
+}
+{
+  "This digital screen field shows your current heading"
+  "仅显示您当前的朝向"
+}
+{
+  "Compass"
+  "指南针"
+}
+{
+  "GNSS"
+  "卫星定位"
+}
+{
+  "Heading Dial"
+  "指南针"
+}
+{
+  "Heading Panel"
+  "指南针面板"
+}
+{
+  "This digital screen field shows the current local date"
+  "此数字显示当前本地日期"
+}
+{
+  "Local Date Panel"
+  "本地日期面板"
+}
+{
+  "This digital screen field shows the current local time"
+  "显示当前本地时间"
+}
+{
+  "Local Time Panel"
+  "本地时间面板"
+}
+{
+  "Magnetic"
+  "磁北(地球磁极)"
+}
+{
+  "True"
+  "真北(地理北极)"
+}
+{
+  "This digital screen field shows your current orientation in cardinal units"
+  "以基本方向单位（东南西北）显示当前朝向。\n"
+}
+{
+  "Orientation Dial"
+  "方向盘"
+}
+{
+  "Orientation Panel"
+  "方向面板"
+}
+{
+  "This digital screen field shows your current position"
+  "显示您的当前位置"
+}
+{
+  "Lat/Lon"
+  "纬度/经度"
+}
+{
+  "OSGB (E,N)"
+  "OSGB(E,N)"
+}
+{
+  "OSGB (Grid Ref)"
+  "OSGB(格网)"
+}
+{
+  "OSNI (E,N)"
+  "OSNI(E,N)"
+}
+{
+  "OSNI (Grid Ref)"
+  "OSNI（格网）"
+}
+{
+  "Position Panel"
+  "位置面板"
+}
+{
+  "100 kilometers"
+  "100公里"
+}
+{
+  "100 meters"
+  "100米"
+}
+{
+  "10 kilometers"
+  "10公里"
+}
+{
+  "10 meters"
+  "10米"
+}
+{
+  "1 kilometer"
+  "1公里"
+}
+{
+  "1 meter"
+  "1米"
+}
+{
+  "Disabled"
+  "禁用"
+}
+{
+  "Make Field Fullscreen"
+  "全屏显示"
+}
+{
+  "Show Settings"
+  "显示设置"
+}
+{
+  "BEIDOU"
+  "🇨🇳北斗（BEIDOU）"
+}
+{
+  "GALILEO"
+  "🇪🇺伽利略（GALILEO）"
+}
+{
+  "GLONASS"
+  "🇷🇺格洛纳斯（GLONASS）"
+}
+{
+  "GPS"
+  "🇺🇸全球定位系统（GPS）"
+}
+{
+  "QZSS"
+  "🇯🇵准天顶（QZSS）"
+}
+{
+  "SBAS"
+  "星基增强系统（SBAS）"
+}
+{
+  "UNKNOWN"
+  "未知"
+}
+{
+  "Landscape"
+  "横屏"
+}
+{
+  "Portrait"
+  "竖屏"
+}
+{
+  "Reverse Landscape"
+  "镜向横屏"
+}
+{
+  "Reverse Portrait"
+  "镜像竖屏"
+}
+{
+  "Nearest Address"
+  "最近的地标地址"
+}
+{
+  "Location File"
+  "位置文件"
+}
+{
+  "Google Map Location"
+  "到Google地图位置"
+}
+{
+  "With Friends"
+  "给朋友推荐本软件"
+}
+{
+  "Latitude and Longitude"
+  "经纬度数值"
+}
+{
+  "Open Street Map Location"
+  "到Open Street Map位置"
+}
+{
+  "Yandex Map Location"
+  "到Yandex地图位置"
+}
+{
+  "This digital screen field shows your speed over ground"
+  "显示您的地面速度"
+}
+{
+  "Speed Dial"
+  "速度仪表盘"
+}
+{
+  "Maximum Speed 10"
+  "最大速度10"
+}
+{
+  "Maximum Speed 100"
+  "最大速度100"
+}
+{
+  "Maximum Speed 150"
+  "最大速度150"
+}
+{
+  "Maximum Speed 20"
+  "最大速度20"
+}
+{
+  "Maximum Speed 200"
+  "最大速度200"
+}
+{
+  "Maximum Speed 250"
+  "最大速度250"
+}
+{
+  "Maximum Speed 30"
+  "最大速度30"
+}
+{
+  "Maximum Speed 300"
+  "最大速度300"
+}
+{
+  "Maximum Speed 40"
+  "最大速度40"
+}
+{
+  "Maximum Speed 50"
+  "最大速度50"
+}
+{
+  "Maximum Speed 600"
+  "最大速度600"
+}
+{
+  "Speed Panel"
+  "速度面板"
+}
+{
+  "Imperial (mph)"
+  "英制（mph）"
+}
+{
+  "Metric (km/h)"
+  "公制（km/h）"
+}
+{
+  "Nautical (knots)"
+  "航海（节）"
+}
+{
+  "Speedometer"
+  "速度计"
+}
+{
+  "This speedometer shows your speed over ground with a moving pointer"
+  "用移动的指针显示地面行进速度。"
+}
+{
+  "Amber Theme"
+  "褐色"
+}
+{
+  "Blue Theme"
+  "蓝色"
+}
+{
+  "Classic Theme"
+  "经典"
+}
+{
+  "Cyan Theme"
+  "青色"
+}
+{
+  "Dark Theme"
+  "暗色"
+}
+{
+  "Green Theme"
+  "绿色"
+}
+{
+  "Light Theme"
+  "白色"
+}
+{
+  "Orange Theme"
+  "橙色"
+}
+{
+  "Red Theme"
+  "红色"
+}
+{
+  "White Theme"
+  "白色"
+}
+{
+  "HH:MM 12h"
+  "HH:MM 12小时制"
+}
+{
+  "HH:MM 24h"
+  "HH:MM 24小时制"
+}
+{
+  "HH:MM:SS 12h"
+  "HH:MM:SS 12小时制"
+}
+{
+  "HH:MM:SS 24h"
+  "HH:MM:SS 24小时制"
+}
+{
+  "This digital screen field shows the elapsed time since you started navigation"
+  "显示自您开始导航以来经过的时间"
+}
+{
+  "Time Since Start Panel"
+  "启动面板后的时间"
+}
+{
+  "This digital screen field shows the current UTC date"
+  "显示当前UTC（协调世界时）日期"
+}
+{
+  "UTC Date Panel"
+  "UTC日期面板"
+}
+{
+  "This digital screen field shows the current UTC time"
+  "显示当前UTC（协调世界时）时间"
+}
+{
+  "UTC Time Panel"
+  "UTC时间面板"
+}
+{
+  "About"
+  "关于"
+}
+{
+  "Calibration"
+  "校准"
+}
+{
+  "Clear only"
+  "仅清除"
+}
+{
+  "Clear and update"
+  "清除并更新"
+}
+{
+  "Delete locations"
+  "删除位置"
+}
+{
+  "Exit HUD Mode"
+  "退出HUD模式"
+}
+{
+  "Export"
+  "导出"
+}
+{
+  "To GPX file"
+  "转换为GPX文件"
+}
+{
+  "To KML file"
+  "到KML文件"
+}
+{
+  "Help"
+  "帮助"
+}
+{
+  "Import"
+  "导入"
+}
+{
+  "Import legacy database"
+  "导入旧数据库"
+}
+{
+  "Import locations"
+  "导入位置"
+}
+{
+  "Location services"
+  "定位服务"
+}
+{
+  "Navigate To"
+  "导航到"
+}
+{
+  "Privacy Policy"
+  "隐私政策"
+}
+{
+  "Satellite Filter"
+  "卫星过滤器"
+}
+{
+  "Saved Locations"
+  "保存的位置"
+}
+{
+  "Screen editor"
+  "面板编辑器"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Share location"
+  "共享位置"
+}
+{
+  "Show on map"
+  "在地图上显示"
+}
+{
+  "By date modified"
+  "按修改日期"
+}
+{
+  "By distance"
+  "按距离"
+}
+{
+  "By name"
+  "按名称"
+}
+{
+  "Start HUD Mode"
+  "启动HUD模式"
+}
+{
+  "Update only"
+  "仅更新"
+}
+{
+  "Upgrade"
+  "升级"
+}
+{
+  "Your Upgrade Offer"
+  "您的升级优惠"
+}
+{
+  "APR"
+  "四月"
+}
+{
+  "AUG"
+  "八月"
+}
+{
+  "DEC"
+  "十二月"
+}
+{
+  "FEB"
+  "二月"
+}
+{
+  "JAN"
+  "一月"
+}
+{
+  "JLY"
+  "七月"
+}
+{
+  "JUN"
+  "六月"
+}
+{
+  "MAR"
+  "三月"
+}
+{
+  "MAY"
+  "五月"
+}
+{
+  "NOV"
+  "十一月"
+}
+{
+  "OCT"
+  "十月"
+}
+{
+  "SEP"
+  "九月"
+}
+{
+  "The coordinate conversion functions in this product were developed using code derived from GEOTRANS, a product of the National Geospatial-Intelligence Agency (NGA) and U.S. Army Engineering Research and Development Center."
+  "本产品中的坐标转换功能是使用源自GEOTRANS的代码开发的，GEOTRANS是美国国家地理空间情报局（NGA）和美国陆军工程研究与发展中心的产品。"
+}
+{
+  "AGPS request failed"
+  "AGPS请求失败"
+}
+{
+  "Calibrate your device by moving it in a figure of eight pattern as shown below, until the Calibration State is Good."
+  "按照下方所示，以“8”字形移动设备进行校准，直至校准状态显示为“优”。"
+}
+{
+  "Avoid metallic or magnetic objects near your device as this can cause the magnetic sensor to become unstable."
+  "请避免设备附近有金属或磁性物体，这可能导致磁传感器不稳定。"
+}
+{
+  "This will remove all AGPS assist data from your phone. It may take some time for the data to refresh and until then, GPS fixes may be slower."
+  "这将删除手机中的所有AGPS辅助数据。数据刷新可能需要一些时间，在此之前，GPS定位可能会变慢。"
+}
+{
+  "Clear AGPS request made"
+  "已发出清除AGPS请求"
+}
+{
+  "Clear and Update AGPS request made"
+  "清除并更新AGPS请求"
+}
+{
+  "All locations in this folder will be deleted"
+  "此文件夹中的所有位置都将被删除"
+}
+{
+  "Chartcross Limited disclaims any and all liability that may arise in any way from the use of this software.\n\nThe accuracy of the data that this software displays is only as good as the accuracy of the GPS and sensors in the device this software in installed on. Chartcross Limited cannot guarantee or be responsible for the accuracy of data displayed."
+  "Chartcross有限公司不对因使用本软件而可能产生的任何责任承担责任。\n \n本软件显示数据的准确性仅取决于安装本软件的设备中GPS和传感器的准确性。Chartcross有限公司无法保证所显示数据的准确性，也不对其负责。"
+}
+{
+  "Cannot start Google Maps"
+  "无法启动谷歌地图"
+}
+{
+  "The GNSS receiver is turned on and has a two dimensional location (fix) (x,y only), the height cannot be accurately determined. This is normally due to a poor GPS signal, under tree cover or inside a building for example."
+  "已开启卫星定位，且获取了二维平面定位（仅x、y坐标），但高度无法准确确定。这通常是因为GPS信号较弱。如处于树荫下或建筑物内等。"
+}
+{
+  "The GNSS receiver is turned on and has a three dimensional location (fix) including height (x,y,z)."
+  "已开启卫星定位，且获取了三维立体定位（包括高度，即x、y、z坐标）。"
+}
+{
+  "The GNSS receiver has an error. This could be because Fine Location permission has not been granted for this app."
+  "卫星定位存在错误。这可能是因为未授予本应用“精确位置”权限。"
+}
+{
+  "The GNSS receiver is turned on but the signal is not good enough to get a valid location (fix). If this state continues for a long time try turning the device off and then go outside where you have a clear view of the sky. Restart the device and rerun this app, also try selecting the 'AGPS->Clear and update' menu option to download new GPS assistance data."
+  "卫星定位已开启，但信号不佳，无法获取有效的定位信息。若此状态持续较长时间，请尝试关闭设备，然后前往视野开阔处重启设备并重新运行此应用，也可尝试选择“AGPS->清除并更新”菜单选项来下载新的GPS辅助数据。"
+}
+{
+  "This device has no internal GNSS receiver installed"
+  "此设备未内置卫星定位模块"
+}
+{
+  "The GNSS receiver is turned off. Go to location services to turn the GNSS receiver on."
+  "已关闭卫星定位。请转到手机设置-定位服务以打开。"
+}
+{
+  "This app displays information from your device's GPS receiver and other sensors. It shows the position and received signal strength of each satellite within view, as well as your current location and time.\n\nTap on one of the five fields at the bottom (or right in landscape) of each screen to change views.\n\nThe five fields at the top of each screen (or left side in landscape) are buttons and have the following actions, from left to right (or bottom to top in landscape): -\n\nToggle day night mode.\nSave your location.\nStart or stop navigation.\nShare your location.\nDisplay menu.\n\nTapping any other field on a screen displays a settings dialog for that field if it has one."
+  "此应用会显示设备的全球导航卫星系统（GNSS）接收器及其他传感器的信息，包括视野内各卫星的位置、接收信号强度，以及当前位置和时间。\n\n点击每个屏幕底部（横屏模式下为右侧）的五个区域之一，可切换视图。\n\n每个屏幕顶部（横屏模式下为左侧）五个按钮，从左到右（横屏模式下为从下到上）的功能如下：\n· 切换日夜模式\n· 保存位置\n· 开始或停止导航\n· 分享位置\n· 显示菜单\n \n点击屏幕上的其他任何区域，若该区域有设置项，会显示其设置对话框。"
+}
+{
+  "This view displays satellite signal information. The GPS Status field shows the state of the GPS receiver. You can tap on this field to display a help dialog, showing the current state of the GPS signal. This dialog has a location services button to turn the GPS on or off. GPS Status can have one of the following values: -\n\nGPS Error Error with GPS could be permissions.\nGPS None Your device has no GPS.\nGPS Off The GPS is turned off.\nNo Fix The GPS has no location fix.\n2D Fix The GPS has a partial location fix.\n3D Fix The GPS has a full location fix.\n\nThe Accuracy field shows the accuracy of the GPS location, the smaller the number the better.\n\nBelow this field is the satellite signal graph, it shows a bar for each satellite in view. The number beneath the bar is the satellite number (if the number colours are inverted the satellite is used in calculating the positional fix) and the number above it is the signal to noise ratio in decibels. you can horizontally scroll the graph to show more satellites.In the top corners of the graph are two fields showing how many satellites the GPS can see and how many are being used to calculate your position.\n\nBelow the satellite signal graph is a legend for the SNR colour. The colours represent signal to noise ratio ranges. The satellite signals can have an SNR value between 0 and 99dB, 0 is worst. Normally the SNR will never get above 50 and anything above 40 is really good.\n\nThis view has these menu options: -\n\nLocation Services Show the location services screen to turn the GPS on or off.\nAGPS->Clear only Clears AGPS aiding data from your phone, do this if your GPS takes a long time to get a fix.\nAGPS->Update only Request the download of AGPS aiding data. The AGPS aiding data can become out of date, so requesting an update will get the latest version.\nAGPS->Clear and update Request AGPS clear and update at the same time.\nShare Share your location with other people.\nSettings Display the general settings dialog.\nHelp Display this help screen."
+  "此视图显示卫星信号信息。“GPS状态”字段显示GPS接收器的状态。点击该字段可显示帮助对话框，其中会展示GPS信号的当前状态。该对话框包含一个位置服务按钮，用于开启或关闭GPS。GPS状态可能有以下几种：\n· 错误：GPS存在错误，可能是权限问题。\n无：设备没有GPS。\n· 已关闭：GPS已被设为关闭。\n· 无定位：GPS未获取到当前定位信息。\n· 平面定位：GPS获取到部分定位信息，仅支持经纬度定位。\n· 立体定位：GPS获取到完整定位信息。\n \n“精度”字段显示GPS定位的精度，数值越小越好。\n \n该字段下方是卫星信号图表，图表中每个卫星对应一根柱状条。柱状条下方的数字是卫星编号（如果数字颜色反转，则表示该卫星参与了位置计算），上方的数字是信噪比（单位为分贝）。可水平滚动图表以显示更多卫星。图表的左上角和右上角各有一个字段，分别显示可探测到的卫星数量和用于位置计算的卫星数量。\n \n卫星信号图表下方是信噪比颜色的图例。不同颜色代表不同的信噪比范围。卫星信号的信噪比值在0到99分贝之间，0表示最差。通常信噪比不会超过50，超过40就已经非常好。\n \n此视图包含以下菜单选项：\n· 位置服务：显示位置服务屏幕，用于开启或关闭GPS。\n· AGPS->仅清除：清除手机中的AGPS辅助数据，若GPS定位耗时过长，可执行此操作。\n· AGPS->仅更新：请求下载AGPS辅助数据。AGPS辅助数据可能会过期，因此请求更新可获取最新版本。\n· AGPS->清除并更新：同时请求清除和更新AGPS数据。\n· 分享：与他人分享你的位置。\n· 设置：显示通用设置对话框。\n· 帮助：显示本帮助屏幕。"
+}
+{
+  "This view displays satellite positions. The large circular field on this screen shows a view of the sky overhead (sky view), the outside of the circle represents the horizon and the centre represents the sky directly above your head. The sky view rotates to the correct position using the internal compass. The satellites in view of the GPS receiver are drawn on the sky view if the symbol is round the satellite is a GPS satellite and if the symbol is a triangle the satellite is a GLONASS satellite. Each satellite symbol has the satellite number shown below it and is drawn in a colour that represents the satellite signal to noise ratio. The signal to noise ratios and corresponding colour ranges are shown on the SNR legend, below the sky view.\n\nThis view has these menu options: -\n\nLocation Services Show the location services screen to turn the GPS on or off.\nAGPS->Clear Clear AGPS aiding data from your phone, do this if your GPS takes a long time to get a fix.\nAGPS->Update Request the download of AGPS aiding data. The AGPS aiding data can become out of date, so requesting an update will get the latest version.\nShare Share your location with other people.\nSettings Display the general settings dialog.\nHelp Display this help screen."
+  "此视图显示卫星位置。屏幕上的大型圆形区域显示头顶的天空视图，圆圈外围代表地平线，中心代表头顶正上方的天空。天空视图会通过内置指南针旋转至正确位置。可观测到的卫星会绘制在天空视图上：如圆形符号表示GPS卫星，三角形符号表示GLONASS卫星。每个卫星符号下方标有卫星编号，其颜色代表卫星的信噪比。信噪比及对应的颜色范围显示在天空视图下方的信噪比图例中。\n\n此视图包含以下菜单选项：\n· 位置服务：显示位置服务屏幕，用于开启或关闭GPS。\n· AGPS->清除：清除手机中的AGPS辅助数据，若GPS定位耗时过长，可执行此操作。\n· AGPS->更新：请求下载AGPS辅助数据。AGPS辅助数据可能会过期，因此请求更新可获取最新版本。\n· 分享：与他人分享你的位置。\n· 设置：显示通用设置对话框。\n· 帮助：显示本帮助屏幕。"
+}
+{
+  "This view displays your position on the earth. The top field shows the coordinates of your current location in the selected coordinate grid. The bottom field is a map of the world, on which your current position is shown by a red marker. The transition between day and night and the location of the sun relative to your current location is also drawn on the map.\n\nThis view has these menu options: -\n\nShare Share your location with other people.\nSettings Display the general settings dialog.\nHelp Display this help screen."
+  "此视图显示您在地球上的位置。上方字段显示当前位置在所选坐标系中的坐标。下方是世界地图，地图上用红色标记标示您的当前位置。地图上还绘制了晨昏线以及太阳相对于您当前位置的方位。\n\n此视图包含以下菜单选项：\n· 分享：与他人分享您的位置。\n· 设置：显示通用设置对话框。\n· 帮助：显示本帮助屏幕。"
+}
+{
+  "This view displays a compass when not in navigation mode.\n\nThis view has these menu options: -\n\nScreen editor Switch to screen editor mode to change the compass type.\nShare Share your location with other people.\nSettings Display the general settings dialog.\nHelp Display this help screen."
+  "非导航模式下，此视图会显示指南针。\n\n此视图包含以下菜单选项：\n· 屏幕编辑器：切换至屏幕编辑器模式，以更改指南针类型。\n· 分享：与他人分享您的位置。\n· 设置：显示通用设置对话框。\n· 帮助：显示本帮助屏幕。"
+}
+{
+  "GPS Test Plus supports simple navigation. You can save your current location or enter a new location and then navigate to it. The top two fields and the compass field are customisable.\n\nThis view has these menu options: -\n\nScreen editor Switch to screen editor mode to change the screen field types.\nShare Share your location with other people.\nSettings Display the general settings dialog.\nHelp Display this help screen."
+  "GPS Test Plus支持简单导航。您可以保存当前位置或输入新位置，然后导航至该位置。顶部两个字段和指南针字段可自定义。 \n\n此视图包含以下菜单选项：\n· 屏幕编辑器：切换至屏幕编辑器模式，以更改指南针类型。\n· 分享：与他人分享您的位置。\n· 设置：显示通用设置对话框。\n· 帮助：显示本帮助屏幕。"
+}
+{
+  "This view displays a number of customisable fields and widgets.\n\nThis view has these menu options: -\n\nScreen editor Switch to screen editor mode to change the screen field types and layout.\nShare Share your location with other people.\nSettings Display the general settings dialog.\nHelp Display this help screen."
+  "此视图显示多个可自定义的字段和小组件。\n\n此视图包含以下菜单选项：\n· 屏幕编辑器：切换至屏幕编辑器模式，以更改指南针类型。\n· 分享：与他人分享您的位置。\n· 设置：显示通用设置对话框。\n· 帮助：显示本帮助屏幕。"
+}
+{
+  "This view displays various time and date fields. The top two fields show the time and date from your GPS receiver in GPS Time. This is based on international atomic time and is the same throughout the world. The next two fields show the time and date local to your current location. The next two fields show the sunrise and sunset times at your current location. The last two fields show the moon phase at you location and a daylight clock.\n\nThis view has these menu options: -\n\nShare Share your location with other people.\nSettings Display the general settings dialog.\nHelp Display this help screen."
+  "此视图显示各种时间和日期字段。顶部两个字段显示来自GPS接收器的GPS时间及日期，该时间基于国际原子时，全球统一。接下来的两个字段显示当前位置的本地时间和日期。再下面的两个字段显示当前位置的日出和日落时间。最后两个字段显示当前位置的月相和日照时钟。\n\n此视图包含以下菜单选项：\n· 分享：与他人分享您的位置。\n· 设置：显示通用设置对话框。\n· 帮助：显示本帮助屏幕。"
+}
+{
+  "This screen displays a list of your saved locations. Tapping a list item displays the location details screen. Press and hold a list item to select it, the item's icon is replaced with a tick. When items are selected the toolbar changes and if only one item is selected you can edit, delete, share or export the item. If more than one item is selected you can only delete, share or export them.\n\nThis view has these menu options when no items are selected: -\n\nDelete locations Delete all saved locations in the database.\nExport->to GPX files Export saved locations to a file in GPX format.\nExport->to KML files Export saved locations to a file in KML format.\nHelp Display this help screen."
+  "此屏幕显示已保存位置的列表。点击列表项会显示位置详情屏幕。长按列表项可选中该项目，项目图标会替换为勾选标记。选中项目后，工具栏会发生变化：若仅选中一个项目，可对其进行编辑、删除、分享或导出操作；若选中多个项目，则只能进行删除、分享或导出操作。\n\n未选中任何项目时，此视图包含以下菜单选项：\n· 删除位置：删除数据库中所有已保存的位置。\n· 导出->至GPX文件：将已保存的位置导出为GPX格式的文件。\n· 导出->至KML文件：将已保存的位置导出为KML格式的文件。\n· 帮助：显示本帮助屏幕。"
+}
+{
+  "Import cancelled (%d records processed)"
+  "导入已取消（已处理%d条记录）"
+}
+{
+  "%d Location(s) exported to %s/%s"
+  "%d位置导出到%s/%s"
+}
+{
+  "%d Location(s) imported to %s"
+  "%d导入到%s的位置"
+}
+{
+  "Cannot find an address"
+  "找不到地址"
+}
+{
+  "There are no files in this folder to import. Copy files to your internal storage folder Android/data/com.chartcross.gpstest/files and then try again."
+  "此文件夹中没有要导入的文件。将文件复制到您的内部存储文件夹Android/data/com.chartcross.gpstest/files，然后重试。"
+}
+{
+  "There are no saved locations in this folder. Press the + toolbar button to add a new location."
+  "此文件夹中没有保存的位置。按工具栏的“+”按钮添加新位置。"
+}
+{
+  "There are no locations in this folder to export."
+  "此文件夹中没有要导出的位置。"
+}
+{
+  "There are no saved locations in this folder to navigate to."
+  "此文件夹中没有可导航到的已保存位置。"
+}
+{
+  "1 Record deleted"
+  "1条记录已删除"
+}
+{
+  "%d Records deleted"
+  "%d记录已删除"
+}
+{
+  "If you intend to use this software in a vehicle always think of safety first, you should make sure your device is properly mounted in the vehicle and that you start this program and make any changes to settings, colour schemes etc before setting off on your journey."
+  "无论何时，安全第一！若在驾驶时使用软件，需确保设备在车内正确固定，并且在出发前启动本程序并完成所有设置、配色方案等更改操作。"
+}
+{
+  "Error sharing location"
+  "共享位置时出错"
+}
+{
+  "There are no GPX or KML files to share"
+  "没有GPX或KML文件可供共享"
+}
+{
+  "Cannot share because no location data has been received yet"
+  "无法共享，因为尚未收到位置数据"
+}
+{
+  "Checkout this great app\nhttps://play.google.com/store/apps/details?id=com.chartcross.gpstest"
+  "看看这个绝佳的的应用程序\nhttps://play.google.com/store/apps/details?id=com.chartcross.gpstest"
+}
+{
+  "All navigation data will be lost"
+  "所有导航数据都将丢失"
+}
+{
+  "Cannot import a file of this type."
+  "无法导入此类型的文件。"
+}
+{
+  "Update AGPS request made"
+  "已发出更新AGPS请求"
+}
+{
+  "Accuracy Units"
+  "精度单位"
+}
+{
+  "Altitude Settings"
+  "高度设置"
+}
+{
+  "Altitude Units"
+  "高度单位"
+}
+{
+  "Angle Units"
+  "角度单位"
+}
+{
+  "Compass Sensor"
+  "罗盘感应器"
+}
+{
+  "Date Format"
+  "日期格式"
+}
+{
+  "Day Theme"
+  "亮色模式主题"
+}
+{
+  "Display Colour"
+  "显示颜色"
+}
+{
+  "Display Font"
+  "数字字体"
+}
+{
+  "Distance Settings"
+  "距离设置"
+}
+{
+  "Distance Units"
+  "距离单位"
+}
+{
+  "General Settings"
+  "常规设置"
+}
+{
+  "Use Geoid"
+  "使用大地水准面"
+}
+{
+  "Apply the geoid value at the current location, to the altitude"
+  "将当前位置的大地水准面数值应用于海拔高度。"
+}
+{
+  "Heading Device"
+  "朝向检测硬件"
+}
+{
+  "Heading Settings"
+  "指南针设置"
+}
+{
+  "Hide The Status Bar"
+  "隐藏状态栏"
+}
+{
+  "Put this application in full screen mode by hiding the status bar"
+  "通过隐藏状态栏将此应用程序置于全屏模式"
+}
+{
+  "HUD Mode"
+  "HUD模式"
+}
+{
+  "Put this application into heads up display mode"
+  "将此应用程序切换至HUD模式。"
+}
+{
+  "Keep Screen On"
+  "保持屏幕常亮"
+}
+{
+  "Stop the screen turning off when this application is active"
+  "当此应用程序处于活动状态时，永不自动息屏。"
+}
+{
+  "Language"
+  "语言"
+}
+{
+  "Long Press Behaviour"
+  "长按"
+}
+{
+  "Night Theme"
+  "夜间模式主题"
+}
+{
+  "North Reference"
+  "指北模式（矫正磁偏角）"
+}
+{
+  "Format"
+  "格式"
+}
+{
+  "Precision"
+  "精度"
+}
+{
+  "Position Settings"
+  "位置设置"
+}
+{
+  "Single Line"
+  "单行显示"
+}
+{
+  "Display position fields on a single line"
+  "将位置字段显示在同一行"
+}
+{
+  "Spacing"
+  "间距"
+}
+{
+  "Display spaces between position fields"
+  "在位置字段之间显示空格"
+}
+{
+  "Screen Orientation"
+  "屏幕方向"
+}
+{
+  "Short Press Behaviour"
+  "短按"
+}
+{
+  "Show Decimal"
+  "显示小数"
+}
+{
+  "Display speed to one decimal place"
+  "显示速度精确到小数点后一位"
+}
+{
+  "Small Decimals"
+  "小数"
+}
+{
+  "Show small digits after the decimal point"
+  "隐藏小数点并用小字号显示小数"
+}
+{
+  "Speed Settings"
+  "速度设置"
+}
+{
+  "Speed Units"
+  "速度单位"
+}
+{
+  "Speedometer Limit"
+  "车速表限制"
+}
+{
+  "Themes & Colours"
+  "主题和颜色"
+}
+{
+  "Time & Date Settings"
+  "时间和日期设置"
+}
+{
+  "Time Format"
+  "时间格式"
+}
+{
+  "Timer Format"
+  "计时器格式"
+}
+{
+  "ACKNOWLEDGEMENTS"
+  "致谢"
+}
+{
+  "Add Location"
+  "添加位置"
+}
+{
+  "Alignment"
+  "对齐"
+}
+{
+  "Calibration Guide"
+  "校准指南"
+}
+{
+  "Calibration State"
+  "校准状态"
+}
+{
+  "Change Widget"
+  "更改小部件"
+}
+{
+  "Clear AGPS data?"
+  "清除AGPS数据？"
+}
+{
+  "Delete Locations?"
+  "删除位置？"
+}
+{
+  "DISCLAIMER"
+  "免责声明"
+}
+{
+  "Colour"
+  "颜色"
+}
+{
+  "Font"
+  "字体"
+}
+{
+  "Edit Location"
+  "编辑位置"
+}
+{
+  "Export Locations"
+  "导出位置"
+}
+{
+  "GNSS Status - 2D Fix"
+  "GNSS状态：平面定位"
+}
+{
+  "GNSS Status - 3D Fix"
+  "GNSS状态：立体定位"
+}
+{
+  "GNSS Status - Error"
+  "GNSS状态：错误"
+}
+{
+  "GNSS Status - No Fix"
+  "GNSS状态：无定位"
+}
+{
+  "GNSS Status - None"
+  "GNSS状态：无"
+}
+{
+  "GNSS Status - Off"
+  "GNSS状态：已关闭"
+}
+{
+  "Introduction"
+  "介绍"
+}
+{
+  "Satellite Signal Screen"
+  "卫星信号显示"
+}
+{
+  "Satellite Position Screen"
+  "卫星位置显示"
+}
+{
+  "Position Screen"
+  "位置屏幕"
+}
+{
+  "Compass Screen"
+  "指南针屏幕"
+}
+{
+  "Navigation Screen"
+  "导航屏幕"
+}
+{
+  "Dashboard Screen"
+  "仪表板屏幕"
+}
+{
+  "Time Screen"
+  "时间屏幕"
+}
+{
+  "Import Locations"
+  "导入位置"
+}
+{
+  "Information"
+  "信息"
+}
+{
+  "Location"
+  "地点"
+}
+{
+  "Location Files"
+  "位置文件"
+}
+{
+  "Magnetic Field"
+  "磁场"
+}
+{
+  "Magnetometer"
+  "磁力计"
+}
+{
+  "My Locations"
+  "我的位置"
+}
+{
+  "Position Format"
+  "位置格式"
+}
+{
+  "Position Precision"
+  "位置精度"
+}
+{
+  "SAFETY"
+  "安全性"
+}
+{
+  "Save Location"
+  "保存位置"
+}
+{
+  "Screen Editor"
+  "面板编辑器"
+}
+{
+  "Screen Layout"
+  "屏幕布局"
+}
+{
+  "Sensor Accuracy"
+  "传感器精度"
+}
+{
+  "Share"
+  "分享"
+}
+{
+  "Share Location…"
+  "共享位置……"
+}
+{
+  "Speedometer Settings"
+  "车速表设置"
+}
+{
+  "Stop Navigation?"
+  "停止导航？"
+}
+{
+  "E"
+  "东 E"
+}
+{
+  "ENE"
+  "东北偏东 ENE"
+}
+{
+  "ESE"
+  "东南偏东 ESE"
+}
+{
+  "N"
+  "北 N"
+}
+{
+  "NE"
+  "东北 NE"
+}
+{
+  "NNE"
+  "东北偏北 NNE"
+}
+{
+  "NNW"
+  "西北偏北 NNW"
+}
+{
+  "NW"
+  "西北 NW"
+}
+{
+  "S"
+  "南 S"
+}
+{
+  "SE"
+  "东南 SE"
+}
+{
+  "SSE"
+  "东南偏南 SSE"
+}
+{
+  "SSW"
+  "西南偏西 SSW"
+}
+{
+  "SW"
+  "西南 SW"
+}
+{
+  "W"
+  "西 W"
+}
+{
+  "WNW"
+  "西北偏西 WNW"
+}
+{
+  "WSW"
+  "西南偏西 WSW"
+}
