@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <title>Algeo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="blue.css" />
+</head>
+<body class="pt-3">
+<div class="container">
+<p><strong>如果您第一次启动此程序，请查看 <a href="getting-started.html">入门手册</a>。</strong></p>
+<p>如果您需要进一步的帮助或希望建议新功能，请发送邮件至 <a href="mailto:info@algeocalc.com">info@algeocalc.com</a></p>
+
+<h2>目录</h2>
+<ol>
+  <li><a href="#main-functions">主要功能</a></li>
+  <li><a href="#advanced-functions">高级功能</a></li>
+  <li><a href="#units">单位</a></li>
+</ol>
+
+<h2 id="main-functions">主要功能</h2>
+<p><strong>计算器：</strong> 输入时表达式会自动计算。要添加一行新的计算，按 <code>ENTER↵</code> 键。向上滚动以查看以前的计算。要在弧度和度之间切换，请按键盘顶部的选项按钮。<code>NaN</code> 表示“不是一个数字”。按 'Ans' 可获取最后的答案。注意：最后的答案必须是数字，例如，微分的结果不会改变 'Ans' 的值。</p>
+
+<p>如果您按 <code>^</code> 或 <code>/</code>，Algeo 会智能地放置指数和分母。例如，按下 <code>2</code> 然后 <code>^</code>，光标会跳到指数级。在这里，您可以输入指数。当您想跳回正常水平时，只需在表达式右侧的空白区域点击即可。您也可以使用方向键移动光标。</p>
+
+<p><strong>使用变量：</strong> 有四个变量： <code>a</code>、 <code>b</code>、 <code>d</code> 和 <code>t</code> （字母 <code>c</code> 保留用于光速常数）。您可以通过长按相应的数字输入它们。变量的默认值为 0。要设置它们的值，请使用 '='。示例：<br>
+<code>a=2+1</code><br>
+<code>a^2</code> → <code>9</code>
+</p>
+<p><strong>常量：</strong> 在 CONST 按钮下有几个预定义的物理常量。它们包括数学常数，如 <em>e</em> 或 π 以及其他数字，如光速或重力。
+
+<p><strong>使用图形：</strong> 您可以通过触摸移动图形。要缩放，请使用右下角的按钮。您可以通过选择上方工具栏中的 Trace 图标来追踪函数。在每个绘图线上会出现一个点。用手指在屏幕上移动以移动点。它会自动吸附到函数的交点和根部。在屏幕的上方，您将看到在点处评估的绘制函数的值。</p>
+
+<p>可以绘制极坐标图，而不是常规的笛卡尔函数。要使用极坐标，在图形输入屏幕中，点击右上角的“笛卡尔”将其切换到极坐标模式。在这里，变化的变量是 <code>θ</code>，而不是 <code>y</code>。</p>
+
+<p><strong>值表：</strong> 您可以在图形菜单中生成您指定的函数的数值表。只需按下 Table 按钮。显示将显示给定间隔内函数的值列表。您可以通过按顶部栏上的“设置”图标来修改范围设置。按下“重置范围”将范围设置为区间 <code>[1;10]</code>。</p>
+
+<h2 id="advanced-functions">高级功能</h2>
+<p><strong>解方程：</strong> <code>solve</code> 函数将解给定的表达式中的 <code>x</code>。如果方程中没有 <code>=</code> 符号，它将为 0 解方程。因此在下面的例子中，它解方程 <code>x^2=0</code>。它只找到一个解。示例：<br>
+  <code>solve(x^2)</code> → <code>0</code><br>
+  <code>solve(sinx=cosx)</code> → <code>0.785398</code>
+</p>
+  
+<p><strong>微分：</strong> 您可以使用 <code>diff</code> 函数进行微分。它的唯一参数是要微分的表达式。示例：<br>
+  <code>diff(x^2)</code> → <code>2*x</code><br>
+  <code>diff(tg(x))</code> → <code>cos(x)^(-2)</code><br>
+  <code>diff(diff(sin(x)))</code> → <code>-sin(x)</code><br>
+  <br>
+  <strong>积分：</strong> 使用 <code>int</code> 函数计算一个函数的定积分。第一个参数是要积分的函数，其他两个是积分的上下限。示例：<br>
+  <code>int(x,0,10)</code> → <code>50</code><br>
+  <code>int(sinx,-1,1)</code> → <code>0</code></p>
+
+<p><strong>泰勒级数：</strong> 要计算函数的泰勒级数，使用 <code>taylor</code> 函数。第一个参数是函数，第二个参数是泰勒级数的中心点，第三个参数是最大项的指数。示例：<br>
+  <code>taylor(ln(x),1,3)</code> → <code> x-1-(x-1)^2/2!+(x-1)^3/3!</code><br>
+  <code>taylor(sinx,0,4)</code> → <code>-x^3/3!</code></p>
+
+  <p><strong>组合数学：</strong> 两个组合函数 <code>nPr</code> 和 <code>nCr</code> 让您计算排列和组合。<code>nPr</code> 计算 n 的 r-排列的数量。它给出了从 n 个元素中选择 r 个元素并排成一行的方式数量。<code>nCr</code> 计算具有 n 个元素的集合的 r-组合的数量。它给出了从 n 个元素中选择 r 个元素的方式数量。示例：<br>
+  <code>nPr(5,2)</code> → <code>20</code><br>
+  <code>nCr(5,3)</code> → <code>10</code></p>
+
+  <p><strong>统计：</strong> 您可以使用 <code>mean</code> 和 <code>median</code> 函数计算一组数字的均值和中位数。<code>stddev</code> 函数计算标准差（方差的平方根）。示例：<br>
+  <code>mean(1,5,10)</code> → <code>8</code><br>
+  <code>median(1,5,10)</code> → <code>8</code><br>
+此外，<code>normal</code> 函数为您提供正态分布的密度函数。第一个参数是计算函数的点，第二个是均值，第三个是标准差。示例：<br>
+<code>normal(1,0,2)</code> → <code>0.17</code><br>
+尝试绘制 <code>normal(x,0,1)</code> 以获得标准的钟形曲线！
+</p>
+
+  <p><strong>其他功能：</strong> 上述未解释的函数列在下表中：<br>
+  </p>
+  <table class="table table-sm">
+    <thead>
+    <tr>
+      <th>函数</th>
+      <th>描述</th>
+      <th>示例</th>
+    </tr>
+  </thead>
+    <tr>
+      <td>abs</td>
+      <td>绝对值</td>
+<td><code>abs(-5)</code> → <code>5</code></td>
+</tr>
+<tr>
+<td>exp</td>
+<td>指数函数</td>
+<td><code>exp(1)</code> → <code>2.7182</code></td>
+</tr>
+<tr>
+<td>frac</td>
+<td>小数部分</td>
+<td><code>frac(1.34)</code> → <code>0.34</code></td>
+</tr>
+<tr>
+<td>floor</td>
+<td>向下取整函数，整数部分</td>
+<td><code>floor(1.34)</code> → <code>1</code></td>
+</tr>
+<tr>
+<td>gcd</td>
+<td>最大公约数</td>
+<td><code>gcd(6,4)</code> → <code>2</code></td>
+</tr>
+<tr>
+<td>log</td>
+<td>以10为底的对数</td>
+<td><code>log(100)</code> → <code>2</code></td>
+</tr>
+<tr>
+<td>mod</td>
+<td>计算余数</td>
+<td><code>mod(11,4)</code> → <code>3</code></td>
+</tr>
+</table>
+<p> </p>
+
+<h2 id="units">单位</h2>
+<p>Algeo 智能处理测量单位。它自动将单位转换为正确的形式：<br>
+<code>5m+2cm</code> → <code>5.02m</code><br>
+你可以看到，厘米被转换为米并相加。你也可以自由混合 SI 单位和英制单位：<br>
+<code>5m+1yd</code> → <code>5.9144m</code><br>
+如果你想以其他单位显示结果，点击结果旁边的三个点，选择“更改单位”。输入新单位，更新的结果将会显示：<br>
+<code>5m+1yd</code> → <code>6.46806yd</code><br>
+</p>
+<p>
+不同类型的单位也可以混合使用，比如长度和时间。让我们解决以下问题：一只猫在 3 分钟内走了 50 米。它的速度是多少米每秒？只需将长度除以经过的时间即可得到：<br>
+<code>50m/3min</code> → <code>0.27m/s</code><br>
+你可能需要通过“更改单位”菜单将结果的单位更改为 <code>m/s</code>。
+</p>
+
+<p id="footertext">邮箱: <a href="mailto:info@algeocalc.com">info@algeocalc.com</a><br>
+<a href="notices.txt">法律声明</a><br>予澄 汉化<br>
+© 版权所有 2017 ALGEOCALC.COM 保留所有权利</p>
+
+</div>
+</body>
+</html>

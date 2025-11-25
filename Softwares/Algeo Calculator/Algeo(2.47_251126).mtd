@@ -1,0 +1,2376 @@
+{
+  "0.25x"
+  "0.25倍"
+}
+{
+  "0.5x"
+  "0.5倍"
+}
+{
+  "0.75x"
+  "0.75倍"
+}
+{
+  "Normal"
+  "正常"
+}
+{
+  "1.25x"
+  "1.25倍"
+}
+{
+  "1.5x"
+  "1.5倍"
+}
+{
+  "2x"
+  "2倍"
+}
+{
+  "Cartesian"
+  "笛卡尔坐标系"
+}
+{
+  "Polar"
+  "极坐标系"
+}
+{
+  "Parametric"
+  "参数化"
+}
+{
+  "10 entries"
+  "保留10条"
+}
+{
+  "30 entries"
+  "保留30条"
+}
+{
+  "100 entries"
+  "保留100条"
+}
+{
+  "Page 1"
+  "第1页"
+}
+{
+  "Page 2"
+  "第2页"
+}
+{
+  "SI"
+  "国际单位"
+}
+{
+  "Imperial"
+  "英制单位"
+}
+{
+  "Prefixes"
+  "国际单位词头"
+}
+{
+  "Auto"
+  "自动"
+}
+{
+  "Decimal"
+  "十进制"
+}
+{
+  "Scientific"
+  "科学"
+}
+{
+  "Engineering"
+  "工程"
+}
+{
+  "decimal"
+  "十进制"
+}
+{
+  "scientific"
+  "科学"
+}
+{
+  "engineering"
+  "工程"
+}
+{
+  "root"
+  "根"
+}
+{
+  "intersection"
+  "交点"
+}
+{
+  "minimum"
+  "最小值"
+}
+{
+  "maximum"
+  "最大值"
+}
+{
+  "Light"
+  "亮色"
+}
+{
+  "Dark"
+  "黑暗"
+}
+{
+  "Solarized"
+  "暖光"
+}
+{
+  "Solarized Dark"
+  "蓝黑"
+}
+{
+  "light"
+  "亮"
+}
+{
+  "dark"
+  "暗"
+}
+{
+  "solarized"
+  "暖色"
+}
+{
+  "Fast forward %d second"
+  "快进%d秒"
+}
+{
+  "Fast forward %d seconds"
+  "快进%d秒"
+}
+{
+  "Rewind %d second"
+  "倒退%d秒"
+}
+{
+  "Rewind %d seconds"
+  "倒退%d秒"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "Navigate home"
+  "导航回家"
+}
+{
+  "Navigate up"
+  "回上一页"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "ON"
+  "打开"
+}
+{
+  "Search…"
+  "搜索…"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "Install Flood-It App for free! Free Popular Casual Game"
+  "免费安装Flood It应用程序！免费流行休闲游戏"
+}
+{
+  "INSTALL"
+  "安装"
+}
+{
+  "Test Ad : Flood-It!"
+  "测试广告：淹没它！"
+}
+{
+  "Tell others what you think about this app"
+  "告诉别人你对这款应用的看法"
+}
+{
+  "Rate Us"
+  "评价我们"
+}
+{
+  "About this app"
+  "关于此应用程序"
+}
+{
+  "Click to try?"
+  "点击尝试？"
+}
+{
+  "Reviews"
+  "评论"
+}
+{
+  "View more"
+  "查看更多"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Free access now!"
+  "现在免费访问！"
+}
+{
+  "Choose your favorite video"
+  "选择您最喜欢的视频"
+}
+{
+  "Auto-play in %ds"
+  "自动播放（以%d为单位）"
+}
+{
+  "Downloads"
+  "下载"
+}
+{
+  "Ad ERID copied"
+  "广告已复制"
+}
+{
+  "ERID: %s"
+  "ERID:%s"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Hide ADs"
+  "隐藏广告"
+}
+{
+  "Link copied"
+  "链接已复制"
+}
+{
+  "Recommendation Rules"
+  "推荐规则"
+}
+{
+  "Report ADs"
+  "报告AD"
+}
+{
+  "Privacy"
+  "隐私"
+}
+{
+  "About this advertiser"
+  "关于此广告商"
+}
+{
+  "I Agree"
+  "我同意"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "By submitting this form, you agree to send your personal information to BIGO Ads and {company_name}. BIGO Ads and {company_name} will use this information in accordance with their own privacy policy. View BIGO’s Privacy Policy and {company_name}’s Privacy Policy."
+  "提交此表单即表示您同意向BIGO Ads和{company_name}发送您的个人信息。BIGO Ads和{company_name}将根据其各自的隐私政策使用这些信息。查看BIGO的隐私政策和{company_name}的隐私政策。"
+}
+{
+  "Privacy Notice"
+  "隐私声明"
+}
+{
+  "Please Enter"
+  "请输入"
+}
+{
+  "Submit"
+  "提交"
+}
+{
+  "The answer is required"
+  "需要答案"
+}
+{
+  "Application"
+  "应用程序"
+}
+{
+  "Everyone"
+  "所有人"
+}
+{
+  "Recommended"
+  "推荐"
+}
+{
+  "Jump to details page or third party app"
+  "跳转到详细信息页面或第三方应用程序"
+}
+{
+  "You will lose your reward."
+  "你会失去你的奖励。"
+}
+{
+  "MORE"
+  "更多"
+}
+{
+  "Resume"
+  "简历"
+}
+{
+  "Skip"
+  "跳过"
+}
+{
+  "Skip video?"
+  "跳过视频？"
+}
+{
+  "SKIP"
+  "跳过"
+}
+{
+  "Fantastic and interesting"
+  "太棒了，很有趣"
+}
+{
+  "Loading"
+  "加载中"
+}
+{
+  "Collapse the bottom sheet"
+  "折叠底部表格"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部图纸"
+}
+{
+  "Expand halfway"
+  "扩大一半"
+}
+{
+  "Drag handle"
+  "拖动控制柄"
+}
+{
+  "click here"
+  "点击这里"
+}
+{
+  "Continue"
+  "继续"
+}
+{
+  "Later"
+  "稍后"
+}
+{
+  "Don't ask again"
+  "不再询问"
+}
+{
+  "Send"
+  "发送"
+}
+{
+  "Buy"
+  "购买"
+}
+{
+  "No"
+  "不"
+}
+{
+  "OK"
+  "确定"
+}
+{
+  "Yes"
+  "是的"
+}
+{
+  "Calculator"
+  "计算器"
+}
+{
+  "Swipe keyboard to change between different keyboard pages"
+  "滑动键盘以在不同键盘页面之间切换"
+}
+{
+  "Tip"
+  "小贴士"
+}
+{
+  "Integration needs network connection. Please turn on your connection."
+  "集成需要网络连接，请检查"
+}
+{
+  "Common"
+  "常用"
+}
+{
+  "Stats"
+  "统计数据"
+}
+{
+  "Trig."
+  "三角函数"
+}
+{
+  "Calculating…"
+  "计算中…"
+}
+{
+  "Clear history"
+  "清除历史记录"
+}
+{
+  "Send feedback"
+  "发送反馈"
+}
+{
+  "Turn off ads"
+  "关闭广告"
+}
+{
+  "Use radians"
+  "使用弧度制"
+}
+{
+  "No internet"
+  "没有互联网"
+}
+{
+  "Network error"
+  "网络错误"
+}
+{
+  "Tap here to draw graphs"
+  "点击此处绘制函数图像"
+}
+{
+  "Swipe keyboard for more functions"
+  "滑动键盘以获得更多功能"
+}
+{
+  "Answer"
+  "应答"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Hang Up"
+  "挂断"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "getAppName"
+  "getApp"
+}
+{
+  "Change unit"
+  "更改单位"
+}
+{
+  "Invalid unit"
+  "单位无效"
+}
+{
+  "New unit"
+  "定义新单位"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题。请重试"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务。它很快就会自我更新。"
+}
+{
+  "Open on phone"
+  "在手机上打开"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "To use functions with complex numbers, get the PRO version that also turns off ads!"
+  "要使用复数函数，请获取也关闭广告的高级版！"
+}
+{
+  "Complex Numbers"
+  "复数"
+}
+{
+  "Complexes in PRO only"
+  "复数仅在高级版可用"
+}
+{
+  "atmospheric pressure"
+  "大气压"
+}
+{
+  "Avogadro constant"
+  "阿伏加德罗常数"
+}
+{
+  "Bohr radius"
+  "玻尔半径"
+}
+{
+  "Boltzmann constant"
+  "玻尔兹曼常数"
+}
+{
+  "Conway's constant"
+  "康威常数"
+}
+{
+  "vacuum permittivity"
+  "真空电容率"
+}
+{
+  "elementary charge"
+  "基本电荷"
+}
+{
+  "Thomson cross-section of electron"
+  "电子汤姆逊截面"
+}
+{
+  "electron mass"
+  "电子质量"
+}
+{
+  "electron volt"
+  "电子伏特"
+}
+{
+  "Euler–Mascheroni constant"
+  "欧拉常数"
+}
+{
+  "Faraday constant"
+  "法拉第常数"
+}
+{
+  "Feigenbaum constant"
+  "费根鲍姆常数"
+}
+{
+  "fine structure constant"
+  "精细结构常数"
+}
+{
+  "golden ratio"
+  "黄金比例"
+}
+{
+  "gravitational acceleration"
+  "重力加速度"
+}
+{
+  "gravitational constant"
+  "重力常数"
+}
+{
+  "speed of light"
+  "光速"
+}
+{
+  "vacuum permeability"
+  "真空渗透性"
+}
+{
+  "pi"
+  "圆周率"
+}
+{
+  "Planck constant"
+  "普朗克常数"
+}
+{
+  "Planck length"
+  "普朗克长度"
+}
+{
+  "Planck mass"
+  "普朗克质量"
+}
+{
+  "Planck temperature"
+  "普朗克温度"
+}
+{
+  "Planck time"
+  "普朗克时间"
+}
+{
+  "proton mass"
+  "质子质量"
+}
+{
+  "reduced Planck constant"
+  "约化（合理化）普朗克常数"
+}
+{
+  "Rydberg constant"
+  "里德伯常数"
+}
+{
+  "Stefan-Boltzmann constant"
+  "斯特藩·玻尔兹曼常数"
+}
+{
+  "vacuum impedance"
+  "真空阻抗"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Copy Result"
+  "复制结果"
+}
+{
+  "Link copied to clipboard"
+  "链接已复制到剪贴板"
+}
+{
+  "default"
+  "默认"
+}
+{
+  "Draw"
+  "绘制"
+}
+{
+  "click"
+  "点击"
+}
+{
+  "click|alecfc"
+  "单击|alecfc"
+}
+{
+  "longclick"
+  "长点击"
+}
+{
+  "move"
+  "移动"
+}
+{
+  "wobble"
+  "晃动"
+}
+{
+  "countdown"
+  "倒计时"
+}
+{
+  "visible"
+  "看得见的"
+}
+{
+  "visible|parent"
+  "可见|父"
+}
+{
+  "feedback"
+  "反馈"
+}
+{
+  "activity"
+  "活动"
+}
+{
+  "close"
+  "关闭"
+}
+{
+  "download"
+  "下载"
+}
+{
+  "notice"
+  "通知"
+}
+{
+  "permissionInfo"
+  "许可"
+}
+{
+  "privateAddress"
+  "私人地址"
+}
+{
+  "End value"
+  "结束值"
+}
+{
+  "Step size"
+  "步长"
+}
+{
+  "Start value"
+  "起始值"
+}
+{
+  "The following function has a bad argument list: "
+  "以下函数的参数列表不正确："
+}
+{
+  "The following function has a bad number of arguments: "
+  "以下函数的参数数量不正确："
+}
+{
+  "Error near the following sign: -"
+  "以下标志附近出错：-"
+}
+{
+  "Syntax error!"
+  "语法错误！"
+}
+{
+  "Error near a multiplication"
+  "乘法附近出错"
+}
+{
+  "Error in a number"
+  "数字错误"
+}
+{
+  "Error near the following sign: "
+  "以下标志附近出错："
+}
+{
+  "Can not match parantheses!"
+  "无法匹配插入语！"
+}
+{
+  "Error near a root sign"
+  "根符号附近出错"
+}
+{
+  "Syntax error"
+  "语法错误"
+}
+{
+  "The following expression could not be graphed: "
+  "无法绘制以下表达式："
+}
+{
+  "Functions handling complex numbers are only available in the full version."
+  "处理复数的函数仅在高级版中可用"
+}
+{
+  "Left of the assign must be a variable!"
+  "赋值的左侧必须是一个变量！"
+}
+{
+  "The following function could not be derivated: "
+  "无法导出以下函数："
+}
+{
+  "The following function could not be evaluated: "
+  "无法计算以下函数："
+}
+{
+  "Expression is not integrable"
+  "表达式不可积"
+}
+{
+  "This function is not in the Normal version only in College version: "
+  "此功能不在普通版本中，仅在大学版本中："
+}
+{
+  "Internal error: "
+  "内部错误："
+}
+{
+  "The following function's second argument must be an integer: "
+  "以下函数的第二个参数必须是整数："
+}
+{
+  "The following function's third argument must be an integer: "
+  "以下函数的第三个参数必须是整数："
+}
+{
+  "Too many consecutive factorials, use parentheses if necessary (e.g. (4!)!)"
+  "连续阶乘太多，必要时请使用括号（ 例如(4!)! ）"
+}
+{
+  "Exponents can not have units"
+  "指数不能有单位"
+}
+{
+  "Mismatching units"
+  "单位不匹配"
+}
+{
+  "The following function does not accept numbers with units: "
+  "以下函数不接受带单位的数字："
+}
+{
+  "Character error: "
+  "字符错误："
+}
+{
+  "The modulus must be a positive number!"
+  "模数必须是正数！"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Enable subtitles"
+  "启用字幕"
+}
+{
+  "Disable subtitles"
+  "禁用字幕"
+}
+{
+  "Fast forward"
+  "快进"
+}
+{
+  "Enter fullscreen"
+  "进入全屏"
+}
+{
+  "Exit fullscreen"
+  "退出全屏"
+}
+{
+  "Hide player controls"
+  "隐藏玩家控制"
+}
+{
+  "Next"
+  "下一个"
+}
+{
+  "Hide additional settings"
+  "隐藏其他设置"
+}
+{
+  "Show additional settings"
+  "显示其他设置"
+}
+{
+  "Pause"
+  "暂停"
+}
+{
+  "Play"
+  "播放"
+}
+{
+  "Speed"
+  "速度"
+}
+{
+  "Previous"
+  "上一页"
+}
+{
+  "Current mode: Repeat all. Toggle repeat mode."
+  "当前模式：全部重复。切换重复模式。"
+}
+{
+  "Current mode: Repeat none. Toggle repeat mode."
+  "当前模式：不重复。切换重复模式。"
+}
+{
+  "Current mode: Repeat one. Toggle repeat mode."
+  "当前模式：重复一次。切换重复模式。"
+}
+{
+  "Rewind"
+  "倒回"
+}
+{
+  "Playback progress"
+  "播放进度"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Show player controls"
+  "显示玩家控制"
+}
+{
+  "Enable shuffle mode"
+  "启用随机播放模式"
+}
+{
+  "Disable shuffle mode"
+  "禁用随机播放模式"
+}
+{
+  "Stop"
+  "停下"
+}
+{
+  "VR mode"
+  "VR模式"
+}
+{
+  "Download completed"
+  "下载完成"
+}
+{
+  "Download"
+  "下载"
+}
+{
+  "Downloading"
+  "下载中"
+}
+{
+  "Download failed"
+  "下载失败"
+}
+{
+  "Downloads paused"
+  "下载已暂停"
+}
+{
+  "Downloads waiting for network"
+  "下载任务正在等待网络连接"
+}
+{
+  "Downloads waiting for WiFi"
+  "下载任务正在等待WiFi连接"
+}
+{
+  "Removing downloads"
+  "删除下载"
+}
+{
+  "Mono"
+  "单声道"
+}
+{
+  "%1$d × %2$d"
+  "%1$d×%2$d"
+}
+{
+  "Alternate"
+  "备选方案"
+}
+{
+  "Commentary"
+  "评论"
+}
+{
+  "Supplementary"
+  "补充的"
+}
+{
+  "None"
+  "没有"
+}
+{
+  "Audio"
+  "音频"
+}
+{
+  "Stereo"
+  "立体声"
+}
+{
+  "Surround sound"
+  "环绕声"
+}
+{
+  "5.1 surround sound"
+  "5.1环绕声"
+}
+{
+  "7.1 surround sound"
+  "7.1环绕声"
+}
+{
+  "Unknown"
+  "未知"
+}
+{
+  "Unknown (%1$s)"
+  "未知（%1$s）"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Tell us what was wrong so we can fix it"
+  "告诉我们出了什么问题，这样我们就可以解决了"
+}
+{
+  "Feedback"
+  "反馈意见"
+}
+{
+  "70% OFF"
+  "七折"
+}
+{
+  "Claim discount"
+  "领取优惠"
+}
+{
+  "I like ads"
+  "我喜欢此广告"
+}
+{
+  "Get rid of all ads forever with a one-time purchase"
+  "一次性购买，永远摆脱所有广告"
+}
+{
+  "(was %1$s)"
+  "（是 %1$s）"
+}
+{
+  "🔥 Flash Sale Ending Soon!"
+  "🔥 闪购即将结束！"
+}
+{
+  "Buy PRO"
+  "购买高级版"
+}
+{
+  "Get exclusive features with the PRO version:\n- No ads\n- Complex numbers\n- Longer history\n- Dark theme\n\nYou can also watch video ads to turn off ads for 2 days and get complex numbers."
+  "专业版可享专属功能：\n· 无广告\n· 复数运算\n· 更长的历史记录\n· 深色主题\n \n您也可以观看视频广告，以获得2天的无广告体验和复数运算功能。"
+}
+{
+  "Could not load video, try again later!"
+  "无法加载视频，请稍后重试！"
+}
+{
+  "Get PRO version"
+  "获取高级版"
+}
+{
+  "WATCH AD"
+  "观看广告"
+}
+{
+  "Please take a moment and rate us on Google Play"
+  "请花点时间在Google Play上给我们评分"
+}
+{
+  "Graph"
+  "图像"
+}
+{
+  "Axes always visible"
+  "轴始终可见"
+}
+{
+  "1:1 scaling"
+  "等比缩放"
+}
+{
+  "Reset"
+  "重置视图"
+}
+{
+  "Scale"
+  "笛卡尔坐标系"
+}
+{
+  "Trace"
+  "追踪"
+}
+{
+  "Unit π on x axis"
+  "x轴以π为单位"
+}
+{
+  "Unit π on y axis"
+  "y轴以π为单位"
+}
+{
+  "Normal mode"
+  "正常模式"
+}
+{
+  "You can send your graphs to others and they'll be able to look at and edit them."
+  "您可以将您的图表发送给其他人，他们将能够查看和编辑它们。"
+}
+{
+  "Share graphs"
+  "分享图表"
+}
+{
+  "Trace graphs to find roots and intersections"
+  "锁定视图以查找函数的根和交点"
+}
+{
+  "Zoom"
+  "缩放"
+}
+{
+  "Clear"
+  "清除"
+}
+{
+  "Click on one of the equations to enter an expression:"
+  "单击其中一个方程式以输入表达式："
+}
+{
+  "No entries"
+  "无可显示的条目"
+}
+{
+  "First enter some expression to draw or evaluate!"
+  "请先输入一些表达式来绘制或计算！"
+}
+{
+  "The expression you wanted to paste contains a function which is not graphable."
+  "您要粘贴的表达式包含一个不可绘制的函数。"
+}
+{
+  "Not graphable"
+  "不可书写"
+}
+{
+  "Table"
+  "列表"
+}
+{
+  "Graph Menu"
+  "函数图形菜单"
+}
+{
+  "Visible"
+  "可见"
+}
+{
+  "Help"
+  "帮助"
+}
+{
+  "Changing length of the history is a PRO version feature. Do you want to get it now?"
+  "更改历史长度是高级版的一项功能，需要购买吗？"
+}
+{
+  "Get the PRO version to turn off ads!"
+  "获取高级版以关闭广告！"
+}
+{
+  "Don't miss our Flash Sale! 🔥"
+  "不要错过我们的闪购！ 🔥"
+}
+{
+  "Ads by DT"
+  "DT广告"
+}
+{
+  "CLOSE"
+  "关闭"
+}
+{
+  "KEEP WATCHING"
+  "继续看"
+}
+{
+  "Reward will not be received before video completion."
+  "视频完成前不会收到奖励。"
+}
+{
+  "Close Video?"
+  "关闭视频？"
+}
+{
+  "Connection was lost\ncannot play video"
+  "连接丢失\n无法播放视频"
+}
+{
+  "App Info"
+  "应用程序信息"
+}
+{
+  "Skip in (%d)"
+  "跳过（%d）"
+}
+{
+  "Install Now"
+  "立即安装"
+}
+{
+  "Instant Install"
+  "即时安装"
+}
+{
+  "Skip Ad"
+  "跳过广告"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Edit expression"
+  "编辑表达式"
+}
+{
+  "Get it"
+  "知道了"
+}
+{
+  "Here is my solution"
+  "这是我的解决方案"
+}
+{
+  "Error with Google Play services"
+  "Google Play服务出错"
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "The link was corrupted, unable to process it!"
+  "链接已损坏，无法处理！"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "%1$s hours"
+  "%1$s小时"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "%1$s o'clock"
+  "%1$s 小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "%1$s minutes"
+  "%1$s 分钟"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Value"
+  "价值观"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "PM"
+  "颗粒物"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "Not playing"
+  "不玩"
+}
+{
+  "Other issues"
+  "其他问题"
+}
+{
+  "Pornography & Violence"
+  "色情与暴力"
+}
+{
+  "Sound problems"
+  "声音问题"
+}
+{
+  "Mintegral Privacy Policy"
+  "Mintegral隐私政策"
+}
+{
+  "Thanks for your feedback"
+  "感谢您的反馈"
+}
+{
+  "Report Ads"
+  "报告广告"
+}
+{
+  "Play Game"
+  "玩游戏"
+}
+{
+  "AD"
+  "广告"
+}
+{
+  "Do you want to learn more?"
+  "你想了解更多吗？"
+}
+{
+  "you have been rewarded"
+  "你得到了回报"
+}
+{
+  "s left to be rewarded"
+  "还有待奖励"
+}
+{
+  "s left to skip"
+  "剩下的就跳过了"
+}
+{
+  "Viewed"
+  "已查看"
+}
+{
+  "Auto close after"
+  "自动关闭后"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "Collapsed"
+  "折叠"
+}
+{
+  "Expanded"
+  "展开"
+}
+{
+  "icon"
+  "偶像"
+}
+{
+  "icon path"
+  "图标路径"
+}
+{
+  "button"
+  "按钮"
+}
+{
+  "button path"
+  "按钮路径"
+}
+{
+  "Checked"
+  "选中的"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Change to next month"
+  "改到下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择：%1$s–结束日期选择：%2$s"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "none"
+  "没有人"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "End date %1$s"
+  "结束日期%1$s"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Navigate to current year %1$d"
+  "导航到当前年份%1$d"
+}
+{
+  "Navigate to year %1$d"
+  "导航到%1$d年"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Start date %1$s"
+  "开始日期%1$s"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Today %1$s"
+  "今天%1$s"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to Calendar view"
+  "切换到日历视图"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to year view"
+  "切换到年视图"
+}
+{
+  "Switched to Calendar view"
+  "已切换到日历视图"
+}
+{
+  "Switched to year view"
+  "已切换到年视图"
+}
+{
+  "circle"
+  "圆圈"
+}
+{
+  "Body"
+  "主体"
+}
+{
+  "Headline"
+  "标题"
+}
+{
+  "Media View"
+  "媒体视图"
+}
+{
+  "Could not open Google Play"
+  "无法打开Google Play"
+}
+{
+  "No email clients installed"
+  "未安装电子邮件客户端"
+}
+{
+  "Could not access the Play Store, please check your network connection."
+  "无法访问Play商店，请检查您的网络连接。"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "Allow"
+  "允许"
+}
+{
+  "Don't allow"
+  "不允许"
+}
+{
+  "Allow app to send you notifications?"
+  "是否允许应用程序向您发送通知？"
+}
+{
+  "Icon"
+  "偶像"
+}
+{
+  "Thanks for your interest.\nWe will share more once you're back online."
+  "感谢您的关注。\n一旦你重新上线，我们将分享更多。"
+}
+{
+  "You are back online! Let's pick up where we left off"
+  "你又上线了！让我们从中断的地方继续"
+}
+{
+  "No thanks"
+  "不用了，谢谢"
+}
+{
+  "We'll send you a notification with a link to the advertiser site."
+  "我们将向您发送一个通知，其中包含指向广告商网站的链接。"
+}
+{
+  "Open ad when you're back online."
+  "当你重新上线时打开广告"
+}
+{
+  "Options"
+  "选项"
+}
+{
+  "The minimum of the parameter must be smaller than the maximum, and the number of points has to be positive!"
+  "参数的最小值必须小于其最大值，且点数必须为正！"
+}
+{
+  "Number of points calculated"
+  "计算的点数"
+}
+{
+  "Minimum value of the parameter"
+  "参数最小值"
+}
+{
+  "Maximum value of the parameter"
+  "参数最大值"
+}
+{
+  "Parametric range"
+  "参数范围"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Paste"
+  "粘贴"
+}
+{
+  "Minimum of polar angle"
+  "极角最小值"
+}
+{
+  "Step size of polar angle"
+  "极角步长"
+}
+{
+  "Maximum of polar angle"
+  "极角最大值"
+}
+{
+  "Polar range"
+  "极径范围"
+}
+{
+  "The minimum of the polar angle must be smaller than the maximum, and the number of points has to be positive!"
+  "极角的最小值必须小于其最大值，且点数必须为正！"
+}
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板。"
+}
+{
+  "It can take up to 24 hours until Google confirms the purchase for this device as well. Until then ads may appear again."
+  "谷歌也可能需要24小时才能确认购买该设备。在那之前，广告可能会再次出现。"
+}
+{
+  "Animate line selection"
+  "为线条选择设置动画"
+}
+{
+  "Insert Ans before minus"
+  "在减号前插入Ans（上次计算结果）"
+}
+{
+  "Automatic evaluation"
+  "自动计算"
+}
+{
+  "Calculate result while typing"
+  "输入时同步计算结果"
+}
+{
+  "Backspace deletes line"
+  "删除行"
+}
+{
+  "Remove advertisements and support the project"
+  "关闭广告并支持软件开发"
+}
+{
+  "Calculator settings"
+  "计算器设置"
+}
+{
+  "Display rationals as fractions"
+  "将有理数显示为分数"
+}
+{
+  "Enter adds new line"
+  "Enter添加新行"
+}
+{
+  "Vibrate buttons"
+  "按键振动反馈"
+}
+{
+  "Length of the history"
+  "历史记录上限"
+}
+{
+  "Keyboard settings"
+  "键盘设置"
+}
+{
+  "Add new line on start"
+  "开始时添加新行"
+}
+{
+  "Numeric notation"
+  "数字表示法〔!软件存在BUG，请勿改动此项，否则闪退需重装!〕"
+}
+{
+  "Simple input method"
+  "简单渲染模式"
+}
+{
+  "Not nicely rendered input - needs restart"
+  "简化数字字体渲染，优化速度（需要重启）"
+}
+{
+  "Output settings"
+  "输出设置"
+}
+{
+  "Error during the purchase process!"
+  "购买过程中出错！"
+}
+{
+  "Thank you for upgrading and supporting the project!"
+  "感谢您对项目的升级和支持！"
+}
+{
+  "Theme"
+  "主题"
+}
+{
+  "Thousands separator"
+  "千位分隔符"
+}
+{
+  " Settings"
+  "设置"
+}
+{
+  "Absolute value function. Syntax: <br /> <tt><color-fn>abs</color-fn>(num)</tt><br /><br /> Example:<br /> <tt><color-fn>abs</color-fn>(-5)</tt> &rarr; <tt>5</tt>"
+  "绝对值函数。语法：<br /> \n<tt><color-fn>abs</color-fn>(num)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>abs</color-fn>(-5)</tt> &rarr; <tt>5</tt>"
+}
+{
+  "Differentiates a function. Syntax: <br /> <tt><color-fn>diff</color-fn>(expr)</tt><br /><br /> Example:<br /> <tt><color-fn>diff</color-fn>(x^2)</tt> &rarr; <tt>2*x</tt>"
+  "对一个函数进行求导。语法：<br /> \n<tt><color-fn>diff</color-fn>(expr)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>diff</color-fn>(x^2)</tt> &rarr; <tt>2*x</tt>"
+}
+{
+  "Calculates the exponential function, that is <formula-frml_e_pow_x-base />. Syntax: <br /> <tt><color-fn>exp</color-fn>(num)</tt><br /><br /> Example:<br /> <tt><color-fn>exp</color-fn>(1)</tt> &rarr; <tt>2.718</tt>"
+  "计算指数函数，即 <formula-frml_e_pow_x-base />。语法：<br /> \n<tt><color-fn>exp</color-fn>(num)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>exp</color-fn>(1)</tt> &rarr; <tt>2.718</tt>"
+}
+{
+  "Integer part function. Returns the highest integer not larger than the parameter. Syntax: <br /> <tt><color-fn>floor</color-fn>(num)</tt><br /><br /> Example:<br /> <tt><color-fn>floor</color-fn>(3.2)</tt> &rarr; <tt>3</tt>"
+  "整数部分函数。返回不大于参数的最大整数。语法：<br /> \n<tt><color-fn>floor</color-fn>(num)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>floor</color-fn>(3.2)</tt> &rarr; <tt>3</tt>"
+}
+{
+  "Fractional part, the difference between this number and its integer part. Syntax: <br /> <tt><color-fn>frac</color-fn>(num)</tt><br /><br /> Examples:<br /> <tt><color-fn>frac</color-fn>(3.2)</tt> &rarr; <tt>0.2</tt><br /> <tt><color-fn>frac</color-fn>(-2.2)</tt> &rarr; <tt>0.8</tt>"
+  "小数部分，即该数与其整数部分之间的差值。语法：<br /> \n<tt><color-fn>frac</color-fn>(num)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>frac</color-fn>(3.2)</tt> &rarr; <tt>0.2</tt><br /> \n<tt><color-fn>frac</color-fn>(-2.2)</tt> &rarr; <tt>0.8</tt>"
+}
+{
+  "Calculates the greatest common divisor of two numbers. Syntax: <br /> <tt><color-fn>gcd</color-fn>(n, k)</tt><br /><br /> Example:<br /> <tt><color-fn>gcd</color-fn>(12, 8)</tt> &rarr; <tt>4</tt>"
+  "计算两个数的最大公约数。语法：<br /> \n<tt><color-fn>gcd</color-fn>(n, k)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>gcd</color-fn>(12, 8)</tt> &rarr; <tt>4</tt>"
+}
+{
+  "Indefinite integral. Needs network connection to work. Syntax: <br /> <tt><color-fn>int</color-fn>(expr)</tt><br /><br /> Example:<br /> <tt><color-fn>int</color-fn>(x^2/2)</tt> &rarr; <tt>x^3</tt>"
+  "不定积分。需要网络连接才能工作。语法：<br /> \n<tt><color-fn>int</color-fn>(expr)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>int</color-fn>(x^2/2)</tt> &rarr; <tt>x^3</tt>"
+}
+{
+  "Definite integral. Syntax: <br /> <tt><color-fn>intd</color-fn>(expr, start, end)</tt><br /><br /> Example:<br /> <tt><color-fn>intd</color-fn>(x, 0, 10)</tt> &rarr; <tt>50</tt>"
+  "定积分。语法：<br /> \n<tt><color-fn>intd</color-fn>(expr, start, end)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>intd</color-fn>(x, 0, 10)</tt> &rarr; <tt>50</tt>"
+}
+{
+  "Calculates the least common multiplier of two numbers. Syntax: <br /> <tt><color-fn>lcm</color-fn>(n, k)</tt><br /><br /> Example:<br /> <tt><color-fn>lcm</color-fn>(12, 8)</tt> &rarr; <tt>24</tt>"
+  "计算两个数的最小公倍数。语法：<br /> \n<tt><color-fn>lcm</color-fn>(n, k)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>lcm</color-fn>(12, 8)</tt> &rarr; <tt>24</tt>"
+}
+{
+  "Calculates natural logarithm (base <i>e</i> logarithm). Syntax: <br /> <tt><color-fn>ln</color-fn>(num)</tt><br /><br /> Example:<br /> <tt><color-fn>ln</color-fn>(e)</tt> &rarr; <tt>1</tt>"
+  "计算自然对数（以 <i>e</i> 为底的对数）。语法：<br /> \n<tt><color-fn>ln</color-fn>(num)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>ln</color-fn>(e)</tt> &rarr; <tt>1</tt>"
+}
+{
+  "Calculates 10-based logarithm. Syntax: <br /> <tt><color-fn>log</color-fn>(num)</tt><br /><br /> Example:<br /> <tt><color-fn>log</color-fn>(100)</tt> &rarr; <tt>2</tt>"
+  "计算以 10 为底的对数。语法：<br /> \n<tt><color-fn>log</color-fn>(num)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>log</color-fn>(100)</tt> &rarr; <tt>2</tt>"
+}
+{
+  "Calculates the average of a list of numbers. Syntax: <br /> <tt><color-fn>mean</color-fn>(x1, x2, x3, …)</tt><br /><br /> Example:<br /> <tt><color-fn>mean</color-fn>(1,2,3,5)</tt> &rarr; <tt>2.75</tt>"
+  "计算一组数字的平均值。语法：<br /> \n<tt><color-fn>mean</color-fn>(x1, x2, x3, …)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>mean</color-fn>(1,2,3,5)</tt> &rarr; <tt>2.75</tt>"
+}
+{
+  "Calculates the median of a list of numbers. Syntax: <br /> <tt><color-fn>median</color-fn>(x1, x2, x3, …)</tt><br /><br /> Example:<br /> <tt><color-fn>median</color-fn>(1,3,100)</tt> &rarr; <tt>3</tt>"
+  "计算一组数字的中位数。语法：<br /> \n<tt><color-fn>median</color-fn>(x1, x2, x3, …)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>median</color-fn>(1,3,100)</tt> &rarr; <tt>3</tt>"
+}
+{
+  "Calculates the remainder of <i>n</i> after dividing by <i>r</i>. Syntax: <br /> <tt><color-fn>mod</color-fn>(n, r)</tt><br /><br /> Example:<br /> <tt><color-fn>mod</color-fn>(17, 5)</tt> &rarr; <tt>2</tt>"
+  "计算 <i>n</i> 除以 <i>r</i> 的余数。语法：<br /> \n<tt><color-fn>mod</color-fn>(n, r)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>mod</color-fn>(17, 5)</tt> &rarr; <tt>2</tt>"
+}
+{
+  "Calculates <formula-frml_n_choose_k />, the number of <i>k</i> combinations from <i>n</i> elements. Syntax: <br /> <tt><color-fn>nCr</color-fn>(n,k)</tt><br /><br /> Example:<br /> <tt><color-fn>nCr</color-fn>(5,2)</tt> &rarr; <tt>10</tt>"
+  "计算 <formula-frml_n_choose_k />，即从 <i>n</i> 个元素中取 <i>k</i> 个组合的数量。语法：<br /> \n<tt><color-fn>nCr</color-fn>(n,k)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>nCr</color-fn>(5,2)</tt> &rarr; <tt>10</tt>"
+}
+{
+  "Calculates the number of <i>k</i> permutations from <i>n</i> elements, equals to <formula-frml_n_perm_k /> Syntax: <br /> <tt><color-fn>nPr</color-fn>(n,k)</tt><br /><br /> Example:<br /> <tt><color-fn>nPr</color-fn>(5,2)</tt> &rarr; <tt>20</tt>"
+  "计算从 <i>n</i> 个元素中取 <i>k</i> 个排列的数量，等于 <formula-frml_n_perm_k />。语法：<br /> \n<tt><color-fn>nPr</color-fn>(n,k)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>nPr</color-fn>(5,2)</tt> &rarr; <tt>20</tt>"
+}
+{
+  "Calculates the probability density function of the normal distribution (also called Gaussian distribution). The formula of the density function is<br/> &nbsp;&nbsp;&nbsp;<formula-frml_normal_distribution />,<br/> where μ is the mean and σ is the standard deviation. Syntax: <br /> <tt><color-fn>normal</color-fn>(x, mu, sigma)</tt><br /><br /> Example:<br /> <tt><color-fn>normal</color-fn>(1,0,2)</tt> &rarr; <tt>0.17</tt>"
+  "计算正态分布（也称为高斯分布）的概率密度函数。密度函数的公式为<br/> \n&nbsp;&nbsp;&nbsp;<formula-frml_normal_distribution />，<br/> \n其中 μ 是均值，σ 是标准差。语法：<br /> \n<tt><color-fn>normal</color-fn>(x, mu, sigma)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>normal</color-fn>(1,0,2)</tt> &rarr; <tt>0.17</tt>"
+}
+{
+  "Solves an equation, only finds a single solution. If the '=' sign is not provided, it solves for zero. Syntax: <br /> <tt><color-fn>solve</color-fn>(expr)</tt><br /><br /> Examples:<br /> <tt><color-fn>solve</color-fn>(x^2=4)</tt> &rarr; <tt>2</tt><br /> <tt><color-fn>solve</color-fn>(x+3)</tt> &rarr; <tt>-3</tt><br />"
+  "求解方程，仅找到一个解。如果没有提供 '=' 符号，则求解为零。语法：<br /> \n<tt><color-fn>solve</color-fn>(expr)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>solve</color-fn>(x^2=4)</tt> &rarr; <tt>2</tt><br /> \n<tt><color-fn>solve</color-fn>(x+3)</tt> &rarr; <tt>-3</tt><br />"
+}
+{
+  "Calculates the standard deviation (the square root of variance) of a list of numbers. Syntax: <br /> <tt><color-fn>stddev</color-fn>(x1, x2, x3, …)</tt><br /><br /> Example:<br /> <tt><color-fn>stddev</color-fn>(1,3,5)</tt> &rarr; <tt>2</tt>"
+  "计算一组数字的标准差（方差的平方根）。语法：<br /> \n<tt><color-fn>stddev</color-fn>(x1, x2, x3, …)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>stddev</color-fn>(1,3,5)</tt> &rarr; <tt>2</tt>"
+}
+{
+  "Calculates Taylor series. Syntax: <br /> <tt><color-fn>taylor</color-fn>(expr, center, order)</tt><br /><br /> Example:<br /> <tt><color-fn>taylor</color-fn>(sin(x), 0, 3)</tt> &rarr; <tt>x-x^3/3!</tt>"
+  "计算泰勒级数。语法：<br /> \n<tt><color-fn>taylor</color-fn>(expr, center, order)</tt><br /><br /> 示例：<br /> \n<tt><color-fn>taylor</color-fn>(sin(x), 0, 3)</tt> &rarr; <tt>x-x^3/3!</tt>"
+}
+{
+  "Calculates the variance of a list of numbers. Syntax: <br /> <tt><color-fn>var</color-fn>(x1, x2, x3, …)</tt><br /><br /> Example:<br /> <tt><color-fn>var</color-fn>(1,3,5)</tt> &rarr; <tt>4</tt>"
+  "计算一组数字的方差。语法：<br /> \n<tt><color-fn>var</color-fn>(x1, x2, x3, …)</tt><br /><br /> \n示例：<br /> \n<tt><color-fn>var</color-fn>(1,3,5)</tt> &rarr; <tt>4</tt>"
+}
+{
+  "Do you like Algeo? If yes help us by rating it on Google Play!"
+  "如果您喜欢此软件，可以在Google Play中为我们评分！"
+}
+{
+  "No, thanks"
+  "不用了，谢谢"
+}
+{
+  "Rate"
+  "费率"
+}
+{
+  "Save image"
+  "保存图像"
+}
+{
+  "Allow Ad to store image in Picture gallery?"
+  "是否允许广告将图像存储在图片库中？"
+}
+{
+  "Accept"
+  "接受"
+}
+{
+  "Create calendar event"
+  "创建日历事件"
+}
+{
+  "Allow Ad to create a calendar event?"
+  "是否允许广告创建日历事件？"
+}
+{
+  "Test Ad"
+  "测试广告"
+}
+{
+  "Scale settings"
+  "比例设置"
+}
+{
+  "Maximum of x"
+  "x轴最大值"
+}
+{
+  "Minimum of x"
+  "x轴最大值"
+}
+{
+  "Maximum of y"
+  "y轴最大值"
+}
+{
+  "Minimum of y"
+  "y轴最小值"
+}
+{
+  "Back"
+  "返回"
+}
+{
+  "Send with"
+  "发送方式"
+}
+{
+  "Share"
+  "分享"
+}
+{
+  "Failed to create link"
+  "创建链接失败"
+}
+{
+  "Failed to create link - network connection needed"
+  "创建链接失败-需要网络连接"
+}
+{
+  "Side Sheet"
+  "侧板"
+}
+{
+  "You have been using Algeo for a long time. Would you help us by answering a few questions?"
+  "您已经使用Algeo很长时间了。你能帮我们回答几个问题吗？"
+}
+{
+  "Never Ask"
+  "从不询问"
+}
+{
+  "Help Us!"
+  "帮助我们"
+}
+{
+  "Edit range"
+  "编辑范围"
+}
+{
+  "Reset range"
+  "重置范围"
+}
+{
+  "Table of values"
+  "数值表"
+}
+{
+  "The step size must be greater than zero."
+  "步长必须大于零。"
+}
+{
+  "Changing themes is a PRO version feature. Do you want to get it now?"
+  "更改主题是高级版的一项功能，需要购买吗"
+}
+{
+  "Use Ans to get the result from the previous row. You can also chain calculations by using Ans in each row. This lets you easily update your results, just press Enter on each row."
+  "使用Ans从上一行获取结果。您还可以通过在每一行中使用Ans来链接计算，您可以用来轻松更新结果，只需在每行按Enter键。"
+}
+{
+  "You can long click on the name of a function to get help. It explains its usage and gives examples."
+  "您可以长按计算器上函数名称以获取详细信息，它解释了用法并举例"
+}
+{
+  "Don't want to see ads? You can watch videos that turn off ads and also give you some of the premium features!"
+  "若您不想看到广告，可以观看一段视频后暂时关闭广告，同时获得一些高级功能体验权限。"
+}
+{
+  "Send easily your calculations to anyone by long-clicking on a calculation and selecting Share. You can send the results over e-mail / texts / Messenger / whatever you prefer."
+  "通过长按计算并选择“共享”，可以轻松地将计算结果发送给他人。您可以通过电子邮件/短信/Messenger等任何您喜欢的方式发送结果。"
+}
+{
+  "Turn on tracing in the plot screen by clicking the button in the lower right corner. This will let you to inspect the graphs at any locations."
+  "单击右下角的按钮，能在绘图屏幕中启用跟踪，这将允许您在任何位置检查图表。"
+}
+{
+  "There are four variables you can use to store values: a, b, d and t. To set their values you can type:\na = 3"
+  "有四个变量可用于存储值：a、b、d和t。要设置它们的值，可以键入：a=3（示例）。"
+}
+{
+  "Notifications"
+  "通知"
+}
+{
+  "Check out our Tips & Tricks on how to use Algeo!"
+  "查看我们关于如何使用Algeo的提示和技巧！"
+}
+{
+  "Tips and Tricks"
+  "提示和技巧"
+}
+{
+  "atto"
+  "阿[托]\n10^-18"
+}
+{
+  "Celsius"
+  "摄氏度"
+}
+{
+  "centi"
+  "厘\n10^-2"
+}
+{
+  "chain"
+  "冈特测链"
+}
+{
+  "coulomb"
+  "库仑"
+}
+{
+  "deca"
+  "几十年"
+}
+{
+  "degree"
+  "度"
+}
+{
+  "drachm"
+  "德拉克马"
+}
+{
+  "exa"
+  "艾[可萨]\n10^18"
+}
+{
+  "farad"
+  "法拉"
+}
+{
+  "femto"
+  "飞[母托]\n10^-15"
+}
+{
+  "foot"
+  "英尺"
+}
+{
+  "furlong"
+  "弗隆"
+}
+{
+  "giga"
+  "吉[咖]\n10^9"
+}
+{
+  "grain"
+  "格令"
+}
+{
+  "gram"
+  "克"
+}
+{
+  "hecto"
+  "百\n10^2"
+}
+{
+  "henry"
+  "亨利"
+}
+{
+  "hertz"
+  "赫兹"
+}
+{
+  "hour"
+  "小时"
+}
+{
+  "inch"
+  "英寸"
+}
+{
+  "joule"
+  "焦耳"
+}
+{
+  "kilo"
+  "千\n10^3"
+}
+{
+  "long ton"
+  "英吨"
+}
+{
+  "mega"
+  "兆\n10^6"
+}
+{
+  "meter"
+  "米"
+}
+{
+  "micro"
+  "微\n10^-6"
+}
+{
+  "mile"
+  "英里"
+}
+{
+  "milli"
+  "毫\n10^-3"
+}
+{
+  "minute"
+  "分钟"
+}
+{
+  "nano"
+  "纳[诺]\n10^-9"
+}
+{
+  "newton"
+  "牛顿"
+}
+{
+  "ohm"
+  "欧姆"
+}
+{
+  "ounce"
+  "盎司"
+}
+{
+  "pascal"
+  "帕斯卡"
+}
+{
+  "peta"
+  "拍[它]\n10^15"
+}
+{
+  "pico"
+  "皮[可]\n10^-12"
+}
+{
+  "pound"
+  "磅"
+}
+{
+  "radian"
+  "弧度"
+}
+{
+  "second"
+  "秒"
+}
+{
+  "siemens"
+  "西门子"
+}
+{
+  "stone"
+  "英石"
+}
+{
+  "tera"
+  "太[拉]\n10^12"
+}
+{
+  "tesla"
+  "特斯拉"
+}
+{
+  "thou"
+  "毫英寸"
+}
+{
+  "volt"
+  "伏特"
+}
+{
+  "watt"
+  "瓦特"
+}
+{
+  "weber"
+  "韦伯"
+}
+{
+  "yard"
+  "码"
+}
+{
+  "yocto"
+  "\t幺[科托]\n10^-24"
+}
+{
+  "yotta"
+  "尧[它]\n10^24"
+}
+{
+  "zepto"
+  "仄[普托]\n10^-21"
+}
+{
+  "zetta"
+  "泽[它]\n10^21"
+}
+{
+  "The link is from a newer version of Algeo. Please update the app via Google Play."
+  "该链接来自Algeo的更新版本。请通过Google Play更新应用程序。"
+}
+{
+  "The minimum of x must be smaller than the maximum!"
+  "x的最小值必须小于其最大值！"
+}
+{
+  "The minimum of y must be smaller than the maximum!"
+  "y的最小值必须小于其最大值！"
+}
