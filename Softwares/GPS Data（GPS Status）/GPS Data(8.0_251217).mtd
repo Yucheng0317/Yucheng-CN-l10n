@@ -1,0 +1,1416 @@
+{
+  "\"%1$s\" copied to clipboard."
+  "“%1$s”已复制到剪贴板"
+}
+{
+  "%1$s hours"
+  "%1$s小时"
+}
+{
+  "%1$s is having trouble with Google Play services. Please try again."
+  "%1$s在使用Google Play服务时遇到问题，请重试"
+}
+{
+  "%1$s minutes"
+  "%1$s分钟"
+}
+{
+  "%1$s o'clock"
+  "%1$s小时"
+}
+{
+  "%1$s won't run unless you update Google Play services."
+  "除非您更新Google Play服务，否则%1$s不会运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are currently updating."
+  "如果没有目前正在更新的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are missing from your device."
+  "如果没有您的设备中缺少的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't run without Google Play services, which are not supported by your device."
+  "如果没有您的设备不支持的Google Play服务，%1$s将无法运行。"
+}
+{
+  "%1$s won't work unless you enable Google Play services."
+  "除非您启用Google Play服务，否则%1$s将无法使用。"
+}
+{
+  "%1$s – %2$s"
+  "%1$s–%2$s"
+}
+{
+  "%1$s – End date"
+  "%1$s–结束日期"
+}
+{
+  "%d new notification"
+  "%d新通知"
+}
+{
+  "%d new notifications"
+  "%d新通知"
+}
+{
+  "A-GPS - Assisted GPS"
+  "A-GPS - 辅助GPS"
+}
+{
+  "AM"
+  "上午"
+}
+{
+  "Accuracy"
+  "精度"
+}
+{
+  "Additional theme"
+  "附加主题"
+}
+{
+  "Address"
+  "地址"
+}
+{
+  "Address could not be found"
+  "找不到地址"
+}
+{
+  "Advanced"
+  "高级"
+}
+{
+  "Alert"
+  "警报"
+}
+{
+  "All"
+  "全部"
+}
+{
+  "Altitude"
+  "海拔高度"
+}
+{
+  "Answer"
+  "应答"
+}
+{
+  "App will now transform into Pro version"
+  "应用程序现在将切换到专业版"
+}
+{
+  "App will switch to pro version after transaction verification"
+  "交易验证后，应用程序将切换到专业版"
+}
+{
+  "App will switch to pro version after you complete the payment"
+  "完成付款后，应用程序将切换到专业版"
+}
+{
+  "App without ads"
+  "无广告的应用程序"
+}
+{
+  "Appearance"
+  "外观"
+}
+{
+  "Application needs privilege to work properly on your device. \n ● Location privilege to handle GPS Data"
+  "应用程序需要权限才能在您的设备上正常运行。\n \n· GPS Data 必需位置权限以运行。"
+}
+{
+  "Assign privileges"
+  "授权"
+}
+{
+  "Azimuth"
+  "方位角"
+}
+{
+  "Back"
+  "返回"
+}
+{
+  "Back to main screen"
+  "返回主屏幕"
+}
+{
+  "Band"
+  "频段"
+}
+{
+  "Bearing"
+  "方位"
+}
+{
+  "Bearing units"
+  "方位单位"
+}
+{
+  "BeiDou"
+  "北斗"
+}
+{
+  "Buy ad-free GPS Data+"
+  "购买无广告的GPS Data+"
+}
+{
+  "Buy ad-free version"
+  "购买无广告版本"
+}
+{
+  "Cancel"
+  "取消"
+}
+{
+  "Cancel and close app"
+  "取消并关闭应用程序"
+}
+{
+  "Cardinal"
+  "基数"
+}
+{
+  "Carrier frequency"
+  "载波频率"
+}
+{
+  "Change order of data presentation"
+  "更改数据显示顺序"
+}
+{
+  "Change to next month"
+  "改为下个月"
+}
+{
+  "Change to previous month"
+  "改为上个月"
+}
+{
+  "Character limit exceeded %1$d of %2$d"
+  "字符限制超过%1$d，共%2$d"
+}
+{
+  "Characters entered %1$d of %2$d"
+  "输入的字符为%1$d，共%2$d个"
+}
+{
+  "Checked"
+  "已检查"
+}
+{
+  "Choose an app"
+  "选择一个应用程序"
+}
+{
+  "City"
+  "城市"
+}
+{
+  "Clear query"
+  "清除查询"
+}
+{
+  "Clear text"
+  "清除文本"
+}
+{
+  "Close"
+  "关闭"
+}
+{
+  "Close and don't show it again"
+  "关闭且不再显示"
+}
+{
+  "Close application"
+  "关闭应用程序"
+}
+{
+  "Collapse"
+  "折叠"
+}
+{
+  "Collapse the bottom sheet"
+  "收起底部菜单"
+}
+{
+  "Collapsed"
+  "折叠"
+}
+{
+  "Copied to clipboard"
+  "已复制到剪贴板"
+}
+{
+  "Copy"
+  "复制"
+}
+{
+  "Copy link"
+  "复制链接"
+}
+{
+  "Copy to clipboard"
+  "复制到剪贴板"
+}
+{
+  "Country"
+  "国家／地区"
+}
+{
+  "Current position, accuracy and more"
+  "当前位置、精度等"
+}
+{
+  "Current selection: %1$s"
+  "当前选择：%1$s"
+}
+{
+  "Currently there are no offers to upgrade application"
+  "目前没有升级应用程序的优惠"
+}
+{
+  "Daily request limit exceeded."
+  "超出每日请求限制"
+}
+{
+  "Date"
+  "日期"
+}
+{
+  "Daylight map"
+  "日光地图"
+}
+{
+  "Decline"
+  "拒绝"
+}
+{
+  "Degrees"
+  "度（°）"
+}
+{
+  "Degrees (DDD.DDDDD°)"
+  "度 (DDD.DDDDD°)"
+}
+{
+  "Delete A-GPS Data"
+  "删除A-GPS数据"
+}
+{
+  "Dialog Icon"
+  "对话框图标"
+}
+{
+  "Display"
+  "显示"
+}
+{
+  "Distance units"
+  "距离单位"
+}
+{
+  "Don't show again"
+  "不再显示"
+}
+{
+  "Done"
+  "完成"
+}
+{
+  "Download for free"
+  "免费下载"
+}
+{
+  "Download new A-GPS Data"
+  "下载新的A-GPS数据"
+}
+{
+  "Drag handle"
+  "拖动控件"
+}
+{
+  "Earth-Centered, Earth-Fixed (ECEF)"
+  "以地球为中心，固定地球（ECEF）"
+}
+{
+  "Elevation"
+  "海拔"
+}
+{
+  "Enable"
+  "启用"
+}
+{
+  "Enable Google Play services"
+  "启用Google Play服务"
+}
+{
+  "End date"
+  "结束日期"
+}
+{
+  "End date %1$s"
+  "结束日期 %1$s"
+}
+{
+  "Error"
+  "错误"
+}
+{
+  "Error while getting offers. Check your internet connection and try again"
+  "获取报价时出错\n请检查您的互联网连接，然后重试"
+}
+{
+  "Error while starting payment process"
+  "启动付款流程时出错"
+}
+{
+  "Error: invalid"
+  "错误：无效"
+}
+{
+  "Example: %1$s"
+  "示例：%1$s"
+}
+{
+  "Expand halfway"
+  "展开至一半"
+}
+{
+  "Expand the bottom sheet"
+  "展开底部菜单"
+}
+{
+  "Expanded"
+  "扩大"
+}
+{
+  "Find the coordinates of the given address"
+  "找到给定地址的坐标"
+}
+{
+  "First fix time"
+  "首次定位时间"
+}
+{
+  "Fix"
+  "定位"
+}
+{
+  "Fixed"
+  "已定位"
+}
+{
+  "Fixed/All"
+  "用于定位／全部"
+}
+{
+  "Function+"
+  "Function+ "
+}
+{
+  "GLONASS"
+  "格洛纳斯（GLONASS）"
+}
+{
+  "GPS"
+  "全球定位系统（GPS）"
+}
+{
+  "GPS Data needs Location permission to work properly. Please assign privileges to start. "
+  "GPS Data 需要位置权限才能正常工作。请授权以启动。"
+}
+{
+  "GPS Data needs Location permission to work properly. Please assign those rights to app using Settings -&gt; Application privileges menu "
+  "GPS Data 需要位置权限才能正常工作。请通过“设置”→“应用权限”菜单为应用分配这些权限。"
+}
+{
+  "GPS Extra deleting…"
+  "GPS Extra 删除中……"
+}
+{
+  "GPS Extra downloading…"
+  "GPS Extra 下载中……"
+}
+{
+  "GPS is turned off"
+  "GPS已关闭"
+}
+{
+  "Galileo"
+  "伽利略（Galileo）"
+}
+{
+  "Geocode address"
+  "地理代码地址"
+}
+{
+  "Get Google Play services"
+  "获取Google Play服务"
+}
+{
+  "Global"
+  "全球"
+}
+{
+  "Go back"
+  "返回"
+}
+{
+  "Google Play services availability"
+  "Google Play服务可用性"
+}
+{
+  "Google Play services error"
+  "Google Play服务错误"
+}
+{
+  "Hang Up"
+  "挂断电话"
+}
+{
+  "Hello! Thank you for\nchoosing my app"
+  "你好！感谢你选择我的应用程序。"
+}
+{
+  "Hide"
+  "隐藏"
+}
+{
+  "Hour"
+  "小时"
+}
+{
+  "How about supporting my work?"
+  "支持我的工作！"
+}
+{
+  "How to share?"
+  "如何分享？"
+}
+{
+  "Hybrid"
+  "混合"
+}
+{
+  "IRNSS"
+  "印度区域卫星系统（IRNSS）"
+}
+{
+  "If you like this app you can also:"
+  "如果你喜欢这个应用程序，你还可以："
+}
+{
+  "Imperial - feet"
+  "帝制 - 英尺"
+}
+{
+  "Imperial - mph"
+  "帝制 - mph"
+}
+{
+  "In-app payments are not available. Try again later"
+  "应用内支付不可用，请稍后再试"
+}
+{
+  "Incoming call"
+  "来电"
+}
+{
+  "Info"
+  "信息"
+}
+{
+  "Install"
+  "安装"
+}
+{
+  "Internet browser not found"
+  "找不到浏览器"
+}
+{
+  "Invalid format."
+  "格式无效"
+}
+{
+  "Invalid range."
+  "范围无效"
+}
+{
+  "Keep screen on"
+  "保持屏幕常亮"
+}
+{
+  "Latitude"
+  "纬度"
+}
+{
+  "Link copied to clipboard"
+  "链接复制到剪贴板"
+}
+{
+  "List of visible satellites"
+  "可见卫星列表"
+}
+{
+  "Loading"
+  "加载中"
+}
+{
+  "Local"
+  "本地时间"
+}
+{
+  "Longitude"
+  "经度"
+}
+{
+  "MGRS value"
+  "MGRS 值"
+}
+{
+  "Main"
+  "主要"
+}
+{
+  "Make great things happen!"
+  "让好事发生！"
+}
+{
+  "Manage A-GPS Xtra"
+  "管理A-GPS Xtra"
+}
+{
+  "Map"
+  "地图"
+}
+{
+  "Market app not found"
+  "未找到市场应用程序"
+}
+{
+  "Menu+"
+  "Menu+ "
+}
+{
+  "Meta+"
+  "Meta+ "
+}
+{
+  "Metric - kmh"
+  "公制 - kmh"
+}
+{
+  "Metric - m/s"
+  "公制 - m/s"
+}
+{
+  "Metric - meters"
+  "公制 - 米"
+}
+{
+  "Military Grid Reference System (MGRS)"
+  "军事网格参考系统（MGRS）"
+}
+{
+  "Mils"
+  "密位（mils）"
+}
+{
+  "Minute"
+  "分钟"
+}
+{
+  "Minutes (DDD°MM.MMMMM')"
+  "分 (DDD°MM.MMMMM')"
+}
+{
+  "More"
+  "更多"
+}
+{
+  "More options"
+  "更多选项"
+}
+{
+  "More than %1$d new notifications"
+  "超过%1$d个新通知"
+}
+{
+  "Nautical - knots"
+  "航海 - 节"
+}
+{
+  "Navigate home"
+  "回主页"
+}
+{
+  "Navigate to current year %1$d"
+  "导航至当前年份 %1$d"
+}
+{
+  "Navigate to year %1$d"
+  "导航至 %1$d 年"
+}
+{
+  "Navigate up"
+  "返回上级"
+}
+{
+  "New notification"
+  "新通知"
+}
+{
+  "New version of Google Play services needed. It will update itself shortly."
+  "需要新版本的Google Play服务，它将自动更新。"
+}
+{
+  "No"
+  "否"
+}
+{
+  "No fix"
+  "无定位"
+}
+{
+  "No internet connection"
+  "无网络连接"
+}
+{
+  "No visible %s satellites."
+  "没有可见的%s卫星"
+}
+{
+  "No visible satellites."
+  "没有可见的卫星"
+}
+{
+  "Not checked"
+  "未检查"
+}
+{
+  "Not now"
+  "以后再说"
+}
+{
+  "Not set"
+  "未设置"
+}
+{
+  "OFF"
+  "关闭"
+}
+{
+  "OK"
+  "确认"
+}
+{
+  "ON"
+  "开启"
+}
+{
+  "Ongoing call"
+  "正在通话"
+}
+{
+  "Open in browser"
+  "在浏览器中打开"
+}
+{
+  "Open market and rate this app!"
+  "打开市场并评价此应用程序！"
+}
+{
+  "Open on phone"
+  "在手机上打开"
+}
+{
+  "Open settings"
+  "打开设置"
+}
+{
+  "Open speedometer and track your speed live"
+  "打开速度计并显示当前速度"
+}
+{
+  "Orange"
+  "浅橙"
+}
+{
+  "Other"
+  "其他"
+}
+{
+  "Out of range: %1$s"
+  "超出范围：%1$s"
+}
+{
+  "PM"
+  "下午"
+}
+{
+  "Parallel angle"
+  "平行角"
+}
+{
+  "Partially checked"
+  "部分检查"
+}
+{
+  "Please assign those rights to app using Settings -&gt; Application privileges menu"
+  "请通过“设置”→“应用权限”菜单为应用分配这些权限。"
+}
+{
+  "Please rate my app"
+  "请对我的应用程序进行评分"
+}
+{
+  "Point north"
+  "指南针"
+}
+{
+  "Position"
+  "位置"
+}
+{
+  "Position could not be found"
+  "找不到位置"
+}
+{
+  "Position not found"
+  "未找到位置"
+}
+{
+  "Position units"
+  "位置单位"
+}
+{
+  "Position, altitude, distance"
+  "位置、高度、距离"
+}
+{
+  "Privacy"
+  "隐私"
+}
+{
+  "Privacy policy"
+  "隐私政策"
+}
+{
+  "Privacy settings"
+  "隐私设置"
+}
+{
+  "Pro version"
+  "专业版"
+}
+{
+  "Pro: Blue"
+  "天蓝"
+}
+{
+  "Problem with connection."
+  "连接问题。"
+}
+{
+  "Problem with reverse-geocoding"
+  "地理编码转换问题"
+}
+{
+  "Purchase and payment verified"
+  "已验证购买和付款"
+}
+{
+  "QZSS"
+  "准天顶（QZSS）"
+}
+{
+  "Range end"
+  "范围结束"
+}
+{
+  "Range start"
+  "范围开始"
+}
+{
+  "Rate app"
+  "为程序评分"
+}
+{
+  "Refresh your a-gps xtra data"
+  "刷新a-gps xtra数据"
+}
+{
+  "Remove %1$s"
+  "删除%1$s"
+}
+{
+  "Reset to default"
+  "恢复默认"
+}
+{
+  "Retry"
+  "重试"
+}
+{
+  "Reverse geocode position"
+  "转换地理编码位置"
+}
+{
+  "Reverse geocoding results"
+  "转换地理编码结果"
+}
+{
+  "Roadmap"
+  "道路"
+}
+{
+  "SBAS"
+  "星基增强系统（SBAS）"
+}
+{
+  "Satellite"
+  "卫星"
+}
+{
+  "Satellite %1$d details"
+  "卫星%1$d的详细信息"
+}
+{
+  "Satellite world map"
+  "卫星世界地图"
+}
+{
+  "Satellites"
+  "卫星"
+}
+{
+  "Satellites number instead of app title"
+  "在首页顶部显示卫星数量而非应用名称"
+}
+{
+  "Satellites: %1$d/%2$d"
+  "卫星：%1$d/%2$d"
+}
+{
+  "Save"
+  "保存"
+}
+{
+  "Screening an incoming call"
+  "筛选来电"
+}
+{
+  "Search"
+  "搜索"
+}
+{
+  "Search query"
+  "搜索查询"
+}
+{
+  "Search…"
+  "搜索……"
+}
+{
+  "Seconds (DDD°MM'SS.SSSSS'')"
+  "秒 (DDD°MM'SS.SSSSS'')"
+}
+{
+  "See all"
+  "查看全部"
+}
+{
+  "See other apps"
+  "查看其他应用"
+}
+{
+  "Select AM or PM"
+  "选择上午（AM）或下午（PM）"
+}
+{
+  "Select Date"
+  "选择日期"
+}
+{
+  "Select Range"
+  "选择范围"
+}
+{
+  "Select hour"
+  "选择小时"
+}
+{
+  "Select minutes"
+  "选择分钟数"
+}
+{
+  "Select time"
+  "选择时间"
+}
+{
+  "Selected date"
+  "选定日期"
+}
+{
+  "Settings"
+  "设置"
+}
+{
+  "Settings of notification visibility and more"
+  "通知设置等"
+}
+{
+  "Share"
+  "分享"
+}
+{
+  "Share link"
+  "分享链接"
+}
+{
+  "Share position with"
+  "分享位置到……"
+}
+{
+  "Share with"
+  "与分享"
+}
+{
+  "Share with %s"
+  "与%s共享"
+}
+{
+  "Shift+"
+  "Shift+ "
+}
+{
+  "Show circle angles parallel to the screen"
+  "使显示适配屏幕边角弧度"
+}
+{
+  "Show dropdown menu"
+  "显示下拉菜单"
+}
+{
+  "Show my other apps"
+  "显示我的其他应用程序"
+}
+{
+  "Show on map"
+  "在地图上显示"
+}
+{
+  "Show password"
+  "显示密码"
+}
+{
+  "Show satellites number"
+  "显示卫星编号"
+}
+{
+  "Show speedometer"
+  "显示速度计"
+}
+{
+  "Show status bar"
+  "默认显示手机状态栏"
+}
+{
+  "Side Sheet"
+  "侧页"
+}
+{
+  "Sign in"
+  "登录"
+}
+{
+  "Sign in with Google"
+  "使用Google登录"
+}
+{
+  "Signal"
+  "信号"
+}
+{
+  "Signal strength scale"
+  "信号强度等级"
+}
+{
+  "Sky"
+  "天空"
+}
+{
+  "Sky circle and signal strength graph"
+  "天空圆和信号强度图"
+}
+{
+  "Sky view"
+  "天空"
+}
+{
+  "Speed"
+  "速度"
+}
+{
+  "Speed units"
+  "速度单位"
+}
+{
+  "Speedometer"
+  "速度计"
+}
+{
+  "Speedometer, Geocoding, A-GPS…"
+  "车速表、地理编码、A-GPS…"
+}
+{
+  "Start date"
+  "开始日期"
+}
+{
+  "Start date %1$s"
+  "开始日期 %1$s"
+}
+{
+  "Start date selection: %1$s – End date selection: %2$s"
+  "开始日期选择：%1$s - 结束日期选择：%2$s"
+}
+{
+  "Start date – %1$s"
+  "开始日期–%1$s"
+}
+{
+  "Start date – End date"
+  "开始日期-结束日期"
+}
+{
+  "Start pro version"
+  "启动专业版"
+}
+{
+  "Status: Position found"
+  "状态：已找到位置"
+}
+{
+  "Status: Waiting for GPS position"
+  "状态：等待GPS定位"
+}
+{
+  "Strength"
+  "强度"
+}
+{
+  "Strength: %1$d"
+  "强度：%1$d"
+}
+{
+  "Submit query"
+  "提交查询"
+}
+{
+  "Sunrise"
+  "日出"
+}
+{
+  "Sunset"
+  "日落"
+}
+{
+  "Support and buy PRO"
+  "支持并购买PRO"
+}
+{
+  "Switch to Calendar view"
+  "切换到日历视图"
+}
+{
+  "Switch to calendar input mode"
+  "切换到日历输入模式"
+}
+{
+  "Switch to clock mode for the time input."
+  "切换到时钟模式进行时间输入"
+}
+{
+  "Switch to text input mode"
+  "切换到文本输入模式"
+}
+{
+  "Switch to text input mode for the time input."
+  "切换到文本输入模式进行时间输入"
+}
+{
+  "Switch to year view"
+  "切换到年视图"
+}
+{
+  "Switched to Calendar view"
+  "切换到日历视图"
+}
+{
+  "Switched to year view"
+  "切换到年度视图"
+}
+{
+  "Sym+"
+  "Sym+ "
+}
+{
+  "Tab"
+  "选项卡"
+}
+{
+  "Tabs order"
+  "标签顺序"
+}
+{
+  "Teal"
+  "水绿"
+}
+{
+  "Terrain"
+  "地形"
+}
+{
+  "Thank You for buying my app."
+  "感谢您购买我的应用程序。"
+}
+{
+  "Thank You for using my app."
+  "感谢您使用我的应用程序"
+}
+{
+  "Thank You for using this app"
+  "感谢您使用此应用程序"
+}
+{
+  "Thank you"
+  "非常感谢。"
+}
+{
+  "Thank you for your opinion"
+  "谢谢你的意见"
+}
+{
+  "Thank you for your purchase"
+  "感谢您的购买"
+}
+{
+  "Theme"
+  "主题"
+}
+{
+  "Theme, the behavior of the screen and more"
+  "主题与屏幕显示等"
+}
+{
+  "There is connection problem."
+  "存在连接问题。"
+}
+{
+  "This device doesn't have GPS device. Application will now close."
+  "此设备没有GPS设备。应用程序现在将关闭。"
+}
+{
+  "Today %1$s"
+  "今天 %1$s"
+}
+{
+  "Top pick"
+  "首选"
+}
+{
+  "Turn on"
+  "打开"
+}
+{
+  "Type"
+  "类型"
+}
+{
+  "UTC"
+  "协调世界时"
+}
+{
+  "UTM Easting"
+  "UTM 东向坐标"
+}
+{
+  "UTM Northing"
+  "UTM 北向坐标"
+}
+{
+  "UTM Zone"
+  "UTM 投影带"
+}
+{
+  "Units"
+  "单位"
+}
+{
+  "Universal Transverse Mercator (UTM)"
+  "通用横轴墨卡托（UTM）"
+}
+{
+  "Update"
+  "更新"
+}
+{
+  "Update Google Play services"
+  "更新Google Play服务"
+}
+{
+  "Upgrade"
+  "升级"
+}
+{
+  "Upgrade to PRO (ad-free version)"
+  "升级到PRO（无广告版本）"
+}
+{
+  "Use address"
+  "使用地址"
+}
+{
+  "Use compass to rotate sky circle"
+  "使用传感器旋转天空圆，可作为指南针"
+}
+{
+  "Use your position"
+  "应用当前位置到"
+}
+{
+  "Use: %1$s"
+  "使用：%1$s"
+}
+{
+  "Used in fix"
+  "用于定位"
+}
+{
+  "Value"
+  "值"
+}
+{
+  "Video"
+  "视频"
+}
+{
+  "Voice search"
+  "语音搜索"
+}
+{
+  "WAIT"
+  "等待定位"
+}
+{
+  "Waiting for the payment"
+  "等待付款"
+}
+{
+  "WiFi Data"
+  "WiFi数据"
+}
+{
+  "Yes"
+  "是"
+}
+{
+  "You already bought this upgrade"
+  "您已经购买了此升级"
+}
+{
+  "You can support my work buying ad-free GPS Data+"
+  "你可以支持我的工作，购买无广告的GPS Data+"
+}
+{
+  "You have to be connected to the internet"
+  "您必须连接到互联网"
+}
+{
+  "You set the price"
+  "您的价格"
+}
+{
+  "You support my work"
+  "支持我的作品"
+}
+{
+  "Your PRO"
+  "您的PRO"
+}
+{
+  "Your PRO version is active"
+  "已激活PRO版本"
+}
+{
+  "app now available!"
+  "应用程序现在可用！"
+}
+{
+  "circle"
+  "circle "
+}
+{
+  "delete"
+  "删除"
+}
+{
+  "enter"
+  "进入"
+}
+{
+  "none"
+  "无"
+}
+{
+  "privacy"
+  "隐私"
+}
+{
+  "space"
+  "空间"
+}
+{
+  "support"
+  "支持"
+}
+{
+  "☆ Support developer ☆ Ad-free ☆ Speedometer Gauge ☆ New theme ☆ and more…"
+  "☆ 支持开发者\n☆ 无广告\n☆ 车速表仪表\n☆ 新主题\n☆ 以及更多…"
+}
+{
+  "GPS Data needs <b>Location permission</b> to work properly. Please assign privileges to start. "
+  "GPS数据需要<b>位置权限</b>才能正常工作。请授权。"
+}
+{
+  "GPS Data needs <b>Location permission</b> to work properly. Please assign those rights to app using Settings -&gt; Application privileges menu "
+  "GPS数据需要<b>位置权限</b>才能正常工作。请在手机设置中授权 -&gt; 应用程序权限菜单"
+}
+{
+  "Helps GPS module to lock on to a satellite signal. \n\nA-GPS could reduce TTFF (time-to-first-fix), startup period especially where the satellite signal is weak or distorted by surroundings."
+  "帮助GPS模块锁定卫星信号。\n\n辅助全球定位系统（A-GPS）可缩短首次定位时间（TTFF, time-to-first-fix）和启动时间，尤其在卫星信号较弱或受周围环境干扰的情况下。"
+}
+{
+  "Android system on some devices gives possibility to manage and refresh a-gps data manually."
+  "部分设备上的安卓系统支持手动管理和刷新A-GPS数据。"
+}
+{
+  "If your GPS fix time is long. You can refresh a-gps data. This could improve your fix time and signal quality."
+  "如果GPS定位时间过长，可刷新A-GPS数据。这有助于缩短定位时间并提升信号质量。"
+}
+{
+  "1. Firstly"
+  "第1步"
+}
+{
+  "2. Secondly"
+  "第2步"
+}
