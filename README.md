@@ -62,7 +62,7 @@
 
 ## 网络调试
 
-### 5. [Network Scanner](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Network-Scanner)
+### 1. [Network Scanner](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Network-Scanner)
 
 🕒2024.8　┃　⏏️2.7.0<br>
 [https://www.52pojie.cn/thread-1953333-1-1.html](https://www.52pojie.cn/thread-1953333-1-1.html)
@@ -70,7 +70,7 @@
 
 ## 下载传输
 
-### 6. [BitTorrent Pro](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/BitTorrent-Pro)
+### 1. [BitTorrent Pro](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/BitTorrent-Pro)
 
 📣BT种子下载　┃　🕒2024.8　┃　⏏️8.2.5<br>
 [https://www.52pojie.cn/thread-1954802-1-1.html](https://www.52pojie.cn/thread-1954802-1-1.html)
@@ -78,7 +78,7 @@
 
 ## 天气气象
 
-### 7. [meteoblue](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/meteoblue)
+### 1. [meteoblue](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/meteoblue)
 
 📣天气预报、气象图  
 🕒2024.8　┃　⏏️2.7.23<br>
@@ -94,14 +94,14 @@
 
 ## 影视、媒体处理工具
 
-### 8. [Nano Teleprompter](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Nano-Teleprompter)
+### 1. [Nano Teleprompter](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Nano-Teleprompter)
 
 📣提词器　┃　🕒2024.8　┃　⏏️6.2.5<br>
                 ⨠ 🕒2024.8　┃　⏏️7.3.2<br>
 [https://www.52pojie.cn/thread-1956093-1-1.html](https://www.52pojie.cn/thread-1956093-1-1.html)
 <hr>
 
-### 9. [Photo EXIF Editor Pro](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Photo-EXIF-Editor-Pro)
+### 2. [Photo EXIF Editor Pro](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Photo-EXIF-Editor-Pro)
 
 📣图片EXIF信息编辑　┃　🕒2025.1　┃　⏏️2.4.17<br>
 [https://www.52pojie.cn/thread-1999005-1-1.html](https://www.52pojie.cn/thread-1999005-1-1.html)
@@ -109,7 +109,7 @@
 
 ## 音乐
 
-### 10. [Metronome Beats](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Metronome-Beats)
+### 1. [Metronome Beats](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Metronome-Beats)
 
 📣节拍器　┃　🕒2024.10　┃　⏏️6.9.1<br>
 [https://www.52pojie.cn/thread-1969632-1-1.html](https://www.52pojie.cn/thread-1969632-1-1.html)
@@ -119,20 +119,20 @@
 
 ## 生活、其他工具
 
-### 11. [Flightradar24](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Flightradar24)
+### 1. [Flightradar24](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Flightradar24)
 
 📣飞机数据查询　┃　🕒2024.1　┃　⏏️10.2.0<br>
                      ⨠ 🕒2025.1　┃　⏏️10.4.1<br>
 [https://www.52pojie.cn/thread-1979972-1-1.html](https://www.52pojie.cn/thread-1979972-1-1.html)
 <hr>
 
-### 12. [Touch Blocker](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Touch-Blocker)
+### 2. [Touch Blocker](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Touch-Blocker)
 
 📣屏幕锁定、防误触　┃　🕒2024.1　┃　⏏️3.1.4<br> 
 [https://www.52pojie.cn/thread-2001405-1-1.html](https://www.52pojie.cn/thread-2001405-1-1.html)
 <hr>
 
-### 13. [spacedesk](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/spacedesk)
+### 3. [spacedesk](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/spacedesk)
 
 📣电脑投屏　┃　🕒2025.2　┃　⏏️2.1.16<br>
 [https://www.52pojie.cn/thread-2001405-1-1.html](https://www.52pojie.cn/thread-2001405-1-1.html)
@@ -140,7 +140,7 @@
 
 ## 系统美化与个性化设置
 
-### 14. [Muviz Edge](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Muviz-Edge)
+### 1. [Muviz Edge](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Muviz-Edge)
 
 📣息屏显示、边缘动效　┃　🕒2024.10　┃　⏏️2.0.0.0<br>
 [https://www.52pojie.cn/thread-1975355-1-1.html](https://www.52pojie.cn/thread-1975355-1-1.html)
@@ -148,14 +148,14 @@
 
 ## 自然科学工具
 
-### 15. [Algeo Calculator](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Algeo-Calculator)
+### 1. [Algeo Calculator](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Algeo-Calculator)
 
 📣计算器、函数绘图　┃　🕒2024.10　┃　⏏️2.43<br>
                         ⨠ 🕒2025.11　┃　⏏️2.47<br>
 [https://www.52pojie.cn/thread-1971070-1-1.html](https://www.52pojie.cn/thread-1971070-1-1.html)
 <hr>
 
-### 16. [Phyphox](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Phyphox)
+### 2. [Phyphox](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Phyphox)
 
 📣传感器记录、物理实验绘图　┃　🕒2025.8　┃　⏏️1.2.0<br>
 [https://www.52pojie.cn/thread-2050521-1-1.html](https://www.52pojie.cn/thread-2050521-1-1.html)
