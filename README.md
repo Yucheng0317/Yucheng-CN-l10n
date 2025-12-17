@@ -12,11 +12,14 @@
 >
 > ● 🏠我的吾爱破解主页：[https://www.52pojie.cn/?2264572](https://www.52pojie.cn/?2264572)
 ## 🔹更新动态
+- 2025/12/18 新上架【GPS Data】v8.0
 - 2025/11/26 更新【Algeo Calculator】⨠v2.47
 - 2025/10/28 更新【GPS Test Plus】 ：汉化优化、改为Plus版包
-- 2025/08/06 更新【meteoblue】⨠v2.11.13
+
   <details>
   <summary>  📜 查看更早记录 </summary>
+    
+  - 2025/08/06 更新【meteoblue】⨠v2.11.13
     
   - 2025/08/03 新上架【Phyphox】v1.2.0
     
@@ -45,10 +48,16 @@
 [https://www.52pojie.cn/thread-1950390-1-1.html](https://www.52pojie.cn/thread-1950390-1-1.html)
 <hr>
 
-### 4. [Geo Tracker](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/Geo-Tracker---GPS-tracker)
+### 4. [Geo Tracker](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/GPS-tracker)
 
 📣轨迹记录　┃　🕒2025.2　┃　⏏️5.3.7.4194_zh1<br>
 [https://www.52pojie.cn/thread-2007138-1-1.html](https://www.52pojie.cn/thread-2007138-1-1.html)
+<hr>
+
+### 5. [GPS Data](https://github.com/Yucheng0317/Yucheng-CN-l10n/wiki/GPS-Status)（GPS Status）
+
+🕒2025.12　┃　⏏️8.0_zh1<br>
+[https://www.52pojie.cn/thread-2080710-1-1.html](https://www.52pojie.cn/thread-2080710-1-1.html)
 <hr>
 
 ## 网络调试
